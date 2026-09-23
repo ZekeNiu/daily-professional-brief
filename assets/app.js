@@ -11,6 +11,12 @@ async function getJSON(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok
 function sourceLink(item){return item.source?.url||'#'}
 function badge(p){return '<span class="badge '+badgeClass(p)+'"><i class="badge-dot"></i>'+esc(p)+'</span>'}
 function displayDomain(d){return d==='全球重要事件'?'全球事件':d}
+function formatBriefDate(iso){
+ const [y,m,d]=iso.split('-').map(Number);
+ const dt=new Date(Date.UTC(y,m-1,d));
+ const weekdays=['星期日','星期一','星期二','星期三','星期四','星期五','星期六'];
+ return {long:y+'年'+String(m).padStart(2,'0')+'月'+String(d).padStart(2,'0')+'日',weekday:weekdays[dt.getUTCDay()]};
+}
 async function setupHistoryPicker(currentDate){
  const sel=$('#historySelect'); if(!sel)return;
  try{
@@ -24,6 +30,9 @@ async function setupHistoryPicker(currentDate){
 function renderBrief(d){
  document.title='每日专业资讯简报｜'+d.date;
  $('#dateText').textContent=d.date;
+ const fd=formatBriefDate(d.date);
+ if($('#heroDate'))$('#heroDate').textContent=fd.long;
+ if($('#heroWeekday'))$('#heroWeekday').textContent=fd.weekday;
  $('#signalText').textContent=d.summary.signal;
  $('#countTotal').textContent=d.summary.total;
  $('#countSport').textContent=d.summary.counts['运动科学']||0;
@@ -72,7 +81,16 @@ function bindBriefInteractions(){
 }
 function renderArchive(items){
  const box=$('#archiveGrid');if(!items.length){box.innerHTML='<div class="empty panel">还没有历史简报。</div>';return}
- box.innerHTML=items.map(x=>'<a class="archive-card" href="'+root+'/briefs/'+esc(x.date)+'/"><div class="date">'+esc(x.date)+'</div><h3>'+esc(x.title||'每日专业资讯简报')+'</h3><p>'+esc(x.signal)+'</p><div class="archive-meta"><span>'+esc(x.total)+' 条</span><span>运动科学 '+esc(x.counts?.['运动科学']||0)+'</span><span>运动健康 '+esc(x.counts?.['运动健康']||0)+'</span><span>AI '+esc(x.counts?.['AI']||0)+'</span></div></a>').join('');
+ const latest=items[0]?.date;
+ const sel=$('#archiveDateSelect');
+ if(sel){
+   sel.innerHTML='<option value="">选择日期…</option>'+items.map(x=>'<option value="'+esc(x.date)+'">'+esc(x.date)+(x.date===latest?' · 最新':'')+'</option>').join('');
+   sel.onchange=()=>{if(sel.value)location.href=root+'/briefs/'+sel.value+'/'};
+ }
+ box.innerHTML=items.map(x=>{
+   const highlights=(x.highlights||[]).slice(0,3).map(h=>'<li>'+esc(h)+'</li>').join('');
+   return '<a class="archive-card" href="'+root+'/briefs/'+esc(x.date)+'/"><div class="archive-card-top"><div class="date">'+esc(x.date)+'</div>'+(x.date===latest?'<span class="latest-tag">最新</span>':'')+'</div><h3>'+esc(x.summary_title||x.title||'每日专业资讯简报')+'</h3><p>'+esc(x.signal)+'</p>'+(highlights?'<ul class="archive-highlights">'+highlights+'</ul>':'')+'<div class="archive-meta"><span>'+esc(x.total)+' 条</span><span>运动科学 '+esc(x.counts?.['运动科学']||0)+'</span><span>运动健康 '+esc(x.counts?.['运动健康']||0)+'</span><span>AI '+esc(x.counts?.['AI']||0)+'</span></div></a>';
+ }).join('');
 }
 async function init(){
  try{
