@@ -10,6 +10,17 @@ $('#themeToggle')?.addEventListener('click',()=>{const n=document.documentElemen
 async function getJSON(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}
 function sourceLink(item){return item.source?.url||'#'}
 function badge(p){return '<span class="badge '+badgeClass(p)+'"><i class="badge-dot"></i>'+esc(p)+'</span>'}
+function displayDomain(d){return d==='全球重要事件'?'全球事件':d}
+async function setupHistoryPicker(currentDate){
+ const sel=$('#historySelect'); if(!sel)return;
+ try{
+   const items=await getJSON(root+'/data/archive.json');
+   const latest=items[0]?.date;
+   sel.innerHTML=items.map(x=>'<option value="'+esc(x.date)+'">'+esc(x.date)+(x.date===latest?' · 最新':'')+'</option>').join('');
+   sel.value=currentDate;
+   sel.onchange=()=>{if(sel.value)location.href=root+'/briefs/'+sel.value+'/'};
+ }catch(e){sel.innerHTML='<option>'+esc(currentDate)+'</option>';sel.disabled=true}
+}
 function renderBrief(d){
  document.title='每日专业资讯简报｜'+d.date;
  $('#dateText').textContent=d.date;
@@ -21,8 +32,9 @@ function renderBrief(d){
  const prev=$('#prevDate'),next=$('#nextDate');
  if(d.navigation?.prev){prev.href=root+'/briefs/'+d.navigation.prev+'/';prev.classList.remove('disabled');prev.textContent='← '+d.navigation.prev}else prev.classList.add('disabled');
  if(d.navigation?.next){next.href=root+'/briefs/'+d.navigation.next+'/';next.classList.remove('disabled');next.textContent=d.navigation.next+' →'}else next.classList.add('disabled');
+ setupHistoryPicker(d.date);
  const rows=$('#summaryRows'),mobile=$('#mobileRows');
- rows.innerHTML=d.items.map(x=>'<tr data-domain="'+esc(x.domain)+'" data-search="'+esc((x.title+' '+x.one_liner+' '+x.practice+' '+x.evidence).toLowerCase())+'"><td>'+badge(x.priority)+'</td><td>'+esc(x.domain)+'</td><td><b>'+esc(x.short_title||x.title)+'</b></td><td>'+esc(x.one_liner)+'</td><td>'+esc(x.practice)+'</td><td>'+esc(x.evidence)+'</td></tr>').join('');
+ rows.innerHTML=d.items.map(x=>'<tr data-domain="'+esc(x.domain)+'" data-search="'+esc((x.title+' '+x.one_liner+' '+x.practice+' '+x.evidence).toLowerCase())+'"><td>'+badge(x.priority)+'</td><td>'+esc(displayDomain(x.domain))+'</td><td><b>'+esc(x.short_title||x.title)+'</b></td><td>'+esc(x.one_liner)+'</td><td>'+esc(x.practice)+'</td><td>'+esc(x.evidence)+'</td></tr>').join('');
  mobile.innerHTML=d.items.map(x=>'<div class="mobile-row" data-domain="'+esc(x.domain)+'" data-search="'+esc((x.title+' '+x.one_liner+' '+x.practice+' '+x.evidence).toLowerCase())+'">'+badge(x.priority)+'<div class="mini">'+esc(x.domain)+' · '+esc(x.evidence)+'</div><b>'+esc(x.short_title||x.title)+'</b><div class="mini">'+esc(x.one_liner)+'</div></div>').join('');
  const defs=[
   ['sport','运动科学','01',d.section_notes?.['运动科学']],
