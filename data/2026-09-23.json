@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "date": "2026-09-23",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 2,
+      "AI": 3,
+      "全球重要事件": 1
+    },
+    "signal": "真正决定专业价值的，不只是“能测、能算、能执行”，而是结果是否经得起验证、是否值得据此做决策。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "训练方法与监控模型的核心问题，正在从“指标是否显著”转向“能否支持真实决策”。",
+    "运动健康": "单指标筛查与单一影像结果，都不应替代综合临床与功能判断。",
+    "AI": "模型竞争正从单次能力扩展到长期 Agent 的成本、稳定性和边界控制。",
+    "全球重要事件": "只保留足够重要且已有可靠来源确认的事件，不用一般新闻热度补位。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "Cluster / Rest Redistribution",
+      "title": "Cluster 与 Rest Redistribution：都能更好维持动作速度，但 Cluster 并未证明明显更优",
+      "one_liner": "替代组结构更能维持动作速度，但 Cluster 未证明明显优于 RR。",
+      "practice": "追求速度/功率质量时，intraRR 具有较高执行价值。",
+      "evidence": "系统综述 + Bayesian NMA",
+      "confidence": "高（急性速度保持）；中低（长期适应优势）",
+      "what": "9 月 22 日发表的系统综述与 Bayesian 网络 Meta 分析纳入 37 项研究。与传统连续组相比，Cluster、intra-set rest redistribution 和 inter-set rest redistribution 均更能维持平均动作速度；Cluster 与 intraRR 对峰值速度也更有利。不同替代组结构之间并没有清晰证据显示存在具有实践意义的差异。",
+      "why": "如果只看 SUCRA 排名，Cluster 很容易被误读成“最佳组结构”。更重要的结论是：不同替代组结构都能降低组内疲劳、维持高质量输出。",
+      "limit": "主要回答急性速度保持，不能直接推出长期力量、功率或肌肥大适应更优；女性样本明显不足。",
+      "source": {
+        "title": "The Effectiveness of Cluster vs. Rest-Redistribution Set Configurations to Maintain Movement Velocity During Resistance Training",
+        "url": "https://link.springer.com/article/10.1186/s40798-026-01106-w"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "等长训练与跳跃",
+      "title": "等长力量提高，不等于跳跃表现一定提高",
+      "one_liner": "提高等长力量不代表一定提高 CMJ/SJ/DJ。",
+      "practice": "不要把测试相关性当成训练因果。",
+      "evidence": "系统综述",
+      "confidence": "中",
+      "what": "9 月 22 日发表的系统综述纳入 26 项研究、974 人，但真正研究长期等长训练的只有 4 项、61 人。最清楚的长期比较显示，6 周等长训练与传统力量训练之间，CMJ 高度没有显著 group × time 差异。",
+      "why": "IMTP/ISQT 与 CMJ 相关，不等于提高 IMTP/ISQT 就一定会提高 CMJ；测试相关性、急性 PAPE 与长期训练效应必须分开解释。",
+      "limit": "长期干预研究数量少、样本小，因此目前不能证明等长训练在跳跃提升上普遍优于其他阻力训练方式。",
+      "source": {
+        "title": "Isometric training, conditioning and testing in relation to jump performance: a systematic review",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02079-9"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "伤病预测 ML",
+      "title": "伤病预测模型：ROC-AUC 0.756 仍可能完全不适合实际部署",
+      "one_liner": "ROC-AUC≈0.76 仍可伴随大量误报。",
+      "practice": "伤病模型必须看 PPV、PR-AUC、校准和误报负担。",
+      "evidence": "同行评议方法学研究",
+      "confidence": "高（方法学警示）；低（真实伤病预测效力）",
+      "what": "SoccerMon 纵向数据的时间外测试中，Logistic Regression 的 ROC-AUC 为 0.7558、PR-AUC 为 0.0210。使用训练得到的 top-5% operating point 时，模型识别 12 次伤病中的 9 次，但产生 1470 个 false-alert player-days、640 个 false-alert episodes，22.16% 的运动员周至少出现一次误报。",
+      "why": "它直观说明：低发生率事件中，模型具有不错的 discrimination，并不代表它具有可接受的 precision 或部署价值。",
+      "limit": "真实伤病测试集仅 50 名运动员、12 次伤病事件；作者明确将其定位为方法学评价，而不是可部署预测系统。",
+      "source": {
+        "title": "Leakage-conscious machine learning for supplied injury-risk label classification and longitudinal injury forecasting",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02109-6"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "女足等速力量筛查",
+      "title": "女子足球：季前等速力量测试的独立伤病预测价值有限",
+      "one_liner": "季前等速力量对未来非接触损伤的独立预测价值有限。",
+      "practice": "更适合作为能力画像，而不是单独的伤病风险筛查。",
+      "evidence": "5 年前瞻性队列（Level II）",
+      "confidence": "中—高",
+      "what": "一项持续 5 年的前瞻性研究纳入 271 名职业及精英青少年女子足球运动员，记录 70 次非接触性下肢损伤，其中包括 11 次 ACL 损伤。较低 conventional H/Q ratio 与总体伤病及肌肉损伤存在一定关联，但整体独立预测能力有限。",
+      "why": "一个力量变量与损伤有关，不代表它能准确区分谁会受伤、谁不会受伤。",
+      "limit": "队列研究说明关联而非因果，也不能据此建立通用 H/Q 风险阈值。",
+      "source": {
+        "title": "Limited predictive value of preseason isokinetic strength testing for noncontact lower extremity injuries in elite female football players",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42762159/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "腘绳肌 RTP 影像",
+      "title": "腘绳肌 RTP：MRI 仍异常，不代表运动员没有准备好",
+      "one_liner": "MRI 残余异常不等于不能 RTP。",
+      "practice": "影像应修正决策，而不是单独决定 RTP。",
+      "evidence": "同行评议 Mini Review",
+      "confidence": "中",
+      "what": "近期 Mini Review 指出，运动员达到临床恢复或 RTP 时，MRI 上仍常见水肿样信号、纤维化和肌内肌腱异常。这些残余表现本身不能证明 RTP 不安全。",
+      "why": "影像正常与功能恢复不是同义词，影像异常也不能单独否定功能准备度。",
+      "limit": "证据主要来自小样本和部分重叠队列，对完整近端肌腱撕脱和术后病例外推有限。",
+      "source": {
+        "title": "Residual imaging abnormalities after acute hamstring strain injury: implications for return-to-sport decision-making",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1924906/full"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "GPT-6 Sol / Luna",
+      "title": "GPT-6 Sol / Luna：前沿能力继续下沉到更低成本层",
+      "one_liner": "GPT-6 Sol 与 Luna 的 API 价格分别低至 $2/$10 与 $0.10/$0.50（输入/输出，每百万 tokens）。",
+      "practice": "长链 Agent、批量科研和报告自动化更具经济性。",
+      "evidence": "OpenAI 官方",
+      "confidence": "高（价格/可用性）；中（真实工作流成本优势）",
+      "what": "OpenAI 于 9 月 22 日发布 GPT-6 Sol 与 GPT-6 Luna。官方 API 文档给出的标准价格分别为 Sol：$2 输入、$0.20 cached input、$10 输出；Luna：$0.10 输入、$0.01 cached input、$0.50 输出（每百万 tokens）。",
+      "why": "复杂专业工作流的成本来自长上下文、多轮推理、工具调用、验证和返工。中高能力模型降价会改变很多任务是否值得自动化。",
+      "limit": "Token 单价下降不代表同一任务总成本按相同比例下降；仍取决于 token 使用、工具调用、reasoning 和人工审核。",
+      "source": {
+        "title": "OpenAI API — GPT-6 Sol / GPT-6 Luna",
+        "url": "https://developers.openai.com/api/docs/models/gpt-6-sol"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Prompt Caching",
+      "title": "Prompt Caching：上下文复用开始成为 Agent 基础设施",
+      "one_liner": "缓存复用可显著降低重复上下文的成本与延迟。",
+      "practice": "Agent 成本不能只看 token 标价，还要看上下文复用和 cache hit rate。",
+      "evidence": "OpenAI 官方文档",
+      "confidence": "高",
+      "what": "OpenAI 的 Prompt Caching 文档显示，受支持模型会自动复用相同 prompt prefix；缓存输入可获得最高约 90% 的折扣，并提供 Dashboard 和诊断工具来分析 cache hits / misses。",
+      "why": "持续型 Agent 会反复携带 system instructions、tool schemas、项目规则和长文档背景。缓存命中率直接影响延迟和成本。",
+      "limit": "缓存优化主要解决重复上下文计算成本，不能解决模型错误、数据质量或权限问题。",
+      "source": {
+        "title": "OpenAI API — Prompt caching",
+        "url": "https://developers.openai.com/api/docs/guides/prompt-caching"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Claude Opus 5.5",
+      "title": "Claude Opus 5.5：长任务能力、安全边界和成本进入同一评价框架",
+      "one_liner": "Anthropic 同时强调长任务表现、运行成本与外部安全评估。",
+      "practice": "Agent 竞争越来越看重长期执行质量与边界控制。",
+      "evidence": "Anthropic 官方 + 外部评估披露",
+      "confidence": "高（产品事实）；中（安全提升幅度外推）",
+      "what": "Anthropic 9 月 22 日发布 Claude Opus 5.5，并表示典型任务运行成本较 Opus 5 低约 40%，同时由 Frontier Design、METR 等外部评估机构参与发布前测试。",
+      "why": "Agent 的安全问题正在从“会不会回答危险问题”转向“长时间执行时是否知道什么时候停止、是否会越权”。",
+      "limit": "厂商公布的具体安全改进幅度来自其自身评价体系，不能直接视为跨环境通用安全概率。",
+      "source": {
+        "title": "Claude Opus 5.5",
+        "url": "https://www.anthropic.com/claude-opus-5-5"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "全球重要事件",
+      "short_title": "中美元首会晤",
+      "title": "习近平 9 月 23–25 日对美国进行国事访问",
+      "one_liner": "中国外交部确认习近平于 9 月 23–25 日访美。",
+      "practice": "贸易、AI、台湾等议题值得跟踪会谈后的实际政策结果。",
+      "evidence": "中国外交部 + Reuters",
+      "confidence": "高（访问安排）；未知（政策结果）",
+      "what": "中国外交部确认，习近平应美国总统特朗普邀请，于 9 月 23–25 日对美国进行国事访问。Reuters 报道显示，贸易、AI、台湾等议题处于会晤背景之中。",
+      "why": "这是当前全球重要双边外交事件之一，但真正值得关注的是会谈后的可验证政策结果。",
+      "limit": "当前可以确认访问与公开议题，不能提前判断协议、政策让步或双边关系走向。",
+      "source": {
+        "title": "Xi Jinping to Pay a State Visit to the United States",
+        "url": "https://www.mfa.gov.cn/eng/xw/wsrc/202609/t20260921_12027514.html"
+      }
+    }
+  ],
+  "professional_judgment": "今天最值得带走的不是某一个数字，而是一条共同的方法学原则：“可测量、有统计关联、模型分数不错”与“可以用于决策”之间，是三件不同的事情。训练科学要区分急性表现与长期适应；运动医学要区分风险关联与个体预测；AI 要区分模型能力、成本优势和系统可靠性。"
+}
