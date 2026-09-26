@@ -16,13 +16,13 @@
 
   const clamp = (value, low, high) => Math.max(low, Math.min(high, value));
   const colors = [
-    [171, 239, 213], [99, 212, 200], [85, 178, 225],
-    [126, 145, 229], [193, 170, 235]
+    [80, 221, 171], [33, 198, 195], [47, 155, 228],
+    [94, 119, 229], [182, 120, 229]
   ];
 
   function createField() {
     const screenWidth = innerWidth, screenHeight = innerHeight;
-    cellSize = Math.max(9, Math.sqrt(screenWidth * screenHeight / 15000));
+    cellSize = Math.max(12, Math.sqrt(screenWidth * screenHeight / 5000));
     width = Math.ceil(screenWidth / cellSize);
     height = Math.ceil(screenHeight / cellSize);
     count = width * height;
@@ -40,12 +40,13 @@
     for (let y = 0; y < height; y++) {
       for (let x = 0; x < width; x++) {
         const u = x / width, v = y / height;
-        const folds = .17 * Math.sin(v * 10.4 + 1.3 * Math.sin(u * 7.8))
-          + .085 * Math.sin(u * 13.7 - v * 7.4)
-          + .045 * Math.cos(v * 20 - u * 12);
-        const position = clamp(.06 + .77 * u + .13 * v + folds, 0, .999) * (colors.length - 1);
+        const folds = .24 * Math.sin(v * 15.2 + 1.6 * Math.sin(u * 8.8))
+          + .11 * Math.sin(u * 14.7 - v * 9.4)
+          + .06 * Math.cos(v * 25 - u * 15);
+        const position = clamp(.08 + .74 * u + .10 * v + folds, 0, .999) * (colors.length - 1);
         const left = Math.floor(position), mix = position - left;
-        const haze = .14 + .17 * (.5 + .5 * Math.sin(u * 8.4 + v * 12));
+        const vein = Math.abs(Math.sin(v * 18.1 - u * 8.7 + Math.sin(u * 11.4) * 1.3));
+        const haze = .05 + .39 * (1 - vein) ** 6;
         const at = (y * width + x) * 3;
         for (let channel = 0; channel < 3; channel++) {
           const pigment = colors[left][channel] * (1 - mix) + colors[left + 1][channel] * mix;
@@ -55,16 +56,6 @@
     }
     target = null; stir = null; flowX = 0; flowY = 0;
     render();
-  }
-
-  function sample(field, x, y, channels, channel = 0) {
-    x = clamp(x, 0, width - 1.001);
-    y = clamp(y, 0, height - 1.001);
-    const x0 = Math.floor(x), y0 = Math.floor(y);
-    const a = x - x0, b = y - y0;
-    const i = (y0 * width + x0) * channels + channel;
-    return (field[i] * (1 - a) + field[i + channels] * a) * (1 - b)
-      + (field[i + width * channels] * (1 - a) + field[i + (width + 1) * channels] * a) * b;
   }
 
   function stirPaint() {
@@ -80,8 +71,8 @@
     const radius = Math.min(width, height) * .30;
     const steps = Math.min(10, Math.max(1, Math.ceil(length / (radius * .22))));
     const spin = (dx + dy * .55 >= 0 ? 1 : -1) * Math.min(.075, length * .014);
-    flowX = clamp(flowX + dx * .013, -.33, .33);
-    flowY = clamp(flowY + dy * .013, -.33, .33);
+    flowX = clamp(flowX + dx * .02, -.55, .55);
+    flowY = clamp(flowY + dy * .02, -.55, .55);
 
     for (let step = 1; step <= steps; step++) {
       const mx = fromX + rawX * step / steps;
@@ -113,12 +104,20 @@
     for (let y = 0; y < height; y++) {
       for (let x = 0; x < width; x++) {
         const i = y * width + x;
-        const sx = x - vx[i] * dt, sy = y - vy[i] * dt;
+        const sx = clamp(x - vx[i] * dt, 0, width - 1.001);
+        const sy = clamp(y - vy[i] * dt, 0, height - 1.001);
+        const x0 = Math.floor(sx), y0 = Math.floor(sy);
+        const a = sx - x0, b = sy - y0;
+        const j = y0 * width + x0;
+        const wa = (1 - a) * (1 - b), wb = a * (1 - b);
+        const wc = (1 - a) * b, wd = a * b;
         const u = x / width, v = y / height;
         const ambientX = .016 * Math.sin(v * 9 + time * .00019);
         const ambientY = .014 * Math.cos(u * 10 - time * .00017);
-        nextVx[i] = sample(vx, sx, sy, 1) * damping + ambientX + flowX * .025;
-        nextVy[i] = sample(vy, sx, sy, 1) * damping + ambientY + flowY * .025;
+        nextVx[i] = (vx[j] * wa + vx[j + 1] * wb + vx[j + width] * wc + vx[j + width + 1] * wd) * damping
+          + ambientX + flowX * (.06 + .05 * Math.sin(v * 5 + u * 4));
+        nextVy[i] = (vy[j] * wa + vy[j + 1] * wb + vy[j + width] * wc + vy[j + width + 1] * wd) * damping
+          + ambientY + flowY * (.06 + .05 * Math.cos(u * 5 - v * 4));
       }
     }
     [vx, nextVx] = [nextVx, vx];
@@ -132,7 +131,7 @@
         divergence[i] = (vx[i + 1] - vx[i - 1] + vy[i + width] - vy[i - width]) * .5;
       }
     }
-    for (let iteration = 0; iteration < 7; iteration++) {
+    for (let iteration = 0; iteration < 4; iteration++) {
       for (let y = 1; y < height - 1; y++) {
         for (let x = 1; x < width - 1; x++) {
           const i = y * width + x;
@@ -154,9 +153,17 @@
     for (let y = 0; y < height; y++) {
       for (let x = 0; x < width; x++) {
         const i = y * width + x, at = i * 3;
-        const sx = x - vx[i] * dt, sy = y - vy[i] * dt;
+        const sx = clamp(x - vx[i] * dt, 0, width - 1.001);
+        const sy = clamp(y - vy[i] * dt, 0, height - 1.001);
+        const x0 = Math.floor(sx), y0 = Math.floor(sy);
+        const a = sx - x0, b = sy - y0;
+        const j = (y0 * width + x0) * 3;
+        const wa = (1 - a) * (1 - b), wb = a * (1 - b);
+        const wc = (1 - a) * b, wd = a * b;
         for (let channel = 0; channel < 3; channel++) {
-          nextDye[at + channel] = sample(dye, sx, sy, 3, channel) * (1 - recovery)
+          const pigment = dye[j + channel] * wa + dye[j + channel + 3] * wb
+            + dye[j + channel + width * 3] * wc + dye[j + channel + (width + 1) * 3] * wd;
+          nextDye[at + channel] = pigment * (1 - recovery)
             + original[at + channel] * recovery;
         }
       }
@@ -178,8 +185,8 @@
 
   function tick(time) {
     frame = requestAnimationFrame(tick);
-    if (time - lastFrame < 32) return;
-    const dt = lastFrame ? clamp((time - lastFrame) / 33, .5, 1.45) : 1;
+    if (time - lastFrame < 45) return;
+    const dt = lastFrame ? clamp((time - lastFrame) / 48, .5, 1.5) : 1;
     lastFrame = time;
     advance(dt, time);
     render();
