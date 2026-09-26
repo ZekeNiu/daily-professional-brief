@@ -45,13 +45,10 @@
     for (let y = 0; y < height; y++) {
       for (let x = 0; x < width; x++) {
         const u = x / width, v = y / height;
-        const folds = .23 * Math.sin(v * 27.2 + 1.9 * Math.sin(u * 8.8))
-          + .10 * Math.sin(u * 15.7 - v * 18.4)
-          + .04 * Math.cos(v * 39 - u * 15);
-        const position = clamp(.08 + .74 * u + .10 * v + folds, 0, .999) * (colors.length - 1);
+        const sweep = .024 * Math.sin(u * 3.6 + v * 2.2);
+        const position = clamp(.07 + .80 * u + .08 * v + sweep, 0, .999) * (colors.length - 1);
         const left = Math.floor(position), mix = position - left;
-        const vein = .5 + .5 * Math.cos(v * 28.1 - u * 9.7 + Math.sin(u * 11.4) * 1.4);
-        const haze = .10 + .23 * vein ** 5;
+        const haze = .11 + .035 * Math.sin(u * 3.2 - v * 2.5);
         const i = y * width + x, at = i * 3;
         mapX[i] = x; mapY[i] = y;
         for (let channel = 0; channel < 3; channel++) {
@@ -99,10 +96,10 @@
           vx[i] += (dx * .40 - oy * spin) * weight;
           vy[i] += (dy * .40 + ox * spin) * weight;
           const across = (ox * normalX + oy * normalY) / radius;
-          const ribbonA = Math.exp(-(((across - .23) / .08) ** 2));
-          const ribbonB = Math.exp(-(((across + .16) / .07) ** 2));
-          inkA[i] = Math.min(.50, inkA[i] + ribbonA * weight * .63);
-          inkB[i] = Math.min(.50, inkB[i] + ribbonB * weight * .58);
+          const ribbonA = Math.exp(-(((across - .23) / .15) ** 2));
+          const ribbonB = Math.exp(-(((across + .16) / .14) ** 2));
+          inkA[i] = Math.min(.24, inkA[i] + ribbonA * weight * .35);
+          inkB[i] = Math.min(.22, inkB[i] + ribbonB * weight * .32);
         }
       }
     }
