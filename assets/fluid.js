@@ -40,13 +40,13 @@
     for (let y = 0; y < height; y++) {
       for (let x = 0; x < width; x++) {
         const u = x / width, v = y / height;
-        const folds = .24 * Math.sin(v * 15.2 + 1.6 * Math.sin(u * 8.8))
-          + .11 * Math.sin(u * 14.7 - v * 9.4)
-          + .06 * Math.cos(v * 25 - u * 15);
+        const folds = .23 * Math.sin(v * 27.2 + 1.9 * Math.sin(u * 8.8))
+          + .10 * Math.sin(u * 15.7 - v * 18.4)
+          + .04 * Math.cos(v * 39 - u * 15);
         const position = clamp(.08 + .74 * u + .10 * v + folds, 0, .999) * (colors.length - 1);
         const left = Math.floor(position), mix = position - left;
-        const vein = Math.abs(Math.sin(v * 18.1 - u * 8.7 + Math.sin(u * 11.4) * 1.3));
-        const haze = .05 + .39 * (1 - vein) ** 6;
+        const vein = .5 + .5 * Math.cos(v * 28.1 - u * 9.7 + Math.sin(u * 11.4) * 1.4);
+        const haze = .06 + .30 * vein ** 8;
         const at = (y * width + x) * 3;
         for (let channel = 0; channel < 3; channel++) {
           const pigment = colors[left][channel] * (1 - mix) + colors[left + 1][channel] * mix;
@@ -71,6 +71,8 @@
     const radius = Math.min(width, height) * .30;
     const steps = Math.min(10, Math.max(1, Math.ceil(length / (radius * .22))));
     const spin = (dx + dy * .55 >= 0 ? 1 : -1) * Math.min(.075, length * .014);
+    const directionLength = Math.hypot(dx, dy) || 1;
+    const normalX = -dy / directionLength, normalY = dx / directionLength;
     flowX = clamp(flowX + dx * .02, -.55, .55);
     flowY = clamp(flowY + dy * .02, -.55, .55);
 
@@ -90,6 +92,16 @@
           const i = y * width + x;
           vx[i] += (dx * .40 - oy * spin) * weight;
           vy[i] += (dy * .40 + ox * spin) * weight;
+          const across = (ox * normalX + oy * normalY) / radius;
+          const ribbonA = Math.exp(-(((across - .23) / .08) ** 2));
+          const ribbonB = Math.exp(-(((across + .16) / .07) ** 2));
+          const inkA = Math.min(.11, ribbonA * weight * .43);
+          const inkB = Math.min(.09, ribbonB * weight * .39);
+          const at = i * 3;
+          for (let channel = 0; channel < 3; channel++) {
+            dye[at + channel] = dye[at + channel] * (1 - inkA - inkB)
+              + colors[1][channel] * inkA + colors[3][channel] * inkB;
+          }
         }
       }
     }
