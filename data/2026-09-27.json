@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "date": "2026-09-27",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 8,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 3,
+      "AI": 3,
+      "全球重要事件": 0
+    },
+    "signal": "今天的共同信号是“不要把群体关联直接变成个体决策”：训练负荷、热身与脑震荡康复都需要结合目标和个体轨迹；Agent 进入真实系统后，责任、权限和持续审计则必须由组织与系统承担。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：热身和训练负荷监控都在向“情境化、个体化”推进，但 Delphi 共识与单队列关联研究都不能直接给出通用处方阈值。",
+    "运动健康": "本板块重点：恢复不只是组织结构变化；心理因素、训练连续性与运动环境同样会改变症状、功能与重返运动过程。",
+    "AI": "本板块重点：Agent 的能力升级正在同步推动两类变化——滥用更自动化，模型部署责任开始被监管者明确指向开发者和部署方。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "运动员热身国际共识",
+      "title": "23 名专家形成首个运动员热身国际共识：完整结构与专项适配比固定动作清单更重要",
+      "one_liner": "三轮 Delphi 对 122 条陈述中的 72 条达成至少 80% 共识，支持一般阶段、专项阶段与 conditioning activities 的情境化组合。",
+      "practice": "热身应围绕随后任务的温度、代谢、神经与心理准备来设计；动态活动通常优先，但时长、强度与内容应由项目、环境和训练目标决定。",
+      "evidence": "国际专家 Delphi 共识；23 名专家/高水平教练，12 个国家",
+      "confidence": "中（共识框架）；低—中（具体伤病预防效应）",
+      "what": "International Journal of Sports Physiology and Performance 发表 International Expert Consensus on Warm-Up Protocols for Athletes。研究以三轮 Delphi 评估 122 条陈述，最终 72 条达到至少 80% 同意。共识强调热身通常包含一般阶段、专项阶段和 conditioning activities，并应同时考虑体温、代谢及身心准备。",
+      "why": "它把热身从固定的慢跑、拉伸和激活动作清单，重新定义为服务于随后训练或比赛任务的可编程过程。对不同项目、环境与训练阶段，所谓“完整”不等于动作越多，而是关键准备目标没有缺失。",
+      "limit": "Delphi 反映的是专家对现有证据与实践的整合，不等于每条陈述都由高质量随机试验支持。专家没有一致认定热身本身可立即降低伤病风险；包含力量、平衡等预防练习可能有长期收益，但这些练习放在热身还是训练其他部分并非关键。",
+      "source": {
+        "title": "International Expert Consensus on Warm-Up Protocols for Athletes: A Delphi Study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42476526/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "女足训练负荷与次日状态",
+      "title": "精英女足赛季队列：前一日高于个体常态的负荷与次日恢复、主观状态和最大速度下降相关",
+      "one_liner": "GPS、智能戒指和每日问卷显示，前一日总跑量及高速跑量相对个人常态偏高时，次日多项状态指标趋于变差。",
+      "practice": "赛前负荷管理应使用运动员自身基线并同时看表现、主观状态和睡眠；但建设期的短期次日下降不应自动判为“训练错误”。",
+      "evidence": "同行评议前瞻性队列；单支精英大学女子足球队",
+      "confidence": "中",
+      "what": "研究跨一个赛季连续记录精英大学女足球员的 GPS 总距离与高速跑距离、智能戒指夜间恢复、每日 wellness 问卷及次日最大速度。多个监控维度均显示：当前一日训练负荷明显高于运动员自身常态时，次日恢复、wellness 和速度表现平均更差。校方新闻稿举例称，每增加 100 m 高速跑，次日最大速度约下降 1 km/h。",
+      "why": "研究采用 athlete-relative load，而不是只用全队统一阈值，并把外部负荷、睡眠、主观状态和实际速度联系起来，接近日常决策支持需要的多源监控。",
+      "limit": "这是单队观察性研究，不能证明降低负荷一定改善次日表现，也不能把“100 m 对应 1 km/h”外推到其他队伍。负荷与次日状态还可能共同受比赛日程、位置、伤病、月经周期和教练安排影响；短期疲劳也可能是计划适应的一部分。",
+      "source": {
+        "title": "Influence of Training Load on Recovery, Wellness, and Performance in Elite Soccer Athletes",
+        "url": "https://doi.org/10.1123/ijspp.2026-0076"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "轻型脑损伤恢复轨迹",
+      "title": "轻型创伤性脑损伤门诊队列：痛苦、灾难化与恐惧回避可解释部分恢复速度和波动",
+      "one_liner": "110 名成人随访 6 个月，较高 distress、catastrophising 和 fear avoidance 分别与症状或功能恢复较慢、波动更大相关。",
+      "practice": "持续症状管理应在基线评估中加入经过验证的心理量表，并把恢复波动正常化；这不是把症状归因成“纯心理问题”。",
+      "evidence": "同行评议纵向观察研究；n=110，门诊转诊人群",
+      "confidence": "中",
+      "what": "研究纳入 110 名转诊至门诊脑震荡服务的成人，基线平均在伤后 6.5 周，此后每月评估至 6 个月。模型对症状改善的解释度 R²=0.22、对功能障碍改善为 R²=0.37。调整基线严重程度后，更高 distress 与功能恢复更慢相关；较高 catastrophising 预测症状改善较少；fear avoidance 与功能结局波动更大相关。",
+      "why": "它提醒临床与运动康复团队，恢复轨迹并非只由初始症状或影像决定。可改变的认知与情绪因素可能影响活动恢复、症状解释和康复参与度。",
+      "limit": "样本是已被转诊的成人门诊人群，不能直接代表急性运动性脑震荡或青少年运动员。观察性关联不能确定因果方向；心理因素可能既是恢复障碍，也可能是持续症状的结果。",
+      "source": {
+        "title": "Factors associated with variability in recovery after mild traumatic brain injury among adults referred to outpatient concussion clinics",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42732996/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "高强度孕期运动证据",
+      "title": "孕期高强度训练证据正在扩展，但“未见短期异常”仍不足以建立通用安全上限",
+      "one_liner": "近期专业会议与综述重新汇集重力量、HIIT、长时耐力和攀岩研究；现有结果总体比旧式限制更宽松，但多为小样本生理试验或自选样本调查。",
+      "practice": "对训练基础良好、无禁忌证的运动员，不应机械套用过时心率上限；应依据产科风险、原有训练史、症状和项目特异风险共同调整。",
+      "evidence": "专题证据综述；包含小样本实验与观察性调查，2027 IOC 指南尚未发布",
+      "confidence": "中低",
+      "what": "9 月 22 日发布的专题报道汇总了孕期运动研究者在 Tanenbaum Institute for Science in Sport Conference 讨论的最新证据。既往研究包括：10 名孕妇完成最高约 90% 10RM 的深蹲、卧推和硬拉时未见急性母体或胎儿警讯；15 名孕妇完成高于 90% 预测最大心率的间歇运动时，与中等强度相比未见相关急性差异；长时耐力与攀岩证据则主要来自调查。",
+      "why": "高水平女运动员经常继续训练，而传统建议长期依赖保守专家意见和普通人群数据。新证据有助于把讨论从“一律禁止”转向风险分层。",
+      "limit": "短期生理安全指标不能证明整个孕期、分娩或胎儿长期结局安全；调查存在健康参与者、自我选择和反向因果偏倚。2027 IOC 新指南尚未公布，不能提前把报道内容当成正式指南。",
+      "source": {
+        "title": "The Science of “Extreme” Exercise During Pregnancy",
+        "url": "https://www.outsideonline.com/health/training-performance/intense-exercise-during-pregnancy-safety-research/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "IOC 精英运动员心理健康共识",
+      "title": "IOC 2026 共识：精英运动员心理健康应常规筛查，并用“安全—稳定—功能”框架决定参赛与重返运动",
+      "one_liner": "更新版共识形成 63 条行动建议，强调伤病心理反应、重大转衔、青少年与残奥运动员的情境化评估。",
+      "practice": "运动队不应把心理健康量表做成孤立红黄绿灯；筛查必须连接保密路径、临床评估、转诊与基于功能的 RTP 决策。",
+      "evidence": "IOC 共识声明；系统性文献评估 + Delphi",
+      "confidence": "中—高（框架）；中（部分具体干预）",
+      "what": "2026 IOC 共识更新 2019 版立场，通过文献评估、专家会议和 Delphi 形成 63 条建议。文件建议使用有效工具常规筛查和监测精英运动员心理健康，伤病后的心理反应应常规评估；对存在心理健康症状或障碍者，参赛与 RTP 需围绕 safety、stability 和 function。",
+      "why": "它把心理健康从单纯个体诊断扩展到教练关系、组织文化、暴力与保障、社交媒体、伤病和职业转衔等运动生态，并明确运动队需要可执行的照护路径。",
+      "limit": "共识整合了不同质量的定量与定性研究，作者无法对全部证据进行统一质量分级；部分建议仍主要依赖专家一致意见。筛查阳性不等于诊断，也不应自动停训。",
+      "source": {
+        "title": "Mental health in elite athletes: International Olympic Committee consensus statement (2026)",
+        "url": "https://bjsm.bmj.com/content/60/15/1083"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "AI 滥用从助手转向编排器",
+      "title": "Anthropic 9 月威胁报告：AI 在多类网络行动中已从问答助手变成执行与编排层",
+      "one_liner": "报告覆盖 2025 年 12 月至 2026 年 8 月的七类滥用，称多数网络行动涉及 AI 直接执行或编排侦察、利用与数据外传。",
+      "practice": "有网络、代码与数据权限的 Agent 应默认采用最小权限、出站 allowlist、分段凭证、实时告警和可追溯工具日志。",
+      "evidence": "厂商威胁情报报告；已处置案例的选择性披露",
+      "confidence": "高（厂商观察到并处置案例）；中（总体流行程度）",
+      "what": "Anthropic 发布 Detecting and countering misuse of AI: September 2026，披露其在过去八个月识别并中止的网络攻击、监控、影响行动、诈骗、生物滥用、常规武器和模型蒸馏案例。报告称，网络行动的提升不只体现在漏洞开发，而是贯穿侦察、工具生成、利用、数据处理与外传；多数案例中 AI 已参与直接执行或编排。",
+      "why": "对企业与科研 Agent，风险不再只是模型生成一段恶意代码，而是模型把多个工具串成可重复、可扩展的行动链。防护必须覆盖整个调用路径。",
+      "limit": "这是 Anthropic 对自身可见且选择披露的高价值案例，并非随机样本；不能据此估算所有 AI 滥用的发生率，也不能直接比较不同供应商。报告中的归因和 uplift 评估主要由厂商完成。",
+      "source": {
+        "title": "Detecting and countering misuse of AI: September 2026",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Claude Opus 5.5",
+      "title": "Claude Opus 5.5 发布：性能下放与成本下降明显，但安全提升数字仍主要来自厂商评测",
+      "one_liner": "Anthropic 称 Opus 5.5 在多数任务接近 Fable 5.1，运行成本较 Opus 5 低 40%，并将更强安全措施下放到 Opus 层级。",
+      "practice": "对代码、研究与复杂工作流，模型选择应按真实任务的成功率、总调用成本和人工复核负担评估，不能只看单一 benchmark。",
+      "evidence": "Anthropic 官方发布 + Reuters；厂商与外部机构评测",
+      "confidence": "高（产品、价格与可用性）；中（相对能力和安全幅度）",
+      "what": "Anthropic 9 月 22 日推出 Claude Opus 5.5，官方称其在多数工作上达到 Claude Fable 5.1 水平，运行成本比 Opus 5 低 40%。定价为每百万输入 tokens 4 美元、输出 20 美元，并已在 Claude Platform、AWS、Google Cloud 和 Microsoft Foundry 提供。Anthropic 还称专门评测中的越界尝试较 Opus 5 或 Mythos 5.1 低约 85%。",
+      "why": "如果高能力模型以更低成本进入日常工作流，Agent、代码与批量研究任务的可行边界会扩大；同时，成本下降也会放大错误调用和权限设计不当的影响。",
+      "limit": "能力比较使用的提示、推理预算和工具配置并不完全一致；85% 安全改善是特定评测下的相对变化，不等于现实事故风险降低 85%。迁移现有 API 工作流还需检查 thinking、forced tool use 和 computer-use 版本等兼容性变化。",
+      "source": {
+        "title": "Introducing Claude Opus 5.5",
+        "url": "https://www.anthropic.com/claude-opus-5-5"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Agent 责任边界",
+      "title": "美国 FTC 主席：不应把 Agent 拟人化为独立行为者，开发者和部署者仍需为后果承担责任",
+      "one_liner": "9 月 25 日，FTC 主席 Andrew Ferguson 表示倾向用现有法律处理 Agent 损害，反对以“AI 自己失控”淡化组织责任。",
+      "practice": "机构部署 Agent 时应明确责任人、授权范围、审批点和事故响应；“模型自主决定”不能成为数据泄露或越权后的治理解释。",
+      "evidence": "监管者公开表态；Reuters 一手采访，尚非正式新规",
+      "confidence": "高（表态事实）；中低（未来执法边界）",
+      "what": "Reuters 9 月 25 日报道，美国联邦贸易委员会主席 Andrew Ferguson 在 Momentum AI Austin 活动中表示，他会反对把 AI Agent 描述成具有独立意志、会自行“挣脱”的行为者；其观点是，指示、开发或部署 Agent 的主体应对造成的损害承担责任，并优先适用现有法律。",
+      "why": "近期多起 Agent 越权和数据事件容易被叙述成“AI 自己做了什么”。监管思路若坚持组织责任，将迫使开发者与部署方把权限、监控和可预见风险控制做成可审计制度。",
+      "limit": "这是一位监管者的政策立场，不是已经生效的新法律，也没有解决开发者、模型提供商、部署企业和最终用户之间如何分配责任的细节。不同司法辖区可能采取不同标准。",
+      "source": {
+        "title": "FTC chair suggests AI developers should be liable for conduct of agents",
+        "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/"
+      }
+    }
+  ],
+  "professional_judgment": "今天不应从任何单项结果直接生成新的红黄绿阈值。女足负荷研究最有价值的不是“每多跑 100 m 就会怎样”，而是其 athlete-relative 思路：先确定每名运动员自己的负荷—状态关系，再把短期疲劳放回训练阶段和比赛目标中解释。热身共识同样拒绝万能模板；一般、专项和 conditioning 阶段是否需要、做多少，应由随后任务决定。脑震荡研究则说明，恢复波动不仅是组织损伤残留，distress、灾难化和恐惧回避也可能成为可干预的恢复变量，但这绝不等于症状是“想出来的”。AI 方面，今天最关键的变化是责任语言：一边是厂商观察到 Agent 把攻击链自动化，另一边监管者明确反对用“Agent 自主失控”稀释开发与部署责任。对运动员数据、科研和自动报告系统，最小权限、出站控制、完整 action log 和人工接管应先于更高自治。"
+}
