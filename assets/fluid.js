@@ -10,7 +10,9 @@
   if (!ctx) return;
 
   let width, height, cellSize, count, pixels;
-  let dye, nextDye, original, vx, vy, nextVx, nextVy, divergence, pressure, nextPressure;
+  let dye, original, mapX, mapY, nextMapX, nextMapY;
+  let inkA, inkB, nextInkA, nextInkB;
+  let vx, vy, nextVx, nextVy, divergence, pressure, nextPressure;
   let target = null, stir = null, lastFrame = 0, frame = 0;
   let flowX = 0, flowY = 0;
 
@@ -30,8 +32,11 @@
     canvas.height = height;
     pixels = ctx.createImageData(width, height);
     dye = new Float32Array(count * 3);
-    nextDye = new Float32Array(count * 3);
     original = new Float32Array(count * 3);
+    mapX = new Float32Array(count); mapY = new Float32Array(count);
+    nextMapX = new Float32Array(count); nextMapY = new Float32Array(count);
+    inkA = new Float32Array(count); inkB = new Float32Array(count);
+    nextInkA = new Float32Array(count); nextInkB = new Float32Array(count);
     vx = new Float32Array(count); vy = new Float32Array(count);
     nextVx = new Float32Array(count); nextVy = new Float32Array(count);
     divergence = new Float32Array(count);
@@ -47,7 +52,8 @@
         const left = Math.floor(position), mix = position - left;
         const vein = .5 + .5 * Math.cos(v * 28.1 - u * 9.7 + Math.sin(u * 11.4) * 1.4);
         const haze = .06 + .30 * vein ** 8;
-        const at = (y * width + x) * 3;
+        const i = y * width + x, at = i * 3;
+        mapX[i] = x; mapY[i] = y;
         for (let channel = 0; channel < 3; channel++) {
           const pigment = colors[left][channel] * (1 - mix) + colors[left + 1][channel] * mix;
           original[at + channel] = dye[at + channel] = pigment * (1 - haze) + 246 * haze;
@@ -95,13 +101,8 @@
           const across = (ox * normalX + oy * normalY) / radius;
           const ribbonA = Math.exp(-(((across - .23) / .08) ** 2));
           const ribbonB = Math.exp(-(((across + .16) / .07) ** 2));
-          const inkA = Math.min(.11, ribbonA * weight * .43);
-          const inkB = Math.min(.09, ribbonB * weight * .39);
-          const at = i * 3;
-          for (let channel = 0; channel < 3; channel++) {
-            dye[at + channel] = dye[at + channel] * (1 - inkA - inkB)
-              + colors[1][channel] * inkA + colors[3][channel] * inkB;
-          }
+          inkA[i] = Math.min(.56, inkA[i] + ribbonA * weight * .68);
+          inkB[i] = Math.min(.52, inkB[i] + ribbonB * weight * .63);
         }
       }
     }
@@ -161,7 +162,8 @@
       }
     }
 
-    const recovery = 1 - Math.pow(.997, dt);
+    const recovery = 1 - Math.pow(.995, dt);
+    const inkFade = Math.pow(.979, dt);
     for (let y = 0; y < height; y++) {
       for (let x = 0; x < width; x++) {
         const i = y * width + x, at = i * 3;
@@ -169,18 +171,35 @@
         const sy = clamp(y - vy[i] * dt, 0, height - 1.001);
         const x0 = Math.floor(sx), y0 = Math.floor(sy);
         const a = sx - x0, b = sy - y0;
-        const j = (y0 * width + x0) * 3;
+        const j = y0 * width + x0;
         const wa = (1 - a) * (1 - b), wb = a * (1 - b);
         const wc = (1 - a) * b, wd = a * b;
+        nextMapX[i] = (mapX[j] * wa + mapX[j + 1] * wb + mapX[j + width] * wc + mapX[j + width + 1] * wd) * (1 - recovery) + x * recovery;
+        nextMapY[i] = (mapY[j] * wa + mapY[j + 1] * wb + mapY[j + width] * wc + mapY[j + width + 1] * wd) * (1 - recovery) + y * recovery;
+        nextInkA[i] = (inkA[j] * wa + inkA[j + 1] * wb + inkA[j + width] * wc + inkA[j + width + 1] * wd) * inkFade;
+        nextInkB[i] = (inkB[j] * wa + inkB[j + 1] * wb + inkB[j + width] * wc + inkB[j + width + 1] * wd) * inkFade;
+
+        const tx = clamp(nextMapX[i], 0, width - 1.001);
+        const ty = clamp(nextMapY[i], 0, height - 1.001);
+        const px = Math.floor(tx), py = Math.floor(ty);
+        const ca = tx - px, cb = ty - py;
+        const source = (py * width + px) * 3;
+        const w0 = (1 - ca) * (1 - cb), w1 = ca * (1 - cb);
+        const w2 = (1 - ca) * cb, w3 = ca * cb;
+        const mixA = nextInkA[i], mixB = nextInkB[i];
+        const clear = Math.max(0, 1 - mixA - mixB);
         for (let channel = 0; channel < 3; channel++) {
-          const pigment = dye[j + channel] * wa + dye[j + channel + 3] * wb
-            + dye[j + channel + width * 3] * wc + dye[j + channel + (width + 1) * 3] * wd;
-          nextDye[at + channel] = pigment * (1 - recovery)
-            + original[at + channel] * recovery;
+          const sourceColor = original[source + channel] * w0 + original[source + channel + 3] * w1
+            + original[source + channel + width * 3] * w2 + original[source + channel + (width + 1) * 3] * w3;
+          dye[at + channel] = sourceColor * clear
+            + colors[1][channel] * mixA + colors[3][channel] * mixB;
         }
       }
     }
-    [dye, nextDye] = [nextDye, dye];
+    [mapX, nextMapX] = [nextMapX, mapX];
+    [mapY, nextMapY] = [nextMapY, mapY];
+    [inkA, nextInkA] = [nextInkA, inkA];
+    [inkB, nextInkB] = [nextInkB, inkB];
   }
 
   function render() {
