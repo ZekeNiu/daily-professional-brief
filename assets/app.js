@@ -27,7 +27,6 @@ function initAmbient(){
  function moveTo(x,y){target.x=x;target.y=y;if(!frame)frame=requestAnimationFrame(draw)}
  moveTo(target.x,target.y);
  addEventListener('pointermove',e=>{if(e.pointerType==='mouse'||e.pointerType==='pen')moveTo(e.clientX,e.clientY)},{passive:true});
- document.addEventListener('pointerleave',()=>moveTo(innerWidth/2,innerHeight/2));
  addEventListener('resize',()=>{
   glowWidth=glow.offsetWidth;glowHeight=glow.offsetHeight;
   trailWidth=trail.offsetWidth;trailHeight=trail.offsetHeight;
