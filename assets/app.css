@@ -96,7 +96,7 @@ body{background:var(--bg);letter-spacing:-.008em}
 .bgmesh{
   background:
     radial-gradient(circle at center,rgba(15,103,114,.035) .7px,transparent 1px) 0 0/26px 26px,
-    linear-gradient(125deg,#f5fbf8 0%,#e9f6f5 37%,#eaf0fc 72%,#f7f5fb 100%);
+    linear-gradient(125deg,#eff9f6 0%,#e9f5f5 47%,#e9f0fa 100%);
   animation:none;
   pointer-events:none;
   isolation:isolate
@@ -118,18 +118,18 @@ body{background:var(--bg);letter-spacing:-.008em}
 .bgmesh.fluid-ready:before,.bgmesh.fluid-ready:after{display:none}
 .fluid-canvas{
   display:block;width:100%;height:100%;
-  filter:blur(7px) saturate(128%);
+  filter:blur(21px) saturate(104%);
   transform:scale(1.06);
   mix-blend-mode:multiply;
-  opacity:.83
+  opacity:.72
 }
 html[data-theme="dark"] .bgmesh{
   background:radial-gradient(circle at center,rgba(144,217,225,.035) .7px,transparent 1px) 0 0/26px 26px,
-    linear-gradient(125deg,#080f19 0%,#0b1c2b 54%,#151a37 100%)
+    linear-gradient(125deg,#08171d 0%,#0d202b 54%,#131d34 100%)
 }
 html[data-theme="dark"] .bgmesh:before{opacity:.58}
 html[data-theme="dark"] .bgmesh:after{opacity:.6}
-html[data-theme="dark"] .fluid-canvas{mix-blend-mode:screen;opacity:.27;filter:blur(9px) saturate(150%) brightness(.76)}
+html[data-theme="dark"] .fluid-canvas{mix-blend-mode:screen;opacity:.19;filter:blur(22px) saturate(112%) brightness(.72)}
 @keyframes auroraOne{
   0%{transform:translate3d(-7%,-5%,0) rotate(-7deg) scale(.98)}
   50%{transform:translate3d(24%,18%,0) rotate(10deg) scale(1.13)}
@@ -211,6 +211,7 @@ tbody tr{transition:background .2s ease}
   .fluid-canvas{display:none}
 }
 @media(prefers-reduced-motion:reduce){
-  .bgmesh:before,.bgmesh:after{animation:none!important}
+  .bgmesh:before,.bgmesh:after{display:none!important}
   .fluid-canvas{display:none!important}
 }
+@media(hover:none),(pointer:coarse){.bgmesh:before,.bgmesh:after{display:none}}

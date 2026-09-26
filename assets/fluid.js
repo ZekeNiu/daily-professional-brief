@@ -14,17 +14,14 @@
   let inkA, inkB, nextInkA, nextInkB;
   let vx, vy, nextVx, nextVy, divergence, pressure, nextPressure;
   let target = null, stir = null, lastFrame = 0, frame = 0;
-  let flowX = 0, flowY = 0;
+  let flowX = 0, flowY = 0, activeUntil = 0;
 
   const clamp = (value, low, high) => Math.max(low, Math.min(high, value));
-  const colors = [
-    [80, 221, 171], [33, 198, 195], [47, 155, 228],
-    [94, 119, 229], [182, 120, 229]
-  ];
+  const colors = [[94, 195, 177], [99, 153, 212]];
 
   function createField() {
     const screenWidth = innerWidth, screenHeight = innerHeight;
-    cellSize = Math.max(12, Math.sqrt(screenWidth * screenHeight / 5000));
+    cellSize = Math.max(18, Math.sqrt(screenWidth * screenHeight / 2200));
     width = Math.ceil(screenWidth / cellSize);
     height = Math.ceil(screenHeight / cellSize);
     count = width * height;
@@ -51,7 +48,7 @@
         const position = clamp(.08 + .74 * u + .10 * v + folds, 0, .999) * (colors.length - 1);
         const left = Math.floor(position), mix = position - left;
         const vein = .5 + .5 * Math.cos(v * 28.1 - u * 9.7 + Math.sin(u * 11.4) * 1.4);
-        const haze = .06 + .30 * vein ** 8;
+        const haze = .08 + .24 * vein ** 5;
         const i = y * width + x, at = i * 3;
         mapX[i] = x; mapY[i] = y;
         for (let channel = 0; channel < 3; channel++) {
@@ -101,8 +98,8 @@
           const across = (ox * normalX + oy * normalY) / radius;
           const ribbonA = Math.exp(-(((across - .23) / .08) ** 2));
           const ribbonB = Math.exp(-(((across + .16) / .07) ** 2));
-          inkA[i] = Math.min(.56, inkA[i] + ribbonA * weight * .68);
-          inkB[i] = Math.min(.52, inkB[i] + ribbonB * weight * .63);
+          inkA[i] = Math.min(.50, inkA[i] + ribbonA * weight * .63);
+          inkB[i] = Math.min(.50, inkB[i] + ribbonB * weight * .58);
         }
       }
     }
@@ -144,7 +141,7 @@
         divergence[i] = (vx[i + 1] - vx[i - 1] + vy[i + width] - vy[i - width]) * .5;
       }
     }
-    for (let iteration = 0; iteration < 4; iteration++) {
+    for (let iteration = 0; iteration < 2; iteration++) {
       for (let y = 1; y < height - 1; y++) {
         for (let x = 1; x < width - 1; x++) {
           const i = y * width + x;
@@ -192,7 +189,7 @@
           const sourceColor = original[source + channel] * w0 + original[source + channel + 3] * w1
             + original[source + channel + width * 3] * w2 + original[source + channel + (width + 1) * 3] * w3;
           dye[at + channel] = sourceColor * clear
-            + colors[1][channel] * mixA + colors[3][channel] * mixB;
+            + colors[0][channel] * mixA + colors[1][channel] * mixB;
         }
       }
     }
@@ -216,8 +213,8 @@
 
   function tick(time) {
     frame = requestAnimationFrame(tick);
-    if (time - lastFrame < 45) return;
-    const dt = lastFrame ? clamp((time - lastFrame) / 48, .5, 1.5) : 1;
+    if (time - lastFrame < (time < activeUntil ? 55 : 110)) return;
+    const dt = lastFrame ? clamp((time - lastFrame) / 55, .5, 1.6) : 1;
     lastFrame = time;
     advance(dt, time);
     render();
@@ -234,6 +231,7 @@
     const y = event.clientY / innerHeight * (height - 1);
     target = { x, y };
     if (!stir) stir = { x, y };
+    activeUntil = performance.now() + 2600;
   }, { passive: true });
 
   let resizeTimer;
@@ -243,6 +241,10 @@
   }, { passive: true });
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) { cancelAnimationFrame(frame); frame = 0; }
-    else if (!frame) { lastFrame = 0; frame = requestAnimationFrame(tick); }
+    else if (!frame && canAnimate.matches) { lastFrame = 0; frame = requestAnimationFrame(tick); }
+  });
+  canAnimate.addEventListener?.('change', () => {
+    if (!canAnimate.matches) { cancelAnimationFrame(frame); frame = 0; }
+    else if (!document.hidden && !frame) { lastFrame = 0; frame = requestAnimationFrame(tick); }
   });
 })();
