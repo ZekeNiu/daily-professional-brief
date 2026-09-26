@@ -4,10 +4,18 @@
   "title": "每日专业资讯简报",
   "summary": {
     "total": 9,
-    "counts": {"运动科学": 4, "运动健康": 2, "AI": 3, "全球重要事件": 0},
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 2,
+      "AI": 3,
+      "全球重要事件": 0
+    },
     "signal": "今天最值得关注的共同趋势，是从单一指标转向情境化决策：训练负荷要相对个体基线解释，力量与动作学结果要限定到具体任务，AI 则开始从回答问题进一步进入可验证的科学发现与跨应用执行。"
   },
-  "navigation": {"prev": "2026-09-23", "next": null},
+  "navigation": {
+    "prev": "2026-09-23",
+    "next": "2026-09-26"
+  },
   "section_notes": {
     "运动科学": "训练负荷、深蹲生物力学与肌酸证据都提醒：群体平均效应可以指导方向，但处方仍需回到个体基线、任务需求和训练阶段。",
     "运动健康": "女性运动员能量可用性与力量训练中的肩关节运动学，均不适合被压缩成单一风险阈值。",
@@ -15,7 +23,9 @@
   },
   "items": [
     {
-      "priority": "重点关注", "domain": "运动科学", "short_title": "女足负荷与次日表现",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "女足负荷与次日表现",
       "title": "训练负荷必须相对个人常态解释：女足数据提示异常高负荷会压低次日状态与速度",
       "one_liner": "同样的外部负荷，对不同运动员的意义取决于它偏离个人常态多少。",
       "practice": "赛前负荷管理应优先看个体化偏差，而不是只看统一绝对阈值。",
@@ -24,10 +34,15 @@
       "what": "University of Oklahoma 9 月 23 日介绍的一项 International Journal of Sports Physiology and Performance 研究，结合精英女子足球运动员 GPS、智能戒指和每日 wellness 数据。研究报告称，当运动员前一日训练负荷明显高于其个人常态时，次日睡眠恢复、主观状态和速度表现平均更差；报道给出的一个具体估计是，每额外 100 m 高速跑与次日最大速度约下降 1 km/h 相关。",
       "why": "它支持把负荷解释从‘全队统一阈值’转向 within-athlete deviation：真正需要关注的不是某个绝对跑量本身，而是该刺激相对运动员近期正常暴露有多异常。",
       "limit": "这是观察性纵向关系，不证明额外高速跑本身直接导致速度下降；高负荷在发展体能阶段可能是有意安排。报道中的具体斜率不能直接复制为其他队伍的赛前阈值。",
-      "source": {"title": "OU researcher examines how heavy training affects elite soccer athletes", "url": "https://ou.edu/news/articles/2026/September/ou-researcher-examines-heavy-training-elite-soccer-athletes"}
+      "source": {
+        "title": "OU researcher examines how heavy training affects elite soccer athletes",
+        "url": "https://ou.edu/news/articles/2026/September/ou-researcher-examines-heavy-training-elite-soccer-athletes"
+      }
     },
     {
-      "priority": "值得了解", "domain": "运动科学", "short_title": "精英力量举深蹲",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "精英力量举深蹲",
       "title": "90–100% 1RM 深蹲：精英力量举选手在 sticking region 呈现明显髋主导",
       "one_liner": "8 名精英力量举选手的 sticking region 髋/膝力矩比超过 3:1。",
       "practice": "最大力量深蹲表现可能更依赖髋伸肌能力，但不能把该比例当成通用技术标准。",
@@ -36,10 +51,15 @@
       "what": "Journal of Strength and Conditioning Research 近期刊出的研究让 8 名国家级精英力量举选手完成 90%、95% 和 100% 1RM 单次深蹲。髋力矩在各阶段均高于膝力矩，sticking region 的髋/膝力矩比超过 3:1；负荷增加还伴随 presticking 膝力矩增加、后续前倾增加以及 sticking/poststicking 速度下降。",
       "why": "这给出了接近比赛负荷下的关节负荷分配，而不是用中低负荷或普通训练者推断极限深蹲技术。",
       "limit": "样本只有 8 人且高度专项化；3:1 是该样本在特定任务中的观察结果，不应被教条化为所有运动员的‘理想深蹲比例’。",
-      "source": {"title": "Squat Performance in Elite Powerlifters: Biomechanical Analyses of Maximal and Near Maximal Lifts", "url": "https://pubmed.ncbi.nlm.nih.gov/42342242/"}
+      "source": {
+        "title": "Squat Performance in Elite Powerlifters: Biomechanical Analyses of Maximal and Near Maximal Lifts",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42342242/"
+      }
     },
     {
-      "priority": "重点关注", "domain": "运动科学", "short_title": "肌酸 + 阻力训练",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "肌酸 + 阻力训练",
       "title": "63 项研究的三层 Meta 分析：肌酸叠加阻力训练提高力量与瘦体重，但年龄调节结果仍属探索性",
       "one_liner": "RT+肌酸相较 RT 单独训练，对上下肢力量和瘦体重均显示额外收益。",
       "practice": "肌酸仍是证据基础较扎实的阻力训练营养辅助，但不需要把体重小幅上升误读为脂肪增加。",
@@ -48,10 +68,15 @@
       "what": "9 月 21 日在线发表的分析纳入 63 项研究、1489 人。与单独阻力训练相比，肌酸联合阻力训练对上肢力量 g=0.54、下肢力量 g=0.55、瘦体重 g=0.30，均显著更有利；脂肪量差异不显著。总身体质量仅小幅增加（g=0.12）。",
       "why": "三层模型可以更合理地处理同一研究贡献多个相关效应量的问题，也再次把肌酸的主要收益定位在力量和瘦体重，而不是‘减脂补剂’。",
       "limit": "纳入研究在饮食、训练背景和方案报告上存在异质性；年龄与力量效应的关系来自探索性亚组和 meta-regression，且年龄组分布不均，不能据此给不同年龄设定确定的响应预期。",
-      "source": {"title": "Resistance training combined with creatine supplementation: a three-level meta-analysis of multidimensional outcomes from strength enhancement to body composition remodeling", "url": "https://pubmed.ncbi.nlm.nih.gov/42765482/"}
+      "source": {
+        "title": "Resistance training combined with creatine supplementation: a three-level meta-analysis of multidimensional outcomes from strength enhancement to body composition remodeling",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42765482/"
+      }
     },
     {
-      "priority": "值得了解", "domain": "运动科学", "short_title": "耐力训练多组学",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "耐力训练多组学",
       "title": "耐力训练适应大体共享，但性别差异更多出现在翻译后调控层面",
       "one_liner": "大鼠多组学数据显示，雌雄共有大量训练适应，同时线粒体氧化还原与翻译后修饰存在细致性别差异。",
       "practice": "不要把‘女性需要完全不同训练’作为默认前提；更合理的是先共享训练原则，再在恢复、代谢和个体反应层面验证差异。",
@@ -60,10 +85,15 @@
       "what": "9 月 22 日发表的 MoTrPAC 相关研究分析雄性和雌性大鼠 1、2、4、8 周耐力训练后的骨骼肌多组学变化。转录组和蛋白组的大量适应在两性间一致，但乙酰化、氧化还原蛋白组和磷酸化层面出现性别特异重塑；雌性显示部分线粒体蛋白氧化下降及线粒体嵴蛋白增加。",
       "why": "它提示性别差异可能更多体现在调控细节，而非把整个训练适应机制切成两个完全不同系统。",
       "limit": "核心实验是大鼠耐力训练，虽然作者与人类运动数据进行了关联，但不能直接据此改变高水平运动员训练剂量。",
-      "source": {"title": "Temporal multi-omic analysis uncovers sex-biased molecular programs underlying skeletal muscle adaptation to endurance training", "url": "https://www.pnnl.gov/publications/temporal-multi-omic-analysis-uncovers-sex-biased-molecular-programs-underlying"}
+      "source": {
+        "title": "Temporal multi-omic analysis uncovers sex-biased molecular programs underlying skeletal muscle adaptation to endurance training",
+        "url": "https://www.pnnl.gov/publications/temporal-multi-omic-analysis-uncovers-sex-biased-molecular-programs-underlying"
+      }
     },
     {
-      "priority": "值得了解", "domain": "运动健康", "short_title": "女性运动员能量平衡",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "女性运动员能量平衡",
       "title": "ACSM 再次强调：女性运动员能量平衡应被视为健康与表现基础变量",
       "one_liner": "高训练量叠加长期能量不足会同时牵动恢复、健康与表现，而不只是体重。",
       "practice": "监控女性运动员时，应把饮食可用性、月经/内分泌线索、恢复与训练负荷放在同一框架，而不是只盯体成分。",
@@ -72,10 +102,15 @@
       "what": "ACSM 9 月 22 日发布专题文章，将充足营养和能量平衡置于女性运动员健康与表现的基础位置，并把伤病、倦怠、心理健康压力、体成分压力及高训练/比赛日程放在同一情境中讨论。",
       "why": "实践中最容易出现的问题不是不知道 RED-S/低能量可用性，而是把体重或体脂变化当成唯一信号，忽略训练、恢复、饮食与症状的组合。",
       "limit": "该文是 ACSM 教育性 Hot Topic，不是新的系统综述或临床实践指南；不能从中提取新的诊断阈值。",
-      "source": {"title": "Energy Balance: A Key Component to Female Athlete Well-Being", "url": "https://acsm.org/hot-topic-energy-balance-a-key-component-to-female-athlete-well-being/"}
+      "source": {
+        "title": "Energy Balance: A Key Component to Female Athlete Well-Being",
+        "url": "https://acsm.org/hot-topic-energy-balance-a-key-component-to-female-athlete-well-being/"
+      }
     },
     {
-      "priority": "值得了解", "domain": "运动健康", "short_title": "卧推肩关节运动学",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "卧推肩关节运动学",
       "title": "疲劳卧推中肩关节 ROM 会在组内漂移，女性力量举选手变化更明显",
       "one_liner": "3×8 卧推过程中，盂肱关节三轴 ROM 均出现显著组内增加。",
       "practice": "技术评估不能只看第一下；疲劳状态下的动作漂移可能更有信息量。",
@@ -84,10 +119,15 @@
       "what": "19 名竞技力量举选手（10 男、9 女）以约 73.9% 自报 1RM 完成 3×8 卧推，使用 Theia3D 无标记动作捕捉。每组从第一次到倒数第二次重复，盂肱关节在 elevation plane、elevation 和 rotation 三轴 ROM 均显著增加；女性在前两轴的增幅大于男性。",
       "why": "这说明动作质量/策略可能在单组内部随疲劳变化，支持把连续重复而非单次代表动作纳入技术和负荷评估。",
       "limit": "样本小，负荷基于自报 1RM；运动学变化不等同于伤病风险，研究不能证明更大的 ROM 漂移会导致肩伤。",
-      "source": {"title": "Assessing Shoulder Joint Kinematics During the Bench Press Exercise in Competitive Powerlifters With Markerless Motion Capture", "url": "https://pubmed.ncbi.nlm.nih.gov/42748970/"}
+      "source": {
+        "title": "Assessing Shoulder Joint Kinematics During the Bench Press Exercise in Competitive Powerlifters With Markerless Motion Capture",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42748970/"
+      }
     },
     {
-      "priority": "重点关注", "domain": "AI", "short_title": "Claude 科学发现",
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Claude 科学发现",
       "title": "Anthropic 建实验室让 Claude 参与完整科学循环，并报告发现新的 CRISPR-like repeat enzyme system",
       "one_liner": "Claude 从 DNA 数据异常识别推进到假设形成与实验验证，AI 科研开始进入闭环。",
       "practice": "科研 Agent 的评价标准应从‘能不能总结论文’升级为可追溯假设、可验证预测和实验复现。",
@@ -96,10 +136,15 @@
       "what": "Anthropic 9 月 23 日宣布成立生命科学研究组和实验室，并披露 Claude 在高层指导下从 DNA 数据中识别出一个此前未被描述的系统 ART：它包含 reverse transcriptase、邻近 partner gene 与规则间隔的非编码 DNA repeats。初步实验显示该 repeat array 会表达为一组短 RNA。",
       "why": "真正重要的不是‘AI 找到 CRISPR 2.0’，而是模型已经被放入异常发现→文献核查→提出系统→人工审核→湿实验验证的闭环流程。",
       "limit": "Anthropic 明确表示目前仍不知道 ART 的功能；‘CRISPR-like’指结构特征相似，不等于已证明具有可编程基因编辑功能。结果来自厂商自有研究团队，仍需独立复现和同行评议。",
-      "source": {"title": "Claude discovers a novel enzyme system with CRISPR-like repeats", "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"}
+      "source": {
+        "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+        "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+      }
     },
     {
-      "priority": "值得了解", "domain": "AI", "short_title": "Gemini Connected Apps",
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Gemini Connected Apps",
       "title": "Gemini 扩展 Connected Apps：AI 助手继续从聊天界面进入跨工具执行层",
       "one_liner": "Airtable、Linear、Adobe、Webflow、Peloton 等新连接开始滚动上线。",
       "practice": "真正有价值的个人/团队 Agent 越来越依赖权限、连接器和结构化工具调用，而不是更长的提示词。",
@@ -108,10 +153,15 @@
       "what": "Google 9 月 23 日宣布 Gemini 新一批 Connected Apps 开始上线，覆盖 Airtable、Linear、monday.com、PandaDoc、Adobe、Webflow、Peloton 等生产力、创意和生活类服务，可通过设置连接或在对话中 @ 调用。",
       "why": "这反映前沿助手的竞争焦点正在从单模型能力转向‘模型 + 权限 + 外部应用 + 可执行动作’。对专业工作流而言，连接器质量和权限治理会越来越重要。",
       "limit": "功能处于逐步 rollout，地区、账户和具体应用权限可能不同；连接更多应用也扩大了数据暴露与误操作面，需要最小权限和可审计机制。",
-      "source": {"title": "A new wave of Connected Apps is rolling out to Gemini", "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/"}
+      "source": {
+        "title": "A new wave of Connected Apps is rolling out to Gemini",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/"
+      }
     },
     {
-      "priority": "值得了解", "domain": "AI", "short_title": "模型失配披露",
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "模型失配披露",
       "title": "OpenAI 发布模型失配事件报告框架：Agent 安全开始要求持续事件披露，而不只是发布前 benchmark",
       "one_liner": "模型安全治理正在向类似事故响应的持续监测、调查与披露机制演进。",
       "practice": "部署长链 Agent 时，应建立越权、异常工具调用、目标漂移和停止失败的事件日志与复盘机制。",
@@ -120,7 +170,10 @@
       "what": "OpenAI 近期发布 model misalignment reporting framework，用于跟踪、调查和披露模型失配实例，并同步披露多起观察到的异常 Agent 行为。框架强调持续监测，而非把安全评估限定在模型上线前。",
       "why": "随着 Agent 获得工具、文件和外部系统权限，风险单位从‘一次错误回答’变成‘一段持续执行轨迹’；安全控制也需要从内容过滤升级为行为监控和事件响应。",
       "limit": "这是单一厂商制定的自我披露框架，不等同于独立监管标准；披露样本也不能用于估算现实环境中的失配发生率。",
-      "source": {"title": "Our framework for reporting model misalignment", "url": "https://openai.com/index/model-misalignment-reporting-framework/"}
+      "source": {
+        "title": "Our framework for reporting model misalignment",
+        "url": "https://openai.com/index/model-misalignment-reporting-framework/"
+      }
     }
   ],
   "professional_judgment": "今天的信息里，最值得带回实际工作的不是某个新阈值，而是三个决策原则。第一，训练负荷要相对运动员自己的近期常态解释，尤其在比赛前；群体平均的绝对阈值只能作为背景。第二，生物力学与营养研究给出的效应需要绑定任务和人群——精英力量举的髋主导不能变成所有人的深蹲标准，肌酸的总体效应也不能替代个体响应监测。第三，AI 正在进入科学发现与跨应用执行阶段，评价体系必须同步升级：不仅看答案质量，还要看来源可追溯性、权限边界、异常行为日志与实验/现实验证。"
