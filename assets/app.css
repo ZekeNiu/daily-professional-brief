@@ -115,19 +115,13 @@ body{background:var(--bg);letter-spacing:-.008em}
   background:radial-gradient(ellipse at 50% 48%,rgba(74,139,242,.45) 0%,rgba(124,113,239,.28) 38%,rgba(90,210,235,.13) 60%,transparent 76%);
   animation:auroraTwo 27s cubic-bezier(.45,0,.55,1) infinite alternate
 }
-.cursor-aurora,.cursor-trail{
-  position:absolute;left:0;top:0;border-radius:50%;pointer-events:none;
-  will-change:transform;mix-blend-mode:multiply
-}
-.cursor-aurora{
-  width:min(68vw,850px);height:min(68vw,850px);min-width:520px;min-height:520px;
-  background:radial-gradient(circle,rgba(51,213,184,.42) 0%,rgba(77,173,236,.31) 37%,rgba(135,116,243,.14) 61%,transparent 77%);
-  filter:blur(48px);opacity:.78
-}
-.cursor-trail{
-  width:min(54vw,690px);height:min(54vw,690px);min-width:420px;min-height:420px;
-  background:radial-gradient(circle,rgba(135,118,242,.31) 0%,rgba(70,183,236,.21) 42%,transparent 74%);
-  filter:blur(58px);opacity:.67
+.bgmesh.fluid-ready:before,.bgmesh.fluid-ready:after{display:none}
+.fluid-canvas{
+  display:block;width:100%;height:100%;
+  filter:blur(18px) saturate(124%);
+  transform:scale(1.06);
+  mix-blend-mode:multiply;
+  opacity:.77
 }
 html[data-theme="dark"] .bgmesh{
   background:radial-gradient(circle at center,rgba(144,217,225,.035) .7px,transparent 1px) 0 0/26px 26px,
@@ -135,8 +129,7 @@ html[data-theme="dark"] .bgmesh{
 }
 html[data-theme="dark"] .bgmesh:before{opacity:.58}
 html[data-theme="dark"] .bgmesh:after{opacity:.6}
-html[data-theme="dark"] .cursor-aurora,
-html[data-theme="dark"] .cursor-trail{mix-blend-mode:screen;opacity:.48}
+html[data-theme="dark"] .fluid-canvas{mix-blend-mode:screen;opacity:.31;filter:blur(20px) saturate(150%) brightness(.85)}
 @keyframes auroraOne{
   0%{transform:translate3d(-7%,-5%,0) rotate(-7deg) scale(.98)}
   50%{transform:translate3d(24%,18%,0) rotate(10deg) scale(1.13)}
@@ -215,9 +208,9 @@ tbody tr{transition:background .2s ease}
   .archive-grid{grid-template-columns:1fr}.archive-card{padding:22px}
   .archive-hero{padding:29px 25px}.card-head{padding:18px}.card-pad{padding:0 17px 18px}
   .judgment{padding:25px 23px}.bgmesh:before,.bgmesh:after{filter:blur(48px);opacity:.72}
-  .cursor-aurora,.cursor-trail{display:none}
+  .fluid-canvas{display:none}
 }
 @media(prefers-reduced-motion:reduce){
   .bgmesh:before,.bgmesh:after{animation:none!important}
-  .cursor-aurora,.cursor-trail{display:none!important}
+  .fluid-canvas{display:none!important}
 }

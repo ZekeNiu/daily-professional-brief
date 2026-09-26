@@ -7,33 +7,6 @@ const badgeClass=p=>p==='重点关注'?'high':p==='值得了解'?'mid':'fast';
 const setTheme=()=>{const saved=localStorage.getItem('brief-theme');if(saved)document.documentElement.dataset.theme=saved};
 setTheme();
 $('#themeToggle')?.addEventListener('click',()=>{const n=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=n;localStorage.setItem('brief-theme',n)});
-function initAmbient(){
- const mesh=$('.bgmesh');
- if(!mesh||!matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)').matches)return;
- const glow=document.createElement('div'),trail=document.createElement('div');
- glow.className='cursor-aurora';trail.className='cursor-trail';mesh.append(glow,trail);
- const target={x:innerWidth/2,y:innerHeight/2};
- const lead={...target},wake={...target};
- let frame=0,glowWidth=glow.offsetWidth,glowHeight=glow.offsetHeight,trailWidth=trail.offsetWidth,trailHeight=trail.offsetHeight;
- function draw(){
-  lead.x+=(target.x-lead.x)*.12;lead.y+=(target.y-lead.y)*.12;
-  wake.x+=(target.x-wake.x)*.045;wake.y+=(target.y-wake.y)*.045;
-  glow.style.transform=`translate3d(${lead.x-glowWidth/2}px,${lead.y-glowHeight/2}px,0)`;
-  trail.style.transform=`translate3d(${wake.x-trailWidth/2}px,${wake.y-trailHeight/2}px,0)`;
-  if(Math.abs(target.x-lead.x)+Math.abs(target.y-lead.y)+Math.abs(target.x-wake.x)+Math.abs(target.y-wake.y)>.5){
-   frame=requestAnimationFrame(draw);
-  }else frame=0;
- }
- function moveTo(x,y){target.x=x;target.y=y;if(!frame)frame=requestAnimationFrame(draw)}
- moveTo(target.x,target.y);
- addEventListener('pointermove',e=>{if(e.pointerType==='mouse'||e.pointerType==='pen')moveTo(e.clientX,e.clientY)},{passive:true});
- addEventListener('resize',()=>{
-  glowWidth=glow.offsetWidth;glowHeight=glow.offsetHeight;
-  trailWidth=trail.offsetWidth;trailHeight=trail.offsetHeight;
-  moveTo(innerWidth/2,innerHeight/2)
- },{passive:true});
-}
-initAmbient();
 async function getJSON(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}
 function sourceLink(item){return item.source?.url||'#'}
 function badge(p){return '<span class="badge '+badgeClass(p)+'"><i class="badge-dot"></i>'+esc(p)+'</span>'}
