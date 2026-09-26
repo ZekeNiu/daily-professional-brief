@@ -1,0 +1,83 @@
+/* Stable frosted background. The visual base is CSS-only; JS only adds pointer-driven drift. */
+html{background:var(--bg)}
+body{background:transparent!important;position:relative;isolation:isolate}
+.bgmesh{
+  position:fixed!important;inset:0!important;z-index:-1!important;overflow:hidden;
+  pointer-events:none;isolation:isolate;
+  background:linear-gradient(128deg,#f2f9f6 0%,#eaf6f4 48%,#edf3fa 100%)!important;
+  animation:none!important
+}
+.bgmesh:before,.bgmesh:after{
+  content:""!important;position:absolute!important;border-radius:50%!important;
+  filter:blur(118px)!important;will-change:transform;z-index:0!important
+}
+.bgmesh:before{
+  width:92vw!important;height:92vw!important;min-width:760px!important;min-height:760px!important;
+  left:-38vw!important;top:-42vh!important;opacity:.30!important;
+  background:radial-gradient(circle at 53% 51%,rgba(86,204,183,.46) 0%,rgba(137,220,207,.22) 45%,transparent 74%)!important;
+  animation:frostAmbientA 28s ease-in-out infinite alternate!important
+}
+.bgmesh:after{
+  width:96vw!important;height:96vw!important;min-width:800px!important;min-height:800px!important;
+  right:-40vw!important;top:-30vh!important;opacity:.28!important;
+  background:radial-gradient(circle at 48% 49%,rgba(121,182,220,.42) 0%,rgba(159,207,224,.20) 47%,transparent 75%)!important;
+  animation:frostAmbientB 33s ease-in-out infinite alternate!important
+}
+.flow-driver{
+  position:absolute;inset:-14%;z-index:1;will-change:transform;
+  transform:translate3d(0,0,0) scale(1.08);transform-origin:50% 50%
+}
+.flow-field{
+  position:absolute;inset:-12%;
+  background:
+    radial-gradient(ellipse 78% 72% at 18% 30%,rgba(106,211,191,.55),rgba(132,218,207,.24) 43%,transparent 72%),
+    radial-gradient(ellipse 82% 78% at 77% 43%,rgba(137,192,224,.49),rgba(166,209,226,.22) 45%,transparent 73%),
+    radial-gradient(ellipse 72% 66% at 50% 83%,rgba(151,220,211,.34),rgba(178,221,224,.13) 48%,transparent 75%),
+    linear-gradient(128deg,#eaf7f3 0%,#e8f5f3 50%,#edf3fa 100%);
+  filter:blur(42px) saturate(104%);opacity:.72;transform:scale(1.08);
+  animation:fieldBreathe 24s ease-in-out infinite alternate;will-change:transform,background-position
+}
+.frost-veil{
+  position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:
+    linear-gradient(126deg,rgba(255,255,255,.22),rgba(255,255,255,.08) 48%,rgba(247,251,253,.18)),
+    radial-gradient(circle at 50% 10%,rgba(255,255,255,.20),transparent 58%);
+  box-shadow:inset 0 0 150px rgba(255,255,255,.17)
+}
+html[data-theme="dark"] .bgmesh{
+  background:linear-gradient(128deg,#091519 0%,#0b2024 48%,#101c2c 100%)!important
+}
+html[data-theme="dark"] .bgmesh:before{opacity:.22!important}
+html[data-theme="dark"] .bgmesh:after{opacity:.20!important}
+html[data-theme="dark"] .flow-field{
+  background:
+    radial-gradient(ellipse 78% 72% at 18% 30%,rgba(45,151,136,.45),rgba(55,133,130,.20) 43%,transparent 72%),
+    radial-gradient(ellipse 82% 78% at 77% 43%,rgba(55,112,164,.39),rgba(54,105,147,.17) 45%,transparent 73%),
+    radial-gradient(ellipse 72% 66% at 50% 83%,rgba(58,150,154,.22),rgba(58,111,139,.10) 48%,transparent 75%),
+    linear-gradient(128deg,#10282a 0%,#112d34 50%,#16263d 100%);
+  filter:blur(46px) saturate(108%) brightness(.80);opacity:.52
+}
+html[data-theme="dark"] .frost-veil{
+  background:linear-gradient(126deg,rgba(7,17,22,.25),rgba(10,21,30,.10) 48%,rgba(7,14,27,.22));
+  box-shadow:inset 0 0 150px rgba(4,13,22,.22)
+}
+@keyframes frostAmbientA{
+  0%{transform:translate3d(-3%,-2%,0) scale(1)}
+  100%{transform:translate3d(22%,16%,0) scale(1.09)}
+}
+@keyframes frostAmbientB{
+  0%{transform:translate3d(4%,-3%,0) scale(1.04)}
+  100%{transform:translate3d(-22%,19%,0) scale(.99)}
+}
+@keyframes fieldBreathe{
+  0%{transform:translate3d(-1.5%,-1%,0) scale(1.075);background-position:0% 0%,100% 0%,50% 100%,0 0}
+  50%{transform:translate3d(1.5%,1.1%,0) scale(1.10);background-position:8% 5%,94% 7%,47% 92%,0 0}
+  100%{transform:translate3d(-.6%,1.8%,0) scale(1.085);background-position:4% 9%,90% 2%,54% 88%,0 0}
+}
+@media(max-width:720px){
+  .flow-field{filter:blur(36px) saturate(103%);opacity:.62;animation-duration:32s}
+  .bgmesh:before,.bgmesh:after{filter:blur(82px)!important;opacity:.22!important}
+}
+@media(prefers-reduced-motion:reduce){
+  .bgmesh:before,.bgmesh:after,.flow-field{animation:none!important}
+}
