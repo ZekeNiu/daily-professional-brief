@@ -17,7 +17,10 @@
   let flowX = 0, flowY = 0, activeUntil = 0;
 
   const clamp = (value, low, high) => Math.max(low, Math.min(high, value));
-  const colors = [[94, 195, 177], [99, 153, 212]];
+  const colors = [
+    [171, 239, 213], [99, 212, 200], [85, 178, 225],
+    [126, 145, 229], [193, 170, 235]
+  ];
 
   function createField() {
     const screenWidth = innerWidth, screenHeight = innerHeight;
@@ -48,7 +51,7 @@
         const position = clamp(.08 + .74 * u + .10 * v + folds, 0, .999) * (colors.length - 1);
         const left = Math.floor(position), mix = position - left;
         const vein = .5 + .5 * Math.cos(v * 28.1 - u * 9.7 + Math.sin(u * 11.4) * 1.4);
-        const haze = .08 + .24 * vein ** 5;
+        const haze = .10 + .23 * vein ** 5;
         const i = y * width + x, at = i * 3;
         mapX[i] = x; mapY[i] = y;
         for (let channel = 0; channel < 3; channel++) {
@@ -189,7 +192,7 @@
           const sourceColor = original[source + channel] * w0 + original[source + channel + 3] * w1
             + original[source + channel + width * 3] * w2 + original[source + channel + (width + 1) * 3] * w3;
           dye[at + channel] = sourceColor * clear
-            + colors[0][channel] * mixA + colors[1][channel] * mixB;
+            + colors[1][channel] * mixA + colors[3][channel] * mixB;
         }
       }
     }
