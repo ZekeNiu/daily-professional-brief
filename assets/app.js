@@ -7,6 +7,34 @@ const badgeClass=p=>p==='重点关注'?'high':p==='值得了解'?'mid':'fast';
 const setTheme=()=>{const saved=localStorage.getItem('brief-theme');if(saved)document.documentElement.dataset.theme=saved};
 setTheme();
 $('#themeToggle')?.addEventListener('click',()=>{const n=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=n;localStorage.setItem('brief-theme',n)});
+function initAmbient(){
+ const mesh=$('.bgmesh');
+ if(!mesh||!matchMedia('(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)').matches)return;
+ const glow=document.createElement('div'),trail=document.createElement('div');
+ glow.className='cursor-aurora';trail.className='cursor-trail';mesh.append(glow,trail);
+ const target={x:innerWidth/2,y:innerHeight/2};
+ const lead={...target},wake={...target};
+ let frame=0,glowWidth=glow.offsetWidth,glowHeight=glow.offsetHeight,trailWidth=trail.offsetWidth,trailHeight=trail.offsetHeight;
+ function draw(){
+  lead.x+=(target.x-lead.x)*.12;lead.y+=(target.y-lead.y)*.12;
+  wake.x+=(target.x-wake.x)*.045;wake.y+=(target.y-wake.y)*.045;
+  glow.style.transform=`translate3d(${lead.x-glowWidth/2}px,${lead.y-glowHeight/2}px,0)`;
+  trail.style.transform=`translate3d(${wake.x-trailWidth/2}px,${wake.y-trailHeight/2}px,0)`;
+  if(Math.abs(target.x-lead.x)+Math.abs(target.y-lead.y)+Math.abs(target.x-wake.x)+Math.abs(target.y-wake.y)>.5){
+   frame=requestAnimationFrame(draw);
+  }else frame=0;
+ }
+ function moveTo(x,y){target.x=x;target.y=y;if(!frame)frame=requestAnimationFrame(draw)}
+ moveTo(target.x,target.y);
+ addEventListener('pointermove',e=>{if(e.pointerType==='mouse'||e.pointerType==='pen')moveTo(e.clientX,e.clientY)},{passive:true});
+ document.addEventListener('pointerleave',()=>moveTo(innerWidth/2,innerHeight/2));
+ addEventListener('resize',()=>{
+  glowWidth=glow.offsetWidth;glowHeight=glow.offsetHeight;
+  trailWidth=trail.offsetWidth;trailHeight=trail.offsetHeight;
+  moveTo(innerWidth/2,innerHeight/2)
+ },{passive:true});
+}
+initAmbient();
 async function getJSON(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}
 function sourceLink(item){return item.source?.url||'#'}
 function badge(p){return '<span class="badge '+badgeClass(p)+'"><i class="badge-dot"></i>'+esc(p)+'</span>'}
@@ -58,7 +86,7 @@ function renderBrief(d){
    const cards=items.map(x=>{
       idx++;
       const search=(x.title+' '+x.one_liner+' '+x.practice+' '+x.what+' '+x.why+' '+x.limit+' '+x.evidence).toLowerCase();
-      return '<article class="card" data-domain="'+esc(domain)+'" data-search="'+esc(search)+'"><div class="card-head"><div class="card-index">'+String(idx).padStart(2,'0')+'</div><div>'+badge(x.priority)+'<div class="card-title">'+esc(x.title)+'</div><div class="card-one">'+esc(x.one_liner)+'</div></div><div class="chev">⌄</div></div><div class="card-detail"><div class="card-inner"><div class="card-pad"><div class="info-grid"><div class="info"><h4>发生了什么</h4><p>'+esc(x.what)+'</p></div><div class="info"><h4>为什么值得关注</h4><p>'+esc(x.why)+'</p></div><div class="info"><h4>对实践的意义</h4><p>'+esc(x.practice)+'</p></div><div class="info warn"><h4>关键限制 / 不要误读</h4><p>'+esc(x.limit)+'</p></div></div><div class="evidence"><span>'+esc(x.evidence)+'</span><span>置信度：'+esc(x.confidence)+'</span></div><a class="source" href="'+esc(sourceLink(x))+'" target="_blank" rel="noopener"><span>查看原始来源</span><span>↗</span></a></div></div></div></article>';
+      return '<article class="card" data-domain="'+esc(domain)+'" data-search="'+esc(search)+'"><div class="card-head" role="button" tabindex="0" aria-expanded="false" aria-controls="detail-'+idx+'"><div class="card-index">'+String(idx).padStart(2,'0')+'</div><div>'+badge(x.priority)+'<div class="card-title">'+esc(x.title)+'</div><div class="card-one">'+esc(x.one_liner)+'</div></div><div class="chev" aria-hidden="true">⌄</div></div><div class="card-detail" id="detail-'+idx+'" inert><div class="card-inner"><div class="card-pad"><div class="info-grid"><div class="info"><h4>发生了什么</h4><p>'+esc(x.what)+'</p></div><div class="info"><h4>为什么值得关注</h4><p>'+esc(x.why)+'</p></div><div class="info"><h4>对实践的意义</h4><p>'+esc(x.practice)+'</p></div><div class="info warn"><h4>关键限制 / 不要误读</h4><p>'+esc(x.limit)+'</p></div></div><div class="evidence"><span>'+esc(x.evidence)+'</span><span>置信度：'+esc(x.confidence)+'</span></div><a class="source" href="'+esc(sourceLink(x))+'" target="_blank" rel="noopener"><span>查看原始来源</span><span>↗</span></a></div></div></div></article>';
    }).join('');
    return '<section class="section" id="'+id+'"><div class="section-head"><span class="num">'+num+'</span><div><h2>'+domain+'</h2><p class="sub">'+esc(note||'')+'</p></div></div><div class="section-intro"><b>本板块重点：</b>'+esc(note||'')+'</div><div class="cards">'+cards+'</div></section>';
  }).join('');
@@ -66,8 +94,14 @@ function renderBrief(d){
  bindBriefInteractions();
 }
 function bindBriefInteractions(){
- const cards=$$('.card');cards.forEach(c=>c.querySelector('.card-head').addEventListener('click',()=>c.classList.toggle('open')));
- $('#expandAll')?.addEventListener('click',e=>{const open=cards.some(c=>!c.classList.contains('open'));cards.forEach(c=>c.classList.toggle('open',open));e.currentTarget.textContent=open?'收起全部':'展开全部'});
+ const cards=$$('.card');
+ const setOpen=(card,open)=>{card.classList.toggle('open',open);card.querySelector('.card-head').setAttribute('aria-expanded',String(open));card.querySelector('.card-detail').inert=!open};
+ cards.forEach(card=>{
+  const head=card.querySelector('.card-head');
+  head.addEventListener('click',()=>setOpen(card,!card.classList.contains('open')));
+  head.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();setOpen(card,!card.classList.contains('open'))}})
+ });
+ $('#expandAll')?.addEventListener('click',e=>{const open=cards.some(c=>!c.classList.contains('open'));cards.forEach(c=>setOpen(c,open));e.currentTarget.textContent=open?'收起全部':'展开全部'});
  let domain='全部',query='';
  function apply(){
    const visible=x=>(domain==='全部'||x.dataset.domain===domain)&&(!query||x.dataset.search.includes(query));
