@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "date": "2026-09-29",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 8,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 2,
+      "AI": 3,
+      "全球重要事件": 0
+    },
+    "signal": "今天的共同信号是：指标、模型或AI方案只有在改变了原本会做出的决定，并改善了运动员或工作流结果时，才真正具有可执行价值；可靠性、拟合优度和厂商基准都只是证据链的中间环节。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：运动监控正在从“指标是否可靠”走向“信息是否改变决策、决策是否改善结果”；同时，纵向模型必须检查参数可接受性，不能只报告漂亮的拟合指数。",
+    "运动健康": "本板块重点：新的脊柱侧弯与头部撞击研究都提供了信号，但高异质性、横断面设计和探索性分析决定了它们尚不能变成确定处方或损伤结论。",
+    "AI": "本板块重点：一方面，中档模型的能力—成本比继续提高；另一方面，Agent安全开始从模型内部约束转向独立运行时、硬件监控和有监督的结构化工作流。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "监控指标到决策证据",
+      "title": "运动监控的新评价底线：指标可靠不等于可执行，必须验证它是否改变决策并改善结果",
+      "one_liner": "新观点论文将actionability拆成“决策影响”和“结果证据”，要求监控系统证明信息真正改变了原本的教练决策，并使运动员受益。",
+      "practice": "对CMJ、HRV、问卷或负荷看板，应记录无监控信息时的原决策、信息出现后的决策变化、执行情况和随后结果，形成可审计的决策链。",
+      "evidence": "同行评议观点论文；提出评价框架与实施研究路径",
+      "confidence": "中（框架合理性）；低—中（具体应用效果）",
+      "what": "Frontiers接受《From Monitoring Metrics to Decision Evidence: Validating Actionability in Applied Sport Science》。作者指出，测量验证、设备准确和指标与候选行动的关联都不足以证明“可执行”。文章区分两层证据：decision impact，即信息是否改变原本会做出的决定；outcome evidence，即该决定是否改善或保护运动员相关结果，并进一步要求评估执行忠实度和实施负担。",
+      "why": "高水平运动已经能够收集大量生理、生物力学和情境数据，但“被展示在看板上”与“产生更好决策”不是同一件事。这一框架把监控价值从指标属性转回决策效用。",
+      "limit": "这是观点与方法框架，不是随机试验证明某类看板有效。决策影响也不自动等于好结果；教练改变了决定，仍可能改变得更差。",
+      "source": {
+        "title": "From Monitoring Metrics to Decision Evidence: Validating Actionability in Applied Sport Science",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1983979/abstract"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "艺术体操多维监控",
+      "title": "8名高水平艺术体操运动员的8周监控：生理与心理指标可同步观察，但尚不能筛出有效预警阈值",
+      "one_liner": "探索性研究发现irisin随赛前训练期上升，并与部分心理变量相关，但样本仅8人且多重探索使结果更适合生成假设。",
+      "practice": "多维监控应优先观察个体轨迹和跨指标一致性；不要因某项血液或心理指标出现相关就设置统一红黄灯。",
+      "evidence": "同行评议探索性纵向试点；8名高水平女性艺术体操运动员，8周",
+      "confidence": "低",
+      "what": "研究在8周赛前期跟踪8名高水平女性艺术体操运动员，监测心率、血脂、尿检、血常规、体成分、RPE、训练状态量表和irisin。irisin浓度出现名义显著上升；其变化与平均情绪压力呈强负相关，并与心理耗竭出现探索性正相关。多数心理指标未显示清晰纵向变化。",
+      "why": "它展示了密集赛前阶段如何把生理、血液与感知指标放在同一时间轴上，而不是依赖单一问卷或单一生物标志物。",
+      "limit": "n=8、单队列、无对照，相关分析具有探索性且结果报告使用名义p值；irisin的训练意义和临床阈值并未建立。",
+      "source": {
+        "title": "Exploratory Longitudinal Monitoring of Physiological, Hematological, Psychological, and Irisin Responses During an 8-Week Pre-Competition Period in Elite Rhythmic Gymnasts",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1925319/abstract"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "十项全能模型失配",
+      "title": "十项全能纵向模型的负结果：CFI和RMSEA看起来良好，参数解仍可能不可接受",
+      "one_liner": "179名日本大学十项全能运动员的纵向CFA全局拟合良好，但潜变量相关超过理论范围，无法建立构型不变性。",
+      "practice": "建立选材、能力结构或年度发展模型时，应同时检查相关矩阵正定性、潜变量可区分性、缺失机制和参数边界，不能只看CFI/RMSEA。",
+      "evidence": "同行评议纵向统计研究；2000–2024年正式比赛记录，n=179",
+      "confidence": "中",
+      "what": "研究汇总179名日本大学十项全能运动员2000–2024年的正式比赛记录，检验三因素结构能否跨大学年级成立。模型全局拟合为CFI 0.982、RMSEA 0.047，看似良好；但潜变量协方差矩阵非正定，最大潜变量相关达到|r|=1.006，因此模型解不可接受，构型不变性不能成立。",
+      "why": "这是运动数据分析中很实用的反例：漂亮的拟合指数可能与不可能或不可解释的参数同时出现。",
+      "limit": "样本来自日本大学十项全能体系，第一学年记录存在非完全随机缺失；结果不否定所有三因素能力结构，只说明该纵向设定尚未被数据支持。",
+      "source": {
+        "title": "A three-factor representation of decathlon performance yielded an inadmissible longitudinal CFA solution across academic years in Japanese collegiate decathletes",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1830906/abstract"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "青少年脊柱侧弯运动疗法",
+      "title": "网络荟萃分析：非专项运动可能改善青少年特发性脊柱侧弯，但治疗排序远不稳固",
+      "one_liner": "直接证据显示Cobb角平均变化约−5.28°，但I²高达98%、预测区间跨零，柔韧与核心训练的排名只能视为探索性。",
+      "practice": "普通柔韧或核心训练可作为综合管理的候选组成，但不能根据SUCRA排名宣称某一模式最佳，也不能替代曲线特异评估和随访。",
+      "evidence": "同行评议系统综述与网络荟萃分析",
+      "confidence": "低",
+      "what": "研究比较青少年特发性脊柱侧弯的非专项运动疗法。两两随机效应模型提示，运动相较对照的Cobb角平均差为−5.28°，但异质性I²=98%，95%预测区间为−20.18°至9.62°并跨越零。网络分析中脊柱柔韧训练和核心肌群训练排名较高。",
+      "why": "它同时提供了可能的临床信号和清晰的不确定性边界，提醒实践者不要把网络排名当作确定的治疗优先级。",
+      "limit": "证据网络稀疏，包含小样本与非随机研究，存在偏倚、传递性和干预定义差异；平均变化不能代表每种曲线类型或个体均有临床获益。",
+      "source": {
+        "title": "Comparative effects of non-specific exercise therapies on adolescent idiopathic scoliosis: a systematic review and network meta-analysis",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1901060/full"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "泰拳重复头部撞击",
+      "title": "精英泰拳横断面研究：整体认知未差于短跑对照，但累计撞击暴露与部分执行功能指标相关",
+      "one_liner": "44名精英男性泰拳运动员与42名短跑运动员整体神经认知无显著差异；泰拳组内部的自报累计暴露与部分执行功能、TMT和Stroop结果相关。",
+      "practice": "格斗项目不应只做一次总分筛查；更合理的是建立客观撞击暴露、症状和重复神经认知评估的纵向基线。",
+      "evidence": "同行评议横断面匹配运动员对照研究；n=86",
+      "confidence": "低—中",
+      "what": "研究比较44名15–25岁精英男性泰拳运动员与42名男性短跑运动员，使用记忆、抑制控制、执行功能、注意和处理速度测试。两组在任务和领域层面均无显著差异；但泰拳组内部，自报代理指标形成的累计头部撞击暴露与执行功能复合分、TMT-A/B及Stroop干扰时间出现探索性关联。",
+      "why": "结果避免了两种简单化解释：既不能说格斗暴露必然造成普遍认知损害，也不能因组间无差异就认定重复头部撞击无影响。",
+      "limit": "横断面设计无法判断因果；撞击暴露依赖回顾性代理指标，探索性相关未进行多重比较校正，且仅纳入男性。",
+      "source": {
+        "title": "Sport-related neurocognitive performance and repetitive head-impact exposure in elite Muay Thai athletes: a matched athletic-control study",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1908733/full"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Claude Sonnet 5.5",
+      "title": "Anthropic发布Claude Sonnet 5.5：速度提高30%以上，单任务成本降低，但巨大基准跃升需谨慎核验",
+      "one_liner": "新模型保持每百万输入2美元、输出10美元定价，官方称生成速度提高30%以上、多数任务成本最多下降30%，并强化编码与长程工具使用。",
+      "practice": "高频编码和结构清晰的知识工作可先用小规模真实任务A/B测试；比较完成率、总tokens、工具调用次数、返工和人工复核，而非直接按基准换模。",
+      "evidence": "Anthropic官方产品发布与系统卡；能力数字以厂商及合作方评测为主",
+      "confidence": "高（发布、价格与可用性）；中（相对能力和成本幅度）",
+      "what": "Anthropic于9月28日发布Claude Sonnet 5.5，称其较Sonnet 5生成速度提高30%以上，多数任务成本最多降低30%，API价格仍为每百万输入tokens 2美元、输出10美元。官方报告Terminal-Bench 4.0从10.3%升至70.6%，并称其在若干编码、知识工作和计算机使用评测中接近Opus 5.5。模型已在Claude平台和主要云平台提供。",
+      "why": "如果中档模型在较低成本下接近高端模型，大批量代码审查、文档处理、表格和常规Agent任务的最优模型组合会发生变化。",
+      "limit": "异常大的基准跃升可能同时受到模型、Agent harness、effort设定和评测版本影响；厂商也承认不同评测配置不完全一致，且开放式复杂判断仍由Opus占优。",
+      "source": {
+        "title": "Introducing Claude Sonnet 5.5",
+        "url": "https://www.anthropic.com/claude-sonnet-5-5"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "NVIDIA Agent安全平台",
+      "title": "NVIDIA推出Open Agent Safety Platform：将Agent约束下沉到独立运行时与硬件旁路监控",
+      "one_liner": "OpenShell在运行时追踪并执行策略，Sentry在BlueField-4 DPU上独立监控，可在Agent越界时隔离停止；软件部分已开放。",
+      "practice": "敏感Agent应把策略执行放在模型无法修改的边界之外，并以独立身份、出站控制、工具级授权、不可篡改遥测和人工升级共同治理。",
+      "evidence": "NVIDIA官方发布 + Reuters核验；新平台与参考设计",
+      "confidence": "高（发布与架构事实）；中低（实际防护效果）",
+      "what": "NVIDIA于9月28日发布Open Agent Safety Platform。OpenShell提供独立于模型和Agent harness的安全运行时，追踪动作并执行策略；Sentry参考设计运行于BlueField-4 DPU，从带外信任域持续监控行为，并宣称可在越界时毫秒级隔离。平台获得多家模型、软件、金融和基础设施机构参与，OpenShell及相关技能已提供开发者资源。",
+      "why": "近期Agent事件反复显示，依赖模型自我约束或应用层提示不足以构成安全边界。独立运行时与带外监控把“不能做什么”变成系统可执行策略。",
+      "limit": "大量合作与架构描述来自发布方；“本可阻止既往事件”属于反事实主张，尚缺独立红队、性能开销和跨平台生产数据。部分硬件能力仍是参考设计或未来交付。",
+      "source": {
+        "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment",
+        "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "ChatGPT辅助运动处方",
+      "title": "教师监督的ChatGPT运动计划试点：提升个性化感受，但6周内多数体能结果未优于常规教学",
+      "one_liner": "两班共60名非体育专业学生的集群试点显示，AI组目标心率区间时间和个性化评分略高，但多数身体与功能结局无显著组间差异。",
+      "practice": "AI更适合作为结构化处方草拟器，由教师或专业人员审核风险、负荷和进阶；评价时应区分“感觉更个性化”与“取得更好结果”。",
+      "evidence": "同行评议两阶段研究：模糊Delphi + 6周集群试点，n=60",
+      "confidence": "低—中",
+      "what": "研究先以两轮模糊Delphi建立49项结构化输入框架，再将两个完整大学体育班通过投币分配为教师监督的ChatGPT辅助组和常规组，各30人，干预6周。AI组目标心率区间时间约33.95对32.60分钟，感知个性化评分4.0对3.2；出勤、完成率和RPE相近，多数身体与功能指标无显著差异，未发生严重不良事件。",
+      "why": "它提供了比“让ChatGPT写训练计划”更可取的实施模型：结构化输入、专业人员监督、风险信息和可审计流程。",
+      "limit": "两班集群试点、样本小、干预短，未做到个体随机；安全结论不能外推到临床康复、竞技运动员或无人监督使用，研究也没有证明长期体能或伤病获益。",
+      "source": {
+        "title": "Feasibility of a teacher-supervised ChatGPT-assisted workflow for individualized exercise planning in university physical education: a two-phase study using a fuzzy Delphi process and a cluster pilot trial",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1896856/full"
+      }
+    }
+  ],
+  "professional_judgment": "今天最重要的不是增加一个指标或换一个模型，而是补齐“信息—决策—执行—结果”链条。运动监控看板应能回答：如果没有这条信息，教练原本会怎么做；信息出现后决定是否改变；改变是否按计划执行；运动员结果是否更好。艺术体操试点说明多维监控可以丰富上下文，却不能凭小样本相关建立阈值；十项全能研究进一步提醒，统计模型即便全局拟合漂亮，也必须通过参数边界、潜变量可区分性和缺失机制审计。AI侧同样如此：Sonnet 5.5的厂商基准需要在真实任务中复测，ChatGPT运动计划的个性化体验不等于体能获益，而NVIDIA把安全控制放到独立运行时和硬件信任域，代表Agent治理从“要求模型守规矩”转向“让系统边界可执行、可审计”。"
+}
