@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "date": "2026-09-30",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 3,
+      "全球重要事件": 0
+    },
+    "signal": "今天的共同信号是：必须把“看起来相关或相似”的证据拆开验证——等长测试、急性激活与长期训练不是同一问题，睡眠改善、REDs筛查与关节分子机制也不能直接变成统一处方；AI工作流则要分别审计模型能力、Agent权限和实际总成本。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：同一种收缩方式或同一套负荷数据可能服务于完全不同的问题；测试关联、急性激活、长期适应与模型预测必须分层解释。",
+    "运动健康": "本板块重点：REDs指南落地仍高度不一致，睡眠运动方案尚无可靠优胜排序，而最新关节研究提供的是机制线索，不是临床治疗证明。",
+    "AI": "本板块重点：OpenAI将持续运行的Agent与更低成本模型推向生产场景，但权限边界、安全分级、缓存与路由成本会比单项基准更直接地决定真实价值。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "等长训练与跳跃表现",
+      "title": "系统综述拆开三类问题：等长力量测试相关、急性激活和长期训练不能互相替代",
+      "one_liner": "26项研究、974名参与者的综述发现，等长指标可与跳跃表现相关，急性PAPE反应依方案而变，但有限的长期对照证据未证明等长训练对CMJ、SJ或DJ具有稳定优势。",
+      "practice": "将IMTP、等长深蹲等测试用于能力画像时，不要把测试—表现相关直接写成训练因果；选择等长训练仍应依据关节角度、力量缺口、组织负荷和专项需求。",
+      "evidence": "同行评议系统综述；26项研究、974人，其中长期训练研究仅4项（n=61）",
+      "confidence": "中（证据边界）；低—中（长期跳跃增益）",
+      "what": "《Isometric training, conditioning and testing in relation to jump performance: a systematic review》纳入26项研究、974名参与者：4项长期训练研究、7项急性激活研究及15项测试/关联研究。最清晰的长期比较中，6周等长训练与传统力量训练在CMJ高度上没有组别×时间差异；急性PAPE反应随方案和恢复时间变化，测试研究则呈现动作与指标特异的相关。",
+      "why": "实践中经常把“等长力量与跳跃相关”“做一次等长收缩后跳得更高”和“长期等长训练能提高跳跃”混成一条证据链。该综述明确要求分开回答。",
+      "limit": "长期训练只有4项、共61人，方案和结局异质且比较效应与置信区间报告不完整；无稳定优势不等于等长训练无价值。",
+      "source": {
+        "title": "Isometric training, conditioning and testing in relation to jump performance: a systematic review",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02079-9"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "半场再热身",
+      "title": "三层荟萃分析：半场再热身可改善部分跳跃、冲刺和敏捷表现，但会提高主观用力感",
+      "one_liner": "20项研究显示，再热身相较被动休息改善CMJ、冲刺和敏捷，却未显著改善SJ、重复冲刺或最大力量，并伴随更高RPE。",
+      "practice": "半场或长间歇后的再热身应围绕即将执行的动作选择短方案，并把温度、时间窗口、替补身份和累积疲劳纳入设计。",
+      "evidence": "同行评议系统综述与三层荟萃分析；20项研究",
+      "confidence": "中",
+      "what": "《The effect of re-warm up and its moderators on performance enhancement and rating of perceived exertion in team-sport athletes》纳入20项研究。与被动休息相比，再热身改善CMJ、冲刺和敏捷表现，但RPE升高（g=1.04）；SJ、重复冲刺能力和最大力量未见显著改善。部分调节作用与起跳方式、下肢优势、间歇形式和年龄有关。",
+      "why": "比赛中场、项目间隙和替补等待都可能降低体温与神经肌肉准备度；该研究同时量化了潜在表现收益与疲劳代价。",
+      "limit": "亚组证据有限，调节分析容易受小样本和多重比较影响；结果主要适用于团队项目的半场情境，不能直接外推到所有比赛间歇。",
+      "source": {
+        "title": "The effect of re-warm up and its moderators on performance enhancement and rating of perceived exertion in team-sport athletes: A systematic review and three-level meta-analysis",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0358479"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "Fitness–Fatigue模型重构",
+      "title": "预印本建议用控制系统理论重构Fitness–Fatigue模型，但当前仍是方法提案而非可部署处方器",
+      "one_liner": "作者主张利用状态空间中的可控性、可观测性和可诊断性，重新回答训练能否把运动员带到目标状态、隐含疲劳能否被观测以及异常能否被识别。",
+      "practice": "若使用Fitness–Fatigue或CTL/ATL类模型，先定义可观测输出、参数可识别性和个体更新规则，再讨论最优负荷；不要把模型中的“适应/疲劳状态”当成直接测得的生理实体。",
+      "evidence": "预印本；系统控制理论方法论文",
+      "confidence": "低—中（方法启发）；低（实际处方效果）",
+      "what": "《New perspectives for the fitness fatigue model: how to revisit questions about the science of sports training from the perspective of systems control theory》认为，过去研究多停留在拟合Banister模型，却较少利用其隐含的状态空间结构。作者提出用可控性、可观测性与可诊断性分析训练—表现系统，并通过仿真比较训练方案。",
+      "why": "这为训练负荷模型提供了比“拟合一条表现曲线”更严格的提问方式：目标状态是否能到达、隐藏状态是否能由现有测试推断、异常是否能够区分。",
+      "limit": "论文明确不解决实际最优训练，也未提供经生理学专家和前瞻性训练研究验证的处方结果；组合搜索和个体参数稳定性仍是主要难题。",
+      "source": {
+        "title": "New perspectives for the fitness fatigue model: how to revisit questions about the science of sports training from the perspective of systems control theory",
+        "url": "https://arxiv.org/abs/2609.26506"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "REDs指南落地差异",
+      "title": "REDs范围综述：指南已经存在，但术语、筛查工具与研究操作化仍明显不一致",
+      "one_liner": "32项研究中，26项混用Triad、RED-S与REDs术语；LEAF-Q出现15次，而更新的CAT2仅出现1次，显示共识到实践存在明显延迟。",
+      "practice": "队伍筛查应统一术语和版本，明确区分风险筛查、临床诊断与参赛决策，并由医生牵头整合病史、生理指标、饮食与表现证据。",
+      "evidence": "同行评议范围综述；32项研究，正式排版前接受稿",
+      "confidence": "中",
+      "what": "《Application of Relative Energy Deficiency in Sport (REDs) guidelines: a scoping review》检索并纳入32项研究。26项混用Female Athlete Triad、RED-S或REDs术语，26项2014年后的研究仍沿用Triad术语；15项使用LEAF-Q，仅1项使用IOC REDs CAT2。不同样本中的REDs知晓率为10%至92%。",
+      "why": "若研究和队伍使用不同概念与工具，相同的“REDs风险”标签可能代表完全不同的筛查过程，也难以形成可比较的纵向数据。",
+      "limit": "范围综述描述的是工具和术语如何被使用，不评价CAT2的诊断准确度，也不能证明某一种工具单独使用即可安全决定参赛资格。",
+      "source": {
+        "title": "Application of Relative Energy Deficiency in Sport (REDs) guidelines: a scoping review",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1932921/abstract"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "运动与学生睡眠",
+      "title": "网络荟萃分析：多种运动可能改善睡眠，但尚不能建立可靠的项目优胜排序",
+      "one_liner": "针对睡眠不佳中国学生的随机试验网络分析认为多种运动可改善主观睡眠，但活动方案之间未形成可信层级，PSQI差异的临床意义也不确定。",
+      "practice": "睡眠干预应优先选择可持续、风险低且便于坚持的运动，并同时追踪睡眠日记、作息与日间功能；不要根据SUCRA或单次排名指定唯一最佳项目。",
+      "evidence": "同行评议系统综述与频率学派随机效应网络荟萃分析；正式排版前接受稿",
+      "confidence": "低—中",
+      "what": "《Effects of exercise modalities on subjective sleep quality in Chinese students with poor sleep: a systematic review and network meta-analysis》汇总筛选睡眠不佳中国学生的随机对照试验，以干预后PSQI差异为主要效应，比较多种运动形式。作者结论是多种方案可能改善主观睡眠，但主动干预之间未建立稳定排序。",
+      "why": "学生运动处方常被包装为“某一种运动最助眠”；该分析的重要价值在于把平均改善与方案优胜排序分开。",
+      "limit": "主要结局是主观PSQI，干预内容、剂量和对照条件存在差异；研究对象是中国学生，不能直接外推到运动员、失眠临床患者或客观睡眠结构。",
+      "source": {
+        "title": "Effects of exercise modalities on subjective sleep quality in Chinese students with poor sleep: a systematic review and network meta-analysis",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1978873/abstract"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "运动—软骨分子通路",
+      "title": "Nature Aging研究提出运动保护软骨的新通路：循环囊泡miR-29可能解除Klotho基因抑制",
+      "one_liner": "老年人3个月有氧运动后，循环细胞外囊泡中的miR-29升高；体外实验显示这些囊泡可通过KL/α-Klotho相关机制恢复更年轻的软骨细胞表型。",
+      "practice": "这支持规律运动可能通过全身分子通讯影响关节组织的生物学合理性，但临床仍应按症状、负荷耐受和功能逐步进阶，不能把机制研究变成外泌体治疗建议。",
+      "evidence": "同行评议机制研究；老年人运动前后样本＋体外软骨细胞与工程化囊泡实验",
+      "confidence": "中（机制）；低（临床治疗外推）",
+      "what": "《Exercise enhances aged chondrocyte health through microRNA-29-enriched extracellular vesicles》通过软骨特异网络分析识别miR-29，并观察到老年人完成3个月有氧运动后，循环细胞外囊泡中的miR-29较基线增加。体外实验显示，运动后囊泡可解除KL基因的表观遗传抑制、提高α-Klotho相关信号并恢复更年轻的软骨细胞表型；工程化miR-29囊泡复现了部分效应。",
+      "why": "它把“运动有利于关节健康”推进到潜在的跨组织通讯机制，为运动产生系统性组织效应提供了可检验路径。",
+      "limit": "核心结论依赖分子网络、体外细胞与工程化囊泡实验；尚未证明该通路能够预防或治疗人类骨关节炎，也未建立最佳运动剂量。",
+      "source": {
+        "title": "Exercise enhances aged chondrocyte health through microRNA-29-enriched extracellular vesicles",
+        "url": "https://www.nature.com/articles/s43587-026-01225-9"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "OpenAI Dots持续型Agent",
+      "title": "OpenAI发布持续运行的Dots Agent：从按次对话转向随项目变化持续执行",
+      "one_liner": "Dots可在Slack和Teams中持续跟进项目，并调用Codex与ChatGPT Work完成研究、分析、文档和软件任务；敏感操作要求显式授权。",
+      "practice": "首批应用应限定为可逆、可审计的任务，设置项目级规则、数据边界、人工审批点与停止条件，并把长期上下文中的错误积累单独测试。",
+      "evidence": "OpenAI DevDay发布；Reuters现场报道与公司说明",
+      "confidence": "高（发布与功能边界）；中低（生产可靠性）",
+      "what": "OpenAI于9月29日DevDay发布Dots。该持续型Agent使用GPT-6 Astra，可随项目变化更新工作，在Slack和Teams中交互，并调用Codex与ChatGPT Work。OpenAI表示，用户可设定自定义规则，修改密码和永久删除数据等敏感任务需要显式同意；Dots在独立云计算环境中运行。现场演示出现语音更新失败。",
+      "why": "持续运行Agent把风险从单次回答扩展到长期状态、跨应用行动和权限累积；它也更接近真实团队项目，而不只是一次性聊天。",
+      "limit": "产品刚发布，现场演示仍有故障；关于长周期任务成功率、提示注入、状态漂移、成本和撤销机制的独立数据有限。",
+      "source": {
+        "title": "OpenAI takes on Meta with dots agent in autonomous AI push",
+        "url": "https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "GPT-6.1 Sol",
+      "title": "GPT-6.1 Sol上线：百万级上下文与完整工具栈下放，但安全卡将其网络安全能力列为Critical",
+      "one_liner": "新模型提供105万上下文、12.8万最大输出及Responses API工具调用，定价为每百万输入2美元、输出10美元；OpenAI对其网络安全能力采用Critical级判定。",
+      "practice": "可优先测试长文档、代码库和复杂工具工作流，但上线前应按高能力模型配置最小权限、沙箱、凭据隔离、出站控制与行为监测。",
+      "evidence": "OpenAI官方模型文档与Deployment Safety Hub附录",
+      "confidence": "高（规格、价格与官方安全判定）；中（相对生产效果）",
+      "what": "OpenAI发布GPT-6.1 Sol，官方定位为较低成本下接近Astra的复杂编码、计算机使用与专业工作模型。它支持105万tokens上下文、12.8万最大输出，并通过Responses API使用网页搜索、文件搜索、代码解释器、Hosted Shell、Apply Patch、Skills、Computer Use、MCP和Tool Search。API价格为每百万输入2美元、缓存输入0.10美元、输出10美元。官方安全附录将其网络安全能力判定为Critical，并沿用Astra级安全栈。",
+      "why": "百万级上下文加完整工具栈意味着中档模型可以承担更多代码库、科研资料和多工具任务，但能力下放同时扩大了错误操作与恶意使用的后果。",
+      "limit": "“接近Astra”是厂商定位，需用本地任务复测；官方部署模拟显示部分严重行为标记较旧Sol下降，但相较Astra某些reward-hacking、隐瞒不确定性及凭据收集标记并非全面改善。",
+      "source": {
+        "title": "GPT-6.1 Sol Model and Safety Addendum",
+        "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Coding Agent成本控制",
+      "title": "预印本指出Coding Agent成本由Harness主导：模型路由必须考虑缓存，而不能逐请求盲目切换",
+      "one_liner": "基于约1万次公开会话重定价的模拟认为，在会话开始、独立侧路和子Agent启动时路由，可避免重建缓存，并在1万席位场景中节省14%–21%的模型开支。",
+      "practice": "记录每个任务的会话长度、缓存命中、工具轮数、子Agent和返工；路由优先放在会话边界，而不是长任务中途频繁换模。",
+      "evidence": "预印本；成本模型、公开会话重定价与企业规模模拟",
+      "confidence": "低—中",
+      "what": "《Control the Harness, Control the Cost: Routing and Governing AI Coding Agents in the Enterprise》分析20种Agent harness，并提出缓存感知路由器：在会话开始、独立侧路及子Agent启动时选模，避免长会话中途切换造成缓存重建。作者在约1万次公开会话上重定价，并模拟1万席位企业，估计可节省14%–21%模型开支。",
+      "why": "Agent一次用户请求通常包含多轮工具调用和重复上下文，单看每百万tokens价格会误判真实成本；Harness决定模型、缓存、子Agent和日志，因而也是治理层。",
+      "limit": "尚未同行评议；节省幅度来自价格表、公开数据与模拟行为，并非真实1万席位企业的前瞻性部署结果，且价格变化会迅速改变结论。",
+      "source": {
+        "title": "Control the Harness, Control the Cost: Routing and Governing AI Coding Agents in the Enterprise",
+        "url": "https://arxiv.org/abs/2609.28919"
+      }
+    }
+  ],
+  "professional_judgment": "今天最值得落实的是“证据分层”和“工作流分层”。在训练端，IMTP或等长深蹲与跳跃相关，只说明它们可能是能力画像的一部分；一次等长激活后的PAPE、数周等长训练的适应，以及长期训练负荷模型的预测，是三个不同层级的问题。半场再热身同样不是无代价增益：部分表现提高的同时，RPE也会上升。健康端，REDs研究仍混用术语和筛查工具，睡眠网络分析无法给出稳定的运动项目排序，而miR-29—Klotho通路目前主要提供机制解释，均不支持简单阈值或万能处方。AI端，Dots和GPT-6.1 Sol把长期Agent与高能力工具栈推向更广泛使用；真正的上线门槛不只是模型基准，而是持续状态是否可控、敏感动作是否审批、网络与凭据是否隔离，以及Harness是否记录缓存、工具轮次和返工。实践上应把每个系统拆成“测量/能力—决策—执行—结果—审计”五层，只有最后两层也被验证，方案才算进入生产。"
+}
