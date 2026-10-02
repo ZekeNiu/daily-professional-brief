@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "date": "2026-10-03",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 4,
+      "全球重要事件": 0
+    },
+    "signal": "今天最清晰的信号是：先验证数据与控制边界，再讨论优化——运动表现模型会受记录约定、仿真假设和主观量表限制；康复与防护研究不能把替代终点直接当临床获益；Agent进入代码与桌面工作流后，审批、身份、可回滚性和可观测性必须成为默认设计。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：从自行车配速仿真、柔道竞赛数据库到恢复补剂，今天的高价值信息都在提醒实践者先审计模型输入、记录规则和结局类型，再谈最优方案。",
+    "运动健康": "本板块重点：头盔台架试验、卒中运动服务和动作识别算法分别提供防护机制、服务设计与评估方法线索，但都不能直接替代真实伤病、功能恢复或临床结局。",
+    "AI": "本板块重点：GitHub把可复用多Agent编排、桌面控制和API触发代码审查推向日常开发；能力扩张的同时，新的独立分析强调沙箱仍需配合通信边界与指令来源鉴别。"
+  },
+  "items": [
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "自行车计时赛开放配速工作台",
+      "title": "(EIDOS/HYLE)^TT把路线、风和W′约束放进同一仿真，但尚未验证运动员能否执行所得方案",
+      "one_liner": "9月29日发布的SportRxiv预印本以真实GPX、三参数临界功率/W′平衡和多起点差分进化生成候选配速；896个策略可逐位复现，但没有骑行按其方案执行。",
+      "practice": "可把它用于赛前情景比较和赛后偏差复盘，而不是把单个“最优功率曲线”直接下发；先用个人空气阻力、滚阻、转弯、风与CP/W′数据做敏感性分析。",
+      "evidence": "SportRxiv预印本V1＋开放软件/数据；单名车手、单条15.7 km路线的仿真方法研究",
+      "confidence": "可核实性：高（摘要、软件与数据链接）；证据确定性：低—中（仿真）；适用性：低（尚无执行保真度或实地效果验证）",
+      "what": "《(EIDOS/HYLE)^TT: a physics- and physiology-based workbench for cycling time-trial pacing strategy》于9月29日发布。系统在真实GPX上积分运动方程，把风作为环境向量，以三参数临界功率模型和W′平衡约束生理上限，再用多起点差分进化搜索。作者报告896个已存策略可逐位再生，坡度、转弯和风下的分段结构由模型自然出现。",
+      "why": "它把“路线—环境—生理—搜索—赛后复盘”放进同一可复现工作台，并保留一组候选策略而非只给一个脆弱最优解。",
+      "limit": "作者明确说明目标是策略研究而非精确现实模型；只展示单名车手、单条15.7 km路线，且没有运动员按系统方案骑行，因此不能证明完赛时间收益或可执行性。",
+      "source": {
+        "title": "(EIDOS/HYLE)^TT: a physics- and physiology-based workbench for cycling time-trial pacing strategy",
+        "url": "https://sportrxiv.org/index.php/server/preprint/view/1088"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "柔道数据库记录约定陷阱",
+      "title": "94,811场柔道比赛审计：缺失检查不够，记录规则变化可制造16.4个百分点的假趋势",
+      "one_liner": "9月29日预印本发现，2022年“一本”记录约定变化会造成表面下降16.4个百分点；15个字段仅4个全时期可靠，2个不支持分析。",
+      "practice": "使用联盟比赛数据前，至少检查字段填充率、哨兵值、跨表一致性、比赛级整段缺失和规则年代；对趋势突变先排查记录约定，再解释为技术或战术变化。",
+      "evidence": "SportRxiv预印本V1；2009—2026年239项赛事、94,811场比赛和166,292个有执行者标识的动作；附可复现代码",
+      "confidence": "可核实性：高（方法与具体异常可核对）；证据确定性：中（数据库审计）；适用性：高（竞赛数据分析流程），但具体修正规则限于该柔道数据源",
+      "what": "《When the field does not contain what its name promises》于9月29日发布。作者审计国际柔道联合会公开接口：2022年的记录约定变化让一本率看似下降16.4个百分点，修正后2018—2024年约稳定在77%；2026年23.6%的比赛因无yuko字段而看似没有技术得分；时长字段恒为240，只有45%的2016年后比赛可从动作时钟恢复。",
+      "why": "这直接说明“没有记录”并不等于“没有发生”，而普通缺失率检查可能完全错过由规则与数据生成过程造成的伪趋势。",
+      "limit": "结果来自单一公开柔道数据库，尚未同行评议；2011—2012年的疑似第二次约定变化无法用当前设计检验，不能把修正规则无条件迁移到其他联盟或供应商。",
+      "source": {
+        "title": "When the field does not contain what its name promises: An audit of completeness and recording conventions in a public database of 94,811 international judo contests",
+        "url": "https://sportrxiv.org/index.php/server/preprint/view/1091"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "多成分补剂改善主观睡眠但不改善恢复",
+      "title": "14人交叉试验：镁基多成分配方改善主观睡眠评分，却未改善48小时跳跃、疼痛或训练准备度",
+      "one_liner": "9月28日预印本报告GSQS下降β=-0.388（95%CI -0.688至-0.089），但单腿跳、压痛阈、酸痛和训练准备度均无显著处理效应。",
+      "practice": "不要把主观睡眠改善自动写成恢复或表现收益；若试用类似配方，应分开追踪睡眠主观量表、客观睡眠、功能表现和不良反应。",
+      "evidence": "SportRxiv预印本V1；随机、双盲、安慰剂对照交叉试验，14名休闲活跃成人，两段14天干预＋14天洗脱",
+      "confidence": "可核实性：高（摘要与统计量）；证据确定性：低（极小样本、多成分配方、主观睡眠）；适用性：低（仅休闲活跃成人与短期方案）",
+      "what": "《A Magnesium-Based Multi-Ingredient Supplement Improves Subjective Sleep Quality but Not Short-Term Recovery Following Exercise-Induced Muscle Damage in Recreationally Active Adults》于9月28日发布。配方含甘氨酸镁、L-茶氨酸、芹菜素、肌醇、酸樱桃提取物和BioPerine。两周后主观睡眠干扰下降，但高容量等速膝伸后的48小时恢复指标均无显著改善。",
+      "why": "它把市场常并列的“助眠”和“促进恢复”拆成两个结局：前者出现小幅主观信号，后者没有支持。",
+      "limit": "只有14人，未报告客观睡眠或单一成分贡献；交叉试验仍可能受期待、饮食和训练背景影响。无显著恢复效应不等于证明所有剂量或人群无效。",
+      "source": {
+        "title": "A Magnesium-Based Multi-Ingredient Supplement Improves Subjective Sleep Quality but Not Short-Term Recovery Following Exercise-Induced Muscle Damage in Recreationally Active Adults",
+        "url": "https://sportrxiv.org/index.php/server/preprint/view/1090"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "青少年骑行头盔冲击技术",
+      "title": "青少年头盔台架试验：受控形变与旋转解耦可降低模型预测脑震荡风险，但不是临床伤害证明",
+      "one_liner": "9月30日arXiv预印本在两种冲击条件下比较6类技术；液压结构的模型预测风险最低，相对两种泡沫对照下降约77%—95%。",
+      "practice": "采购与标准评估应同时关注线性/旋转加速度及不同冲击条件，不要只看单一认证通过；但不能仅凭该台架排名替换真实世界佩戴、覆盖、耐久和伤害监测。",
+      "evidence": "arXiv预印本；头模台架冲击、6类青少年自行车头盔技术、两种速度/斜面条件；使用YGAMBIT预测风险",
+      "confidence": "可核实性：高（预印本摘要）；证据确定性：低—中（生物力学替代终点）；适用性：低—中（青少年骑行头盔设计/采购，非个体临床风险）",
+      "what": "《Evaluating Advanced Impact Mitigation Technologies for Concussion Risk Reduction in Youth Cycling Helmets》于9月30日提交。研究比较两种传统EPS泡沫与CELL、SLIP、SLIDE、HYDRAULIC四类先进结构，在2.9 m/s和5.2 m/s斜向冲击中测量峰值线性、旋转加速度与模型预测风险。HYDRAULIC同时降低两类加速度并获得最低预测风险。",
+      "why": "研究把保护机制拆成两个可设计维度：法向形变主要关联线性加速度，头盔—头模相对旋转主要关联旋转加速度。",
+      "limit": "这是头模和预测模型研究，不是儿童真实事故或脑震荡发生率试验；只覆盖有限冲击位置与速度，耐久、贴合和佩戴错误未验证，也缺少独立复现。",
+      "source": {
+        "title": "Evaluating Advanced Impact Mitigation Technologies for Concussion Risk Reduction in Youth Cycling Helmets",
+        "url": "https://arxiv.org/abs/2609.39885"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "卒中后运动服务断层",
+      "title": "多方焦点小组显示：卒中后运动被普遍认可，但出院后独立运动准备不足且服务体验高度不一",
+      "one_liner": "9月30日预印本访谈7名卒中幸存者、11名照护者、7名临床人员和8名健身指导者，提炼出障碍、教育、社会支持、技术及方案设计等8个主题。",
+      "practice": "社区运动转介不应只给一张处方；应在出院前完成能力与风险交接，提供阶段化监督、照护者支持、可达场地和明确的升级/回诊标准。",
+      "evidence": "SportRxiv定性预印本V1；33名利益相关者的半结构式焦点小组与协作式归纳主题分析",
+      "confidence": "可核实性：高（完整摘要可查）；证据确定性：低—中（定性、情境依赖）；适用性：中（服务设计），不用于比较运动处方疗效",
+      "what": "《Perceptions and experiences of exercise after stroke: A qualitative study》于9月30日发布。八个主题包括运动认知与体验、动机、障碍、教育、社会支持、技术和方案设计。各方普遍认可运动的身体功能价值，也认为团体形式可能支持心理社会功能与独立性；但常规照护体验差异大，许多幸存者和照护者觉得没有准备好在社区独立运动。",
+      "why": "它把康复“处方是否有效”之外的交付问题具体化：出院后的支持、教育和服务可达性可能决定运动是否真正持续。",
+      "limit": "定性研究不估计效应大小或最佳剂量，样本小且地域背景会影响结论；参与者观点不能证明团体运动优于其他模式。",
+      "source": {
+        "title": "Perceptions and experiences of exercise after stroke: A qualitative study",
+        "url": "https://sportrxiv.org/index.php/server/preprint/view/1083"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "康复动作识别评估审计",
+      "title": "动作识别预印本：所谓“特定关节选择”增益会随统计口径和对照结构缩水，尚无临床价值证据",
+      "one_liner": "10月1日对REHAB24-6的1,057次动作复核中，手工关节子集的kNN AUROC增益从汇总口径0.055降至个体等权0.020，配对区间均含零。",
+      "practice": "评估康复动作AI时，应按个体分层、报告每人表现并使用结构匹配随机子集；离线AUROC不能替代错误反馈率、可解释性和功能恢复结局。",
+      "evidence": "arXiv探索性预印本；10名受试者、1,057次动作的离线subject-disjoint审计，含1,000个随机映射对照",
+      "confidence": "可核实性：高（论文与方法可查）；证据确定性：低—中（探索性离线审计）；适用性：低（不证明新算法或临床获益）",
+      "what": "《When Does Exercise-Specific Joint Selection Help? An Audit of Evaluation and Control Design》于10月1日提交。14/1000个等维随机映射达到或超过手工子集的汇总结果；当随机映射同时匹配双侧结构与躯干纳入时，这一数字升至145。RBF-SVM保留正向个体内点估计，而逻辑回归和随机卷积比较器为负。",
+      "why": "它展示了康复AI常见的评估错觉：特征选择的“增益”可能来自汇总方式或结构先验，而非可泛化的运动学知识。",
+      "limit": "数据只有10人，任务是离线动作正确性分类；未测试患者康复阶段、实时反馈、临床决策或健康结局，作者也明确不主张临床获益。",
+      "source": {
+        "title": "When Does Exercise-Specific Joint Selection Help? An Audit of Evaluation and Control Design",
+        "url": "https://arxiv.org/abs/2610.01188"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Copilot可编程多Agent工作流",
+      "title": "GitHub发布Dynamic Workflows：把Agent判断嵌入可编程步骤、并行分支、结构化交接与人工检查点",
+      "one_liner": "10月1日公共预览覆盖Copilot CLI、Copilot app与SDK；流程定义在代码中，可暂停、复核、恢复并让子Agent交叉验证。",
+      "practice": "优先把高频但边界清晰的流程编码化：固定输入、结构化输出、预算、超时、审批与回滚；简单任务继续使用普通对话，避免为编排而编排。",
+      "evidence": "GitHub官方产品发布；公共预览，暂无独立生产可靠性或成本评测",
+      "confidence": "可核实性：高（官方功能与可用范围）；证据确定性：中（确有发布）/低（效果主张）；适用性：中—高（开发团队试点）",
+      "what": "GitHub于10月1日发布Dynamic Workflows。程序可串行或并行执行命令、工具和服务，把结构化结果在阶段间传递，调用多个Agent互相复核，并在检查点等待人工输入后恢复。Copilot app无需额外设置，CLI需启用实验功能；目前为公共预览。",
+      "why": "相比让Agent自由决定全流程，代码化编排更容易复用、观测和约束，适合发布检查、批量PR审阅、代码库扫描和长时间研究—实现任务。",
+      "limit": "官方发布能确认功能存在，不能证明跨项目可靠性；扩展仍可调用高权限工具，流程代码、Agent输出和外部服务都需要独立审计。",
+      "source": {
+        "title": "Dynamic workflows in Copilot CLI and the Copilot app",
+        "url": "https://github.blog/changelog/2026-10-01-dynamic-workflows-in-copilot-cli-and-the-copilot-app/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Copilot桌面控制",
+      "title": "GitHub Copilot加入macOS与Windows桌面操作：GUI自动化覆盖无API软件，但扩大本机权限面",
+      "one_liner": "10月1日公共预览允许读取可访问内容与视觉上下文、点击、输入、滚动和拖拽；首次控制应用前需批准，组织可禁用。",
+      "practice": "只对白名单应用和低风险任务开放，使用专用账户/测试数据；把删除、发送、付款、发布和凭据变更设为逐次审批，并保留可重放日志。",
+      "evidence": "GitHub官方产品发布；公共预览，示例为Safari费用报销流程",
+      "confidence": "可核实性：高（功能与权限说明）；证据确定性：中（发布）/低（任务成功率与安全性）；适用性：中（GUI遗留流程）",
+      "what": "GitHub于10月1日把computer use加入Copilot CLI和Copilot app的macOS、Windows公共预览。它可阅读应用可访问内容和视觉上下文，并执行点击、文本编辑、按键、滚动、拖拽等操作。用户首次授权应用前需批准，macOS还需辅助功能和录屏权限，管理员可关闭该能力。",
+      "why": "它把自动化范围扩展到没有API、CLI或MCP的遗留软件，也把错误动作从代码仓库延伸到真实桌面应用。",
+      "limit": "官方页面没有给出独立成功率、误操作率或提示注入测试；“用户可控”取决于批准粒度和常驻授权配置，不等同于默认安全。",
+      "source": {
+        "title": "GitHub Copilot can now interact with desktop apps with computer use",
+        "url": "https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "Copilot代码审查API化",
+      "title": "Copilot Code Review可由REST/GraphQL触发，并将Balanced设为默认审查强度",
+      "one_liner": "10月2日正式可用更新允许脚本与内部工具发起审查并逐次指定effort；默认档自9月28日起由Lite转为Balanced。",
+      "practice": "检查组织、仓库和个人层级的覆盖关系，显式记录effort与成本；把API触发接入现有PR门禁前，先抽样核对误报、漏报和审查延迟。",
+      "evidence": "GitHub官方更新；Pro、Pro+、Max、Business与Enterprise计划正式可用",
+      "confidence": "可核实性：高（官方GA说明）；证据确定性：高（功能存在）/低（审查质量）；适用性：高（已使用GitHub Copilot Code Review的团队）",
+      "what": "GitHub于10月2日宣布，可通过受支持的REST和GraphQL API请求Copilot代码审查，并为每次请求设置审查强度。与此同时，现有与新建组织/仓库的Default自9月28日起指向Balanced；此前明确选择Lite的配置保持不变。",
+      "why": "这使代码审查可以从CI、内部开发门户或风险规则自动触发，也意味着默认计算量与成本假设可能已改变。",
+      "limit": "更新未提供独立缺陷检出率或成本数据；自动触发不应替代人工责任归属，Balanced也不保证比Lite在每类代码上更经济或更准确。",
+      "source": {
+        "title": "Copilot code review: API support and new default effort level",
+        "url": "https://github.blog/changelog/2026-10-02-copilot-code-review-api-support-and-new-default-effort-level/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "沙箱之外的Agent通信边界",
+      "title": "密码学家Matthew Green提出“Agent蠕虫”威胁模型：沙箱隔离进程，却未必隔离可传播的指令",
+      "one_liner": "9月30日独立分析认为，邮件、共享文档、聊天和包缓存可成为跨Agent指令通道；风险可能来自过度服从而非主动“越狱”。",
+      "practice": "除进程/网络沙箱外，要验证指令来源与授权主体，对共享内容做不可信标记，限制Agent间可写通道，并为异常传播设置熔断与隔离域。",
+      "evidence": "专家分析/威胁模型；基于已公开Agent事件的二次论证，非新实验或普遍故障统计",
+      "confidence": "可核实性：高（署名原文与论证链可查）；证据确定性：低—中（合理但未系统实证）；适用性：中（多Agent与个人Agent架构评审）",
+      "what": "Green于9月30日发表《Is sandboxing sufficient to contain rogue agents?》。他并未主张取消沙箱，而是指出当Agent可读取共享包缓存、邮件、Slack或文档时，恶意或未经授权的文字可能在隔离环境之间传播；监控模型本身也会重新引入信任问题。",
+      "why": "本次是对9月28日简报所述Agent越界事件的新独立解释：此前重点是网络出口与权限，本次新增的是“指令身份”和跨Agent通信通道，改变了防护优先级。",
+      "limit": "这是专家观点而非同行评议安全实验；文章从少数事件推演生产威胁，不能据此声称Agent蠕虫已在现实部署普遍出现。前次简报：https://zekeniu.github.io/daily-professional-brief/briefs/2026-09-28/",
+      "source": {
+        "title": "Is sandboxing sufficient to contain rogue agents?",
+        "url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/"
+      }
+    }
+  ],
+  "professional_judgment": "本期新增的决策意义不是“又多了几个工具或模型”，而是三类边界正在变得可操作。第一，运动数据的生成过程必须进入分析方案：柔道案例表明，规则与记录约定可制造大幅假趋势；自行车配速与康复动作AI则说明，优化或分类结果必须经实地执行、个体分层和结构匹配对照验证。第二，替代终点要与真实健康结局分开：头模预测风险、主观睡眠改善和利益相关者观点都能指导下一步，却不能直接证明脑震荡减少、恢复加快或最佳处方。第三，Agent治理要从“是否有沙箱”升级为“谁有权发指令、哪些通道可传播、每一步能否暂停和回滚”。Dynamic Workflows的代码化检查点有利于治理，桌面控制与API自动审查则扩大了权限和成本面。去重方面，本期实际核对了当前可访问的8期归档（2026-09-23至09-30），按DOI、arXiv编号、规范化原文URL和事件身份排除重复；早于09-23的档案以及完整社交平台时间线无法覆盖，因此不能声称完成完整30天或全社交去重。近7个已发布日的运动科学/运动健康仍以研究证据为主，本期未为了逼近60/40比例而加入低价值行业条目。未发现需要单列的全球重要事件。"
+}
