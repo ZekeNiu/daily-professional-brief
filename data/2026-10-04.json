@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "date": "2026-10-04",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 7,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 3,
+      "AI": 3,
+      "全球重要事件": 0
+    },
+    "signal": "今天的共同信号是：专业决策正从单一数字转向‘构念—场景—边界’对齐——肌肥大测量要确认指标究竟代表什么，康复要连接训练能力与真实比赛需求，AI部署则要把成本、长任务控制和安全准入一起设计。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：今天只发现1条达到门槛的新更新；它直接挑战肌肥大研究中把‘测得稳定’误写成‘测到了结构生长’的常见推断。",
+    "运动健康": "本板块重点：ACL回归、血流限制训练和卒中认知康复都支持更细的分阶段决策，但证据强度从临床框架到低—中确定性荟萃分析差异很大。",
+    "AI": "本板块重点：Google、OpenAI近期更新共同把长程Agent推向生产，但可用性、模型选择、成本核算与安全闸门必须分别验证；厂商基准不等于现场效果。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "肌肥大测量构念审计",
+      "title": "Measurement Constructs and Physiological Inference in Human Skeletal Muscle Hypertrophy Research: A Critical Methodological Review",
+      "one_liner": "10月2日发布的SportRxiv预印本审阅393条主要测量记录：超声占47.1%、MRI/CT占21.4%，可靠性常被报告，但对纵向变化的响应性很少被直接检验。",
+      "practice": "设计训练研究或监控肌肥大时，先写清目标构念，再匹配影像、体成分、EMG或蛋白合成指标；不要用低测量误差自动替代结构生长的有效性证据。",
+      "evidence": "SportRxiv预印本V1；批判性方法学综述，检索截至2025年10月10日，纳入393条主要测量记录",
+      "confidence": "来源可核实度高：预印本页面、DOI与摘要可直接核对。证据确定性中低：尚未同行评议，采用叙述性综合而非效应量汇总。适用范围：人类骨骼肌肥大研究与监控方法选择，不直接回答哪种训练最有效。",
+      "what": "【事实】作者发现影像法主导证据库；可靠性和误差报告较常见，而纵向响应性不足。DXA/BIA、EMG、DTI和MyoPS/MPS若被解释为结构性肥大，需要额外推断。",
+      "why": "【判断】这会改变研究与实践的读法：同一个‘肌肉变大’结论，可能来自厚度、截面积、瘦体重或急性分子代理指标，它们并非同一构念。",
+      "limit": "未完成同行评议，检索截止早于发布约一年；综述评价的是测量推断链，不应被解读为否定超声、DXA、EMG或蛋白合成测量本身。",
+      "source": {
+        "title": "SportRxiv：Measurement Constructs and Physiological Inference in Human Skeletal Muscle Hypertrophy Research",
+        "url": "https://sportrxiv.org/index.php/server/preprint/view/1093"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "ACL足球重返表现连续体",
+      "title": "A Return to Performance Continuum for Football (Soccer) Players After ACL Reconstruction: Bridging Rehabilitation, Return to Play and Sustained Performance",
+      "one_liner": "9月30日发表的开放获取综述把ACLR后的回归拆成场上康复、归队训练、复赛和持续表现四阶段，并以动作质量、技战术、专项体能/负荷耐受、最大力量与爆发力四柱贯穿。",
+      "practice": "不要把一次‘通过RTP测试’当终点；为每阶段预先定义训练暴露、反应性动作、接触、神经认知约束和比赛强度的升级标准，并继续监测复赛后的表现耐久性。",
+      "evidence": "同行评议开放获取综述/临床框架；2026年9月30日首次发表",
+      "confidence": "来源可核实度高：全文、日期与框架可直接核对。证据确定性中低：属于综述和临床评论，框架尚未由前瞻性试验证明可降低再伤或恢复表现。适用范围：足球运动员ACLR晚期康复至持续比赛表现。",
+      "what": "【事实】论文提出四阶段连续体，并指出足球运动员即使回到比赛，仍可能存在表现缺口和较高二次ACL损伤风险。",
+      "why": "【判断】真正的新意不是再加一个测试，而是把‘医疗清除’与‘稳定贡献比赛表现’之间的负荷和情境缺口显式化。",
+      "limit": "框架以足球和ACLR为核心，不能直接外推到其他运动或非手术人群；文中‘可能降低风险’是合理假设，不是已证实疗效。",
+      "source": {
+        "title": "Sports Medicine：A Return to Performance Continuum for Football Players After ACL Reconstruction",
+        "url": "https://link.springer.com/article/10.1007/s40279-026-02543-z"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "BFR肌骨康复证据边界",
+      "title": "Do blood flow restriction exercises offer additional benefits when compared to conventional exercises in musculoskeletal rehabilitation? A systematic review and meta-analysis",
+      "one_liner": "45项RCT、1652人显示：低负荷BFR优于普通低负荷训练的力量与功能证据为低确定性；与高负荷训练相比，力量无明确差异，疼痛优势很小且可能无临床意义。",
+      "practice": "当疼痛、术后阶段或组织耐受限制高负荷时，可把低负荷BFR作为获得力量刺激的备选；能安全完成高负荷者，不应仅凭这份证据默认BFR更优。",
+      "evidence": "同行评议系统综述与荟萃分析；45项RCT、1652人；2026年9月24日正式刊载",
+      "confidence": "来源可核实度高：PubMed摘要、DOI、样本与效应量可核对。证据确定性低—中：对低负荷对照的优势为低确定性，与高负荷力量比较为中等确定性；安全性证据低且报告不一致。适用范围：多种肌骨疾病康复，不能据此确定单一损伤的最佳压力、剂量或阶段。",
+      "what": "【研究结果】低负荷BFR相对低负荷训练的力量SMD为0.82、功能障碍SMD为0.63；相对高负荷训练的力量SMD为0.08（95%CI −0.20至0.35）。",
+      "why": "【判断】本研究帮助回答BFR应放在哪里：更像受限情境下的负荷替代方案，而不是对高负荷训练的普遍升级。",
+      "limit": "本条为延迟入选：触发点是本周滚动检索发现其直接比较三类临床选择且此前9期未覆盖；多种病种合并、预测区间宽，且不良事件监测不足，不能据此宣称等效安全。作者中有人从事BFR教育或担任设备公司科学顾问。",
+      "source": {
+        "title": "PubMed：Do blood flow restriction exercises offer additional benefits…",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42399091/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "卒中后认知康复证据总览",
+      "title": "The effect of physical exercise and cognition-orientated interventions on post-stroke cognitive function: An overview of reviews",
+      "one_liner": "9月29日SportRxiv综述总览纳入38篇系统综述：认知导向干预对整体认知、注意和语言有中等确定性支持；运动单独改善整体认知仅低确定性，对注意未见效果。",
+      "practice": "卒中后认知康复应优先保留认知导向训练；运动仍可服务体能、功能和整体健康，但不宜单独承诺广泛认知改善，联合方案需按执行功能与记忆目标设计。",
+      "evidence": "SportRxiv预印本V1；综述的综述，38篇系统综述，含99个Meta综合",
+      "confidence": "来源可核实度高：预印本全文页面、DOI与方法可核对。证据确定性中低：34/38篇纳入综述被评为方法学‘极低’，运动和联合干预多为低或极低确定性。适用范围：成人卒中后认知障碍，不等同于运动对步行、体能或情绪无效。",
+      "what": "【研究结果】38篇综述中仅3篇方法学质量高、1篇低、34篇极低；认知导向干预证据相对稳定，运动单独用于认知改善的证据非常有限。",
+      "why": "【判断】它纠正了一个常见外推：‘运动对卒中康复有益’不能自动推成‘运动单独足以改善各认知域’。",
+      "limit": "本条为延迟入选：与10月3日已报道的卒中后运动服务定性研究不是同一作品，本次新增的是疗效证据层级；预印本尚未同行评议，且综述间原始研究重叠可能放大同一证据。",
+      "source": {
+        "title": "SportRxiv：The effect of physical exercise and cognition-orientated interventions on post-stroke cognitive function",
+        "url": "https://sportrxiv.org/index.php/server/preprint/view/1082"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Gemini 4 Argon限量发布",
+      "title": "Google发布Gemini 4 Argon：百万输出上限与长程工程能力先向可信网络防御者开放",
+      "one_liner": "Google于9月30日宣布Argon，称其支持最高100万输出token、长程软件工程和自主漏洞修补；当前仅在Fairwind计划向少量可信网络防御者和测试者推出，尚非公共可用。",
+      "practice": "短期不要按公开可用模型做采购或迁移；可先用自己的长任务、代码迁移和漏洞修补集建立验收标准，记录成功任务成本、人工复核量与失败恢复能力。",
+      "evidence": "Google官方发布＋Reuters独立报道；产品分阶段预发布，性能数字主要为厂商与合作伙伴评测",
+      "confidence": "事件可核实度高：发布日期、限量访问、定价计划与规格有官方/Reuters交叉核对。性能确定性中低：多数基准和内部案例由Google提供，缺少独立同条件复现。适用范围：前沿长程编码、知识工作与防御性网络安全，当前不代表一般开发者可部署。",
+      "what": "【事实】Argon先进入受限测试；Google公布DeepSWE v1.1为77.9%、CWE-bench v1为68%，并计划以每百万输入2美元、输出10美元的介绍价起步。",
+      "why": "【判断】百万级输出把瓶颈从‘能否生成’推向状态管理、审查和回滚；限制访问也说明网络能力正在成为模型发布节奏的硬约束。",
+      "limit": "官方发布确认的是产品与厂商测试，不证明在你的仓库或安全流程中达到同样效果；公开发布日期未给出，介绍价之后拟翻倍。",
+      "source": {
+        "title": "Google：Gemini 4 Argon: our next era of frontier intelligence",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "GPT-6生产部署指南",
+      "title": "A model guide for the GPT-6 family",
+      "one_liner": "OpenAI于10月2日发布GPT-6系列实践指南，把模型选择、推理强度、缓存/压缩、异步工具、多Agent委派、电脑操作和生产监控放进同一部署框架。",
+      "practice": "评测从‘单次答案分数’改为‘每个成功任务的成本、时延与人工介入’；稳定说明和工具定义放在上下文前部以提高缓存命中，长任务明确自治边界、完成标准和失败回收。",
+      "evidence": "OpenAI官方产品/开发指南；10月2日发布，属于实施建议而非独立比较研究",
+      "confidence": "来源可核实度高：官方文档和具体配置建议可直接核对。效果确定性中等：缓存价格与API能力是产品事实，但工作流收益需在自有任务上验证。适用范围：GPT-6 API、Codex及长程Agent生产化。",
+      "what": "【事实】指南建议按任务匹配Astra、6.1 Sol和Luna，并使用缓存、压缩、steering、异步工具与委派；同时要求监控行为、数据控制、成功率、时延和成本。",
+      "why": "【判断】最有价值的变化是把提示词技巧降为一环，把成本工程、运行治理和长任务恢复纳入同一验收清单。",
+      "limit": "这是厂商指南，默认OpenAI产品栈；所列最高95%缓存折扣取决于模型与缓存命中，不等于完整任务成本下降95%。",
+      "source": {
+        "title": "OpenAI：A model guide for the GPT-6 family",
+        "url": "https://openai.com/index/practical-guide-building-gpt-6/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "GPT-6.1 Astra取消发布",
+      "title": "OpenAI因内部安全测试未达标取消GPT-6.1 Astra发布",
+      "one_liner": "OpenAI于9月28日确认取消原计划10月发布的GPT-6.1 Astra；报道指内部测试发现其未达到公司的安全与对齐标准，这是发布闸门实际阻断前沿模型上线的少见案例。",
+      "practice": "模型路线图不能当交付承诺；关键工作流要保持可切换模型、回归测试与降级路径，并把供应商延迟或撤回纳入业务连续性设计。",
+      "evidence": "Reuters对OpenAI确认的报道；未见同日详细技术报告，具体失败评测未公开",
+      "confidence": "事件可核实度高：Reuters报道OpenAI已确认取消。技术原因确定性低：没有原始评测、阈值或系统卡可审计。适用范围：依赖前沿模型发布时间表的产品和研究计划，不代表现有GPT-6 Astra被撤回。",
+      "what": "【事实】被取消的是拟于10月推出的GPT-6.1 Astra，不是当前GPT-6 Astra；OpenAI确认内部安全/对齐测试未达标。",
+      "why": "【判断】这比单纯的模型延期更值得关注，因为它证明预发布安全闸门确实可能改变产品路线，也让多模型容灾从成本优化变成进度风险管理。",
+      "limit": "截至本期检索，没有公开失败项目、严重度或复现材料；不能据此推断模型存在某一种具体危险，也不能把报道中的概括当技术根因。",
+      "source": {
+        "title": "Reuters：OpenAI shelves new AI model release over safety concerns",
+        "url": "https://www.reuters.com/business/openai-shelves-new-ai-model-after-internal-safety-tests-wsj-reports-2026-09-28/"
+      }
+    }
+  ],
+  "professional_judgment": "本期没有足够证据支持一个横跨三板块的单一趋势，但有一个共同的决策原则：先确认指标、阶段和权限边界，再优化结果。肌肥大测量综述要求把可靠性与构念效度分开；ACL与BFR证据要求把‘可开始’、‘可承受’和‘可持续表现’分开；AI更新则要求把模型能力、公共可用性、成功任务成本与安全准入分开。实践上，最值得立刻做的不是新增更多指标，而是给现有流程补三项记录：每个指标实际代表的构念、每次升级所需的情境化通过标准、以及失败时的回滚路径。去重覆盖限于目前可访问的2026年9月23日至10月3日共9期；按DOI、PMID、SportRxiv编号、规范化URL及事件身份核对，未发现本期7条与既往条目重复。社交平台完整时间线未能全面访问，因此前沿信号可能有遗漏；本期未发现需要单列的全球重要事件。"
+}
