@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "date": "2026-10-06",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 7,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 1,
+      "AI": 2,
+      "全球重要事件": 0
+    },
+    "signal": "今天最清晰的信号是：测量、训练和AI治理都在要求把“表面结果”拆回生成机制——跳高下降未必等于同一种疲劳，更多重复未必等于长期适应，水印命中也不等于内容真实或责任明确。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：CMJ疲劳监控需要标准化测试与负荷语境；核心稳定、组间休息分配和加工度研究均提示，干预标签本身不足以替代具体任务、剂量和机制。",
+    "运动健康": "本板块重点：长新冠远程康复试验最重要的结论是营养补充剂未优于安慰剂；两组共同改善不能被直接归因于补充剂或远程康复中的任一单独成分。",
+    "AI": "本板块重点：OpenAI开始部署文本来源信号，Reflection则预告开放权重模型；两者都要求把“已宣布”“可检测”“可下载”“经独立验证”分开。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "CMJ疲劳监控的测量缺口",
+      "title": "Countermovement jump test as a tool for fatigue assessment: a scoping review and evidence gap map",
+      "one_liner": "10月5日发表的范围综述纳入117项研究：CMJ疲劳监控高度集中于跳高和即时测量，39.3%的研究没有说清代表值如何选取，收缩模式仅2.6%有报告。",
+      "practice": "固定热身、取值规则、设备与时点，并同步记录前序负荷的运动模式、强度、总量和恢复时间；不要只看跳高一个结果。",
+      "evidence": "同行评议开放获取范围综述与证据缺口图；117项研究；健康15–35岁人群；2026年10月5日正式发表",
+      "confidence": "来源可核实度高：全文、检索策略及补充表可直接核对。证据确定性中等偏低：范围综述描述研究分布，未合并效应或给出疲劳阈值。适用范围：训练后神经肌肉状态监控，不是伤病诊断。",
+      "what": "【研究结果】117项研究在测试程序、负荷报告和指标选择上差异很大；证据集中在跳高与运动后即时反应，24–72小时恢复动力学和分阶段力—时变量研究明显较少。",
+      "why": "【判断】同样的CMJ变化可能来自不同动作策略和前序负荷；若生成过程不标准化，跨日、跨队或跨研究比较很容易把方法差异误当成疲劳差异。",
+      "limit": "综述检索主要截至2025年6月，并在2026年7月补充Google Scholar；没有证明哪个CMJ指标最敏感，也不能据此设定通用红黄绿阈值。",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02128-3"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "核心稳定训练不是速度捷径",
+      "title": "Effects of core stability training on lower-limb performance in athletes: a systematic review and meta-analysis of randomized controlled trials",
+      "one_liner": "44项RCT、1301名运动员显示，核心稳定训练可能改善部分跳跃、变向和平衡任务，但未支持10米、20米或精确30米冲刺收益，绝大多数结局证据为极低确定性。",
+      "practice": "把核心稳定作为项目训练的补充模块，并为跳跃、变向、平衡分别设置结果；若首要目标是冲刺，不应以核心训练替代专项速度训练。",
+      "evidence": "同行评议系统综述与Meta分析；44项随机试验、1301名运动员；RoB 2、GRADE及多种敏感性分析；2026年10月5日发表",
+      "confidence": "来源可核实度高：全文、PROSPERO、风险偏倚和GRADE附件可核对。证据确定性低至极低；部分显著结果对模型或影响研究敏感。适用范围：运动员的下肢表现，不能推断伤病预防。",
+      "what": "【研究结果】部分垂直跳、敏捷/变向、SEBT和专项力量爆发结局有利；CMJ和Illinois结果对替代模型或影响分析敏感，短距离冲刺及多类平衡结局未见明确合并效应。",
+      "why": "【判断】“核心更强会让所有下肢表现变好”不受当前证据支持；任务特异性比统一核心分数更重要。",
+      "limit": "研究方案和结局异质性大，绝大多数结局GRADE极低；未证明这些测试变化能稳定迁移到比赛表现或减少受伤。",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02121-w"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "同样休息时间，不同分配结果",
+      "title": "Effects of cluster-set vs. traditional resistance exercise with equated total rest on muscular performance, perceived fatigue, and cardiovascular responses in resistance-trained women",
+      "one_liner": "12名有训练经验女性的随机交叉试验中，把同样120秒休息的一部分放进组内，可增加后续耐力重复并降低主观疲劳，但没有改变测得的运动后血压或心率反应。",
+      "practice": "需要维持训练质量时，可在单个动作中试验10–30秒组内休息；先看总工作、动作速度和恢复，不要直接推定长期增肌或心血管优势。",
+      "evidence": "同行评议随机、平衡顺序交叉试验；12名18–35岁有训练经验女性；单次膝伸任务；2026年10月5日发表",
+      "confidence": "来源可核实度高：全文、方案和个体结果可核对。证据确定性低至中：样本很小且仅考察急性单关节任务。适用范围：有经验女性的急性阻力训练编排。",
+      "what": "【研究结果】30秒、10秒组内休息和传统组的60% 1RM耐力重复分别为18.4、15.8和12.8次；即刻疲劳评分分别为4.08、5.25和7.00，绝对血压、心率、MAP和RPP无组间差异。",
+      "why": "【判断】总休息相同并不代表训练刺激相同；休息放在哪里会改变完成工作和主观成本。",
+      "limit": "没有连续逐搏心血管监测、速度或代谢测量；只有12人、一次膝伸实验，不能外推到复合动作、男性、临床人群或长期适应。",
+      "source": {
+        "title": "Sport Sciences for Health",
+        "url": "https://link.springer.com/article/10.1007/s11332-026-01944-x"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "等热量餐仍出现不同代谢反应",
+      "title": "Metabolic and neural responses to ultraprocessed foods: a randomized, controlled, crossover study",
+      "one_liner": "10月5日Nature Metabolism随机交叉研究中，营养匹配的超加工餐产生更高胰岛素与能量反应，并改变底物氧化和食物线索脑反应；葡萄糖AUC没有差异。",
+      "practice": "运动营养不能只按热量与宏量营养素等同替换食品；恢复餐或控糖方案仍应记录加工度、食物基质与实际个体反应。",
+      "evidence": "同行评议开放获取随机交叉机制研究；57名健康体重成人，代谢实验完成者32人、胰岛素分析31人；2026年10月5日发表",
+      "confidence": "来源可核实度高：全文、同行评议文件和源数据开放。证据确定性中等：随机交叉有利于急性机制比较，但样本与餐次有限。适用范围：年轻健康成人的单餐反应，不是运动表现或长期疾病结局。",
+      "what": "【研究结果】两餐在重量、能量、能量密度、宏量营养素、可利用碳水、GI/GL、纤维、钠和水上偏差均不超过1.6%；超加工餐胰岛素AUC更高（P<0.001），葡萄糖AUC无差异（P=0.92）。",
+      "why": "【判断】这为“食品加工和基质可能在营养标签之外改变餐后反应”提供了受控机制证据。",
+      "limit": "只有一对约300千卡餐、短时餐后观察和健康体重成人；不能推断长期体重、糖尿病风险或运动恢复效果，也不能把所有NOVA超加工食品视为同质。",
+      "source": {
+        "title": "Nature Metabolism",
+        "url": "https://www.nature.com/articles/s42255-026-01619-4"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "长新冠补充剂未优于安慰剂",
+      "title": "Effects of specialized pro-resolving mediators and telerehabilitation on fatigue, dyspnea, and quality of life in post-COVID-19 condition: the ARACOV-02 randomized controlled trial",
+      "one_liner": "144名长新冠患者均接受12周异步远程康复后，富含促炎症消退介质的海洋油补充剂在生活质量、疲劳、呼吸困难和功能结局上均未优于安慰剂。",
+      "practice": "不要以组内改善为补充剂疗效证据；若采用远程康复，应独立跟踪依从性、运动后不适、6分钟步行、呼吸肌力与患者报告结局。",
+      "evidence": "同行评议三盲随机对照试验；144人、82%女性、平均50岁；两组均接受12周远程康复；2026年10月5日发表",
+      "confidence": "来源可核实度高：全文、注册号NCT06063031和意向治疗分析可核对。证据确定性中等：补充剂无优效结论较清晰，但试验不能分离远程康复自然恢复与非特异效应。适用范围：症状超过12周的长新冠成人。",
+      "what": "【研究结果】12周后所有组间比较均无统计学显著差异；两组多项指标均有组内改善，营养组6分钟步行增加37.82米，依从性分层结果仅属探索性。",
+      "why": "【判断】这是典型的“共同干预下两组都变好”：可支持继续研究远程康复可行性，却不能证明补充剂有效，也不能从无无康复对照的设计估计远程康复净效应。",
+      "limit": "没有单独的无远程康复对照；依从性分析非随机且易受健康行为和基线差异混杂，不能据此给高依从者开补充剂。项目由政府产业研究计划资助，受益企业为SOLUTEX。",
+      "source": {
+        "title": "BMC Complementary Medicine and Therapies",
+        "url": "https://link.springer.com/article/10.1186/s12906-026-05630-w"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "OpenAI推出文本水印textGrain",
+      "title": "Our approach to EU text provenance rules",
+      "one_liner": "OpenAI于10月5日宣布：欧盟合格ChatGPT与Codex文本将分阶段加入不可见水印，全球API客户可对部分模型选择启用；检测器暂只向获批研究者和专家机构开放。",
+      "practice": "把水印视为来源信号而非事实核验或作者认证；合规流程应同时保存模型、时间、编辑链和人工责任记录。",
+      "evidence": "OpenAI官方政策与技术说明，含检测率、编辑脆弱性和基准表；2026年10月5日发布；尚缺广泛独立现场验证",
+      "confidence": "事件可核实度高：范围、时间与官方评测可直接核对。性能确定性中低：数据由厂商提供且真实文本分布、改写和翻译会降低检测。适用范围：OpenAI支持模型的文本来源标记。",
+      "what": "【事实】在目标假阳性率1%时，约200 token心理学文本检测率约80%，400 token约95%；400 token文本替换10%同义词后，检测率从约92%降至66%，替换25%后降至17%。",
+      "why": "【判断】水印可以补充审计，但不能作为学术诚信、内容真实性或责任归属的单一判据；真实流程需要保留更完整的生成与编辑记录。",
+      "limit": "水印不测量人工贡献、不验证准确性、不确定所有权或责任，也不识别用户；未检出不能证明由人类创作，短文本、编辑、翻译和不支持模型都会造成漏检。",
+      "source": {
+        "title": "OpenAI：Our approach to EU text provenance rules",
+        "url": "https://openai.com/index/eu-text-provenance/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Beam已宣布但权重尚未开放",
+      "title": "Introducing Beam: Reflection’s 501B open-weight model",
+      "one_liner": "Reflection AI于10月5日公布Beam：5010亿总参数、230亿激活参数，定位编码、推理与Agent任务；但截至发布时仍在最终红队与评估阶段，权重、技术报告和安全评测尚未实际开放。",
+      "practice": "不要把“open-weight”发布稿当作可立即部署的软件；采购或迁移前等待权重、许可证、模型卡和可复现实测，并以自有代码库核算显存、吞吐、成功任务成本和审查量。",
+      "evidence": "厂商官方发布＋Reuters独立核实发布事件；模型性能与效率主要为厂商主张；2026年10月5日宣布",
+      "confidence": "事件可核实度高：模型规格与发布状态有官方和Reuters支持。性能确定性低：缺少可下载权重、完整技术报告和同条件独立复现。适用范围：开放权重编码/Agent模型的候选观察，不是当前生产推荐。",
+      "what": "【事实】官方称Beam为稀疏MoE，预训练23.8万亿token，强化学习生成超过1亿次rollout；Reuters确认发布事件及5010亿/230亿参数结构。官方同时明确模型仍在最终红队和评估。",
+      "why": "【判断】本次真正的新信息是大型开放权重Agent模型的候选进入发布队列，而不是已经形成可验证的生产替代方案。",
+      "limit": "“开放权重”不等于当前可下载，也不等于训练数据、代码和安全流程完全开放；官方基准及效率主张尚无独立同条件复现。",
+      "source": {
+        "title": "Reflection AI：Introducing Beam",
+        "url": "https://reflection.ai/blog/introducing-beam"
+      }
+    }
+  ],
+  "professional_judgment": "本期没有足够证据支持一个横跨三板块的宏大趋势，但有一个共同决策原则：不要让标签替代生成过程。CMJ要记录测试程序和前序负荷；核心稳定与组内休息要绑定具体表现任务；加工度研究要区分单餐机制与长期结局；长新冠试验要区分组内改善和随机组间效应；AI水印与开放权重发布则要区分来源信号、真实可用性和独立验证。最值得立刻执行的三项记录是：CMJ代表值选择规则、干预的任务特异结局、AI内容或模型从生成到编辑/部署的版本链。本期去重实际覆盖目前可访问的2026年9月23日至10月5日共11期，并按DOI、规范化URL和事件身份核对；7条均未见于既往档案。社交平台完整时间线无法全面访问，可能遗漏部分前沿讨论；本期未发现需要单列的全球重要事件。"
+}
