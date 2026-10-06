@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "date": "2026-10-07",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 8,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 2,
+      "全球重要事件": 0
+    },
+    "signal": "今天最清晰的信号是：专业工作流正在从“有没有效果或功能”转向“效果由什么产生、边界在哪里、能否被审计”——无论是疲劳技术变化、康复方案、可穿戴指标，还是AI Agent权限与安全覆盖。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：急性补剂、疲劳技术变化和活动分布指标都不能只看一个总分；要把任务、阶段、测量构念和人群边界保留下来。",
+    "运动健康": "本板块重点：腘绳肌康复有较清晰的主动训练方向，但辅助疗法证据仍弱；全球疼痛基准与软骨植入物更新则分别服务于人群比较和严格适应证下的外科决策。",
+    "AI": "本板块重点：Agent安全正在从静态权限扩展到情境化信息流和动态监督；工程治理也开始补齐AI代码扫描在组织层面的可见性。"
+  },
+  "items": [
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "瓜氨酸未提升本次阻力训练表现",
+      "title": "Acute effects of l-Citrulline vs. Citrulline malate supplementation on resistance training performance, muscle soreness, and blood biomarkers in resistance-trained men: a double-blind placebo-controlled counter-balanced trial",
+      "one_liner": "22名有阻力训练经验男性的双盲、安慰剂对照、平衡交叉试验显示，训练前60分钟摄入8克L-瓜氨酸或12克瓜氨酸苹果酸，未改善深蹲与卧推力竭重复、主观疲劳、酸痛或所测血液指标。",
+      "practice": "不要仅因剂量更高就把瓜氨酸列为通用训练前增效方案；若个体继续使用，应以同一动作、相同负荷下的重复数、速度与耐受性做自我对照。",
+      "evidence": "同行评议开放获取随机双盲、安慰剂对照、三条件交叉试验；22名有训练经验男性；2026年10月6日发表",
+      "confidence": "来源可核实度高：全文、剂量、方案和注册信息可直接核对。证据确定性中低：交叉设计减少个体差异，但样本小、仅男性且只观察一次急性训练。适用范围：类似深蹲/卧推力竭方案的急性反应。",
+      "what": "【研究结果】三条件下均完成70% 1RM的深蹲和卧推各5组至力竭；总重复数、NOx、乳酸、尿素、主观用力与酸痛均没有处理效应或时间×处理交互。",
+      "why": "【判断】这项阴性结果直接检验了常见训练前补剂主张，提示“提高一氧化氮前体”并不会自动转化为本类阻力训练表现提升。",
+      "limit": "样本仅22名男性，研究未覆盖女性、耐力项目、长期补充或不同服用时机；未发现差异也不等于所有人、所有剂量下都无效。",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02139-0"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "疲劳使固定座赛艇姿态整体下沉",
+      "title": "Neuromuscular fatigue induces phase-specific multisegmental kinematic adaptations in elite traditional rowers: a three-dimensional analysis",
+      "one_liner": "19名精英男子传统固定座赛艇运动员在力竭测试后，入水与结束阶段的头、肩或手高度及垂直重心显著下降；多项关节角变化经多重比较校正后不再显著。",
+      "practice": "技术监控可优先追踪分阶段的标志点高度与重心，而不是把未经校正的单关节角度都解释为疲劳；固定座结论不能直接套到奥运滑座赛艇。",
+      "evidence": "同行评议单组前后比较研究；19名精英男性，逐变量完整配对样本13–17；三维动作捕捉；2026年10月5日发表",
+      "confidence": "来源可核实度高：全文、原始方法和多重比较校正可核对。证据确定性低至中：专项样本稀缺但无对照组、样本小且疲劳以任务失败定义。适用范围：传统固定座赛艇的急性疲劳技术监控。",
+      "what": "【研究结果】校正后，入水阶段头、肩、手高度下降，结束阶段头和手高度下降；垂直重心两阶段均下降。肩、肘、膝角变化仅保留为探索性趋势。",
+      "why": "【判断】多节段“整体下沉”比某一个关节角更稳定，说明疲劳技术分析应按动作阶段和全身协同模式组织。",
+      "limit": "没有直接测量神经肌肉疲劳、船上表现或伤病结局；5分钟恢复与标记缺失可能影响结果，且研究只含无近期伤病的精英男性。",
+      "source": {
+        "title": "Frontiers in Sports and Active Living",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1950960/full"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "活动“分布方式”获得初步构念验证",
+      "title": "Validation of pure and total movement dispersion variables as measures of the distribution of daily activity using accelerometers: a secondary analysis of a prospective cohort",
+      "one_liner": "594名腕戴加速度计参与者的数据表明，“纯分散度”和计入强度的“总分散度”与MVPA、久坐时长及活动—久坐转换呈预期相关，可补充传统总分钟数。",
+      "practice": "在可穿戴研究中，可把活动量与一天内的分布并列报告；现阶段不应把分散度转成个人健康阈值或处方目标。",
+      "evidence": "同行评议开放获取队列数据二次横断面分析；594人、约6.1个有效佩戴日；2026年10月5日正式发表",
+      "confidence": "来源可核实度高：全文、算法和相关系数可核对。证据确定性中低：仅为收敛效度与相关性，不含健康结局预测或干预验证。适用范围：研究级腕戴加速度计数据分析。",
+      "what": "【研究结果】总分散度与MVPA分钟相关r_s=0.572、与久坐段长度相关r_s=-0.504；纯分散度与久坐转活动概率相关r_s=0.501。部分关系在40岁以下小样本中减弱或不显著。",
+      "why": "【判断】两个相同总活动量的人可能拥有不同的日内分布；该指标提供了描述这种差异的候选工具。",
+      "limit": "样本来自性少数男性队列，55%感染HIV；腕部设备、作者自定参数和横断面设计限制外推，计算目前还依赖高性能计算环境。",
+      "source": {
+        "title": "Journal of Public Health",
+        "url": "https://link.springer.com/article/10.1007/s10389-026-02892-z"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "腘绳肌康复：拉长导向训练证据最稳",
+      "title": "Effects of rehabilitation interventions on time to return to play and reinjury rate in athletes with acute hamstring strain injuries",
+      "one_liner": "14项RCT、693名运动员的系统综述显示，拉长导向训练基于两项试验可缩短重返运动时间且未显示再伤增加；PATS、PRP及多数辅助疗法结论仍不确定。",
+      "practice": "急性腘绳肌拉伤康复应把渐进拉长负荷作为主动训练候选核心，同时保留跑速暴露、力量与功能标准；不要用PRP或单一物理因子替代分期负荷。",
+      "evidence": "同行评议系统综述与Meta分析；14项RCT、693名运动员；GRADE及试验序贯分析；检索至2026年1月，2026年10月5日发表",
+      "confidence": "来源可核实度高：开放全文、PROSPERO与分析方法可核对。证据确定性：拉长导向训练对重返时间为中等、再伤为低；其余多为低或极低。适用范围：急性腘绳肌拉伤运动员，不含慢性腱病或撕脱。",
+      "what": "【研究结果】拉长导向方案的重返时间获中等确定性支持，试验序贯分析越过监测边界；PATS未加快重返，PRP结果异质，rESWT与低能量激光各主要依赖单项试验。",
+      "why": "【判断】当前最可操作的不是“某个辅助疗法获胜”，而是主动康复中拉长负荷的方向较一致，而再伤控制仍需多指标决策。",
+      "limit": "拉长导向结论主要来自两项试验；具体进阶、跑速和重返标准不应被综述平均值替代，临床异质性与外部效度仍存在。",
+      "source": {
+        "title": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-026-70693-1"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "全球疼痛基准显示负担多在55岁前加速",
+      "title": "Global and regional reference curves for pain across the lifespan in 6.1 million individuals in 118 countries",
+      "one_liner": "Nature Medicine整合118国、612万人的自报疼痛数据：背、髋、膝痛随成年期非线性上升，多数疼痛部位在55岁前增幅最快；低人类发展指数地区晚年疼痛负担被既有条件模型低估。",
+      "practice": "康复服务与预防不应只面向老年阶段；团队可用开放基准检查本地队列的年龄、性别和地区偏离，但不能把人群曲线当成个体诊断。",
+      "evidence": "同行评议全球个体水平数据协调与建模研究；902个数据源、118国、6,125,459人；2026年10月5日发表",
+      "confidence": "来源可核实度高：全文、方法和开放基准工具可核对。证据确定性中等：样本巨大且跨国，但依赖异质自报问卷与观察性建模。适用范围：人群监测和资源规划，不是个体因果推断。",
+      "what": "【研究结果】背痛总体最高约40%；女性在11个部位均报告更高患病率。最低HDI地区晚年任何身体疼痛比最高HDI地区高30.6个百分点，三项可修改因素仅解释全部部位负担的18.3%。",
+      "why": "【判断】这使疼痛康复资源配置有了统一参照，也提示高收入地区形成的风险模型和干预路径不能无条件外推。",
+      "limit": "研究协调了不同问法、回忆期和身体图谱，但无法消除测量异质性、文化报告差异或未测混杂；风险归因不证明改变因素即可获得对应降幅。",
+      "source": {
+        "title": "Nature Medicine",
+        "url": "https://www.nature.com/articles/s41591-026-04696-w"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "CARTIHEAL在欧洲商业上市",
+      "title": "Smith+Nephew launches CARTIHEAL AGILI-C in Europe",
+      "one_liner": "Smith+Nephew于10月6日宣布CARTIHEAL AGILI-C软骨修复植入物在12个欧洲市场商业上市；其支撑证据是今年4月发表的251人、多中心随机试验5年随访。",
+      "practice": "这是可及性变化，不是新的疗效发现；转诊或采购时仍需核对软骨缺损、骨缺损深度、OA等级、力线/半月板/韧带状态及替代手术，而不是按“软骨再生”营销语广泛外推。",
+      "evidence": "厂商官方上市公告＋同行评议多中心随机试验；167例植入、84例清理/微骨折；2026年10月6日上市，原始5年论文首发于4月16日",
+      "confidence": "事件可核实度高：上市国家与日期有官方公告，疗效数字来自直达原始论文。证据确定性中等：随机、多中心、5年随访较强，但为器械试验且比较组混合两种标准手术。适用范围：严格纳入标准下的膝关节软骨/骨软骨缺损。",
+      "what": "【事实】公告列出奥地利、比利时、法国、德国、爱尔兰、意大利、卢森堡、荷兰、葡萄牙、西班牙、瑞士和英国。原试验5年时KOOS总体为81.0对59.1，治疗失败15.0%对35.7%。",
+      "why": "【判断】本次新增价值在于欧洲临床可及性；疗效判断仍应回到4月的原始RCT，而不是把同一结果当作10月的新研究重复报道。",
+      "limit": "公告由厂商发布，未提供新的独立真实世界数据；试验纳入21–75岁、至多3个特定部位缺损和KL 0–3人群，不能外推至弥漫性终末期OA。",
+      "source": {
+        "title": "Smith+Nephew官方公告（含原始RCT链接）",
+        "url": "https://www.smith-nephew.com/en/news/2026/10/06/cartiheal-agili-c-launches-in-europe"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Agent安全转向“情境化权限”",
+      "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+      "one_liner": "Google Research发布由50余名学界与产业专家形成的工作坊报告，提出用情境完整性把Agent的数据流和行动权限约束到具体角色、信息类型与传输原则，并辅以动态策略引擎和多层防护。",
+      "practice": "部署Agent时不要只做一次性授权；至少记录发起者、数据主体、接收者、工具、目的、情境变化和可撤销条件，并对高影响动作设置动态复核。",
+      "evidence": "Google Research官方技术报告/专家工作坊产出；2026年10月5日发布；研究议程与架构建议，非效果试验或标准",
+      "confidence": "来源可核实度高：官方页面与技术报告可核对。证据确定性中低：问题定义有多方专家参与，但建议尚未通过统一基准或大规模部署验证。适用范围：长程、跨工具、多Agent系统的安全设计。",
+      "what": "【事实】报告把风险归因于非结构化输入、概率控制流和自主委派，并提出系统沙箱、模型推理、用户控制、多Agent防护及生态治理五层研究方向。",
+      "why": "【判断】静态“允许访问某个应用”无法表达“只为本次差旅向签证机构分享必要字段”；情境化策略层是连接自然语言意图与低层权限的可行设计方向。",
+      "limit": "这是一份开放问题与研究议程，不证明动态策略引擎已经可靠；社会规范可能冲突、随地区变化，也可能被模型错误解释。",
+      "source": {
+        "title": "Google Research",
+        "url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "GitHub补上AI代码扫描覆盖可见性",
+      "title": "Code scanning AI Scan enablement status in security overview",
+      "one_liner": "GitHub于10月6日让组织和企业管理员在安全覆盖视图中查看AI Scan for pull requests的启用/未启用仓库数，并支持筛选和CSV导出。",
+      "practice": "安全负责人可把导出结果接入仓库覆盖率审计，先识别高风险或高变更仓库的空白；启用状态只说明控制存在，不代表漏洞检出率或修复质量。",
+      "evidence": "GitHub官方产品变更日志；2026年10月6日发布；治理可见性更新，无独立效果评估",
+      "confidence": "事件可核实度高：界面字段、筛选语法和导出列有官方说明。效果确定性低：公告未提供检出性能、误报或风险降低数据。适用范围：使用GitHub安全概览的组织/企业。",
+      "what": "【事实】安全概览新增组织级enabled/not enabled计数、仓库级有效状态、两种筛选条件和CSV列。",
+      "why": "【判断】AI代码安全控制开始具备可盘点性，能减少“以为已经覆盖”的治理盲区，但仍需要结果质量和处置闭环指标。",
+      "limit": "官方公告只确认功能上线；没有说明不同语言、仓库类型的扫描效果，也不应把覆盖率等同于安全成熟度。",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-06-code-scanning-ai-scan-enablement-status-in-security-overview/"
+      }
+    }
+  ],
+  "professional_judgment": "本期没有单一证据链足以支持一个横跨三板块的宏大趋势，但有两项可立即采用的决策改进。第一，把结果按生成过程拆开：固定座赛艇要看疲劳前后、动作阶段和多节段协同；可穿戴要区分总量与日内分布；腘绳肌康复要区分主动负荷与辅助疗法。第二，把“可用”与“被验证”拆开：CARTIHEAL本次是欧洲可及性更新，疗效仍来自4月RCT；Google报告提出Agent安全架构但不是效果验证；GitHub新增的是覆盖可见性而非安全成效。今日最值得执行的三项是：为专项技术建立阶段化疲劳指标；在腘绳肌康复中记录拉长负荷、跑速暴露与重返标准；为Agent动作增加情境字段、动态审批和可撤销权限。本期去重实际覆盖目前可访问的2026年9月23日至10月6日共12期，并按DOI、规范化URL和事件身份核对；8条均未见于既往档案，CARTIHEAL明确作为10月6日上市事件而非把4月论文包装为新研究。社交平台完整时间线无法全面访问，可能遗漏部分前沿讨论；在实际检索范围内未发现需要单列的全球重要事件。"
+}
