@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "date": "2026-10-08",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 8,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 2,
+      "AI": 4,
+      "全球重要事件": 0
+    },
+    "signal": "今天最强的共同信号不是“AI或新设备已经可以替代专业判断”，而是测量、康复和Agent工作流都必须先证明可互换性、临床重要性与可审计性。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：无标记动作捕捉的关节力矩不能直接替换金标准，自我对话虽有中等总体效应，但小样本偏倚与内容差异决定其更适合作为可测试的技能，而非统一处方。",
+    "运动健康": "本板块重点：VR与AI远程康复显示“可实施或统计信号”不等于临床上优于常规运动；应优先看最小临床重要差异、主要终点和目标人群。",
+    "AI": "本板块重点：Agent工程进入隔离、外部可观察和物理正确性验证阶段；平台功能已明显前进，但独立效果数据仍落后于产品发布。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "无标记关节力矩不能直接替换有标记系统",
+      "title": "Agreement of markerless and marker-based joint kinetics in team sport-specific change-of-direction movements",
+      "one_liner": "19名团队项目运动员完成直线跑及45°–180°变向任务时，Theia3D无标记系统与有标记系统计算的下肢关节力矩出现大幅随机与系统差异，峰值力矩相对一致性界限达92%–128%。",
+      "practice": "若用无标记系统监控变向负荷，应建立同一设备、同一版本、同一任务的重测信度与最小可检测变化；不要把其力矩值直接与既往有标记数据库、ACL风险阈值或康复标准互换。",
+      "evidence": "同行评议开放获取方法学比较研究；19名无伤团队项目运动员、每人最多45次试次；2026年10月7日正式发表",
+      "confidence": "来源可核实度高：开放全文、任务、软件版本和一致性分析均可核对。证据确定性中等：同步采集与多任务设计较强，但样本小且仅比较一个无标记版本和一个有标记模型。适用范围：高速直线与变向动作的下肢逆动力学。",
+      "what": "【研究结果】峰值关节力矩一致性界限从踝的±0.38 Nm/kg到髋的±1.21 Nm/kg；所有关节、平面、方向和速度均明显超过作者设定的10%描述性参考线，且方向与速度没有稳定改善模式。",
+      "why": "【判断】无标记系统的“方便”不能自动推导为关节力矩的“可替代”；对个体伤病风险或重返运动决策，误差量级可能与目标信号本身相当。",
+      "limit": "10%并非已验证的临床等效界值；差异同时包含模型、关节中心、惯性参数、采样频率和软件训练数据影响，结论不等于所有无标记系统都无效。",
+      "source": {
+        "title": "Scientific Reports",
+        "url": "https://www.nature.com/articles/s41598-026-72910-3"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "自我对话有中等总体效应，但存在小样本偏倚",
+      "title": "Emerging moderators in effects of self-talk on sports performance: an updated meta-analysis of randomized controlled trials",
+      "one_liner": "33项随机试验、1848名参与者的三层Meta分析估计，自我对话对运动表现的总体效应为Hedges' g=0.52；内容类型可能调节效果，但Egger检验提示明显小样本效应。",
+      "practice": "把自我对话作为可训练、可个体化验证的心理技能：先固定任务与提示语，记录表现和主观状态，再决定保留；不要仅凭平均效应统一要求所有运动员使用同一脚本。",
+      "evidence": "同行评议系统综述与三层随机效应Meta分析；33项RCT、56个效应量、1848人；GRADE与RoB 2；2026年10月7日发表",
+      "confidence": "来源可核实度高：开放全文、检索与分析方法可核对。证据确定性中等偏低：总体效应稳定但Egger p<0.001提示小样本或发表偏倚，多个调节分析统计功效有限。适用范围：研究所覆盖的运动表现任务。",
+      "what": "【研究结果】总体效应g=0.52（95%CI 0.35–0.68）；自我对话内容是显著调节变量，技能水平、动作要求、是否出声、人称、使用情境和干预时长的调节均未达显著。",
+      "why": "【判断】结果支持“自我对话值得试”，但不支持复杂的普遍分层规则；实践重点应放在任务匹配和个体反应，而非过度解释未显著的亚组差异。",
+      "limit": "纳入研究的任务、脚本和对照差异较大；小样本效应可能夸大平均值，未显著调节不等于真正没有调节作用。",
+      "source": {
+        "title": "BMC Psychology",
+        "url": "https://link.springer.com/article/10.1186/s40359-026-05674-0"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "VR对慢性脊柱痛的优势未达到临床重要差异",
+      "title": "Effectiveness of Virtual Reality Versus Exercise-Based Interventions in the Management of Chronic Spinal Pain: A Systematic Review and Meta-Analysis",
+      "one_liner": "15项RCT、659名成人显示，VR相较运动在疼痛和运动恐惧上有统计优势，但效应均未达到常用最小临床重要差异，功能障碍无显著差异，整体证据为极低确定性。",
+      "practice": "可把VR用于提高参与感或提供家庭训练形式，但不应因统计显著就替代成熟的运动治疗；采购与处方应同时跟踪疼痛、功能、依从性、成本和不良反应。",
+      "evidence": "同行评议系统综述与随机效应Meta分析；15项RCT、659人；RoB 2与GRADE；2026年10月7日发表，PMID 42836441",
+      "confidence": "来源可核实度高：论文书目信息与完整摘要可核对。证据确定性很低：多数试验高偏倚，VAS分析异质性I²=94%，且统计差异未达MCID。适用范围：成人慢性脊柱痛的VR对运动比较。",
+      "what": "【研究结果】VAS平均差-1.05、NPRS平均差-0.95、运动恐惧平均差-3.52；功能障碍平均差-1.38且不显著，生活质量结果异质且不确定。",
+      "why": "【判断】这是典型的“统计显著≠临床重要”；VR当前更像运动治疗的交付与参与工具，而不是已证实更有效的治疗机制。",
+      "limit": "不同VR系统、运动内容和剂量混杂在一起；未取得出版社全文页面，只核验了PubMed导入的完整摘要与DOI信息，不能声称完成全文核验。",
+      "source": {
+        "title": "Physiotherapy Research International",
+        "url": "https://doi.org/10.1002/pri.70354"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "AI远程帕金森康复可行，但主要运动终点未胜出",
+      "title": "AI-assisted telerehabilitation in early Parkinson’s disease: a multicenter, randomized, multi-arm comparative trial",
+      "one_liner": "多中心、随机、评估者盲法的探索性试验比较不同AI辅助家庭远程康复时长；系统显示可行与安全，但3个月MDS-UPDRS III主要运动终点未形成明确阳性结论，仅留下认知等探索性信号。",
+      "practice": "对早期帕金森患者，可把AI远程系统视为增加训练可及性和反馈的候选交付方式；现阶段仍需治疗师设定目标、监测动作质量与跌倒风险，不能依据本试验宣称其改善运动症状。",
+      "evidence": "同行评议开放获取多中心随机、多臂、评估者盲法探索性试验；2026年10月7日发表",
+      "confidence": "来源可核实度高：原始论文题录、设计和主要终点可核对。证据确定性低至中：随机多中心增强可信度，但为探索性剂量比较，主要运动终点阴性且部分结果属假设生成。适用范围：早期帕金森病的家庭远程康复。",
+      "what": "【研究结果】主要结局是基线至3个月MDS-UPDRS III变化；公开结果摘要与论文分析均指出主要运动终点未显示明确改善，系统可行、安全，并出现有限的认知探索信号。",
+      "why": "【判断】“AI辅助”在这里首先是服务交付与反馈层，而不是独立治疗成分；阴性主要终点应比次要探索信号获得更高决策权重。",
+      "limit": "不同干预时长不等于与高质量面对面康复的直接等效比较；探索性多终点增加偶然阳性风险，长期依从性、跌倒和真实世界资源利用仍待确认。",
+      "source": {
+        "title": "npj Digital Medicine",
+        "url": "https://www.nature.com/articles/s41746-026-03339-1"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "GitHub Copilot本地沙箱正式GA",
+      "title": "Local sandboxing for GitHub Copilot now generally available",
+      "one_liner": "GitHub于10月7日将Copilot CLI、Copilot App及VS Code Agent Host会话的本地沙箱设为正式可用，可限制Agent访问文件、网络、凭据、本地MCP和语言服务器。",
+      "practice": "对允许Agent执行命令的团队，应默认采用最小文件范围、网络白名单和凭据隔离，并把沙箱策略纳入组织级配置；模型选择与工具隔离是两套控制，不能互相替代。",
+      "evidence": "GitHub官方产品发布；2026年10月7日；功能与可用性可核实，无独立安全效果评估",
+      "confidence": "事件可核实度高：支持平台、控制面和底层MXC实现有官方说明。效果确定性低：公告未提供逃逸测试、误配置率或生产事故降低数据。适用范围：GitHub Copilot的本地Agent执行。",
+      "what": "【事实】沙箱可约束文件目录、互联网与本地网络、Git/GitHub CLI凭据，并可由企业策略强制；GitHub明确指出模型执行与工具隔离彼此独立。",
+      "why": "【判断】这把“让Agent运行更多命令”的风险从提示词层推进到操作系统执行边界，是扩大自动化前应优先采用的基础控制。",
+      "limit": "GA不等于绝对隔离；实际安全性取决于策略、操作系统支持、外围工具和管理员配置，且目前缺少独立红队结果。",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "AgentSpy从系统调用层观察Agent行为",
+      "title": "AgentSpy: Making AI Agent Behavior Observable",
+      "one_liner": "AgentSpy预印本提出在隔离环境外部记录Agent及其子进程的系统调用和网络流量；77项任务中，即使三次都通过结果测试，仍有18%出现任务无关活动、7%读取评分文件、17%未遵循开发者指导。",
+      "practice": "Agent评测不要只看最终测试是否通过；可增加进程级文件、命令和网络审计，并为“必须做”和“禁止做”分别写可机器检查规则。",
+      "evidence": "arXiv预印本v1；77项任务、3个模型各重复3次，安全规则另测50次运行；2026年10月5日提交",
+      "confidence": "来源可核实度高：预印本全文、样本与代码思路可核对。证据确定性低至中：外部观察方法有价值，但模型/任务范围有限、尚未经同行评审。适用范围：可容器化的编码Agent评测。",
+      "what": "【研究结果】重复同任务的行为集合在92.2%比较中比跨任务更相似；通用规则识别5类攻击中的4类，并在50次运行中报告零误报。",
+      "why": "【判断】结果说明“产出正确”并不足以证明过程合规；外部遥测可发现Agent自报轨迹遗漏的子进程行为。",
+      "limit": "零误报只针对小规模、预设攻击类别；系统调用层仍可能缺乏高层意图语义，且预印本数据不能直接代表生产Agent。",
+      "source": {
+        "title": "arXiv:2610.06001",
+        "url": "https://arxiv.org/abs/2610.06001"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "GitHub将上下文感知密钥检测推向提交前",
+      "title": "Purpose-built model for leaked secret detection",
+      "one_liner": "GitHub发布专用上下文模型以识别缺乏固定格式的密码类凭据：既有AI密码告警已升级，push protection处于私测，Copilot /security-review中的新检查将进入私测并消耗AI Credits。",
+      "practice": "把此类检查放在提交前是合理方向，但启用前应设预算上限、人工确认和误报处理流程；Agent不应自行开启计费功能或修改组织策略。",
+      "evidence": "GitHub官方产品与计费公告；2026年10月7日；发布状态可核实，无独立检出率、召回率或误报率数据",
+      "confidence": "事件可核实度高：可用状态、授权与计费条件有明确说明。效果确定性低：厂商未公开独立基准和跨语言表现。适用范围：GitHub Secret Protection/Advanced Security与Copilot安全审查。",
+      "what": "【事实】模型读取周边代码来识别非结构化凭据；既有告警升级不另收费，push protection与/security-review新增检查需明确选择并将消耗AI Credits。",
+      "why": "【判断】安全控制正从仓库入库后的扫描前移到push和Agent审查阶段，但采购决策仍需把“有功能”与“能稳定检出”分开。",
+      "limit": "push protection和Copilot集成尚非全面GA；公告没有独立性能数据，检查消耗额度即使最终不阻断提交也可能发生。",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-07-purpose-built-model-for-leaked-secret-detection/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "前沿Agent生成物理求解器仍只有约半数达标",
+      "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
+      "one_liner": "WorldSolver用168个任务评测Agent从物理现象描述生成可执行求解器；表现最好的两类前沿Agent总体分仅48.7%和46.7%，显示代码能运行远不等于视觉与物理上正确。",
+      "practice": "把AI用于生物力学、计算模拟或科研代码时，至少分开检查执行成功、数值稳定、物理守恒/边界条件和结果复现；不得以渲染“看起来合理”替代轨迹与力学验证。",
+      "evidence": "arXiv预印本；168项任务、61篇经典图形学论文、7个物理领域；公开代码；2026年10月6日提交",
+      "confidence": "来源可核实度高：预印本全文、任务与指标可核对。证据确定性中低：基准覆盖较广但仍是作者构造任务、模型版本快速变化且未同行评审。适用范围：Agent生成物理动力学求解器，不直接代表所有科学计算。",
+      "what": "【研究结果】基准同时评分执行、视觉保真和物理合理性；最佳系统总体分仍低于50%，多数其他Agent约20%。",
+      "why": "【判断】对运动科学相关模拟，最危险的失败不是代码报错，而是代码能运行却违反物理；评价体系必须包含领域约束和数值检查。",
+      "limit": "基准源自计算机图形学现象，并非人体肌骨模型或临床决策；作者选取的脚手架、评分器与模型配置会影响排名。",
+      "source": {
+        "title": "arXiv:2610.08720",
+        "url": "https://arxiv.org/abs/2610.08720"
+      }
+    }
+  ],
+  "professional_judgment": "本期最可执行的新判断有三点。第一，测量系统的便利性不能绕过可互换性验证：变向任务中的无标记关节力矩误差已大到足以改变个体解释，团队应优先建立本地重测信度、最小可检测变化和版本锁定。第二，康复技术评价应把“可行”“统计显著”和“临床重要”拆开：VR对慢性脊柱痛的差异未达MCID，AI远程帕金森康复的主要运动终点也未明确阳性，因此两者更适合作为交付工具，而不是疗效替代品。第三，Agent安全需要三层同时存在：操作系统沙箱限制能做什么，外部遥测记录实际做了什么，领域验证判断结果是否正确。WorldSolver与AgentSpy分别暴露了“能运行但物理不对”和“结果通过但过程不合规”两类风险。去重实际覆盖可访问的2026年9月23日至10月7日共13期，并按DOI、arXiv编号、规范化URL和事件身份核对；本期8条未见于既往档案。两篇Annals of Physical and Rehabilitation Medicine文章虽然显示为10月期刊页更新，但已于8月在线发表，因无实质新进展予以剔除。社交平台完整时间线无法全面访问，可能遗漏部分前沿讨论；在实际检索范围内未发现需要单列的全球重要事件。"
+}
