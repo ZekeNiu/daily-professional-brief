@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "date": "2026-10-09",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 2,
+      "AI": 4,
+      "全球重要事件": 0
+    },
+    "signal": "今天最清晰的共同信号是：可观察指标、可运行代码与可调用工具都只是中间层；专业决策必须继续核验临床终点、内部力学、过程约束和真实部署边界。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：跑姿与鞋类研究再次提醒，外部运动学变化不能直接推导为组织负荷、伤病下降或表现提升；训练编排则可在总休息量不变时给运动员有限选择权。",
+    "运动健康": "本板块重点：有氧运动改善血管内皮的总体证据较强，但机制关联不能当因果；肿瘤运动治疗已有首批疾病终点信号，却远未形成跨癌种通用“药物式处方”。",
+    "AI": "本板块重点：企业Agent正在统一入口、可视化交付与高风险治理上快速前进；同时，研究显示“何时纠正Agent”必须用结果数据验证，不能只依赖不确定性分数。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "跑姿处方不能从足着地或180步频直接推出",
+      "title": "The Heel-Strike Fallacy and Cadence Beliefs in Distance Running: A Narrative Review",
+      "one_liner": "10月7日发表的叙述性综述区分外部冲击、内部组织负荷、跑步经济性、症状与伤病发生，指出足着地方式和“180步/分”都不支持脱离速度、个体与目标的普遍处方。",
+      "practice": "跑姿重训前先明确目标是症状、特定组织负荷、经济性还是技术体验；改变步频或着地后分别复测目标结局，不用单一冲击峰或胫骨加速度代替全部风险。",
+      "evidence": "同行评议开放获取叙述性综述；结构化检索至2026年6月；2026年10月7日发表；DOI 10.1186/s40798-026-01120-y",
+      "confidence": "来源可核实度高：全文与检索框架可核对。证据确定性中等偏低：属于叙述性而非定量系统综述，结论依赖多层级证据整合。适用范围：耐力跑者的跑姿评估与重训。",
+      "what": "【研究综合】后足着地并不等同于更高的所有内部负荷；提高步频可急性改变部分运动学和负荷，但对经济性、长期症状及伤病风险的转化证据并不一致。",
+      "why": "【判断】实践上最重要的不是选“前掌还是后跟”，而是避免把容易测的外部变量误当成难以直接测量的组织结局。",
+      "limit": "综述未进行效应量合并；个体化重训在特定症状与任务下仍可能有效，本文不能解释为“跑姿干预无用”。",
+      "source": {
+        "title": "Sports Medicine - Open",
+        "url": "https://link.springer.com/article/10.1186/s40798-026-01120-y"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "固定总休息量下，自选间歇小幅提高总功率",
+      "title": "Fixed Versus Self-Selected Rest Durations During Repeated High-Intensity Cycling: Effects on Performance and Sex-Specific Rest Strategies",
+      "one_liner": "27名校队运动员完成9×30秒高强度骑行时，在总休息时间同为12分钟的条件下，自选休息使总功率增加42.7 W（g=0.21），并显著提高自主感。",
+      "practice": "可在高强度重复训练中给运动员一个受总量约束的休息“预算”，让其自行分配；先观察功率轨迹、训练目标完成度与总课时，而不是无限延长恢复。",
+      "evidence": "同行评议随机交叉试验；27名校队运动员（17女）；2026年10月7日在线发表；PMID 42842422",
+      "confidence": "来源可核实度高：PubMed完整摘要、设计和效应量可核对。证据确定性低至中：交叉设计适合急性比较，但样本小、效应小且只测一次骑行任务。适用范围：类似的重复高强度间歇。",
+      "what": "【研究结果】自选条件的总功率略高，感知自主性效应大（g=1.33）；主观用力、疲劳和愉悦度无组间差异，休息分配变异与表现不相关。",
+      "why": "【判断】受约束的自我调节可增加体验自主性，而不必牺牲总休息量控制；对表现的实际收益则可能很小。",
+      "limit": "女性后段选择较长休息属探索性发现，且没有性能的性别×条件交互；不能据此制定性别化固定间歇。",
+      "source": {
+        "title": "Research Quarterly for Exercise and Sport / PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42842422/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "三维膝关节形态可能解释部分ACL负荷差异",
+      "title": "3D articular knee shape drives increased anterior cruciate ligament (ACL) loading in young, active individuals with ACL injury and females",
+      "one_liner": "研究为168名年轻活跃者建立个体化膝关节计算模型，其中一半有ACL断裂史；结果提示三维关节面形态可驱动伤者与女性中更高的模拟ACL负荷。",
+      "practice": "若开展高阶ACL风险研究或术前规划，应考虑从通用关节几何升级为个体MRI形态模型；现阶段不应用形态结果单独筛人、限制运动或决定手术/康复。",
+      "evidence": "同行评议开放获取计算生物力学研究；168名年轻活跃者、个体化三维模型；2026年10月7日发表；DOI 10.1038/s43856-026-01932-9",
+      "confidence": "来源可核实度高：原始论文与样本描述可核对。证据确定性中等偏低：模型可支持机械解释，但仍依赖载荷边界与材料假设，且不是前瞻伤病预测。适用范围：ACL机制与个体化建模。",
+      "what": "【研究结果】作者在受控高负荷动作模拟中观察到，关节几何差异与ACL载荷差异相关，并可机械性解释伤者与女性组的一部分负荷升高。",
+      "why": "【判断】这是把“女性/既往伤史”这类群体标签拆解为可建模结构特征的一步，为数字孪生和个体化术式评估提供方向。",
+      "limit": "模拟负荷不等于真实比赛中的损伤发生率；结构形态不可轻易改变，且结果尚未证明能提高筛查、预防或康复结局。",
+      "source": {
+        "title": "Communications Medicine",
+        "url": "https://www.nature.com/articles/s43856-026-01932-9"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "有氧运动使肱动脉FMD平均提高2.35个百分点",
+      "title": "Impact of Aerobic Exercise on Endothelial Function and Other Cardiovascular Disease Markers in Health and Disease: A Systematic Review and Meta-analysis with Meta-regression of Randomized Controlled Trials",
+      "one_liner": "72项随机对照研究、3357名成人的Meta分析显示，有氧训练使肱动脉血流介导扩张平均提高2.35个百分点，并同时改善多项心代谢指标。",
+      "practice": "在心血管预防与康复中继续把规律有氧训练作为基础干预，并同时跟踪体适能、血压、体成分和代谢指标；不要把单次FMD或“估算风险下降”当作个体硬终点。",
+      "evidence": "前瞻注册的同行评议系统综述、Meta分析与Meta回归；72项RCT、3357人；2026年10月8日发表；DOI 10.1186/s40798-026-01110-0",
+      "confidence": "来源可核实度高：开放全文、检索更新至2026年6月。证据确定性中等：RCT汇总规模较大，但人群、方案与测量异质，部分次要结局存在发表偏倚。适用范围：健康及多类慢病成人。",
+      "what": "【研究结果】FMD平均差2.35%（95%CI 1.98–2.73）；体重、体脂、血压、VO₂max和胰岛素变化在Meta回归中与FMD改善相关。",
+      "why": "【判断】结果支持有氧训练的多系统血管获益；更值得实践关注的是多指标同步改善，而不是寻找一个单一“内皮机制”。",
+      "limit": "Meta回归是研究层级关联，不能证明体重或VO₂max变化导致FMD改善；论文援引的约24%心血管风险降低是由FMD关联外推，并非本Meta分析直接观察的事件终点。",
+      "source": {
+        "title": "Sports Medicine - Open",
+        "url": "https://link.springer.com/article/10.1186/s40798-026-01110-0"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "运动作为抗癌治疗的疾病终点证据出现分化",
+      "title": "Exercise therapy in cancer prevention and treatment",
+      "one_liner": "10月7日综述指出，两个充分把握度的III期试验给出不同结果：CHALLENGE在完成手术和辅助治疗的结肠癌人群改善无病生存与总生存，ECHO在一线治疗卵巢癌人群未改善无进展生存。",
+      "practice": "肿瘤康复仍应依据症状、体能与治疗阶段个体化运动；若目标升级为影响复发或生存，只能引用癌种、时点和方案匹配的试验证据，不做跨癌种外推。",
+      "evidence": "同行评议临床综述，整合流行病学、机制和关键临床试验；2026年10月7日发表；DOI 10.1038/s41571-026-01201-7",
+      "confidence": "来源可核实度高：原始综述与关键试验方向可核对。证据确定性按场景分化：支持性护理获益较成熟，疾病终点仅少数癌种/阶段有III期证据。适用范围：肿瘤预防、治疗中及治疗后运动。",
+      "what": "【证据综合】CHALLENGE与ECHO的相反结果说明，肿瘤类型、治疗时机与运动剂量可能决定疾病终点；目前没有基于验证替代终点建立的通用“生物活性剂量”。",
+      "why": "【判断】运动肿瘤学正从改善功能与副作用进入疾病修饰验证阶段，但现在最专业的做法是按癌种和阶段分层，而不是宣称“运动治疗癌症”。",
+      "limit": "这是综述而非新试验；部分全文内容受出版访问限制，不能把作者提出的转化框架当成已验证处方。作者之一披露相关公司持股。",
+      "source": {
+        "title": "Nature Reviews Clinical Oncology",
+        "url": "https://www.nature.com/articles/s41571-026-01201-7"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Google推出统一企业工作Agent",
+      "title": "Gemini at Work 2026: Introducing Gemini agent",
+      "one_liner": "Google Cloud于10月8日发布统一Gemini工作Agent：可在知识工作、内容、代码和企业系统间执行任务，并提供多模型路由、项目级实时支出上限及身份/权限治理。",
+      "practice": "评估企业Agent时，把模型质量、连接器权限、成本上限和审计分别验收；先从可回滚、数据范围清楚的流程试点，并用任务级质量/成本数据验证智能路由。",
+      "evidence": "Google Cloud官方产品公告；2026年10月8日；功能与定位可核实，客户成效和80%价格性能提升主要为厂商主张",
+      "confidence": "事件可核实度高：官方列明Agent、治理和成本控制。效果确定性低：缺少独立基准、可用范围和生产故障率数据。适用范围：Google Cloud企业工作流。",
+      "what": "【事实】该Agent从一个入口调用技能、工具和企业上下文，可在Gemini与Anthropic模型间选择，并支持Smart Routing与项目级支出硬上限。",
+      "why": "【判断】真正的新意不只是“一个聊天框”，而是把模型选择、预算和企业权限变成同一执行平面的控制对象。",
+      "limit": "官方案例与性能数字未获独立验证；不同地区、版本和连接器的可用性需逐项确认，统一入口也会扩大权限配置错误的影响面。",
+      "source": {
+        "title": "Google Cloud Blog",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Claude把数据查询直接做成可审计Dashboard",
+      "title": "Build live dashboards and animate explainers with Claude",
+      "one_liner": "Anthropic于10月8日推出Claude Dashboards与Motion测试版；Dashboard可连接BigQuery、Databricks、Snowflake等并显示每个图表的查询和刷新时间，Motion则用可编辑代码生成动画。",
+      "practice": "可用于探索性分析与快速沟通，但关键报表仍应锁定指标定义、复核SQL、核对刷新范围与权限；生成动画应保留源数据和版本，避免视觉叙事掩盖不确定性。",
+      "evidence": "Anthropic/Claude官方产品公告；2026年10月8日；功能与套餐可核实，无独立准确性或数据治理评测",
+      "confidence": "事件可核实度高：支持连接器、可见查询和套餐范围有官方说明。效果确定性低：没有SQL正确率、权限误配或刷新失败数据。适用范围：Claude付费、Team及Enterprise计划。",
+      "what": "【事实】Dashboards在付费计划测试，Motion在Team/Enterprise测试；Docs、Slides和Design已退出测试。每个图表可查看查询及最近刷新时间，动画由代码而非视频模型生成。",
+      "why": "【判断】“看得到查询”提高了可审计性，但不会自动保证口径和连接逻辑正确；它更适合作为分析起点而非无人复核的最终报表。",
+      "limit": "官方演示不能代表复杂生产数据；连接器权限、语义层、行级安全和导出后的更新行为需要组织自行验证。",
+      "source": {
+        "title": "Claude by Anthropic",
+        "url": "https://claude.com/resources/articles/dashboards-and-motion"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Anthropic明确高风险与物理行动的人类监督要求",
+      "title": "2026 Usage Policy update",
+      "one_liner": "Anthropic于10月8日发布新使用政策，11月12日生效；高风险健康、法律、金融等建议继续要求有权修改结论的专业人员复核，并新增对可能致伤的自主物理设备的可观察、可停止和失联安全状态要求。",
+      "practice": "若在运动健康、康复或硬件训练设备中部署Claude，应把专业复核权、AI告知、急停、失联安全状态与日志写进系统验收，而不是只依赖提示词声明。",
+      "evidence": "Anthropic官方政策更新；2026年10月8日发布、2026年11月12日生效；可确认政策内容，不证明技术控制已自动实现",
+      "confidence": "事件可核实度高：生效日期和要求有官方文本。效果确定性不适用/低：这是使用规则，不是安全效果研究。适用范围：Claude相关高风险与自主物理行动用例。",
+      "what": "【事实】更新整合欺骗性活动规则，明确武器控制软件、非自愿追踪和刑事决策限制，并要求高风险场景的人类可复核性；连接物理设备时，合格操作者必须能观察和停止设备。",
+      "why": "【判断】对AI+运动康复最实际的变化是：监督被定义为有权改变建议和停止设备的操作能力，而不是名义上的“human in the loop”。",
+      "limit": "政策主要澄清既有执行范围；它不替代医疗器械法规、当地法律或独立风险评估，也不说明违规检测覆盖率。",
+      "source": {
+        "title": "Anthropic",
+        "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Agent纠正时机不能只看不确定性",
+      "title": "From Uncertainty to Action: Learning to Steer LLM Agents",
+      "one_liner": "预印本对1864条Agent轨迹生成约8.2万次反事实续跑，发现不确定性能识别失败，但无法稳定定位“此刻纠正是否有益”；学习式Value of Steering平均提高7.8个百分点。",
+      "practice": "为长程Agent设计人工介入时，应记录“在哪一步介入、介入方式、最终结果和被误伤的成功任务”，用实际结果训练触发器，并为成功轨迹设干扰预算。",
+      "evidence": "arXiv预印本v1；3个基准、2类Agent、约82000个反事实续跑；2026年10月6日提交；arXiv:2610.09115",
+      "confidence": "来源可核实度高：预印本与方法摘要可核对。证据确定性低至中：规模较大但未同行评审，训练分布与生产工作流差异可能明显。适用范围：可重复评估的长程LLM Agent。",
+      "what": "【研究结果】VoS在12种基准×Agent×线上/离线设置中均优于不干预，平均提升7.8点，并在11种设置中优于最强不确定性触发方法，平均多2.9点。",
+      "why": "【判断】“模型看起来不确定”不是可靠的接管时机；监督系统应优化介入的净价值，而非最大化介入次数。",
+      "limit": "结果依赖作者构造的反事实续跑和评分函数；真实任务中的人类纠正成本、延迟与不可逆操作未必能被同样估计。",
+      "source": {
+        "title": "arXiv:2610.09115",
+        "url": "https://arxiv.org/abs/2610.09115"
+      }
+    }
+  ],
+  "professional_judgment": "本期有三项新的决策意义。第一，运动技术改变必须按证据层级拆开：着地、步频、关节角度和模拟韧带负荷都可帮助解释机制，却不能自动跨越到伤病或表现结局；因此，测量目标必须在干预前写清。第二，运动健康正在出现更“硬”的临床终点，但边界同样重要：FMD汇总支持有氧训练的广泛血管获益，而肿瘤领域相反的III期结果提醒，癌种、阶段和剂量不能被一句“运动有益”抹平。第三，AI工作流的成熟度越来越取决于控制面：统一Agent、可查看查询、支出上限、专业复核和物理急停都比单一模型分数更接近真实部署条件；同时，何时介入Agent也应由结果数据而非直觉式不确定性触发。去重实际覆盖可访问的2026年9月23日至10月8日共14期，并按DOI、PMID、arXiv编号、规范化URL与事件身份核对，本期9条未见于既往档案。社交平台完整时间线无法全面访问，可能遗漏部分前沿讨论；在实际核验范围内未发现需要单列的全球重要事件。"
+}
