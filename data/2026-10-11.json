@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "date": "2026-10-11",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 8,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 4,
+      "AI": 1,
+      "全球重要事件": 0
+    },
+    "signal": "今天最有实践价值的不是单一“新动作”或“新设备”，而是把性能信号、临床效用与部署安全分开验证：小样本和横断面结果适合生成假设，不能直接升级为普遍处方。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：足—踝训练、脱水认知与落地力学均出现新信号，但共同限制是样本小或非随机；可用于调整评估与研究优先级，暂不足以形成通用处方。",
+    "运动健康": "本板块重点：太极、虚拟现实辅助腰痛康复与帕金森可穿戴评估均指向“分层与客观测量”，同时脊髓损伤研究提醒实施条件本身决定证据能否产生和落地。",
+    "AI": "本板块重点：近72小时内经去重后仅发现一项达到纳入阈值的实质更新；JetBrains中的MCP自动启动控制把工具权限边界前移到IDE配置层。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "足核心方案改善多项表现，但非随机分组削弱因果解释",
+      "title": "Development and evaluation of a knowledge transfer scheme-based foot core training program for male amateur football players",
+      "one_liner": "10月9日发表的准实验研究中，34名自选进入足核心训练、47名维持常规训练；6周后训练组纵跳、Y-Balance、短跑和舟骨下降量的变化更大。",
+      "practice": "可把多模态足—踝训练作为业余男子足球运动员的辅助模块，并用跳跃、短跑、Y-Balance及足弓指标做前后测；正式推广前应与随机、主动对照试验结果核对。",
+      "evidence": "同行评议开放获取准实验研究；81名男性业余足球运动员、6周；2026年10月9日发表；DOI 10.1186/s13102-026-02154-1",
+      "confidence": "来源可核实度高：开放全文、样本和效应可核对。证据确定性低至中：参与者自选组别，残余混杂和期待效应明显。适用范围：男性业余足球运动员的短期表现，不是伤病预防证据。",
+      "what": "【研究结果】纵跳提高8.55%，水平跳提高3.8%，右侧舟骨下降量减少15.44%，Y-Balance和10/20/30米短跑均出现显著组别×时间交互；作者明确称结果只用于生成假设。",
+      "why": "【判断】这项研究的价值在于把足内在肌、踝和下肢训练整合成可执行方案，并同时观察局部结构代理指标与专项体能，而非证明某个单独动作有效。",
+      "limit": "不是随机分组，控制组也非等剂量主动训练；舟骨下降是静态间接指标，不能解释为足弓结构永久改变，更不能据此宣称减少下肢损伤。",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02154-1"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "高BMI运动员脱水后前额叶反应不同，但样本仅12人",
+      "title": "The effect of body mass index on prefrontal cortex hemodynamic and cognitive functions in exercise-induced hypohydration in male athletes: preliminary study",
+      "one_liner": "12名训练男性完成30分钟骑行加4次冲刺；高BMI组脱水后出现较高血细胞比容增幅、不同的前额叶血氧模式，并在2-back任务中漏答更多。",
+      "practice": "高热或高脱水风险训练中，可对体型较大运动员加强体重变化、补液和认知状态监测；当前结果不支持按BMI设定统一补液阈值，也不应把BMI当作脱水耐受能力的替代指标。",
+      "evidence": "同行评议开放获取探索性生理研究；n=12、无正常补液对照；2026年10月9日发表；DOI 10.1186/s12868-026-01062-x",
+      "confidence": "来源可核实度高：开放全文和完整方法可核对。证据确定性低：每组约6人、没有正常补液条件，BMI无法区分脂肪与瘦体重。适用范围：训练男性在特定骑行—冲刺协议下的急性反应。",
+      "what": "【研究结果】低BMI组运动后氧合血红蛋白上升，高BMI组脱氧血红蛋白和总血红蛋白上升；高BMI组2-back漏答更多，但研究没有证明这些变化由脱水而非运动负荷或体成分导致。",
+      "why": "【判断】研究提示同一外部负荷下，体型与热液调节、脑血流和认知表现可能联动，值得在热适应与补液研究中预先分层。",
+      "limit": "不能从12人推导风险阈值或补液剂量；没有体脂、汗率或等水对照的充分隔离，前额叶fNIRS变化也不等于临床认知损伤。",
+      "source": {
+        "title": "BMC Neuroscience",
+        "url": "https://link.springer.com/article/10.1186/s12868-026-01062-x"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "运动科学",
+      "short_title": "扁平足合并膝内翻运动员落地力矩不同，尚不能导出处矫处方",
+      "title": "Comparison of kinetic and kinematic variables during single-leg jump landing between athletes with and without concurrent flexible flatfoot and genu varum deformities",
+      "one_liner": "10名合并柔性扁平足与膝内翻的运动员和10名对照在单腿落地时显示踝、膝、髋多个平面的关节力矩差异。",
+      "practice": "对同时存在足姿和膝对线特征的运动员，可增加单腿落地的多平面观察与负荷耐受评估；是否使用矫形器或“纠正训练”仍应由症状、功能和干预试验决定。",
+      "evidence": "同行评议开放获取横断面比较研究；n=20，三维动作捕捉与测力台；2026年10月9日发表；DOI 10.1186/s13018-026-07306-0",
+      "confidence": "来源可核实度高：开放全文、测量方法和组间结果可核对。证据确定性低：每组10人、多重比较且是静态形态分组。适用范围：具有两种并存形态特征的运动员单次落地任务。",
+      "what": "【研究结果】两组在初始触地和最大屈膝时的踝、膝、髋额状面或水平面力矩存在差异；论文没有测试伤病发生率，也没有测试任何矫形或训练干预。",
+      "why": "【判断】对实践最重要的是“形态组合可能改变任务策略”，而不是把扁平足或膝内翻单独视为损伤诊断。",
+      "limit": "横断面差异不代表因果或危险；未报告可直接用于临床筛查的阈值，不能据此给无症状运动员统一配鞋垫或纠正动作。",
+      "source": {
+        "title": "Journal of Orthopaedic Surgery and Research",
+        "url": "https://link.springer.com/article/10.1186/s13018-026-07306-0"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "帕金森EMG/IMU提示重症亚型数字表型，仍需纵向验证",
+      "title": "Wearable Electromyography and Inertial Sensor Phenotypes Across Clinical Subtypes of Parkinson’s Disease",
+      "one_liner": "120名用药ON期帕金森患者中，前臂EMG/IMU的动作幅度/速度域是多重校正后唯一显著区分临床亚型的数字运动域，并与弥漫恶性亚型相关。",
+      "practice": "康复或随访团队可优先把快速交替动作的幅度/速度作为可穿戴候选结局，而不是堆叠大量数字特征；在用于预后或治疗分层前，需要多中心、OFF期和纵向复现。",
+      "evidence": "同行评议开放获取横断面原始研究；120名中国汉族患者、其中弥漫恶性亚型20人；2026年10月9日发表；DOI 10.1007/s40120-026-01054-3",
+      "confidence": "来源可核实度高：全文、信号处理和校正模型可核对。证据确定性中低：单中心、横断面、亚型不均衡且全部在用药ON期。适用范围：帕金森上肢任务的候选数字表型。",
+      "what": "【研究结果】幅度/速度域在FDR校正后亚型效应p=0.006；其与弥漫恶性亚型的关联OR为2.90，LASSO选择后的模型OR为4.44；较低震颤幅度也独立区分该亚型。",
+      "why": "【判断】比起“更多特征”，结果支持先找少数能补充临床量表的信息域；尤其提醒最重亚型未必表现为更大震颤。",
+      "limit": "研究没有证明该指标预测进展或指导康复有效；弥漫恶性亚型仅20人且置信区间宽，设备和算法跨中心可迁移性未知。",
+      "source": {
+        "title": "Neurology and Therapy",
+        "url": "https://link.springer.com/article/10.1007/s40120-026-01054-3"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "太极对膝髋骨关节炎证据最稳，其他慢性肌骨痛仍不一致",
+      "title": "Reflections on 20 Years of Research on Tai Chi for Chronic Musculoskeletal Pain: An Updated Review",
+      "one_liner": "10月9日更新综述认为，太极用于慢性肌骨疼痛时，对膝/髋骨关节炎的证据最一致；纤维肌痛和慢性腰痛结果有希望但异质，类风湿关节炎证据不足。",
+      "practice": "可把太极作为膝髋骨关节炎多模式管理中的低冲击运动选项，并按疼痛、功能、依从性和共病调整；对腰痛、纤维肌痛或类风湿关节炎应把它定位为可选辅助，而非确定性一线方案。",
+      "evidence": "同行评议叙述性更新综述；整合近20年RCT、机制与务实研究；2026年10月9日Version of Record；DOI 10.1007/s11926-026-01239-7",
+      "confidence": "来源可核实度高：全文和纳入证据链可核对。证据确定性因疾病而异：膝髋骨关节炎中等，慢性腰痛/纤维肌痛低至中，类风湿关节炎低。适用范围：慢性肌骨疼痛的辅助运动治疗。",
+      "what": "【综述结论】作者将最稳定支持归于膝和髋骨关节炎；慢性腰痛与纤维肌痛的研究方案和效果异质，类风湿关节炎缺少足够一致数据。",
+      "why": "【判断】它纠正了把“太极对慢性疼痛有效”当作一个统一命题的做法，实际证据应按诊断、目标结局与交付方式分层。",
+      "limit": "这是叙述性更新综述而非新的统一荟萃分析；不能从综述直接得出最佳式样、频率或剂量，也不应替代个体化负荷管理。",
+      "source": {
+        "title": "Current Rheumatology Reports",
+        "url": "https://link.springer.com/article/10.1007/s11926-026-01239-7"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "VR叠加DNS改善平衡与腰椎前凸，但疼痛未显示额外优势",
+      "title": "Effects of dynamic neuromuscular stabilization with and without immersive virtual reality on pain, postural, and functional outcomes in women with lumbar hyperlordosis and chronic non-specific low back pain: a randomized controlled trial",
+      "one_liner": "30–50岁女性随机接受DNS、DNS加沉浸式VR或对照，6周后两种训练均改善多项结局；VR叠加在腰椎前凸角和动态平衡上更优，但疼痛的额外改善未达组间显著。",
+      "practice": "若VR能提高参与度，可将其作为DNS类运动治疗的反馈层，重点追踪动态平衡和功能；不要为追求设备新颖性而替代基础运动剂量、疼痛教育或常规进展标准。",
+      "evidence": "同行评议开放获取三组随机对照试验；每周3次、6周；2026年10月9日发表；DOI 10.1186/s13018-026-07273-6",
+      "confidence": "来源可核实度高：开放全文、注册号与结局可核对。证据确定性中低：单中心、特定女性人群，多终点且短期。适用范围：伴腰椎前凸的30–50岁女性慢性非特异性腰痛。",
+      "what": "【研究结果】DNS和DNS+VR均改善疼痛、平衡、本体感觉、活动度与前凸角；VR组在动态平衡和前凸角上优于DNS单独组，疼痛组间差异不显著，DNS单独组本体感觉改善更大。",
+      "why": "【判断】VR的潜在增量更像特定任务反馈，而不是全面放大康复效果；这有助于决定设备应服务哪一项明确目标。",
+      "limit": "不能外推到男性、急性腰痛或无前凸特征人群；短期代理结局不等于复发、工作能力或长期生活质量改善。",
+      "source": {
+        "title": "Journal of Orthopaedic Surgery and Research",
+        "url": "https://link.springer.com/article/10.1186/s13018-026-07273-6"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "运动健康",
+      "short_title": "脊髓损伤住院期研究的瓶颈在流程，不只在方案",
+      "title": "Perspectives and challenges for delivering spinal cord injury research and exercise interventions during inpatient rehabilitation in the UK",
+      "one_liner": "基于3项英国住院运动干预试验与临床专家经验的观点文章指出，转诊延迟、同意负担、临床优先级、研究时间不足和出院后失访共同压缩亚急性脊髓损伤研究窗口。",
+      "practice": "设计住院康复研究时，应把分阶段招募、临床团队早期共创、受保护研究时间、院内—居家混合交付和出院后追踪写入方案与资源预算，而非只优化运动处方。",
+      "evidence": "同行评议观点/实施分析；基于三项英国试验经验并使用CFIR与RE-AIM框架；2026年10月9日发表；DOI 10.1186/s12916-026-05239-3",
+      "confidence": "来源可核实度高：全文、框架和经验来源可核对。证据确定性低至中：不是效果研究，且主要来自英国NHS。适用范围：亚急性脊髓损伤住院研究与服务设计。",
+      "what": "【作者观点】更贴近患者节奏的分阶段招募、临床人员早期参与、灵活务实试验及院内/远程/居家混合交付，可能改善可达性、实施和保留率。",
+      "why": "【判断】康复证据的外部效度常在招募和交付阶段就被决定；排除病情复杂、住院短或出院快的人，会使最终证据偏离真实服务对象。",
+      "limit": "这是实施经验与框架推演，不证明上述策略必然提高招募或疗效；不同医疗系统的床位、治理和支付结构差异很大。",
+      "source": {
+        "title": "BMC Medicine",
+        "url": "https://link.springer.com/article/10.1186/s12916-026-05239-3"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Copilot for JetBrains新增MCP自动启动控制",
+      "title": "New controls and chat improvements in Copilot for JetBrains",
+      "one_liner": "GitHub 10月10日更新Copilot for JetBrains：企业可设新会话默认模型，用户可禁用Copilot与Claude的MCP服务器自动启动，并可从诊断菜单直接触发修复。",
+      "practice": "使用IDE Agent的团队应把MCP自动启动设为显式治理项：按项目启用最小工具集、记录服务器与权限清单，并在企业默认模型之外保留用户可见的模型选择和审计。",
+      "evidence": "GitHub官方产品更新；2026年10月10日发布；无独立效果评测",
+      "confidence": "事件可核实度高：官方变更说明、兼容要求和功能范围明确。效果确定性低：发布确认功能存在，不证明生产安全性或修复质量。适用范围：JetBrains IDE中的GitHub Copilot用户。",
+      "what": "【官方发布】新增企业托管默认模型、诊断项一键进入聊天修复、MCP服务器自动启动开关，以及会话、账户、worktree和自定义配置的可靠性修复；插件不再支持JetBrains 2025.1。",
+      "why": "【判断】MCP启动开关把“工具何时进入Agent可用面”变成显式配置，有助于减少不必要的常驻权限；其价值取决于组织是否真正维护工具白名单和审计。",
+      "limit": "这是厂商变更日志，没有独立安全测试或生产收益数据；关闭自动启动不等于沙箱、最小权限或不可逆操作审批。",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains/"
+      }
+    }
+  ],
+  "professional_judgment": "本期新的决策意义有两点。第一，运动与康复证据正在提供更细的分层信号——足踝结构、体型/脱水反应、帕金森亚型和疼痛诊断——但最容易误用的地方正是把分层相关性写成通用干预。足核心训练的自选分组、脱水研究的12人样本、落地研究每组10人，都更适合决定“下一步测什么”，而不是决定“所有人练什么”。第二，数字技术的价值取决于它是否补充而非替代基础控制：VR只在部分结局显示增量，EMG/IMU仍需纵向验证，IDE里的MCP启动开关也不能替代沙箱、最小权限和不可逆操作审批。去重实际覆盖可访问的2026年9月23日至10月10日共16期，并按DOI、规范化URL与事件身份核对；本期8条未见于既往档案。同一批10月9日论文中已于10月10日报道的项目、以及Anthropic真实系统误操作事件均未重复。未取得完整社交平台时间线，可能遗漏部分前沿讨论；在实际核验范围内未发现需要单列的全球重要事件。"
+}
