@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 2,
+      "AI": 3,
+      "全球重要事件": 0
+    },
+    "signal": "今天的核心信号是：无论是热身、阈值测试、数字康复还是AI Agent，群体层面的有效与平均一致都不能替代个体层面的误差检查、分层随访和权限边界。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：新研究一面扩大了热身、阈值检测和竞赛配速的可用证据，另一面也明确提醒——证据密度不等于证据质量，群体一致不等于个体处方可靠。",
+    "运动健康": "本板块重点：康复服务的价值不只看平均症状改善；心脏康复要区分观察性生存关联与因果证据，骨关节炎数字项目则应主动识别持续低活动与活动下降者。",
+    "AI": "本板块重点：本周实用更新集中在Agent运行边界和工程卫生——本地沙箱、账号/模型分离、静态分析与令牌核算，比单纯追逐新模型更直接影响可控部署。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "964项热身研究揭示“多而不全”",
+      "title": "Mapping Research on Warm-Up in Athletes: A Scoping Review with Evidence Gap Map",
+      "one_liner": "10月11日发表的范围综述纳入964项研究：证据高度集中于跳跃、冲刺、变向和力量等急性替代指标，直接伤病终点、比赛表现和真实实施研究明显不足。",
+      "practice": "设计或审查热身方案时，把即时准备、长期伤病预防和比赛表现分开评价；记录类型、时长、强度、顺序及热身至比赛的间隔，并以队伍依从性和目标结局复核。",
+      "evidence": "同行评议开放获取范围综述与证据空白图；检索4个数据库至2026年1月20日，纳入964项研究；2026年10月11日发表；DOI 10.1186/s40798-026-01123-9",
+      "confidence": "来源可核实度高：全文、检索范围和证据图可核对。证据确定性中等偏低：未做正式偏倚风险或确定性评级，数量密集不能解释为干预有效。适用范围：竞技运动员赛前/训练前热身。",
+      "what": "【研究综合】27,644条记录筛至964项；急性表现指标最常见，伤病、比赛转化、实施与依从性相对稀缺，且剂量与过渡时间报告不完整。",
+      "why": "【判断】热身研究的问题不是“没有证据”，而是大量证据停留在容易测的短期代理指标；实践者应避免把一次测试改善直接写成伤病下降或比赛获益。",
+      "limit": "范围综述用于画地图，不比较具体热身方案优劣；未纳入会议摘要和灰色文献，英语索引来源占主导，部分项目和地区可能被低估。",
+      "source": {
+        "title": "Sports Medicine - Open",
+        "url": "https://link.springer.com/article/10.1186/s40798-026-01123-9"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "自动VT1适合批量分析，个体处方仍需复核",
+      "title": "Validation of a Revised V-Slope Algorithm for Automated First Ventilatory Threshold Detection in Healthy Adults",
+      "one_liner": "修订V-slope算法在262名相对健康成人中与人工VT1判断的组水平一致性很高（ICC 0.97），但个体95%一致界限为−11.7%至+16.0%。",
+      "practice": "可将算法用于大样本CPET整理和初筛；若VT1将直接决定个人训练区间，应保留原始气体交换曲线、人工复核异常值，并在临床人群另行验证。",
+      "evidence": "同行评议开放获取回顾性验证研究；262名可判定VT1的成人；2026年10月11日发表；DOI 10.1186/s40798-026-01124-8",
+      "confidence": "来源可核实度高：开放全文、代码方法与一致性指标可核对。证据确定性中等：单中心历史数据、参考标准仍为人工视觉判断。适用范围：健康或相对健康成人的周期车CPET批量分析。",
+      "what": "【研究结果】自动法平均比人工法高29 mL/min，组水平等效检验通过；79%个体差异在预设±100 mL/min内，但高VO₂区间存在比例偏倚。",
+      "why": "【判断】高ICC回答“排序是否相近”，不能回答“每个人能否免复核处方”；一致界限比单一相关系数更接近实际使用风险。",
+      "limit": "排除了心肺、代谢等疾病，且使用特定测试协议和预处理流程；不能直接外推到跑台、患者康复或不同气体分析系统。",
+      "source": {
+        "title": "Sports Medicine - Open",
+        "url": "https://link.springer.com/article/10.1186/s40798-026-01124-8"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "HYROX成绩差距主要落在负重与自重站",
+      "title": "Pacing and effort distribution in Hyrox® PRO athletes: differences by sex and performance level",
+      "one_liner": "8,422名PRO组官方成绩显示，各水平跑步配速形态相近；较慢选手的时间损失更多集中于负重和自重站，而不是SkiErg或RowErg。",
+      "practice": "备赛诊断应把8段跑步与8个工作站分别标准化比较；若跑步分配已稳定，优先寻找弓步、墙球、负重搬运和波比跳的技术、局部耐力与转换瓶颈。",
+      "evidence": "同行评议开放获取回顾性官方成绩分析；6,081男、2,341女；2026年10月11日发表；DOI 10.1186/s13102-026-02155-0",
+      "confidence": "来源可核实度高：全文与样本可核对。证据确定性中等偏低：大样本但为比赛分段观察数据，没有训练暴露、生理或技术变量。适用范围：HYROX PRO组同类赛制。",
+      "what": "【研究结果】水平组间跑步形态差异小；随成绩下降，SkiErg/RowErg占力量站总时间比例反而降低，意味着更多时间损失发生在其他站。男女跑步分布差异很小，工作站差异更明显。",
+      "why": "【判断】百分比拆分能帮助定位瓶颈，但更慢不等于该站“造成”总成绩差；仍需结合绝对分段、转换时间和技术视频。",
+      "limit": "性别差异可能部分由PRO组不同负荷标准造成；只保留最快3人为顶尖描述组，且结果不能外推到Open组或证明特定训练方法有效。",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02155-0"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "运动科学",
+      "short_title": "青少年冰球功率基准受年龄与年代强烈影响",
+      "title": "Temporal patterns in maximal relative power output among Czech youth ice hockey players (2019–2023): a repeated cross-sectional study",
+      "one_liner": "1,433次功率车测试中，仅49.1%达到上世纪70年代历史W/kg基准；9–12岁达标率16%–38%，15–18岁为80%–89%，年龄梯度远大于年度变化。",
+      "practice": "青少年选材与体能监测应优先使用同年龄、同协议的本地纵向参照和个体变化，不把单次未达历史W/kg阈值解释为心肺风险或发展失败。",
+      "evidence": "同行评议重复横断面研究；捷克9–18岁男子冰球运动员1,433次测试；2026年10月10日发表；DOI 10.1186/s13102-026-02147-0",
+      "confidence": "来源可核实度高：开放全文与分层结果可核对。证据确定性中等偏低：存在重复受试者且未建模纵向变化，基准年代久远。适用范围：相同功率车协议下的青少年男子冰球。",
+      "what": "【研究结果】2019至2023年同年龄组W/kg总体稳定，仅13–14岁小幅改善；疫情年份有短暂下降，整体达标比例从44.9%增至52.6%。",
+      "why": "【判断】这项研究最有价值的不是建立新阈值，而是说明把不同年龄混合、把历史标准当健康终点，都会放大误判。",
+      "limit": "未测VO₂peak或心代谢结局；历史标准来自不同年代和条件，且研究仅含男性、两个中心，不能用于普遍健康筛查。",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02147-0"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "心脏康复与更低死亡率相关，但核心证据仍偏观察性",
+      "title": "Real-world evidence of beneficial effects of cardiac rehabilitation in ACS and CABG patients. Cardiac Rehabilitation Outcome Study Update (CROS-III)",
+      "one_liner": "更新Meta分析纳入29项、308,514人：参加心脏康复与ACS及CABG患者较低全因死亡率相关，但主要效应来自前瞻/回顾性队列而非充分随机证据。",
+      "practice": "ACS或CABG后的转诊、启动与完成率仍应作为二级预防质量指标；沟通获益时用“与更好预后相关”，同时处理转诊障碍、依从性和合并用药。",
+      "evidence": "同行评议系统综述与Meta分析（接收稿）；29项可合并研究、308,514人；2026年10月10日发表；DOI 10.1093/ehjopen/oeag152",
+      "confidence": "来源可核实度高：摘要、方案注册和效应量可核对。证据确定性中等：方向一致且规模大，但选择偏倚、健康参与者效应与结构异质性限制因果解释。适用范围：现代治疗背景下ACS、CABG及混合冠心病人群。",
+      "what": "【研究结果】队列中，ACS心脏康复参与者全因死亡HR约0.33（前瞻）和0.64（回顾）；CABG回顾性队列HR 0.65。年龄和性别亚组方向相近。",
+      "why": "【判断】结果强化的是服务可及性与持续参与的重要性，不是某一种训练处方已被证明独立降低死亡。",
+      "limit": "作者明确指出结论主要基于观察数据；不同国家的康复内容、转诊机制和随访不同，不能把HR直接当成个体治疗效应。",
+      "source": {
+        "title": "European Heart Journal Open",
+        "url": "https://academic.oup.com/ehjopen/advance-article/doi/10.1093/ehjopen/oeag152/8900682"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "数字骨关节炎项目存在四种活动轨迹",
+      "title": "Trajectories of physical activity following digital education and exercise therapy—a longitudinal registry study among 15,197 persons with knee or hip osteoarthritis",
+      "one_liner": "15,197名膝/髋骨关节炎参与者中，41.2%持续高活动、30.4%持续低、16.5%上升、11.9%下降；一年达到推荐活动量者由51.4%升至58.5%。",
+      "practice": "数字运动治疗不应只看全组平均：早期标记BMI较高、功能较差和活动下降者，设置3个月节点复测并升级人工支持、目标拆分或线下转诊。",
+      "evidence": "同行评议开放获取纵向注册研究；数字教育与运动治疗平台15,197人、随访最长1年；2026年10月11日发表；DOI 10.1186/s12891-026-10590-w",
+      "confidence": "来源可核实度高：开放全文、轨迹比例与利益冲突可核对。证据确定性中等偏低：无对照、活动量为自报且存在随访选择。适用范围：40岁以上膝/髋OA数字项目参与者。",
+      "what": "【研究结果】约42%持续达到推荐水平，约30%持续低；BMI和功能与轨迹关联最强。四组患者报告结局均有临床相近改善。",
+      "why": "【判断】症状改善与活动行为改变并非同一结果；持续低活动者即使疼痛/功能好转，也可能需要单独的行为和环境支持。",
+      "limit": "不能证明平台使活动量上升，也不能从轨迹关联推断BMI导致低活动。平台联合创始人及顾问参与研究，数据由平台提供。",
+      "source": {
+        "title": "BMC Musculoskeletal Disorders",
+        "url": "https://link.springer.com/article/10.1186/s12891-026-10590-w"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Copilot把本地沙箱与本地模型带入常用工作流",
+      "title": "GitHub Copilot weekly releases — October 5",
+      "one_liner": "GitHub 10月9日汇总发布：本地沙箱已在Copilot CLI、App和VS Code Agent Host正式可用；CLI可发现Ollama本地模型，并新增账号分离及并排Agent会话。",
+      "practice": "对能读写仓库、网络和凭据的Agent默认启用沙箱并做最小授权；本地模型与云模型分别建立任务、质量和成本基线，多个会话并行时限定独立worktree和清理策略。",
+      "evidence": "GitHub官方周度产品发布；2026年10月9日；功能存在与支持范围可核实，安全/效率收益未提供独立生产评测",
+      "confidence": "事件可核实度高：官方列出可用产品和功能。效果确定性低：没有逃逸测试、任务成功率或成本对照。适用范围：GitHub Copilot CLI、App与VS Code 1.141相关工作流。",
+      "what": "【事实】沙箱可限制文件、网络和凭据访问；Copilot App可分开许可证账号与仓库账号；CLI的/model可发现运行中的Ollama模型；VS Code可并排查看Agent会话。",
+      "why": "【判断】这些变化把“选什么模型”和“允许它做什么”拆开管理，是Agent落地比单一基准分数更重要的控制面。",
+      "limit": "周报合并了10月6日至9日的多个变更，并非全部在9日首次上线；正式可用不等于零风险，组织策略、审计和秘密管理仍需单独配置。",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "CodeQL 2.27.2扩大多语言数据流分析",
+      "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
+      "one_liner": "CodeQL 2.27.2新增C++正则解析、Go WebSocket模型、Rust异步与TLS数据流摘要，并改进JavaScript/TypeScript工作流及Hapi输入跟踪。",
+      "practice": "AI生成代码进入主分支前继续依赖可重复静态分析；升级自定义查询前先在测试库验证Go CFG破坏性变化，并注意macOS 27对编译型语言追踪构建的限制。",
+      "evidence": "GitHub官方静态分析引擎版本公告与变更日志；2026年10月9日；规则和兼容性可核实，未提供新增规则的独立召回率/误报率评测",
+      "confidence": "事件可核实度高：版本、查询与兼容性变化明确。效果确定性中等偏低：覆盖扩大不自动等于真实项目检出率提高。适用范围：GitHub code scanning、自托管CodeQL及自定义查询。",
+      "what": "【事实】默认套件现含498条查询、覆盖170个CWE；扩展套件再加131条。Go控制流图迁移到共享库会改变节点、边和基本块边界。",
+      "why": "【判断】AI coding提高代码产量后，静态分析的版本管理、查询回归和构建兼容性应与模型评测同等进入发布门槛。",
+      "limit": "这是安全分析工具更新，不是AI模型能力提升；GitHub.com会自动部署，但旧GHES和自定义查询用户需自行升级与回归测试。",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "ttok 1.0更新GPT-5/6令牌计数默认值",
+      "title": "ttok 1.0",
+      "one_liner": "Simon Willison于10月9日发布ttok 1.0，默认改用GPT-5/6系列对应的o200k_base分词器，并让--list-models显示前缀匹配规则。",
+      "practice": "可用uvx ttok快速检查文本或提示词规模；涉及计费、上下文上限和生产路由时，仍应以目标API实际usage字段和官方模型文档为准。",
+      "evidence": "开源项目GitHub正式版本；2026年10月9日；代码与发布说明可核实，对GPT-6分词器的映射含经验验证但缺少OpenAI正式确认",
+      "confidence": "事件可核实度高：版本、默认值和命令可直接检查。映射确定性中等：作者明确指出OpenAI尚未正式确认GPT-6沿用同一分词器。适用范围：本地近似令牌计数。",
+      "what": "【事实】1.0将默认分词器设为o200k_base；此前0.4已增加--list-models并更新CI，1.0补充了模型前缀如何由tiktoken处理的显示。",
+      "why": "【判断】这是小工具更新，但能减少旧默认分词器造成的估算偏差；它适合开发前检查，不应成为账单或配额的唯一依据。",
+      "limit": "不同API可能加入不可见系统内容、工具定义或多模态计费；本地文本计数无法完整复现服务端usage。",
+      "source": {
+        "title": "GitHub Release — simonw/ttok 1.0",
+        "url": "https://github.com/simonw/ttok/releases/tag/1.0"
+      }
+    }
+  ],
+  "professional_judgment": "本期没有必要强行制造跨领域“大趋势”，但有三个新的决策点。第一，测试工具要同时报告平均偏差与个体误差：VT1算法的高ICC、青少年功率的总体稳定，都不足以支持免复核的个体处方或选材。第二，服务评价需要分层：OA数字项目中约42%持续高活动、约30%持续低活动，平均改善会掩盖应升级支持的人群；心脏康复的大规模预后关联很重要，但仍须诚实区分观察性关联与随机因果证据。第三，AI工程端本周最实用的进展不是新模型，而是沙箱、账号分离、静态分析和令牌核算；这些控制只有在默认启用、持续回归和以服务端数据复核时才真正降低风险。去重实际覆盖可访问的2026年9月23日至10月11日共17期，并按DOI、PMID、规范化URL与事件身份核对；本期9条未见于可访问档案。社交平台完整时间线无法全面访问，可能遗漏部分前沿讨论；在实际核验范围内未发现需要单列的全球重要事件。"
+}
