@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "date": "2026-10-13",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 3,
+      "全球重要事件": 0
+    },
+    "signal": "今天的核心信号是：从运动组学、神经反馈到可穿戴机器人和代码代理，真正能进入专业流程的更新都需要把可重复测量、对照证据与身份审计放在新颖性之前。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：急性运动多体液蛋白组图谱显著扩展了机制候选，但神经反馈综述和跑台外地面研究同时提醒，机制线索、短期代理指标与可直接处方之间仍有距离。",
+    "运动健康": "本板块重点：本期康复证据集中在步行能力、功能测量与假肢接口建模；新的工具可以改善分层和设计比较，但尚不能替代对照效果、长期结局与个体适配。",
+    "AI": "本板块重点：AI工程更新转向可追责与可复现——谁把提交推入仓库、SDK接口是否改变、本地推理是否意外回退到CPU，都会直接影响生产可靠性。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "急性运动多体液蛋白组图谱开放",
+      "title": "Systemic proteomic dynamics of acute exercise reveal genetic links to health and disease",
+      "one_liner": "10月12日发表的开放资源研究在血浆、唾液和尿液中识别出超过3,000个随急性运动变化的蛋白，并以独立队列、人类遗传学和果蝇实验推进候选运动因子的优先级。",
+      "practice": "现阶段最适合把图谱用于研究假设、标志物面板和采样时间设计；不要据此给个体解释单次蛋白变化，更不应直接转化为补充剂或临床处方。",
+      "evidence": "同行评议开放获取资源论文；发现队列25名健康男性，独立队列24名成人；2026年10月12日发表；DOI 10.1038/s42255-026-01621-w",
+      "confidence": "来源可核实度高：开放全文、源数据、图谱和代码可核对。证据确定性中等：多层验证增强机制可信度，但人体样本小且主要是急性反应。适用范围：健康成人急性运动后的系统蛋白动态与候选机制。",
+      "what": "【研究结果】研究对45分钟中高强度骑行前后多个时间点采样，发现不同体液具有不同时间动力学；297个蛋白至少见于两种体液、7个见于三种体液。独立队列在有氧、HIIT和抗阻条件下复现了大量血浆反应，并以GWAS共定位和果蝇实验筛选候选分泌蛋白。",
+      "why": "【判断】其新增价值不是宣称找到单一“运动因子”，而是把采样介质、时间窗、组织来源和遗传关联放在同一框架，为后续机制研究提供可审计的候选清单。",
+      "limit": "发现队列仅25名健康、正常体重男性；复现队列也较小。遗传共定位与果蝇表型不能证明候选蛋白在人类中介导长期训练获益；两名作者任职于Novo Nordisk。",
+      "source": {
+        "title": "Nature Metabolism",
+        "url": "https://www.nature.com/articles/s42255-026-01621-w"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "神经反馈的阳性结果在强对照下明显收缩",
+      "title": "Aligning neurofeedback protocols with athletes’ sports training objectives: a systematic review",
+      "one_liner": "系统综述纳入56项、1,711名参与者；多数研究报告某种改善，但相对被动对照、主动对照和其他实验组仍呈阳性的比例分别仅约34%、18%和4%。",
+      "practice": "若在运动员中试用神经反馈，先明确注意、情绪或运动控制目标，并采用主动对照、盲法可行性、预注册结局及训练迁移测试；不要用训练前后变化替代特异性效果。",
+      "evidence": "同行评议系统综述（早期接收版本）；56项研究、1,711名参与者；按PRISMA 2020与CRED-nf框架评价；2026年10月12日发表；DOI 10.1186/s13102-026-01984-3",
+      "confidence": "来源可核实度高：全文、检索与质量框架可核对。证据确定性偏低：方案、运动项目、样本与对照高度异质，强对照下支持率低。适用范围：竞技和训练人群中的脑电/神经反馈方案设计。",
+      "what": "【研究综合】作者按注意、情绪和运动能力目标重组文献，并发现协议与目标经常错配；表面阳性结果在更严格的比较条件下显著减少。",
+      "why": "【判断】这解释了为什么小型无对照研究容易产生“有效”印象，也把实践重点从购买设备转向目标—反馈信号—训练任务—迁移结局的一致性。",
+      "limit": "该综述不能确定最佳频率、次数或脑区；早期版本仍可能有排版修订，且阳性比例不是合并效应量，不能直接解释为成功概率。",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-01984-3"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "室外跑步地面改变急性垂直加载率",
+      "title": "Influence of outdoor running surface type on loading rate and lower-limb kinematics",
+      "one_liner": "22名男性休闲跑者在自选速度下，混凝土、橡胶跑道和人造草地的平均垂直加载率依次为67.95、60.77和58.00 BW/s；膝踝矢状面运动学未见显著差异。",
+      "practice": "可把地面作为急性负荷调节变量，但应同时固定或记录速度、鞋、坡度和疲劳状态；逐步换地面比依据单次加载率直接判定“安全/危险”更合理。",
+      "evidence": "同行评议开放获取重复测量研究；22名健康男性休闲跑者；Loadsol鞋垫与Xsens惯性传感器；2026年10月12日发表；DOI 10.1186/s13102-026-02151-4",
+      "confidence": "来源可核实度高：开放全文与具体效应可核对。证据确定性中等偏低：小样本、仅男性、急性观察。适用范围：相似速度与环境下的健康男性休闲跑者。",
+      "what": "【研究结果】地面对平均垂直加载率的影响显著，混凝土最高、人造草地最低；仅髋角在步态周期45.6%至60.3%区间出现混凝土与橡胶跑道差异。",
+      "why": "【判断】现场可穿戴测量提高了生态效度，但“较低加载率”只是力学代理，不等于伤病风险必然下降，也不能单独决定场地选择。",
+      "limit": "自选速度与地面熟悉度可能影响结果；未测长期适应、组织负荷或伤病结局，结果不能外推到女性、精英跑者或既往伤病者。",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02151-4"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "Myosuit随机试验未显示总体优势",
+      "title": "Effects of training with a soft wearable robot (Myosuit®) on the walking ability of patients with chronic stroke",
+      "one_liner": "30名慢性卒中患者的随机对照研究中，两组均完成5周、10次训练；Myosuit组在总体前后变化上未优于常规训练，较高步行功能亚组的改善仍属探索性。",
+      "practice": "软式可穿戴机器人可作为训练剂量和任务选择的辅助工具，但采购或临床路径不应建立在亚组信号上；优先记录脱离设备后的步速、平衡、耐力与真实社区活动。",
+      "evidence": "同行评议开放获取随机对照研究；30名慢性卒中偏瘫成人、FAC 2–4；2026年10月12日发表；DOI 10.1186/s13102-026-02135-4",
+      "confidence": "来源可核实度高：研究设计、干预剂量与总体结果可核对。证据确定性偏低至中等：样本小，亚组分析功效不足。适用范围：具一定站立/步行能力的慢性卒中成人。",
+      "what": "【研究结果】两组使用相同训练结构，每次50分钟、每周2次、共5周；总体分析未见组间改善差异。FAC 4亚组在10米步行、Berg平衡和步速方面出现有利信号。",
+      "why": "【判断】随机结果比设备可用性或即时助力更能回答治疗增益；总体阴性意味着当前证据不足以支持把设备本身视为决定性康复成分。",
+      "limit": "亚组样本很小且多结局，可能产生偶然阳性；未证明长期社区参与或跌倒改善。研究由T-ROBOTICS资助并提供设备，需要独立复现。",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02135-4"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "慢性卒中后退步行测试的最小可检测变化为4.49秒",
+      "title": "Psychometric properties of the timed backward walk test in people with stroke",
+      "one_liner": "60名慢性卒中者与30名健康成人的横断面研究显示，定时后退步行测试重测与评分者信度优秀，AUC为0.968，个体最小可检测变化为4.49秒。",
+      "practice": "把该测试作为前向步行和TUG的补充，而非替代；随访个体时，变化小于4.49秒应谨慎解释，7.22秒界值只适合相近样本的识别用途。",
+      "evidence": "同行评议横断面测量学研究；60名慢性卒中者、30名55岁以上健康成人；2026年发表；DOI 10.2340/jrm.v58.46292",
+      "confidence": "来源可核实度高：全文摘要、可靠性和效度指标可核对。证据确定性中等：测量学表现良好，但来自单一横断面样本。适用范围：能安全完成后退步行的慢性卒中成人。",
+      "what": "【研究结果】测试—重测、评定者间与评定者内信度均优秀；标准测量误差1.62秒。完成时间与功能活动和步速强相关，与平衡、下肢运动功能及踝背屈力量中度相关。",
+      "why": "【判断】最小可检测变化比单纯相关系数更直接服务于随访决策，可减少把测量噪声误写为康复进步。",
+      "limit": "7.22秒界值不能预测跌倒，也不等于治疗目标；研究未验证急性/亚急性卒中、严重认知或高辅助需求者，长期反应性仍需研究。",
+      "source": {
+        "title": "Journal of Rehabilitation Medicine",
+        "url": "https://medicaljournalssweden.se/jrm/article/view/46292"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "步态驱动有限元模型用于假肢接受腔材料比较",
+      "title": "An evaluated gait-driven finite element framework for transfemoral limb–socket interface biomechanics and socket design evaluation",
+      "one_liner": "研究建立以站立期地面反力和股骨—接受腔旋转为输入的经股假肢有限元框架，并在固定几何与载荷下比较10种候选材料的压力、滑移、剪切与结构安全。",
+      "practice": "该框架适合在制作前缩小材料和界面参数候选范围；临床选腔仍需结合残肢形态、皮肤耐受、温湿度、疼痛和动态步态复核。",
+      "evidence": "同行评议开放获取建模研究；用既有动态残肢—接受腔实验数据评价4次试验特异模拟；2026年10月发表；DOI 10.1186/s12984-026-02173-6",
+      "confidence": "来源可核实度高：作者稿、方法、评价指标与材料比较可核对。证据确定性偏低至中等：计算模型经有限实验量评价，但尚非多患者前瞻临床验证。适用范围：经股假肢接受腔的前制作设计比较。",
+      "what": "【研究结果】模型以轴向耦合长度对实验进行评价，再在同一几何、接触与载荷条件下比较10种材料的结构安全、接触压力、界面滑移和最大剪切应力。",
+      "why": "【判断】固定其他变量的计算比较能减少“换材料同时换设计”造成的混淆，为个体化接受腔设计提供可重复的前置筛选流程。",
+      "limit": "输入来自2015年单一实验体系且部分数据经数字化；模型指标不是舒适度、皮肤损伤或真实长期使用结局，不能据此直接确定患者材料。",
+      "source": {
+        "title": "Journal of NeuroEngineering and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s12984-026-02173-6"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "GitHub为每次推送增加持久认证身份",
+      "title": "Push attribution for commits in limited public preview",
+      "one_liner": "GitHub 10月12日宣布为每个推入仓库的提交持久记录已认证pusher，并新增“Committer must match pusher”规则以阻止提交者元数据与认证身份不匹配。",
+      "practice": "使用AI Agent、机器人账号或共享自动化推送代码的团队，应区分author、committer和pusher，按最小权限配置专用身份，并把规则集、分支保护和审计日志联合使用。",
+      "evidence": "GitHub官方产品公告；2026年10月12日；GitHub Enterprise有限公开预览",
+      "confidence": "事件可核实度高：功能、规则和适用范围由官方明确。安全效果确定性中等：可减少身份伪造与调查成本，但没有独立攻击评测。适用范围：获准加入预览的GitHub Enterprise组织。",
+      "what": "【事实】pusher身份独立于可自行填写的author和committer字段，并在UI与API中展示；新规则要求committer邮箱匹配认证pusher的已验证邮箱。",
+      "why": "【判断】当代码由人、Agent和自动化链共同生成时，提交内容的署名与实际推送主体必须分开审计，这比仅在commit message中标注AI更可靠。",
+      "limit": "该能力仍是有限预览，需联系GitHub客户团队；认证pusher只能证明谁执行了推送，不能证明谁编写、审查或理解了代码。",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "OpenAI Python SDK 3.29.0同步多项API表面",
+      "title": "OpenAI Python SDK v3.29.0",
+      "one_liner": "10月11日发布的v3.29.0加入billing_not_active会话错误码、Shida实时语音、vault更新与元数据过滤，并调整beta分页和非空参数。",
+      "practice": "若工作流依赖实时语音、vault或beta分页，先在锁定版本的测试环境回归序列化、分页和错误处理；未使用相关接口的生产环境无需仅因版本号立即升级。",
+      "evidence": "OpenAI官方开源SDK正式版本与签名提交；2026年10月11日；GitHub release v3.29.0",
+      "confidence": "事件可核实度高：版本与变更条目可直接核对。效果确定性不适用：这是客户端接口同步，不是模型能力评测。适用范围：使用OpenAI Python SDK相关API的开发者。",
+      "what": "【事实】版本还补充Decisions问答说明、128字符safety identifier和Files API限流响应文档。",
+      "why": "【判断】对生产系统最重要的是新错误码与参数约束可能改变分支处理；版本更新应进入契约测试，而不是被误读为模型升级。",
+      "limit": "发布说明未提供端到端性能或可靠性比较；SDK新增字段不代表所有账号均获得对应服务能力，beta接口仍可能继续变化。",
+      "source": {
+        "title": "GitHub Release — openai/openai-python",
+        "url": "https://github.com/openai/openai-python/releases/tag/v3.29.0"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "llama.cpp修复特定注意力路径回退CPU",
+      "title": "llama.cpp b11576",
+      "one_liner": "10月12日预发布构建b11576将无缓存注意力的KV维度填充至256，修复头维度512模型在多数token长度下Flash Attention回退CPU的问题。",
+      "practice": "遇到本地推理吞吐异常或-fa自动探测关闭Flash Attention时，可在隔离环境比较升级前后的设备放置、首token延迟与显存；保留旧构建以便快速回滚。",
+      "evidence": "开源项目预发布版本与对应修复提交；2026年10月12日；llama.cpp b11576",
+      "confidence": "事件可核实度高：代码路径、触发条件和修复可核对。性能收益确定性中等偏低：未提供跨硬件独立基准。适用范围：受无缓存注意力、CUDA Flash Attention和头维度512组合影响的模型。",
+      "what": "【事实】旧路径的K/V长度未按内核步幅填充，导致CUDA内核对多数长度不适用，并可能让单token自动探测错误地关闭Flash Attention；新构建同步填充mask、K和V。",
+      "why": "【判断】这是典型的“功能正确但设备路径错误”问题；本地AI运维应同时监控输出正确性和实际CPU/GPU算子放置。",
+      "limit": "这是预发布构建，不能据此推断所有模型都会提速；修复针对特定路径，仍需按模型、量化格式、GPU与上下文长度实测。",
+      "source": {
+        "title": "GitHub Release — ggml-org/llama.cpp",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11576"
+      }
+    }
+  ],
+  "professional_judgment": "本期有三个新的决策意义。第一，开放图谱和复杂模型正在把运动与康复研究的候选空间迅速扩大，但候选优先级不等于可处方性：运动蛋白组的遗传与果蝇验证、接受腔有限元的材料排序，都需要人体纵向或临床结局继续闭环。第二，严格比较正在压缩“设备有效”的表面乐观度：神经反馈在主动对照下的阳性比例显著下降，Myosuit随机试验也未显示总体优势，因此采购和训练方案应以增量效果而非新颖性决策。第三，AI工程的新增价值落在可追责与可观测：认证pusher解决身份链条，SDK版本解决接口契约，llama.cpp修复则提醒要监控真实设备执行路径。去重实际覆盖可访问的2026年9月23日至10月12日共18期，并按DOI、规范化原文URL与事件身份核对；本期9条未见于可访问档案。社交平台完整时间线无法全面访问，可能遗漏部分前沿讨论；在实际核验范围内未发现需要单列的全球重要事件。"
+}
