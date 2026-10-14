@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-15",
+  "title": "每日专业资讯简报｜2026-10-15",
+  "summary": {
+    "total": 8,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 2
+    },
+    "signal": "今天最清晰的共同信号是：专业决策应把“可观测差异”与“可执行结论”分开——测试结果要匹配人群与任务，康复风险要覆盖双侧和长期结局，AI工程则要把依赖版本与多模型协作锁进可审计流程。"
+  },
+  "navigation": {
+    "prev": "2026-10-14",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：新证据覆盖职业足球亚最大生理画像、老年运动员腘绳肌力参考值和儿童变向能力；三者都更适合用于建立情境化基线，而不是生成通用阈值。",
+    "运动健康": "本板块重点：足球ACL二次损伤需要双侧、长期风险管理；认知衰弱运动干预的网络排名与格斗头部冲击的探索性相关，都不能越过证据不确定性直接变成处方。",
+    "AI": "本板块重点：今天最值得落地的是GitHub Actions锁文件；多模型融合的价值仍需用固定任务、成本和返工率在本地验证。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "职业足球：亚最大指标比极值更能区分位置",
+      "title": "Physiological characterization using standardized submaximal treadmill responses in professional male soccer players",
+      "one_liner": "206名职业男性球员的回顾性分析显示，中场在4 mmol/L乳酸对应速度和心率上更高，而最大速度与最大心率的调整后位置差异不显著。",
+      "practice": "周期测试可在最大能力之外加入标准化亚最大速度—乳酸—心率画像，用于位置组参照和纵向监测；个体处方仍应结合个人乳酸阈、场上负荷与比赛角色。",
+      "evidence": "同行评审回顾性横断面研究",
+      "confidence": "来源可核实度高；证据确定性中等偏低；适用于成年职业男性足球运动员，固定4 mmol/L阈值和横断面设计限制了个体处方与因果解释。",
+      "what": "论文于2026年10月14日发表。研究汇总206名职业男性足球运动员的递增跑台测试。经年龄、BMI、俱乐部、级别、赛季阶段和测试年份调整后，位置对4 mmol/L乳酸对应速度（V4L，p=0.003）和对应心率（p=0.007）仍有影响；中场V4L为15.6±1.3 km/h。最大速度（p=0.077）和最大心率（p=0.147）未显示显著位置效应。",
+      "why": "它提示职业球员的角色差异可能更多表现在同一亚最大代谢负荷下的工作速度，而不是一次最大测试的峰值；这对训练分组和疲劳监测比单看VO₂或最大速度更接近日常决策。",
+      "limit": "回顾性横断面资料不能证明位置训练造成差异，也未验证指标对比赛输出、伤病或训练反应的预测价值。4 mmol/L是固定参照，不等同于每名球员的个体乳酸阈；不能把中场平均值变成选材门槛。",
+      "source": {
+        "title": "Frontiers in Sports and Active Living：原始论文（DOI 10.3389/fspor.2026.1979307）",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1979307/abstract"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "老年运动员腘绳肌：不对称阈值需重估",
+      "title": "Measuring eccentric hamstring strength in senior athletes: Reference values, age and sex associations, and limb asymmetry",
+      "one_liner": "203名老年运动员的器械化Nordic测试给出性别与年龄参考值；平均肢间不对称为11.6%，第75百分位达16.1%，高于常用的固定警戒线。",
+      "practice": "对老年运动员，应优先追踪同一设备、同一姿势下的个人纵向变化，并把不对称与症状、既往伤病和功能任务联合解释，避免单一10%阈值自动触发干预。",
+      "evidence": "同行评审横断面参考值研究",
+      "confidence": "来源可核实度高；证据确定性中等偏低；适用于参与运动的老年人和相同Nordic测试协议，不能替代伤病预测或临床诊断。",
+      "what": "论文于2026年10月14日发表，纳入203名老年运动员（100名女性）。器械化Nordic测试中，女性和男性平均单侧峰值力分别为156 N和242 N，相对力量分别为2.46和2.99 N/kg；年龄每增加1岁，绝对力平均低2.10 N、相对力低0.020 N/kg。肢间不对称均值为11.6±8.8%，第75百分位为16.1%，且与年龄和性别无明显关系。",
+      "why": "老年运动员常被套用年轻竞技人群或康复人群的阈值。该研究提供了特定人群的分布信息，并直接提醒：统计上常见的不对称不必然等于可干预的缺陷。",
+      "limit": "这是一次性描述研究，没有伤病、跌倒或表现结局，也未建立最小可检测变化和风险阈值。数值受设备、体位、熟悉化和项目构成影响，不能跨设备直接比较。",
+      "source": {
+        "title": "Frontiers in Sports and Active Living：原始论文（DOI 10.3389/fspor.2026.1933413）",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1933413/abstract"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "儿童变向能力与下肢爆发力关系最强",
+      "title": "Physical Fitness Factors Associated with Change-of-Direction Performance in Primary Schoolchildren: The Role of Muscular Strength, Flexibility, and Sex",
+      "one_liner": "386名约11岁儿童中，下肢爆发力与4×10米变向成绩的独立关联最强；性别没有显著调节这些关系。",
+      "practice": "学校体能评估可把立定跳远与变向跑并列观察，但训练设计仍应直接练习减速、重心控制和重新加速，不能把提高跳远成绩当作变向改善的替代指标。",
+      "evidence": "同行评审横断面研究",
+      "confidence": "来源可核实度高；证据确定性中等偏低；适用于相近年龄的一般小学生，关联不能证明训练转移或性别无差异。",
+      "what": "论文于2026年10月14日发表，纳入386名小学生（176名男生、210名女生，平均11.15岁）。调整年龄、性别和BMI后，体能指标新增解释了61.4%的变向成绩差异；立定跳远的独立关联最强（β=-0.566），随后为握力（β=-0.180）和柔韧性（β=-0.111），仰卧起坐不再独立相关。性别交互项不显著。",
+      "why": "它把儿童变向能力拆成可测的体能成分，并显示“简单相关”与“同时调整后的独立关联”会给出不同排序，有助于避免重复测试同一潜在能力。",
+      "limit": "横断面设计无法说明增加爆发力会带来同幅度变向改善；4×10米往返跑同时受技术、动机和熟悉度影响。样本来自特定学校和年龄段，性别交互不显著也不等于所有成熟阶段完全相同。",
+      "source": {
+        "title": "Frontiers in Sports and Active Living：原始论文（DOI 10.3389/fspor.2026.1972450）",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1972450/abstract"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "足球ACL二次损伤约五分之一，双侧风险近似",
+      "title": "A scoping review of subsequent anterior cruciate ligament (ACL) injury in football (Soccer): incidence, associations, and implications",
+      "one_liner": "60项研究的范围综述估计，职业与业余足球运动员后续ACL损伤约为18.6%和21.0%，同侧与对侧风险几乎相当。",
+      "practice": "ACLR后重返足球的评估与预防应覆盖双侧力量、跳落地、急停变向和暴露管理，并把长期参赛质量与患者报告结局纳入随访，而不只盯住移植物膝和重返时间。",
+      "evidence": "同行评审范围综述并汇总比例",
+      "confidence": "来源可核实度高；总体发生率方向较可信但精确值为中等确定性；适用于足球人群，研究异质性和观察性关联限制因果解释。",
+      "what": "论文于2026年10月14日发表，共纳入60项研究。汇总的后续ACL损伤比例在职业球员中为18.6%（12项研究，1,222人），业余球员中为21.0%（12项研究，2,508人）；同侧与对侧比例近似（职业9.8%与9.2%，业余10.6%与11.0%）。重返足球、女性和较年轻年龄与更高风险相关；综述未找到直接检验预防效果的研究。",
+      "why": "它把二次损伤从“移植物再断裂”扩展为双膝长期风险，并提示重返赛场本身是暴露增加而非单纯康复成功标志；这会改变RTP后的监测重点。",
+      "limit": "范围综述中的发生率受随访时间、竞技级别、手术与重返定义差异影响；风险因素多来自观察性研究，不能据此因果归责。没有预防试验意味着不能从本综述推出某一筛查或训练方案一定减少二次ACL损伤。",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation：原始综述（DOI 10.1186/s13102-026-02158-x）",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02158-x"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "认知衰弱：网络排名不等于确定处方",
+      "title": "Exercise-based interventions for cognitive frailty in older adults: a systematic review and network meta-analysis",
+      "one_liner": "17个独立随机试验数据集显示，多组分运动在MoCA排名最高，但可信区间跨过无效线；八段锦联合认知训练是少数区间未跨零的比较之一。",
+      "practice": "认知衰弱老年人可优先采用安全、可持续的多组分运动框架，再按能力加入认知双任务或传统运动；不要根据排名表宣称某一模式普遍最佳。",
+      "evidence": "同行评审系统综述与网络Meta分析；19篇论文、17个独立RCT数据集，n=1,691",
+      "confidence": "来源可核实度高；证据确定性低至中等，部分网络很稀疏；适用于被定义为认知衰弱的老年人，具体方案与结局量表差异较大。",
+      "what": "论文于2026年10月14日发表。网络Meta分析中，多组分运动对MoCA的排名最高（MD 4.81，95%可信区间-0.27至10.66），但区间跨零；八段锦加认知训练的估计为MD 4.25（0.22至8.39）。日常康复、Otago、多组分运动和太极在其他结局上虽有较高排名，但多数可信区间同样跨零。",
+      "why": "研究把认知与躯体衰弱的多种运动方案放入同一比较框架，能帮助识别值得优先验证的组合，也暴露出“最佳排名”背后的不确定性。",
+      "limit": "网络中的直接比较有限，干预剂量、认知衰弱定义和量表异质；SUCRA或排名概率不等于临床优效。多数估计区间较宽，八段锦组合的阳性结果也需要更多直接重复验证。",
+      "source": {
+        "title": "BMC Geriatrics：原始论文（DOI 10.1186/s12877-026-08435-1）",
+        "url": "https://link.springer.com/article/10.1186/s12877-026-08435-1"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "精英泰拳未见整体认知差异，但暴露相关信号需追踪",
+      "title": "Sport-related neurocognitive performance and repetitive head-impact exposure in elite Muay Thai athletes: a matched athletic-control study",
+      "one_liner": "44名精英男性泰拳运动员与42名短跑对照在整体认知上无显著差异，但泰拳组内自报累计头部冲击与部分执行功能和连线任务相关。",
+      "practice": "格斗项目的神经健康监测不应只靠一次组间认知筛查；更合理的是纵向记录客观头部冲击、症状、训练暴露和重复认知测试，同时降低可避免的头部击打。",
+      "evidence": "同行评审横断面匹配对照研究；探索性相关分析",
+      "confidence": "来源可核实度高；证据确定性低；仅适用于15–25岁精英男性泰拳运动员，暴露为自报代理指标且相关未校正多重比较。",
+      "what": "论文于2026年10月14日发表。44名泰拳运动员与42名短跑运动员在任务级和四个认知域的组间比较均无显著差异。泰拳组内，累计头部冲击代理分数与执行功能复合指标（ρ=-0.32）、TMT-A（ρ=-0.44）、TMT-B（ρ=-0.41）及Stroop干扰时间（ρ=0.56）相关，但更广泛认知电池中多数关联不显著。",
+      "why": "结果同时抵抗两种过度解读：既没有证据支持精英泰拳运动员存在普遍认知损害，也不能因组间均值正常而忽略累计暴露可能对应的个体差异信号。",
+      "limit": "横断面设计、自报暴露代理、单一男性样本和未校正多重比较使结果只能生成假设；不能诊断慢性脑损伤，也不能建立安全击打次数。需要客观冲击传感与纵向重复测量。",
+      "source": {
+        "title": "Frontiers in Sports and Active Living：原始论文（DOI 10.3389/fspor.2026.1908733）",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1908733/abstract"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "GitHub Actions锁文件把供应链版本写进审计",
+      "title": "GitHub Actions workflow lockfiles in public preview",
+      "one_liner": "GitHub Actions可继续在工作流中使用标签或分支，同时把实际执行及传递依赖固定到审核过的提交，并由Dependabot维护更新。",
+      "practice": "对关键CI/CD仓库，试点生成`.github/workflows/actions.lock`，把锁文件变更纳入代码审查并启用强制策略；同时继续审核上游提交，因为“固定版本”并不等于“依赖安全”。",
+      "evidence": "厂商官方公开预览公告",
+      "confidence": "功能发布事实可核实度高；安全收益为强工程逻辑但缺少独立部署效果数据；适用于GitHub Enterprise Cloud、数据驻留、Team与Free的公开预览范围。",
+      "what": "GitHub于2026年10月14日发布Actions工作流锁文件公开预览。`gh actions-lock`扩展可生成`.github/workflows/actions.lock`，将直接引用和可复用工作流的传递依赖固定到具体提交；可检查锁文件是否过期，组织和仓库可要求锁文件，Dependabot可更新对应条目。",
+      "why": "它在可读性与可重复性之间建立了实用折中：工作流仍可写人类可理解的版本标签，但执行落到经审查的不可变提交，减少上游标签漂移或供应链劫持改变构建结果的窗口。",
+      "limit": "当前为公开预览，客户端、策略和Dependabot工作流仍需本地验证。锁文件只能固定已选提交，不能证明提交无恶意、无漏洞，也不能替代最小权限、来源审核和运行时隔离。",
+      "source": {
+        "title": "GitHub Changelog：GitHub Actions workflow lockfiles in public preview",
+        "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "HydraFusion扩展多模型协作与Max模式",
+      "title": "HydraFusion updates and new Max option",
+      "one_liner": "GitHub把HydraFusion研究预览扩展为多模型协作池，并加入更深推理的Max选项；官方可确认工作流变化，但尚不能确认其相对单模型的净收益。",
+      "practice": "只在可复现的中高复杂度任务上试点，预先固定验收测试，并记录端到端延迟、模型调用成本、人工返工和最终缺陷；低复杂度任务默认保留单模型基线。",
+      "evidence": "厂商官方研究预览公告",
+      "confidence": "发布与可用范围可核实度高；效果确定性低，缺少独立基准、成本和失败模式数据；适用于Copilot Pro、Pro+、Business与Enterprise的预览环境。",
+      "what": "GitHub于2026年10月14日更新HydraFusion研究预览，模型池包括Claude Opus 5.5、GPT-6 Astra、GPT-6.1 Sol和GPT-6 Luna。系统可让不同模型承担草拟、批评、修复等角色，并按阶段分配不同推理强度；新增Max选项面向更复杂任务，覆盖VS Code、Copilot应用和CLI。",
+      "why": "多模型协作开始从概念演示进入主流开发工具的可用工作流，真正值得观察的是它能否以可接受的成本降低遗漏和返工，而不是模型数量本身。",
+      "limit": "公告来自厂商，能证明功能和范围，不能证明质量、速度或成本优于最佳单模型。任务路由、共享上下文和多轮批评也可能放大延迟或共同盲点，需以本地金标准验证。",
+      "source": {
+        "title": "GitHub Changelog：HydraFusion updates and new Max option",
+        "url": "https://github.blog/changelog/2026-10-14-hydrafusion-updates-and-new-max-option/"
+      }
+    }
+  ],
+  "professional_judgment": "本期的新决策意义主要有三点。第一，测试值只有放回人群、任务和协议中才有用：职业足球的固定乳酸点、老年运动员的腘绳肌不对称和儿童变向关联都适合建立基线与提出问题，却不足以独立选材、诊断或处方。第二，运动健康证据要求把“平均正常”和“长期安全”分开：足球ACLR后二次损伤约五分之一且双侧近似，泰拳组间认知无差异也不排除累计暴露的个体风险，因此重返运动后的长期、双侧与纵向监测比一次过关测试更重要。第三，AI工程今天出现一项可立即试点的确定性较高措施——工作流锁文件；HydraFusion则仍应视为需本地核验的产品预览。去重方面，本期核对了2026年9月23日至10月14日可访问的20期档案，并按DOI、规范化原文URL和事件身份排除重复；8条均为此前未收录的作品或实质更新。公开社交平台时间线覆盖受限，前沿信号主要来自可追溯原始论文和官方技术公告；今日未发现需要单列的全球重大事件。"
+}
