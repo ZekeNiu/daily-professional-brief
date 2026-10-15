@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-16",
+  "title": "每日专业资讯简报｜2026-10-16",
+  "summary": {
+    "total": 8,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 2,
+      "AI": 4
+    },
+    "signal": "今天的共同信号是：从运动监测到AI开发，真正可落地的进展都在把“发现异常”推进到“形成可验证、可审计的决策链”，但新指标与自动修复仍不能跳过外部验证和人工复核。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：水球肩部差异与肌腱细胞机械转导都提示，结构或分子信号必须放回体型、负荷和功能情境解释，不能直接变成筛查阈值或治疗靶点。",
+    "运动健康": "本板块重点：足球伤病生物标志物评分显示内部负荷的潜力，但样本极小；居家心衰康复显示可行性，却因对照随访缺失而不能证明因果优效。",
+    "AI": "本板块重点：GitHub把AI安全扫描和代理修复接进代码审查闭环；科研专用模型的资助开放与Copilot模型退役，则分别影响研究工作流和生产迁移计划。"
+  },
+  "items": [
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "水球肩部差异：体型解释力量，性别仍关联肩胛位移",
+      "title": "Shoulder strength, scapular displacement, and supraspinatus morphology in male and female competitive water polo players: A cross-sectional study",
+      "one_liner": "52名竞技水球运动员中，男女肩旋转力量差异经体型调整后消失，但女性较大的肩胛位移仍独立存在；冈上肌腱厚度无显著性别差异。",
+      "practice": "肩部筛查应同时记录体型、旋转肌力、肩胛运动和症状；可把肩胛位移作为进一步功能评估线索，但不要用单次静态差异给运动员贴上伤病风险标签。",
+      "evidence": "同行评审横断面研究；2026年10月14日发表",
+      "confidence": "来源可核实度高；证据确定性中等偏低；适用于18–30岁竞技水球运动员，横断面设计不能证明差异会导致伤病。",
+      "what": "研究纳入26名男性和26名女性水球运动员。男性内旋力量和内外旋比更高，女性肩胛位移更大；调整身高和体重后，力量差异不再与性别相关，但肩胛位移差异仍存在。外旋力量、冈上肌腱厚度和优势侧均未见显著性别差异。",
+      "why": "它把“性别差异”拆成可由体型解释的力量差异与仍未被体型解释的肩胛运动差异，有助于避免把粗略分组均值误当成个体缺陷。",
+      "limit": "样本较小且仅一次测量，没有疼痛、既往伤病、投掷量或前瞻性伤病结局；较大肩胛位移可能是适应而非病理。研究不能支持按性别设统一预防处方。",
+      "source": {
+        "title": "Frontiers in Sports and Active Living：原始论文（DOI 10.3389/fspor.2026.1933053）",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1933053/abstract"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "YAP连接机械负荷与肌腱细胞转录反应",
+      "title": "YAP-dependent transcriptional responses in tenocytes under cyclic tensile loading: a conditional knockout RNA-sequencing study",
+      "one_liner": "小鼠肌腱细胞的条件性YAP敲除在循环牵拉下改变54个基因，并牵涉PPAR与免疫相关通路，为肌腱机械转导提供机制线索。",
+      "practice": "对训练与康复而言，这支持“负荷剂量会通过细胞机械感受改变组织反应”的框架；当前只能用于提出实验假设，不能据此选择药物或规定人体肌腱负荷剂量。",
+      "evidence": "同行评审基础机制研究；条件性敲除、循环牵拉与RNA测序；2026年10月15日发表",
+      "confidence": "来源可核实度高；机制证据在实验体系内为中等，临床外推确定性低；未完成体内功能验证。",
+      "what": "研究使用RosaCreERT2 YAP-floxed小鼠来源肌腱细胞，在循环拉伸条件下结合RNA测序。YAP敲除后发现54个差异表达基因（6个上调、48个下调），富集分析指向PPAR等通路；计算分析还提示Treg和初始CD4 T细胞相关变化，并生成候选药物—靶点假设。",
+      "why": "YAP是把机械刺激转换为细胞转录反应的关键节点。该研究把“拉伸负荷”与具体转录和免疫信号连接起来，扩展了肌腱适应与修复的机制地图。",
+      "limit": "样本和实验体系有限，免疫细胞浸润与药物靶点来自计算推断，且缺少体内肌腱修复和人体数据。不能把候选小分子或通路直接写成临床治疗建议。",
+      "source": {
+        "title": "Frontiers in Bioengineering and Biotechnology：原始论文（DOI 10.3389/fbioe.2026.1901935）",
+        "url": "https://www.frontiersin.org/journals/bioengineering-and-biotechnology/articles/10.3389/fbioe.2026.1901935/full"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "足球伤病评分：内部生物反应优于两项外部负荷，但尚未外部验证",
+      "title": "A biomarker-derived injury score integrating inflammatory cytokines and mitochondrial vitality may predict short-term injury risk in football",
+      "one_liner": "21名德乙男性球员中，整合炎症与细胞能量指标的6分评分对10日内伤病显示很高区分度，而标准化总负荷和高速跑距离区分度弱。",
+      "practice": "短期伤病风险监测可探索把训练前后生物反应与外部负荷并列观察；在独立队伍验证前，不应据该阈值限制上场、调整合同或替代临床判断。",
+      "evidence": "同行评审前瞻性观察队列；模型在同一小样本内派生并评估；2026年10月15日发表",
+      "confidence": "来源可核实度高；表观区分度明确但证据确定性低；仅适用于类似的成年男性职业足球情境，尚无独立外部验证。",
+      "what": "研究对21名德乙球员在5次训练前后测量IL-6、IL-8、IL-10、TNF-α、PBMC ATP及TFAM/TFB2M相互作用，并随访10日；6人受伤。复合评分表观AUC为0.939，内部bootstrap校正后AUC为0.870；阈值≥4时敏感度83.3%、特异度86.7%。标准化总负荷和高速跑距离AUC分别为0.577和0.532。",
+      "why": "结果强调相同外部负荷可产生不同内部反应，单一跑量阈值未必能捕捉个体当下的恢复与耐受状态；这为多模态监测提供了可检验方向。",
+      "limit": "只有21人、6例伤病，阈值与模型均在同一队伍同一数据中建立，极易过拟合；伤病类型和因果链也不充分。高AUC不是可部署证明，更不能把炎症或线粒体指标当作直接致伤机制。",
+      "source": {
+        "title": "Frontiers in Sports and Active Living：原始论文（DOI 10.3389/fspor.2026.1913729）",
+        "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1913729/full"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "居家心衰康复：功能与呼吸肌力改善，但缺少同期对照",
+      "title": "Beyond the clinic: a six-month home-based exercise and respiratory rehabilitation program improves functional capacity, respiratory muscle strength, and fatigue in chronic heart failure",
+      "one_liner": "稳定HFrEF患者完成6个月居家运动与呼吸训练后，6分钟步行增加37.86米、吸呼气肌力改善且依从率达91.5%，但疫情导致对照组未完成6个月复测。",
+      "practice": "对稳定、经医疗评估可训练的HFrEF患者，居家有氧、力量与呼吸肌训练可作为可行的连续康复选项；需配套症状、血压/心率和失代偿预警，不应把本研究当作无监督普适方案。",
+      "evidence": "同行评审注册临床试验的受干扰结果；仅干预组完成前后比较；2026年10月14日发表",
+      "confidence": "来源可核实度高；可行性和组内变化可信度中等，因果效果确定性低；适用于稳定HFrEF且能执行居家训练者。",
+      "what": "原计划随机纳入63名稳定心衰患者，最终28名干预组完成并进入分析；疫情使对照组无法进行6个月复测。干预组6分钟步行距离增加37.86米，最大吸气压与呼气压分别提高20.21和20.75 cmH₂O，疲劳评分下降0.68分；平均依从率91.5%，未报告严重不良事件。",
+      "why": "它提供了较长周期、包含呼吸肌训练的居家心脏康复可行性数据，尤其适合交通、工作或服务可及性受限的场景。",
+      "limit": "关键结局只有干预组前后比较，无法排除自然变化、测量熟悉和同期照护影响；完成者样本小且可能有选择偏倚。“未见严重不良事件”不能证明对所有心衰患者安全。",
+      "source": {
+        "title": "Frontiers in Rehabilitation Sciences：原始论文（DOI 10.3389/fresc.2026.1958027）",
+        "url": "https://www.frontiersin.org/journals/rehabilitation-sciences/articles/10.3389/fresc.2026.1958027/full"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "GitHub代理修复进入GA：从告警到CodeQL复验再开PR",
+      "title": "Agentic autofix for code scanning alerts general availability",
+      "one_liner": "GitHub的代理式自动修复已正式可用，可跨文件探索、生成补丁、重跑CodeQL并迭代，最后提交草稿PR供人工审查。",
+      "practice": "可先在高重复、低业务语义风险的CodeQL告警上试点，并强制保留单元测试、CodeQL复验和人工代码审查；批量修复前应限制每个PR的告警范围和权限。",
+      "evidence": "厂商官方正式发布；2026年10月15日",
+      "confidence": "功能与可用范围可核实度高；真实缺陷修复率、回归风险和成本收益缺少独立验证；适用于GitHub Enterprise Cloud的Code Security/Advanced Security客户。",
+      "what": "当代码扫描告警分配给Copilot后，系统会探索相关文件、提出修复、重跑CodeQL验证告警是否关闭，必要时迭代并创建草稿PR。列表或安全活动中可一次选择最多25个告警，也可通过REST API把告警分配给copilot-swe-agent机器人。",
+      "why": "这把AI coding从“建议代码”推进到带静态分析复验的闭环，减少修复排队时间，也让验证步骤更可审计。",
+      "limit": "CodeQL告警关闭只证明特定查询不再命中，不等于修复符合业务语义或没有引入回归。公告没有独立成功率、误修率或成本数据；高权限、加密、身份和数据边界代码仍需资深人工复核。",
+      "source": {
+        "title": "GitHub Changelog：Agentic autofix for code scanning alerts general availability",
+        "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "AI Scan进入GA，补足CodeQL未覆盖语言但仍是建议性结果",
+      "title": "AI Scan for pull requests generally available",
+      "one_liner": "GitHub AI Scan可在PR中补充检查PHP、Shell/Bash、HCL、Dockerfile等CodeQL覆盖不足的语言与框架，但结果不能作为合并阻断条件。",
+      "practice": "将AI Scan定位为第二道发现通道：对高风险仓库建立人工确认、误报标注和修复验证流程；不要因“AI已扫描”降低CodeQL、依赖扫描、测试和安全评审要求。",
+      "evidence": "厂商官方正式发布；2026年10月15日",
+      "confidence": "发布事实与限制可核实度高；检测准确率和增量价值未见独立基准；适用于启用代码扫描的支持仓库。",
+      "what": "AI Scan在启用代码扫描和相应设置后自动运行于PR变更，结果与CodeQL一起展示，并附风险解释和建议修复。公开仓库可用；私有和内部组织仓库需GitHub Code Security或Advanced Security。它不扫描fork来源PR或Dependabot PR，并消耗Code Security AI Credits。",
+      "why": "它扩大了主流托管代码审查对基础设施即代码、脚本和部分框架的覆盖，可能较早捕获传统规则库尚未覆盖的漏洞模式。",
+      "limit": "结果是建议性的，不能让检查失败或通过规则集阻止合并。厂商未提供足够独立精确率、召回率和跨语言表现；误报与漏报都必须通过人工和其他工具管理。",
+      "source": {
+        "title": "GitHub Changelog：AI Scan for pull requests generally available",
+        "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "GPT‑Rosalind学术计划开放，但仅限美国高校且不含API",
+      "title": "Bringing GPT‑Rosalind to academic research labs",
+      "one_liner": "OpenAI推出Rosalind Academic Plan，符合条件的美国高校实验室可获最多30个Business Standard席位、最长12个月，并经审核访问生命科学专用模型与工作台。",
+      "practice": "符合条件的PI可评估申请；真正落地前应先定义数据分级、人工复核、文献与实验溯源、湿实验验证和模型输出归档，尤其不要把模型生成的机制或候选物视为实验结果。",
+      "evidence": "厂商官方计划公告与用户案例；2026年10月15日",
+      "confidence": "计划条款可核实度高；科研提效与发现质量主要是厂商与早期用户陈述，独立效果确定性低；当前仅限符合条件的美国高校实验室。",
+      "what": "计划提供最多30个免费Business Standard席位、最长12个月，包含商业可用前沿模型；GPT‑Rosalind需trusted-access批准，工作台覆盖药物化学、基因组、湿实验辅助等工具编排。官方称研究数据默认不用于训练。当前不包含API访问。",
+      "why": "这是专用科学模型从个别合作走向可申请的实验室级工作流入口，可能降低生命科学团队试用工具编排和专用推理的门槛。",
+      "limit": "免费席位和访问资格不等于经过独立验证的科研有效性；案例不是对照实验。地域、机构协议、用量限制、trusted-access和无API会限制复现与自动化集成。",
+      "source": {
+        "title": "OpenAI：Bringing GPT‑Rosalind to academic research labs",
+        "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "Copilot三款模型11月16日退役，生产工作流需提前回归测试",
+      "title": "Upcoming deprecation of selected GitHub Copilot models in mid-November",
+      "one_liner": "GitHub将于2026年11月16日在Copilot各体验中退役Claude Opus 4.8、Claude Opus 5和GPT‑5.6 Terra，并给出替代模型。",
+      "practice": "盘点显式模型策略、团队提示模板和代理自动化，先在固定代码任务上对替代模型做质量、延迟和成本回归测试，再修改组织级模型策略。",
+      "evidence": "厂商官方退役公告；2026年10月15日",
+      "confidence": "退役时间和替代建议可核实度高；替代模型的等效性属于厂商建议，需本地验证；影响GitHub Copilot Chat、编辑、代理和补全等体验。",
+      "what": "GitHub公告将在11月16日退役Claude Opus 4.8、Claude Opus 5和GPT‑5.6 Terra，建议分别迁移到Claude Opus 5.5，或GPT‑6.1 Sol/GPT‑6 Luna。默认模型启用下，企业替代模型会自动开放；关闭全局默认或显式禁用模型的管理员需手动处理。部分年度个人订阅者的Claude Opus 4.8例外。",
+      "why": "模型退役不仅影响模型选择器，也可能改变代理行为、提示稳定性和自动化结果；一个月迁移窗口足以做有基准的切换。",
+      "limit": "官方替代关系不保证现有提示、代码库和工具调用完全兼容。必须区分个人年度订阅例外与组织策略，避免把“自动启用”误解为无需测试。",
+      "source": {
+        "title": "GitHub Changelog：Upcoming deprecation of selected GitHub Copilot models in mid-November",
+        "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/"
+      }
+    }
+  ],
+  "professional_judgment": "本期没有足够证据支持一个跨三领域的单一“趋势故事”，但有一个明确的决策框架：新工具或新指标的价值，不在于一次漂亮的区分度或自动化演示，而在于是否形成可重复验证的闭环。足球生物标志物评分与YAP机制研究都值得继续追踪，却分别受极小样本和缺少体内验证限制；心衰居家康复支持可行性，不足以证明对照优效。AI侧的变化更接近可部署：代理修复通过重跑CodeQL形成机器验证环，但静态查询通过仍不能替代业务测试与人工审查；AI Scan也应作为补充发现层而非安全闸门。去重方面，本期核对了2026年9月23日至10月15日可访问的21期档案，并按DOI、规范化原文URL及事件身份排除重复；8条均为此前未收录的作品或实质更新。公开社交平台时间线覆盖受限，前沿信号主要来自原始论文与官方技术公告；今日未发现需要单列的全球重大事件。"
+}
