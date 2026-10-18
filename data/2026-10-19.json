@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-19",
+  "title": "每日专业资讯简报｜2026-10-19",
+  "summary": {
+    "total": 7,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 1
+    },
+    "signal": "今天的共同信号是：测量工具、恢复手段与Agent功能都需要先界定“能回答什么、不能回答什么”；群体关联、急性生理变化和版本功能不能直接升级为个体风险标签、长期康复处方或可靠性承诺。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：一项测试学研究、一套训练机械功估算方法和一篇代谢—表观遗传综述，分别提醒实践者拆开“能力维度”“外部机械功”与“机制假说”。",
+    "运动健康": "本板块重点：新证据覆盖伤病筛查、术后康复路径和急性恢复；最有用的结论均来自对边界的识别，而非寻找单一最佳方案。",
+    "AI": "本板块重点：周末未见值得重复的旗舰模型发布；Claude Code两天内的新版本对自动模式、压缩和子Agent默认行为有直接工作流影响。"
+  },
+  "items": [
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "力量、跳跃与反应能力不能互相替代",
+      "title": "Exploratory Associations Between Isometric Strength, Vertical Jump Performance, and Psychomotor Outcomes in Elite Traditional Karate Kumite Athletes",
+      "one_liner": "27名精英男子传统空手道运动员的70组相关分析中，未经校正的最强相关为r=0.57，但没有一项在FDR校正后保留显著。",
+      "practice": "体能测试与知觉—决策测试应分别保留；不要用等长力量或跳高成绩替代反应、手眼协调和空间预判测量。",
+      "evidence": "同行评审探索性横断面研究，2026-10-16接收、最终排版待发布；来源可核实度高，但小样本、多重比较和男性单项目限制使证据确定性低。",
+      "confidence": "低至中低",
+      "what": "研究纳入27名波兰国家队成年男子传统空手道组手运动员，测量肘/膝等长力量、SJ与三类CMJ，以及简单/选择反应、手眼协调和空间预判。70组相关中，最强等长力量关联为r=0.57（p=0.002），但Benjamini–Hochberg校正后的最小q值为0.137。",
+      "why": "阴性结果很有实践价值：它直接反驳“身体能力较好即可推断反应能力较好”的便捷假设，也说明探索大量指标时必须控制假阳性。",
+      "limit": "横断面设计不能判断训练迁移；样本小、仅男性、心理运动任务较通用。不能据此断言体能与决策完全无关，只能说本样本未提供稳健的成对关联证据。",
+      "source": {
+        "title": "Frontiers in Sports and Active Living原始研究（DOI 10.3389/fspor.2026.1952574）",
+        "url": "https://doi.org/10.3389/fspor.2026.1952574"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "HIFT外部机械功有了统一估算框架",
+      "title": "Standard Methods for Estimating Mechanical Work in High-Intensity Functional Training: An Exercise Compendium",
+      "one_liner": "新方法综述为举重、增强式、徒手/体操与单一周期运动提供统一的正外部机械功简化方程，但明确不能据此可靠估算代谢功。",
+      "practice": "适合用于同一团队内比较训练设计和记录计算假设；若要解释能量消耗、内部负荷或个体技术效率，仍需生理指标或直接动力学/运动学测量。",
+      "evidence": "同行评审方法综述，2026-10-14接收、最终排版待发布；公式与边界可核实，但尚未针对判据测量完成系统验证，方法确定性中等偏低。",
+      "confidence": "中等偏低",
+      "what": "作者汇总高强度功能训练常见动作，为负重、跳跃、徒手/体操及单一周期模式给出可复现的正外部机械功估算步骤，目标是减少不同训练和研究之间计算口径不一致。",
+      "why": "外部功常被随意替换成总重量、次数或热量。统一口径可改善训练记录与研究可比性，并迫使使用者写清位移、质量和动作阶段等假设。",
+      "limit": "文章明确指出代谢功无法可靠由这些简化式推算；估算也不能替代测力台、动作捕捉等直接测量，且尚缺跨动作、跨技术水平的判据效度验证。",
+      "source": {
+        "title": "Frontiers in Sports and Active Living方法综述（DOI 10.3389/fspor.2026.1974999）",
+        "url": "https://doi.org/10.3389/fspor.2026.1974999"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "运动代谢物可能连接表观遗传与肌肉再生",
+      "title": "Exercise-induced metabolites Messengers linking epigenetic enzymes and cell remodeling in skeletal muscle regeneration",
+      "one_liner": "新综述整合乳酸、α-酮戊二酸、乙酰辅酶A、NAD⁺和SAM如何作为底物、辅因子或信号影响卫星细胞与染色质重塑。",
+      "practice": "可用于建立肌肉损伤、衰老和训练适应的机制假说与采样时间设计；目前不应据此直接开具代谢补充剂或“精准再生”处方。",
+      "evidence": "同行评审机制综述，2026-10-17接收、最终排版待发布；机制框架来源可核实，但依赖多层级证据且临床转化尚早，确定性低至中等。",
+      "confidence": "中低",
+      "what": "综述提出“代谢—表观遗传轴”：运动产生的乳酸、α-KG、乙酰辅酶A、NAD⁺与SAM可调节乙酰化、去乙酰化、去甲基化和DNA甲基化相关酶，进而影响肌卫星细胞激活、增殖和分化。",
+      "why": "它把运动生物化学与组织再生连接到时间依赖的细胞状态，提示机制研究不能只看单次代谢物浓度，而应同时考虑损伤/再生阶段和染色质读出。",
+      "limit": "这是机制性综述而非干预试验；“运动增强再生”涉及动物、细胞和人体不同证据层级。个体化运动与代谢补充属于作者提出的转化方向，不是已验证疗法。",
+      "source": {
+        "title": "Frontiers in Physiology综述（DOI 10.3389/fphys.2026.1885709）",
+        "url": "https://doi.org/10.3389/fphys.2026.1885709"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "季前等速失衡与职业橄榄球腘绳肌损伤相关",
+      "title": "Preseason isokinetic strength imbalance and hamstring injury in male professional rugby players: a prospective cohort study",
+      "one_liner": "134名职业男子橄榄球运动员中，有复合等速失衡者12个月腘绳肌损伤累积发生率37.5%，无失衡者21.0%；调整后OR 2.56。",
+      "practice": "等速筛查可作为既往伤史、位置、暴露和功能评估之外的一项输入，但不能作为单独的“高风险/可参赛”标签。",
+      "evidence": "同行评审前瞻性队列，2026-10-16接收、最终排版待发布；事件与关联可核实，调整后统计关联中等，但旧队列、未记录暴露且非因果，个体预测确定性低。",
+      "confidence": "中等（关联）/低（个体预测）",
+      "what": "法国Top 14四家俱乐部134名男性职业橄榄球运动员完成季前等速力量与柔韧性评估并随访12个月。40人受伤；无失衡组13/62（21.0%），失衡组27/72（37.5%）。单因素OR 2.12（95%CI 0.93–4.83，p=0.073），调整既往伤病与位置后OR 2.56（1.07–6.12，p=0.034）。",
+      "why": "它为男子职业橄榄球提供了独立队列证据，同时也强化了9月23日简报中女子足球研究的结论：筛查指标可有群体关联，却未必具备单人伤病预测价值。前次简报：https://zekeniu.github.io/daily-professional-brief/briefs/2026-09-23/",
+      "limit": "数据来自2010–2012赛季，未收集训练/比赛暴露；复合失衡定义会掩盖不同肌群与速度条件，置信区间较宽。调整后显著不等于模型足以指导个体清退或预防处方。",
+      "source": {
+        "title": "Frontiers in Sports and Active Living原始研究（DOI 10.3389/fspor.2026.1961372）",
+        "url": "https://doi.org/10.3389/fspor.2026.1961372"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "肩袖修复后多种康复路径12个月结局趋同",
+      "title": "Rehabilitation Pathways After Arthroscopic Rotator Cuff Repair: A Perspective from Real-World Multicentric Cohort Study Data",
+      "one_liner": "973名患者、19家机构的真实世界数据识别出4类康复路径；尽管基线严重度与恢复速度不同，12个月Constant评分组间差异均低于10.4分MCID。",
+      "practice": "术后路径应按撕裂严重度与临床表现分层并持续复测，不应把观察到的“结局趋同”解释成早动、延迟动或某一康复路径彼此等效。",
+      "evidence": "同行评审多中心观察队列与潜类分析，2026-10-14接收、最终排版待发布；样本大、来源可核实，但路径非随机分配，因果确定性低。",
+      "confidence": "中等（路径描述）/低（方案比较）",
+      "what": "瑞士—德国多中心队列纳入973名关节镜肩袖修复患者、19家机构，在6周、6个月和12个月记录用药、固定与康复。潜类分析得到2类用药、2类固定和4类康复路径；各组12个月Constant评分趋同，组间差异低于10.4分最小临床重要差异。",
+      "why": "这项研究真实呈现“临床表现驱动路径选择”：例如外展位固定并延迟活动者基线撕裂更严重、评分更低。它适合用来设计预后分层，而不是寻找唯一标准方案。",
+      "limit": "管理路径由临床选择而非随机分配，残余混杂与适应证偏倚明显；患者报告的管理细节也可能有误差。不能用12个月趋同证明不同方案等效或忽略早期功能、疼痛和修复完整性。",
+      "source": {
+        "title": "Frontiers in Rehabilitation Sciences原始研究（DOI 10.3389/fresc.2026.1833500）",
+        "url": "https://doi.org/10.3389/fresc.2026.1833500"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "柔道专项疲劳后按摩仅改变部分肌肉僵硬",
+      "title": "Acute Changes in Forearm Muscle Stiffness Following Sport-Specific Fatigue and Sports Massage in Competitive Judoka: A Pilot Randomized Within-Subject Split-Body Controlled Study",
+      "one_liner": "10名竞技柔道运动员中，10分钟按摩使旋前圆肌僵硬下降更多，但对另外两块前臂肌和主观疲劳并无额外优势。",
+      "practice": "若用按摩处理专项前臂疲劳，应明确目标肌与结局并复测；不能把单块肌肉SWE变化解释为整体恢复、握力恢复或伤病预防。",
+      "evidence": "同行评审先导性随机体内分侧对照研究，2026-10-16接收、最终排版待发布；设计可核实，但样本极小且仅急性替代结局，确定性低。",
+      "confidence": "低",
+      "what": "10名竞技柔道运动员完成专项疲劳协议，一侧前臂接受标准化10分钟运动按摩，另一侧被动恢复。剪切波弹性成像显示三块肌肉疲劳后均变硬；按摩仅在旋前圆肌出现更大的僵硬下降（时间×条件p=0.007），指浅屈肌与尺侧腕屈肌无显著交互。",
+      "why": "它显示“恢复有效”可能高度依赖肌肉和测量结局；主观疲劳/不适在两侧都随时间下降，按摩没有额外改善。",
+      "limit": "仅10人、分侧设计可能存在系统性传递，且没有握力、表现、长期疼痛或伤病结局。SWE的急性变化不是组织修复或重返运动证据。",
+      "source": {
+        "title": "Frontiers in Rehabilitation Sciences原始研究（DOI 10.3389/fresc.2026.1962300）",
+        "url": "https://doi.org/10.3389/fresc.2026.1962300"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "Claude Code 2.1.302调整自动模式、压缩与子Agent行为",
+      "title": "Claude Code 2.1.302",
+      "one_liner": "两天内发布的版本增加自动模式分类器模型选择和空闲压缩开关，并把fork子Agent默认开启、主会话子Agent默认后台运行。",
+      "practice": "升级前应在团队配置中显式固定权限模式、压缩策略与子Agent并发；自动模式与后台执行的默认变化需要重新跑权限、成本和可观测性回归测试。",
+      "evidence": "Anthropic官方软件包与官方CHANGELOG；版本/行为变更可核实度高，但可靠性改善为发布说明、无独立性能测试；适用于Claude Code/Agent SDK相关工作流。",
+      "confidence": "高（版本事实）/中等（实际收益）",
+      "what": "官方npm包显示2.1.302于两天内发布。CHANGELOG新增CLAUDE_CODE_AUTO_MODE_MODEL、空闲压缩开关，并修复压缩时“Prompt is too long”、中途加工具后的缓存未命中及部分MCP协商问题；fork子Agent在claude -p、Agent SDK、桌面端和VS Code默认开启，主会话子Agent默认后台运行。",
+      "why": "这不是模型能力榜单，而是会改变无人值守编码代理实际行为的运行时更新：自动判定由谁执行、何时压缩、子任务是否并行，都会影响权限、成本和故障复现。",
+      "limit": "CHANGELOG未提供各修复的发生率或基准；npm“2天前”为相对时间。默认行为可能因平台、组织策略和后端分类器不同而不同，不能把“已修复”当作所有环境已验证。",
+      "source": {
+        "title": "Anthropic Claude Code官方CHANGELOG（v2.1.302）",
+        "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "本期没有一个可以直接升级为处方的“赢家”。真正可操作的是三类分离：关联与预测分离、替代结局与功能结局分离、软件发布事实与实际可靠性分离。",
+    "运动实践上，筛查与恢复工具应写入同一张决策表：目标人群、具体任务、主要结局、复测时间和停止/升级条件。若缺少这些字段，新增测量只会增加数据而不增加决策质量。",
+    "AI实践上，Claude Code版本变化说明默认值本身就是风险面。团队应把权限模式、压缩、子Agent并发和遥测作为可版本化配置，并在升级后验证，而非依赖个人客户端默认设置。",
+    "本期未加入全球重要事件板块：在实际检索范围内，没有发现需要压过上述专业更新、且有充分原始来源支撑的单一全球事件。",
+    "去重范围：已读取可访问的2026-09-23至2026-10-18共24期、203条记录，按标题、规范化URL及可得DOI/事件身份核对；无法访问的日期不在去重覆盖内。"
+  ]
+}
