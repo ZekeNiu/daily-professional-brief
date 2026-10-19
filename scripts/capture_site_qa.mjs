@@ -45,7 +45,13 @@ for(const [name,width,height,path] of cases){
   for(let i=0;i<300;i++){
    const r=await cmd('Runtime.evaluate',{expression:'JSON.stringify({qa:document.body?.dataset.qa,error:document.body?.dataset.qaError})',returnByValue:true});
    status=JSON.parse(r.result.value||'{}');
-   if(status.qa==='fail')throw Error(status.error);
+   if(status.qa==='fail'){
+    const diagnostic=await cmd('Runtime.evaluate',{expression:'JSON.stringify({viewport:[innerWidth,innerHeight],positions:Object.fromEntries([".edition-head",".datebar","#trends","#overview","#dailyTitle",".toolbar","#sport","#sections .card-title"].map(s=>[s,document.querySelector(s)?.getBoundingClientRect().toJSON()]))})',returnByValue:true});
+    console.log('FAIL METRICS:',diagnostic.result.value);
+    const shot=await cmd('Page.captureScreenshot',{format:'png',fromSurface:true,captureBeyondViewport:false});
+    await writeFile(output+'/'+name+'-failure.png',Buffer.from(shot.data,'base64'));
+    throw Error(status.error);
+   }
    if(status.qa==='pass')break;
    await pause(100);
   }

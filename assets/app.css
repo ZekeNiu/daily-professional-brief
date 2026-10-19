@@ -297,3 +297,10 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-
  .article-original p{font-size:12px}
 }
 @media(max-width:350px){.edition-title h1{font-size:18px}.edition-date strong{font-size:9px}.edition-date>span{font-size:9px}.direction-preview>b{font-size:11px}}
+@media(max-width:720px){
+ body[data-page="brief"] .section{margin-bottom:10px}
+ .trend-overview{padding:12px 14px 0}.trend-heading{margin-bottom:7px}.direction-preview{padding-top:9px;padding-bottom:9px}.trend-analysis>summary{padding:8px 0}
+ .edition-summary{padding:11px 14px}.summary-body>p{margin-top:6px}.summary-table{margin-top:4px}
+ .daily-heading{margin-top:16px;margin-bottom:10px}.daily-body>.toolbar{gap:6px;margin-bottom:12px}.daily-body .search{padding-top:6px;padding-bottom:6px}
+ .domain-heading{margin-bottom:7px}.card-head{padding-top:12px;padding-bottom:12px}
+}
