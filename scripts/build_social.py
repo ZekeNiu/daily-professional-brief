@@ -159,4 +159,7 @@ def sync(root):
 
 
 if __name__ == '__main__':
-    sync(Path(__file__).resolve().parents[1])
+    root = Path(__file__).resolve().parents[1]
+    sync(root)
+    from build_trends import sync as sync_trends
+    sync_trends(root)

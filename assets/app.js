@@ -37,10 +37,8 @@ async function setupHistoryPicker(currentDate){
 function renderBrief(d){
  document.title=(channel==='social'?'社媒热点':'科学期刊')+'｜'+d.date+' · 每日专业资讯简报';
  document.body.dataset.channel=channel;
- $('#overview h2').textContent=channel==='social'?'当日热点':'今日速览';
- $('#overview .sub').textContent=channel==='social'?'专业作者的观点、工具实践与值得展开的讨论。':'30 秒判断哪些内容值得展开。';
- $('.hero .lead').textContent=channel==='social'?'串联专业作者的一线观察、实践方法与行业讨论，从近期脉络看懂当日热点。':'每日精选运动科学、运动健康与 AI 的重要进展，提炼关键发现、专业判断与实践价值。';
- $('.count span').textContent=channel==='social'?'今日热点':'今日收录';
+ $('#dailyTitle').textContent=channel==='social'?'当日热点':'每日资讯';
+ $('#dailyCount').textContent=d.items.length+' 条精选';
  $('#dateText').textContent=d.date;
  const fd=formatBriefDate(d.date);
  if($('#heroDate'))$('#heroDate').textContent=fd.long;
@@ -72,9 +70,9 @@ function renderBrief(d){
       idx++;
       const supplement=typeof x.limit==='string'?x.limit.trim():'';
       const search=(x.title+' '+(x.author||'')+' '+(x.platform||'')+' '+x.one_liner+' '+x.practice+' '+x.what+' '+x.why+' '+x.limit+' '+x.evidence).toLowerCase();
-      return '<article class="card" data-domain="'+esc(domain)+'" data-search="'+esc(search)+'"><div class="card-head" role="button" tabindex="0" aria-expanded="false" aria-controls="detail-'+idx+'"><div class="card-index">'+String(idx).padStart(2,'0')+'</div><div>'+badge(x.priority)+'<div class="card-title">'+esc(x.title)+'</div>'+(x.author?'<div class="card-meta"><span>'+esc(x.author)+'</span><span>'+esc(x.platform)+'</span><span>发布 '+esc(x.published_date)+'</span></div>':'')+'<div class="card-one">'+esc(x.one_liner)+'</div></div><div class="chev" aria-hidden="true">⌄</div></div><div class="card-detail" id="detail-'+idx+'" inert><div class="card-inner"><div class="card-pad"><div class="info-grid"><div class="info"><h4>发生了什么</h4><p>'+esc(x.what)+'</p></div><div class="info"><h4>为什么值得关注</h4><p>'+esc(x.why)+'</p></div><div class="info"><h4>对实践的意义</h4><p>'+esc(x.practice)+'</p></div>'+(supplement?'<div class="info"><h4>补充信息</h4><p>'+esc(supplement)+'</p></div>':'')+'</div><div class="evidence"><span>'+esc(x.evidence)+'</span><span>置信度：'+(esc(x.confidence)+(x.confidence_reason?' · '+esc(x.confidence_reason):''))+'</span></div><a class="source" href="'+esc(sourceLink(x))+'" target="_blank" rel="noopener"><span>查看原始来源</span><span>↗</span></a>'+(x.references?.length?'<div class="reference-links">'+x.references.map(r=>'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.label)+' ↗</a>').join('')+'</div>':'')+'</div></div></div></article>';
+      return '<article class="card" data-domain="'+esc(domain)+'" data-search="'+esc(search)+'"><div class="card-head" role="button" tabindex="0" aria-expanded="false" aria-controls="detail-'+idx+'"><div class="card-index">'+String(idx).padStart(2,'0')+'</div><div>'+badge(x.priority)+'<div class="card-title">'+esc(x.short_title||x.title)+'</div>'+(x.author?'<div class="card-meta"><span>'+esc(x.author)+'</span><span>'+esc(x.platform)+'</span><span>发布 '+esc(x.published_date)+'</span></div>':'')+'<div class="card-one">'+esc(x.one_liner)+'</div></div><div class="chev" aria-hidden="true">⌄</div></div><div class="card-detail" id="detail-'+idx+'" inert><div class="card-inner"><div class="card-pad">'+(x.short_title&&x.short_title!==x.title?'<div class="article-original"><small>原题</small><p>'+esc(x.title)+'</p></div>':'')+'<div class="info-grid"><div class="info"><h4>发生了什么</h4><p>'+esc(x.what)+'</p></div><div class="info"><h4>为什么值得关注</h4><p>'+esc(x.why)+'</p></div><div class="info"><h4>对实践的意义</h4><p>'+esc(x.practice)+'</p></div>'+(supplement?'<div class="info"><h4>补充信息</h4><p>'+esc(supplement)+'</p></div>':'')+'</div><div class="evidence"><span>'+esc(x.evidence)+'</span><span>置信度：'+(esc(x.confidence)+(x.confidence_reason?' · '+esc(x.confidence_reason):''))+'</span></div><a class="source" href="'+esc(sourceLink(x))+'" target="_blank" rel="noopener"><span>查看原始来源</span><span>↗</span></a>'+(x.references?.length?'<div class="reference-links">'+x.references.map(r=>'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.label)+' ↗</a>').join('')+'</div>':'')+'</div></div></div></article>';
    }).join('');
-   return '<section class="section" id="'+id+'"><div class="section-head"><span class="num">'+num+'</span><div><h2>'+domain+'</h2><p class="sub">'+esc(noteText)+'</p></div></div><div class="cards">'+cards+'</div></section>';
+   return '<section class="section domain-section" id="'+id+'"><details data-fold="domain-'+id+'" open><summary class="fold-heading domain-heading"><span class="num">'+num+'</span><h3>'+domain+'</h3><span class="domain-count">'+items.length+' 条</span><span class="fold-chevron">⌄</span></summary>'+(noteText?'<p class="domain-note">'+esc(noteText)+'</p>':'')+'<div class="cards">'+cards+'</div></details></section>';
  }).join('');
  $('#judgmentText').innerHTML=Array.isArray(d.professional_judgment)?d.professional_judgment.map(esc).join('<br><br>'):esc(d.professional_judgment);
 
@@ -101,6 +99,25 @@ function bindBriefInteractions(){
  const ob=cardObserver=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');ob.unobserve(e.target)}}),{threshold:.06});cards.forEach(c=>ob.observe(c));
  const secs=$$('.section'),links=$$('.rail a');const so=sectionObserver=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-25% 0px -65% 0px'});secs.forEach(s=>so.observe(s));
 }
+function restoreFolds(date){
+ $$('details[data-fold]').forEach(el=>{
+  const name=el.dataset.fold,key='brief-fold:'+channel+':'+name+(['daily','domain-sport','domain-health','domain-ai','domain-global'].includes(name)?':'+date:'');
+  // A fresh edition always starts with its daily items available.
+  const defaults=['overview','daily','domain-sport','domain-health','domain-ai','domain-global'];
+  let saved=null;try{saved=localStorage.getItem(key)}catch{}
+  el.open=saved===null?defaults.includes(name):saved==='open';
+  el.ontoggle=()=>{try{localStorage.setItem(key,el.open?'open':'closed')}catch{}};
+ });
+ if(new URL(location.href).searchParams.has('direction'))$('#trendAnalysis')?.setAttribute('open','');
+ revealAnchor(location.hash);
+}
+function revealAnchor(hash){
+ if(!hash)return;
+ let target;try{target=document.getElementById(decodeURIComponent(hash.slice(1)))}catch{return}
+ if(!target)return;
+ for(let p=target;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true;
+ target.querySelector('details')?.setAttribute('open','');
+}
 function renderArchive(items){
  const box=$('#archiveGrid');if(!items.length){box.innerHTML='<div class="empty panel">还没有历史简报。</div>';return}
  const latest=items[0]?.date;
@@ -116,13 +133,14 @@ function renderArchive(items){
 }
 function setChannelUI(){
  channel=currentChannel();document.body.dataset.channel=channel;
- if($('#overview')){ $('#overview h2').textContent=channel==='social'?'当日热点':'今日速览'; $('.hero .lead').textContent=channel==='social'?'串联专业作者的一线观察、实践方法与行业讨论，从近期脉络看懂当日热点。':'每日精选运动科学、运动健康与 AI 的重要进展，提炼关键发现、专业判断与实践价值。'; $('.filter-btn[data-domain="全球重要事件"]')?.classList.toggle('hidden',channel==='social'); }
+ if($('#dailyTitle'))$('#dailyTitle').textContent=channel==='social'?'当日热点':'每日资讯';
+ $('.filter-btn[data-domain="全球重要事件"]')?.classList.toggle('hidden',channel==='social');
  $$('.footer a').forEach(a=>a.href=root+'/'+channelQuery());
- $$('.channel-tabs a').forEach(a=>{const active=a.dataset.channel===channel;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');const u=new URL(location.href);u.searchParams.delete('channel');if(a.dataset.channel==='social')u.searchParams.set('channel','social');u.hash='';a.href=u.href});
+ $$('.channel-tabs a').forEach(a=>{const active=a.dataset.channel===channel;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');const u=new URL(location.href);u.searchParams.delete('channel');u.searchParams.delete('direction');if(a.dataset.channel==='social')u.searchParams.set('channel','social');u.hash='';a.href=u.href});
  $$('.archive-link,.nav-archive').forEach(a=>a.href=root+'/archive.html'+channelQuery());
  $$('.brand,.archive-tools .archive-link').forEach(a=>a.href=root+'/'+channelQuery());
- const rail=$('.railbox');if(rail){const defs=channel==='social'?[['trends','近期趋势'],['overview','当日热点'],['sport','运动科学'],['health','运动健康'],['ai','AI'],['sources','信息来源']]:[['overview','今日速览'],['sport','运动科学'],['health','运动健康'],['ai','AI'],['global','全球事件'],['judgment','专业判断']];rail.innerHTML=defs.map(([id,t])=>'<a href="#'+id+'" data-label="'+t+'"><span class="rail-dot"></span>'+t+'</a>').join('');}
- $('#trends')?.classList.toggle('hidden',channel!=='social');$('#sources')?.classList.toggle('hidden',channel!=='social');
+ const rail=$('.railbox');if(rail){const defs=[['trends','近期趋势'],['overview','本期摘要'],['daily',channel==='social'?'当日热点':'每日资讯'],['sport','运动科学'],['health','运动健康'],['ai','AI'],['judgment','专业判断'],...(channel==='social'?[['sources','信息来源']]:[])];rail.innerHTML=defs.map(([id,t])=>'<a href="#'+id+'" data-label="'+t+'"><span class="rail-dot"></span>'+t+'</a>').join('');}
+ $('#trends')?.classList.remove('hidden');$('#sources')?.classList.toggle('hidden',channel!=='social');
 }
 async function init(){
  const version=++loadVersion;setChannelUI();window.__briefReady=false;
@@ -132,17 +150,22 @@ async function init(){
   let date=document.body.dataset.date||document.body.dataset.data?.match(/(\d{4}-\d{2}-\d{2})/)?.[1];
   if(document.body.dataset.latest==='true'){const p=await getJSON(channelData()+'latest.json');date=p.latest;}
   const url=channelData()+date+'.json';
-  let d;try{d=await getJSON(url)}catch(e){if(channel!=='social')throw e;if(version!==loadVersion)return;const latest=await getJSON(channelData()+'latest.json');if(version!==loadVersion)return;$('#sections').innerHTML='';$('#summaryRows').innerHTML='';$('#mobileRows').innerHTML='';$('#dateText').textContent=date;$('#heroDate').textContent=formatBriefDate(date).long;$('#heroWeekday').textContent=formatBriefDate(date).weekday;$('#signalText').textContent='该日社媒热点尚未归档。';['#countTotal','#countSport','#countHealth','#countAI'].forEach(q=>$(q).textContent='—');$('#trends').innerHTML='';$('#sources').innerHTML='';$('#judgment').classList.add('hidden');$('#appError').innerHTML='该日社媒热点尚未归档。<a class="source" href="'+datedURL(latest.latest)+'">查看 '+esc(latest.latest)+' 社媒热点 →</a>';$('#appError').classList.remove('hidden');$('#prevDate').classList.add('disabled');$('#nextDate').classList.add('disabled');await setupHistoryPicker(date);window.__briefReady=true;return;}
+  let d;try{d=await getJSON(url)}catch(e){if(channel!=='social')throw e;if(version!==loadVersion)return;const latest=await getJSON(channelData()+'latest.json');if(version!==loadVersion)return;$('#daily').classList.add('hidden');$('#overview').classList.add('hidden');$('#sections').innerHTML='';$('#summaryRows').innerHTML='';$('#mobileRows').innerHTML='';$('#dateText').textContent=date;$('#heroDate').textContent=formatBriefDate(date).long;$('#heroWeekday').textContent=formatBriefDate(date).weekday;$('#signalText').textContent='该日社媒热点尚未归档。';['#countTotal','#countSport','#countHealth','#countAI'].forEach(q=>$(q).textContent='—');$('#trends').innerHTML='';$('#sources').innerHTML='';$('#dailyCount').textContent='';$('#judgment').classList.add('hidden');$('#appError').innerHTML='该日社媒热点尚未归档。<a class="source" href="'+datedURL(latest.latest)+'">查看 '+esc(latest.latest)+' 社媒热点 →</a>';$('#appError').classList.remove('hidden');$('#prevDate').classList.add('disabled');$('#nextDate').classList.add('disabled');await setupHistoryPicker(date);window.__briefReady=true;return;}
   if(version!==loadVersion)return;
-  $('#judgment').classList.remove('hidden');$('#search').value='';$$('.filter-btn').forEach(b=>b.classList.toggle('active',b.dataset.domain==='全部'));
+  $('#daily').classList.remove('hidden');$('#overview').classList.remove('hidden');$('#judgment').classList.remove('hidden');$('#search').value='';$$('.filter-btn').forEach(b=>b.classList.toggle('active',b.dataset.domain==='全部'));
   renderBrief(d);
+  await window.BriefTrends.render(d,root,channel);
+  if(version!==loadVersion)return;
   if(channel==='social')await window.BriefSocial.render(d,root);
+  if(version!==loadVersion)return;
+  restoreFolds(d.date);
   if(version===loadVersion)bindBriefInteractions();
   if(version===loadVersion)window.__briefReady=true;
  }catch(e){if(version!==loadVersion)return;console.error(e);const box=$('#appError');if(box){box.textContent='简报数据载入失败，请刷新后重试。';box.classList.remove('hidden')}window.__briefError=e.message;}
 }
-$$('.channel-tabs a').forEach(a=>a.addEventListener('click',e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();if(a.dataset.channel===channel)return;history.pushState({},'',a.href);init();}));
+$$('.channel-tabs a').forEach(a=>a.addEventListener('click',e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();if(a.dataset.channel===channel)return;history.pushState({},'',a.href);scrollTo({top:0,behavior:'instant'});init();}));
 addEventListener('popstate',init);
+document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(a)revealAnchor(a.getAttribute('href'))});
 addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;$('.progress').style.width=(h?scrollY/h*100:0)+'%';$('#toTop')?.classList.toggle('show',scrollY>650)});
 $('#toTop')?.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
 $('#copyLink')?.addEventListener('click',async e=>{try{await navigator.clipboard.writeText(location.href);e.currentTarget.textContent='已复制';setTimeout(()=>e.currentTarget.textContent='复制链接',1200)}catch{}});

@@ -205,5 +205,75 @@
     "测力与运动康复的共同启发是：保留能解释结果的过程数据。前者是原始波形与处理步骤，后者是症状、任务能力和连续响应。",
     "AI工作流也可以沿同样的思路改进：把会话、依赖版本与任务结果一起记录，才能判断一次更新是否真正改善了工作。"
   ],
-  "trends_url": "data/social/trends/2026-10-19.json"
+  "trends_url": "data/social/trends/2026-10-19.json",
+  "trend_directions": [
+    {
+      "id": "force-workflow",
+      "domain": "运动科学",
+      "title": "测力数据：从结果面板走向波形",
+      "change": "R与Python教程串起自动取数、波形重算和跳跃阶段分析。",
+      "meaning": "一条可复现的流程，将批量数据获取与单次波形检查连起来，便于解释同一跳高背后的动作策略。",
+      "confidence": "中",
+      "confidence_reason": "来自同一技术团队的两篇连续教程，内容衔接明确。",
+      "references": [
+        {
+          "url": "https://www.hawkindynamics.com/blog/using-hawkin-r-as-a-researcher",
+          "label": "R：批量取数与重复分析",
+          "note": "hawkinR将API取数接入R，减少手动导出并支持增量同步。"
+        },
+        {
+          "url": "https://www.hawkindynamics.com/blog/exploring-force-time-waveforms-in-python",
+          "label": "Python：原始波形与阶段分析",
+          "note": "HDforce把力—时间信号带入Python，可重算指标并比较完整曲线。"
+        }
+      ],
+      "related": {
+        "channel": "journal",
+        "direction_id": "individual-monitoring",
+        "label": "连读期刊：监测口径与个人基线"
+      }
+    },
+    {
+      "id": "exercise-outcomes",
+      "domain": "运动健康",
+      "title": "运动治疗：功能反应与长期维持",
+      "change": "近期讨论把治疗中的功能变化，与治疗结束后能否继续活动连起来看。",
+      "meaning": "这组内容可沿“治疗反应→功能变化→活动维持”连读，关注康复过程中的不同时间尺度。",
+      "confidence": "中",
+      "confidence_reason": "BJSM作者解读与PainScience讨论分别涉及活动维持和运动反应，议题联系为编辑综合。",
+      "references": [
+        {
+          "url": "https://blogs.bmj.com/bjsm/2026/10/12/what-helps-people-stay-active-after-exercise-therapy-ends",
+          "label": "治疗结束后，如何继续活动",
+          "note": "作者解读19篇系统综述，讨论数字支持、加强随访与活动维持。"
+        },
+        {
+          "url": "https://www.painscience.com/blog/stenosis-severity-and-exercise.html",
+          "label": "影像严重度与运动反应",
+          "note": "10月17日重访8月研究：腰椎狭窄影像分级与该队列的运动反应未见关联。"
+        }
+      ]
+    },
+    {
+      "id": "agent-cost",
+      "domain": "AI",
+      "title": "Agent成本：从单价看到整段任务",
+      "change": "模型分工与会话日志，把费用、缓存和任务产出放进同一视野。",
+      "meaning": "按完整任务记录模型组合、费用、缓存命中和完成时间，更容易解释一次工作究竟花在哪里。",
+      "confidence": "中",
+      "confidence_reason": "一项官方客户案例与一项日志功能发布相互补充，反映运行管理方向。",
+      "references": [
+        {
+          "url": "https://openai.com/index/legalon-halves-codex-costs",
+          "label": "按任务匹配模型与预算",
+          "note": "LegalOn案例讨论模型分工，并提出以功能发布连接投入和客户价值。"
+        },
+        {
+          "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+          "label": "会话日志汇总费用与缓存",
+          "note": "Vercel增加会话视图，按整段会话查看模型、提供方、成本和缓存。"
+        }
+      ]
+    }
+  ]
 }

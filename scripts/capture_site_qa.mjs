@@ -5,9 +5,14 @@ const output='/tmp/brief-column-qa';
 await mkdir(output,{recursive:true});
 const cases=[
  ['journal-desktop',1440,1100,'/?qa=1'],
+ ['journal-mobile',390,844,'/?qa=1'],
+ ['journal-trend',1440,1100,'/?qa=1&view=trend'],
+ ['social-trend-mobile',390,1000,'/?qa=1&channel=social&view=trend'],
+ ['social-narrow',320,900,'/?qa=1&channel=social'],
  ['social-desktop',1440,1100,'/?qa=1&channel=social'],
- ['social-mobile',390,1000,'/?qa=1&channel=social'],
+ ['social-mobile',390,844,'/?qa=1&channel=social'],
  ['social-dark',1440,1100,'/?qa=1&channel=social&dark=1'],
+ ['cross-column-direction',390,844,'/briefs/2026-10-19/?qa=1&channel=social&direction=force-workflow#trends'],
  ['social-archive',1440,1000,'/archive.html?qa=1&channel=social'],
  ['missing-social-date',390,900,'/briefs/2026-10-18/?qa=1&channel=social']
 ];
@@ -40,13 +45,19 @@ for(const [name,width,height,path] of cases){
   for(let i=0;i<300;i++){
    const r=await cmd('Runtime.evaluate',{expression:'JSON.stringify({qa:document.body?.dataset.qa,error:document.body?.dataset.qaError})',returnByValue:true});
    status=JSON.parse(r.result.value||'{}');
-   if(status.qa==='fail')throw Error(status.error);
+   if(status.qa==='fail'){
+    const diagnostic=await cmd('Runtime.evaluate',{expression:'JSON.stringify({viewport:[innerWidth,innerHeight],positions:Object.fromEntries([".edition-head",".datebar","#trends","#overview","#dailyTitle",".toolbar","#sport","#sections .card-title"].map(s=>[s,document.querySelector(s)?.getBoundingClientRect().toJSON()]))})',returnByValue:true});
+    console.log('FAIL METRICS:',diagnostic.result.value);
+    const shot=await cmd('Page.captureScreenshot',{format:'png',fromSurface:true,captureBeyondViewport:false});
+    await writeFile(output+'/'+name+'-failure.png',Buffer.from(shot.data,'base64'));
+    throw Error(status.error);
+   }
    if(status.qa==='pass')break;
    await pause(100);
   }
   if(status?.qa!=='pass')throw Error('QA did not finish');
   await pause(250);
-  const metrics=await cmd('Runtime.evaluate',{expression:'JSON.stringify({scrollY,viewport:{width:innerWidth,height:innerHeight},nav:document.querySelector(".site-nav").getBoundingClientRect().toJSON(),trend:document.querySelector("#trends")?.getBoundingClientRect().toJSON(),heat:document.querySelector(".heat-scroll")?.getBoundingClientRect().toJSON(),heatScroll:document.querySelector(".heat-scroll")?.scrollWidth})',returnByValue:true});
+  const metrics=await cmd('Runtime.evaluate',{expression:'JSON.stringify({scrollY,viewport:{width:innerWidth,height:innerHeight},nav:document.querySelector(".site-nav").getBoundingClientRect().toJSON(),trend:document.querySelector("#trends")?.getBoundingClientRect().toJSON(),heat:document.querySelector(".heat-scroll")?.getBoundingClientRect().toJSON(),heatScroll:document.querySelector(".heat-scroll")?.scrollWidth,daily:document.querySelector("#dailyTitle")?.getBoundingClientRect().toJSON(),firstStory:document.querySelector("#sections .card-title")?.getBoundingClientRect().toJSON()})',returnByValue:true});
   await writeFile(output+'/'+name+'.json',metrics.result.value);
   const shot=await cmd('Page.captureScreenshot',{format:'png',fromSurface:true,captureBeyondViewport:false});
   await writeFile(output+'/'+name+'.png',Buffer.from(shot.data,'base64'));
