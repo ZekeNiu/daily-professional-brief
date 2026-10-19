@@ -15,7 +15,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://martin-buchheit.net/feed/"
+      "feed_url": "https://martin-buchheit.net/feed/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/mart1buch"
+        }
+      ]
     },
     {
       "id": "asker-jeukendrup",
@@ -32,6 +38,10 @@
         {
           "platform": "X",
           "url": "https://x.com/Jeukendrup"
+        },
+        {
+          "platform": "X",
+          "url": "https://www.twitter.com/jeukendrup"
         }
       ]
     },
@@ -63,7 +73,13 @@
       "kind": "专业作者",
       "platform": "播客",
       "language": "en",
-      "feed_url": "https://rss.libsyn.com/shows/139580/destinations/872954.xml"
+      "feed_url": "https://rss.libsyn.com/shows/139580/destinations/872954.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "http://twitter.com/@hardwaypod"
+        }
+      ]
     },
     {
       "id": "stuart-mcmillan",
@@ -80,6 +96,10 @@
         {
           "platform": "X",
           "url": "https://x.com/StuartMcMillan1"
+        },
+        {
+          "platform": "X",
+          "url": "https://twitter.com/ALTIS"
         }
       ]
     },
@@ -92,7 +112,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "collect": false
+      "collect": false,
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://www.twitter.com/derekmhansen"
+        }
+      ]
     },
     {
       "id": "joel-jamieson",
@@ -131,7 +157,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://www.running-physio.com/feed/"
+      "feed_url": "https://www.running-physio.com/feed/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/tomgoom"
+        }
+      ]
     },
     {
       "id": "greg-lehman",
@@ -152,7 +184,17 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://mikereinold.com/feed/"
+      "feed_url": "https://mikereinold.com/feed/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/mikereinold"
+        },
+        {
+          "platform": "X",
+          "url": "https://www.twitter.com/mikereinold"
+        }
+      ]
     },
     {
       "id": "adam-meakins",
@@ -162,7 +204,13 @@
       "focus": "肌骨康复与临床观点",
       "kind": "专业作者",
       "platform": "博客",
-      "language": "en"
+      "language": "en",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://x.com/AdamMeakins"
+        }
+      ]
     },
     {
       "id": "erik-meira",
@@ -173,7 +221,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://thesciencept.com/feed/"
+      "feed_url": "https://thesciencept.com/feed/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/erikMeira"
+        }
+      ]
     },
     {
       "id": "mick-hughes",
@@ -184,7 +238,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://www.mickhughes.physio/blog-feed.xml"
+      "feed_url": "https://www.mickhughes.physio/blog-feed.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "http://www.twitter.com/mickwhughes"
+        }
+      ]
     },
     {
       "id": "peter-malliaras",
@@ -195,7 +255,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "collect": false
+      "collect": false,
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/DrPeteMalliaras"
+        }
+      ]
     },
     {
       "id": "ben-cormack",
@@ -217,7 +283,21 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://simonwillison.net/atom/everything/"
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/fofrai/status/2110043023954284889"
+        },
+        {
+          "platform": "X",
+          "url": "https://twitter.com/matthew_d_green/status/2108552414978564418"
+        },
+        {
+          "platform": "X",
+          "url": "https://twitter.com/sunjiao123sun_/status/2024555516551372920"
+        }
+      ]
     },
     {
       "id": "ethan-mollick",
@@ -245,7 +325,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://hamel.dev/index.xml"
+      "feed_url": "https://hamel.dev/index.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/HamelHusain"
+        }
+      ]
     },
     {
       "id": "eugene-yan",
@@ -256,7 +342,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://eugeneyan.com/rss/"
+      "feed_url": "https://eugeneyan.com/rss/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/eugeneyan"
+        }
+      ]
     },
     {
       "id": "chip-huyen",
@@ -267,7 +359,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://huyenchip.com/feed.xml"
+      "feed_url": "https://huyenchip.com/feed.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/chipro"
+        }
+      ]
     },
     {
       "id": "lilian-weng",
@@ -278,7 +376,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://lilianweng.github.io/index.xml"
+      "feed_url": "https://lilianweng.github.io/index.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/lilianweng/"
+        }
+      ]
     },
     {
       "id": "sebastian-raschka",
@@ -301,7 +405,13 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://www.fast.ai/index.xml"
+      "feed_url": "https://www.fast.ai/index.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/fastdotai"
+        }
+      ]
     },
     {
       "id": "sportsmith",

@@ -115,7 +115,18 @@ def parse_feed(text: str, base: str) -> list[dict]:
                     url = c.attrib['href']; break
                 if c.text and c.text.strip().startswith('http'):
                     url = c.text.strip()
+        # Some podcast feeds put the publisher's homepage in every <link>.
+        # Prefer an episode permalink or its public audio enclosure in that case.
+        if url and not urllib.parse.urlsplit(url).path.strip('/'):
+            guid = child_text(entry, ['guid', 'id'])
+            enclosure = next((c.attrib.get('url', '') for c in entry if c.tag.rsplit('}', 1)[-1] == 'enclosure'), '')
+            if guid.startswith('https://'):
+                url = guid
+            elif enclosure.startswith('https://'):
+                url = enclosure
         if not url or not title:
+            continue
+        if urllib.parse.urlsplit(urllib.parse.urljoin(base, url)).scheme not in ('http', 'https'):
             continue
         pub = child_text(entry, ['pubDate', 'published', 'date'])
         date_kind = 'published'

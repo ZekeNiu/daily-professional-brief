@@ -4,13 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '15 23 * * *'
-  push:
-    branches: ['work/integrated-social-20261019']
-    paths:
-      - 'config/social-sources.json'
-      - 'config/social-topics.json'
-      - 'scripts/collect_social.py'
-      - '.github/workflows/social-collect.yml'
 
 permissions:
   contents: write
@@ -27,9 +20,14 @@ jobs:
       - uses: actions/checkout@v6
       - name: Collect public RSS and Atom metadata
         run: python3 scripts/collect_social.py --output data/social/collection.json
+      - name: Accumulate dated observations
+        run: |
+          if [ -f scripts/build_social.py ]; then
+            python3 scripts/build_social.py
+          fi
       - name: Keep the collected source snapshot
         run: |
-          git add data/social/collection.json
+          git add data/social/
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
