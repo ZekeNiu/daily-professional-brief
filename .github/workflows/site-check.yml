@@ -3,7 +3,7 @@ name: Check integrated brief columns
 on:
   workflow_dispatch:
   push:
-    branches: ['work/trend-redesign-20261019']
+    branches: ['work/visual-trends-20261019']
 
 permissions:
   contents: read

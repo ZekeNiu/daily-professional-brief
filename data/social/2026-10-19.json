@@ -231,7 +231,8 @@
         "channel": "journal",
         "direction_id": "individual-monitoring",
         "label": "连读期刊：监测口径与个人基线"
-      }
+      },
+      "chart_label": "原始测力数据分析"
     },
     {
       "id": "exercise-outcomes",
@@ -252,7 +253,8 @@
           "label": "影像严重度与运动反应",
           "note": "10月17日重访8月研究：腰椎狭窄影像分级与该队列的运动反应未见关联。"
         }
-      ]
+      ],
+      "chart_label": "运动治疗与活动维持"
     },
     {
       "id": "agent-cost",
@@ -273,7 +275,8 @@
           "label": "会话日志汇总费用与缓存",
           "note": "Vercel增加会话视图，按整段会话查看模型、提供方、成本和缓存。"
         }
-      ]
+      ],
+      "chart_label": "Agent任务成本"
     }
   ]
 }
