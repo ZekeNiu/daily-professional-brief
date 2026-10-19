@@ -5,12 +5,12 @@ const output='/tmp/brief-column-qa';
 await mkdir(output,{recursive:true});
 const cases=[
  ['journal-desktop',1440,1100,'/?qa=1'],
- ['journal-mobile',390,1000,'/?qa=1'],
+ ['journal-mobile',390,844,'/?qa=1'],
  ['journal-trend',1440,1100,'/?qa=1&view=trend'],
  ['social-trend-mobile',390,1000,'/?qa=1&channel=social&view=trend'],
- ['social-narrow',320,1000,'/?qa=1&channel=social'],
+ ['social-narrow',320,900,'/?qa=1&channel=social'],
  ['social-desktop',1440,1100,'/?qa=1&channel=social'],
- ['social-mobile',390,1000,'/?qa=1&channel=social'],
+ ['social-mobile',390,844,'/?qa=1&channel=social'],
  ['social-dark',1440,1100,'/?qa=1&channel=social&dark=1'],
  ['social-archive',1440,1000,'/archive.html?qa=1&channel=social'],
  ['missing-social-date',390,900,'/briefs/2026-10-18/?qa=1&channel=social']

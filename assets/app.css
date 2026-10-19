@@ -287,3 +287,13 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-
  .activity-fold .trend-summary h3{font-size:16px}.activity-fold .trend-summary p{font-size:10px}.activity-fold .trend-totals b{font-size:18px}.activity-fold .trend-totals small{font-size:9px}.activity-fold .heat-head{font-size:9px}.activity-fold .heat-topic b{font-size:10px}.activity-fold .heat-cell{font-size:10px}
 }
 @media(max-width:350px){.nav-inner{padding:0 10px;gap:6px}.channel-tabs a{padding:8px 11px}.direction-preview{grid-template-columns:43px minmax(0,1fr);gap:3px 6px}.direction-domain{font-size:9px}.edition-title h1{font-size:20px}.trend-analysis-meta{font-size:8px}.date-nav{gap:2px!important}.date-nav a{padding:5px!important}.history-picker{max-width:124px!important}.history-picker select{width:123px!important}}
+
+/* Compact mobile overview keeps the first daily story within easy reach. */
+.article-original{padding-top:14px}.article-original small{font-size:10px;color:var(--muted)}.article-original p{font-size:13px;line-height:1.6;margin:3px 0 0;overflow-wrap:anywhere}
+@media(max-width:720px){
+ .edition-head{flex-direction:row;align-items:center;gap:8px}.edition-title h1{font-size:20px}.edition-date{flex-direction:column;align-items:flex-end;gap:0}.edition-date strong{font-size:10px;white-space:nowrap}.edition-date>span{font-size:9px}
+ .direction-change{display:none}.direction-preview{padding-top:11px;padding-bottom:11px}.direction-preview>b{font-size:12px;line-height:1.55}.trend-heading{margin-bottom:9px}
+ .edition-summary{padding:12px 14px}.summary-table{margin-top:5px}.summary-body>p{margin-top:8px}.summary-table>summary{padding:0}
+ .article-original p{font-size:12px}
+}
+@media(max-width:350px){.edition-title h1{font-size:18px}.edition-date strong{font-size:9px}.edition-date>span{font-size:9px}.direction-preview>b{font-size:11px}}
