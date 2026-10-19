@@ -136,7 +136,7 @@ function setChannelUI(){
  if($('#dailyTitle'))$('#dailyTitle').textContent=channel==='social'?'当日热点':'每日资讯';
  $('.filter-btn[data-domain="全球重要事件"]')?.classList.toggle('hidden',channel==='social');
  $$('.footer a').forEach(a=>a.href=root+'/'+channelQuery());
- $$('.channel-tabs a').forEach(a=>{const active=a.dataset.channel===channel;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');const u=new URL(location.href);u.searchParams.delete('channel');if(a.dataset.channel==='social')u.searchParams.set('channel','social');u.hash='';a.href=u.href});
+ $$('.channel-tabs a').forEach(a=>{const active=a.dataset.channel===channel;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');const u=new URL(location.href);u.searchParams.delete('channel');u.searchParams.delete('direction');if(a.dataset.channel==='social')u.searchParams.set('channel','social');u.hash='';a.href=u.href});
  $$('.archive-link,.nav-archive').forEach(a=>a.href=root+'/archive.html'+channelQuery());
  $$('.brand,.archive-tools .archive-link').forEach(a=>a.href=root+'/'+channelQuery());
  const rail=$('.railbox');if(rail){const defs=[['trends','近期趋势'],['overview','本期摘要'],['daily',channel==='social'?'当日热点':'每日资讯'],['sport','运动科学'],['health','运动健康'],['ai','AI'],['judgment','专业判断'],...(channel==='social'?[['sources','信息来源']]:[])];rail.innerHTML=defs.map(([id,t])=>'<a href="#'+id+'" data-label="'+t+'"><span class="rail-dot"></span>'+t+'</a>').join('');}

@@ -58,6 +58,14 @@
   }else if(path.includes('/2026-10-18/')){
    check($('#heroDate').textContent.includes('18'),'missing date correct');check(!$('#appError').classList.contains('hidden'),'missing explained');check($('#appError a').href.includes('2026-10-19/?channel=social'),'fallback link');check(all('#sections .card').length===0,'no wrong-date cards');
    await change('journal');check($('#appError').classList.contains('hidden'),'journal recovers');check(all('.direction-preview').length>0,'historical journal trends');
+  }else if(params.has('direction')){
+   check($('#trendAnalysis').open,'linked direction opens');
+   check($('.direction-preview.active').dataset.direction===params.get('direction'),'linked direction selected');
+   check(!$('.channel-tabs [data-channel="journal"]').href.includes('direction='),'column tab clears specific direction');
+   await change('journal');check(!new URL(location.href).searchParams.has('direction'),'column switch clears direction parameter');
+   check(!$('#trendAnalysis').open,'other column retains compact default');
+   await change('social');check($('#trendAnalysis').open,'linked column fold remembered');
+   scrollTo(0,$('#directionDetail').getBoundingClientRect().top+scrollY-90);
   }else{
    const jp=await get('/data/latest.json'),sp=await get('/data/social/latest.json'),j=await get('/'+jp.url),s=await get('/'+sp.url);
    const initial=params.get('channel')==='social'?'social':'journal';

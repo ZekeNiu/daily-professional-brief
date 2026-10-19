@@ -12,6 +12,7 @@ const cases=[
  ['social-desktop',1440,1100,'/?qa=1&channel=social'],
  ['social-mobile',390,844,'/?qa=1&channel=social'],
  ['social-dark',1440,1100,'/?qa=1&channel=social&dark=1'],
+ ['cross-column-direction',390,844,'/briefs/2026-10-19/?qa=1&channel=social&direction=force-workflow#trends'],
  ['social-archive',1440,1000,'/archive.html?qa=1&channel=social'],
  ['missing-social-date',390,900,'/briefs/2026-10-18/?qa=1&channel=social']
 ];
