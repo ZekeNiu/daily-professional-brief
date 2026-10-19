@@ -152,13 +152,13 @@
       "domain": "AI",
       "title": "Agent效率优化与过程可观测性",
       "chart_label": "Agent效率与可观测性",
-      "change": "研究开始压缩内部推理成本，工具侧则补齐会话、token与模型迁移记录。",
-      "meaning": "成本优化只有与工具轨迹和任务成功率一起记录，才可转化为可审计的生产改进。",
+      "change": "研究开始压缩内部推理成本，代码Agent则持续调整自动模式、上下文压缩和子任务执行。",
+      "meaning": "成本优化只有与工具轨迹、版本行为和任务成功率一起记录，才可转化为可审计的生产改进。",
       "confidence": "中低",
-      "confidence_reason": "架构收益来自预印本自报；可观测性与迁移事件可由官方更新核实。",
+      "confidence_reason": "架构收益来自预印本自报；代码Agent行为变化可由官方版本记录核实。",
       "references": [
         {"url": "https://arxiv.org/abs/2610.18861", "edition_date": "2026-10-20", "label": "混合推理Agent", "note": "作者报告token、延迟和成本下降。"},
-        {"url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity", "edition_date": "2026-10-19", "label": "会话级成本日志", "note": "会话视图把模型、路由、成本和缓存汇总。"}
+        {"url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md", "edition_date": "2026-10-19", "label": "Claude Code运行行为调整", "note": "2.1.302调整自动模式、上下文压缩与子Agent行为。"}
       ],
       "related": {"channel": "social", "direction_id": "agent-debug-migration", "label": "连读社媒：调试与模型迁移"}
     }
