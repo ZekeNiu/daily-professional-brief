@@ -392,3 +392,8 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-
  .heat-content-list{max-height:255px}.heat-content-list li{grid-template-columns:34px minmax(0,1fr);gap:7px;padding:8px 0}.heat-content-list a{font-size:12px}.heat-content-list time{font-size:10px}
 }
 @media(max-width:350px){.field-tabs button{font-size:10px;padding:5px 7px}.heat-range select{max-width:82px;font-size:10px}.trend-explorer .heat-row{grid-template-columns:98px repeat(var(--days),minmax(20px,1fr)) 23px;min-width:calc(124px + var(--days) * 23px)}.trend-explorer .heat-topic b{font-size:10px}}
+
+/* Sticky labels blend with glass until horizontal scrolling needs an opaque edge. */
+.trend-explorer .heat-topic{align-self:stretch;display:flex;align-items:center;background:transparent}
+.trend-explorer .heat-head>span:first-child{background:transparent}
+.trend-explorer .heat-scroll.scrolled .heat-topic,.trend-explorer .heat-scroll.scrolled .heat-head>span:first-child{background:var(--surface-solid)}

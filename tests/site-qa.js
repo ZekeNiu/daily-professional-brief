@@ -69,7 +69,7 @@
   range('custom');check(!$('#trendDateForm').classList.contains('hidden'),'custom dates open');
   const customEnd=new Date(Date.parse(trend.end+'T00:00:00Z')-86400000).toISOString().slice(0,10),customStart=new Date(Date.parse(customEnd+'T00:00:00Z')-2*86400000).toISOString().slice(0,10);
   $('#trendStart').value=customStart;$('#trendEnd').value=customEnd;$('#trendDateForm').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));
-  check($('#heatmap').dataset.start===customStart&&$('#heatmap').dataset.end===customEnd,'custom window applied');check(all('.heat-head>span').length===5,'three-day custom window');verify();
+  check($('#heatmap').dataset.start===customStart&&$('#heatmap').dataset.end===customEnd,'custom window applied');check(all('.heat-head>span').length===5,'three-day custom window');verify();check(document.documentElement.scrollWidth<=innerWidth,'custom form does not overflow');for(const input of all('#trendDateForm input')){const r=input.getBoundingClientRect();check(r.left>=0&&r.right<=innerWidth,'custom input fits viewport')};
   $('#trendStart').value=trend.end;$('#trendEnd').value=customStart;$('#trendDateForm').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));
   check($('#trendDateError').textContent.length>0,'reversed dates rejected');check($('#heatmap').dataset.start===customStart,'invalid range does not change chart');
   $('#trendStart').value=new Date(Date.parse(trend.start+'T00:00:00Z')-86400000).toISOString().slice(0,10);$('#trendEnd').value=trend.end;$('#trendDateForm').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));

@@ -14,6 +14,7 @@ const cases=[
  ['social-dark',1440,1100,'/?qa=1&channel=social&dark=1'],
  ['cross-column-direction',390,844,'/briefs/2026-10-19/?qa=1&channel=social&direction=force-workflow#trends'],
  ['shared-custom-window',1440,1100,'/?qa=1&channel=social&field=ai&from=2026-10-13&to=2026-10-17&topic=ai-agent'],
+ ['shared-custom-mobile',390,1000,'/?qa=1&channel=social&field=ai&from=2026-10-13&to=2026-10-17&topic=ai-agent'],
  ['social-archive',1440,1000,'/archive.html?qa=1&channel=social'],
  ['missing-social-date',390,900,'/briefs/2026-10-18/?qa=1&channel=social']
 ];
