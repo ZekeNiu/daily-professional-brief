@@ -27,7 +27,7 @@
       box.querySelectorAll('[data-days]').forEach(b=>{const active=+b.dataset.days===range;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
       box.querySelectorAll('[data-trend-domain]').forEach(b=>{const active=b.dataset.trendDomain===domain;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
       $('#heatmap').style.setProperty('--days',range);
-      $('#heatmap').innerHTML='<div class="heat-row heat-head"><span>讨论主题</span>'+days.map(d=>'<span>'+esc(d.slice(5).replace('-','/'))+'</span>').join('')+'<span>来源</span></div>'+rows.map(r=>{
+      $('#heatmap').innerHTML='<div class="heat-row heat-head"><span>讨论主题</span>'+days.map(d=>'<span>'+esc(innerWidth<600?d.slice(8)+'日':d.slice(5).replace('-','/'))+'</span>').join('')+'<span>来源</span></div>'+rows.map(r=>{
         const ids=new Set(r.points.flatMap(p=>p.item_ids)),src=new Set(data.items.filter(x=>ids.has(x.id)).flatMap(x=>x.sources));
         return '<div class="heat-row"><button class="heat-topic'+(selected?.topic===r.id?' active':'')+'" data-topic="'+esc(r.id)+'"><small>'+esc(r.domain)+'</small><b>'+esc(r.label)+'</b></button>'+r.points.map(p=>'<button class="heat-cell heat-level-'+(p.value===0?0:p.value===1?1:p.value<4?2:3)+(selected?.topic===r.id&&selected?.day===p.date?' selected':'')+'" data-topic="'+esc(r.id)+'" data-day="'+p.date+'" data-value="'+p.value+'" aria-label="'+esc(r.label)+'，'+p.date+'，'+p.value+'个来源" aria-pressed="'+String(selected?.topic===r.id&&selected?.day===p.date)+'">'+(p.value||'·')+'</button>').join('')+'<span class="heat-total">'+src.size+'</span></div>';
       }).join('');
