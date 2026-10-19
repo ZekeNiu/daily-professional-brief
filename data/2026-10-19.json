@@ -145,5 +145,106 @@
     "测试与康复方面，分别记录力量、跳跃和心理运动能力；将等速筛查结果放回伤史和功能表现中解读；肩袖术后则同时看基线严重度与6周、6个月、12个月的恢复轨迹。这三项工作都能让现有记录更容易解释。",
     "柔道按摩试验给出的信息很具体：旋前圆肌僵硬有所改善，主观疲劳没有额外改善。恢复手段的选择应从希望改善的结果出发。",
     "Claude Code用户可重点核对2.1.302的自动模式、压缩与子Agent默认行为，让版本更新落实到实际任务的运行检查。"
-  ]
+  ],
+  "trend_directions": [
+    {
+      "id": "individual-monitoring",
+      "domain": "运动科学",
+      "title": "训练监测：统一口径与个人基线",
+      "change": "亚最大指标、天气影响与机械功估算，连起“测什么、怎样比”的问题。",
+      "meaning": "将测试条件、动作计算口径与个人纵向记录放在一起，才能解释监测数值的变化。",
+      "confidence": "中",
+      "confidence_reason": "三项不同方法的研究形成互补线索；这是对近期收录内容的编辑综合。",
+      "references": [
+        {
+          "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1979307/abstract",
+          "edition_date": "2026-10-15",
+          "label": "亚最大指标区分球场位置",
+          "note": "206名球员的研究中，亚最大乳酸对应速度比最大值更能区分位置。"
+        },
+        {
+          "url": "https://doi.org/10.1080/24733938.2026.2747385",
+          "edition_date": "2026-10-18",
+          "label": "天气效应与个体差异",
+          "note": "女足现场测试的个体差异大于平均温度效应，个人基线成为解释重点。"
+        },
+        {
+          "url": "https://doi.org/10.3389/fspor.2026.1974999",
+          "edition_date": "2026-10-19",
+          "label": "HIFT机械功统一估算",
+          "note": "方法综述把混合训练动作的机械功计算放到统一口径下。"
+        }
+      ],
+      "related": {
+        "channel": "social",
+        "direction_id": "force-workflow",
+        "label": "连读社媒：原始测力数据工作流"
+      }
+    },
+    {
+      "id": "stroke-function",
+      "domain": "运动健康",
+      "title": "卒中康复：把改善落到步行功能",
+      "change": "外骨骼、血流限制训练与功能测量的近期证据，需要放在同一结局框架里读。",
+      "meaning": "比较干预时，同时看步速、步行耐力、日常活动，以及变化是否超过测量误差和临床重要阈值。",
+      "confidence": "中",
+      "confidence_reason": "随机试验、两篇系统综述及测量学研究可互相参照，干预方案和确定性存在差异。",
+      "references": [
+        {
+          "url": "https://link.springer.com/article/10.1186/s13102-026-02135-4",
+          "edition_date": "2026-10-13",
+          "label": "Myosuit随机试验",
+          "note": "30人的总体组间结果未显示额外优势，提示关注设备之外的训练内容。"
+        },
+        {
+          "url": "https://medicaljournalssweden.se/jrm/article/view/46292",
+          "edition_date": "2026-10-13",
+          "label": "后退步行测量",
+          "note": "提供4.49秒最小可检测变化，为判断个体变化增加参照。"
+        },
+        {
+          "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1818981/full",
+          "edition_date": "2026-10-17",
+          "label": "外骨骼系统综述",
+          "note": "部分量表平均改善，步速、移动能力与日常活动未见明确组间差异。"
+        },
+        {
+          "url": "https://doi.org/10.3389/fneur.2026.1987031",
+          "edition_date": "2026-10-18",
+          "label": "血流限制训练综述",
+          "note": "FMA-LE与6分钟步行平均增益低于常用临床重要阈值。"
+        }
+      ]
+    },
+    {
+      "id": "coding-workflow",
+      "domain": "AI",
+      "title": "代码Agent：走进修复与审查流程",
+      "change": "自动修复、PR审查与后台子任务，正在衔接更完整的开发流程。",
+      "meaning": "评估工具时，可围绕“发现问题→修改→复验→审查”检查实际支持到哪一步。",
+      "confidence": "中",
+      "confidence_reason": "三项官方发布可核对功能变化；工作流方向为编辑综合。",
+      "references": [
+        {
+          "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability/",
+          "edition_date": "2026-10-16",
+          "label": "代理修复正式可用",
+          "note": "GitHub将告警探索、补丁、CodeQL复验和草稿PR串联。"
+        },
+        {
+          "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
+          "edition_date": "2026-10-18",
+          "label": "Claude Code Review正式可用",
+          "note": "PR审查进入团队工作流，提供三档审查深度。"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+          "edition_date": "2026-10-19",
+          "label": "子Agent后台运行",
+          "note": "Claude Code继续调整自动模式、压缩和子任务执行方式。"
+        }
+      ]
+    }
+  ],
+  "trends_url": "data/trends/2026-10-19.json"
 }

@@ -1,0 +1,11 @@
+[
+  {"id":"sport-monitor","domain":"运动科学","label":"测量方法与负荷监测","pattern":"monitor|测量|信度|test|传感|mechanical work|机械功|心率|阈值|加载率"},
+  {"id":"sport-mechanism","domain":"运动科学","label":"生理机制与训练适应","pattern":"metabol|蛋白|代谢|YAP|肌腱细胞|表观遗传|hypertroph|肌肥大"},
+  {"id":"sport-performance","domain":"运动科学","label":"训练与专项表现","pattern":".*","fallback":true},
+  {"id":"health-neuro","domain":"运动健康","label":"卒中与神经康复","pattern":"stroke|卒中|神经康复"},
+  {"id":"health-risk","domain":"运动健康","label":"损伤风险与重返运动","pattern":"ACL|损伤|伤病|concussion|injury|return.to|重返"},
+  {"id":"health-rehab","domain":"运动健康","label":"运动治疗与功能恢复","pattern":".*","fallback":true},
+  {"id":"ai-workflow","domain":"AI","label":"Agent与工作流","pattern":"agent|代理|Copilot|Code Review|Claude Code|Codex|工作流"},
+  {"id":"ai-infra","domain":"AI","label":"模型与开发工具","pattern":".*","fallback":true},
+  {"id":"global-events","domain":"全球重要事件","label":"全球事件","pattern":".*","fallback":true}
+]

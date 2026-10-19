@@ -114,6 +114,8 @@ def sync(root: Path) -> None:
     write_if_changed(archive_path, json_text(archive))
     from build_social import sync as sync_social
     sync_social(root)
+    from build_trends import sync as sync_trends
+    sync_trends(root)
 
     # Both columns share each dated page, including social-only publication days.
     for path in (data_dir / 'social').glob('????-??-??.json'):
