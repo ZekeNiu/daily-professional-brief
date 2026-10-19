@@ -5050,6 +5050,7 @@
         "direction_id": "force-workflow",
         "label": "连读社媒：原始测力数据工作流"
       },
+      "chart_label": "训练监测与个人基线",
       "evidence": [
         {
           "id": "e74336af1e4a",
@@ -5116,6 +5117,7 @@
       "meaning": "比较干预时，同时看步速、步行耐力、日常活动，以及变化是否超过测量误差和临床重要阈值。",
       "confidence": "中",
       "confidence_reason": "随机试验、两篇系统综述及测量学研究可互相参照，干预方案和确定性存在差异。",
+      "chart_label": "卒中康复的步行获益",
       "evidence": [
         {
           "id": "5849ea8cc025",
@@ -5200,6 +5202,7 @@
       "meaning": "评估工具时，可围绕“发现问题→修改→复验→审查”检查实际支持到哪一步。",
       "confidence": "中",
       "confidence_reason": "三项官方发布可核对功能变化；工作流方向为编辑综合。",
+      "chart_label": "代码Agent工作流",
       "evidence": [
         {
           "id": "a2f02a2750d4",

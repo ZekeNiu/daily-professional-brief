@@ -3173,6 +3173,7 @@
         "direction_id": "individual-monitoring",
         "label": "连读期刊：监测口径与个人基线"
       },
+      "chart_label": "原始测力数据分析",
       "evidence": [
         {
           "id": "fbaaf239310d",
@@ -3217,6 +3218,7 @@
       "meaning": "这组内容可沿“治疗反应→功能变化→活动维持”连读，关注康复过程中的不同时间尺度。",
       "confidence": "中",
       "confidence_reason": "BJSM作者解读与PainScience讨论分别涉及活动维持和运动反应，议题联系为编辑综合。",
+      "chart_label": "运动治疗与活动维持",
       "evidence": [
         {
           "id": "cdeaea7345cf",
@@ -3261,6 +3263,7 @@
       "meaning": "按完整任务记录模型组合、费用、缓存命中和完成时间，更容易解释一次工作究竟花在哪里。",
       "confidence": "中",
       "confidence_reason": "一项官方客户案例与一项日志功能发布相互补充，反映运行管理方向。",
+      "chart_label": "Agent任务成本",
       "evidence": [
         {
           "id": "45d6a2b79938",
