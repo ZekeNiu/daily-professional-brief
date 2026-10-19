@@ -66,7 +66,7 @@
   check(all('.heat-content-list a').map(a=>a.href).sort().join()===xs.map(x=>x.url).sort().join(),'day source links match records');
   cell.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true}));check($('#trendInspector').classList.contains('hidden'),'escape closes details');
   const zero=all('.heat-cell').find(c=>+c.dataset.value===0);if(zero){zero.click();check(Number($('#trendInspector').dataset.count)===0,'empty date has no invented content');$('.inspector-close').click();}
-  range('custom');check(!$('#trendDateForm').classList.contains('hidden'),'custom dates open');
+  range('custom');check(!$('#trendDateForm').classList.contains('hidden'),'custom dates open');$('[data-trend-domain="运动健康"]').click();check($('#trendRange').value==='custom'&&!$('#trendDateForm').classList.contains('hidden'),'custom draft mode survives field change');
   const customEnd=new Date(Date.parse(trend.end+'T00:00:00Z')-86400000).toISOString().slice(0,10),customStart=new Date(Date.parse(customEnd+'T00:00:00Z')-2*86400000).toISOString().slice(0,10);
   $('#trendStart').value=customStart;$('#trendEnd').value=customEnd;$('#trendDateForm').dispatchEvent(new Event('submit',{bubbles:true,cancelable:true}));
   check($('#heatmap').dataset.start===customStart&&$('#heatmap').dataset.end===customEnd,'custom window applied');check(all('.heat-head>span').length===5,'three-day custom window');verify();check(document.documentElement.scrollWidth<=innerWidth,'custom form does not overflow');for(const input of all('#trendDateForm input')){const r=input.getBoundingClientRect();check(r.left>=0&&r.right<=innerWidth,'custom input fits viewport')};

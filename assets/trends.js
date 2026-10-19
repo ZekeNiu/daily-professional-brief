@@ -25,6 +25,7 @@
   if(direction&&domains.includes(direction.domain)){domain=direction.domain;const ids=new Set(direction.evidence.map(x=>x.id));requestedTopic=data.items.find(x=>ids.has(x.id))?.topic_id;}
   const requested=data.rows.find(r=>r.id===requestedTopic);
   if(requested&&domains.includes(requested.domain)){domain=requested.domain;selection={topic:requested.id,day:within(params.get('day'),params.get('day'))&&start<=params.get('day')&&params.get('day')<=end?params.get('day'):null};showAll=true;}
+  let customOpen=mode==='custom';
   const annotations=new Map();
   for(const d of data.directions||[])for(const x of d.evidence)annotations.set(canonical(x.url),{title:x.label,note:x.note});
   for(const x of edition.items||[])annotations.set(canonical(x.source?.url),{title:x.short_title||x.title,note:x.one_liner});
@@ -63,7 +64,7 @@
   function render(){
    save();tip.classList.add('hidden');
    $('#trendPeriod',box).textContent=dateLabel(start)+'—'+dateLabel(end);
-   range.value=mode;
+   range.value=customOpen?'custom':mode;
    $$('[data-trend-domain]',box).forEach(b=>{const active=b.dataset.trendDomain===domain;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
    const rows=rowsForView();if(selection&&selection.day&&(selection.day<start||selection.day>end))selection.day=null;
    if(selection&&rows.findIndex(r=>r.id===selection.topic)>=3)showAll=true;
@@ -76,12 +77,12 @@
   }
   $$('[data-trend-domain]',box).forEach(b=>b.onclick=()=>{domain=b.dataset.trendDomain;selection=null;showAll=false;render();updateURL()});
   range.onchange=()=>{
-   if(range.value==='custom'){form.classList.remove('hidden');$('#trendStart',box).value=start;$('#trendEnd',box).value=end;$('#trendDateError',box).textContent='';return;}
-   mode=range.value;end=data.end;start=shift(end,1-Number(mode));form.classList.add('hidden');render();updateURL();
+   if(range.value==='custom'){customOpen=true;form.classList.remove('hidden');$('#trendStart',box).value=start;$('#trendEnd',box).value=end;$('#trendDateError',box).textContent='';return;}
+   customOpen=false;mode=range.value;end=data.end;start=shift(end,1-Number(mode));form.classList.add('hidden');render();updateURL();
   };
   form.onsubmit=e=>{e.preventDefault();const a=$('#trendStart',box).value,b=$('#trendEnd',box).value;
    if(!within(a,b)){$('#trendDateError',box).textContent=a>b?'开始日期不能晚于结束日期。':'请选择已有数据范围内的日期。';return;}
-   start=a;end=b;mode='custom';$('#trendDateError',box).textContent='';render();updateURL();
+   start=a;end=b;mode='custom';customOpen=true;$('#trendDateError',box).textContent='';render();updateURL();
   };
   $('#moreHeatTopics',box).onclick=()=>{showAll=!showAll;if(!showAll&&selection&&rowsForView().findIndex(r=>r.id===selection.topic)>=3)selection=null;render()};
   matrix.onclick=e=>{const target=e.target.closest('[data-topic]');if(!target)return;selection={topic:target.dataset.topic,day:target.dataset.day||null};renderInspector();syncSelection();tip.classList.add('hidden');updateURL()};
@@ -89,7 +90,7 @@
   const hideTip=()=>tip.classList.add('hidden');
   box.addEventListener('pointerover',showTip);box.addEventListener('pointerout',hideTip);box.addEventListener('focusin',showTip);box.addEventListener('focusout',hideTip);
   box.addEventListener('keydown',e=>{if(e.key==='Escape'){hideTip();if(selection){selection=null;renderInspector();syncSelection();updateURL()}}});
-  if(mode==='custom'){form.classList.remove('hidden');$('#trendStart',box).value=start;$('#trendEnd',box).value=end;}
+  if(customOpen){form.classList.remove('hidden');$('#trendStart',box).value=start;$('#trendEnd',box).value=end;}
   render();
  }
  window.BriefTrends={async render(d,root,channel){
