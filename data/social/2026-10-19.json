@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "date": "2026-10-19",
+  "title": "每日专业资讯简报｜社媒热点",
+  "observed_at": "2026-10-19T06:28:13.394047+00:00",
+  "summary": {
+    "title": "从结果读数，走向可追溯的过程",
+    "signal": "测力波形、功能响应与AI会话日志，都在把单个结果放回产生它的过程。",
+    "total": 7,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 3,
+      "AI": 3
+    }
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "从测力指标回到运动策略和计算方法。",
+    "运动健康": "从结构或检测结果，转向实际功能、临床用途与现场执行。",
+    "AI": "工具发布之外，关注工作流的可观察性、可维护性和视觉创作方法。"
+  },
+  "items": [
+    {
+      "id": "force-waveform",
+      "domain": "运动科学",
+      "title": "从跳高读数，回到力—时间曲线",
+      "short_title": "从跳高读数，回到力—时间曲线",
+      "author": "Tom Shaw / Hawkin Dynamics",
+      "platform": "作者博客",
+      "published_date": "2026-10-17",
+      "priority": "重点关注",
+      "one_liner": "同样的跳跃高度可能来自不同发力策略，原始波形让分析可以重做。",
+      "what": "Hawkin发布Python波形分析工作流，展示如何导出左右侧与合力信号、划分跳跃阶段，并重新计算速度、位移和功率。文章把体重估计、起跳前运动识别等处理选择放回分析过程。",
+      "why": "只保留跳高等汇总值，会丢掉运动策略和方法差异。保留原始信号后，同一批测试还能用于阶段时长、制动与推进特征的再分析。",
+      "practice": "在测力台数据归档中同时保留原始波形、处理版本和关键事件点；先选一组CMJ重建阶段指标，再与设备输出逐项核对。",
+      "evidence": "厂商技术文章与公开方法说明",
+      "confidence": "高",
+      "confidence_reason": "已读技术原文；应用建议由所述数据流程推导。",
+      "source": {
+        "url": "https://www.hawkindynamics.com/blog/exploring-force-time-waveforms-in-python"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "pitch-emergency",
+      "domain": "运动健康",
+      "title": "场边急救的短板，在人员与流程",
+      "short_title": "场边急救的短板，在人员与流程",
+      "author": "Tankeng Leonard Tanko / BJSM Blog",
+      "platform": "研究者博客",
+      "published_date": "2026-10-16",
+      "priority": "值得了解",
+      "one_liner": "作者用喀麦隆足球调查，讨论CPR培训、AED可及性和应急预案的落实。",
+      "what": "研究者解读一项覆盖745名球员、裁判、教练和物理治疗师的横断面调查：约三分之一达到较好的应急准备实践水平，AED获取、培训与预案知晓存在具体缺口。",
+      "why": "场边的第一目击者往往是队友、教练或裁判。应急能力取决于现场人员能否协同执行，而不只是名单上是否安排了医疗保障。",
+      "practice": "把AED位置与取用路径、人员分工和通讯方式放进同一份场地应急预案，并安排现场演练核对执行流程。",
+      "evidence": "研究者解读；喀麦隆足球横断面调查",
+      "confidence": "中",
+      "confidence_reason": "已读作者博客，调查结果按当地样本表述。",
+      "source": {
+        "url": "https://blogs.bmj.com/bjsm/2026/10/16/in-case-of-a-collapse-in-the-field-can-you-save-a-footballers-life-sudden-cardiac-arrest-preparedness-in-african-football/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "stenosis-rehab",
+      "domain": "运动健康",
+      "title": "影像严重程度与康复响应，怎样放在一起看",
+      "short_title": "影像严重程度与康复响应，怎样放在一起看",
+      "author": "Paul Ingraham / PainScience",
+      "platform": "作者博客",
+      "published_date": "2026-10-17",
+      "priority": "值得了解",
+      "one_liner": "一篇近期解读重新讨论：MRI上的狭窄分级，能否决定运动康复的响应。",
+      "what": "Ingraham解读一项1336人的回顾性单组资料：不同影像严重程度人群的疼痛、功能和力量改善没有呈现显著的组间差异。原研究发表于8月，本次新增的是10月17日的临床讨论。",
+      "why": "影像结构分级与功能、症状和训练响应回答的是不同问题。这个讨论把临床评估重新引向实际活动表现和干预后的变化。",
+      "practice": "评估表并列记录影像结果、症状、步行或任务能力及随访变化，用连续功能记录说明康复响应；该单组研究未比较手术与运动治疗。",
+      "evidence": "专家解读；回顾性单组研究",
+      "confidence": "中",
+      "confidence_reason": "已核对作者解读与正式论文身份，研究用途按其比较问题表述。",
+      "source": {
+        "url": "https://www.painscience.com/blog/stenosis-severity-and-exercise.html"
+      },
+      "references": [
+        {
+          "label": "正式论文",
+          "url": "https://doi.org/10.1093/ptj/pzag084"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "food-igg",
+      "domain": "运动健康",
+      "title": "食物IgG检测被重新讨论，营养决策先看检验含义",
+      "short_title": "食物IgG检测被重新讨论，营养决策先看检验含义",
+      "author": "Asker Jeukendrup",
+      "platform": "X",
+      "published_date": "2026-10-19",
+      "priority": "值得了解",
+      "one_liner": "近期重推的文章提醒：食物IgG阳性不能直接变成运动员的排除饮食清单。",
+      "what": "Jeukendrup在10月19日（北京时间）重新分享9月22日的食物敏感性检测文章。AAAAI说明，食物特异性IgG可反映食物暴露，IgG检测不被推荐用于诊断食物过敏或不耐受。",
+      "why": "把一份大套餐检测直接转成禁食清单，可能改变运动员的饮食结构。先弄清检测指标与实际症状的关系，才有讨论营养安排的基础。",
+      "practice": "审查队伍所用的食物检测套餐时，先区分IgG、IgE与实际临床用途，核对症状史；不要凭IgG面板阳性自行删去整类食物。",
+      "evidence": "专家原帖再传播；专业学会说明",
+      "confidence": "高",
+      "confidence_reason": "原帖、原文日期与AAAAI说明已核对。",
+      "source": {
+        "url": "https://x.com/Jeukendrup/status/2111850324675678267"
+      },
+      "references": [
+        {
+          "label": "原文章 · 9月22日",
+          "url": "https://www.mysportscience.com/post/food-sensitivity-tests"
+        },
+        {
+          "label": "AAAAI说明",
+          "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "gateway-sessions",
+      "domain": "AI",
+      "title": "AI会话日志，把成本、缓存和路由放到一起",
+      "short_title": "AI会话日志，把成本、缓存和路由放到一起",
+      "author": "Vercel",
+      "platform": "官方更新",
+      "published_date": "2026-10-18",
+      "priority": "值得了解",
+      "one_liner": "AI Gateway新增会话视图，可沿同一会话追踪成本、模型、供应商和缓存情况。",
+      "what": "10月18日的官方更新将请求按会话聚合，展示模型、供应商、各轮耗时、成本和缓存使用，并能查看供应商切换路径；可用一致的sessionId关联多轮请求。",
+      "why": "单次请求的耗时很难解释多轮Agent工作。会话级记录可以把缓存复用、供应商切换与总成本联系起来。",
+      "practice": "在AI工作流中统一会话标识，把总耗时、总费用、缓存比例与任务结果一并记录，再比较模型或路由方案。",
+      "evidence": "官方功能发布",
+      "confidence": "高",
+      "confidence_reason": "官方更新明确列出会话视图、缓存与路由字段。",
+      "source": {
+        "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "edenlive",
+      "domain": "AI",
+      "title": "EdenLive开源：3D逻辑与实时视觉渲染分工",
+      "short_title": "EdenLive开源：3D逻辑与实时视觉渲染分工",
+      "author": "VAST团队；量子位发现",
+      "platform": "开源项目 / 中文报道",
+      "published_date": "2026-10-18",
+      "priority": "重点关注",
+      "one_liner": "交互程序维护场景状态，生成模型把参考画面转成精细视觉。",
+      "what": "VAST公开EdenLive的5B、14B模型权重和实时推理代码。其架构以参考视频衔接上游程序与生成渲染层，由程序维护规则和状态，模型负责改变视觉呈现。",
+      "why": "场景布局、交互逻辑与视觉风格可以分别迭代。对于场馆方案展示和漫游预览，这提供了一条保留已有空间结构、再探索画面表现的技术路线。",
+      "practice": "先选一段既有3D漫游录屏测试风格重渲染，比较空间布局、镜头运动与人物动作的一致性。",
+      "evidence": "官方开源仓库与项目说明",
+      "confidence": "高",
+      "confidence_reason": "已核对官方README、模型入口与许可证结构。",
+      "source": {
+        "url": "https://github.com/VAST-AI-Research/EdenLive"
+      },
+      "references": [
+        {
+          "label": "项目主页",
+          "url": "https://vast-eden.ai/?p=edenlive"
+        },
+        {
+          "label": "中文报道",
+          "url": "https://www.qbitai.com/2026/10/504136.html"
+        }
+      ],
+      "limit": "默认工作台的FLUX首帧组件采用非商业许可；商用展示需更换该组件或取得相应授权。"
+    },
+    {
+      "id": "llm-dependency",
+      "domain": "AI",
+      "title": "LLM插件修复httpx2兼容，依赖需要显式声明",
+      "short_title": "LLM插件修复httpx2兼容，依赖需要显式声明",
+      "author": "Simon Willison",
+      "platform": "作者发布 / GitHub",
+      "published_date": "2026-10-19",
+      "priority": "快讯",
+      "one_liner": "llm-tools-datasette 0.1.1修复与新版LLM的httpx2兼容问题。",
+      "what": "作者发布0.1.1，将插件切换到httpx2以兼容LLM 0.36及以上版本。官方release记录了这项具体修复。",
+      "why": "工作流的可用性还取决于插件与底层依赖组合。核心工具升级后，旧插件可能仍依赖先前的依赖关系。",
+      "practice": "升级LLM工具链时同步核对插件版本，并用一次真实的数据查询检查核心路径；对自写插件显式声明直接使用的依赖。",
+      "evidence": "作者发布与GitHub release",
+      "confidence": "高",
+      "confidence_reason": "版本号、发布时间与修复内容已核对官方release。",
+      "source": {
+        "url": "https://github.com/simonw/llm-tools-datasette/releases/tag/0.1.1"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "测力与运动康复的共同启发是：保留能解释结果的过程数据。前者是原始波形与处理步骤，后者是症状、任务能力和连续响应。",
+    "AI工作流也可以沿同样的思路改进：把会话、依赖版本与任务结果一起记录，才能判断一次更新是否真正改善了工作。"
+  ],
+  "trends_url": "data/social/trends/2026-10-19.json"
+}

@@ -1,0 +1,38 @@
+name: Check integrated brief columns
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ['work/integrated-social-20261019']
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v6
+      - name: Build navigation, social trends and archives
+        run: |
+          python3 scripts/sync_briefs.py
+          python3 scripts/check_social.py
+          node --check assets/app.js
+          node --check assets/social.js
+      - name: Install Chinese screenshot fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+      - name: Exercise both columns, dates and trend drilldowns in Chrome
+        run: |
+          mkdir -p /tmp/brief-column-qa
+          python3 scripts/site_qa_server.py > /tmp/brief-column-qa/server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          node scripts/capture_site_qa.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: integrated-brief-column-qa
+          path: /tmp/brief-column-qa/

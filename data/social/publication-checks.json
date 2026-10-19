@@ -1,0 +1,14 @@
+{
+  "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity": {
+    "published_date": "2026-10-18",
+    "basis": "官方更新页标注18 Oct 2026；Atom只含updated，采用页面日期。"
+  },
+  "https://www.scienceforsport.com/mentally-tough-or-mentally-pliable": {
+    "exclude": true,
+    "basis": "订阅日期与网页Last updated日期不一致，未计入时间趋势。"
+  },
+  "http://www.jospt.org/": {
+    "exclude": true,
+    "basis": "该轮节目订阅链接仅指向期刊首页，缺少单集直达URL，未纳入话题时间图。"
+  }
+}

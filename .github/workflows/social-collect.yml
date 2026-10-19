@@ -1,0 +1,41 @@
+name: Collect public social sources
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 23 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social-source-collection-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v6
+      - name: Collect public RSS and Atom metadata
+        run: python3 scripts/collect_social.py --output data/social/collection.json
+      - name: Accumulate dated observations
+        run: |
+          if [ -f scripts/build_social.py ]; then
+            python3 scripts/build_social.py
+          fi
+      - name: Keep the collected source snapshot
+        run: |
+          git add data/social/
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Refresh public social source metadata'
+            git push origin HEAD:${{ github.ref_name }}
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: social-source-collection
+          path: data/social/collection.json
