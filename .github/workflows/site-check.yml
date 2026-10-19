@@ -30,30 +30,7 @@ jobs:
           python3 scripts/site_qa_server.py > /tmp/brief-column-qa/server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
-          python3 - <<'PY'
-          import subprocess
-          from pathlib import Path
-          cases = [
-              ('journal-desktop',1440,1100,'/?qa=1'),
-              ('social-desktop',1440,1100,'/?qa=1&channel=social'),
-              ('social-mobile',390,1000,'/?qa=1&channel=social'),
-              ('social-dark',1440,1100,'/?qa=1&channel=social&dark=1'),
-              ('social-archive',1440,1000,'/archive.html?qa=1&channel=social'),
-              ('missing-social-date',390,900,'/briefs/2026-10-18/?qa=1&channel=social'),
-          ]
-          out=Path('/tmp/brief-column-qa')
-          for name,width,height,path in cases:
-              cmd=['google-chrome','--headless','--no-sandbox','--disable-gpu','--hide-scrollbars','--disable-dev-shm-usage',
-                   f'--window-size={width},{height}','--virtual-time-budget=20000','--dump-dom',
-                   f'--screenshot={out/name}.png','http://127.0.0.1:8765'+path]
-              result=subprocess.run(cmd,capture_output=True,text=True,timeout=60)
-              (out/(name+'.html')).write_text(result.stdout)
-              (out/(name+'.log')).write_text(result.stderr)
-              if result.returncode or 'data-qa="pass"' not in result.stdout:
-                  import re
-                  raise SystemExit(name+': '+str(re.search(r'data-qa-error="([^"]*)',result.stdout)))
-              print('PASS:',name)
-          PY
+          node scripts/capture_site_qa.mjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
