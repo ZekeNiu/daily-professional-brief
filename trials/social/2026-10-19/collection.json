@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-10-19T05:38:13.704648+00:00",
+  "generated_at": "2026-10-19T05:41:31.818094+00:00",
   "window_start": "2026-10-05T05:32:14+00:00",
   "as_of": "2026-10-19T05:32:14+00:00",
   "summary": {
     "authors_total": 24,
     "homepages_read": 22,
-    "feeds_read": 13,
-    "candidates": 34,
-    "published_date_candidates": 34,
+    "feeds_read": 16,
+    "candidates": 35,
+    "published_date_candidates": 35,
     "already_reported": 1,
-    "authors_with_recent_candidates": 3
+    "authors_with_recent_candidates": 4
   },
   "authors": [
     {
@@ -40,7 +40,7 @@
       "page_title": "Martin Buchheit - Martin Buchheit",
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-17T07:35:53+00:00",
-      "elapsed_seconds": 4.73,
+      "elapsed_seconds": 4.46,
       "recent_item_ids": [
         "ab13e5c2646b",
         "d3dc072045af",
@@ -75,7 +75,7 @@
       "page_title": "Home | Mysportscience a trusted source of information",
       "parsed_items": 12,
       "latest_visible_item_at": "2026-09-27T10:19:39+00:00",
-      "elapsed_seconds": 0.44,
+      "elapsed_seconds": 0.48,
       "recent_item_ids": []
     },
     {
@@ -108,7 +108,7 @@
       "page_title": "Private Site",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.16,
+      "elapsed_seconds": 1.29,
       "recent_item_ids": []
     },
     {
@@ -119,9 +119,9 @@
       "focus": "耐力训练与强度分布",
       "author_filter": "Seiler",
       "relation": "访谈嘉宾",
-      "status": "homepage_only",
+      "status": "feed_ok",
       "homepage_read": true,
-      "feed_url": null,
+      "feed_url": "https://rss.libsyn.com/shows/139580/destinations/872954.xml",
       "social_links": [
         "http://twitter.com/@hardwaypod"
       ],
@@ -131,17 +131,19 @@
           "status": "ok"
         },
         {
-          "url": "http://feeds.libsyn.com/139580/rss",
-          "status": "ValueError",
-          "detail": "Only public HTTPS source URLs are supported"
+          "url": "https://feeds.libsyn.com/139580/rss",
+          "status": "feed_ok",
+          "entries": 151
         }
       ],
       "resolved_homepage": "https://feeds.libsyn.com/139580/website",
       "page_title": "Choose the Hard Way",
-      "parsed_items": 0,
-      "latest_visible_item_at": null,
-      "elapsed_seconds": 0.47,
-      "recent_item_ids": []
+      "parsed_items": 2,
+      "latest_visible_item_at": "2026-10-13T17:04:00+00:00",
+      "elapsed_seconds": 1.02,
+      "recent_item_ids": [
+        "bfd31cfa78f9"
+      ]
     },
     {
       "id": "stuart-mcmillan",
@@ -176,7 +178,7 @@
       "page_title": "ALTIS - Coach Education",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 5.41,
+      "elapsed_seconds": 5.1,
       "recent_item_ids": []
     },
     {
@@ -211,7 +213,7 @@
       "page_title": "SprintCoach",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.8,
+      "elapsed_seconds": 1.09,
       "recent_item_ids": []
     },
     {
@@ -239,7 +241,7 @@
       "page_title": "Home - 8 Weeks Out",
       "parsed_items": 10,
       "latest_visible_item_at": "2023-09-07T04:34:49+00:00",
-      "elapsed_seconds": 0.84,
+      "elapsed_seconds": 1.03,
       "recent_item_ids": []
     },
     {
@@ -271,7 +273,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.08,
+      "elapsed_seconds": 0.11,
       "recent_item_ids": []
     },
     {
@@ -301,7 +303,7 @@
       "page_title": "Running Injuries | RunningPhysio",
       "parsed_items": 4,
       "latest_visible_item_at": "2026-07-17T08:46:08+00:00",
-      "elapsed_seconds": 2.1,
+      "elapsed_seconds": 2.18,
       "recent_item_ids": []
     },
     {
@@ -334,7 +336,7 @@
       "page_title": "Greg Lehman",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.87,
+      "elapsed_seconds": 0.74,
       "recent_item_ids": []
     },
     {
@@ -365,7 +367,7 @@
       "page_title": "Mike Reinold - Physical Therapy and Sports Performance Blog Instagram TikTok Facebook Twitter YouTube Expand Expand Search Toggle Menu Search Scroll to top Scroll to top Expand Expand Instagram Facebook Twitter YouTube Toggle Menu Close Search",
       "parsed_items": 5,
       "latest_visible_item_at": "2026-10-08T10:00:00+00:00",
-      "elapsed_seconds": 0.24,
+      "elapsed_seconds": 0.39,
       "recent_item_ids": [
         "78ecce3eb8d5"
       ]
@@ -402,7 +404,7 @@
       "page_title": "adammeakins.com",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.95,
+      "elapsed_seconds": 2.0,
       "recent_item_ids": []
     },
     {
@@ -432,7 +434,7 @@
       "page_title": "Welcome - The Science PT",
       "parsed_items": 10,
       "latest_visible_item_at": "2026-04-13T21:24:45+00:00",
-      "elapsed_seconds": 0.41,
+      "elapsed_seconds": 0.72,
       "recent_item_ids": []
     },
     {
@@ -462,7 +464,7 @@
       "page_title": "Mick Hughes Physiotherapy",
       "parsed_items": 20,
       "latest_visible_item_at": "2026-05-21T07:31:00+00:00",
-      "elapsed_seconds": 0.41,
+      "elapsed_seconds": 0.6,
       "recent_item_ids": []
     },
     {
@@ -497,7 +499,7 @@
       "page_title": "Achilles, patellar and hamstring tendinopathy expert physio",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.11,
+      "elapsed_seconds": 1.27,
       "recent_item_ids": []
     },
     {
@@ -529,7 +531,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.3,
+      "elapsed_seconds": 0.41,
       "recent_item_ids": []
     },
     {
@@ -561,7 +563,7 @@
       "page_title": "Simon Willison’s Weblog",
       "parsed_items": 30,
       "latest_visible_item_at": "2026-10-18T23:43:09+00:00",
-      "elapsed_seconds": 0.12,
+      "elapsed_seconds": 0.8,
       "recent_item_ids": [
         "768169fbc557",
         "d221188525e6",
@@ -620,7 +622,7 @@
       "page_title": "One Useful Thing | Ethan Mollick | Substack",
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-01T10:54:12+00:00",
-      "elapsed_seconds": 0.29,
+      "elapsed_seconds": 0.42,
       "recent_item_ids": []
     },
     {
@@ -650,7 +652,7 @@
       "page_title": "Hamel Husain’s Blog – Hamel's Blog",
       "parsed_items": 20,
       "latest_visible_item_at": "2026-09-30T07:00:00+00:00",
-      "elapsed_seconds": 0.21,
+      "elapsed_seconds": 0.66,
       "recent_item_ids": []
     },
     {
@@ -659,9 +661,9 @@
       "domain": "AI",
       "homepage": "https://eugeneyan.com/",
       "focus": "AI工程与评测",
-      "status": "homepage_only",
+      "status": "feed_ok",
       "homepage_read": true,
-      "feed_url": null,
+      "feed_url": "https://eugeneyan.com/rss/",
       "social_links": [
         "https://twitter.com/eugeneyan"
       ],
@@ -671,21 +673,16 @@
           "status": "ok"
         },
         {
-          "url": "https://eugeneyan.com/feed",
-          "status": "HTTPError",
-          "detail": "HTTP Error 404: Not Found"
-        },
-        {
-          "url": "https://eugeneyan.com/feed.xml",
-          "status": "HTTPError",
-          "detail": "HTTP Error 404: Not Found"
+          "url": "https://eugeneyan.com/rss/",
+          "status": "feed_ok",
+          "entries": 212
         }
       ],
       "resolved_homepage": "https://eugeneyan.com/",
       "page_title": "Eugene Yan",
-      "parsed_items": 0,
-      "latest_visible_item_at": null,
-      "elapsed_seconds": 0.42,
+      "parsed_items": 212,
+      "latest_visible_item_at": "2026-06-21T00:00:00+00:00",
+      "elapsed_seconds": 0.3,
       "recent_item_ids": []
     },
     {
@@ -715,7 +712,7 @@
       "page_title": "Chip Huyen Chip Huyen | I work to bring AI into production. I write about AI system design. Substack logo",
       "parsed_items": 10,
       "latest_visible_item_at": "2025-01-16T00:00:00+00:00",
-      "elapsed_seconds": 0.3,
+      "elapsed_seconds": 0.58,
       "recent_item_ids": []
     },
     {
@@ -745,7 +742,7 @@
       "page_title": "Lil'Log",
       "parsed_items": 53,
       "latest_visible_item_at": "2026-07-04T00:00:00+00:00",
-      "elapsed_seconds": 0.12,
+      "elapsed_seconds": 0.14,
       "recent_item_ids": []
     },
     {
@@ -754,9 +751,9 @@
       "domain": "AI",
       "homepage": "https://magazine.sebastianraschka.com/",
       "focus": "模型研究与工程",
-      "status": "homepage_only",
+      "status": "feed_ok",
       "homepage_read": true,
-      "feed_url": null,
+      "feed_url": "https://magazine.sebastianraschka.com/feed",
       "social_links": [],
       "attempts": [
         {
@@ -765,15 +762,15 @@
         },
         {
           "url": "https://magazine.sebastianraschka.com/feed",
-          "status": "ValueError",
-          "detail": "Source response exceeds 2 MB"
+          "status": "feed_ok",
+          "entries": 20
         }
       ],
       "resolved_homepage": "https://magazine.sebastianraschka.com/",
       "page_title": "Ahead of AI | Sebastian Raschka, PhD | Substack",
-      "parsed_items": 0,
-      "latest_visible_item_at": null,
-      "elapsed_seconds": 0.15,
+      "parsed_items": 20,
+      "latest_visible_item_at": "2026-09-29T10:50:25+00:00",
+      "elapsed_seconds": 0.32,
       "recent_item_ids": []
     },
     {
@@ -804,7 +801,7 @@
       "page_title": "fast.ai—Making neural nets uncool again – fast.ai",
       "parsed_items": 10,
       "latest_visible_item_at": "2025-10-29T14:00:00+00:00",
-      "elapsed_seconds": 0.14,
+      "elapsed_seconds": 0.42,
       "recent_item_ids": []
     }
   ],
@@ -1045,6 +1042,24 @@
       "id": "6451d923eed6",
       "observed_authors": [
         "Simon Willison"
+      ]
+    },
+    {
+      "title": "Dr. Stephen Seiler - How to Train VO2max - Beyond Huberman & Attia, how to get started & keep going - Case Study with Shannon Jones",
+      "url": "https://choosethehardway.libsyn.com/dr-stephen-seiler-how-to-train-vo2-max-beyond-huberman-attia-how-to-get-started-keep-going-case-study-with-shannon-jones",
+      "published_at": "2026-10-13T17:04:00+00:00",
+      "date_kind": "published",
+      "byline": "CHOOSE THE HARD WAY™ is a trademark of Big Truck LLC. All rights reserved.",
+      "dois": [],
+      "date_verified": true,
+      "domain": "运动科学",
+      "author_id": "stephen-seiler",
+      "source_author": "Stephen Seiler",
+      "feed_url": "https://rss.libsyn.com/shows/139580/destinations/872954.xml",
+      "previous_briefs": [],
+      "id": "bfd31cfa78f9",
+      "observed_authors": [
+        "Stephen Seiler"
       ]
     },
     {
