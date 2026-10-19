@@ -1,0 +1,121 @@
+{
+  "checked_at": "2026-10-19T05:45:08.889Z",
+  "method": "本次按需浏览器核查，读取公开帖子与页面可见时间；未进行账号互动。",
+  "profiles": [
+    {
+      "author_id": "ethan-mollick",
+      "url": "https://x.com/emollick/status/2110447059086229670",
+      "scope": "原帖及可见回复",
+      "result": "原文已读"
+    },
+    {
+      "author_id": "stuart-mcmillan",
+      "url": "https://x.com/StuartMcMillan1",
+      "scope": "首屏公开帖子",
+      "result": "可见帖子均早于本次窗口"
+    },
+    {
+      "author_id": "chris-beardsley",
+      "url": "https://x.com/SandCResearch",
+      "scope": "首屏公开帖子",
+      "result": "读到3条窗口内研究线索"
+    },
+    {
+      "author_id": "yann-le-meur",
+      "url": "https://x.com/YLMSportScience",
+      "scope": "首屏公开帖子",
+      "result": "可见帖子均早于本次窗口"
+    },
+    {
+      "author_id": "asker-jeukendrup",
+      "url": "https://x.com/Jeukendrup",
+      "scope": "首屏公开帖子",
+      "result": "读到2条窗口内帖子，均指向此前文章"
+    }
+  ],
+  "posts": [
+    {
+      "id": "x-mollick-2110447059086229670",
+      "author_id": "ethan-mollick",
+      "author": "Ethan Mollick",
+      "domain": "AI",
+      "url": "https://x.com/emollick/status/2110447059086229670",
+      "published_at": "2026-10-14T19:06:03.000Z",
+      "title": "避免把工作流锁定在旧模型的能力上限",
+      "summary": "Mollick提出，模型能力与实际采用之间的差距扩大，组织应让现有流程能够持续受益于更强模型。",
+      "type": "专家观点",
+      "disposition": "selected",
+      "metrics": {
+        "replies": 92,
+        "reposts": 15,
+        "likes": 211,
+        "bookmarks": 24,
+        "views": 20784
+      }
+    },
+    {
+      "id": "x-beardsley-2110656989055344847",
+      "author_id": "chris-beardsley",
+      "author": "Chris Beardsley",
+      "domain": "运动科学",
+      "url": "https://x.com/SandCResearch/status/2110656989055344847",
+      "published_at": "2026-10-15T09:00:14.000Z",
+      "title": "肌节增加与肌原纤维增加的刺激区别",
+      "summary": "原帖提出两种结构适应的刺激存在区别，并指向其免费文章。",
+      "type": "研究线索",
+      "disposition": "verify_primary_study"
+    },
+    {
+      "id": "x-beardsley-2110297106636259587",
+      "author_id": "chris-beardsley",
+      "author": "Chris Beardsley",
+      "domain": "运动健康",
+      "url": "https://x.com/SandCResearch/status/2110297106636259587",
+      "published_at": "2026-10-14T09:10:12.000Z",
+      "title": "肢体固定期亮氨酸与肌肉量保持",
+      "summary": "原帖讨论肢体固定期间的营养干预及年龄差异。",
+      "type": "研究线索",
+      "disposition": "verify_primary_study"
+    },
+    {
+      "id": "x-beardsley-2109932205757673780",
+      "author_id": "chris-beardsley",
+      "author": "Chris Beardsley",
+      "domain": "运动科学",
+      "url": "https://x.com/SandCResearch/status/2109932205757673780",
+      "published_at": "2026-10-13T09:00:13.000Z",
+      "title": "离心收缩与静态拉伸的短期柔韧性响应",
+      "summary": "原帖对比两类干预的短期柔韧性和拉伸耐受性结果。",
+      "type": "研究线索",
+      "disposition": "verify_primary_study"
+    },
+    {
+      "id": "x-asker-2111850324675678267",
+      "author_id": "asker-jeukendrup",
+      "author": "Asker Jeukendrup",
+      "domain": "运动健康",
+      "url": "https://x.com/Jeukendrup/status/2111850324675678267",
+      "published_at": "2026-10-18T16:02:08.000Z",
+      "title": "食物敏感性指尖测试的解释",
+      "summary": "近期帖子重新引出网站已有的食物敏感性测试文章。",
+      "type": "既有文章再传播",
+      "disposition": "older_content_reshared",
+      "context_url": "https://www.mysportscience.com/post/food-sensitivity-tests",
+      "context_published": "2026-09-22"
+    },
+    {
+      "id": "x-asker-2111487940681428997",
+      "author_id": "asker-jeukendrup",
+      "author": "Asker Jeukendrup",
+      "domain": "运动健康",
+      "url": "https://x.com/Jeukendrup/status/2111487940681428997",
+      "published_at": "2026-10-17T16:02:09.000Z",
+      "title": "自报食物过敏与受控测试的差别",
+      "summary": "近期帖子重新引出网站已有的食物过敏解读。",
+      "type": "既有文章再传播",
+      "disposition": "older_content_reshared",
+      "context_url": "https://www.mysportscience.com/post/do-you-have-a-food-allergy-or-intolerance",
+      "context_published": "2026-09-27"
+    }
+  ]
+}

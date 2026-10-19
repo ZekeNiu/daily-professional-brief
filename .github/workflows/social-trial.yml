@@ -1,0 +1,40 @@
+name: Collect public social source trial
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["trial/social-signal-20261019"]
+    paths:
+      - "scripts/collect_social.py"
+      - "config/social-sources.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social-source-trial
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: trial/social-signal-20261019
+      - name: Collect public feeds
+        run: python3 scripts/collect_social.py
+      - name: Preserve trial evidence
+        run: |
+          git add trials/social/
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Record public source trial results"
+            git push origin HEAD:trial/social-signal-20261019
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: social-trial-2026-10-19
+          path: trials/social/2026-10-19/

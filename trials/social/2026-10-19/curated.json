@@ -1,0 +1,368 @@
+{
+  "title": "社媒与作者观察",
+  "date": "2026-10-19",
+  "edition": "首轮试跑",
+  "summary": "公开订阅负责持续发现，浏览器核查补足 X 上的观点与研究线索。本轮精选聚焦训练负荷的结构，以及 AI 工作流的实际改造。",
+  "items": [
+    {
+      "id": "rest-placement",
+      "candidate_id": "b0ebeed71849",
+      "domain": "运动科学",
+      "channel": "作者博客",
+      "author": "Martin Buchheit",
+      "date": "2026-10-10",
+      "kind": "实践研究解读",
+      "priority": "重点关注",
+      "title": "休息日之外，更值得检查赛前一天的负荷",
+      "what": "两支希腊职业足球队采用不同的赛后休息日安排，周内负荷分配与赛前减量形态存在差异。作者报告，赛前一天的加速负荷分别约为各队比赛值的43%与12%。",
+      "takeaway": "给微周期报表增加“MD-1加速负荷／比赛加速负荷”，并联看赛前冲刺暴露，让周总量之外的负荷分配也进入讨论。",
+      "confidence": "中",
+      "basis": "两队观察数据，核对了作者解读与公开报告。",
+      "sources": [
+        {
+          "label": "作者解读",
+          "url": "https://martin-buchheit.net/2026/10/10/post-match-rest-day-placement-and-the-shape-of-the-week-external-load-distribution-and-injury-occurrence-in-two-elite-football-teams/"
+        },
+        {
+          "label": "公开研究报告",
+          "url": "https://martin-buchheit.net/wp-content/uploads/2026/10/SPSR321_Lekatsas.pdf"
+        }
+      ]
+    },
+    {
+      "id": "bfr-discussion",
+      "candidate_id": "78ecce3eb8d5",
+      "domain": "运动健康",
+      "channel": "播客逐字稿",
+      "author": "Mike Reinold 与团队",
+      "date": "2026-10-08",
+      "kind": "研究讨论",
+      "priority": "重点关注",
+      "title": "赛季 BFR 的讨论，落到了训练课剂量上",
+      "what": "Reinold团队讨论18名大学篮球运动员的8周研究，并进一步追问：两组组次数与外部负荷不同，对照课是否本身就过于疲劳？本次新增是10月8日的研究解读，原研究早于本轮窗口。",
+      "takeaway": "评估赛季减负方案时，把组次数、外部负荷和比赛任务一起比较。这段讨论适合用于审查一堂体能课的实际剂量。",
+      "confidence": "中",
+      "basis": "公开逐字稿及论文题录已核对，判断聚焦方案比较。",
+      "sources": [
+        {
+          "label": "原讨论与逐字稿",
+          "url": "https://mikereinold.com/does-in-season-training-with-bfr-improve-strength-or-performance/"
+        },
+        {
+          "label": "论文题录",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41909991/"
+        }
+      ]
+    },
+    {
+      "id": "distance-context",
+      "candidate_id": "d3dc072045af",
+      "domain": "运动科学",
+      "channel": "作者博客",
+      "author": "Martin Buchheit",
+      "date": "2026-10-12",
+      "kind": "专家观点",
+      "priority": "值得了解",
+      "title": "比赛跑动距离，应与战术情境一起解读",
+      "what": "围绕皇家马德里的跑动距离讨论，Buchheit指出，比赛跑动受到战术、比赛进程与角色任务影响；比赛需求与运动员具备的能力应分别测量。",
+      "takeaway": "在队伍报表中并列呈现总距离、比赛情境与独立体能测试，解释运动员完成了什么任务，以及这些任务占其能力的多大比例。",
+      "confidence": "中",
+      "basis": "作者公开观点，价值在于报表解读框架。",
+      "sources": [
+        {
+          "label": "作者原文",
+          "url": "https://martin-buchheit.net/2026/10/12/le-concept-na-pas-de-sens-pourquoi-les-kilometres-parcourus-sont-un-mauvais-indicateur-pour-evaluer-la-performance-ou-la-forme-physique/"
+        }
+      ]
+    },
+    {
+      "id": "mollick-workflow",
+      "browser_post_id": "x-mollick-2110447059086229670",
+      "domain": "AI",
+      "channel": "X",
+      "author": "Ethan Mollick",
+      "date": "2026-10-15",
+      "kind": "专家观点",
+      "priority": "值得了解",
+      "title": "让现有工作流持续受益于更强的模型",
+      "what": "Mollick在原帖中提出，模型能力与实际采用之间的差距正在扩大，围绕当前模型局限锁定“够用”的方案，会增加后续利用更强模型的成本。帖子及可见回复已在浏览器中读取。",
+      "takeaway": "为常用工作流保留一组可重复的小任务。更换模型时比较交付质量、人工修改量与用时，决定哪些步骤值得重新设计。",
+      "confidence": "中",
+      "basis": "原帖已读；这里收录的是实践观点。",
+      "sources": [
+        {
+          "label": "X 原帖",
+          "url": "https://x.com/emollick/status/2110447059086229670"
+        }
+      ]
+    },
+    {
+      "id": "voice-building",
+      "candidate_id": "6cb53bbd6b72",
+      "domain": "AI",
+      "channel": "作者博客",
+      "author": "Simon Willison",
+      "date": "2026-10-09",
+      "kind": "实际使用案例",
+      "priority": "值得了解",
+      "title": "用语音推进开发，用可见预览校准结果",
+      "what": "Willison记录了用语音为博客制作通讯归档页的过程：边讨论边运行本地预览，完成主体后，再用键盘处理导入方式与页面细节。",
+      "takeaway": "适合尝试在已有项目中，先启动可见预览，再用语音组织需求和反馈，把零散想法转成可检查的页面。",
+      "confidence": "高",
+      "basis": "作者公开记录了实现过程、预览与代码链接。",
+      "sources": [
+        {
+          "label": "过程与代码入口",
+          "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+        }
+      ]
+    },
+    {
+      "id": "review-convergence",
+      "candidate_id": "3bc592cc5b68",
+      "domain": "AI",
+      "channel": "作者发现＋团队原文",
+      "author": "Simon Willison／Claude Code 团队",
+      "date": "2026-10-16",
+      "kind": "补充解读",
+      "priority": "重点关注",
+      "title": "Agent 审查也要收敛：把反复返工变成明确规则",
+      "what": "Claude Code团队披露，曾有一个PR经历50多轮夜间审查；回查发现，约59%的反复问题涉及首轮就已存在的代码。团队随后引入轮次上限、后续只审变更、同类问题一起修正等做法。",
+      "takeaway": "为编码工作流约定完整审查与后续复查的触发条件，将复查聚焦于新增变更、实际失败和未解决的问题。",
+      "context": "10月18日简报已报道 Code Review 正式开放；本条补充团队如何控制审查循环的实践细节。",
+      "confidence": "高",
+      "basis": "已追溯到10月15日发布的团队原文。",
+      "previous_briefs": [
+        "2026-10-18"
+      ],
+      "sources": [
+        {
+          "label": "作者发现",
+          "url": "https://simonwillison.net/2026/Oct/16/code-review/"
+        },
+        {
+          "label": "团队原文",
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+        },
+        {
+          "label": "前次简报",
+          "url": "https://zekeniu.github.io/daily-professional-brief/briefs/2026-10-18/"
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "load-structure",
+      "title": "负荷结构与任务情境",
+      "authors": 2,
+      "item_ids": [
+        "rest-placement",
+        "bfr-discussion",
+        "distance-context"
+      ],
+      "summary": "Buchheit关注一周内的负荷分配与比赛需求，Reinold团队关注赛季训练课的实际剂量。共同落点是：让总量、时间分布和具体任务一起进入训练讨论。"
+    },
+    {
+      "id": "ai-workflows",
+      "title": "从模型能力到可维护的工作流",
+      "authors": 2,
+      "item_ids": [
+        "mollick-workflow",
+        "voice-building",
+        "review-convergence"
+      ],
+      "summary": "Mollick提出采用差距，Willison提供语音开发案例，并追踪团队审查流程。对实际工作而言，预览、可重复任务和审查收敛都值得加入工具使用方法。"
+    }
+  ],
+  "listening": [
+    {
+      "candidate_id": "bfd31cfa78f9",
+      "author": "Stephen Seiler（访谈嘉宾）",
+      "date": "2026-10-13",
+      "title": "VO₂max训练如何融入完整训练计划",
+      "description": "节目以真实训练案例讨论VO₂max间歇与持续训练，列入收听清单。",
+      "evidence": "公开节目简介",
+      "url": "https://choosethehardway.libsyn.com/dr-stephen-seiler-how-to-train-vo2-max-beyond-huberman-attia-how-to-get-started-keep-going-case-study-with-shannon-jones"
+    }
+  ],
+  "baseline_note": "本轮主题由已核查内容归纳。首轮保留为基线，后续可比较同一来源集合中的新增话题、独立作者与持续天数。",
+  "run_verdict": "混合路线已跑通：订阅源发现内容，浏览器补足X原帖。后续最值得优化的是作者的实际发布渠道，以及对高频作者小版本更新的筛选。",
+  "triage": [
+    {
+      "candidate_id": "768169fbc557",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "d221188525e6",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "60deb4eddb49",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "7cd81fdcb0be",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "ab13e5c2646b",
+      "decision": "already_reported",
+      "reason": "原研究已在历史简报收录"
+    },
+    {
+      "candidate_id": "3bc592cc5b68",
+      "decision": "selected",
+      "reason": "有可核查的新内容或具体实践价值"
+    },
+    {
+      "candidate_id": "f63d7248b240",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "e58311dcd137",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "b734a6066c59",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "3e6e644f1b2b",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "154a39176d88",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "7e289d45dfc4",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "6451d923eed6",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "bfd31cfa78f9",
+      "decision": "listening",
+      "reason": "访谈简介可读，列入收听清单"
+    },
+    {
+      "candidate_id": "1ce341749cd1",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "e6734b2c1107",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "5ca8d6f055cb",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "d3dc072045af",
+      "decision": "selected",
+      "reason": "有可核查的新内容或具体实践价值"
+    },
+    {
+      "candidate_id": "e8d8f43511a9",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "97e3cba45007",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "993bc19082d2",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "79fb31c20981",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "7291bd8b1295",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "d3612ff459da",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "b0ebeed71849",
+      "decision": "selected",
+      "reason": "有可核查的新内容或具体实践价值"
+    },
+    {
+      "candidate_id": "51b622727300",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "7e720aeda47f",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "39e6bd368c40",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "6cb53bbd6b72",
+      "decision": "selected",
+      "reason": "有可核查的新内容或具体实践价值"
+    },
+    {
+      "candidate_id": "f5034dade94e",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "f37003b32e19",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "3618833fba59",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "78ecce3eb8d5",
+      "decision": "selected",
+      "reason": "有可核查的新内容或具体实践价值"
+    },
+    {
+      "candidate_id": "6218fed10e32",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    },
+    {
+      "candidate_id": "fdc864340b44",
+      "decision": "not_selected",
+      "reason": "个人演示、工具小更新或本轮优先级较低，保留原始入口"
+    }
+  ]
+}

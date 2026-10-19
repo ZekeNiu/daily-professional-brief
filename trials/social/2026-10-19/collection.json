@@ -1,0 +1,1444 @@
+{
+  "version": 1,
+  "generated_at": "2026-10-19T05:41:31.818094+00:00",
+  "window_start": "2026-10-05T05:32:14+00:00",
+  "as_of": "2026-10-19T05:32:14+00:00",
+  "summary": {
+    "authors_total": 24,
+    "homepages_read": 22,
+    "feeds_read": 16,
+    "candidates": 35,
+    "published_date_candidates": 35,
+    "already_reported": 1,
+    "authors_with_recent_candidates": 4
+  },
+  "authors": [
+    {
+      "id": "martin-buchheit",
+      "name": "Martin Buchheit",
+      "domain": "运动科学",
+      "homepage": "https://martin-buchheit.net/",
+      "focus": "训练负荷、测试与足球体能",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://martin-buchheit.net/feed/",
+      "social_links": [
+        "https://twitter.com/mart1buch"
+      ],
+      "attempts": [
+        {
+          "url": "https://martin-buchheit.net/",
+          "status": "ok"
+        },
+        {
+          "url": "https://martin-buchheit.net/feed/",
+          "status": "feed_ok",
+          "entries": 10
+        }
+      ],
+      "resolved_homepage": "https://martin-buchheit.net/",
+      "page_title": "Martin Buchheit - Martin Buchheit",
+      "parsed_items": 10,
+      "latest_visible_item_at": "2026-10-17T07:35:53+00:00",
+      "elapsed_seconds": 4.46,
+      "recent_item_ids": [
+        "ab13e5c2646b",
+        "d3dc072045af",
+        "b0ebeed71849"
+      ]
+    },
+    {
+      "id": "asker-jeukendrup",
+      "name": "Asker Jeukendrup",
+      "domain": "运动科学",
+      "homepage": "https://www.mysportscience.com/",
+      "focus": "运动营养",
+      "author_filter": "Asker",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://www.mysportscience.com/blog-feed.xml",
+      "social_links": [
+        "https://www.twitter.com/jeukendrup"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.mysportscience.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.mysportscience.com/blog-feed.xml",
+          "status": "feed_ok",
+          "entries": 20
+        }
+      ],
+      "resolved_homepage": "https://www.mysportscience.com/",
+      "page_title": "Home | Mysportscience a trusted source of information",
+      "parsed_items": 12,
+      "latest_visible_item_at": "2026-09-27T10:19:39+00:00",
+      "elapsed_seconds": 0.48,
+      "recent_item_ids": []
+    },
+    {
+      "id": "yann-le-meur",
+      "name": "Yann Le Meur",
+      "domain": "运动科学",
+      "homepage": "https://ylmsportscience.com/",
+      "focus": "训练与恢复",
+      "status": "homepage_only",
+      "homepage_read": true,
+      "feed_url": null,
+      "social_links": [],
+      "attempts": [
+        {
+          "url": "https://ylmsportscience.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://ylmsportscience.com/feed",
+          "status": "ParseError",
+          "detail": "mismatched tag: line 25, column 2"
+        },
+        {
+          "url": "https://ylmsportscience.com/feed.xml",
+          "status": "ParseError",
+          "detail": "mismatched tag: line 25, column 2"
+        }
+      ],
+      "resolved_homepage": "https://ylmsportscience.com/",
+      "page_title": "Private Site",
+      "parsed_items": 0,
+      "latest_visible_item_at": null,
+      "elapsed_seconds": 1.29,
+      "recent_item_ids": []
+    },
+    {
+      "id": "stephen-seiler",
+      "name": "Stephen Seiler",
+      "domain": "运动科学",
+      "homepage": "https://feeds.libsyn.com/139580/website",
+      "focus": "耐力训练与强度分布",
+      "author_filter": "Seiler",
+      "relation": "访谈嘉宾",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://rss.libsyn.com/shows/139580/destinations/872954.xml",
+      "social_links": [
+        "http://twitter.com/@hardwaypod"
+      ],
+      "attempts": [
+        {
+          "url": "https://feeds.libsyn.com/139580/website",
+          "status": "ok"
+        },
+        {
+          "url": "https://feeds.libsyn.com/139580/rss",
+          "status": "feed_ok",
+          "entries": 151
+        }
+      ],
+      "resolved_homepage": "https://feeds.libsyn.com/139580/website",
+      "page_title": "Choose the Hard Way",
+      "parsed_items": 2,
+      "latest_visible_item_at": "2026-10-13T17:04:00+00:00",
+      "elapsed_seconds": 1.02,
+      "recent_item_ids": [
+        "bfd31cfa78f9"
+      ]
+    },
+    {
+      "id": "stuart-mcmillan",
+      "name": "Stuart McMillan",
+      "domain": "运动科学",
+      "homepage": "https://altis.world/",
+      "focus": "速度、技术与教练实践",
+      "author_filter": "Stuart|McMillan",
+      "status": "homepage_only",
+      "homepage_read": true,
+      "feed_url": null,
+      "social_links": [
+        "https://twitter.com/ALTIS"
+      ],
+      "attempts": [
+        {
+          "url": "https://altis.world/",
+          "status": "ok"
+        },
+        {
+          "url": "https://altis.world/feed",
+          "status": "ParseError",
+          "detail": "not well-formed (invalid token): line 6, column 490"
+        },
+        {
+          "url": "https://altis.world/feed.xml",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "resolved_homepage": "https://altis.world/",
+      "page_title": "ALTIS - Coach Education",
+      "parsed_items": 0,
+      "latest_visible_item_at": null,
+      "elapsed_seconds": 5.1,
+      "recent_item_ids": []
+    },
+    {
+      "id": "derek-hansen",
+      "name": "Derek Hansen",
+      "domain": "运动科学",
+      "homepage": "https://www.sprintcoach.com/",
+      "focus": "冲刺、跑姿与重返运动",
+      "status": "homepage_only",
+      "homepage_read": true,
+      "feed_url": null,
+      "social_links": [
+        "https://www.twitter.com/derekmhansen"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.sprintcoach.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.sprintcoach.com/feed",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.sprintcoach.com/feed.xml",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "resolved_homepage": "https://www.sprintcoach.com/",
+      "page_title": "SprintCoach",
+      "parsed_items": 0,
+      "latest_visible_item_at": null,
+      "elapsed_seconds": 1.09,
+      "recent_item_ids": []
+    },
+    {
+      "id": "joel-jamieson",
+      "name": "Joel Jamieson",
+      "domain": "运动科学",
+      "homepage": "https://www.8weeksout.com/",
+      "focus": "能量代谢与恢复",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://8weeksout.com/feed/",
+      "social_links": [],
+      "attempts": [
+        {
+          "url": "https://www.8weeksout.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://8weeksout.com/feed/",
+          "status": "feed_ok",
+          "entries": 10
+        }
+      ],
+      "resolved_homepage": "https://8weeksout.com/",
+      "page_title": "Home - 8 Weeks Out",
+      "parsed_items": 10,
+      "latest_visible_item_at": "2023-09-07T04:34:49+00:00",
+      "elapsed_seconds": 1.03,
+      "recent_item_ids": []
+    },
+    {
+      "id": "chris-beardsley",
+      "name": "Chris Beardsley",
+      "domain": "运动科学",
+      "homepage": "https://www.patreon.com/cw/SandCResearch",
+      "focus": "力量训练机制",
+      "status": "unavailable",
+      "homepage_read": false,
+      "feed_url": null,
+      "social_links": [],
+      "attempts": [
+        {
+          "url": "https://www.patreon.com/cw/SandCResearch",
+          "status": "HTTPError",
+          "detail": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.patreon.com/feed",
+          "status": "HTTPError",
+          "detail": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.patreon.com/feed.xml",
+          "status": "HTTPError",
+          "detail": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "parsed_items": 0,
+      "latest_visible_item_at": null,
+      "elapsed_seconds": 0.11,
+      "recent_item_ids": []
+    },
+    {
+      "id": "tom-goom",
+      "name": "Tom Goom",
+      "domain": "运动健康",
+      "homepage": "https://www.running-physio.com/",
+      "focus": "跑步损伤与康复",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://www.running-physio.com/feed/",
+      "social_links": [
+        "https://twitter.com/tomgoom"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.running-physio.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.running-physio.com/feed/",
+          "status": "feed_ok",
+          "entries": 4
+        }
+      ],
+      "resolved_homepage": "https://www.running-physio.com/",
+      "page_title": "Running Injuries | RunningPhysio",
+      "parsed_items": 4,
+      "latest_visible_item_at": "2026-07-17T08:46:08+00:00",
+      "elapsed_seconds": 2.18,
+      "recent_item_ids": []
+    },
+    {
+      "id": "greg-lehman",
+      "name": "Greg Lehman",
+      "domain": "运动健康",
+      "homepage": "https://www.greglehman.ca/",
+      "focus": "疼痛、负荷与生物力学",
+      "status": "homepage_only",
+      "homepage_read": true,
+      "feed_url": null,
+      "social_links": [],
+      "attempts": [
+        {
+          "url": "https://www.greglehman.ca/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.greglehman.ca/feed",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.greglehman.ca/feed.xml",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "resolved_homepage": "https://www.greglehman.ca/",
+      "page_title": "Greg Lehman",
+      "parsed_items": 0,
+      "latest_visible_item_at": null,
+      "elapsed_seconds": 0.74,
+      "recent_item_ids": []
+    },
+    {
+      "id": "mike-reinold",
+      "name": "Mike Reinold",
+      "domain": "运动健康",
+      "homepage": "https://mikereinold.com/",
+      "focus": "运动康复与重返运动",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://mikereinold.com/feed/",
+      "social_links": [
+        "https://twitter.com/mikereinold",
+        "https://www.twitter.com/mikereinold"
+      ],
+      "attempts": [
+        {
+          "url": "https://mikereinold.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://mikereinold.com/feed/",
+          "status": "feed_ok",
+          "entries": 5
+        }
+      ],
+      "resolved_homepage": "https://mikereinold.com/",
+      "page_title": "Mike Reinold - Physical Therapy and Sports Performance Blog Instagram TikTok Facebook Twitter YouTube Expand Expand Search Toggle Menu Search Scroll to top Scroll to top Expand Expand Instagram Facebook Twitter YouTube Toggle Menu Close Search",
+      "parsed_items": 5,
+      "latest_visible_item_at": "2026-10-08T10:00:00+00:00",
+      "elapsed_seconds": 0.39,
+      "recent_item_ids": [
+        "78ecce3eb8d5"
+      ]
+    },
+    {
+      "id": "adam-meakins",
+      "name": "Adam Meakins",
+      "domain": "运动健康",
+      "homepage": "https://www.thesports.physio/",
+      "focus": "肌骨康复与临床观点",
+      "status": "homepage_only",
+      "homepage_read": true,
+      "feed_url": null,
+      "social_links": [
+        "https://x.com/AdamMeakins"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.thesports.physio/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.adammeakins.com/feed",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.adammeakins.com/feed.xml",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "resolved_homepage": "https://www.adammeakins.com/",
+      "page_title": "adammeakins.com",
+      "parsed_items": 0,
+      "latest_visible_item_at": null,
+      "elapsed_seconds": 2.0,
+      "recent_item_ids": []
+    },
+    {
+      "id": "erik-meira",
+      "name": "Erik Meira",
+      "domain": "运动健康",
+      "homepage": "https://thesciencept.com/",
+      "focus": "运动康复与批判性思维",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://thesciencept.com/feed/",
+      "social_links": [
+        "https://twitter.com/erikMeira"
+      ],
+      "attempts": [
+        {
+          "url": "https://thesciencept.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://thesciencept.com/feed/",
+          "status": "feed_ok",
+          "entries": 10
+        }
+      ],
+      "resolved_homepage": "https://thesciencept.com/",
+      "page_title": "Welcome - The Science PT",
+      "parsed_items": 10,
+      "latest_visible_item_at": "2026-04-13T21:24:45+00:00",
+      "elapsed_seconds": 0.72,
+      "recent_item_ids": []
+    },
+    {
+      "id": "mick-hughes",
+      "name": "Mick Hughes",
+      "domain": "运动健康",
+      "homepage": "https://www.mickhughes.physio/",
+      "focus": "ACL康复与重返运动",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://www.mickhughes.physio/blog-feed.xml",
+      "social_links": [
+        "http://www.twitter.com/mickwhughes"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.mickhughes.physio/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.mickhughes.physio/blog-feed.xml",
+          "status": "feed_ok",
+          "entries": 20
+        }
+      ],
+      "resolved_homepage": "https://www.mickhughes.physio/",
+      "page_title": "Mick Hughes Physiotherapy",
+      "parsed_items": 20,
+      "latest_visible_item_at": "2026-05-21T07:31:00+00:00",
+      "elapsed_seconds": 0.6,
+      "recent_item_ids": []
+    },
+    {
+      "id": "peter-malliaras",
+      "name": "Peter Malliaras",
+      "domain": "运动健康",
+      "homepage": "https://www.tendinopathyrehab.com/",
+      "focus": "肌腱与渐进负荷",
+      "status": "homepage_only",
+      "homepage_read": true,
+      "feed_url": null,
+      "social_links": [
+        "https://twitter.com/DrPeteMalliaras"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.tendinopathyrehab.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.tendinopathyrehab.com/feed",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.tendinopathyrehab.com/feed.xml",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "resolved_homepage": "https://www.tendinopathyrehab.com/",
+      "page_title": "Achilles, patellar and hamstring tendinopathy expert physio",
+      "parsed_items": 0,
+      "latest_visible_item_at": null,
+      "elapsed_seconds": 1.27,
+      "recent_item_ids": []
+    },
+    {
+      "id": "ben-cormack",
+      "name": "Ben Cormack",
+      "domain": "运动健康",
+      "homepage": "https://www.cor-kinetic.com/",
+      "focus": "疼痛与运动康复",
+      "status": "unavailable",
+      "homepage_read": false,
+      "feed_url": null,
+      "social_links": [],
+      "attempts": [
+        {
+          "url": "https://www.cor-kinetic.com/",
+          "status": "URLError",
+          "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)>"
+        },
+        {
+          "url": "https://www.cor-kinetic.com/feed",
+          "status": "URLError",
+          "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)>"
+        },
+        {
+          "url": "https://www.cor-kinetic.com/feed.xml",
+          "status": "URLError",
+          "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)>"
+        }
+      ],
+      "parsed_items": 0,
+      "latest_visible_item_at": null,
+      "elapsed_seconds": 0.41,
+      "recent_item_ids": []
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "domain": "AI",
+      "homepage": "https://simonwillison.net/",
+      "focus": "Agent、工具与工作流",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "social_links": [
+        "https://twitter.com/fofrai/status/2110043023954284889",
+        "https://twitter.com/matthew_d_green/status/2108552414978564418",
+        "https://twitter.com/sunjiao123sun_/status/2024555516551372920"
+      ],
+      "attempts": [
+        {
+          "url": "https://simonwillison.net/",
+          "status": "ok"
+        },
+        {
+          "url": "https://simonwillison.net/atom/everything/",
+          "status": "feed_ok",
+          "entries": 30
+        }
+      ],
+      "resolved_homepage": "https://simonwillison.net/",
+      "page_title": "Simon Willison’s Weblog",
+      "parsed_items": 30,
+      "latest_visible_item_at": "2026-10-18T23:43:09+00:00",
+      "elapsed_seconds": 0.8,
+      "recent_item_ids": [
+        "768169fbc557",
+        "d221188525e6",
+        "60deb4eddb49",
+        "7cd81fdcb0be",
+        "3bc592cc5b68",
+        "f63d7248b240",
+        "e58311dcd137",
+        "b734a6066c59",
+        "3e6e644f1b2b",
+        "154a39176d88",
+        "7e289d45dfc4",
+        "6451d923eed6",
+        "1ce341749cd1",
+        "e6734b2c1107",
+        "5ca8d6f055cb",
+        "e8d8f43511a9",
+        "97e3cba45007",
+        "993bc19082d2",
+        "79fb31c20981",
+        "7291bd8b1295",
+        "d3612ff459da",
+        "51b622727300",
+        "7e720aeda47f",
+        "39e6bd368c40",
+        "6cb53bbd6b72",
+        "f5034dade94e",
+        "f37003b32e19",
+        "3618833fba59",
+        "6218fed10e32",
+        "fdc864340b44"
+      ]
+    },
+    {
+      "id": "ethan-mollick",
+      "name": "Ethan Mollick",
+      "domain": "AI",
+      "homepage": "https://www.oneusefulthing.org/",
+      "focus": "AI应用与工作方式",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://www.oneusefulthing.org/feed",
+      "social_links": [],
+      "attempts": [
+        {
+          "url": "https://www.oneusefulthing.org/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.oneusefulthing.org/feed",
+          "status": "feed_ok",
+          "entries": 20
+        }
+      ],
+      "resolved_homepage": "https://www.oneusefulthing.org/",
+      "page_title": "One Useful Thing | Ethan Mollick | Substack",
+      "parsed_items": 20,
+      "latest_visible_item_at": "2026-10-01T10:54:12+00:00",
+      "elapsed_seconds": 0.42,
+      "recent_item_ids": []
+    },
+    {
+      "id": "hamel-husain",
+      "name": "Hamel Husain",
+      "domain": "AI",
+      "homepage": "https://hamel.dev/",
+      "focus": "AI评测与产品实践",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://hamel.dev/index.xml",
+      "social_links": [
+        "https://twitter.com/HamelHusain"
+      ],
+      "attempts": [
+        {
+          "url": "https://hamel.dev/",
+          "status": "ok"
+        },
+        {
+          "url": "https://hamel.dev/index.xml",
+          "status": "feed_ok",
+          "entries": 20
+        }
+      ],
+      "resolved_homepage": "https://hamel.dev/",
+      "page_title": "Hamel Husain’s Blog – Hamel's Blog",
+      "parsed_items": 20,
+      "latest_visible_item_at": "2026-09-30T07:00:00+00:00",
+      "elapsed_seconds": 0.66,
+      "recent_item_ids": []
+    },
+    {
+      "id": "eugene-yan",
+      "name": "Eugene Yan",
+      "domain": "AI",
+      "homepage": "https://eugeneyan.com/",
+      "focus": "AI工程与评测",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://eugeneyan.com/rss/",
+      "social_links": [
+        "https://twitter.com/eugeneyan"
+      ],
+      "attempts": [
+        {
+          "url": "https://eugeneyan.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://eugeneyan.com/rss/",
+          "status": "feed_ok",
+          "entries": 212
+        }
+      ],
+      "resolved_homepage": "https://eugeneyan.com/",
+      "page_title": "Eugene Yan",
+      "parsed_items": 212,
+      "latest_visible_item_at": "2026-06-21T00:00:00+00:00",
+      "elapsed_seconds": 0.3,
+      "recent_item_ids": []
+    },
+    {
+      "id": "chip-huyen",
+      "name": "Chip Huyen",
+      "domain": "AI",
+      "homepage": "https://huyenchip.com/",
+      "focus": "AI工程与模型应用",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://huyenchip.com/feed.xml",
+      "social_links": [
+        "https://twitter.com/chipro"
+      ],
+      "attempts": [
+        {
+          "url": "https://huyenchip.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://huyenchip.com/feed.xml",
+          "status": "feed_ok",
+          "entries": 10
+        }
+      ],
+      "resolved_homepage": "https://huyenchip.com/",
+      "page_title": "Chip Huyen Chip Huyen | I work to bring AI into production. I write about AI system design. Substack logo",
+      "parsed_items": 10,
+      "latest_visible_item_at": "2025-01-16T00:00:00+00:00",
+      "elapsed_seconds": 0.58,
+      "recent_item_ids": []
+    },
+    {
+      "id": "lilian-weng",
+      "name": "Lilian Weng",
+      "domain": "AI",
+      "homepage": "https://lilianweng.github.io/",
+      "focus": "模型方法与研究",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://lilianweng.github.io/index.xml",
+      "social_links": [
+        "https://twitter.com/lilianweng/"
+      ],
+      "attempts": [
+        {
+          "url": "https://lilianweng.github.io/",
+          "status": "ok"
+        },
+        {
+          "url": "https://lilianweng.github.io/index.xml",
+          "status": "feed_ok",
+          "entries": 53
+        }
+      ],
+      "resolved_homepage": "https://lilianweng.github.io/",
+      "page_title": "Lil'Log",
+      "parsed_items": 53,
+      "latest_visible_item_at": "2026-07-04T00:00:00+00:00",
+      "elapsed_seconds": 0.14,
+      "recent_item_ids": []
+    },
+    {
+      "id": "sebastian-raschka",
+      "name": "Sebastian Raschka",
+      "domain": "AI",
+      "homepage": "https://magazine.sebastianraschka.com/",
+      "focus": "模型研究与工程",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://magazine.sebastianraschka.com/feed",
+      "social_links": [],
+      "attempts": [
+        {
+          "url": "https://magazine.sebastianraschka.com/",
+          "status": "ok"
+        },
+        {
+          "url": "https://magazine.sebastianraschka.com/feed",
+          "status": "feed_ok",
+          "entries": 20
+        }
+      ],
+      "resolved_homepage": "https://magazine.sebastianraschka.com/",
+      "page_title": "Ahead of AI | Sebastian Raschka, PhD | Substack",
+      "parsed_items": 20,
+      "latest_visible_item_at": "2026-09-29T10:50:25+00:00",
+      "elapsed_seconds": 0.32,
+      "recent_item_ids": []
+    },
+    {
+      "id": "jeremy-howard",
+      "name": "Jeremy Howard",
+      "domain": "AI",
+      "homepage": "https://www.fast.ai/",
+      "focus": "AI应用与工具",
+      "author_filter": "Jeremy|jhoward",
+      "status": "feed_ok",
+      "homepage_read": true,
+      "feed_url": "https://www.fast.ai/index.xml",
+      "social_links": [
+        "https://twitter.com/fastdotai"
+      ],
+      "attempts": [
+        {
+          "url": "https://www.fast.ai/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.fast.ai/index.xml",
+          "status": "feed_ok",
+          "entries": 20
+        }
+      ],
+      "resolved_homepage": "https://www.fast.ai/",
+      "page_title": "fast.ai—Making neural nets uncool again – fast.ai",
+      "parsed_items": 10,
+      "latest_visible_item_at": "2025-10-29T14:00:00+00:00",
+      "elapsed_seconds": 0.42,
+      "recent_item_ids": []
+    }
+  ],
+  "candidates": [
+    {
+      "title": "llm-tools-datasette 0.1.1",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+      "published_at": "2026-10-18T23:43:09+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "768169fbc557",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+      "published_at": "2026-10-18T23:16:16+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "d221188525e6",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Inline rendering with document​.currentScript",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+      "published_at": "2026-10-17T21:11:12+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "60deb4eddb49",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "web-edit 0.1a2",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit",
+      "published_at": "2026-10-17T13:16:49+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "7cd81fdcb0be",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Environmental associations with heart-rate responses during field-based submaximal fitness testing in female football players: an exploratory multi-centre study",
+      "url": "https://martin-buchheit.net/2026/10/17/environmental-associations-with-heart-rate-responses-during-field-based-submaximal-fitness-testing-in-female-football-players-an-exploratory-multi-centre-study",
+      "published_at": "2026-10-17T07:35:53+00:00",
+      "date_kind": "published",
+      "byline": "Martin Buchheit",
+      "dois": [
+        "10.1080/24733938.2026.2747385"
+      ],
+      "date_verified": true,
+      "domain": "运动科学",
+      "author_id": "martin-buchheit",
+      "source_author": "Martin Buchheit",
+      "feed_url": "https://martin-buchheit.net/feed/",
+      "previous_briefs": [
+        "2026-10-18"
+      ],
+      "id": "ab13e5c2646b",
+      "observed_authors": [
+        "Martin Buchheit"
+      ]
+    },
+    {
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review",
+      "published_at": "2026-10-16T22:06:37+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "3bc592cc5b68",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Chirp Pong",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong",
+      "published_at": "2026-10-15T19:47:52+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "f63d7248b240",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors",
+      "published_at": "2026-10-15T13:04:03+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "e58311dcd137",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "LaTeX renderer",
+      "url": "https://simonwillison.net/2026/Oct/15/latex",
+      "published_at": "2026-10-15T02:07:28+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "b734a6066c59",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator",
+      "published_at": "2026-10-14T21:23:01+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "3e6e644f1b2b",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games",
+      "published_at": "2026-10-14T16:26:53+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "154a39176d88",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+      "published_at": "2026-10-13T23:00:06+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "7e289d45dfc4",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "llm-gemini 0.35",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini",
+      "published_at": "2026-10-13T22:28:54+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "6451d923eed6",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Dr. Stephen Seiler - How to Train VO2max - Beyond Huberman & Attia, how to get started & keep going - Case Study with Shannon Jones",
+      "url": "https://choosethehardway.libsyn.com/dr-stephen-seiler-how-to-train-vo2-max-beyond-huberman-attia-how-to-get-started-keep-going-case-study-with-shannon-jones",
+      "published_at": "2026-10-13T17:04:00+00:00",
+      "date_kind": "published",
+      "byline": "CHOOSE THE HARD WAY™ is a trademark of Big Truck LLC. All rights reserved.",
+      "dois": [],
+      "date_verified": true,
+      "domain": "运动科学",
+      "author_id": "stephen-seiler",
+      "source_author": "Stephen Seiler",
+      "feed_url": "https://rss.libsyn.com/shows/139580/destinations/872954.xml",
+      "previous_briefs": [],
+      "id": "bfd31cfa78f9",
+      "observed_authors": [
+        "Stephen Seiler"
+      ]
+    },
+    {
+      "title": "Quoting Geoffrey Huntley",
+      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley",
+      "published_at": "2026-10-13T13:32:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "1ce341749cd1",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "web-edit 0.1a1",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit",
+      "published_at": "2026-10-13T01:40:05+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "e6734b2c1107",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "llm-meta-ai 0.2",
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai",
+      "published_at": "2026-10-12T23:58:46+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "5ca8d6f055cb",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "« Le concept n’a pas de sens » : pourquoi les kilomètres parcourus sont un mauvais indicateur pour évaluer la performance ou la forme physique",
+      "url": "https://martin-buchheit.net/2026/10/12/le-concept-na-pas-de-sens-pourquoi-les-kilometres-parcourus-sont-un-mauvais-indicateur-pour-evaluer-la-performance-ou-la-forme-physique",
+      "published_at": "2026-10-12T19:16:21+00:00",
+      "date_kind": "published",
+      "byline": "Martin Buchheit",
+      "dois": [],
+      "date_verified": true,
+      "domain": "运动科学",
+      "author_id": "martin-buchheit",
+      "source_author": "Martin Buchheit",
+      "feed_url": "https://martin-buchheit.net/feed/",
+      "previous_briefs": [],
+      "id": "d3dc072045af",
+      "observed_authors": [
+        "Martin Buchheit"
+      ]
+    },
+    {
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15",
+      "published_at": "2026-10-12T18:15:38+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "e8d8f43511a9",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling",
+      "published_at": "2026-10-12T16:58:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "97e3cba45007",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "web-edit 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit",
+      "published_at": "2026-10-12T15:54:36+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "993bc19082d2",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "datasette-ports 0.4",
+      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports",
+      "published_at": "2026-10-12T04:57:07+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "79fb31c20981",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress",
+      "published_at": "2026-10-11T00:52:37+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "7291bd8b1295",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "url": "https://simonwillison.net/2026/Oct/10/python-actions",
+      "published_at": "2026-10-10T23:58:04+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "d3612ff459da",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Post-match rest day placement and the shape of the week: external load distribution and injury occurrence in two elite football teams.",
+      "url": "https://martin-buchheit.net/2026/10/10/post-match-rest-day-placement-and-the-shape-of-the-week-external-load-distribution-and-injury-occurrence-in-two-elite-football-teams",
+      "published_at": "2026-10-10T12:59:17+00:00",
+      "date_kind": "published",
+      "byline": "Martin Buchheit",
+      "dois": [],
+      "date_verified": true,
+      "domain": "运动科学",
+      "author_id": "martin-buchheit",
+      "source_author": "Martin Buchheit",
+      "feed_url": "https://martin-buchheit.net/feed/",
+      "previous_briefs": [],
+      "id": "b0ebeed71849",
+      "observed_authors": [
+        "Martin Buchheit"
+      ]
+    },
+    {
+      "title": "Quoting The New York Times",
+      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times",
+      "published_at": "2026-10-10T02:04:12+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "51b622727300",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Deno is joining Cloudflare",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare",
+      "published_at": "2026-10-09T22:48:37+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "7e720aeda47f",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green",
+      "published_at": "2026-10-09T15:02:29+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "39e6bd368c40",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "A new feature for my blog, built using my voice",
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice",
+      "published_at": "2026-10-09T12:54:06+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "6cb53bbd6b72",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "ttok 1.0",
+      "url": "https://simonwillison.net/2026/Oct/9/ttok",
+      "published_at": "2026-10-09T00:34:43+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "f5034dade94e",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "ttok 0.4",
+      "url": "https://simonwillison.net/2026/Oct/8/ttok",
+      "published_at": "2026-10-08T23:34:28+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "f37003b32e19",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Quoting Carson Gross",
+      "url": "https://simonwillison.net/2026/Oct/8/carson-gross",
+      "published_at": "2026-10-08T21:05:44+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "3618833fba59",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Does In-Season Training with BFR Improve Strength or Performance?",
+      "url": "https://mikereinold.com/does-in-season-training-with-bfr-improve-strength-or-performance",
+      "published_at": "2026-10-08T10:00:00+00:00",
+      "date_kind": "published",
+      "byline": "Mike Reinold",
+      "dois": [],
+      "date_verified": true,
+      "domain": "运动健康",
+      "author_id": "mike-reinold",
+      "source_author": "Mike Reinold",
+      "feed_url": "https://mikereinold.com/feed/",
+      "previous_briefs": [],
+      "id": "78ecce3eb8d5",
+      "observed_authors": [
+        "Mike Reinold"
+      ]
+    },
+    {
+      "title": "Quoting Ben Affleck",
+      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck",
+      "published_at": "2026-10-07T23:14:58+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "6218fed10e32",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
+      "published_at": "2026-10-07T20:56:21+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "previous_briefs": [],
+      "id": "fdc864340b44",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    }
+  ]
+}
