@@ -6,6 +6,7 @@
  const visible=()=>all('#sections .card:not(.hidden)');
  const change=async c=>{$('.channel-tabs [data-channel="'+c+'"]').click();await wait(()=>document.body.dataset.channel===c&&window.__briefReady)};
  try{
+  document.documentElement.style.scrollBehavior='auto';
   await wait(()=>window.__briefReady);
   const path=location.pathname;
   if(path.includes('archive.html')){
@@ -52,6 +53,7 @@
   }
   check(document.documentElement.scrollWidth<=innerWidth,'page horizontal overflow');
   for(const e of all('.channel-tabs a')){const r=e.getBoundingClientRect();check(r.left>=0&&r.right<=innerWidth,'channel navigation within viewport')}
+  await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));
   document.body.dataset.qa='pass';
  }catch(e){document.body.dataset.qa='fail';document.body.dataset.qaError=e.message;console.error(e)}
 })();

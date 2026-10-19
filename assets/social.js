@@ -2,6 +2,7 @@
 (() => {
   const $=(s,c=document)=>c.querySelector(s);
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let viewVersion=0;
   const domainOrder=['运动科学','运动健康','AI'];
   async function json(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);return r.json()}
   function trendView(data){
@@ -53,10 +54,11 @@
     $('#sourceSearch').addEventListener('input',render);$('#sourceDomain').addEventListener('change',render);render();
   }
   window.BriefSocial={async render(d,root){
+    const version=++viewVersion;
     // Replace nodes to release view-specific event listeners on channel switches.
     for(const id of ['trends','sources']){const old=$('#'+id),fresh=old.cloneNode(false);old.replaceWith(fresh)}
     const results=await Promise.allSettled([json(root+'/'+d.trends_url),json(root+'/data/social/sources.json')]);
-    if(document.body.dataset.channel!=='social')return;
+    if(version!==viewVersion||document.body.dataset.channel!=='social')return;
     if(results[0].status==='fulfilled')trendView(results[0].value);else $('#trends').innerHTML='<div class="panel empty">近期趋势暂未载入，请刷新后重试。</div>';
     if(results[1].status==='fulfilled')sourceView(results[1].value);else $('#sources').innerHTML='<div class="panel empty">来源清单暂未载入，请刷新后重试。</div>';
   }};
