@@ -53,7 +53,7 @@
   }
   check(document.documentElement.scrollWidth<=innerWidth,'page horizontal overflow');
   for(const e of all('.channel-tabs a')){const r=e.getBoundingClientRect();check(r.left>=0&&r.right<=innerWidth,'channel navigation within viewport')}
-  await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));
+  await new Promise(r=>setTimeout(r,150));
   document.body.dataset.qa='pass';
  }catch(e){document.body.dataset.qa='fail';document.body.dataset.qaError=e.message;console.error(e)}
 })();
