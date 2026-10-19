@@ -63,6 +63,8 @@ class Discovery(HTMLParser):
                 self.feeds.append(a['href'])
         if tag == 'a' and a.get('href'):
             u = urllib.parse.urlsplit(a['href'])
+            if re.search(r'/(?:rss|feed)(?:\.xml)?/?$', u.path, re.I) or 'format=rss' in u.query:
+                self.feeds.append(a['href'])
             if (u.hostname or '').lower() in {'x.com', 'www.x.com', 'twitter.com', 'www.twitter.com', 'bsky.app'}:
                 self.social.append(a['href'])
         if tag == 'title':
@@ -82,9 +84,9 @@ def request(url: str, timeout: int) -> tuple[str, str]:
         raise ValueError('Only public HTTPS source URLs are supported')
     req = urllib.request.Request(url, headers={'User-Agent': 'DailyProfessionalBrief-SourceTrial/1.0', 'Accept': 'application/atom+xml,application/rss+xml,application/xml,text/xml,text/html;q=0.8', 'Accept-Encoding': 'identity'})
     with urllib.request.urlopen(req, timeout=timeout) as response:
-        body = response.read(2_000_001)
-        if len(body) > 2_000_000:
-            raise ValueError('Source response exceeds 2 MB')
+        body = response.read(8_000_001)
+        if len(body) > 8_000_000:
+            raise ValueError('Source response exceeds 8 MB')
         return body.decode(response.headers.get_content_charset() or 'utf-8', errors='replace'), response.url
 
 
@@ -145,6 +147,8 @@ def collect_author(author: dict, cfg: dict) -> dict:
         result['page_title'] = plain(' '.join(discovery.title))
         result['social_links'] = sorted(set(discovery.social))[:6]
         candidates = [urllib.parse.urljoin(resolved, u) for u in discovery.feeds]
+        # Some publishers still advertise HTTP feed URLs but serve the same URL over HTTPS.
+        candidates = [('https:' + u[5:]) if u.startswith('http:') else u for u in candidates]
         # A homepage may itself be a feed (e.g. a publisher feed URL).
         try:
             direct = parse_feed(body, resolved)
