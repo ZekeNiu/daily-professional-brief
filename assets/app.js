@@ -54,15 +54,17 @@ function renderBrief(d){
  let idx=0;
  $('#sections').innerHTML=defs.map(([id,domain,num,note])=>{
    const items=d.items.filter(x=>x.domain===domain);
+   const noteText=String(note||'').replace(/^本板块重点[：:]\s*/, '');
    if(!items.length)return '';
    const cards=items.map(x=>{
       idx++;
+      const supplement=typeof x.limit==='string'?x.limit.trim():'';
       const search=(x.title+' '+x.one_liner+' '+x.practice+' '+x.what+' '+x.why+' '+x.limit+' '+x.evidence).toLowerCase();
-      return '<article class="card" data-domain="'+esc(domain)+'" data-search="'+esc(search)+'"><div class="card-head" role="button" tabindex="0" aria-expanded="false" aria-controls="detail-'+idx+'"><div class="card-index">'+String(idx).padStart(2,'0')+'</div><div>'+badge(x.priority)+'<div class="card-title">'+esc(x.title)+'</div><div class="card-one">'+esc(x.one_liner)+'</div></div><div class="chev" aria-hidden="true">⌄</div></div><div class="card-detail" id="detail-'+idx+'" inert><div class="card-inner"><div class="card-pad"><div class="info-grid"><div class="info"><h4>发生了什么</h4><p>'+esc(x.what)+'</p></div><div class="info"><h4>为什么值得关注</h4><p>'+esc(x.why)+'</p></div><div class="info"><h4>对实践的意义</h4><p>'+esc(x.practice)+'</p></div><div class="info warn"><h4>关键限制 / 不要误读</h4><p>'+esc(x.limit)+'</p></div></div><div class="evidence"><span>'+esc(x.evidence)+'</span><span>置信度：'+esc(x.confidence)+'</span></div><a class="source" href="'+esc(sourceLink(x))+'" target="_blank" rel="noopener"><span>查看原始来源</span><span>↗</span></a></div></div></div></article>';
+      return '<article class="card" data-domain="'+esc(domain)+'" data-search="'+esc(search)+'"><div class="card-head" role="button" tabindex="0" aria-expanded="false" aria-controls="detail-'+idx+'"><div class="card-index">'+String(idx).padStart(2,'0')+'</div><div>'+badge(x.priority)+'<div class="card-title">'+esc(x.title)+'</div><div class="card-one">'+esc(x.one_liner)+'</div></div><div class="chev" aria-hidden="true">⌄</div></div><div class="card-detail" id="detail-'+idx+'" inert><div class="card-inner"><div class="card-pad"><div class="info-grid"><div class="info"><h4>发生了什么</h4><p>'+esc(x.what)+'</p></div><div class="info"><h4>为什么值得关注</h4><p>'+esc(x.why)+'</p></div><div class="info"><h4>对实践的意义</h4><p>'+esc(x.practice)+'</p></div>'+(supplement?'<div class="info"><h4>补充信息</h4><p>'+esc(supplement)+'</p></div>':'')+'</div><div class="evidence"><span>'+esc(x.evidence)+'</span><span>置信度：'+esc(x.confidence)+'</span></div><a class="source" href="'+esc(sourceLink(x))+'" target="_blank" rel="noopener"><span>查看原始来源</span><span>↗</span></a></div></div></div></article>';
    }).join('');
-   return '<section class="section" id="'+id+'"><div class="section-head"><span class="num">'+num+'</span><div><h2>'+domain+'</h2><p class="sub">'+esc(note||'')+'</p></div></div><div class="section-intro"><b>本板块重点：</b>'+esc(note||'')+'</div><div class="cards">'+cards+'</div></section>';
+   return '<section class="section" id="'+id+'"><div class="section-head"><span class="num">'+num+'</span><div><h2>'+domain+'</h2><p class="sub">'+esc(noteText)+'</p></div></div><div class="cards">'+cards+'</div></section>';
  }).join('');
- $('#judgmentText').innerHTML=esc(d.professional_judgment);
+ $('#judgmentText').innerHTML=Array.isArray(d.professional_judgment)?d.professional_judgment.map(esc).join('<br><br>'):esc(d.professional_judgment);
  bindBriefInteractions();
 }
 function bindBriefInteractions(){
