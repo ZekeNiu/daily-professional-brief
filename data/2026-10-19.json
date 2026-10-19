@@ -179,7 +179,8 @@
         "channel": "social",
         "direction_id": "force-workflow",
         "label": "连读社媒：原始测力数据工作流"
-      }
+      },
+      "chart_label": "训练监测与个人基线"
     },
     {
       "id": "stroke-function",
@@ -214,7 +215,8 @@
           "label": "血流限制训练综述",
           "note": "FMA-LE与6分钟步行平均增益低于常用临床重要阈值。"
         }
-      ]
+      ],
+      "chart_label": "卒中康复的步行获益"
     },
     {
       "id": "coding-workflow",
@@ -243,7 +245,8 @@
           "label": "子Agent后台运行",
           "note": "Claude Code继续调整自动模式、压缩和子任务执行方式。"
         }
-      ]
+      ],
+      "chart_label": "代码Agent工作流"
     }
   ],
   "trends_url": "data/trends/2026-10-19.json"

@@ -103,12 +103,12 @@ function restoreFolds(date){
  $$('details[data-fold]').forEach(el=>{
   const name=el.dataset.fold,key='brief-fold:'+channel+':'+name+(['daily','domain-sport','domain-health','domain-ai','domain-global'].includes(name)?':'+date:'');
   // A fresh edition always starts with its daily items available.
-  const defaults=['overview','daily','domain-sport','domain-health','domain-ai','domain-global'];
+  const defaults=['trend-map','overview','daily','domain-sport','domain-health','domain-ai','domain-global'];
   let saved=null;try{saved=localStorage.getItem(key)}catch{}
   el.open=saved===null?defaults.includes(name):saved==='open';
   el.ontoggle=()=>{try{localStorage.setItem(key,el.open?'open':'closed')}catch{}};
  });
- if(new URL(location.href).searchParams.has('direction'))$('#trendAnalysis')?.setAttribute('open','');
+ if(new URL(location.href).searchParams.has('direction'))$('#trendMap')?.setAttribute('open','');
  revealAnchor(location.hash);
 }
 function revealAnchor(hash){

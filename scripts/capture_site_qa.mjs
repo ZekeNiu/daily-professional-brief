@@ -57,7 +57,7 @@ for(const [name,width,height,path] of cases){
   }
   if(status?.qa!=='pass')throw Error('QA did not finish');
   await pause(250);
-  const metrics=await cmd('Runtime.evaluate',{expression:'JSON.stringify({scrollY,viewport:{width:innerWidth,height:innerHeight},nav:document.querySelector(".site-nav").getBoundingClientRect().toJSON(),trend:document.querySelector("#trends")?.getBoundingClientRect().toJSON(),heat:document.querySelector(".heat-scroll")?.getBoundingClientRect().toJSON(),heatScroll:document.querySelector(".heat-scroll")?.scrollWidth,daily:document.querySelector("#dailyTitle")?.getBoundingClientRect().toJSON(),firstStory:document.querySelector("#sections .card-title")?.getBoundingClientRect().toJSON()})',returnByValue:true});
+  const metrics=await cmd('Runtime.evaluate',{expression:'JSON.stringify({scrollY,viewport:{width:innerWidth,height:innerHeight},nav:document.querySelector(".site-nav").getBoundingClientRect().toJSON(),trend:document.querySelector("#trends")?.getBoundingClientRect().toJSON(),topicMap:document.querySelector(".topic-map")?.getBoundingClientRect().toJSON(),points:document.querySelectorAll(".topic-point").length,inspector:document.querySelector("#trendInspector")?.className,daily:document.querySelector("#dailyTitle")?.getBoundingClientRect().toJSON(),firstStory:document.querySelector("#sections .card-title")?.getBoundingClientRect().toJSON()})',returnByValue:true});
   await writeFile(output+'/'+name+'.json',metrics.result.value);
   const shot=await cmd('Page.captureScreenshot',{format:'png',fromSurface:true,captureBeyondViewport:false});
   await writeFile(output+'/'+name+'.png',Buffer.from(shot.data,'base64'));
