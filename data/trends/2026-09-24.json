@@ -1,0 +1,1487 @@
+{
+  "version": 2,
+  "channel": "journal",
+  "start": "2026-08-26",
+  "end": "2026-09-24",
+  "unit": "条目／收录日",
+  "date_basis": "收录日期",
+  "rows": [
+    {
+      "id": "sport-performance",
+      "label": "训练与专项表现",
+      "domain": "运动科学",
+      "source_count": 7,
+      "item_count": 7,
+      "points": [
+        {
+          "date": "2026-08-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 3,
+          "item_ids": [
+            "270ae9ef4278",
+            "7a1272dfeb6d",
+            "b5a878852926"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 4,
+          "item_ids": [
+            "e3abe4ece2ac",
+            "0bd9fae714f0",
+            "83252db5a889",
+            "4cd66e7574a3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-risk",
+      "label": "损伤风险与重返运动",
+      "domain": "运动健康",
+      "source_count": 1,
+      "item_count": 1,
+      "points": [
+        {
+          "date": "2026-08-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 1,
+          "item_ids": [
+            "9642f535ede9"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "health-rehab",
+      "label": "运动治疗与功能恢复",
+      "domain": "运动健康",
+      "source_count": 3,
+      "item_count": 3,
+      "points": [
+        {
+          "date": "2026-08-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 1,
+          "item_ids": [
+            "643ab3d87239"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 2,
+          "item_ids": [
+            "357fe7ffb297",
+            "26f1a456c1e2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-workflow",
+      "label": "Agent与工作流",
+      "domain": "AI",
+      "source_count": 2,
+      "item_count": 2,
+      "points": [
+        {
+          "date": "2026-08-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 1,
+          "item_ids": [
+            "c86beef864f4"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 1,
+          "item_ids": [
+            "f3899afd4d6a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-infra",
+      "label": "模型与开发工具",
+      "domain": "AI",
+      "source_count": 4,
+      "item_count": 4,
+      "points": [
+        {
+          "date": "2026-08-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 2,
+          "item_ids": [
+            "e3a5934e3172",
+            "0dd3bed5c7dd"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 2,
+          "item_ids": [
+            "ef1b3a4772ea",
+            "b29526b4a6c6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "global-events",
+      "label": "全球事件",
+      "domain": "全球重要事件",
+      "source_count": 1,
+      "item_count": 1,
+      "points": [
+        {
+          "date": "2026-08-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 1,
+          "item_ids": [
+            "3c0adb297ed4"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "270ae9ef4278",
+      "title": "Cluster 与 Rest Redistribution：都能更好维持动作速度，但 Cluster 并未证明明显更优",
+      "short_title": "Cluster / Rest Redistribution",
+      "one_liner": "替代组结构更能维持动作速度，但 Cluster 未证明明显优于 RR。",
+      "domain": "运动科学",
+      "url": "https://link.springer.com/article/10.1186/s40798-026-01106-w",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "sport-performance",
+      "sources": [
+        "The Effectiveness of Cluster vs. Rest-Redistribution Set Configurations to Maintain Movement Velocity During Resistance Training"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "系统综述 + Bayesian NMA"
+    },
+    {
+      "id": "7a1272dfeb6d",
+      "title": "等长力量提高，不等于跳跃表现一定提高",
+      "short_title": "等长训练与跳跃",
+      "one_liner": "提高等长力量不代表一定提高 CMJ/SJ/DJ。",
+      "domain": "运动科学",
+      "url": "https://link.springer.com/article/10.1186/s13102-026-02079-9",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Isometric training, conditioning and testing in relation to jump performance: a systematic review"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "系统综述"
+    },
+    {
+      "id": "b5a878852926",
+      "title": "伤病预测模型：ROC-AUC 0.756 仍可能完全不适合实际部署",
+      "short_title": "伤病预测 ML",
+      "one_liner": "ROC-AUC≈0.76 仍可伴随大量误报。",
+      "domain": "运动科学",
+      "url": "https://link.springer.com/article/10.1186/s13102-026-02109-6",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Leakage-conscious machine learning for supplied injury-risk label classification and longitudinal injury forecasting"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "同行评议方法学研究"
+    },
+    {
+      "id": "9642f535ede9",
+      "title": "女子足球：季前等速力量测试的独立伤病预测价值有限",
+      "short_title": "女足等速力量筛查",
+      "one_liner": "季前等速力量对未来非接触损伤的独立预测价值有限。",
+      "domain": "运动健康",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42762159/",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "health-risk",
+      "sources": [
+        "Limited predictive value of preseason isokinetic strength testing for noncontact lower extremity injuries in elite female football players"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "5 年前瞻性队列（Level II）"
+    },
+    {
+      "id": "643ab3d87239",
+      "title": "腘绳肌 RTP：MRI 仍异常，不代表运动员没有准备好",
+      "short_title": "腘绳肌 RTP 影像",
+      "one_liner": "MRI 残余异常不等于不能 RTP。",
+      "domain": "运动健康",
+      "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1924906/full",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "health-rehab",
+      "sources": [
+        "Residual imaging abnormalities after acute hamstring strain injury: implications for return-to-sport decision-making"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "同行评议 Mini Review"
+    },
+    {
+      "id": "e3a5934e3172",
+      "title": "GPT-6 Sol / Luna：前沿能力继续下沉到更低成本层",
+      "short_title": "GPT-6 Sol / Luna",
+      "one_liner": "GPT-6 Sol 与 Luna 的 API 价格分别低至 $2/$10 与 $0.10/$0.50（输入/输出，每百万 tokens）。",
+      "domain": "AI",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "ai-infra",
+      "sources": [
+        "OpenAI API — GPT-6 Sol / GPT-6 Luna"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "OpenAI 官方"
+    },
+    {
+      "id": "c86beef864f4",
+      "title": "Prompt Caching：上下文复用开始成为 Agent 基础设施",
+      "short_title": "Prompt Caching",
+      "one_liner": "缓存复用可显著降低重复上下文的成本与延迟。",
+      "domain": "AI",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "ai-workflow",
+      "sources": [
+        "OpenAI API — Prompt caching"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "OpenAI 官方文档"
+    },
+    {
+      "id": "0dd3bed5c7dd",
+      "title": "Claude Opus 5.5：长任务能力、安全边界和成本进入同一评价框架",
+      "short_title": "Claude Opus 5.5",
+      "one_liner": "Anthropic 同时强调长任务表现、运行成本与外部安全评估。",
+      "domain": "AI",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "ai-infra",
+      "sources": [
+        "Claude Opus 5.5"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "Anthropic 官方 + 外部评估披露"
+    },
+    {
+      "id": "3c0adb297ed4",
+      "title": "习近平 9 月 23–25 日对美国进行国事访问",
+      "short_title": "中美元首会晤",
+      "one_liner": "中国外交部确认习近平于 9 月 23–25 日访美。",
+      "domain": "全球重要事件",
+      "url": "https://www.mfa.gov.cn/eng/xw/wsrc/202609/t20260921_12027514.html",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "global-events",
+      "sources": [
+        "Xi Jinping to Pay a State Visit to the United States"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "中国外交部 + Reuters"
+    },
+    {
+      "id": "e3abe4ece2ac",
+      "title": "训练负荷必须相对个人常态解释：女足数据提示异常高负荷会压低次日状态与速度",
+      "short_title": "女足负荷与次日表现",
+      "one_liner": "同样的外部负荷，对不同运动员的意义取决于它偏离个人常态多少。",
+      "domain": "运动科学",
+      "url": "https://ou.edu/news/articles/2026/September/ou-researcher-examines-heavy-training-elite-soccer-athletes",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "sport-performance",
+      "sources": [
+        "OU researcher examines how heavy training affects elite soccer athletes"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "精英女子足球纵向监控研究；大学研究团队发布研究摘要"
+    },
+    {
+      "id": "0bd9fae714f0",
+      "title": "90–100% 1RM 深蹲：精英力量举选手在 sticking region 呈现明显髋主导",
+      "short_title": "精英力量举深蹲",
+      "one_liner": "8 名精英力量举选手的 sticking region 髋/膝力矩比超过 3:1。",
+      "domain": "运动科学",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42342242/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Squat Performance in Elite Powerlifters: Biomechanical Analyses of Maximal and Near Maximal Lifts"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "同行评议生物力学研究（n=8）"
+    },
+    {
+      "id": "83252db5a889",
+      "title": "63 项研究的三层 Meta 分析：肌酸叠加阻力训练提高力量与瘦体重，但年龄调节结果仍属探索性",
+      "short_title": "肌酸 + 阻力训练",
+      "one_liner": "RT+肌酸相较 RT 单独训练，对上下肢力量和瘦体重均显示额外收益。",
+      "domain": "运动科学",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42765482/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Resistance training combined with creatine supplementation: a three-level meta-analysis of multidimensional outcomes from strength enhancement to body composition remodeling"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "系统综述 + 三层随机效应 Meta 分析；63 项研究，n=1489"
+    },
+    {
+      "id": "4cd66e7574a3",
+      "title": "耐力训练适应大体共享，但性别差异更多出现在翻译后调控层面",
+      "short_title": "耐力训练多组学",
+      "one_liner": "大鼠多组学数据显示，雌雄共有大量训练适应，同时线粒体氧化还原与翻译后修饰存在细致性别差异。",
+      "domain": "运动科学",
+      "url": "https://www.pnnl.gov/publications/temporal-multi-omic-analysis-uncovers-sex-biased-molecular-programs-underlying",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Temporal multi-omic analysis uncovers sex-biased molecular programs underlying skeletal muscle adaptation to endurance training"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "Cell Reports 多组学动物研究"
+    },
+    {
+      "id": "357fe7ffb297",
+      "title": "ACSM 再次强调：女性运动员能量平衡应被视为健康与表现基础变量",
+      "short_title": "女性运动员能量平衡",
+      "one_liner": "高训练量叠加长期能量不足会同时牵动恢复、健康与表现，而不只是体重。",
+      "domain": "运动健康",
+      "url": "https://acsm.org/hot-topic-energy-balance-a-key-component-to-female-athlete-well-being/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "health-rehab",
+      "sources": [
+        "Energy Balance: A Key Component to Female Athlete Well-Being"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "ACSM 专家教育文章；非正式指南/共识"
+    },
+    {
+      "id": "26f1a456c1e2",
+      "title": "疲劳卧推中肩关节 ROM 会在组内漂移，女性力量举选手变化更明显",
+      "short_title": "卧推肩关节运动学",
+      "one_liner": "3×8 卧推过程中，盂肱关节三轴 ROM 均出现显著组内增加。",
+      "domain": "运动健康",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42748970/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "health-rehab",
+      "sources": [
+        "Assessing Shoulder Joint Kinematics During the Bench Press Exercise in Competitive Powerlifters With Markerless Motion Capture"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "同行评议运动学研究；n=19"
+    },
+    {
+      "id": "ef1b3a4772ea",
+      "title": "Anthropic 建实验室让 Claude 参与完整科学循环，并报告发现新的 CRISPR-like repeat enzyme system",
+      "short_title": "Claude 科学发现",
+      "one_liner": "Claude 从 DNA 数据异常识别推进到假设形成与实验验证，AI 科研开始进入闭环。",
+      "domain": "AI",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "ai-infra",
+      "sources": [
+        "Claude discovers a novel enzyme system with CRISPR-like repeats"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "Anthropic 官方研究披露 + 技术报告；早期结果"
+    },
+    {
+      "id": "b29526b4a6c6",
+      "title": "Gemini 扩展 Connected Apps：AI 助手继续从聊天界面进入跨工具执行层",
+      "short_title": "Gemini Connected Apps",
+      "one_liner": "Airtable、Linear、Adobe、Webflow、Peloton 等新连接开始滚动上线。",
+      "domain": "AI",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "ai-infra",
+      "sources": [
+        "A new wave of Connected Apps is rolling out to Gemini"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "Google 官方产品发布"
+    },
+    {
+      "id": "f3899afd4d6a",
+      "title": "OpenAI 发布模型失配事件报告框架：Agent 安全开始要求持续事件披露，而不只是发布前 benchmark",
+      "short_title": "模型失配披露",
+      "one_liner": "模型安全治理正在向类似事故响应的持续监测、调查与披露机制演进。",
+      "domain": "AI",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "ai-workflow",
+      "sources": [
+        "Our framework for reporting model misalignment"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "OpenAI 官方框架与事件披露"
+    }
+  ],
+  "total_items": 18,
+  "total_sources": 18,
+  "directions": [
+    {
+      "id": "sport-performance",
+      "domain": "运动科学",
+      "title": "训练与专项表现",
+      "change": "最近收录：耐力训练多组学",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 3,
+      "evidence": [
+        {
+          "id": "0bd9fae714f0",
+          "title": "90–100% 1RM 深蹲：精英力量举选手在 sticking region 呈现明显髋主导",
+          "short_title": "精英力量举深蹲",
+          "one_liner": "8 名精英力量举选手的 sticking region 髋/膝力矩比超过 3:1。",
+          "domain": "运动科学",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42342242/",
+          "date": "2026-09-24",
+          "edition_date": "2026-09-24",
+          "topic_id": "sport-performance",
+          "sources": [
+            "Squat Performance in Elite Powerlifters: Biomechanical Analyses of Maximal and Near Maximal Lifts"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "同行评议生物力学研究（n=8）",
+          "label": "精英力量举深蹲",
+          "note": "8 名精英力量举选手的 sticking region 髋/膝力矩比超过 3:1。"
+        },
+        {
+          "id": "83252db5a889",
+          "title": "63 项研究的三层 Meta 分析：肌酸叠加阻力训练提高力量与瘦体重，但年龄调节结果仍属探索性",
+          "short_title": "肌酸 + 阻力训练",
+          "one_liner": "RT+肌酸相较 RT 单独训练，对上下肢力量和瘦体重均显示额外收益。",
+          "domain": "运动科学",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42765482/",
+          "date": "2026-09-24",
+          "edition_date": "2026-09-24",
+          "topic_id": "sport-performance",
+          "sources": [
+            "Resistance training combined with creatine supplementation: a three-level meta-analysis of multidimensional outcomes from strength enhancement to body composition remodeling"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "系统综述 + 三层随机效应 Meta 分析；63 项研究，n=1489",
+          "label": "肌酸 + 阻力训练",
+          "note": "RT+肌酸相较 RT 单独训练，对上下肢力量和瘦体重均显示额外收益。"
+        },
+        {
+          "id": "4cd66e7574a3",
+          "title": "耐力训练适应大体共享，但性别差异更多出现在翻译后调控层面",
+          "short_title": "耐力训练多组学",
+          "one_liner": "大鼠多组学数据显示，雌雄共有大量训练适应，同时线粒体氧化还原与翻译后修饰存在细致性别差异。",
+          "domain": "运动科学",
+          "url": "https://www.pnnl.gov/publications/temporal-multi-omic-analysis-uncovers-sex-biased-molecular-programs-underlying",
+          "date": "2026-09-24",
+          "edition_date": "2026-09-24",
+          "topic_id": "sport-performance",
+          "sources": [
+            "Temporal multi-omic analysis uncovers sex-biased molecular programs underlying skeletal muscle adaptation to endurance training"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "Cell Reports 多组学动物研究",
+          "label": "耐力训练多组学",
+          "note": "大鼠多组学数据显示，雌雄共有大量训练适应，同时线粒体氧化还原与翻译后修饰存在细致性别差异。"
+        }
+      ]
+    },
+    {
+      "id": "health-rehab",
+      "domain": "运动健康",
+      "title": "运动治疗与功能恢复",
+      "change": "最近收录：卧推肩关节运动学",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 3,
+      "evidence": [
+        {
+          "id": "643ab3d87239",
+          "title": "腘绳肌 RTP：MRI 仍异常，不代表运动员没有准备好",
+          "short_title": "腘绳肌 RTP 影像",
+          "one_liner": "MRI 残余异常不等于不能 RTP。",
+          "domain": "运动健康",
+          "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1924906/full",
+          "date": "2026-09-23",
+          "edition_date": "2026-09-23",
+          "topic_id": "health-rehab",
+          "sources": [
+            "Residual imaging abnormalities after acute hamstring strain injury: implications for return-to-sport decision-making"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "同行评议 Mini Review",
+          "label": "腘绳肌 RTP 影像",
+          "note": "MRI 残余异常不等于不能 RTP。"
+        },
+        {
+          "id": "357fe7ffb297",
+          "title": "ACSM 再次强调：女性运动员能量平衡应被视为健康与表现基础变量",
+          "short_title": "女性运动员能量平衡",
+          "one_liner": "高训练量叠加长期能量不足会同时牵动恢复、健康与表现，而不只是体重。",
+          "domain": "运动健康",
+          "url": "https://acsm.org/hot-topic-energy-balance-a-key-component-to-female-athlete-well-being/",
+          "date": "2026-09-24",
+          "edition_date": "2026-09-24",
+          "topic_id": "health-rehab",
+          "sources": [
+            "Energy Balance: A Key Component to Female Athlete Well-Being"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "ACSM 专家教育文章；非正式指南/共识",
+          "label": "女性运动员能量平衡",
+          "note": "高训练量叠加长期能量不足会同时牵动恢复、健康与表现，而不只是体重。"
+        },
+        {
+          "id": "26f1a456c1e2",
+          "title": "疲劳卧推中肩关节 ROM 会在组内漂移，女性力量举选手变化更明显",
+          "short_title": "卧推肩关节运动学",
+          "one_liner": "3×8 卧推过程中，盂肱关节三轴 ROM 均出现显著组内增加。",
+          "domain": "运动健康",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42748970/",
+          "date": "2026-09-24",
+          "edition_date": "2026-09-24",
+          "topic_id": "health-rehab",
+          "sources": [
+            "Assessing Shoulder Joint Kinematics During the Bench Press Exercise in Competitive Powerlifters With Markerless Motion Capture"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "同行评议运动学研究；n=19",
+          "label": "卧推肩关节运动学",
+          "note": "3×8 卧推过程中，盂肱关节三轴 ROM 均出现显著组内增加。"
+        }
+      ]
+    },
+    {
+      "id": "ai-infra",
+      "domain": "AI",
+      "title": "模型与开发工具",
+      "change": "最近收录：Gemini Connected Apps",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 3,
+      "evidence": [
+        {
+          "id": "0dd3bed5c7dd",
+          "title": "Claude Opus 5.5：长任务能力、安全边界和成本进入同一评价框架",
+          "short_title": "Claude Opus 5.5",
+          "one_liner": "Anthropic 同时强调长任务表现、运行成本与外部安全评估。",
+          "domain": "AI",
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "date": "2026-09-23",
+          "edition_date": "2026-09-23",
+          "topic_id": "ai-infra",
+          "sources": [
+            "Claude Opus 5.5"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "Anthropic 官方 + 外部评估披露",
+          "label": "Claude Opus 5.5",
+          "note": "Anthropic 同时强调长任务表现、运行成本与外部安全评估。"
+        },
+        {
+          "id": "ef1b3a4772ea",
+          "title": "Anthropic 建实验室让 Claude 参与完整科学循环，并报告发现新的 CRISPR-like repeat enzyme system",
+          "short_title": "Claude 科学发现",
+          "one_liner": "Claude 从 DNA 数据异常识别推进到假设形成与实验验证，AI 科研开始进入闭环。",
+          "domain": "AI",
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "date": "2026-09-24",
+          "edition_date": "2026-09-24",
+          "topic_id": "ai-infra",
+          "sources": [
+            "Claude discovers a novel enzyme system with CRISPR-like repeats"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "Anthropic 官方研究披露 + 技术报告；早期结果",
+          "label": "Claude 科学发现",
+          "note": "Claude 从 DNA 数据异常识别推进到假设形成与实验验证，AI 科研开始进入闭环。"
+        },
+        {
+          "id": "b29526b4a6c6",
+          "title": "Gemini 扩展 Connected Apps：AI 助手继续从聊天界面进入跨工具执行层",
+          "short_title": "Gemini Connected Apps",
+          "one_liner": "Airtable、Linear、Adobe、Webflow、Peloton 等新连接开始滚动上线。",
+          "domain": "AI",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
+          "date": "2026-09-24",
+          "edition_date": "2026-09-24",
+          "topic_id": "ai-infra",
+          "sources": [
+            "A new wave of Connected Apps is rolling out to Gemini"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "Google 官方产品发布",
+          "label": "Gemini Connected Apps",
+          "note": "Airtable、Linear、Adobe、Webflow、Peloton 等新连接开始滚动上线。"
+        }
+      ]
+    }
+  ]
+}

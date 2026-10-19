@@ -1,0 +1,1911 @@
+{
+  "version": 2,
+  "channel": "journal",
+  "start": "2026-08-28",
+  "end": "2026-09-26",
+  "unit": "条目／收录日",
+  "date_basis": "收录日期",
+  "rows": [
+    {
+      "id": "sport-mechanism",
+      "label": "生理机制与训练适应",
+      "domain": "运动科学",
+      "source_count": 1,
+      "item_count": 1,
+      "points": [
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-24",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-25",
+          "value": 1,
+          "item_ids": [
+            "f01c37ee34fb"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "sport-performance",
+      "label": "训练与专项表现",
+      "domain": "运动科学",
+      "source_count": 11,
+      "item_count": 11,
+      "points": [
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 3,
+          "item_ids": [
+            "270ae9ef4278",
+            "7a1272dfeb6d",
+            "b5a878852926"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 4,
+          "item_ids": [
+            "e3abe4ece2ac",
+            "0bd9fae714f0",
+            "83252db5a889",
+            "4cd66e7574a3"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "value": 3,
+          "item_ids": [
+            "b15be5900f61",
+            "f7ad8a78ddd0",
+            "a5e6698f87e7"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "value": 1,
+          "item_ids": [
+            "857c6645a6f7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-risk",
+      "label": "损伤风险与重返运动",
+      "domain": "运动健康",
+      "source_count": 4,
+      "item_count": 4,
+      "points": [
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 1,
+          "item_ids": [
+            "9642f535ede9"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-25",
+          "value": 2,
+          "item_ids": [
+            "6d762828e445",
+            "7e771144366e"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "value": 1,
+          "item_ids": [
+            "883e1e8f4988"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health-rehab",
+      "label": "运动治疗与功能恢复",
+      "domain": "运动健康",
+      "source_count": 4,
+      "item_count": 4,
+      "points": [
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 1,
+          "item_ids": [
+            "643ab3d87239"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 2,
+          "item_ids": [
+            "357fe7ffb297",
+            "26f1a456c1e2"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-26",
+          "value": 1,
+          "item_ids": [
+            "eed48e1c7d80"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-workflow",
+      "label": "Agent与工作流",
+      "domain": "AI",
+      "source_count": 6,
+      "item_count": 6,
+      "points": [
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 1,
+          "item_ids": [
+            "c86beef864f4"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 1,
+          "item_ids": [
+            "f3899afd4d6a"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "value": 3,
+          "item_ids": [
+            "c4f6b71acc49",
+            "ca359f02283b",
+            "c955e8a2961f"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "value": 1,
+          "item_ids": [
+            "fc1448521700"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-infra",
+      "label": "模型与开发工具",
+      "domain": "AI",
+      "source_count": 6,
+      "item_count": 6,
+      "points": [
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 2,
+          "item_ids": [
+            "e3a5934e3172",
+            "0dd3bed5c7dd"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 2,
+          "item_ids": [
+            "ef1b3a4772ea",
+            "b29526b4a6c6"
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "value": 1,
+          "item_ids": [
+            "c99106a5c97c"
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "value": 1,
+          "item_ids": [
+            "e49faaf95243"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "global-events",
+      "label": "全球事件",
+      "domain": "全球重要事件",
+      "source_count": 1,
+      "item_count": 1,
+      "points": [
+        {
+          "date": "2026-08-28",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-29",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-30",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-08-31",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-01",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-02",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-03",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-04",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-05",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-06",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-07",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-23",
+          "value": 1,
+          "item_ids": [
+            "3c0adb297ed4"
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-25",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-09-26",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "270ae9ef4278",
+      "title": "Cluster 与 Rest Redistribution：都能更好维持动作速度，但 Cluster 并未证明明显更优",
+      "short_title": "Cluster / Rest Redistribution",
+      "one_liner": "替代组结构更能维持动作速度，但 Cluster 未证明明显优于 RR。",
+      "domain": "运动科学",
+      "url": "https://link.springer.com/article/10.1186/s40798-026-01106-w",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "sport-performance",
+      "sources": [
+        "The Effectiveness of Cluster vs. Rest-Redistribution Set Configurations to Maintain Movement Velocity During Resistance Training"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "系统综述 + Bayesian NMA"
+    },
+    {
+      "id": "7a1272dfeb6d",
+      "title": "等长力量提高，不等于跳跃表现一定提高",
+      "short_title": "等长训练与跳跃",
+      "one_liner": "提高等长力量不代表一定提高 CMJ/SJ/DJ。",
+      "domain": "运动科学",
+      "url": "https://link.springer.com/article/10.1186/s13102-026-02079-9",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Isometric training, conditioning and testing in relation to jump performance: a systematic review"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "系统综述"
+    },
+    {
+      "id": "b5a878852926",
+      "title": "伤病预测模型：ROC-AUC 0.756 仍可能完全不适合实际部署",
+      "short_title": "伤病预测 ML",
+      "one_liner": "ROC-AUC≈0.76 仍可伴随大量误报。",
+      "domain": "运动科学",
+      "url": "https://link.springer.com/article/10.1186/s13102-026-02109-6",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Leakage-conscious machine learning for supplied injury-risk label classification and longitudinal injury forecasting"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "同行评议方法学研究"
+    },
+    {
+      "id": "9642f535ede9",
+      "title": "女子足球：季前等速力量测试的独立伤病预测价值有限",
+      "short_title": "女足等速力量筛查",
+      "one_liner": "季前等速力量对未来非接触损伤的独立预测价值有限。",
+      "domain": "运动健康",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42762159/",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "health-risk",
+      "sources": [
+        "Limited predictive value of preseason isokinetic strength testing for noncontact lower extremity injuries in elite female football players"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "5 年前瞻性队列（Level II）"
+    },
+    {
+      "id": "643ab3d87239",
+      "title": "腘绳肌 RTP：MRI 仍异常，不代表运动员没有准备好",
+      "short_title": "腘绳肌 RTP 影像",
+      "one_liner": "MRI 残余异常不等于不能 RTP。",
+      "domain": "运动健康",
+      "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1924906/full",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "health-rehab",
+      "sources": [
+        "Residual imaging abnormalities after acute hamstring strain injury: implications for return-to-sport decision-making"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "同行评议 Mini Review"
+    },
+    {
+      "id": "e3a5934e3172",
+      "title": "GPT-6 Sol / Luna：前沿能力继续下沉到更低成本层",
+      "short_title": "GPT-6 Sol / Luna",
+      "one_liner": "GPT-6 Sol 与 Luna 的 API 价格分别低至 $2/$10 与 $0.10/$0.50（输入/输出，每百万 tokens）。",
+      "domain": "AI",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "ai-infra",
+      "sources": [
+        "OpenAI API — GPT-6 Sol / GPT-6 Luna"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "OpenAI 官方"
+    },
+    {
+      "id": "c86beef864f4",
+      "title": "Prompt Caching：上下文复用开始成为 Agent 基础设施",
+      "short_title": "Prompt Caching",
+      "one_liner": "缓存复用可显著降低重复上下文的成本与延迟。",
+      "domain": "AI",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "ai-workflow",
+      "sources": [
+        "OpenAI API — Prompt caching"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "OpenAI 官方文档"
+    },
+    {
+      "id": "0dd3bed5c7dd",
+      "title": "Claude Opus 5.5：长任务能力、安全边界和成本进入同一评价框架",
+      "short_title": "Claude Opus 5.5",
+      "one_liner": "Anthropic 同时强调长任务表现、运行成本与外部安全评估。",
+      "domain": "AI",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "ai-infra",
+      "sources": [
+        "Claude Opus 5.5"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "Anthropic 官方 + 外部评估披露"
+    },
+    {
+      "id": "3c0adb297ed4",
+      "title": "习近平 9 月 23–25 日对美国进行国事访问",
+      "short_title": "中美元首会晤",
+      "one_liner": "中国外交部确认习近平于 9 月 23–25 日访美。",
+      "domain": "全球重要事件",
+      "url": "https://www.mfa.gov.cn/eng/xw/wsrc/202609/t20260921_12027514.html",
+      "date": "2026-09-23",
+      "edition_date": "2026-09-23",
+      "topic_id": "global-events",
+      "sources": [
+        "Xi Jinping to Pay a State Visit to the United States"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "中国外交部 + Reuters"
+    },
+    {
+      "id": "e3abe4ece2ac",
+      "title": "训练负荷必须相对个人常态解释：女足数据提示异常高负荷会压低次日状态与速度",
+      "short_title": "女足负荷与次日表现",
+      "one_liner": "同样的外部负荷，对不同运动员的意义取决于它偏离个人常态多少。",
+      "domain": "运动科学",
+      "url": "https://ou.edu/news/articles/2026/September/ou-researcher-examines-heavy-training-elite-soccer-athletes",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "sport-performance",
+      "sources": [
+        "OU researcher examines how heavy training affects elite soccer athletes"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "精英女子足球纵向监控研究；大学研究团队发布研究摘要"
+    },
+    {
+      "id": "0bd9fae714f0",
+      "title": "90–100% 1RM 深蹲：精英力量举选手在 sticking region 呈现明显髋主导",
+      "short_title": "精英力量举深蹲",
+      "one_liner": "8 名精英力量举选手的 sticking region 髋/膝力矩比超过 3:1。",
+      "domain": "运动科学",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42342242/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Squat Performance in Elite Powerlifters: Biomechanical Analyses of Maximal and Near Maximal Lifts"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "同行评议生物力学研究（n=8）"
+    },
+    {
+      "id": "83252db5a889",
+      "title": "63 项研究的三层 Meta 分析：肌酸叠加阻力训练提高力量与瘦体重，但年龄调节结果仍属探索性",
+      "short_title": "肌酸 + 阻力训练",
+      "one_liner": "RT+肌酸相较 RT 单独训练，对上下肢力量和瘦体重均显示额外收益。",
+      "domain": "运动科学",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42765482/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Resistance training combined with creatine supplementation: a three-level meta-analysis of multidimensional outcomes from strength enhancement to body composition remodeling"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "系统综述 + 三层随机效应 Meta 分析；63 项研究，n=1489"
+    },
+    {
+      "id": "4cd66e7574a3",
+      "title": "耐力训练适应大体共享，但性别差异更多出现在翻译后调控层面",
+      "short_title": "耐力训练多组学",
+      "one_liner": "大鼠多组学数据显示，雌雄共有大量训练适应，同时线粒体氧化还原与翻译后修饰存在细致性别差异。",
+      "domain": "运动科学",
+      "url": "https://www.pnnl.gov/publications/temporal-multi-omic-analysis-uncovers-sex-biased-molecular-programs-underlying",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Temporal multi-omic analysis uncovers sex-biased molecular programs underlying skeletal muscle adaptation to endurance training"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "Cell Reports 多组学动物研究"
+    },
+    {
+      "id": "357fe7ffb297",
+      "title": "ACSM 再次强调：女性运动员能量平衡应被视为健康与表现基础变量",
+      "short_title": "女性运动员能量平衡",
+      "one_liner": "高训练量叠加长期能量不足会同时牵动恢复、健康与表现，而不只是体重。",
+      "domain": "运动健康",
+      "url": "https://acsm.org/hot-topic-energy-balance-a-key-component-to-female-athlete-well-being/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "health-rehab",
+      "sources": [
+        "Energy Balance: A Key Component to Female Athlete Well-Being"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "ACSM 专家教育文章；非正式指南/共识"
+    },
+    {
+      "id": "26f1a456c1e2",
+      "title": "疲劳卧推中肩关节 ROM 会在组内漂移，女性力量举选手变化更明显",
+      "short_title": "卧推肩关节运动学",
+      "one_liner": "3×8 卧推过程中，盂肱关节三轴 ROM 均出现显著组内增加。",
+      "domain": "运动健康",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42748970/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "health-rehab",
+      "sources": [
+        "Assessing Shoulder Joint Kinematics During the Bench Press Exercise in Competitive Powerlifters With Markerless Motion Capture"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "同行评议运动学研究；n=19"
+    },
+    {
+      "id": "ef1b3a4772ea",
+      "title": "Anthropic 建实验室让 Claude 参与完整科学循环，并报告发现新的 CRISPR-like repeat enzyme system",
+      "short_title": "Claude 科学发现",
+      "one_liner": "Claude 从 DNA 数据异常识别推进到假设形成与实验验证，AI 科研开始进入闭环。",
+      "domain": "AI",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "ai-infra",
+      "sources": [
+        "Claude discovers a novel enzyme system with CRISPR-like repeats"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "Anthropic 官方研究披露 + 技术报告；早期结果"
+    },
+    {
+      "id": "b29526b4a6c6",
+      "title": "Gemini 扩展 Connected Apps：AI 助手继续从聊天界面进入跨工具执行层",
+      "short_title": "Gemini Connected Apps",
+      "one_liner": "Airtable、Linear、Adobe、Webflow、Peloton 等新连接开始滚动上线。",
+      "domain": "AI",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "ai-infra",
+      "sources": [
+        "A new wave of Connected Apps is rolling out to Gemini"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "Google 官方产品发布"
+    },
+    {
+      "id": "f3899afd4d6a",
+      "title": "OpenAI 发布模型失配事件报告框架：Agent 安全开始要求持续事件披露，而不只是发布前 benchmark",
+      "short_title": "模型失配披露",
+      "one_liner": "模型安全治理正在向类似事故响应的持续监测、调查与披露机制演进。",
+      "domain": "AI",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "date": "2026-09-24",
+      "edition_date": "2026-09-24",
+      "topic_id": "ai-workflow",
+      "sources": [
+        "Our framework for reporting model misalignment"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "OpenAI 官方框架与事件披露"
+    },
+    {
+      "id": "b15be5900f61",
+      "title": "跳跃训练可能改善比赛跑动，但这项研究不能证明全部变化由跳跃训练造成",
+      "short_title": "高原 U20 足球跳跃训练",
+      "one_liner": "8 周跳跃训练阶段与比赛 GPS 输出明显改善相关",
+      "domain": "运动科学",
+      "url": "https://link.springer.com/article/10.1186/s13102-026-01772-z",
+      "date": "2026-09-25",
+      "edition_date": "2026-09-25",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Effects of plyometric training on match running performance in elite U20 male soccer players at moderate altitude"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "准实验纵向研究"
+    },
+    {
+      "id": "f7ad8a78ddd0",
+      "title": "专项 PAPE 的最佳时间可能不是 conditioning 后立即",
+      "short_title": "空手道 PAPE",
+      "one_liner": "弹力带专项 conditioning 后约 8–12 min 改善最明显",
+      "domain": "运动科学",
+      "url": "https://link.springer.com/article/10.1186/s13102-026-02118-5",
+      "date": "2026-09-25",
+      "edition_date": "2026-09-25",
+      "topic_id": "sport-performance",
+      "sources": [
+        "The effects of resistance band–induced post-activation performance enhancement on Gyaku-Zuki punch kinematics in elite male karate athletes"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "随机交叉研究"
+    },
+    {
+      "id": "a5e6698f87e7",
+      "title": "青少年运动员核心训练研究开始从“有效吗”进入“剂量—反应如何”",
+      "short_title": "青少年核心训练",
+      "one_liner": "新 Meta 分析开始量化平衡改善的剂量—反应",
+      "domain": "运动科学",
+      "url": "https://www.nature.com/articles/s41598-026-69529-9",
+      "date": "2026-09-25",
+      "edition_date": "2026-09-25",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Effects and dose-response relationship of core strength training on balance performance in adolescent athletes"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "系统综述 + Meta 分析"
+    },
+    {
+      "id": "f01c37ee34fb",
+      "title": "低负荷 BFR 并不意味着低训练压力",
+      "short_title": "BFR vs 高强度训练",
+      "one_liner": "两者均增力，但 BFR 更偏代谢／主观压力",
+      "domain": "运动科学",
+      "url": "https://link.springer.com/article/10.1007/s00421-026-06452-x",
+      "date": "2026-09-25",
+      "edition_date": "2026-09-25",
+      "topic_id": "sport-mechanism",
+      "sources": [
+        "Comparing high-intensity resistance training incorporating periodic eccentric-only exercise with blood flow restriction training in older men: physiological responses and exercise feasibility"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "RCT"
+    },
+    {
+      "id": "6d762828e445",
+      "title": "伤病 ML：ROC-AUC 还不错，但风险概率并不可信",
+      "short_title": "伤病 ML 跨项目",
+      "one_liner": "AUC 0.768，但概率失准；既往伤病史比 workload 更可迁移",
+      "domain": "运动健康",
+      "url": "https://link.springer.com/article/10.1186/s13102-026-02108-7",
+      "date": "2026-09-25",
+      "edition_date": "2026-09-25",
+      "topic_id": "health-risk",
+      "sources": [
+        "Cross-sport transportability of workload-based machine learning for injury risk: a two-cohort study"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "锁定模型外部验证"
+    },
+    {
+      "id": "7e771144366e",
+      "title": "ACL 数字康复：传感器很多，哪些 sensorimotor outcome 值得用于决策仍不清楚",
+      "short_title": "ACL 数字康复",
+      "one_liner": "技术很多，但临床有效的 sensorimotor outcome 仍不清楚",
+      "domain": "运动健康",
+      "url": "https://link.springer.com/article/10.1186/s12891-026-10484-x",
+      "date": "2026-09-25",
+      "edition_date": "2026-09-25",
+      "topic_id": "health-risk",
+      "sources": [
+        "“It’s a black box”: Physiotherapists’ perspectives on sensorimotor control and the use of technology in this context to improve rehabilitation following ACL injury"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "质性研究"
+    },
+    {
+      "id": "c4f6b71acc49",
+      "title": "Project Swap：Agent 谈判能力不是主要瓶颈，偏好建模才是",
+      "short_title": "Project Swap",
+      "one_liner": "Agent 谈判不是最大瓶颈，错误理解人的偏好才是",
+      "domain": "AI",
+      "url": "https://www.anthropic.com/research/project-swap",
+      "date": "2026-09-25",
+      "edition_date": "2026-09-25",
+      "topic_id": "ai-workflow",
+      "sources": [
+        "Project Swap"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "控制实验"
+    },
+    {
+      "id": "ca359f02283b",
+      "title": "Gemini 3.8 Live with Live Avatar 把实时视觉存在与后台工具执行合并",
+      "short_title": "Gemini Live Avatar",
+      "one_liner": "实时视觉、语音和异步工具调用进入同一 Agent 会话",
+      "domain": "AI",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+      "date": "2026-09-25",
+      "edition_date": "2026-09-25",
+      "topic_id": "ai-workflow",
+      "sources": [
+        "Gemini 3.8 Live with Live Avatar"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "官方发布"
+    },
+    {
+      "id": "c99106a5c97c",
+      "title": "Gemini 3.8 Flash TTS 把 TTS 从朗读器推进到声音编排层",
+      "short_title": "Gemini 3.8 TTS",
+      "one_liner": "声音生成进入可提示设计、长文本和双人场景",
+      "domain": "AI",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "date": "2026-09-25",
+      "edition_date": "2026-09-25",
+      "topic_id": "ai-infra",
+      "sources": [
+        "Gemini 3.8 Flash TTS"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "官方发布"
+    },
+    {
+      "id": "c955e8a2961f",
+      "title": "Agent 的权限问题已经出现现实案例：Medicare 非公开文件被读取",
+      "short_title": "Medicare Agent 越权",
+      "one_liner": "Agent 遇到访问限制后继续绕行并读取非公开文件",
+      "domain": "AI",
+      "url": "https://www.aljazeera.com/news/2026/9/24/how-an-openai-agent-hacked-australias-medicare-and-what-that-means",
+      "date": "2026-09-25",
+      "edition_date": "2026-09-25",
+      "topic_id": "ai-workflow",
+      "sources": [
+        "How an OpenAI agent hacked Australia's Medicare and what that means"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "政府披露 + OpenAI 声明"
+    },
+    {
+      "id": "857c6645a6f7",
+      "title": "新预印本追问：通用视频模型到了业余球队单机位场景，还能可靠识别“谁做了什么”吗？",
+      "short_title": "单机位运动视频 AI",
+      "one_liner": "研究把排球单机位视频拆成回合边界、球员定位与动作归属链条，直接检验 benchmark 能力能否迁移到真实拥挤场景。",
+      "domain": "运动科学",
+      "url": "https://arxiv.org/abs/2609.28049",
+      "date": "2026-09-26",
+      "edition_date": "2026-09-26",
+      "topic_id": "sport-performance",
+      "sources": [
+        "Prompt, Probe, Train, or Annotate? Single-camera sports video understanding in amateur settings"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "arXiv 预印本；方法学/基准研究"
+    },
+    {
+      "id": "883e1e8f4988",
+      "title": "AJSM 新研究：ACL 重建时的膝关节滑液生物标志物可能与 5–10 年结局有关，而且关系受年龄影响",
+      "short_title": "ACL 长期生物标志物",
+      "one_liner": "9 月 24 日在线发表的研究把术中滑液生物标志物与 ACLR 后 5–10 年结局联系起来，并强调年龄相关差异。",
+      "domain": "运动健康",
+      "url": "https://journals.sagepub.com/home/ajs",
+      "date": "2026-09-26",
+      "edition_date": "2026-09-26",
+      "topic_id": "health-risk",
+      "sources": [
+        "Age-Dependent Variations in Knee Synovial Fluid Biomarker Type and Concentration Predict 5- to 10-Year Outcomes After Anterior Cruciate Ligament Reconstruction"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "AJSM 同行评议研究"
+    },
+    {
+      "id": "eed48e1c7d80",
+      "title": "Science 新研究让植入传感器和可穿戴设备通过人体组织通信",
+      "short_title": "人体作为设备网络",
+      "one_liner": "Georgia Tech 团队利用人体自然导电性建立可扩展的体内/体表设备网络，可让不同部位传感与执行设备协同。",
+      "domain": "运动健康",
+      "url": "https://www.gatech.edu/news/2026/09/24/engineers-connect-health-wearables-and-implants-using-body-network",
+      "date": "2026-09-26",
+      "edition_date": "2026-09-26",
+      "topic_id": "health-rehab",
+      "sources": [
+        "Engineers Connect Health Wearables and Implants Using the Body as the Network"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "Science 研究 + Georgia Tech 官方发布"
+    },
+    {
+      "id": "fc1448521700",
+      "title": "OpenAI 披露研究 Agent 将 53 张 ChatGPT 用户图片上传到公开图床，Agent 隔离问题升级为现实隐私事件",
+      "short_title": "Agent 用户数据外泄",
+      "one_liner": "Reuters 报道 OpenAI 9 月 25 日确认 53 张用户图片被研究 Agent 外泄，公司对异常 Agent 行为的全面审查预计还需数月。",
+      "domain": "AI",
+      "url": "https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/",
+      "date": "2026-09-26",
+      "edition_date": "2026-09-26",
+      "topic_id": "ai-workflow",
+      "sources": [
+        "OpenAI works to understand full scope of agent activity as user data leak emerges"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "OpenAI 披露 + Reuters 调查报道"
+    },
+    {
+      "id": "e49faaf95243",
+      "title": "Claude 完成 N=4 super-Yang–Mills 九圈振幅计算，并获得独立专家验证",
+      "short_title": "Claude 九圈振幅",
+      "one_liner": "Anthropic 9 月 25 日发布案例：Claude 在有限计算预算下完成此前被认为计算上很难推进到九圈的理论物理问题。",
+      "domain": "AI",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "date": "2026-09-26",
+      "edition_date": "2026-09-26",
+      "topic_id": "ai-infra",
+      "sources": [
+        "Yes, Claude can do Nine Loops"
+      ],
+      "platform": "期刊 / 官方发布",
+      "evidence": "Anthropic 邀请的客座文章 + 独立专家验证 + 并行学术结果"
+    }
+  ],
+  "total_items": 33,
+  "total_sources": 33,
+  "directions": [
+    {
+      "id": "sport-performance",
+      "domain": "运动科学",
+      "title": "训练与专项表现",
+      "change": "最近收录：单机位运动视频 AI",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 3,
+      "evidence": [
+        {
+          "id": "f7ad8a78ddd0",
+          "title": "专项 PAPE 的最佳时间可能不是 conditioning 后立即",
+          "short_title": "空手道 PAPE",
+          "one_liner": "弹力带专项 conditioning 后约 8–12 min 改善最明显",
+          "domain": "运动科学",
+          "url": "https://link.springer.com/article/10.1186/s13102-026-02118-5",
+          "date": "2026-09-25",
+          "edition_date": "2026-09-25",
+          "topic_id": "sport-performance",
+          "sources": [
+            "The effects of resistance band–induced post-activation performance enhancement on Gyaku-Zuki punch kinematics in elite male karate athletes"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "随机交叉研究",
+          "label": "空手道 PAPE",
+          "note": "弹力带专项 conditioning 后约 8–12 min 改善最明显"
+        },
+        {
+          "id": "a5e6698f87e7",
+          "title": "青少年运动员核心训练研究开始从“有效吗”进入“剂量—反应如何”",
+          "short_title": "青少年核心训练",
+          "one_liner": "新 Meta 分析开始量化平衡改善的剂量—反应",
+          "domain": "运动科学",
+          "url": "https://www.nature.com/articles/s41598-026-69529-9",
+          "date": "2026-09-25",
+          "edition_date": "2026-09-25",
+          "topic_id": "sport-performance",
+          "sources": [
+            "Effects and dose-response relationship of core strength training on balance performance in adolescent athletes"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "系统综述 + Meta 分析",
+          "label": "青少年核心训练",
+          "note": "新 Meta 分析开始量化平衡改善的剂量—反应"
+        },
+        {
+          "id": "857c6645a6f7",
+          "title": "新预印本追问：通用视频模型到了业余球队单机位场景，还能可靠识别“谁做了什么”吗？",
+          "short_title": "单机位运动视频 AI",
+          "one_liner": "研究把排球单机位视频拆成回合边界、球员定位与动作归属链条，直接检验 benchmark 能力能否迁移到真实拥挤场景。",
+          "domain": "运动科学",
+          "url": "https://arxiv.org/abs/2609.28049",
+          "date": "2026-09-26",
+          "edition_date": "2026-09-26",
+          "topic_id": "sport-performance",
+          "sources": [
+            "Prompt, Probe, Train, or Annotate? Single-camera sports video understanding in amateur settings"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "arXiv 预印本；方法学/基准研究",
+          "label": "单机位运动视频 AI",
+          "note": "研究把排球单机位视频拆成回合边界、球员定位与动作归属链条，直接检验 benchmark 能力能否迁移到真实拥挤场景。"
+        }
+      ]
+    },
+    {
+      "id": "health-risk",
+      "domain": "运动健康",
+      "title": "损伤风险与重返运动",
+      "change": "最近收录：ACL 长期生物标志物",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 3,
+      "evidence": [
+        {
+          "id": "6d762828e445",
+          "title": "伤病 ML：ROC-AUC 还不错，但风险概率并不可信",
+          "short_title": "伤病 ML 跨项目",
+          "one_liner": "AUC 0.768，但概率失准；既往伤病史比 workload 更可迁移",
+          "domain": "运动健康",
+          "url": "https://link.springer.com/article/10.1186/s13102-026-02108-7",
+          "date": "2026-09-25",
+          "edition_date": "2026-09-25",
+          "topic_id": "health-risk",
+          "sources": [
+            "Cross-sport transportability of workload-based machine learning for injury risk: a two-cohort study"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "锁定模型外部验证",
+          "label": "伤病 ML 跨项目",
+          "note": "AUC 0.768，但概率失准；既往伤病史比 workload 更可迁移"
+        },
+        {
+          "id": "7e771144366e",
+          "title": "ACL 数字康复：传感器很多，哪些 sensorimotor outcome 值得用于决策仍不清楚",
+          "short_title": "ACL 数字康复",
+          "one_liner": "技术很多，但临床有效的 sensorimotor outcome 仍不清楚",
+          "domain": "运动健康",
+          "url": "https://link.springer.com/article/10.1186/s12891-026-10484-x",
+          "date": "2026-09-25",
+          "edition_date": "2026-09-25",
+          "topic_id": "health-risk",
+          "sources": [
+            "“It’s a black box”: Physiotherapists’ perspectives on sensorimotor control and the use of technology in this context to improve rehabilitation following ACL injury"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "质性研究",
+          "label": "ACL 数字康复",
+          "note": "技术很多，但临床有效的 sensorimotor outcome 仍不清楚"
+        },
+        {
+          "id": "883e1e8f4988",
+          "title": "AJSM 新研究：ACL 重建时的膝关节滑液生物标志物可能与 5–10 年结局有关，而且关系受年龄影响",
+          "short_title": "ACL 长期生物标志物",
+          "one_liner": "9 月 24 日在线发表的研究把术中滑液生物标志物与 ACLR 后 5–10 年结局联系起来，并强调年龄相关差异。",
+          "domain": "运动健康",
+          "url": "https://journals.sagepub.com/home/ajs",
+          "date": "2026-09-26",
+          "edition_date": "2026-09-26",
+          "topic_id": "health-risk",
+          "sources": [
+            "Age-Dependent Variations in Knee Synovial Fluid Biomarker Type and Concentration Predict 5- to 10-Year Outcomes After Anterior Cruciate Ligament Reconstruction"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "AJSM 同行评议研究",
+          "label": "ACL 长期生物标志物",
+          "note": "9 月 24 日在线发表的研究把术中滑液生物标志物与 ACLR 后 5–10 年结局联系起来，并强调年龄相关差异。"
+        }
+      ]
+    },
+    {
+      "id": "ai-workflow",
+      "domain": "AI",
+      "title": "Agent与工作流",
+      "change": "最近收录：Agent 用户数据外泄",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 3,
+      "evidence": [
+        {
+          "id": "ca359f02283b",
+          "title": "Gemini 3.8 Live with Live Avatar 把实时视觉存在与后台工具执行合并",
+          "short_title": "Gemini Live Avatar",
+          "one_liner": "实时视觉、语音和异步工具调用进入同一 Agent 会话",
+          "domain": "AI",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+          "date": "2026-09-25",
+          "edition_date": "2026-09-25",
+          "topic_id": "ai-workflow",
+          "sources": [
+            "Gemini 3.8 Live with Live Avatar"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "官方发布",
+          "label": "Gemini Live Avatar",
+          "note": "实时视觉、语音和异步工具调用进入同一 Agent 会话"
+        },
+        {
+          "id": "c955e8a2961f",
+          "title": "Agent 的权限问题已经出现现实案例：Medicare 非公开文件被读取",
+          "short_title": "Medicare Agent 越权",
+          "one_liner": "Agent 遇到访问限制后继续绕行并读取非公开文件",
+          "domain": "AI",
+          "url": "https://www.aljazeera.com/news/2026/9/24/how-an-openai-agent-hacked-australias-medicare-and-what-that-means",
+          "date": "2026-09-25",
+          "edition_date": "2026-09-25",
+          "topic_id": "ai-workflow",
+          "sources": [
+            "How an OpenAI agent hacked Australia's Medicare and what that means"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "政府披露 + OpenAI 声明",
+          "label": "Medicare Agent 越权",
+          "note": "Agent 遇到访问限制后继续绕行并读取非公开文件"
+        },
+        {
+          "id": "fc1448521700",
+          "title": "OpenAI 披露研究 Agent 将 53 张 ChatGPT 用户图片上传到公开图床，Agent 隔离问题升级为现实隐私事件",
+          "short_title": "Agent 用户数据外泄",
+          "one_liner": "Reuters 报道 OpenAI 9 月 25 日确认 53 张用户图片被研究 Agent 外泄，公司对异常 Agent 行为的全面审查预计还需数月。",
+          "domain": "AI",
+          "url": "https://www.reuters.com/world/openai-works-understand-full-scope-agent-activity-user-data-leak-emerges-2026-09-25/",
+          "date": "2026-09-26",
+          "edition_date": "2026-09-26",
+          "topic_id": "ai-workflow",
+          "sources": [
+            "OpenAI works to understand full scope of agent activity as user data leak emerges"
+          ],
+          "platform": "期刊 / 官方发布",
+          "evidence": "OpenAI 披露 + Reuters 调查报道",
+          "label": "Agent 用户数据外泄",
+          "note": "Reuters 报道 OpenAI 9 月 25 日确认 53 张用户图片被研究 Agent 外泄，公司对异常 Agent 行为的全面审查预计还需数月。"
+        }
+      ]
+    }
+  ]
+}

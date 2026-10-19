@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "start": "2026-10-06",
   "end": "2026-10-19",
   "as_of": "2026-10-19T06:28:13.394047+00:00",
@@ -3156,5 +3156,146 @@
     }
   ],
   "total_items": 147,
-  "total_sources": 26
+  "total_sources": 26,
+  "channel": "social",
+  "date_basis": "公开内容发布日期",
+  "directions": [
+    {
+      "id": "force-workflow",
+      "domain": "运动科学",
+      "title": "测力数据：从结果面板走向波形",
+      "change": "R与Python教程串起自动取数、波形重算和跳跃阶段分析。",
+      "meaning": "一条可复现的流程，将批量数据获取与单次波形检查连起来，便于解释同一跳高背后的动作策略。",
+      "confidence": "中",
+      "confidence_reason": "来自同一技术团队的两篇连续教程，内容衔接明确。",
+      "related": {
+        "channel": "journal",
+        "direction_id": "individual-monitoring",
+        "label": "连读期刊：监测口径与个人基线"
+      },
+      "evidence": [
+        {
+          "id": "fbaaf239310d",
+          "title": "Using Hawkin R as a Researcher",
+          "url": "https://www.hawkindynamics.com/blog/using-hawkin-r-as-a-researcher",
+          "date": "2026-10-10",
+          "domain": "运动科学",
+          "topic_id": "sport-other",
+          "sources": [
+            "Hawkin Dynamics"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-19T06:16:07.398604+00:00",
+          "last_seen": "2026-10-19T06:16:07.398604+00:00",
+          "label": "R：批量取数与重复分析",
+          "note": "hawkinR将API取数接入R，减少手动导出并支持增量同步。"
+        },
+        {
+          "id": "dc74ca33fd19",
+          "title": "Beyond Jump Height: Exploring Force-Time Waveforms in Python",
+          "url": "https://www.hawkindynamics.com/blog/exploring-force-time-waveforms-in-python",
+          "date": "2026-10-17",
+          "domain": "运动科学",
+          "topic_id": "sport-speed",
+          "sources": [
+            "Hawkin Dynamics"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-19T06:16:07.398604+00:00",
+          "last_seen": "2026-10-19T06:16:07.398604+00:00",
+          "label": "Python：原始波形与阶段分析",
+          "note": "HDforce把力—时间信号带入Python，可重算指标并比较完整曲线。"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "id": "exercise-outcomes",
+      "domain": "运动健康",
+      "title": "运动治疗：功能反应与长期维持",
+      "change": "近期讨论把治疗中的功能变化，与治疗结束后能否继续活动连起来看。",
+      "meaning": "这组内容可沿“治疗反应→功能变化→活动维持”连读，关注康复过程中的不同时间尺度。",
+      "confidence": "中",
+      "confidence_reason": "BJSM作者解读与PainScience讨论分别涉及活动维持和运动反应，议题联系为编辑综合。",
+      "evidence": [
+        {
+          "id": "cdeaea7345cf",
+          "title": "What helps people stay active after exercise therapy ends?",
+          "url": "https://blogs.bmj.com/bjsm/2026/10/12/what-helps-people-stay-active-after-exercise-therapy-ends",
+          "date": "2026-10-12",
+          "domain": "运动健康",
+          "topic_id": "health-other",
+          "sources": [
+            "BJSM Blog"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-19T06:16:07.398604+00:00",
+          "last_seen": "2026-10-19T06:16:07.398604+00:00",
+          "label": "治疗结束后，如何继续活动",
+          "note": "作者解读19篇系统综述，讨论数字支持、加强随访与活动维持。"
+        },
+        {
+          "id": "622c65694e1d",
+          "title": "Scary-looking spinal stenosis on MRI doesn’t mean much [2m]",
+          "url": "https://www.painscience.com/blog/stenosis-severity-and-exercise.html",
+          "date": "2026-10-17",
+          "domain": "运动健康",
+          "topic_id": "health-rtp",
+          "sources": [
+            "Paul Ingraham / PainScience"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-19T06:16:07.398604+00:00",
+          "last_seen": "2026-10-19T06:16:07.398604+00:00",
+          "label": "影像严重度与运动反应",
+          "note": "10月17日重访8月研究：腰椎狭窄影像分级与该队列的运动反应未见关联。"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "id": "agent-cost",
+      "domain": "AI",
+      "title": "Agent成本：从单价看到整段任务",
+      "change": "模型分工与会话日志，把费用、缓存和任务产出放进同一视野。",
+      "meaning": "按完整任务记录模型组合、费用、缓存命中和完成时间，更容易解释一次工作究竟花在哪里。",
+      "confidence": "中",
+      "confidence_reason": "一项官方客户案例与一项日志功能发布相互补充，反映运行管理方向。",
+      "evidence": [
+        {
+          "id": "45d6a2b79938",
+          "title": "LegalOn halves Codex costs while maintaining development speed",
+          "url": "https://openai.com/index/legalon-halves-codex-costs",
+          "date": "2026-10-08",
+          "domain": "AI",
+          "topic_id": "ai-agent",
+          "sources": [
+            "OpenAI"
+          ],
+          "platform": "公开发布",
+          "first_seen": "2026-10-19T06:16:07.398604+00:00",
+          "last_seen": "2026-10-19T06:16:07.398604+00:00",
+          "label": "按任务匹配模型与预算",
+          "note": "LegalOn案例讨论模型分工，并提出以功能发布连接投入和客户价值。"
+        },
+        {
+          "id": "ec8a3eed6e1b",
+          "title": "AI Gateway logs now show session affinity",
+          "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+          "date": "2026-10-18",
+          "domain": "AI",
+          "topic_id": "ai-other",
+          "sources": [
+            "Vercel"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-19T06:16:07.398604+00:00",
+          "last_seen": "2026-10-19T06:16:07.398604+00:00",
+          "label": "会话日志汇总费用与缓存",
+          "note": "Vercel增加会话视图，按整段会话查看模型、提供方、成本和缓存。"
+        }
+      ],
+      "source_count": 2
+    }
+  ]
 }
