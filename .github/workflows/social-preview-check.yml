@@ -1,0 +1,63 @@
+name: Check social trial preview
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["trial/social-signal-20261019"]
+    paths:
+      - "scripts/render_social_trial.py"
+      - "labs/social/**"
+      - "trials/social/2026-10-19/curated.json"
+      - "trials/social/2026-10-19/browser-checks.json"
+      - ".github/workflows/social-preview-check.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify source-backed render
+        run: python3 scripts/render_social_trial.py --check
+      - name: Prepare interaction and layout checks
+        run: |
+          mkdir -p /tmp/social-trial-qa
+          python3 - <<'PY'
+          from pathlib import Path
+          original=Path('labs/social/2026-10-19/index.html').read_text()
+          test=r'''<script>
+          try {
+            const check=(ok,label)=>{if(!ok)throw new Error(label)};
+            const count=()=>document.querySelectorAll('.signal:not(.hidden)').length;
+            check(count()===6,'initial cards');
+            document.querySelector('[data-filter="X"]').click();
+            check(count()===1,'X filter');
+            document.querySelector('[data-filter="全部"]').click();
+            const search=document.querySelector('#signalSearch');
+            search.value='Buchheit';search.dispatchEvent(new Event('input'));
+            check(count()===2,'author search');
+            search.value='';search.dispatchEvent(new Event('input'));
+            document.querySelector('[data-filter="运动健康"]').click();
+            check(count()===1,'health filter');
+            document.querySelector('[data-filter="全部"]').click();
+            check(document.querySelectorAll('#sourceRows tr').length===24,'source rows');
+            check(document.documentElement.scrollWidth<=innerWidth,'horizontal overflow');
+            document.body.dataset.qa='pass';
+          } catch(e) {document.body.dataset.qa='fail';document.body.dataset.qaError=e.message;}
+          </script>'''
+          Path('/tmp/social-trial-qa/index.html').write_text(original.replace('</body>',test+'</body>'))
+          PY
+      - name: Check desktop and mobile in Chrome
+        run: |
+          google-chrome --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=1440,1100 --virtual-time-budget=3000 --dump-dom --screenshot=/tmp/social-trial-qa/desktop.png file:///tmp/social-trial-qa/index.html > /tmp/social-trial-qa/desktop.html 2>/tmp/social-trial-qa/chrome-desktop.log
+          grep -q 'data-qa="pass"' /tmp/social-trial-qa/desktop.html
+          google-chrome --headless --no-sandbox --disable-gpu --hide-scrollbars --window-size=390,844 --virtual-time-budget=3000 --dump-dom --screenshot=/tmp/social-trial-qa/mobile.png file:///tmp/social-trial-qa/index.html > /tmp/social-trial-qa/mobile.html 2>/tmp/social-trial-qa/chrome-mobile.log
+          grep -q 'data-qa="pass"' /tmp/social-trial-qa/mobile.html
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: social-trial-preview-qa
+          path: /tmp/social-trial-qa/

@@ -21,6 +21,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: trial/social-signal-20261019
       - name: Collect public feeds
         run: python3 scripts/collect_social.py
       - name: Preserve trial evidence
