@@ -1,0 +1,68 @@
+[
+  {
+    "id": "sport-load",
+    "label": "训练负荷与监控",
+    "domain": "运动科学",
+    "pattern": "load|monitor|fatigue|readiness|periodi|HRV|CMJ|负荷|监控|疲劳|恢复"
+  },
+  {
+    "id": "sport-speed",
+    "label": "速度、力量与运动技术",
+    "domain": "运动科学",
+    "pattern": "sprint|speed|strength|power|jump|muscle|force|biomechan|technique|eccentric|sarcomere|力量|冲刺|速度|生物力学"
+  },
+  {
+    "id": "sport-nutrition",
+    "label": "营养与耐力",
+    "domain": "运动科学",
+    "pattern": "nutrition|carbo|protein|fuel|hydrat|endurance|VO2|threshold|food|耐力|营养|补水"
+  },
+  {
+    "id": "health-rtp",
+    "label": "康复与重返运动",
+    "domain": "运动健康",
+    "pattern": "ACL|return.to|rehab|menisc|surg|BFR|blood.flow|康复|重返|术后"
+  },
+  {
+    "id": "health-pain",
+    "label": "疼痛、肌腱与组织负荷",
+    "domain": "运动健康",
+    "pattern": "pain|tendon|achilles|patellar|hamstring|shoulder|back|疼痛|肌腱|跟腱|肩|腰"
+  },
+  {
+    "id": "ai-eval",
+    "label": "评测、数据与可靠性",
+    "domain": "AI",
+    "pattern": "eval|benchmark|review|data(set)?|reliab|error|hallu|test|评测|评估|数据|审查|可靠"
+  },
+  {
+    "id": "ai-agent",
+    "label": "Agent与开发工作流",
+    "domain": "AI",
+    "pattern": "agent|cod(e|ing|ex)|tool|workflow|RAG|developer|voice|sdk|智能体|工具|工作流|编程"
+  },
+  {
+    "id": "ai-model",
+    "label": "模型与多模态",
+    "domain": "AI",
+    "pattern": "model|GPT|Claude|Gemini|Qwen|llama|LLM|train|reason|multimodal|vision|image|模型|多模态|推理"
+  },
+  {
+    "id": "sport-other",
+    "label": "运动科学综合",
+    "domain": "运动科学",
+    "pattern": "(?!)"
+  },
+  {
+    "id": "health-other",
+    "label": "运动健康综合",
+    "domain": "运动健康",
+    "pattern": "(?!)"
+  },
+  {
+    "id": "ai-other",
+    "label": "AI应用与行业",
+    "domain": "AI",
+    "pattern": "(?!)"
+  }
+]

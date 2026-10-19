@@ -1,7 +1,7 @@
-"""Collect public feed metadata for an explicitly requested, unscheduled trial.
+"""Collect dated public feed metadata for the social column.
 
-No account sessions, X API, AI API, or paid data services are used.
-Article bodies are used in memory for matching; only metadata is saved.
+The source roster also records browser/search entries. Only explicitly enabled
+public feeds are fetched here; account sessions are never used by this script.
 """
 from __future__ import annotations
 
@@ -136,10 +136,23 @@ def collect_author(author: dict, cfg: dict) -> dict:
     started = time.monotonic()
     attempts = []
     result = {**author, 'status': 'unavailable', 'homepage_read': False, 'feed_url': None, 'social_links': [], 'items': [], 'attempts': attempts}
+    if author.get('collect') is False:
+        result.update(status='search_entry', parsed_items=0, latest_visible_item_at=None, elapsed_seconds=0)
+        return result
     homepage = author['homepage']
     timeout = cfg['timeout_seconds']
-    candidates = []
+    candidates = [author['feed_url']] if author.get('feed_url') else []
+    if candidates:
+        try:
+            body, resolved = request(candidates[0], timeout)
+            entries = parse_feed(body, resolved)
+            attempts.append({'url': candidates[0], 'status': 'feed_ok', 'entries': len(entries)})
+            result.update(feed_url=resolved, items=entries, status='feed_ok')
+        except Exception as exc:
+            attempts.append({'url': candidates[0], 'status': type(exc).__name__, 'detail': str(exc)[:180]})
     try:
+        if result['status'] == 'feed_ok':
+            raise StopIteration
         body, resolved = request(homepage, timeout)
         attempts.append({'url': homepage, 'status': 'ok'})
         result.update(homepage_read=True, resolved_homepage=resolved)
@@ -155,6 +168,8 @@ def collect_author(author: dict, cfg: dict) -> dict:
             result.update(feed_url=resolved, items=direct, status='feed_ok')
         except (ET.ParseError, ValueError):
             result['status'] = 'homepage_only'
+    except StopIteration:
+        pass
     except Exception as exc:
         attempts.append({'url': homepage, 'status': type(exc).__name__, 'detail': str(exc)[:180]})
     if result['status'] != 'feed_ok':
@@ -176,6 +191,9 @@ def collect_author(author: dict, cfg: dict) -> dict:
     if author.get('author_filter'):
         pattern = re.compile(author['author_filter'], re.I)
         items = [i for i in items if pattern.search(i['_match_text'])]
+    if author.get('content_filter'):
+        pattern = re.compile(author['content_filter'], re.I)
+        items = [i for i in items if pattern.search(i['_match_text'])]
     result['parsed_items'] = len(items)
     result['latest_visible_item_at'] = max((i['published_at'] for i in items if i['published_at']), default=None)
     result['items'] = items[:cfg['max_items_per_source']]
@@ -185,7 +203,8 @@ def collect_author(author: dict, cfg: dict) -> dict:
 
 def history(root: Path) -> tuple[dict, dict]:
     urls, dois = {}, {}
-    for p in sorted((root / 'data').glob('????-??-??.json')):
+    paths = list((root / 'data').glob('????-??-??.json')) + list((root / 'data/social').glob('????-??-??.json'))
+    for p in sorted(paths):
         brief = json.loads(p.read_text())
         for item in brief.get('items', []):
             url = item.get('source', {}).get('url', '')
@@ -198,10 +217,13 @@ def history(root: Path) -> tuple[dict, dict]:
 
 def run(root: Path, config_path: Path, output: Path) -> dict:
     cfg = json.loads(config_path.read_text())
-    as_of = parsed_date(cfg['as_of'])
+    as_of = dt.datetime.now(UTC) if cfg.get('as_of') == 'now' else parsed_date(cfg['as_of'])
     if as_of is None:
         raise ValueError('Invalid as_of timestamp')
-    start = as_of - dt.timedelta(days=cfg['lookback_days'])
+    local = as_of.astimezone(dt.timezone(dt.timedelta(hours=8)))
+    start = (local.replace(hour=0, minute=0, second=0, microsecond=0) - dt.timedelta(days=cfg['lookback_days'] - 1)).astimezone(UTC)
+    topic_path = root / 'config/social-topics.json'
+    topics = json.loads(topic_path.read_text()) if topic_path.exists() else []
     old_urls, old_dois = history(root)
     by_id = {}
     with concurrent.futures.ThreadPoolExecutor(max_workers=cfg['max_workers']) as pool:
@@ -219,8 +241,10 @@ def run(root: Path, config_path: Path, output: Path) -> dict:
                 continue
             # Updated-only Atom entries require an explicit editorial date check.
             item['date_verified'] = item['date_kind'] == 'published'
-            item.pop('_match_text', None)
-            item.update(domain=author['domain'], author_id=author['id'], source_author=author['name'], feed_url=author['feed_url'])
+            match_text = item.pop('_match_text', '')
+            topic = next((t['id'] for t in topics if t['domain'] == author['domain'] and re.search(t['pattern'], item['title'] + ' ' + match_text[:1800], re.I)), None)
+            item['topic_id'] = topic or {'运动科学':'sport-other','运动健康':'health-other','AI':'ai-other'}[author['domain']]
+            item.update(domain=author['domain'], author_id=author['id'], source_author=author['name'], feed_url=author['feed_url'], platform=author.get('platform', '博客'), language=author.get('language', 'en'))
             previous = set(old_urls.get(item['url'], []))
             for doi in item['dois']:
                 previous.update(old_dois.get(doi, []))
@@ -232,7 +256,7 @@ def run(root: Path, config_path: Path, output: Path) -> dict:
                 item['observed_authors'] = [author['name']]
             elif author['name'] not in merged[key]['observed_authors']:
                 merged[key]['observed_authors'].append(author['name'])
-            recent.append(item['id'])
+            recent.append(merged[key]['id'])
         author['recent_item_ids'] = recent
     candidates = sorted(merged.values(), key=lambda i: i['published_at'], reverse=True)
     summary = {'authors_total': len(authors), 'homepages_read': sum(a['homepage_read'] for a in authors), 'feeds_read': sum(a['status'] == 'feed_ok' for a in authors), 'candidates': len(candidates), 'published_date_candidates': sum(i['date_verified'] for i in candidates), 'already_reported': sum(bool(i['previous_briefs']) for i in candidates), 'authors_with_recent_candidates': sum(bool(a['recent_item_ids']) for a in authors)}

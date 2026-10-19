@@ -1,17 +1,21 @@
 {
-  "version": 1,
-  "as_of": "2026-10-19T05:32:14Z",
+  "version": 2,
+  "as_of": "now",
   "lookback_days": 14,
-  "timeout_seconds": 12,
-  "max_workers": 6,
-  "max_items_per_source": 40,
+  "timeout_seconds": 14,
+  "max_workers": 8,
+  "max_items_per_source": 100,
   "authors": [
     {
       "id": "martin-buchheit",
       "name": "Martin Buchheit",
       "domain": "运动科学",
       "homepage": "https://martin-buchheit.net/",
-      "focus": "训练负荷、测试与足球体能"
+      "focus": "训练负荷、测试与足球体能",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://martin-buchheit.net/feed/"
     },
     {
       "id": "asker-jeukendrup",
@@ -19,14 +23,34 @@
       "domain": "运动科学",
       "homepage": "https://www.mysportscience.com/",
       "focus": "运动营养",
-      "author_filter": "Asker"
+      "author_filter": "Asker",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.mysportscience.com/blog-feed.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://x.com/Jeukendrup"
+        }
+      ]
     },
     {
       "id": "yann-le-meur",
       "name": "Yann Le Meur",
       "domain": "运动科学",
       "homepage": "https://ylmsportscience.com/",
-      "focus": "训练与恢复"
+      "focus": "训练与恢复",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "collect": false,
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://x.com/YLMSportScience"
+        }
+      ]
     },
     {
       "id": "stephen-seiler",
@@ -35,7 +59,11 @@
       "homepage": "https://feeds.libsyn.com/139580/website",
       "focus": "耐力训练与强度分布",
       "author_filter": "Seiler",
-      "relation": "访谈嘉宾"
+      "relation": "访谈嘉宾",
+      "kind": "专业作者",
+      "platform": "播客",
+      "language": "en",
+      "feed_url": "https://rss.libsyn.com/shows/139580/destinations/872954.xml"
     },
     {
       "id": "stuart-mcmillan",
@@ -43,133 +71,225 @@
       "domain": "运动科学",
       "homepage": "https://altis.world/",
       "focus": "速度、技术与教练实践",
-      "author_filter": "Stuart|McMillan"
+      "author_filter": "Stuart|McMillan",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "collect": false,
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://x.com/StuartMcMillan1"
+        }
+      ]
     },
     {
       "id": "derek-hansen",
       "name": "Derek Hansen",
       "domain": "运动科学",
       "homepage": "https://www.sprintcoach.com/",
-      "focus": "冲刺、跑姿与重返运动"
+      "focus": "冲刺、跑姿与重返运动",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "collect": false
     },
     {
       "id": "joel-jamieson",
       "name": "Joel Jamieson",
       "domain": "运动科学",
       "homepage": "https://www.8weeksout.com/",
-      "focus": "能量代谢与恢复"
+      "focus": "能量代谢与恢复",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://8weeksout.com/feed/"
     },
     {
       "id": "chris-beardsley",
       "name": "Chris Beardsley",
       "domain": "运动科学",
       "homepage": "https://www.patreon.com/cw/SandCResearch",
-      "focus": "力量训练机制"
+      "focus": "力量训练机制",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "collect": false,
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://x.com/SandCResearch"
+        }
+      ]
     },
     {
       "id": "tom-goom",
       "name": "Tom Goom",
       "domain": "运动健康",
       "homepage": "https://www.running-physio.com/",
-      "focus": "跑步损伤与康复"
+      "focus": "跑步损伤与康复",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.running-physio.com/feed/"
     },
     {
       "id": "greg-lehman",
       "name": "Greg Lehman",
       "domain": "运动健康",
       "homepage": "https://www.greglehman.ca/",
-      "focus": "疼痛、负荷与生物力学"
+      "focus": "疼痛、负荷与生物力学",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en"
     },
     {
       "id": "mike-reinold",
       "name": "Mike Reinold",
       "domain": "运动健康",
       "homepage": "https://mikereinold.com/",
-      "focus": "运动康复与重返运动"
+      "focus": "运动康复与重返运动",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://mikereinold.com/feed/"
     },
     {
       "id": "adam-meakins",
       "name": "Adam Meakins",
       "domain": "运动健康",
       "homepage": "https://www.thesports.physio/",
-      "focus": "肌骨康复与临床观点"
+      "focus": "肌骨康复与临床观点",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en"
     },
     {
       "id": "erik-meira",
       "name": "Erik Meira",
       "domain": "运动健康",
       "homepage": "https://thesciencept.com/",
-      "focus": "运动康复与批判性思维"
+      "focus": "运动康复与批判性思维",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://thesciencept.com/feed/"
     },
     {
       "id": "mick-hughes",
       "name": "Mick Hughes",
       "domain": "运动健康",
       "homepage": "https://www.mickhughes.physio/",
-      "focus": "ACL康复与重返运动"
+      "focus": "ACL康复与重返运动",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.mickhughes.physio/blog-feed.xml"
     },
     {
       "id": "peter-malliaras",
       "name": "Peter Malliaras",
       "domain": "运动健康",
       "homepage": "https://www.tendinopathyrehab.com/",
-      "focus": "肌腱与渐进负荷"
+      "focus": "肌腱与渐进负荷",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "collect": false
     },
     {
       "id": "ben-cormack",
       "name": "Ben Cormack",
       "domain": "运动健康",
       "homepage": "https://www.cor-kinetic.com/",
-      "focus": "疼痛与运动康复"
+      "focus": "疼痛与运动康复",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "collect": false
     },
     {
       "id": "simon-willison",
       "name": "Simon Willison",
       "domain": "AI",
       "homepage": "https://simonwillison.net/",
-      "focus": "Agent、工具与工作流"
+      "focus": "Agent、工具与工作流",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://simonwillison.net/atom/everything/"
     },
     {
       "id": "ethan-mollick",
       "name": "Ethan Mollick",
       "domain": "AI",
       "homepage": "https://www.oneusefulthing.org/",
-      "focus": "AI应用与工作方式"
+      "focus": "AI应用与工作方式",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.oneusefulthing.org/feed",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://x.com/emollick"
+        }
+      ]
     },
     {
       "id": "hamel-husain",
       "name": "Hamel Husain",
       "domain": "AI",
       "homepage": "https://hamel.dev/",
-      "focus": "AI评测与产品实践"
+      "focus": "AI评测与产品实践",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://hamel.dev/index.xml"
     },
     {
       "id": "eugene-yan",
       "name": "Eugene Yan",
       "domain": "AI",
       "homepage": "https://eugeneyan.com/",
-      "focus": "AI工程与评测"
+      "focus": "AI工程与评测",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://eugeneyan.com/rss/"
     },
     {
       "id": "chip-huyen",
       "name": "Chip Huyen",
       "domain": "AI",
       "homepage": "https://huyenchip.com/",
-      "focus": "AI工程与模型应用"
+      "focus": "AI工程与模型应用",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://huyenchip.com/feed.xml"
     },
     {
       "id": "lilian-weng",
       "name": "Lilian Weng",
       "domain": "AI",
       "homepage": "https://lilianweng.github.io/",
-      "focus": "模型方法与研究"
+      "focus": "模型方法与研究",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://lilianweng.github.io/index.xml"
     },
     {
       "id": "sebastian-raschka",
       "name": "Sebastian Raschka",
       "domain": "AI",
       "homepage": "https://magazine.sebastianraschka.com/",
-      "focus": "模型研究与工程"
+      "focus": "模型研究与工程",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://magazine.sebastianraschka.com/feed"
     },
     {
       "id": "jeremy-howard",
@@ -177,7 +297,750 @@
       "domain": "AI",
       "homepage": "https://www.fast.ai/",
       "focus": "AI应用与工具",
-      "author_filter": "Jeremy|jhoward"
+      "author_filter": "Jeremy|jhoward",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.fast.ai/index.xml"
+    },
+    {
+      "id": "sportsmith",
+      "name": "Sportsmith",
+      "domain": "运动科学",
+      "homepage": "https://www.sportsmith.co/",
+      "focus": "速度、负荷、测试与教练实践",
+      "kind": "专业媒体",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.sportsmith.co/feed/"
+    },
+    {
+      "id": "science-for-sport",
+      "name": "Science for Sport",
+      "domain": "运动科学",
+      "homepage": "https://www.scienceforsport.com/",
+      "focus": "训练、表现与研究解读",
+      "kind": "专业媒体",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.scienceforsport.com/feed/"
+    },
+    {
+      "id": "simplifaster",
+      "name": "SimpliFaster",
+      "domain": "运动科学",
+      "homepage": "https://simplifaster.com/",
+      "focus": "速度、力量与技术设备",
+      "kind": "专业媒体",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://simplifaster.com/feed/"
+    },
+    {
+      "id": "complementary-training",
+      "name": "Mladen Jovanović / Complementary Training",
+      "domain": "运动科学",
+      "homepage": "https://complementarytraining.com/",
+      "focus": "训练建模、周期与个体化",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://complementarytraining.com/feed/"
+    },
+    {
+      "id": "jb-morin",
+      "name": "Jean-Benoît Morin",
+      "domain": "运动科学",
+      "homepage": "https://jbmorin.net/",
+      "focus": "冲刺力学、F–v–P与专项表现",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://jbmorin.net/feed/"
+    },
+    {
+      "id": "science-of-sport",
+      "name": "Ross Tucker / The Science of Sport",
+      "domain": "运动科学",
+      "homepage": "https://sportsscientists.com/",
+      "focus": "运动生理、表现与行业讨论",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://sportsscientists.com/feed/"
+    },
+    {
+      "id": "stronger-by-science",
+      "name": "Stronger by Science",
+      "domain": "运动科学",
+      "homepage": "https://www.strongerbyscience.com/",
+      "focus": "力量、增肌与证据解读",
+      "kind": "专业媒体",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.strongerbyscience.com/feed/"
+    },
+    {
+      "id": "gabbett",
+      "name": "Tim Gabbett / Gabbett Performance",
+      "domain": "运动科学",
+      "homepage": "https://gabbettperformance.com.au/",
+      "focus": "负荷、伤病与训练准备",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en"
+    },
+    {
+      "id": "hrv4training",
+      "name": "HRV4Training",
+      "domain": "运动科学",
+      "homepage": "https://www.hrv4training.com/blog",
+      "focus": "HRV、耐力训练与日常监控",
+      "kind": "工具团队",
+      "platform": "博客",
+      "language": "en"
+    },
+    {
+      "id": "marco-altini",
+      "name": "Marco Altini",
+      "domain": "运动科学",
+      "homepage": "https://www.marcoaltini.com/",
+      "focus": "生理监控、HRV与数据分析",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en"
+    },
+    {
+      "id": "hawkin",
+      "name": "Hawkin Dynamics",
+      "domain": "运动科学",
+      "homepage": "https://www.hawkindynamics.com/blog",
+      "focus": "测力台、测试与数据应用",
+      "kind": "工具团队",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.hawkindynamics.com/blog/rss.xml"
+    },
+    {
+      "id": "vald",
+      "name": "VALD Performance",
+      "domain": "运动科学",
+      "homepage": "https://valdperformance.com/news",
+      "focus": "测力、力量测试与队伍数据",
+      "kind": "工具团队",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "gssi",
+      "name": "Gatorade Sports Science Institute",
+      "domain": "运动科学",
+      "homepage": "https://www.gssiweb.org/",
+      "focus": "运动营养、补水与生理",
+      "kind": "专业机构",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "ais",
+      "name": "Australian Institute of Sport",
+      "domain": "运动科学",
+      "homepage": "https://www.ais.gov.au/",
+      "focus": "运动科学、营养、运动员健康",
+      "kind": "专业机构",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "acsm",
+      "name": "ACSM",
+      "domain": "运动科学",
+      "homepage": "https://acsm.org/",
+      "focus": "运动生理、运动医学与指南解读",
+      "kind": "专业机构",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "uksca",
+      "name": "UKSCA",
+      "domain": "运动科学",
+      "homepage": "https://www.uksca.org.uk/",
+      "focus": "体能训练、测试与教练教育",
+      "kind": "专业机构",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "nsca",
+      "name": "NSCA",
+      "domain": "运动科学",
+      "homepage": "https://www.nsca.com/",
+      "focus": "力量与体能、教练实践",
+      "kind": "专业机构",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "altis",
+      "name": "ALTIS",
+      "domain": "运动科学",
+      "homepage": "https://altis.world/",
+      "focus": "冲刺、运动技术与教练方法",
+      "kind": "专业机构",
+      "platform": "博客",
+      "language": "en"
+    },
+    {
+      "id": "upside-strength",
+      "name": "Upside Strength",
+      "domain": "运动科学",
+      "homepage": "https://upsidestrength.com/",
+      "focus": "耐力测试、训练分区与应用",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en"
+    },
+    {
+      "id": "bjsm-blog",
+      "name": "BJSM Blog",
+      "domain": "运动健康",
+      "homepage": "https://blogs.bmj.com/bjsm/",
+      "focus": "运动医学、伤病预防与实践讨论",
+      "kind": "期刊社群",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://blogs.bmj.com/bjsm/feed/"
+    },
+    {
+      "id": "jospt-insights",
+      "name": "JOSPT Insights",
+      "domain": "运动健康",
+      "homepage": "https://www.jospt.org/podcast",
+      "focus": "肌骨康复、重返运动与临床研究",
+      "kind": "期刊社群",
+      "platform": "播客",
+      "language": "en",
+      "feed_url": "https://feeds.resonaterecordings.com/jospt"
+    },
+    {
+      "id": "physio-network",
+      "name": "Physio Network",
+      "domain": "运动健康",
+      "homepage": "https://www.physio-network.com/blog/",
+      "focus": "临床评估、肌腱与康复训练",
+      "kind": "专业媒体",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.physio-network.com/feed/"
+    },
+    {
+      "id": "physiotutors",
+      "name": "Physiotutors",
+      "domain": "运动健康",
+      "homepage": "https://www.physiotutors.com/",
+      "focus": "评估方法、疼痛与运动康复",
+      "kind": "专业媒体",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.physiotutors.com/feed/"
+    },
+    {
+      "id": "e3-rehab",
+      "name": "E3 Rehab",
+      "domain": "运动健康",
+      "homepage": "https://e3rehab.com/",
+      "focus": "ACL、疼痛与渐进负荷",
+      "kind": "临床团队",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://e3rehab.com/feed/"
+    },
+    {
+      "id": "barbell-medicine",
+      "name": "Barbell Medicine",
+      "domain": "运动健康",
+      "homepage": "https://www.barbellmedicine.com/",
+      "focus": "力量训练、疼痛与运动医学",
+      "kind": "临床团队",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.barbellmedicine.com/feed/"
+    },
+    {
+      "id": "painscience",
+      "name": "Paul Ingraham / PainScience",
+      "domain": "运动健康",
+      "homepage": "https://www.painscience.com/",
+      "focus": "疼痛科学与临床证据",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en"
+    },
+    {
+      "id": "clinical-edge",
+      "name": "Clinical Edge",
+      "domain": "运动健康",
+      "homepage": "https://www.clinicaledge.co/",
+      "focus": "运动康复临床访谈与案例",
+      "kind": "专业媒体",
+      "platform": "播客",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "aspetar",
+      "name": "Aspetar Sports Medicine Journal",
+      "domain": "运动健康",
+      "homepage": "https://journal.aspetar.com/",
+      "focus": "运动医学、RTP与实践综述",
+      "kind": "专业机构",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "pain-revolution",
+      "name": "Pain Revolution",
+      "domain": "运动健康",
+      "homepage": "https://www.painrevolution.org/",
+      "focus": "疼痛教育、运动与临床应用",
+      "kind": "专业机构",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "acl-academy",
+      "name": "ACL Academy",
+      "domain": "运动健康",
+      "homepage": "https://www.aclacademy.com/",
+      "focus": "ACL康复、重返运动与临床实践",
+      "kind": "临床团队",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "sports-injury-bulletin",
+      "name": "Sports Injury Bulletin",
+      "domain": "运动健康",
+      "homepage": "https://www.sportsinjurybulletin.com/",
+      "focus": "运动损伤、组织负荷与康复",
+      "kind": "专业媒体",
+      "platform": "博客",
+      "language": "en"
+    },
+    {
+      "id": "karpathy",
+      "name": "Andrej Karpathy",
+      "domain": "AI",
+      "homepage": "https://karpathy.bearblog.dev/",
+      "focus": "模型学习、Agent与软件实践",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://karpathy.bearblog.dev/feed/"
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space",
+      "domain": "AI",
+      "homepage": "https://www.latent.space/",
+      "focus": "AI工程、开发者访谈与Agent",
+      "kind": "专业媒体",
+      "platform": "通讯",
+      "language": "en",
+      "feed_url": "https://www.latent.space/feed"
+    },
+    {
+      "id": "nathan-lambert",
+      "name": "Nathan Lambert / Interconnects",
+      "domain": "AI",
+      "homepage": "https://www.interconnects.ai/",
+      "focus": "开源模型、后训练与评测",
+      "kind": "专业作者",
+      "platform": "通讯",
+      "language": "en",
+      "feed_url": "https://www.interconnects.ai/feed"
+    },
+    {
+      "id": "the-gradient",
+      "name": "The Gradient",
+      "domain": "AI",
+      "homepage": "https://thegradient.pub/",
+      "focus": "模型研究与产业讨论",
+      "kind": "专业媒体",
+      "platform": "通讯",
+      "language": "en",
+      "feed_url": "https://thegradient.pub/rss/"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "domain": "AI",
+      "homepage": "https://huggingface.co/blog",
+      "focus": "开源模型、数据与应用",
+      "kind": "工具团队",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "domain": "AI",
+      "homepage": "https://openai.com/news/",
+      "focus": "模型、工具与研究发布",
+      "kind": "官方团队",
+      "platform": "公开发布",
+      "language": "en",
+      "feed_url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "domain": "AI",
+      "homepage": "https://www.anthropic.com/news",
+      "focus": "Claude、Agent与AI研究",
+      "kind": "官方团队",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "domain": "AI",
+      "homepage": "https://deepmind.google/blog/",
+      "focus": "模型与AI科学研究",
+      "kind": "官方团队",
+      "platform": "公开发布",
+      "language": "en",
+      "feed_url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "domain": "AI",
+      "homepage": "https://blog.google/technology/ai/",
+      "focus": "AI产品、模型与工作流",
+      "kind": "官方团队",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://blog.google/technology/ai/rss/"
+    },
+    {
+      "id": "microsoft-research",
+      "name": "Microsoft Research",
+      "domain": "AI",
+      "homepage": "https://www.microsoft.com/en-us/research/blog/",
+      "focus": "AI研究与科研工具",
+      "kind": "官方团队",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://www.microsoft.com/en-us/research/feed/"
+    },
+    {
+      "id": "github-ai",
+      "name": "GitHub Blog · AI",
+      "domain": "AI",
+      "homepage": "https://github.blog/ai-and-ml/",
+      "focus": "AI coding、开发工具与案例",
+      "kind": "官方团队",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://github.blog/ai-and-ml/feed/"
+    },
+    {
+      "id": "langchain",
+      "name": "LangChain",
+      "domain": "AI",
+      "homepage": "https://blog.langchain.com/",
+      "focus": "Agent、工具调用与评测",
+      "kind": "工具团队",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://blog.langchain.com/rss/"
+    },
+    {
+      "id": "llamaindex",
+      "name": "LlamaIndex",
+      "domain": "AI",
+      "homepage": "https://www.llamaindex.ai/blog",
+      "focus": "RAG、文档与Agent",
+      "kind": "工具团队",
+      "platform": "博客",
+      "language": "en"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "domain": "AI",
+      "homepage": "https://vercel.com/blog",
+      "focus": "AI应用、SDK与开发工作流",
+      "kind": "工具团队",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://vercel.com/atom",
+      "content_filter": "\\bAI\\b|LLM|agent|GPT|Claude|Gemini|人工智能|大模型|智能体"
+    },
+    {
+      "id": "bair",
+      "name": "Berkeley AI Research",
+      "domain": "AI",
+      "homepage": "https://bair.berkeley.edu/blog/",
+      "focus": "模型、机器人与学习方法",
+      "kind": "研究团队",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://bair.berkeley.edu/blog/feed.xml"
+    },
+    {
+      "id": "tim-dettmers",
+      "name": "Tim Dettmers",
+      "domain": "AI",
+      "homepage": "https://timdettmers.com/",
+      "focus": "模型效率、训练与硬件",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://timdettmers.com/feed/"
+    },
+    {
+      "id": "jay-alammar",
+      "name": "Jay Alammar",
+      "domain": "AI",
+      "homepage": "https://jalammar.github.io/",
+      "focus": "模型解释、RAG与可视化",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en",
+      "feed_url": "https://jalammar.github.io/feed.xml"
+    },
+    {
+      "id": "import-ai",
+      "name": "Jack Clark / Import AI",
+      "domain": "AI",
+      "homepage": "https://importai.substack.com/",
+      "focus": "AI研究、能力与行业观察",
+      "kind": "专业作者",
+      "platform": "通讯",
+      "language": "en",
+      "feed_url": "https://importai.substack.com/feed"
+    },
+    {
+      "id": "the-sequence",
+      "name": "The Sequence",
+      "domain": "AI",
+      "homepage": "https://thesequence.substack.com/",
+      "focus": "AI工程与模型研究",
+      "kind": "专业媒体",
+      "platform": "通讯",
+      "language": "en",
+      "feed_url": "https://thesequence.substack.com/feed"
+    },
+    {
+      "id": "allenai",
+      "name": "Allen Institute for AI",
+      "domain": "AI",
+      "homepage": "https://allenai.org/blog",
+      "focus": "开放模型、科研与数据",
+      "kind": "研究团队",
+      "platform": "公开发布",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "deeplearning-ai",
+      "name": "DeepLearning.AI · The Batch",
+      "domain": "AI",
+      "homepage": "https://www.deeplearning.ai/the-batch/",
+      "focus": "AI研究与行业解读",
+      "kind": "专业媒体",
+      "platform": "通讯",
+      "language": "en"
+    },
+    {
+      "id": "vicki-boykis",
+      "name": "Vicki Boykis",
+      "domain": "AI",
+      "homepage": "https://vickiboykis.com/",
+      "focus": "AI工程、数据与软件实践",
+      "kind": "专业作者",
+      "platform": "博客",
+      "language": "en"
+    },
+    {
+      "id": "qbitai",
+      "name": "量子位",
+      "domain": "AI",
+      "homepage": "https://www.qbitai.com/",
+      "focus": "中文AI产业、模型与工具",
+      "kind": "中文媒体",
+      "platform": "博客",
+      "language": "zh",
+      "feed_url": "https://www.qbitai.com/feed"
+    },
+    {
+      "id": "jiqizhixin",
+      "name": "机器之心",
+      "domain": "AI",
+      "homepage": "https://www.jiqizhixin.com/",
+      "focus": "中文AI研究、工程与行业",
+      "kind": "中文媒体",
+      "platform": "公开发布",
+      "language": "zh",
+      "collect": false
+    },
+    {
+      "id": "sspai",
+      "name": "少数派 · AI应用",
+      "domain": "AI",
+      "homepage": "https://sspai.com/",
+      "focus": "AI工具与实际工作流",
+      "kind": "中文媒体",
+      "platform": "博客",
+      "language": "zh",
+      "feed_url": "https://sspai.com/feed",
+      "content_filter": "\\bAI\\b|LLM|agent|GPT|Claude|Gemini|人工智能|大模型|智能体"
+    },
+    {
+      "id": "csss",
+      "name": "中国体育科学学会",
+      "domain": "运动科学",
+      "homepage": "https://www.csss.cn/",
+      "focus": "运动科学与学术实践动态",
+      "kind": "中文机构",
+      "platform": "公开发布",
+      "language": "zh",
+      "collect": false
+    },
+    {
+      "id": "ciss",
+      "name": "国家体育总局体育科学研究所",
+      "domain": "运动科学",
+      "homepage": "https://www.ciss.cn/",
+      "focus": "生理、生物力学、体能与科研应用",
+      "kind": "中文机构",
+      "platform": "公开发布",
+      "language": "zh",
+      "collect": false
+    },
+    {
+      "id": "sport-gov",
+      "name": "国家体育总局 · 科学训练",
+      "domain": "运动科学",
+      "homepage": "https://www.sport.gov.cn/",
+      "focus": "竞技体育、科技助训与行业政策",
+      "kind": "中文机构",
+      "platform": "公开发布",
+      "language": "zh",
+      "collect": false
+    },
+    {
+      "id": "dxy",
+      "name": "丁香园 · 运动医学",
+      "domain": "运动健康",
+      "homepage": "https://www.dxy.cn/",
+      "focus": "运动损伤、康复与临床讨论",
+      "kind": "中文社群",
+      "platform": "公开发布",
+      "language": "zh",
+      "collect": false
+    },
+    {
+      "id": "dxy-health",
+      "name": "丁香医生 · 运动健康",
+      "domain": "运动健康",
+      "homepage": "https://dxy.com/",
+      "focus": "运动、肌骨健康与医学科普",
+      "kind": "中文媒体",
+      "platform": "公开发布",
+      "language": "zh",
+      "collect": false
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News · AI讨论",
+      "domain": "AI",
+      "homepage": "https://news.ycombinator.com/",
+      "focus": "AI开发、工具实践与产品讨论",
+      "kind": "开发者社区",
+      "platform": "社区",
+      "language": "en",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "content_filter": "\\bAI\\b|LLM|agent|GPT|Claude|Gemini|人工智能|大模型|智能体"
+    },
+    {
+      "id": "reddit-ml",
+      "name": "Reddit · MachineLearning",
+      "domain": "AI",
+      "homepage": "https://www.reddit.com/r/MachineLearning/",
+      "focus": "研究讨论、复现与模型使用反馈",
+      "kind": "开发者社区",
+      "platform": "社区",
+      "language": "en",
+      "collect": false
+    },
+    {
+      "id": "reddit-pt",
+      "name": "Reddit · Physicaltherapy",
+      "domain": "运动健康",
+      "homepage": "https://www.reddit.com/r/physicaltherapy/",
+      "focus": "临床工作、实践分歧与康复讨论",
+      "kind": "临床社群",
+      "platform": "社区",
+      "language": "en",
+      "collect": false
+    }
+  ],
+  "discovery_channels": [
+    {
+      "name": "X",
+      "focus": "作者原帖、实践分歧、快速发布",
+      "query": "site:x.com ({keywords}) after:{since}"
+    },
+    {
+      "name": "Bluesky",
+      "focus": "学者与研究者公开讨论",
+      "query": "site:bsky.app ({keywords})"
+    },
+    {
+      "name": "LinkedIn",
+      "focus": "团队实践、设备与行业应用",
+      "query": "site:linkedin.com/posts/ ({keywords})"
+    },
+    {
+      "name": "YouTube",
+      "focus": "技术演示、专业访谈与公开讲座",
+      "query": "site:youtube.com/watch ({keywords})"
+    },
+    {
+      "name": "播客",
+      "focus": "访谈、临床经验与方法讨论",
+      "query": "({keywords}) podcast transcript"
+    },
+    {
+      "name": "微信公众号",
+      "focus": "中文运动科学、康复与AI解读",
+      "query": "site:mp.weixin.qq.com ({keywords})"
+    },
+    {
+      "name": "Hacker News",
+      "focus": "AI工程与开发者使用反馈",
+      "query": "site:news.ycombinator.com ({keywords})"
+    },
+    {
+      "name": "Reddit",
+      "focus": "专业社区的实际问题与分歧",
+      "query": "site:reddit.com ({keywords})"
     }
   ]
 }
