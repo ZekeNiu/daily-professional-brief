@@ -136,7 +136,7 @@ tbody tr{transition:background .2s ease}
 .card:hover,.archive-card:hover{border-color:color-mix(in srgb,var(--accent) 35%,var(--line));box-shadow:0 26px 64px rgba(20,65,79,.12)}
 .card-head{padding:23px 25px}.card-title{letter-spacing:-.025em}.card-one{line-height:1.62}
 .card-pad{padding:0 25px 24px}
-.judgment{background:linear-gradient(126deg,color-mix(in srgb,var(--accent-soft) 89%,var(--surface)),color-mix(in srgb,#e9eaff 26%,var(--surface)) 84%);border-left:3px solid var(--accent);padding:32px 35px}
+.judgment{background:linear-gradient(126deg,color-mix(in srgb,var(--accent-soft) 89%,var(--surface)),color-mix(in srgb,#e9eaff 26%,var(--surface)) 84%);padding:32px 35px}
 .judgment p{line-height:1.76}
 .archive-hero{padding:42px 46px}
 .archive-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
