@@ -15,7 +15,7 @@
           "label": "专项测试与表现迁移",
           "summary": "近期研究把专项测试与实际表现逐项对照：裁判和空手道研究中的实验室指标均未稳定解释实际任务表现。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "裁判赛季评分与空手道专项任务提供两项可定位的对照材料。",
           "item_ids": [
             "7a1272dfeb6d",
             "503aaf8e0c3e",
@@ -40,7 +40,7 @@
           "label": "疲劳监控与训练决策",
           "summary": "议题从增加监控指标转向明确决策用途：CMJ代表值、个人常态和外部机械功口径都影响监控信息的解释。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "CMJ综述与HIFT机械功方法论文均讨论监控指标如何定义与解释。",
           "item_ids": [
             "e3abe4ece2ac",
             "c2ef100b3692",
@@ -63,7 +63,7 @@
           "label": "伤病预测模型的验证",
           "summary": "两项机器学习研究共同提示，区分度、误报和极少数伤病样本需要一起审查。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "两项建模研究分别报告误报与少数伤病样本对评价的影响。",
           "item_ids": [
             "b5a878852926",
             "0791ef5ef4c3"
@@ -79,7 +79,7 @@
           "label": "热身与PAPE刺激选择",
           "summary": "热身共识、证据综述和青少年女篮试验聚焦同一问题：额外激活刺激是否比现有热身带来任务相关收益。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "研究综述与青少年女篮交叉试验直接覆盖额外激活刺激与热身比较。",
           "item_ids": [
             "f7ad8a78ddd0",
             "e0ef3ab82824",
@@ -99,7 +99,7 @@
           "label": "组内休息与输出维持",
           "summary": "总休息量相同时，组内休息或自选间歇仍可能改变重复表现、总功率与主观疲劳。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "两项随机交叉试验均在总休息量匹配的条件下改变间歇分配。",
           "item_ids": [
             "270ae9ef4278",
             "3be1014717b7",
@@ -117,7 +117,7 @@
           "label": "肌纤维肥大与适应机制",
           "summary": "肌纤维负荷研究、肥大测量审计与代谢机制综述，把肌肉适应进一步拆到结构层级及测量构念。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "代谢机制综述与肌活检Meta回归分别对应机制与纤维结构两个层级。",
           "item_ids": [
             "4cd66e7574a3",
             "209068535776",
@@ -136,7 +136,7 @@
           "label": "落地与跑步的组织负荷",
           "summary": "疲劳、地面和个体结构都可能改变力学指标；跑姿或落地指标需要对应到具体组织与任务解释。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "两项实测研究分别比较地面条件和疲劳条件下的力学指标。",
           "item_ids": [
             "8894eb97249e",
             "db7c58c6a052",
@@ -157,7 +157,7 @@
           "label": "补剂与补水的实际收益",
           "summary": "肌酸、瓜氨酸、睡眠补剂和脱水研究分别检验具体结局，主观改善与训练表现收益需要分开核对。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "睡眠补剂与瓜氨酸试验均同时报告主观或客观训练结局。",
           "item_ids": [
             "83252db5a889",
             "fd910cbae584",
@@ -175,7 +175,7 @@
           "label": "神经认知与专项执行",
           "summary": "神经反馈、专项抑制任务和tDCS研究均在检验信号变化能否迁移到具体执行任务，而非仅报告实验室指标改善。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "足球专项抑制任务与排球tDCS试验提供不同任务的神经认知证据。",
           "item_ids": [
             "104ac871d2ec",
             "43b569b97229",
@@ -194,7 +194,7 @@
           "label": "ACL与腘绳肌重返运动",
           "summary": "复出研究同时关注负荷耐受、场上表现、影像解释和后续损伤，单项结果不能覆盖整个回归过程。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "足球ACLR回归综述与后续ACL损伤综述直接对应复出过程和再伤结局。",
           "item_ids": [
             "643ab3d87239",
             "883e1e8f4988",
@@ -213,7 +213,7 @@
           "label": "伤病筛查的预测效度",
           "summary": "等速力量、可穿戴负荷与内部生物反应评分采用不同预测设计，近期结果需要结合样本和外部验证情况连读。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "足球短期评分与橄榄球整季随访采用不同预测设计，适合对照阅读。",
           "item_ids": [
             "9642f535ede9",
             "6d762828e445",
@@ -232,7 +232,7 @@
           "label": "卒中辅助训练的净增益",
           "summary": "Myosuit、外骨骼和血流限制训练研究集中检验步行与下肢功能，部分统计变化尚未形成一致的额外临床收益。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "外骨骼与血流限制训练的系统综述均报告步行或下肢功能结果。",
           "item_ids": [
             "5849ea8cc025",
             "856973fe6b71",
@@ -250,7 +250,7 @@
           "label": "数字康复的效果与依从性",
           "summary": "数字康复研究开始同时观察功能结果与持续参与：技术可用、短期指标变化和长期活动轨迹是不同问题。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "AI远程康复试验与数字骨关节炎长期轨迹研究提供功能和参与数据。",
           "item_ids": [
             "7e771144366e",
             "ad3b8818ebaf",
@@ -270,7 +270,7 @@
           "label": "运动缓解慢性疼痛的收益",
           "summary": "运动对疼痛灾难化、功能与具体病种的收益并不一致；慢性疼痛Meta分析可与太极病种综述对照阅读。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "两篇综述分别按心理/功能结局与具体病种整理运动干预效果。",
           "item_ids": [
             "639f6ca62b46",
             "f52a8c3192b8"
@@ -286,7 +286,7 @@
           "label": "运动处方的心代谢结局",
           "summary": "血管功能、血压、心衰功能与肝代谢研究使用不同终点，体适能改善并不自动意味着所有疾病指标同步改善。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "心衰居家训练研究与MASLD随机试验Meta分析均区分体适能和疾病指标。",
           "item_ids": [
             "ace82a734db5",
             "451c24379693",
@@ -306,7 +306,7 @@
           "label": "肌少症与衰弱运动处方",
           "summary": "近期综述把肌肉功能、步行和跌倒结局与运动方案对应，肌少症研究进一步关注频率、强度及时长的达标度。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "老年肌肉功能伞状综述与33项肌少症RCT的Meta分析提供互补证据。",
           "item_ids": [
             "ae7eef35730a",
             "fa9095dd6743",
@@ -323,7 +323,7 @@
           "label": "按摩恢复的主客观效应",
           "summary": "体操与柔道研究分别测量疲劳感、本体感觉和肌肉僵硬；这些变化与爆发输出并非同一结果。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "两项小样本体操、柔道试验直接并列主观感受与肌肉或输出指标。",
           "item_ids": [
             "f8aba6fd82ca",
             "bfd36f599d01"
@@ -339,7 +339,7 @@
           "label": "平衡干预与功能迁移",
           "summary": "振动鞋垫、实时反馈与足部近端训练改善的指标各不相同，结构或平衡变化应与实际功能结局一并查看。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "动态反馈实验与扁平足训练研究分别检验平衡策略和功能迁移。",
           "item_ids": [
             "6e02abd8f1ab",
             "10f18e3eedf2",
@@ -356,7 +356,7 @@
           "label": "头部撞击与恢复评估",
           "summary": "头部冲击防护、累计暴露与脑损伤恢复分别涉及生物力学、神经认知和心理因素，需要按研究层级连读。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "脑损伤随访与泰拳暴露研究分别记录心理恢复和神经认知指标。",
           "item_ids": [
             "3b07855f93a6",
             "17d1f60af5f0",
@@ -373,7 +373,7 @@
           "label": "低能量可用性与REDs筛查",
           "summary": "能量平衡研究与指南实施综述共同把问题落到恢复健康、筛查工具和实际执行，而不只看体重变化。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "女性运动员能量平衡材料与REDs指南实施综述围绕筛查落地形成线索。",
           "item_ids": [
             "357fe7ffb297",
             "23d5112ca8de"
@@ -389,7 +389,7 @@
           "label": "Agent越权与运行审计",
           "summary": "近期事件披露、系统调用审计和生产轨迹监测，都把Agent评估从任务结果推进到实际执行过程。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "系统调用实证审计与生产会话监测实现均直接记录Agent执行轨迹。",
           "item_ids": [
             "c955e8a2961f",
             "fc1448521700",
@@ -421,7 +421,7 @@
           "label": "编码Agent的评审与修复",
           "summary": "代码审查、AI Scan和代理修复进入常用工作流，审查速度、语言覆盖与修复后的复验需要分别核对。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "代理修复GA与代码审查GA的原始公告可定位到各自发布节点。",
           "item_ids": [
             "d8b55c40c599",
             "1784e10e2112",
@@ -444,7 +444,7 @@
           "label": "上下文压缩与推理成本",
           "summary": "上下文压缩策略、令牌计数与混合推理架构从不同层面优化长任务成本，效果依赖各自的评测设置。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "上下文压缩与混合推理两项预印本均报告特定基准下的效率结果。",
           "item_ids": [
             "c86beef864f4",
             "9275e031a99e",
@@ -464,7 +464,7 @@
           "label": "多Agent编排与工具接入",
           "summary": "可编程编排、持续型任务、多模型协作与工具启动设置共同改变Agent的组织方式和运行流程。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "Copilot编排公共预览与HydraFusion协作池更新均改变任务组织流程。",
           "item_ids": [
             "c4f6b71acc49",
             "9b8bb9aa720a",
@@ -487,7 +487,7 @@
           "label": "模型可用性与版本迁移",
           "summary": "近期模型更新同时涉及限量开放、扩大接入、快速模式及旧模型退役，使用条件变化本身也是工作流迁移信号。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "同一平台的模型正式接入与退役公告，提供可核对的可用性节点。",
           "item_ids": [
             "e3a5934e3172",
             "0dd3bed5c7dd",
@@ -512,7 +512,7 @@
           "label": "科研Agent的验证与应用",
           "summary": "科研检索、论文转Agent和物理求解器研究采用不同的验证任务；科研模型开放则进一步改变实际接入条件。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "物理求解器基准与科研模型学术接入公告，分别对应验证和实际使用。",
           "item_ids": [
             "ef1b3a4772ea",
             "e49faaf95243",
@@ -532,7 +532,7 @@
           "label": "数据与办公Agent的落地",
           "summary": "数据任务评测、企业Agent、可审计Dashboard和演示文稿工具，把生成内容推进到业务数据与可编辑产物。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "Dashboard和Slides公告都明确提供可检查或可编辑的工作产物。",
           "item_ids": [
             "b29526b4a6c6",
             "a44eac78d893",
@@ -552,7 +552,7 @@
           "label": "语音与实时多模态交互",
           "summary": "实时视觉语音会话、可提示TTS和自定义语音接口，分别推进了交互会话与声音生成的产品能力。",
           "confidence": "中",
-          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "confidence_reason": "实时多模态会话与文字创建语音的产品说明直接支持这一交互方向。",
           "item_ids": [
             "ca359f02283b",
             "c99106a5c97c",
@@ -627,7 +627,7 @@
           "label": "负荷与状态的情境解释",
           "summary": "赛后休息日、比赛跑动量与环境下心率是近期连读线索，共同指向测试和比赛情境如何影响指标解释。",
           "confidence": "中",
-          "confidence_reason": "作者原文标题及已核查日报内容支持归组；跨条目联系属于编辑综合。",
+          "confidence_reason": "Buchheit的赛后休息日与环境心率文章，均涉及指标的情境解释。",
           "item_ids": [
             "b0ebeed71849",
             "fb12df8f3b2f",
@@ -645,7 +645,7 @@
           "label": "力时曲线与速度测量",
           "summary": "Enode测量工具、Hawkin R与Python力时曲线文章，把讨论从单一结果指标延伸到数据读取和完整曲线。",
           "confidence": "中",
-          "confidence_reason": "两篇同一团队的工具与曲线文章直接相关；来源广度另由图中计数表示。",
+          "confidence_reason": "同一团队的Hawkin R与Python曲线文章有明确的工具和数据分析关联。",
           "item_ids": [
             "8dea0bbc04c7",
             "fbaaf239310d",
@@ -662,7 +662,7 @@
           "label": "肌肉结构与训练刺激",
           "summary": "比目鱼肌训练、力量类型、离心柔韧性及肌节与肌原纤维讨论，形成围绕肌肉结构和刺激选择的阅读线索。",
           "confidence": "中",
-          "confidence_reason": "已核查帖文与作者标题支持议题归纳，不把观点当作统一训练结论。",
+          "confidence_reason": "两则Beardsley帖文分别讨论离心柔韧性和肌节/肌原纤维刺激。",
           "item_ids": [
             "eaa6b9dce4be",
             "d101caded0de",
@@ -680,7 +680,7 @@
           "label": "青少年训练与专项转化",
           "summary": "运动技能游戏、青少年全身训练模板及短跑人才转项文章，围绕基础运动能力如何进入具体项目展开。",
           "confidence": "中",
-          "confidence_reason": "标题明确涉及运动技能、青少年或转项；多语版本不作为多条独立进展举证。",
+          "confidence_reason": "转项文章与青少年全身训练模板，均涉及基础能力进入具体项目。",
           "item_ids": [
             "99a873f42537",
             "074b7f746122",
@@ -701,7 +701,7 @@
           "label": "肌腱负荷与胶原补充",
           "summary": "肌腱机械剂量处方与胶原补充讨论，分别从训练刺激和营养材料切入组织适应。",
           "confidence": "中",
-          "confidence_reason": "一篇已核查处方原文与一篇胶原主题材料形成阅读线索，尚不能据此推导干预效果。",
+          "confidence_reason": "胶原蛋白文章与肌腱处方原文，提供营养与机械负荷两种视角。",
           "item_ids": [
             "c10aba2e453b",
             "bjsm-tendon-dose-20261019"
@@ -717,7 +717,7 @@
           "label": "低负荷与固定期保肌",
           "summary": "赛季内血流限制训练和固定期亮氨酸讨论，分别关注训练受限情境下的力量或肌肉量保持。",
           "confidence": "中",
-          "confidence_reason": "两条内容的情境与干预不同，归组用于对照阅读。",
+          "confidence_reason": "BFR节目与固定期亮氨酸帖文，均关注受限条件下的力量或肌肉保持。",
           "item_ids": [
             "78ecce3eb8d5",
             "x-beardsley-2110297106636259587"
@@ -733,7 +733,7 @@
           "label": "神经压迫与影像解释",
           "summary": "股外侧皮神经症状、腕管综合征指南与脊柱狭窄影像解读，聚焦症状定位、诊断和影像解释。",
           "confidence": "中",
-          "confidence_reason": "归纳基于具体症状与诊断主题，不凭标题判定临床结论。",
+          "confidence_reason": "两篇原文标题明确讨论神经压迫、症状与影像解释。",
           "item_ids": [
             "45f34a289f22",
             "298e10103127",
@@ -750,7 +750,7 @@
           "label": "食物敏感检测的有效性",
           "summary": "近期两则作者讨论分别比较自报过敏与受控测试，以及解释食物敏感性指尖测试。",
           "confidence": "中",
-          "confidence_reason": "两则已核查帖文来自同一作者，是单一来源的连续讨论。",
+          "confidence_reason": "同一作者两则连续帖文，分别讨论自报过敏和指尖测试。",
           "item_ids": [
             "x-asker-2111487940681428997",
             "x-asker-2111850324675678267"
@@ -766,7 +766,7 @@
           "label": "Agent执行与调试",
           "summary": "运行框架、可查记忆、网关日志、LLM代理和echo测试工具，共同关注Agent执行过程能否被观察和调试。",
           "confidence": "中",
-          "confidence_reason": "直接工具条目与已核查日报支持归组；未将标题中的性能宣称当作验证结果。",
+          "confidence_reason": "网关日志更新与工具作者echo版本记录，均可定位到运行调试功能。",
           "item_ids": [
             "22732f8185e3",
             "4b0006aa1b5d",
@@ -788,7 +788,7 @@
           "label": "多Agent编排与长任务",
           "summary": "动态工作流、长时多Agent运行与技能工具入口，把Agent的讨论从单次对话扩展到任务组织。",
           "confidence": "中",
-          "confidence_reason": "来源标题明确涉及编排或长期运行，具体运行规模属于来源自述。",
+          "confidence_reason": "动态工作流文章与长时多Agent运行案例，直接涉及任务编排。",
           "item_ids": [
             "91597643c193",
             "e71374164f2c",
@@ -809,7 +809,7 @@
           "label": "Argon上线与工具适配",
           "summary": "Gemini 4 Argon的发布、责任评估与客户端适配形成一组同期条目，可按日期追踪接入进展。",
           "confidence": "中",
-          "confidence_reason": "包含官方与工具作者条目；同名发布内容不被解释为独立性能验证。",
+          "confidence_reason": "官方发布与llm-gemini工具作者的适配更新，可按版本时间连读。",
           "item_ids": [
             "1dc99b611b24",
             "43abc94dd1f0",
@@ -828,7 +828,7 @@
           "label": "开放权重与端侧部署",
           "summary": "开放权重模型、端侧Agent模型、预训练数据与AIPC部署条目，关注模型如何被获取和在本地运行。",
           "confidence": "中",
-          "confidence_reason": "条目主题支持模型开放与部署归组，未复述未核验的硬件性能数字。",
+          "confidence_reason": "LFM端侧模型与Beam开放模型条目，直接对应部署和获取方式。",
           "item_ids": [
             "2ee55c894d54",
             "ffd281819637",
@@ -851,7 +851,7 @@
           "label": "模型换代与调用成本",
           "summary": "Haiku、Meta模型和成本案例的同期讨论，把模型选择与实际工作流调用成本联系起来。",
           "confidence": "中",
-          "confidence_reason": "成本案例与模型报道使用不同条件，归组不意味着可直接横向比较性能。",
+          "confidence_reason": "Haiku模型报道和Asana成本案例，分别对应模型选型与实际调用。",
           "item_ids": [
             "45d6a2b79938",
             "c07b5023822d",
@@ -872,7 +872,7 @@
           "label": "世界模型与机器人长任务",
           "summary": "工业机器人执行、小时级物理Agent、世界模型和VLA条目，围绕物理任务中的预测与持续行动展开。",
           "confidence": "中",
-          "confidence_reason": "归纳基于明确的物理Agent与世界模型主题；时长、速度等指标仍属于各来源陈述。",
+          "confidence_reason": "Dyna物理Agent和世界模型/VLA材料，明确围绕物理任务的预测与行动。",
           "item_ids": [
             "9a2a489d753a",
             "be997bf71860",
@@ -892,7 +892,7 @@
           "label": "科研Agent与实验闭环",
           "summary": "科研模型接入、实验室闭环、抗菌肽搜索和科学计算条目，形成AI科研从计算任务走向实验与验证的讨论线索。",
           "confidence": "中",
-          "confidence_reason": "用研究方向组织材料，不将新闻标题中的突破性评价作为已核实结论。",
+          "confidence_reason": "Lab-in-the-Loop节目与抗菌肽搜索条目，均涉及AI进入科研验证流程。",
           "item_ids": [
             "9416b01a853f",
             "a092f744c7c1",
@@ -915,7 +915,7 @@
           "label": "生成音视频与交互界面",
           "summary": "语音识别、语音建站、图像与长视频生成及可交互界面，显示内容生成与交互产品的多条实现路径。",
           "confidence": "中",
-          "confidence_reason": "条目标题与作者记录支持产品方向归纳，未推断整体市场增速。",
+          "confidence_reason": "语音建站的作者记录与长视频案例，对应两种具体内容工作流。",
           "item_ids": [
             "16b7810afb00",
             "a097ef0d441a",
@@ -936,7 +936,7 @@
           "label": "AI安全检测与威胁分析",
           "summary": "密钥检测、恶意软件分析、诈骗识别和威胁调查案例，构成AI进入安全分析流程的一组同期进展。",
           "confidence": "中",
-          "confidence_reason": "官方条目可支持产品方向，厂商案例效果不作为独立验证结果。",
+          "confidence_reason": "密钥模型与诈骗识别的官方条目，都指向可定位的安全检测任务。",
           "item_ids": [
             "d9e485b409fe",
             "daa797ee9439",
@@ -957,7 +957,7 @@
           "label": "企业知识与专业任务应用",
           "summary": "企业知识接入、合同审查、专业问答和客户服务案例，把Agent能力放进具体工作任务。",
           "confidence": "中",
-          "confidence_reason": "案例与工具主题直接相关；不同任务和厂商结果没有合并为统一效果。",
+          "confidence_reason": "Atlassian知识接入与合同审查案例，均落在可辨识的工作任务上。",
           "item_ids": [
             "2896758265ce",
             "4e324623ab7c",
@@ -978,7 +978,7 @@
           "label": "教育AI的提问与评估",
           "summary": "青少年学习、模拟学生学习和提问式教学条目，聚焦如何设计与评价AI辅助学习过程。",
           "confidence": "中",
-          "confidence_reason": "官方教育主题条目支持归组，未由产品描述推断学习成效。",
+          "confidence_reason": "模拟学生学习与提问教学两条官方材料，对应学习过程的设计和评估。",
           "item_ids": [
             "661f64ddb5f4",
             "ca946f1238ba",
@@ -995,7 +995,7 @@
           "label": "LLM工具链与代码生成",
           "summary": "令牌计数、web-edit、源码管理和LLM数据库工具更新，把开发讨论落到可运行工具与具体版本。",
           "confidence": "中",
-          "confidence_reason": "可定位的工具版本支持归组；同工具的小版本更新不被写成多项独立突破。",
+          "confidence_reason": "web-edit和llm-tools-datasette版本记录，均给出具体的工具更新节点。",
           "item_ids": [
             "f37003b32e19",
             "f5034dade94e",
