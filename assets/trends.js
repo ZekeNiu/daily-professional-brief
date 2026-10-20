@@ -93,7 +93,7 @@
    start=a;end=b;mode='custom';customOpen=true;$('#trendDateError',box).textContent='';render();updateURL();
   };
   $('#moreHeatTopics',box).onclick=()=>{showAll=!showAll;if(!showAll&&selection&&rowsForView().filter(r=>r.kind!=='other').findIndex(r=>r.id===selection.topic)<0)selection=null;else if(!showAll&&selection&&rowsForView().findIndex(r=>r.id===selection.topic)>=3)selection=null;render();updateURL()};
-  matrix.onclick=e=>{const target=e.target.closest('[data-topic]');if(!target)return;selection={topic:target.dataset.topic,day:target.dataset.day||null};renderInspector();syncSelection();tip.classList.add('hidden');updateURL()};
+  matrix.onclick=e=>{const target=e.target.closest('[data-topic]');if(!target)return;const topic=target.dataset.topic;selection=target.classList.contains('heat-topic')&&selection?.topic===topic?null:{topic,day:target.dataset.day||null};renderInspector();syncSelection();tip.classList.add('hidden');updateURL()};
   function showTip(e){const cell=e.target.closest('.heat-cell');if(!cell)return;tip.textContent=cell.getAttribute('aria-label');tip.classList.remove('hidden');const r=cell.getBoundingClientRect();tip.style.left=Math.max(10,Math.min(innerWidth-290,r.left-90))+'px';tip.style.top=Math.max(10,r.top-tip.offsetHeight-6)+'px'}
   const hideTip=()=>tip.classList.add('hidden');
   box.addEventListener('pointerover',showTip);box.addEventListener('pointerout',hideTip);box.addEventListener('focusin',showTip);box.addEventListener('focusout',hideTip);
