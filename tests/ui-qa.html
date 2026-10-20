@@ -26,7 +26,8 @@
    const row=document.createElement('li');row.textContent=name+' — running';document.querySelector('#results').append(row);
    frame.style.width=width+'px';frame.style.height=height+'px';
    try{
-    await new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(Error('page load timed out')),20000);frame.onload=()=>{clearTimeout(timeout);resolve()};frame.src=new URL(path,base).href});
+    const target=new URL(path,base);target.searchParams.set('qaRelease',params.get('run')||String(Date.now()));
+    await new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(Error('page load timed out')),20000);frame.onload=()=>{clearTimeout(timeout);resolve()};frame.src=target.href});
     const d=frame.contentDocument,w=frame.contentWindow;
     const script=d.createElement('script');script.src=new URL('tests/site-qa.js?v=20261020-5',base).href;d.body.append(script);
     for(let i=0;i<300&&!d.body.dataset.qa;i++)await pause(100);
