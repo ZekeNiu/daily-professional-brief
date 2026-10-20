@@ -16,7 +16,7 @@ $('#themeToggle')?.addEventListener('click',()=>{const n=document.documentElemen
 async function getJSON(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}
 function sourceLink(item){return item.source?.url||'#'}
 function badge(p){return '<span class="badge '+badgeClass(p)+'"><i class="badge-dot"></i>'+esc(p)+'</span>'}
-function displayDomain(d){return d==='全球重要事件'?'全球事件':d}
+function displayDomain(d){return d==='运动科学'?'运动表现':d==='全球重要事件'?'全球事件':d}
 function formatBriefDate(iso){
  const [y,m,d]=iso.split('-').map(Number);
  const dt=new Date(Date.UTC(y,m-1,d));
@@ -54,7 +54,7 @@ function renderBrief(d){
  setupHistoryPicker(d.date);
  const rows=$('#summaryRows'),mobile=$('#mobileRows');
  rows.innerHTML=d.items.map(x=>'<tr data-domain="'+esc(x.domain)+'" data-search="'+esc((x.title+' '+(x.author||'')+' '+(x.platform||'')+' '+x.one_liner+' '+x.practice+' '+x.evidence).toLowerCase())+'"><td>'+badge(x.priority)+'</td><td>'+esc(displayDomain(x.domain))+'</td><td><b>'+esc(x.short_title||x.title)+'</b>'+(x.author?'<small class="summary-author">'+esc(x.author)+' · '+esc(x.platform)+'</small>':'')+'</td><td>'+esc(x.one_liner)+'</td><td>'+esc(x.practice)+'</td><td>'+esc(x.evidence)+'</td></tr>').join('');
- mobile.innerHTML=d.items.map(x=>'<div class="mobile-row" data-domain="'+esc(x.domain)+'" data-search="'+esc((x.title+' '+(x.author||'')+' '+(x.platform||'')+' '+x.one_liner+' '+x.practice+' '+x.evidence).toLowerCase())+'">'+badge(x.priority)+'<div class="mini">'+esc(x.domain)+' · '+esc(x.evidence)+'</div><b>'+esc(x.short_title||x.title)+'</b><div class="mini">'+esc(x.one_liner)+'</div></div>').join('');
+ mobile.innerHTML=d.items.map(x=>'<div class="mobile-row" data-domain="'+esc(x.domain)+'" data-search="'+esc((x.title+' '+(x.author||'')+' '+(x.platform||'')+' '+x.one_liner+' '+x.practice+' '+x.evidence).toLowerCase())+'">'+badge(x.priority)+'<div class="mini">'+esc(displayDomain(x.domain))+' · '+esc(x.evidence)+'</div><b>'+esc(x.short_title||x.title)+'</b><div class="mini">'+esc(x.one_liner)+'</div></div>').join('');
  const defs=[
   ['sport','运动科学','01',d.section_notes?.['运动科学']],
   ['health','运动健康','02',d.section_notes?.['运动健康']],
@@ -72,7 +72,7 @@ function renderBrief(d){
       const search=(x.title+' '+(x.author||'')+' '+(x.platform||'')+' '+x.one_liner+' '+x.practice+' '+x.what+' '+x.why+' '+x.limit+' '+x.evidence).toLowerCase();
       return '<article class="card" data-domain="'+esc(domain)+'" data-search="'+esc(search)+'"><div class="card-head" role="button" tabindex="0" aria-expanded="false" aria-controls="detail-'+idx+'"><div class="card-index">'+String(idx).padStart(2,'0')+'</div><div>'+badge(x.priority)+'<div class="card-title">'+esc(x.short_title||x.title)+'</div>'+(x.author?'<div class="card-meta"><span>'+esc(x.author)+'</span><span>'+esc(x.platform)+'</span><span>发布 '+esc(x.published_date)+'</span></div>':'')+'<div class="card-one">'+esc(x.one_liner)+'</div></div><div class="chev" aria-hidden="true">⌄</div></div><div class="card-detail" id="detail-'+idx+'" inert><div class="card-inner"><div class="card-pad">'+(x.short_title&&x.short_title!==x.title?'<div class="article-original"><small>原题</small><p>'+esc(x.title)+'</p></div>':'')+'<div class="info-grid"><div class="info"><h4>发生了什么</h4><p>'+esc(x.what)+'</p></div><div class="info"><h4>为什么值得关注</h4><p>'+esc(x.why)+'</p></div><div class="info"><h4>对实践的意义</h4><p>'+esc(x.practice)+'</p></div>'+(supplement?'<div class="info"><h4>补充信息</h4><p>'+esc(supplement)+'</p></div>':'')+'</div><div class="evidence"><span>'+esc(x.evidence)+'</span><span>置信度：'+(esc(x.confidence)+(x.confidence_reason?' · '+esc(x.confidence_reason):''))+'</span></div><a class="source" href="'+esc(sourceLink(x))+'" target="_blank" rel="noopener"><span>查看原始来源</span><span>↗</span></a>'+(x.references?.length?'<div class="reference-links">'+x.references.map(r=>'<a href="'+esc(r.url)+'" target="_blank" rel="noopener">'+esc(r.label)+' ↗</a>').join('')+'</div>':'')+'</div></div></div></article>';
    }).join('');
-   return '<section class="section domain-section" id="'+id+'"><details data-fold="domain-'+id+'" open><summary class="fold-heading domain-heading"><span class="num">'+num+'</span><h3>'+domain+'</h3><span class="domain-count">'+items.length+' 条</span><span class="fold-chevron">⌄</span></summary>'+(noteText?'<p class="domain-note">'+esc(noteText)+'</p>':'')+'<div class="cards">'+cards+'</div></details></section>';
+   return '<section class="section domain-section" id="'+id+'"><details data-fold="domain-'+id+'" open><summary class="fold-heading domain-heading"><span class="num">'+num+'</span><h3>'+displayDomain(domain)+'</h3><span class="domain-count">'+items.length+' 条</span><span class="fold-chevron">⌄</span></summary>'+(noteText?'<p class="domain-note">'+esc(noteText)+'</p>':'')+'<div class="cards">'+cards+'</div></details></section>';
  }).join('');
  $('#judgmentText').innerHTML=Array.isArray(d.professional_judgment)?d.professional_judgment.map(esc).join('<br><br>'):esc(d.professional_judgment);
 
@@ -108,7 +108,7 @@ function restoreFolds(date){
   el.open=saved===null?defaults.includes(name):saved==='open';
   el.ontoggle=()=>{try{localStorage.setItem(key,el.open?'open':'closed')}catch{}};
  });
- if(new URL(location.href).searchParams.has('direction'))$('#trendMap')?.setAttribute('open','');
+ if(['direction','topic'].some(k=>new URL(location.href).searchParams.has(k)))$('#trendMap')?.setAttribute('open','');
  revealAnchor(location.hash);
 }
 function revealAnchor(hash){
@@ -128,7 +128,7 @@ function renderArchive(items){
  }
  box.innerHTML=items.map(x=>{
    const highlights=(x.highlights||[]).slice(0,3).map(h=>'<li>'+esc(h)+'</li>').join('');
-   return '<a class="archive-card" href="'+esc(datedURL(x.date))+'"><div class="archive-card-top"><div class="date">'+esc(x.date)+'</div>'+(x.date===latest?'<span class="latest-tag">最新</span>':'')+'</div><h3>'+esc(x.summary_title||x.title||'每日专业资讯简报')+'</h3><p>'+esc(x.signal)+'</p>'+(highlights?'<ul class="archive-highlights">'+highlights+'</ul>':'')+'<div class="archive-meta"><span>'+esc(x.total)+' 条</span><span>运动科学 '+esc(x.counts?.['运动科学']||0)+'</span><span>运动健康 '+esc(x.counts?.['运动健康']||0)+'</span><span>AI '+esc(x.counts?.['AI']||0)+'</span></div></a>';
+   return '<a class="archive-card" href="'+esc(datedURL(x.date))+'"><div class="archive-card-top"><div class="date">'+esc(x.date)+'</div>'+(x.date===latest?'<span class="latest-tag">最新</span>':'')+'</div><h3>'+esc(x.summary_title||x.title||'每日专业资讯简报')+'</h3><p>'+esc(x.signal)+'</p>'+(highlights?'<ul class="archive-highlights">'+highlights+'</ul>':'')+'<div class="archive-meta"><span>'+esc(x.total)+' 条</span><span>运动表现 '+esc(x.counts?.['运动科学']||0)+'</span><span>运动健康 '+esc(x.counts?.['运动健康']||0)+'</span><span>AI '+esc(x.counts?.['AI']||0)+'</span></div></a>';
  }).join('');
 }
 function setChannelUI(){
@@ -136,10 +136,10 @@ function setChannelUI(){
  if($('#dailyTitle'))$('#dailyTitle').textContent=channel==='social'?'当日热点':'每日资讯';
  $('.filter-btn[data-domain="全球重要事件"]')?.classList.toggle('hidden',channel==='social');
  $$('.footer a').forEach(a=>a.href=root+'/'+channelQuery());
- $$('.channel-tabs a').forEach(a=>{const active=a.dataset.channel===channel;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');const u=new URL(location.href);u.searchParams.delete('channel');u.searchParams.delete('direction');if(a.dataset.channel==='social')u.searchParams.set('channel','social');u.hash='';a.href=u.href});
+ $$('.channel-tabs a').forEach(a=>{const active=a.dataset.channel===channel;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');const u=new URL(location.href);u.searchParams.delete('channel');u.searchParams.delete('direction');['field','from','to','topic','day'].forEach(k=>u.searchParams.delete(k));if(a.dataset.channel==='social')u.searchParams.set('channel','social');u.hash='';a.href=u.href});
  $$('.archive-link,.nav-archive').forEach(a=>a.href=root+'/archive.html'+channelQuery());
  $$('.brand,.archive-tools .archive-link').forEach(a=>a.href=root+'/'+channelQuery());
- const rail=$('.railbox');if(rail){const defs=[['trends','近期趋势'],['overview','本期摘要'],['daily',channel==='social'?'当日热点':'每日资讯'],['sport','运动科学'],['health','运动健康'],['ai','AI'],['judgment','专业判断'],...(channel==='social'?[['sources','信息来源']]:[])];rail.innerHTML=defs.map(([id,t])=>'<a href="#'+id+'" data-label="'+t+'"><span class="rail-dot"></span>'+t+'</a>').join('');}
+ const rail=$('.railbox');if(rail){const defs=[['trends','近期趋势'],['overview','本期摘要'],['daily',channel==='social'?'当日热点':'每日资讯'],['sport','运动表现'],['health','运动健康'],['ai','AI'],['judgment','专业判断'],...(channel==='social'?[['sources','信息来源']]:[])];rail.innerHTML=defs.map(([id,t])=>'<a href="#'+id+'" data-label="'+t+'"><span class="rail-dot"></span>'+t+'</a>').join('');}
  $('#trends')?.classList.remove('hidden');$('#sources')?.classList.toggle('hidden',channel!=='social');
 }
 async function init(){

@@ -13,6 +13,8 @@ const cases=[
  ['social-mobile',390,844,'/?qa=1&channel=social'],
  ['social-dark',1440,1100,'/?qa=1&channel=social&dark=1'],
  ['cross-column-direction',390,844,'/briefs/2026-10-19/?qa=1&channel=social&direction=force-workflow#trends'],
+ ['shared-custom-window',1440,1100,'/?qa=1&channel=social&field=ai&from=2026-10-13&to=2026-10-17&topic=ai-agent'],
+ ['shared-custom-mobile',390,1000,'/?qa=1&channel=social&field=ai&from=2026-10-13&to=2026-10-17&topic=ai-agent'],
  ['social-archive',1440,1000,'/archive.html?qa=1&channel=social'],
  ['missing-social-date',390,900,'/briefs/2026-10-18/?qa=1&channel=social']
 ];
@@ -57,7 +59,7 @@ for(const [name,width,height,path] of cases){
   }
   if(status?.qa!=='pass')throw Error('QA did not finish');
   await pause(250);
-  const metrics=await cmd('Runtime.evaluate',{expression:'JSON.stringify({scrollY,viewport:{width:innerWidth,height:innerHeight},nav:document.querySelector(".site-nav").getBoundingClientRect().toJSON(),trend:document.querySelector("#trends")?.getBoundingClientRect().toJSON(),topicMap:document.querySelector(".topic-map")?.getBoundingClientRect().toJSON(),points:document.querySelectorAll(".topic-point").length,inspector:document.querySelector("#trendInspector")?.className,daily:document.querySelector("#dailyTitle")?.getBoundingClientRect().toJSON(),firstStory:document.querySelector("#sections .card-title")?.getBoundingClientRect().toJSON()})',returnByValue:true});
+  const metrics=await cmd('Runtime.evaluate',{expression:'JSON.stringify({scrollY,viewport:{width:innerWidth,height:innerHeight},nav:document.querySelector(".site-nav").getBoundingClientRect().toJSON(),trend:document.querySelector("#trends")?.getBoundingClientRect().toJSON(),heat:document.querySelector(".heat-scroll")?.getBoundingClientRect().toJSON(),heatScroll:document.querySelector(".heat-scroll")?.scrollWidth,field:document.querySelector("#heatmap")?.dataset.domain,window:[document.querySelector("#heatmap")?.dataset.start,document.querySelector("#heatmap")?.dataset.end],topics:document.querySelectorAll("[data-heat-row]").length,inspector:document.querySelector("#trendInspector")?.className,daily:document.querySelector("#dailyTitle")?.getBoundingClientRect().toJSON(),firstStory:document.querySelector("#sections .card-title")?.getBoundingClientRect().toJSON()})',returnByValue:true});
   await writeFile(output+'/'+name+'.json',metrics.result.value);
   const shot=await cmd('Page.captureScreenshot',{format:'png',fromSurface:true,captureBeyondViewport:false});
   await writeFile(output+'/'+name+'.png',Buffer.from(shot.data,'base64'));

@@ -354,3 +354,46 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-
  .map-sources li{grid-template-columns:36px minmax(0,1fr);gap:6px;padding:7px 0}.map-sources a{display:block;font-size:12px}.map-sources small{display:block;max-width:none;text-align:left;margin-top:2px;font-size:10px}.map-sources time{font-size:10px}.map-confidence{font-size:10px}
 }
 @media(max-width:350px){.topic-map{--topic-label-width:105px}.topic-label strong{font-size:11px}.map-caption{font-size:9px}.map-period{font-size:9px}}
+
+/* A field owns its topic matrix; the date filter applies to matrix and inspector. */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.trend-explorer{padding:17px 21px 14px;border-radius:22px}.heat-period{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
+.heat-body{padding-top:12px}.field-controls{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:13px}
+.field-tabs{display:flex;gap:5px;padding:3px;border:1px solid var(--line);border-radius:999px;background:color-mix(in srgb,var(--surface-solid) 48%,transparent)}
+.field-tabs button{font:inherit;font-size:12px;font-weight:650;line-height:1.4;white-space:nowrap;border:0;padding:7px 17px;border-radius:999px;background:none;color:var(--muted);cursor:pointer}
+.field-tabs button.active{background:var(--accent);color:var(--surface-solid)}
+.heat-range select{font:inherit;font-size:12px;border:1px solid var(--line);background:var(--surface-solid);color:var(--text);border-radius:12px;padding:8px 26px 8px 10px;cursor:pointer}
+.heat-date-form{display:grid;grid-template-columns:1fr 1fr auto;gap:10px;align-items:center;padding:10px 0 15px;max-width:650px}
+.heat-date-form label{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);min-width:0}
+.heat-date-form input{font:inherit;font-size:12px;min-width:0;width:100%;padding:7px;border:1px solid var(--line);border-radius:9px;background:var(--surface-solid);color:var(--text)}
+.heat-date-form button{border:0;border-radius:9px;padding:8px 13px;background:var(--accent);color:var(--surface-solid);font:inherit;font-size:12px;cursor:pointer}
+#trendDateError{grid-column:1/-1;font-size:11px;color:var(--danger)}
+.trend-explorer .heat-scroll{padding:2px 0 6px}
+.trend-explorer .heat-row{grid-template-columns:178px repeat(var(--days),minmax(25px,1fr)) 35px;gap:4px;min-width:calc(217px + var(--days) * 29px);margin-bottom:4px}
+.trend-explorer .heat-head{font-size:11px;margin-bottom:8px}
+.trend-explorer .heat-topic{padding:2px 10px 2px 0;line-height:1.35}.trend-explorer .heat-topic b{font-size:12px;font-weight:650}
+.trend-explorer .heat-cell{height:33px;font-size:12px}.trend-explorer .heat-total{font-size:12px}
+.heat-date-narrow{display:none}.heat-footer{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-top:6px}
+.compact-heat-legend{display:flex;align-items:center;gap:6px;font-size:10px;line-height:1.5;color:var(--muted)}
+.compact-heat-legend>span:first-child{margin-right:4px}.compact-heat-legend i{display:block;width:12px;height:12px;border-radius:3px}
+.heat-footer .text-btn{font-size:10px;padding:2px 0}.heat-empty{font-size:12px;color:var(--muted);padding:10px 0;margin:0}
+.heat-content-list{list-style:none;margin:8px 0 0;padding:0;max-height:280px;overflow-y:auto;scrollbar-width:thin}
+.heat-content-list li{display:grid;grid-template-columns:45px minmax(0,1fr);gap:10px;padding:9px 0;border-bottom:1px solid var(--line)}
+.heat-content-list li:last-child{border:0}.heat-content-list time{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums;padding-top:2px}
+.heat-content-list a{font-size:12px;line-height:1.5;display:block}.heat-content-list a:hover{color:var(--accent)}
+.heat-content-list small{display:block;font-size:10px;color:var(--muted);margin-top:3px}
+@media(max-width:720px){
+ .trend-explorer{padding:11px 14px 10px;border-radius:18px}.trend-explorer>.fold-heading{gap:9px}.heat-period{font-size:10px}
+ .heat-body{padding-top:8px}.field-controls{gap:8px;margin-bottom:8px}.field-tabs{gap:2px;padding:2px}.field-tabs button{font-size:11px;padding:5px 8px}.heat-range select{font-size:11px;padding:6px 20px 6px 7px;max-width:92px;border-radius:10px}
+ .heat-date-form{grid-template-columns:1fr 1fr;gap:7px;padding-bottom:10px}.heat-date-form label{font-size:11px;gap:5px}.heat-date-form input{padding:6px;font-size:11px}.heat-date-form button{justify-self:end;grid-column:2;font-size:11px;padding:6px 12px}
+ .trend-explorer .heat-row{grid-template-columns:112px repeat(var(--days),minmax(22px,1fr)) 26px;gap:3px;min-width:calc(141px + var(--days) * 25px);margin-bottom:3px}
+ .trend-explorer .heat-head{font-size:10px;margin-bottom:5px}.trend-explorer .heat-cell{height:28px;font-size:11px;border-radius:4px}.trend-explorer .heat-topic{padding:1px 5px 1px 2px;line-height:1.3}.trend-explorer .heat-topic b{font-size:11px}.trend-explorer .heat-total{font-size:11px}
+ .heat-date-wide{display:none}.heat-date-narrow{display:inline}.heat-footer{margin-top:3px;gap:5px}.compact-heat-legend{font-size:9px;gap:5px}.compact-heat-legend i{width:10px;height:10px}.heat-footer .text-btn{font-size:9px}
+ .heat-content-list{max-height:255px}.heat-content-list li{grid-template-columns:34px minmax(0,1fr);gap:7px;padding:8px 0}.heat-content-list a{font-size:12px}.heat-content-list time{font-size:10px}
+}
+@media(max-width:350px){.field-tabs button{font-size:10px;padding:5px 7px}.heat-range select{max-width:82px;font-size:10px}.trend-explorer .heat-row{grid-template-columns:98px repeat(var(--days),minmax(20px,1fr)) 23px;min-width:calc(124px + var(--days) * 23px)}.trend-explorer .heat-topic b{font-size:10px}}
+
+/* Sticky labels blend with glass until horizontal scrolling needs an opaque edge. */
+.trend-explorer .heat-topic{align-self:stretch;display:flex;align-items:center;background:transparent}
+.trend-explorer .heat-head>span:first-child{background:transparent}
+.trend-explorer .heat-scroll.scrolled .heat-topic,.trend-explorer .heat-scroll.scrolled .heat-head>span:first-child{background:var(--surface-solid)}
