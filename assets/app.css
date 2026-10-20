@@ -424,6 +424,7 @@ select option{background:var(--surface-solid);color:var(--text)}
 @media(max-width:720px){
  .panel,.card,.archive-card,.judgment{-webkit-backdrop-filter:none;backdrop-filter:none}
 }
+@media(max-width:350px){.daily-body .filters{gap:3px}}
 @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
  .panel,.card,.archive-card,.judgment{background:color-mix(in srgb,var(--surface-solid) 94%,var(--bg))}
 }
