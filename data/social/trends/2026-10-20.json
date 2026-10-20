@@ -3137,32 +3137,16 @@
       "domain": "AI",
       "title": "Agent维护：可调试、可迁移、可计量",
       "chart_label": "Agent调试与模型迁移",
-      "change": "会话级成本日志、假模型调试和模型退役，把维护重点从提示词扩展到完整运行链。",
+      "change": "会话级成本日志与假模型调试，把维护重点从提示词扩展到完整运行链。",
       "meaning": "模型或插件更新前后，用固定任务验证消息结构、工具调用、质量、延迟和成本。",
       "confidence": "中高",
-      "confidence_reason": "三个独立官方或作者发布记录了实际功能与退役事件；工作流建议为编辑综合。",
+      "confidence_reason": "两条独立官方或作者发布记录了实际日志与调试功能；工作流建议为编辑综合。",
       "related": {
         "channel": "journal",
         "direction_id": "agent-efficiency-observability",
         "label": "连读期刊：效率与可观测性"
       },
       "evidence": [
-        {
-          "id": "ec8a3eed6e1b",
-          "title": "AI Gateway logs now show session affinity",
-          "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
-          "date": "2026-10-18",
-          "domain": "AI",
-          "topic_id": "ai-other",
-          "sources": [
-            "Vercel"
-          ],
-          "platform": "博客",
-          "first_seen": "2026-10-19T06:16:07.398604+00:00",
-          "last_seen": "2026-10-19T06:16:07.398604+00:00",
-          "label": "会话级成本与缓存",
-          "note": "10月18日发布，会话视图汇总模型、提供方、成本和缓存。"
-        },
         {
           "id": "ec8a3eed6e1b",
           "title": "AI Gateway logs now show session affinity",

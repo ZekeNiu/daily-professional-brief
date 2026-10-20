@@ -7,9 +7,16 @@
     "title": "把标签拆回真实负荷，把Agent拆回可调试过程",
     "signal": "本期讨论最有价值的共同点，是把训练名称、比赛总量和AI模型名称拆回实际剂量、任务上下文与运行记录。",
     "total": 6,
-    "counts": {"运动科学": 2, "运动健康": 2, "AI": 2}
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 2,
+      "AI": 2
+    }
   },
-  "navigation": {"prev": null, "next": null},
+  "navigation": {
+    "prev": "2026-10-19",
+    "next": null
+  },
   "section_notes": {
     "运动科学": "比赛跑动总量与肌纤维刺激，都需要回到任务和机制解释。",
     "运动健康": "肌腱康复与固定期营养讨论，强调记录真实暴露和目标结局。",
@@ -32,7 +39,9 @@
       "evidence": "专家观点与公开联赛汇总数据；含单俱乐部观察案例",
       "confidence": "中",
       "confidence_reason": "原文和数字可核；解释符合任务需求逻辑，但不是因果研究。",
-      "source": {"url": "https://martin-buchheit.net/2026/10/12/le-concept-na-pas-de-sens-pourquoi-les-kilometres-parcourus-sont-un-mauvais-indicateur-pour-evaluer-la-performance-ou-la-forme-physique/"},
+      "source": {
+        "url": "https://martin-buchheit.net/2026/10/12/le-concept-na-pas-de-sens-pourquoi-les-kilometres-parcourus-sont-un-mauvais-indicateur-pour-evaluer-la-performance-ou-la-forme-physique/"
+      },
       "references": [],
       "limit": "本期首次观察；原文发表于10月12日。"
     },
@@ -52,7 +61,9 @@
       "evidence": "专家社媒观点；机制线索，未按完整线程核验",
       "confidence": "低",
       "confidence_reason": "作者身份和发表日期已核实，但本期仅取得主题元数据，不能评估完整论证。",
-      "source": {"url": "https://x.com/SandCResearch/status/2110656989055344847"},
+      "source": {
+        "url": "https://x.com/SandCResearch/status/2110656989055344847"
+      },
       "references": [],
       "limit": ""
     },
@@ -72,7 +83,9 @@
       "evidence": "专家方法文章；框架尚未验证，引用既有综述与临床试验",
       "confidence": "中",
       "confidence_reason": "文章定位和操作项清楚；框架本身还没有测量学或结局验证。",
-      "source": {"url": "https://blogs.bmj.com/bjsm/2026/10/19/whats-behind-the-label-rethinking-exercise-prescription-for-tendinopathy/"},
+      "source": {
+        "url": "https://blogs.bmj.com/bjsm/2026/10/19/whats-behind-the-label-rethinking-exercise-prescription-for-tendinopathy/"
+      },
       "references": [],
       "limit": ""
     },
@@ -92,7 +105,9 @@
       "evidence": "已核实作者与日期的社媒线索；原始研究未取得",
       "confidence": "未知",
       "confidence_reason": "无法核对研究设计、样本、剂量和效应。",
-      "source": {"url": "https://x.com/SandCResearch/status/2110297106636259587"},
+      "source": {
+        "url": "https://x.com/SandCResearch/status/2110297106636259587"
+      },
       "references": [],
       "limit": ""
     },
@@ -112,8 +127,15 @@
       "evidence": "作者发布说明与开源插件版本",
       "confidence": "高",
       "confidence_reason": "版本行为由作者发布页直接说明；生产收益需由团队自己的测试确认。",
-      "source": {"url": "https://simonwillison.net/2026/Oct/18/llm-echo"},
-      "references": [{"label": "插件发布页", "url": "https://github.com/simonw/llm-echo/releases/tag/0.5"}],
+      "source": {
+        "url": "https://simonwillison.net/2026/Oct/18/llm-echo"
+      },
+      "references": [
+        {
+          "label": "插件发布页",
+          "url": "https://github.com/simonw/llm-echo/releases/tag/0.5"
+        }
+      ],
       "limit": ""
     },
     {
@@ -132,7 +154,9 @@
       "evidence": "GitHub官方退役公告；执行日期2026-10-19",
       "confidence": "高",
       "confidence_reason": "退役范围、日期和替代项均由官方公告确认。",
-      "source": {"url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/"},
+      "source": {
+        "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/"
+      },
       "references": [],
       "limit": ""
     }
@@ -153,10 +177,22 @@
       "confidence": "中",
       "confidence_reason": "两篇独立BJSM专业文章分别提供剂量记录框架与治疗后活动维持线索；趋势为编辑综合。",
       "references": [
-        {"url": "https://blogs.bmj.com/bjsm/2026/10/19/whats-behind-the-label-rethinking-exercise-prescription-for-tendinopathy/", "label": "肌腱机械剂量框架", "note": "要求记录负荷、努力程度、范围、速度与后续反应。"},
-        {"url": "https://blogs.bmj.com/bjsm/2026/10/12/what-helps-people-stay-active-after-exercise-therapy-ends/", "label": "治疗后活动维持", "note": "把治疗结束后的持续活动与支持机制纳入康复设计。"}
+        {
+          "url": "https://blogs.bmj.com/bjsm/2026/10/19/whats-behind-the-label-rethinking-exercise-prescription-for-tendinopathy/",
+          "label": "肌腱机械剂量框架",
+          "note": "要求记录负荷、努力程度、范围、速度与后续反应。"
+        },
+        {
+          "url": "https://blogs.bmj.com/bjsm/2026/10/12/what-helps-people-stay-active-after-exercise-therapy-ends/",
+          "label": "治疗后活动维持",
+          "note": "把治疗结束后的持续活动与支持机制纳入康复设计。"
+        }
       ],
-      "related": {"channel": "journal", "direction_id": "dose-outcome-alignment", "label": "连读期刊：剂量与功能结局"}
+      "related": {
+        "channel": "journal",
+        "direction_id": "dose-outcome-alignment",
+        "label": "连读期刊：剂量与功能结局"
+      }
     },
     {
       "id": "agent-debug-migration",
@@ -168,10 +204,23 @@
       "confidence": "中高",
       "confidence_reason": "两条独立官方或作者发布记录了实际日志与调试功能；工作流建议为编辑综合。",
       "references": [
-        {"url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity", "label": "会话级成本与缓存", "note": "10月18日发布，会话视图汇总模型、提供方、成本和缓存。"},
-        {"url": "https://simonwillison.net/2026/Oct/18/llm-echo", "label": "假模型调试usage", "note": "0.5版纳入工具、系统提示和推理token。"}
+        {
+          "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+          "label": "会话级成本与缓存",
+          "note": "10月18日发布，会话视图汇总模型、提供方、成本和缓存。"
+        },
+        {
+          "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+          "label": "假模型调试usage",
+          "note": "0.5版纳入工具、系统提示和推理token。"
+        }
       ],
-      "related": {"channel": "journal", "direction_id": "agent-efficiency-observability", "label": "连读期刊：效率与可观测性"}
+      "related": {
+        "channel": "journal",
+        "direction_id": "agent-efficiency-observability",
+        "label": "连读期刊：效率与可观测性"
+      }
     }
-  ]
+  ],
+  "trends_url": "data/social/trends/2026-10-20.json"
 }
