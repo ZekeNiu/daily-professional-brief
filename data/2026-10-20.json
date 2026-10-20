@@ -3,10 +3,17 @@
   "title": "每日专业资讯简报",
   "summary": {
     "total": 7,
-    "counts": {"运动科学": 4, "运动健康": 2, "AI": 1},
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 2,
+      "AI": 1
+    },
     "signal": "本期最重要的进展是：专项任务中的神经与体能指标可以解释局部过程，却仍不能单独预测场上表现；训练和康复决策要把任务、剂量与结局逐项对齐。"
   },
-  "navigation": {"prev": null, "next": null},
+  "navigation": {
+    "prev": "2026-10-19",
+    "next": null
+  },
   "section_notes": {
     "运动科学": "专项认知测试、赛季监测、肌纤维负荷反应与神经调控干预，都显示结果高度依赖任务和测量层级。",
     "运动健康": "足弓运动方案和肌少症训练证据提示：结构指标、功能指标与处方达标度需要分别判断。",
@@ -25,7 +32,10 @@
       "what": "足球专项任务中，更短反应时与更负的额区No-go-N2峰值相关（r=0.552，p<0.001，n=37）。但Arrowhead变向、Yo-Yo IR2、专项反应时和No-go-N2共同预测技术战术评分的模型未达显著（调整R²=0.186，p=0.052），四个独立预测量也均不显著。",
       "why": "研究把抑制控制从通用按键任务推进到足球图像和脚部反应，但同时说明更贴近专项的实验室信号仍不等于比赛表现。",
       "limit": "体能/脑电测试与小场比赛评分相隔约3个月。",
-      "source": {"title": "Frontiers in Sports and Active Living原始研究（DOI 10.3389/fspor.2026.1972760）", "url": "https://doi.org/10.3389/fspor.2026.1972760"}
+      "source": {
+        "title": "Frontiers in Sports and Active Living原始研究（DOI 10.3389/fspor.2026.1972760）",
+        "url": "https://doi.org/10.3389/fspor.2026.1972760"
+      }
     },
     {
       "priority": "值得了解",
@@ -39,7 +49,10 @@
       "what": "间歇耐力与力量耐力提高，CMJ整季无显著变化。胜负与上半场防守效率（rpb=0.680）和门将效率（rpb=0.576）相关；近期战术训练和整合训练与比赛结果的相关分别为r=0.54和0.48。",
       "why": "这项研究把负荷、神经肌肉状态、心理状态、训练内容和比赛结果放在同一时间线上，显示监测面板的价值在于支持微周期解释，而不是寻找一个总分。",
       "limit": "相关结果不能证明增加战术训练本身会提高胜率。",
-      "source": {"title": "Frontiers in Sports and Active Living原始研究（DOI 10.3389/fspor.2026.1869707）", "url": "https://doi.org/10.3389/fspor.2026.1869707"}
+      "source": {
+        "title": "Frontiers in Sports and Active Living原始研究（DOI 10.3389/fspor.2026.1869707）",
+        "url": "https://doi.org/10.3389/fspor.2026.1869707"
+      }
     },
     {
       "priority": "重点关注",
@@ -53,7 +66,10 @@
       "what": "模型在20%–30% 1RM呈I型纤维可能更大的方向，在60%–90% 1RM呈II型纤维可能更大的方向；但所有成对差异的95%置信区间都包含零。样本多为年轻、缺乏训练经验者，全部活检来自股外侧肌。",
       "why": "它直接检验了“低负荷练慢肌、高负荷练快肌”这类流行说法，结果显示当前数据只能生成假设，不能支持确定性分型。",
       "limit": "本期补收原因：该结果对阻力训练处方的常见误读具有直接纠偏价值。",
-      "source": {"title": "Frontiers in Physiology系统综述（DOI 10.3389/fphys.2026.1953601）", "url": "https://doi.org/10.3389/fphys.2026.1953601"}
+      "source": {
+        "title": "Frontiers in Physiology系统综述（DOI 10.3389/fphys.2026.1953601）",
+        "url": "https://doi.org/10.3389/fphys.2026.1953601"
+      }
     },
     {
       "priority": "值得了解",
@@ -67,7 +83,10 @@
       "what": "助跑跳的时间×组别交互显著（p=0.021，偏η²=0.165），真实刺激组前后效应量d=0.93；No-go P3振幅也出现组别交互。CMJ、膝伸等速力量和反应时仅见时间效应，立定跳远无显著变化。",
       "why": "阳性和阴性结局并存，使这项研究比笼统的“tDCS提升表现”更有信息量：可能的收益集中于与训练动作更接近的任务。",
       "limit": "未提供比赛技术表现或持续效应数据。",
-      "source": {"title": "Frontiers in Physiology随机对照试验（DOI 10.3389/fphys.2026.1717237）", "url": "https://doi.org/10.3389/fphys.2026.1717237"}
+      "source": {
+        "title": "Frontiers in Physiology随机对照试验（DOI 10.3389/fphys.2026.1717237）",
+        "url": "https://doi.org/10.3389/fphys.2026.1717237"
+      }
     },
     {
       "priority": "重点关注",
@@ -81,7 +100,10 @@
       "what": "近端链方案相较局部足踝训练使舟骨下降平均减少2.34毫米（95%CI -3.30至-1.37，I²=84.6%）。FPI-6差异跨零；Y-Balance三个方向均未显示明确优势，步态、肌力、疼痛和依从性资料稀少。",
       "why": "研究区分了足部姿势变化与实际功能获益，避免把一个结构替代指标直接写成康复成功。",
       "limit": "各试验的训练量、监督和局部足踝内容并不完全一致。",
-      "source": {"title": "Frontiers in Physiology系统综述（DOI 10.3389/fphys.2026.1959545）", "url": "https://doi.org/10.3389/fphys.2026.1959545"}
+      "source": {
+        "title": "Frontiers in Physiology系统综述（DOI 10.3389/fphys.2026.1959545）",
+        "url": "https://doi.org/10.3389/fphys.2026.1959545"
+      }
     },
     {
       "priority": "值得了解",
@@ -95,7 +117,10 @@
       "what": "运动对握力SMD=0.47、步速SMD=0.70、步行测试SMD=-0.73、骨骼肌指数SMD=0.48。高ACSM达标组的握力效应SMD=0.62，低或不明确组为0.16；研究并未显示体重、BMI或瘦体重稳定改善。",
       "why": "这项分析把“运动有效”推进到“处方是否真正达到可产生适应的剂量”，对临床执行和记录更有用。",
       "limit": "达标度来自试验层面的事后分组，不能等同于个体依从性剂量反应。",
-      "source": {"title": "Frontiers in Physiology系统综述（DOI 10.3389/fphys.2026.1882998）", "url": "https://doi.org/10.3389/fphys.2026.1882998"}
+      "source": {
+        "title": "Frontiers in Physiology系统综述（DOI 10.3389/fphys.2026.1882998）",
+        "url": "https://doi.org/10.3389/fphys.2026.1882998"
+      }
     },
     {
       "priority": "值得了解",
@@ -109,7 +134,10 @@
       "what": "HybridLink允许模型在隐式推理和文本模式之间切换，连续工作记忆保存跨轮上下文，工具调用仍以可读文本执行。作者报告相对对照平均性能提高10.4%，推理速度提高1.8–2.6倍、成本降低2.7–3.7倍。",
       "why": "如果复现成立，它回应了Agent的核心成本矛盾：内部推理可压缩，但外部行动仍需要可检查、可调用的文本接口。",
       "limit": "10月18日社区讨论形成新的关注触发；本条结论仅按论文与公开代码主张表述。",
-      "source": {"title": "arXiv预印本 2610.18861", "url": "https://arxiv.org/abs/2610.18861"}
+      "source": {
+        "title": "arXiv预印本 2610.18861",
+        "url": "https://arxiv.org/abs/2610.18861"
+      }
     }
   ],
   "professional_judgment": [
@@ -128,8 +156,18 @@
       "confidence": "中",
       "confidence_reason": "一项当期专项任务研究与前一期空手道多指标研究方向一致；趋势为编辑综合。",
       "references": [
-        {"url": "https://doi.org/10.3389/fspor.2026.1972760", "edition_date": "2026-10-20", "label": "足球专项抑制控制", "note": "专项ERP与反应时相关，但未独立预测小场技术战术评分。"},
-        {"url": "https://doi.org/10.3389/fspor.2026.1952574", "edition_date": "2026-10-19", "label": "空手道多指标关联", "note": "力量、跳跃与心理运动能力的相关在多重校正后均未保留。"}
+        {
+          "url": "https://doi.org/10.3389/fspor.2026.1972760",
+          "edition_date": "2026-10-20",
+          "label": "足球专项抑制控制",
+          "note": "专项ERP与反应时相关，但未独立预测小场技术战术评分。"
+        },
+        {
+          "url": "https://doi.org/10.3389/fspor.2026.1952574",
+          "edition_date": "2026-10-19",
+          "label": "空手道多指标关联",
+          "note": "力量、跳跃与心理运动能力的相关在多重校正后均未保留。"
+        }
       ]
     },
     {
@@ -142,10 +180,24 @@
       "confidence": "中低",
       "confidence_reason": "两篇综合证据提供互补结果，但偏倚、异质性和事后分组降低确定性。",
       "references": [
-        {"url": "https://doi.org/10.3389/fphys.2026.1959545", "edition_date": "2026-10-20", "label": "柔性扁平足近端链训练", "note": "结构指标小幅改善，动态和患者结局证据不足。"},
-        {"url": "https://doi.org/10.3389/fphys.2026.1882998", "edition_date": "2026-10-20", "label": "肌少症处方达标度", "note": "较高处方达标度与多项功能效应更大相关。"}
+        {
+          "url": "https://doi.org/10.3389/fphys.2026.1959545",
+          "edition_date": "2026-10-20",
+          "label": "柔性扁平足近端链训练",
+          "note": "结构指标小幅改善，动态和患者结局证据不足。"
+        },
+        {
+          "url": "https://doi.org/10.3389/fphys.2026.1882998",
+          "edition_date": "2026-10-20",
+          "label": "肌少症处方达标度",
+          "note": "较高处方达标度与多项功能效应更大相关。"
+        }
       ],
-      "related": {"channel": "social", "direction_id": "visible-dose", "label": "连读社媒：把运动剂量写清楚"}
+      "related": {
+        "channel": "social",
+        "direction_id": "visible-dose",
+        "label": "连读社媒：把运动剂量写清楚"
+      }
     },
     {
       "id": "agent-efficiency-observability",
@@ -157,10 +209,25 @@
       "confidence": "中低",
       "confidence_reason": "架构收益来自预印本自报；代码Agent行为变化可由官方版本记录核实。",
       "references": [
-        {"url": "https://arxiv.org/abs/2610.18861", "edition_date": "2026-10-20", "label": "混合推理Agent", "note": "作者报告token、延迟和成本下降。"},
-        {"url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md", "edition_date": "2026-10-19", "label": "Claude Code运行行为调整", "note": "2.1.302调整自动模式、上下文压缩与子Agent行为。"}
+        {
+          "url": "https://arxiv.org/abs/2610.18861",
+          "edition_date": "2026-10-20",
+          "label": "混合推理Agent",
+          "note": "作者报告token、延迟和成本下降。"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+          "edition_date": "2026-10-19",
+          "label": "Claude Code运行行为调整",
+          "note": "2.1.302调整自动模式、上下文压缩与子Agent行为。"
+        }
       ],
-      "related": {"channel": "social", "direction_id": "agent-debug-migration", "label": "连读社媒：调试与模型迁移"}
+      "related": {
+        "channel": "social",
+        "direction_id": "agent-debug-migration",
+        "label": "连读社媒：调试与模型迁移"
+      }
     }
-  ]
+  ],
+  "trends_url": "data/trends/2026-10-20.json"
 }
