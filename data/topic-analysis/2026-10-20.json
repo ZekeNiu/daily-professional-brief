@@ -1,0 +1,1051 @@
+{
+  "version": 1,
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T09:17:53+08:00",
+  "generated_by": "ChatGPT",
+  "channels": {
+    "journal": {
+      "start": "2026-09-21",
+      "end": "2026-10-20",
+      "source_fingerprint": "e30d275a1eef138ccc5759be7bbeaa2dab309971f5c17ea9175cfff1dd7840d1",
+      "topics": [
+        {
+          "id": "j-sport-task-validity",
+          "domain": "运动科学",
+          "label": "专项测试与表现迁移",
+          "summary": "近期研究把专项测试与实际表现逐项对照：裁判和空手道研究中的实验室指标均未稳定解释实际任务表现。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "7a1272dfeb6d",
+            "503aaf8e0c3e",
+            "1c254d5fc31a",
+            "cbc97380b4d6",
+            "cd3d7c7e848a",
+            "a0476d84a058",
+            "efe0f80768ea",
+            "e74336af1e4a",
+            "daf41ceb10fe",
+            "2c2bef48f982",
+            "2abd10d0ef27"
+          ],
+          "summary_refs": [
+            "2c2bef48f982",
+            "2abd10d0ef27"
+          ]
+        },
+        {
+          "id": "j-sport-load-decisions",
+          "domain": "运动科学",
+          "label": "疲劳监控与训练决策",
+          "summary": "议题从增加监控指标转向明确决策用途：CMJ代表值、个人常态和外部机械功口径都影响监控信息的解释。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "e3abe4ece2ac",
+            "c2ef100b3692",
+            "3e92e0ce50c3",
+            "0b69e7b34b2d",
+            "e923d5fb0963",
+            "b83af7cffcd7",
+            "5fa143c1d50a",
+            "ddc1d5acee95",
+            "f7d51d8c4436"
+          ],
+          "summary_refs": [
+            "b83af7cffcd7",
+            "f7d51d8c4436"
+          ]
+        },
+        {
+          "id": "j-sport-injury-models",
+          "domain": "运动科学",
+          "label": "伤病预测模型的验证",
+          "summary": "两项机器学习研究共同提示，区分度、误报和极少数伤病样本需要一起审查。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "b5a878852926",
+            "0791ef5ef4c3"
+          ],
+          "summary_refs": [
+            "b5a878852926",
+            "0791ef5ef4c3"
+          ]
+        },
+        {
+          "id": "j-sport-warmup-pape",
+          "domain": "运动科学",
+          "label": "热身与PAPE刺激选择",
+          "summary": "热身共识、证据综述和青少年女篮试验聚焦同一问题：额外激活刺激是否比现有热身带来任务相关收益。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "f7ad8a78ddd0",
+            "e0ef3ab82824",
+            "dec9c807a3a3",
+            "3a4034995ac3",
+            "5171c9ab190f",
+            "2eb58b585498"
+          ],
+          "summary_refs": [
+            "5171c9ab190f",
+            "2eb58b585498"
+          ]
+        },
+        {
+          "id": "j-sport-rest-structure",
+          "domain": "运动科学",
+          "label": "组内休息与输出维持",
+          "summary": "总休息量相同时，组内休息或自选间歇仍可能改变重复表现、总功率与主观疲劳。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "270ae9ef4278",
+            "3be1014717b7",
+            "310adbaec45d",
+            "829ea849113f"
+          ],
+          "summary_refs": [
+            "310adbaec45d",
+            "829ea849113f"
+          ]
+        },
+        {
+          "id": "j-sport-muscle-adaptation",
+          "domain": "运动科学",
+          "label": "肌纤维肥大与适应机制",
+          "summary": "肌纤维负荷研究、肥大测量审计与代谢机制综述，把肌肉适应进一步拆到结构层级及测量构念。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "4cd66e7574a3",
+            "209068535776",
+            "e9c0064483f6",
+            "9977c9e81403",
+            "6ba5cbbed46b"
+          ],
+          "summary_refs": [
+            "9977c9e81403",
+            "6ba5cbbed46b"
+          ]
+        },
+        {
+          "id": "j-sport-landing-load",
+          "domain": "运动科学",
+          "label": "落地与跑步的组织负荷",
+          "summary": "疲劳、地面和个体结构都可能改变力学指标；跑姿或落地指标需要对应到具体组织与任务解释。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "8894eb97249e",
+            "db7c58c6a052",
+            "cb32f705ad36",
+            "421e2803db57",
+            "3ca0b747d5a0",
+            "4f74093e786b",
+            "264d20b7a229"
+          ],
+          "summary_refs": [
+            "4f74093e786b",
+            "264d20b7a229"
+          ]
+        },
+        {
+          "id": "j-sport-nutrition-benefit",
+          "domain": "运动科学",
+          "label": "补剂与补水的实际收益",
+          "summary": "肌酸、瓜氨酸、睡眠补剂和脱水研究分别检验具体结局，主观改善与训练表现收益需要分开核对。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "83252db5a889",
+            "fd910cbae584",
+            "eeeec359b228",
+            "3a4d9f081656"
+          ],
+          "summary_refs": [
+            "fd910cbae584",
+            "eeeec359b228"
+          ]
+        },
+        {
+          "id": "j-sport-neuro-task",
+          "domain": "运动科学",
+          "label": "神经认知与专项执行",
+          "summary": "神经反馈、专项抑制任务和tDCS研究均在检验信号变化能否迁移到具体执行任务，而非仅报告实验室指标改善。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "104ac871d2ec",
+            "43b569b97229",
+            "cb6dd6080711",
+            "b5c4cb530df1",
+            "9fa234b8127d"
+          ],
+          "summary_refs": [
+            "b5c4cb530df1",
+            "9fa234b8127d"
+          ]
+        },
+        {
+          "id": "j-health-return-sport",
+          "domain": "运动健康",
+          "label": "ACL与腘绳肌重返运动",
+          "summary": "复出研究同时关注负荷耐受、场上表现、影像解释和后续损伤，单项结果不能覆盖整个回归过程。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "643ab3d87239",
+            "883e1e8f4988",
+            "2b2e4c2fca51",
+            "dd1789548074",
+            "fce76243fefb"
+          ],
+          "summary_refs": [
+            "2b2e4c2fca51",
+            "fce76243fefb"
+          ]
+        },
+        {
+          "id": "j-health-risk-validity",
+          "domain": "运动健康",
+          "label": "伤病筛查的预测效度",
+          "summary": "等速力量、可穿戴负荷与内部生物反应评分采用不同预测设计，近期结果需要结合样本和外部验证情况连读。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "9642f535ede9",
+            "6d762828e445",
+            "a3bda0db585a",
+            "2199f5872d2f",
+            "e2e609ce280d"
+          ],
+          "summary_refs": [
+            "2199f5872d2f",
+            "e2e609ce280d"
+          ]
+        },
+        {
+          "id": "j-health-stroke-walking",
+          "domain": "运动健康",
+          "label": "卒中辅助训练的净增益",
+          "summary": "Myosuit、外骨骼和血流限制训练研究集中检验步行与下肢功能，部分统计变化尚未形成一致的额外临床收益。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "5849ea8cc025",
+            "856973fe6b71",
+            "f989b9704ad8",
+            "904bb56fd269"
+          ],
+          "summary_refs": [
+            "f989b9704ad8",
+            "904bb56fd269"
+          ]
+        },
+        {
+          "id": "j-health-digital-outcomes",
+          "domain": "运动健康",
+          "label": "数字康复的效果与依从性",
+          "summary": "数字康复研究开始同时观察功能结果与持续参与：技术可用、短期指标变化和长期活动轨迹是不同问题。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "7e771144366e",
+            "ad3b8818ebaf",
+            "d7ab07fe62cf",
+            "89d3a6dba714",
+            "35ca5149bfc3",
+            "937f0fac9c9f"
+          ],
+          "summary_refs": [
+            "89d3a6dba714",
+            "937f0fac9c9f"
+          ]
+        },
+        {
+          "id": "j-health-chronic-pain",
+          "domain": "运动健康",
+          "label": "运动缓解慢性疼痛的收益",
+          "summary": "运动对疼痛灾难化、功能与具体病种的收益并不一致；慢性疼痛Meta分析可与太极病种综述对照阅读。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "639f6ca62b46",
+            "f52a8c3192b8"
+          ],
+          "summary_refs": [
+            "639f6ca62b46",
+            "f52a8c3192b8"
+          ]
+        },
+        {
+          "id": "j-health-cardiometabolic",
+          "domain": "运动健康",
+          "label": "运动处方的心代谢结局",
+          "summary": "血管功能、血压、心衰功能与肝代谢研究使用不同终点，体适能改善并不自动意味着所有疾病指标同步改善。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "ace82a734db5",
+            "451c24379693",
+            "4a1ce75bd29e",
+            "21df4ed4048a",
+            "56f3e0e5e1c7",
+            "50330311422f"
+          ],
+          "summary_refs": [
+            "56f3e0e5e1c7",
+            "50330311422f"
+          ]
+        },
+        {
+          "id": "j-health-frailty-dose",
+          "domain": "运动健康",
+          "label": "肌少症与衰弱运动处方",
+          "summary": "近期综述把肌肉功能、步行和跌倒结局与运动方案对应，肌少症研究进一步关注频率、强度及时长的达标度。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "ae7eef35730a",
+            "fa9095dd6743",
+            "80ed6ccfd8f8"
+          ],
+          "summary_refs": [
+            "ae7eef35730a",
+            "80ed6ccfd8f8"
+          ]
+        },
+        {
+          "id": "j-health-massage-recovery",
+          "domain": "运动健康",
+          "label": "按摩恢复的主客观效应",
+          "summary": "体操与柔道研究分别测量疲劳感、本体感觉和肌肉僵硬；这些变化与爆发输出并非同一结果。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "f8aba6fd82ca",
+            "bfd36f599d01"
+          ],
+          "summary_refs": [
+            "f8aba6fd82ca",
+            "bfd36f599d01"
+          ]
+        },
+        {
+          "id": "j-health-balance-transfer",
+          "domain": "运动健康",
+          "label": "平衡干预与功能迁移",
+          "summary": "振动鞋垫、实时反馈与足部近端训练改善的指标各不相同，结构或平衡变化应与实际功能结局一并查看。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "6e02abd8f1ab",
+            "10f18e3eedf2",
+            "0bffa120ade3"
+          ],
+          "summary_refs": [
+            "10f18e3eedf2",
+            "0bffa120ade3"
+          ]
+        },
+        {
+          "id": "j-health-head-impact",
+          "domain": "运动健康",
+          "label": "头部撞击与恢复评估",
+          "summary": "头部冲击防护、累计暴露与脑损伤恢复分别涉及生物力学、神经认知和心理因素，需要按研究层级连读。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "3b07855f93a6",
+            "17d1f60af5f0",
+            "1fe41da2247f"
+          ],
+          "summary_refs": [
+            "3b07855f93a6",
+            "17d1f60af5f0"
+          ]
+        },
+        {
+          "id": "j-health-reds-screening",
+          "domain": "运动健康",
+          "label": "低能量可用性与REDs筛查",
+          "summary": "能量平衡研究与指南实施综述共同把问题落到恢复健康、筛查工具和实际执行，而不只看体重变化。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "357fe7ffb297",
+            "23d5112ca8de"
+          ],
+          "summary_refs": [
+            "357fe7ffb297",
+            "23d5112ca8de"
+          ]
+        },
+        {
+          "id": "j-ai-runtime-audit",
+          "domain": "AI",
+          "label": "Agent越权与运行审计",
+          "summary": "近期事件披露、系统调用审计和生产轨迹监测，都把Agent评估从任务结果推进到实际执行过程。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "c955e8a2961f",
+            "fc1448521700",
+            "d957d6c99957",
+            "09588a91d3e0",
+            "4421cb94cd13",
+            "49ff66e5f6ce",
+            "dd3480c18e77",
+            "2c185d617251",
+            "b9e7915be186",
+            "93854539beed",
+            "7012647b8221",
+            "830cae1f4f8c",
+            "4e66a7e453a3",
+            "e53d362bf380",
+            "263d0fc8b02c",
+            "515c82f613b8",
+            "fd0f0f457a22",
+            "50f30069a754"
+          ],
+          "summary_refs": [
+            "830cae1f4f8c",
+            "263d0fc8b02c"
+          ]
+        },
+        {
+          "id": "j-ai-code-review-repair",
+          "domain": "AI",
+          "label": "编码Agent的评审与修复",
+          "summary": "代码审查、AI Scan和代理修复进入常用工作流，审查速度、语言覆盖与修复后的复验需要分别核对。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "d8b55c40c599",
+            "1784e10e2112",
+            "744500a45867",
+            "e7d74824ba10",
+            "0e68ff3d1c05",
+            "b3181e9e7545",
+            "a2f02a2750d4",
+            "3fb5ca9402f1",
+            "67e0e2ca251f"
+          ],
+          "summary_refs": [
+            "a2f02a2750d4",
+            "67e0e2ca251f"
+          ]
+        },
+        {
+          "id": "j-ai-context-cost",
+          "domain": "AI",
+          "label": "上下文压缩与推理成本",
+          "summary": "上下文压缩策略、令牌计数与混合推理架构从不同层面优化长任务成本，效果依赖各自的评测设置。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "c86beef864f4",
+            "9275e031a99e",
+            "1155c3483f6d",
+            "6652a5764d46",
+            "61bfecb8e249",
+            "ae6e49210029"
+          ],
+          "summary_refs": [
+            "1155c3483f6d",
+            "ae6e49210029"
+          ]
+        },
+        {
+          "id": "j-ai-orchestration-tools",
+          "domain": "AI",
+          "label": "多Agent编排与工具接入",
+          "summary": "可编程编排、持续型任务、多模型协作与工具启动设置共同改变Agent的组织方式和运行流程。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "c4f6b71acc49",
+            "9b8bb9aa720a",
+            "ca54f2835997",
+            "c38af6e5cae4",
+            "6700ae6042b7",
+            "4cac4ccbea57",
+            "07cea01bdb80",
+            "69d3bdce5fc6",
+            "0b465ac1bcd5"
+          ],
+          "summary_refs": [
+            "ca54f2835997",
+            "0b465ac1bcd5"
+          ]
+        },
+        {
+          "id": "j-ai-model-availability",
+          "domain": "AI",
+          "label": "模型可用性与版本迁移",
+          "summary": "近期模型更新同时涉及限量开放、扩大接入、快速模式及旧模型退役，使用条件变化本身也是工作流迁移信号。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "e3a5934e3172",
+            "0dd3bed5c7dd",
+            "4e3ca8a95d36",
+            "5906a70e58c6",
+            "8a18dee8ca8f",
+            "fa7d8125075c",
+            "917ba46d3f15",
+            "f903fa4c6622",
+            "6c94397e1b7b",
+            "40e53f330e1e",
+            "3889374a34b9"
+          ],
+          "summary_refs": [
+            "6c94397e1b7b",
+            "40e53f330e1e"
+          ]
+        },
+        {
+          "id": "j-ai-science-validation",
+          "domain": "AI",
+          "label": "科研Agent的验证与应用",
+          "summary": "科研检索、论文转Agent和物理求解器研究采用不同的验证任务；科研模型开放则进一步改变实际接入条件。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "ef1b3a4772ea",
+            "e49faaf95243",
+            "e72715cb6aeb",
+            "c24558a8f175",
+            "1a19b67cb952",
+            "32165ee6af89"
+          ],
+          "summary_refs": [
+            "1a19b67cb952",
+            "32165ee6af89"
+          ]
+        },
+        {
+          "id": "j-ai-business-artifacts",
+          "domain": "AI",
+          "label": "数据与办公Agent的落地",
+          "summary": "数据任务评测、企业Agent、可审计Dashboard和演示文稿工具，把生成内容推进到业务数据与可编辑产物。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "b29526b4a6c6",
+            "a44eac78d893",
+            "c84dc311ce76",
+            "9de6ce5d556c",
+            "2eea8542a0bf",
+            "43a60d6d7bd4"
+          ],
+          "summary_refs": [
+            "2eea8542a0bf",
+            "43a60d6d7bd4"
+          ]
+        },
+        {
+          "id": "j-ai-live-voice",
+          "domain": "AI",
+          "label": "语音与实时多模态交互",
+          "summary": "实时视觉语音会话、可提示TTS和自定义语音接口，分别推进了交互会话与声音生成的产品能力。",
+          "confidence": "中",
+          "confidence_reason": "所引记录直接支持议题归纳；不将条目数量解释为效果大小。",
+          "item_ids": [
+            "ca359f02283b",
+            "c99106a5c97c",
+            "2f758b406c47"
+          ],
+          "summary_refs": [
+            "ca359f02283b",
+            "2f758b406c47"
+          ]
+        }
+      ],
+      "unassigned_ids": [
+        "3c0adb297ed4",
+        "0bd9fae714f0",
+        "26f1a456c1e2",
+        "f3899afd4d6a",
+        "b15be5900f61",
+        "a5e6698f87e7",
+        "f01c37ee34fb",
+        "857c6645a6f7",
+        "eed48e1c7d80",
+        "ee5a860cf4af",
+        "1714fe93c924",
+        "03604471b2ff",
+        "94385199fd1b",
+        "72618d7b46b1",
+        "b9cba25cf292",
+        "5c355f746b27",
+        "ca2d39a7f5b0",
+        "6347747136d0",
+        "4b3cd63ebf3f",
+        "46b92faa3211",
+        "dcffaf5702d2",
+        "f463ef62c495",
+        "d52d5662ea50",
+        "d8b8487e08fa",
+        "45ae361b046d",
+        "2021068534d3",
+        "d2b5b29b4c81",
+        "de8fbd5b73c1",
+        "307854f5bbc4",
+        "fcb6095a008f",
+        "4b7719dea853",
+        "b66945ffb08e",
+        "c541c5636806",
+        "f56b4611430c",
+        "77afbf0e459b",
+        "e024ecac9882",
+        "a42363a7ca46",
+        "e5dfad53c87c",
+        "ee144f138e09",
+        "8f3ee6969fdd",
+        "72fcb47abe64",
+        "7063dd0c7720",
+        "b1f6ca460e29",
+        "4acdd8b4bda3",
+        "7dc6982d90a0",
+        "499238a7ac2e",
+        "8246c449739b",
+        "c619377fceea",
+        "f4a447b10b96"
+      ]
+    },
+    "social": {
+      "start": "2026-10-07",
+      "end": "2026-10-20",
+      "source_fingerprint": "017c6087eda32fb094088e9bb89bf6d5162ea1b44c98020de5fbfd5648db5bb7",
+      "topics": [
+        {
+          "id": "s-sport-context-load",
+          "domain": "运动科学",
+          "label": "负荷与状态的情境解释",
+          "summary": "赛后休息日、比赛跑动量与环境下心率是近期连读线索，共同指向测试和比赛情境如何影响指标解释。",
+          "confidence": "中",
+          "confidence_reason": "作者原文标题及已核查日报内容支持归组；跨条目联系属于编辑综合。",
+          "item_ids": [
+            "b0ebeed71849",
+            "fb12df8f3b2f",
+            "d3dc072045af",
+            "ab13e5c2646b"
+          ],
+          "summary_refs": [
+            "b0ebeed71849",
+            "ab13e5c2646b"
+          ]
+        },
+        {
+          "id": "s-sport-force-time",
+          "domain": "运动科学",
+          "label": "力时曲线与速度测量",
+          "summary": "Enode测量工具、Hawkin R与Python力时曲线文章，把讨论从单一结果指标延伸到数据读取和完整曲线。",
+          "confidence": "中",
+          "confidence_reason": "两篇同一团队的工具与曲线文章直接相关；来源广度另由图中计数表示。",
+          "item_ids": [
+            "8dea0bbc04c7",
+            "fbaaf239310d",
+            "dc74ca33fd19"
+          ],
+          "summary_refs": [
+            "fbaaf239310d",
+            "dc74ca33fd19"
+          ]
+        },
+        {
+          "id": "s-sport-muscle-stimulus",
+          "domain": "运动科学",
+          "label": "肌肉结构与训练刺激",
+          "summary": "比目鱼肌训练、力量类型、离心柔韧性及肌节与肌原纤维讨论，形成围绕肌肉结构和刺激选择的阅读线索。",
+          "confidence": "中",
+          "confidence_reason": "已核查帖文与作者标题支持议题归纳，不把观点当作统一训练结论。",
+          "item_ids": [
+            "eaa6b9dce4be",
+            "d101caded0de",
+            "x-beardsley-2109932205757673780",
+            "x-beardsley-2110656989055344847"
+          ],
+          "summary_refs": [
+            "x-beardsley-2109932205757673780",
+            "x-beardsley-2110656989055344847"
+          ]
+        },
+        {
+          "id": "s-sport-youth-transfer",
+          "domain": "运动科学",
+          "label": "青少年训练与专项转化",
+          "summary": "运动技能游戏、青少年全身训练模板及短跑人才转项文章，围绕基础运动能力如何进入具体项目展开。",
+          "confidence": "中",
+          "confidence_reason": "标题明确涉及运动技能、青少年或转项；多语版本不作为多条独立进展举证。",
+          "item_ids": [
+            "99a873f42537",
+            "074b7f746122",
+            "d02b7b8b5734",
+            "28733d68b3c0",
+            "8398e9d7071d",
+            "10e96577dcd0",
+            "5bb1c1089483"
+          ],
+          "summary_refs": [
+            "8398e9d7071d",
+            "10e96577dcd0"
+          ]
+        },
+        {
+          "id": "s-health-tendon-dose",
+          "domain": "运动健康",
+          "label": "肌腱负荷与胶原补充",
+          "summary": "肌腱机械剂量处方与胶原补充讨论，分别从训练刺激和营养材料切入组织适应。",
+          "confidence": "中",
+          "confidence_reason": "一篇已核查处方原文与一篇胶原主题材料形成阅读线索，尚不能据此推导干预效果。",
+          "item_ids": [
+            "c10aba2e453b",
+            "bjsm-tendon-dose-20261019"
+          ],
+          "summary_refs": [
+            "c10aba2e453b",
+            "bjsm-tendon-dose-20261019"
+          ]
+        },
+        {
+          "id": "s-health-muscle-preserve",
+          "domain": "运动健康",
+          "label": "低负荷与固定期保肌",
+          "summary": "赛季内血流限制训练和固定期亮氨酸讨论，分别关注训练受限情境下的力量或肌肉量保持。",
+          "confidence": "中",
+          "confidence_reason": "两条内容的情境与干预不同，归组用于对照阅读。",
+          "item_ids": [
+            "78ecce3eb8d5",
+            "x-beardsley-2110297106636259587"
+          ],
+          "summary_refs": [
+            "78ecce3eb8d5",
+            "x-beardsley-2110297106636259587"
+          ]
+        },
+        {
+          "id": "s-health-nerve-imaging",
+          "domain": "运动健康",
+          "label": "神经压迫与影像解释",
+          "summary": "股外侧皮神经症状、腕管综合征指南与脊柱狭窄影像解读，聚焦症状定位、诊断和影像解释。",
+          "confidence": "中",
+          "confidence_reason": "归纳基于具体症状与诊断主题，不凭标题判定临床结论。",
+          "item_ids": [
+            "45f34a289f22",
+            "298e10103127",
+            "622c65694e1d"
+          ],
+          "summary_refs": [
+            "45f34a289f22",
+            "622c65694e1d"
+          ]
+        },
+        {
+          "id": "s-health-food-testing",
+          "domain": "运动健康",
+          "label": "食物敏感检测的有效性",
+          "summary": "近期两则作者讨论分别比较自报过敏与受控测试，以及解释食物敏感性指尖测试。",
+          "confidence": "中",
+          "confidence_reason": "两则已核查帖文来自同一作者，是单一来源的连续讨论。",
+          "item_ids": [
+            "x-asker-2111487940681428997",
+            "x-asker-2111850324675678267"
+          ],
+          "summary_refs": [
+            "x-asker-2111487940681428997",
+            "x-asker-2111850324675678267"
+          ]
+        },
+        {
+          "id": "s-ai-execution-debug",
+          "domain": "AI",
+          "label": "Agent执行与调试",
+          "summary": "运行框架、可查记忆、网关日志、LLM代理和echo测试工具，共同关注Agent执行过程能否被观察和调试。",
+          "confidence": "中",
+          "confidence_reason": "直接工具条目与已核查日报支持归组；未将标题中的性能宣称当作验证结果。",
+          "item_ids": [
+            "22732f8185e3",
+            "4b0006aa1b5d",
+            "7fdb639a7950",
+            "7fc73ab44f09",
+            "ec8a3eed6e1b",
+            "313154ba192d",
+            "ae6e49210029",
+            "d221188525e6"
+          ],
+          "summary_refs": [
+            "ec8a3eed6e1b",
+            "d221188525e6"
+          ]
+        },
+        {
+          "id": "s-ai-multiagent-long",
+          "domain": "AI",
+          "label": "多Agent编排与长任务",
+          "summary": "动态工作流、长时多Agent运行与技能工具入口，把Agent的讨论从单次对话扩展到任务组织。",
+          "confidence": "中",
+          "confidence_reason": "来源标题明确涉及编排或长期运行，具体运行规模属于来源自述。",
+          "item_ids": [
+            "91597643c193",
+            "e71374164f2c",
+            "57c3309db5be",
+            "a8b8c31de898",
+            "x-mollick-2110447059086229670",
+            "9e63539289a3",
+            "962c8c99b4bd"
+          ],
+          "summary_refs": [
+            "e71374164f2c",
+            "a8b8c31de898"
+          ]
+        },
+        {
+          "id": "s-ai-argon-release",
+          "domain": "AI",
+          "label": "Argon上线与工具适配",
+          "summary": "Gemini 4 Argon的发布、责任评估与客户端适配形成一组同期条目，可按日期追踪接入进展。",
+          "confidence": "中",
+          "confidence_reason": "包含官方与工具作者条目；同名发布内容不被解释为独立性能验证。",
+          "item_ids": [
+            "1dc99b611b24",
+            "43abc94dd1f0",
+            "4e31b829ae68",
+            "6451d923eed6",
+            "ed1be8ea5f53"
+          ],
+          "summary_refs": [
+            "4e31b829ae68",
+            "6451d923eed6"
+          ]
+        },
+        {
+          "id": "s-ai-open-ondevice",
+          "domain": "AI",
+          "label": "开放权重与端侧部署",
+          "summary": "开放权重模型、端侧Agent模型、预训练数据与AIPC部署条目，关注模型如何被获取和在本地运行。",
+          "confidence": "中",
+          "confidence_reason": "条目主题支持模型开放与部署归组，未复述未核验的硬件性能数字。",
+          "item_ids": [
+            "2ee55c894d54",
+            "ffd281819637",
+            "53911f98c21c",
+            "ff0cf28c5d75",
+            "06d110e31202",
+            "138e9b7e7d97",
+            "c9a6184923cc",
+            "d33064359577",
+            "0dd91801c3b6"
+          ],
+          "summary_refs": [
+            "53911f98c21c",
+            "c9a6184923cc"
+          ]
+        },
+        {
+          "id": "s-ai-model-cost-choice",
+          "domain": "AI",
+          "label": "模型换代与调用成本",
+          "summary": "Haiku、Meta模型和成本案例的同期讨论，把模型选择与实际工作流调用成本联系起来。",
+          "confidence": "中",
+          "confidence_reason": "成本案例与模型报道使用不同条件，归组不意味着可直接横向比较性能。",
+          "item_ids": [
+            "45d6a2b79938",
+            "c07b5023822d",
+            "fdc864340b44",
+            "9bf93d58cc35",
+            "21096782dd6c",
+            "5ca8d6f055cb",
+            "c991932364dc"
+          ],
+          "summary_refs": [
+            "c07b5023822d",
+            "9bf93d58cc35"
+          ]
+        },
+        {
+          "id": "s-ai-world-robotics",
+          "domain": "AI",
+          "label": "世界模型与机器人长任务",
+          "summary": "工业机器人执行、小时级物理Agent、世界模型和VLA条目，围绕物理任务中的预测与持续行动展开。",
+          "confidence": "中",
+          "confidence_reason": "归纳基于明确的物理Agent与世界模型主题；时长、速度等指标仍属于各来源陈述。",
+          "item_ids": [
+            "9a2a489d753a",
+            "be997bf71860",
+            "d96a2391b623",
+            "8a6f4c3d5eb5",
+            "dd2f144e562f",
+            "06e34488cd21"
+          ],
+          "summary_refs": [
+            "be997bf71860",
+            "8a6f4c3d5eb5"
+          ]
+        },
+        {
+          "id": "s-ai-lab-loop",
+          "domain": "AI",
+          "label": "科研Agent与实验闭环",
+          "summary": "科研模型接入、实验室闭环、抗菌肽搜索和科学计算条目，形成AI科研从计算任务走向实验与验证的讨论线索。",
+          "confidence": "中",
+          "confidence_reason": "用研究方向组织材料，不将新闻标题中的突破性评价作为已核实结论。",
+          "item_ids": [
+            "9416b01a853f",
+            "a092f744c7c1",
+            "68a694837125",
+            "504a28fcb44d",
+            "649989f895c2",
+            "32165ee6af89",
+            "3b88e6314086",
+            "467c8e42acb6",
+            "893e1df4cf89"
+          ],
+          "summary_refs": [
+            "649989f895c2",
+            "3b88e6314086"
+          ]
+        },
+        {
+          "id": "s-ai-generative-media",
+          "domain": "AI",
+          "label": "生成音视频与交互界面",
+          "summary": "语音识别、语音建站、图像与长视频生成及可交互界面，显示内容生成与交互产品的多条实现路径。",
+          "confidence": "中",
+          "confidence_reason": "条目标题与作者记录支持产品方向归纳，未推断整体市场增速。",
+          "item_ids": [
+            "16b7810afb00",
+            "a097ef0d441a",
+            "e04d1da69350",
+            "855092fba1df",
+            "6cb53bbd6b72",
+            "8d45898e533e",
+            "eb67409897ed"
+          ],
+          "summary_refs": [
+            "6cb53bbd6b72",
+            "8d45898e533e"
+          ]
+        },
+        {
+          "id": "s-ai-security-analysis",
+          "domain": "AI",
+          "label": "AI安全检测与威胁分析",
+          "summary": "密钥检测、恶意软件分析、诈骗识别和威胁调查案例，构成AI进入安全分析流程的一组同期进展。",
+          "confidence": "中",
+          "confidence_reason": "官方条目可支持产品方向，厂商案例效果不作为独立验证结果。",
+          "item_ids": [
+            "d9e485b409fe",
+            "daa797ee9439",
+            "570fe3204556",
+            "004cd593adab",
+            "532983178914",
+            "94ee28b93f9d",
+            "b76b11a1199f"
+          ],
+          "summary_refs": [
+            "532983178914",
+            "b76b11a1199f"
+          ]
+        },
+        {
+          "id": "s-ai-enterprise-knowledge",
+          "domain": "AI",
+          "label": "企业知识与专业任务应用",
+          "summary": "企业知识接入、合同审查、专业问答和客户服务案例，把Agent能力放进具体工作任务。",
+          "confidence": "中",
+          "confidence_reason": "案例与工具主题直接相关；不同任务和厂商结果没有合并为统一效果。",
+          "item_ids": [
+            "2896758265ce",
+            "4e324623ab7c",
+            "db7b9e6fe248",
+            "94eadcab22c4",
+            "b6756c0a180e",
+            "24ffd586aefb",
+            "9732b2763df5"
+          ],
+          "summary_refs": [
+            "2896758265ce",
+            "94eadcab22c4"
+          ]
+        },
+        {
+          "id": "s-ai-learning-design",
+          "domain": "AI",
+          "label": "教育AI的提问与评估",
+          "summary": "青少年学习、模拟学生学习和提问式教学条目，聚焦如何设计与评价AI辅助学习过程。",
+          "confidence": "中",
+          "confidence_reason": "官方教育主题条目支持归组，未由产品描述推断学习成效。",
+          "item_ids": [
+            "661f64ddb5f4",
+            "ca946f1238ba",
+            "a60f4a701f88"
+          ],
+          "summary_refs": [
+            "ca946f1238ba",
+            "a60f4a701f88"
+          ]
+        },
+        {
+          "id": "s-ai-dev-tooling",
+          "domain": "AI",
+          "label": "LLM工具链与代码生成",
+          "summary": "令牌计数、web-edit、源码管理和LLM数据库工具更新，把开发讨论落到可运行工具与具体版本。",
+          "confidence": "中",
+          "confidence_reason": "可定位的工具版本支持归组；同工具的小版本更新不被写成多项独立突破。",
+          "item_ids": [
+            "f37003b32e19",
+            "f5034dade94e",
+            "993bc19082d2",
+            "97e3cba45007",
+            "e6734b2c1107",
+            "7e289d45dfc4",
+            "154a39176d88",
+            "7cd81fdcb0be",
+            "ba70912c04fe",
+            "768169fbc557"
+          ],
+          "summary_refs": [
+            "7cd81fdcb0be",
+            "768169fbc557"
+          ]
+        }
+      ],
+      "unassigned_ids": [
+        "d192bdd68e19",
+        "6218fed10e32",
+        "e08c58b6de5c",
+        "0e19f2e76cca",
+        "3618833fba59",
+        "39e6bd368c40",
+        "9db9af42b7f6",
+        "377afb641e4c",
+        "51b622727300",
+        "7e720aeda47f",
+        "7291bd8b1295",
+        "d3612ff459da",
+        "e5f022f9be79",
+        "79fb31c20981",
+        "cdeaea7345cf",
+        "1ce341749cd1",
+        "e8d8f43511a9",
+        "200a5d3dd39c",
+        "bfd31cfa78f9",
+        "247153705736",
+        "3e6e644f1b2b",
+        "b734a6066c59",
+        "1bf502587012",
+        "9d6f74f0cb08",
+        "f63d7248b240",
+        "fe88897c2a46",
+        "3bc592cc5b68",
+        "66a8784860f5",
+        "ee5297d7e82b",
+        "60deb4eddb49"
+      ]
+    }
+  }
+}

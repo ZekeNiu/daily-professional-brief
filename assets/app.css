@@ -397,3 +397,5 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-
 .trend-explorer .heat-topic{align-self:stretch;display:flex;align-items:center;background:transparent}
 .trend-explorer .heat-head>span:first-child{background:transparent}
 .trend-explorer .heat-scroll.scrolled .heat-topic,.trend-explorer .heat-scroll.scrolled .heat-head>span:first-child{background:var(--surface-solid)}
+.topic-insight{margin:10px 0;padding:10px 12px;background:color-mix(in srgb,var(--accent) 6%,transparent);border-radius:10px}
+.topic-insight p{font-size:12px;line-height:1.7;margin:0 0 5px}.topic-insight small{font-size:10px;line-height:1.6;color:var(--muted);display:block}

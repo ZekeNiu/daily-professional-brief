@@ -1,0 +1,50 @@
+name: Prepare AI topic input
+
+on:
+  push:
+    branches: ['draft/brief-*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: topic-input-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v6
+      - name: Build the draft edition's complete AI input
+        env:
+          TOPIC_DRAFT_REF: ${{ github.ref_name }}
+        run: |
+          python3 - <<'PY'
+          import os, re
+          from pathlib import Path
+          import sys
+          sys.path.insert(0, 'scripts')
+          from prepare_topic_input import prepare
+          import json
+          match = re.fullmatch(r'draft/brief-(\d{4}-\d{2}-\d{2})(?:-[a-z0-9-]+)?', os.environ['TOPIC_DRAFT_REF'])
+          if not match:
+              raise SystemExit('Use a draft/brief-YYYY-MM-DD branch')
+          date = match[1]
+          result = prepare(Path.cwd(), date)
+          target = Path('data/topic-input') / f'{date}.json'
+          target.parent.mkdir(parents=True, exist_ok=True)
+          target.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')
+          print(f'Prepared {date}: ' + ', '.join(f'{k}={len(v["records"])}' for k, v in result['channels'].items()))
+          PY
+      - name: Save only the AI input on the draft branch
+        run: |
+          git add data/topic-input/
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Prepare dated AI topic input'
+            git push origin HEAD
+          fi

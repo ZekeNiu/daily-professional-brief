@@ -23,6 +23,11 @@
   let requestedTopic=params.get('topic');
   const direction=(data.directions||[]).find(d=>d.id===params.get('direction'));
   if(direction&&domains.includes(direction.domain)){domain=direction.domain;const ids=new Set(direction.evidence.map(x=>x.id));requestedTopic=data.items.find(x=>ids.has(x.id))?.topic_id;}
+  if(requestedTopic&&!data.rows.some(r=>r.id===requestedTopic)){
+   const legacy=data.items.filter(x=>x.category_id===requestedTopic&&start<=x.date&&x.date<=end);
+   const matches=data.rows.filter(r=>r.kind!=='other').map(r=>({id:r.id,n:legacy.filter(x=>x.topic_id===r.id).length})).sort((a,b)=>b.n-a.n);
+   if(matches[0]?.n)requestedTopic=matches[0].id;
+  }
   const requested=data.rows.find(r=>r.id===requestedTopic);
   if(requested&&domains.includes(requested.domain)){domain=requested.domain;selection={topic:requested.id,day:within(params.get('day'),params.get('day'))&&start<=params.get('day')&&params.get('day')<=end?params.get('day'):null};showAll=true;}
   let customOpen=mode==='custom';
@@ -44,8 +49,8 @@
    const all=records();
    return data.rows.filter(r=>r.domain===domain).map((r,index)=>{
     const items=all.filter(x=>x.topic_id===r.id),sources=new Set(items.flatMap(x=>x.sources));
-    return {...r,index,items,total:social?sources.size:items.length,points:r.points.filter(p=>start<=p.date&&p.date<=end)};
-   }).sort((a,b)=>b.total-a.total||b.items.length-a.items.length||a.index-b.index);
+    return {...r,index,items,total:social?sources.size:items.length,latest:items.map(x=>x.date).sort().at(-1)||'',points:r.points.filter(p=>start<=p.date&&p.date<=end)};
+   }).filter(r=>r.items.length).sort((a,b)=>(a.kind==='other')-(b.kind==='other')||b.total-a.total||b.latest.localeCompare(a.latest)||b.items.length-a.items.length||a.index-b.index);
   }
   function renderInspector(){
    const row=data.rows.find(r=>r.id===selection?.topic&&r.domain===domain);
@@ -53,8 +58,10 @@
    if(!row){selection=null;inspector.innerHTML='';return;}
    const items=records().filter(x=>x.topic_id===row.id&&(!selection.day||x.date===selection.day)).sort((a,b)=>b.date.localeCompare(a.date)||a.id.localeCompare(b.id));
    const sources=new Set(items.flatMap(x=>x.sources));
+   const selectedIds=new Set(items.map(x=>x.id)),refs=row.summary_refs||[];
+   const showInsight=!selection.day&&refs.length>=2&&refs.every(id=>selectedIds.has(id));
    inspector.dataset.count=items.length;inspector.dataset.sourceCount=sources.size;inspector.dataset.topic=row.id;inspector.dataset.day=selection.day||'';
-   inspector.innerHTML='<div class="inspector-heading"><div><small>'+label(domain)+' · '+(selection.day?dateLabel(selection.day):dateLabel(start)+'—'+dateLabel(end))+' · '+items.length+'条'+(social?' / '+sources.size+'个来源':'')+'</small><h3>'+esc(row.label)+'</h3></div><button class="inspector-close" aria-label="关闭趋势详情">关闭 ×</button></div>'+(items.length?'<ul class="heat-content-list">'+items.map(x=>{const note=annotations.get(canonical(x.url));return '<li><time datetime="'+x.date+'">'+dateLabel(x.date)+'</time><a href="'+esc(x.url)+'" target="_blank" rel="noopener"><span>'+esc(note?.title||x.short_title||x.title)+'</span><small>'+esc(x.sources.join('、'))+' ↗</small></a></li>'}).join('')+'</ul>':'<p class="heat-empty">这个日期范围内尚未收录匹配内容。</p>');
+   inspector.innerHTML='<div class="inspector-heading"><div><small>'+label(domain)+' · '+(selection.day?dateLabel(selection.day):dateLabel(start)+'—'+dateLabel(end))+' · '+items.length+'条'+(social?' / '+sources.size+'个来源':'')+'</small><h3>'+esc(row.label)+'</h3></div><button class="inspector-close" aria-label="关闭趋势详情">关闭 ×</button></div>'+(showInsight?'<div class="topic-insight"><p>'+esc(row.summary)+'</p><small>AI归纳 · 置信度'+esc(row.confidence)+' · '+esc(row.confidence_reason)+'</small></div>':'')+(items.length?'<ul class="heat-content-list">'+items.map(x=>{const note=annotations.get(canonical(x.url));return '<li><time datetime="'+x.date+'">'+dateLabel(x.date)+'</time><a href="'+esc(x.url)+'" target="_blank" rel="noopener"><span>'+esc(note?.title||x.short_title||x.title)+'</span><small>'+esc(x.sources.join('、'))+' ↗</small></a></li>'}).join('')+'</ul>':'<p class="heat-empty">这个日期范围内尚未收录匹配内容。</p>');
    $('.inspector-close',inspector).onclick=()=>{selection=null;renderInspector();syncSelection();updateURL()};
   }
   function syncSelection(){
@@ -67,12 +74,13 @@
    range.value=customOpen?'custom':mode;
    $$('[data-trend-domain]',box).forEach(b=>{const active=b.dataset.trendDomain===domain;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
    const rows=rowsForView();if(selection&&selection.day&&(selection.day<start||selection.day>end))selection.day=null;
+   if(selection&&!rows.some(r=>r.id===selection.topic))selection=null;
    if(selection&&rows.findIndex(r=>r.id===selection.topic)>=3)showAll=true;
-   const shown=showAll?rows:rows.slice(0,3),days=Array.from({length:daysBetween(start,end)},(_,i)=>shift(start,i));
+   const primary=rows.filter(r=>r.kind!=='other'),shown=showAll?rows:primary.slice(0,3),days=Array.from({length:daysBetween(start,end)},(_,i)=>shift(start,i));
    matrix.style.setProperty('--days',days.length);
    Object.assign(matrix.dataset,{domain,start,end,itemCount:String(records().length),sourceCount:String(new Set(records().flatMap(x=>x.sources)).size)});
-   matrix.innerHTML=shown.length?'<div class="heat-row heat-head"><span>主题</span>'+days.map(d=>'<span><span class="heat-date-wide">'+dateLabel(d)+'</span><span class="heat-date-narrow">'+d.slice(8)+'日</span></span>').join('')+'<span title="所选区间'+(social?'不同来源总数':'去重收录条目总数')+'">全期</span></div>'+shown.map(r=>'<div class="heat-row" data-heat-row="'+r.id+'"><button class="heat-topic'+(selection?.topic===r.id?' active':'')+'" data-topic="'+r.id+'" aria-controls="trendInspector" aria-expanded="'+String(selection?.topic===r.id)+'"><b>'+esc(r.label.replace('运动科学','运动表现'))+'</b></button>'+r.points.map(p=>'<button class="heat-cell heat-level-'+(p.value===0?0:p.value===1?1:p.value<4?2:3)+(selection?.topic===r.id&&selection.day===p.date?' selected':'')+'" data-topic="'+r.id+'" data-day="'+p.date+'" data-value="'+p.value+'" aria-label="'+esc(r.label)+'，'+p.date+'，'+p.value+(social?'个来源':'条收录')+'" aria-controls="trendInspector" aria-pressed="'+String(selection?.topic===r.id&&selection.day===p.date)+'">'+(p.value||'·')+'</button>').join('')+'<span class="heat-total" data-total="'+r.total+'">'+r.total+'</span></div>').join(''):'<p class="heat-empty">这个领域尚未有可展示的收录记录。</p>';
-   const more=$('#moreHeatTopics',box);more.classList.toggle('hidden',rows.length<=3);more.textContent=showAll?'收起更多主题':'其余'+(rows.length-3)+'个主题 ＋';
+   matrix.innerHTML=shown.length?'<div class="heat-row heat-head"><span>'+(data.topic_mode==='ai'?'议题':'主题')+'</span>'+days.map(d=>'<span><span class="heat-date-wide">'+dateLabel(d)+'</span><span class="heat-date-narrow">'+d.slice(8)+'日</span></span>').join('')+'<span title="所选区间'+(social?'不同来源总数':'去重收录条目总数')+'">全期</span></div>'+shown.map(r=>'<div class="heat-row" data-heat-row="'+r.id+'"><button class="heat-topic'+(selection?.topic===r.id?' active':'')+'" data-topic="'+r.id+'" aria-controls="trendInspector" aria-expanded="'+String(selection?.topic===r.id)+'"><b>'+esc(r.label.replace('运动科学','运动表现'))+'</b></button>'+r.points.map(p=>'<button class="heat-cell heat-level-'+(p.value===0?0:p.value===1?1:p.value<4?2:3)+(selection?.topic===r.id&&selection.day===p.date?' selected':'')+'" data-topic="'+r.id+'" data-day="'+p.date+'" data-value="'+p.value+'" aria-label="'+esc(r.label)+'，'+p.date+'，'+p.value+(social?'个来源':'条收录')+'" aria-controls="trendInspector" aria-pressed="'+String(selection?.topic===r.id&&selection.day===p.date)+'">'+(p.value||'·')+'</button>').join('')+'<span class="heat-total" data-total="'+r.total+'">'+r.total+'</span></div>').join(''):'<p class="heat-empty">所选日期内尚无已归纳议题。</p>';
+   const more=$('#moreHeatTopics',box);more.classList.toggle('hidden',rows.length<=Math.min(3,primary.length));more.textContent=showAll?'收起更多内容':'更多'+(rows.length-shown.length)+'项 ＋';
    renderInspector();
   }
   $$('[data-trend-domain]',box).forEach(b=>b.onclick=()=>{domain=b.dataset.trendDomain;selection=null;showAll=false;render();updateURL()});
@@ -84,7 +92,7 @@
    if(!within(a,b)){$('#trendDateError',box).textContent=a>b?'开始日期不能晚于结束日期。':'请选择已有数据范围内的日期。';return;}
    start=a;end=b;mode='custom';customOpen=true;$('#trendDateError',box).textContent='';render();updateURL();
   };
-  $('#moreHeatTopics',box).onclick=()=>{showAll=!showAll;if(!showAll&&selection&&rowsForView().findIndex(r=>r.id===selection.topic)>=3)selection=null;render()};
+  $('#moreHeatTopics',box).onclick=()=>{showAll=!showAll;if(!showAll&&selection&&rowsForView().filter(r=>r.kind!=='other').findIndex(r=>r.id===selection.topic)<0)selection=null;else if(!showAll&&selection&&rowsForView().findIndex(r=>r.id===selection.topic)>=3)selection=null;render();updateURL()};
   matrix.onclick=e=>{const target=e.target.closest('[data-topic]');if(!target)return;selection={topic:target.dataset.topic,day:target.dataset.day||null};renderInspector();syncSelection();tip.classList.add('hidden');updateURL()};
   function showTip(e){const cell=e.target.closest('.heat-cell');if(!cell)return;tip.textContent=cell.getAttribute('aria-label');tip.classList.remove('hidden');const r=cell.getBoundingClientRect();tip.style.left=Math.max(10,Math.min(innerWidth-290,r.left-90))+'px';tip.style.top=Math.max(10,r.top-tip.offsetHeight-6)+'px'}
   const hideTip=()=>tip.classList.add('hidden');

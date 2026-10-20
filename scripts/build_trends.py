@@ -12,6 +12,7 @@ import re
 from urllib.parse import urlsplit
 
 from build_social import canonical, read, write
+from topic_analysis import apply_analysis
 
 DOMAINS = ('运动科学', '运动健康', 'AI', '全球重要事件')
 
@@ -79,7 +80,7 @@ def resolve_directions(edition, trend):
     return result[:4]
 
 
-def sync(root):
+def sync(root, apply_topics=True):
     topics = read(root / 'config/journal-topics.json', [])
     editions = [read(p, {}) for p in sorted((root / 'data').glob('????-??-??.json'))]
     for edition in editions:
@@ -113,6 +114,7 @@ def sync(root):
             unit='条目／收录日', date_basis='收录日期', rows=rows, items=items,
             total_items=len(items), total_sources=len({s for x in items for s in x['sources']}))
         trend['directions'] = resolve_directions(edition, trend)
+        trend = apply_analysis(root, trend) if apply_topics else trend | {'topic_mode': 'category'}
         write(root / 'data/trends' / f"{edition['date']}.json", trend)
         edition['trends_url'] = f"data/trends/{edition['date']}.json"
         write(root / 'data' / f"{edition['date']}.json", edition)
@@ -122,6 +124,7 @@ def sync(root):
         trend = read(path, {})
         trend.update(version=2, channel='social', date_basis='公开内容发布日期')
         trend['directions'] = resolve_directions(edition, trend)
+        trend = apply_analysis(root, trend) if apply_topics else trend | {'topic_mode': 'category'}
         write(path, trend)
 
 
