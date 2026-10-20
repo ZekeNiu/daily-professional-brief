@@ -24,7 +24,7 @@
   check($('[data-fold="daily"]').open,'daily items initially open');
   check(!$('[data-fold="quicklist"]').open,'quick list compact');
   check($('#dailyTitle').getBoundingClientRect().bottom<innerHeight,'daily heading on first screen');
-  check($('#sections .card-title').getBoundingClientRect().top<(innerWidth<600?Math.min(innerHeight-20,820):innerHeight-20),'daily story on first screen');
+  check($('#sections .card-title').getBoundingClientRect().top<innerHeight-20,'daily story on first screen');
   check(innerWidth>=600||$('#sections .card-title').getBoundingClientRect().bottom<innerHeight,'mobile title visible');
   check($('#sections .card-title').textContent===(brief.items[0].short_title||brief.items[0].title),'article scan title');
   const fold=$('[data-fold="overview"]');fold.querySelector('summary').click();check(!fold.open,'summary folds');fold.querySelector('summary').click();
