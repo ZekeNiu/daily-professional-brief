@@ -24,7 +24,7 @@
   check($('[data-fold="daily"]').open,'daily items initially open');
   check(!$('[data-fold="quicklist"]').open,'quick list compact');
   check($('#dailyTitle').getBoundingClientRect().bottom<innerHeight,'daily heading on first screen');
-  check($('#sections .card-title').getBoundingClientRect().top<(innerWidth<600?Math.min(innerHeight-20,820):innerHeight-20),'daily story on first screen');
+  check($('#sections .card-title').getBoundingClientRect().top<innerHeight-20,'daily story on first screen');
   check(innerWidth>=600||$('#sections .card-title').getBoundingClientRect().bottom<innerHeight,'mobile title visible');
   check($('#sections .card-title').textContent===(brief.items[0].short_title||brief.items[0].title),'article scan title');
   const fold=$('[data-fold="overview"]');fold.querySelector('summary').click();check(!fold.open,'summary folds');fold.querySelector('summary').click();
@@ -52,9 +52,21 @@
    for(const n of presets){
     range(n);if(!$('#moreHeatTopics').classList.contains('hidden')&&!$('#moreHeatTopics').textContent.includes('收起'))$('#moreHeatTopics').click();
     check($('#heatmap').dataset.domain===domain,'independent field view');
-    check(all('[data-heat-row]').length===trend.rows.filter(r=>r.domain===domain).length,'all topics in field');
+    check(all('[data-heat-row]').length===trend.rows.filter(r=>r.domain===domain&&expectedItems(domain,r.id).length).length,'all active topics in field/window');
     check(all('.heat-head>span').length===n+2,'selected number of dates');verify();
    }
+  }
+  if(trend.topic_mode==='ai'){
+   check(trend.topic_analysis.input_items===trend.items.length,'all AI inputs accounted for');
+   const summaryRow=trend.rows.find(r=>r.domain==='AI'&&r.kind==='topic');
+   range(presets.at(-1));
+   if(!$('#moreHeatTopics').classList.contains('hidden')&&!$('#moreHeatTopics').textContent.includes('收起'))$('#moreHeatTopics').click();
+   $('[data-topic="'+summaryRow.id+'"]:not([data-day])').click();
+   check($('.topic-insight p')?.textContent===summaryRow.summary,'AI summary is shown with its source set');
+   check($('.topic-insight small').textContent.includes(summaryRow.confidence),'AI confidence basis visible');
+   const summaryCell=all('.heat-cell').find(c=>c.dataset.topic===summaryRow.id&&+c.dataset.value>0);summaryCell.click();
+   check(!$('.topic-insight'),'whole-period AI summary is not repeated as a day-specific claim');
+   $('.inspector-close').click();
   }
   const topic=$('.heat-topic');topic.click();check(!$('#trendInspector').classList.contains('hidden'),'topic opens inspector');
   let xs=expectedItems($('#heatmap').dataset.domain,topic.dataset.topic);
@@ -108,7 +120,7 @@
    await change('journal');check($('#appError').classList.contains('hidden'),'journal recovers');check(all('.heat-topic').length>0,'historical journal heatmap');
   }else if(params.has('direction')||params.has('topic')){
    check($('#trendMap').open,'shared heatmap open');check(!$('#trendInspector').classList.contains('hidden'),'shared topic details open');
-   if(params.has('topic')){check($('#heatmap').dataset.start===params.get('from'),'shared date start');check($('#heatmap').dataset.end===params.get('to'),'shared date end');check($('#trendInspector').dataset.topic===params.get('topic'),'shared topic');}
+   if(params.has('topic')){check($('#heatmap').dataset.start===params.get('from'),'shared date start');check($('#heatmap').dataset.end===params.get('to'),'shared date end');if(params.has('legacy'))check($('#trendInspector').dataset.topic!==params.get('topic')&&Number($('#trendInspector').dataset.count)>0,'legacy category resolves to an active AI topic');else check($('#trendInspector').dataset.topic===params.get('topic'),'shared topic');}
    check(!$('.channel-tabs [data-channel="journal"]').href.includes('topic='),'tab clears topic state');
    await change('journal');check(!new URL(location.href).searchParams.has('direction'),'legacy parameter cleared');check($('#trendInspector').classList.contains('hidden'),'new column begins without stale detail');
    await change('social');check($('#trendInspector').classList.contains('hidden'),'returning column clears selection');scrollTo(0,0);

@@ -371,7 +371,7 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-
 .trend-explorer .heat-scroll{padding:2px 0 6px}
 .trend-explorer .heat-row{grid-template-columns:178px repeat(var(--days),minmax(25px,1fr)) 35px;gap:4px;min-width:calc(217px + var(--days) * 29px);margin-bottom:4px}
 .trend-explorer .heat-head{font-size:11px;margin-bottom:8px}
-.trend-explorer .heat-topic{padding:2px 10px 2px 0;line-height:1.35}.trend-explorer .heat-topic b{font-size:12px;font-weight:650}
+.trend-explorer .heat-topic{padding:2px 10px 2px 0;line-height:1.35}.trend-explorer .heat-topic b{font-size:12px;font-weight:650;text-wrap:balance}
 .trend-explorer .heat-cell{height:33px;font-size:12px}.trend-explorer .heat-total{font-size:12px}
 .heat-date-narrow{display:none}.heat-footer{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-top:6px}
 .compact-heat-legend{display:flex;align-items:center;gap:6px;font-size:10px;line-height:1.5;color:var(--muted)}
@@ -397,3 +397,5 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-
 .trend-explorer .heat-topic{align-self:stretch;display:flex;align-items:center;background:transparent}
 .trend-explorer .heat-head>span:first-child{background:transparent}
 .trend-explorer .heat-scroll.scrolled .heat-topic,.trend-explorer .heat-scroll.scrolled .heat-head>span:first-child{background:var(--surface-solid)}
+.topic-insight{margin:10px 0;padding:10px 12px;background:color-mix(in srgb,var(--accent) 6%,transparent);border-radius:10px}
+.topic-insight p{font-size:12px;line-height:1.7;margin:0 0 5px}.topic-insight small{font-size:10px;line-height:1.6;color:var(--muted);display:block}

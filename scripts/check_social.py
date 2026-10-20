@@ -3,6 +3,7 @@ import datetime as dt
 import json
 from pathlib import Path
 from build_social import validate
+from topic_analysis import ACTIVE_FROM, fingerprint
 
 root = Path(__file__).resolve().parents[1]
 out = root / 'data/social'
@@ -53,3 +54,22 @@ for folder, window in [('data', 30), ('data/social', 14)]:
         if edition.get('trend_directions'):
             assert {x['id'] for x in edition['trend_directions']} == {x['id'] for x in trend['directions']}
 print('PASS: journal 30-day and social 14-day snapshots, editorial references, deduplication and chart units')
+
+# New editions must publish their own AI grouping, never yesterday's labels or
+# an unnoticed return to keyword categories. Older archives retain their basis.
+for folder in ['data', 'data/social']:
+    pointer = json.loads((root / folder / 'latest.json').read_text())
+    edition = json.loads((root / pointer['url']).read_text())
+    if edition['date'] < ACTIVE_FROM:
+        continue
+    trend = json.loads((root / edition['trends_url']).read_text())
+    assert trend.get('topic_mode') == 'ai', f"Missing dated AI topic analysis: {folder} {edition['date']}"
+    assert trend['topic_analysis']['source_fingerprint'] == fingerprint(trend['items'])
+    for row in trend['rows']:
+        if row['kind'] != 'topic':
+            continue
+        members = {x['id'] for x in trend['items'] if x['topic_id'] == row['id']}
+        assert set(row['summary_refs']) <= members
+        assert len(row['summary_refs']) >= 2
+        assert row['summary'] and row['confidence_reason']
+print('PASS: current AI topic provenance, input freshness and source-linked summaries')

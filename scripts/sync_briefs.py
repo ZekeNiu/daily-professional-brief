@@ -76,7 +76,7 @@ def archive_entry(brief: dict, existing: dict | None) -> dict:
     }
 
 
-def sync(root: Path) -> None:
+def sync(root: Path, apply_topics=True) -> None:
     data_dir = root / "data"
     paths = sorted(path for path in data_dir.glob("*.json") if DATE_FILE.fullmatch(path.name))
     if not paths:
@@ -115,7 +115,7 @@ def sync(root: Path) -> None:
     from build_social import sync as sync_social
     sync_social(root)
     from build_trends import sync as sync_trends
-    sync_trends(root)
+    sync_trends(root, apply_topics=apply_topics)
 
     # Both columns share each dated page, including social-only publication days.
     for path in (data_dir / 'social').glob('????-??-??.json'):
