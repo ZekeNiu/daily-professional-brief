@@ -146,15 +146,15 @@
     {
       "id": "visible-dose",
       "domain": "运动健康",
-      "title": "训练与康复从名称转向真实剂量",
-      "chart_label": "把真实运动剂量写清",
-      "change": "讨论从“做了哪种练习”推进到负荷、速度、范围、同期活动和次日反应。",
-      "meaning": "可复现的剂量记录既能支持个体进退阶，也能让不同方案真正可比较。",
+      "title": "康复处方从完成练习转向剂量与长期执行",
+      "chart_label": "剂量记录与长期执行",
+      "change": "近期讨论同时追问单次训练的机械剂量，以及正式治疗结束后如何维持身体活动。",
+      "meaning": "康复记录既要写清负荷、速度、范围和后续反应，也要提前设计可持续的自我管理支持。",
       "confidence": "中",
-      "confidence_reason": "一篇新发布的专业方法文章给出具体记录项；与期刊侧剂量—结局证据互补。",
+      "confidence_reason": "两篇独立BJSM专业文章分别提供剂量记录框架与治疗后活动维持线索；趋势为编辑综合。",
       "references": [
         {"url": "https://blogs.bmj.com/bjsm/2026/10/19/whats-behind-the-label-rethinking-exercise-prescription-for-tendinopathy/", "label": "肌腱机械剂量框架", "note": "要求记录负荷、努力程度、范围、速度与后续反应。"},
-        {"url": "https://martin-buchheit.net/2026/10/12/le-concept-na-pas-de-sens-pourquoi-les-kilometres-parcourus-sont-un-mauvais-indicateur-pour-evaluer-la-performance-ou-la-forme-physique/", "label": "比赛跑动的情境解释", "note": "同一总量在不同战术与角色下含义不同。"}
+        {"url": "https://blogs.bmj.com/bjsm/2026/10/12/what-helps-people-stay-active-after-exercise-therapy-ends/", "label": "治疗后活动维持", "note": "把治疗结束后的持续活动与支持机制纳入康复设计。"}
       ],
       "related": {"channel": "journal", "direction_id": "dose-outcome-alignment", "label": "连读期刊：剂量与功能结局"}
     },
