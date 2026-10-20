@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-10-19T06:16:15.494233+00:00",
-  "window_start": "2026-10-05T16:00:00+00:00",
-  "as_of": "2026-10-19T06:16:07.398604+00:00",
+  "generated_at": "2026-10-20T01:49:52.459674+00:00",
+  "window_start": "2026-10-06T16:00:00+00:00",
+  "as_of": "2026-10-20T01:49:43.162555+00:00",
   "summary": {
     "authors_total": 88,
     "homepages_read": 13,
     "feeds_read": 49,
-    "candidates": 175,
-    "published_date_candidates": 145,
-    "already_reported": 2,
-    "authors_with_recent_candidates": 24
+    "candidates": 176,
+    "published_date_candidates": 146,
+    "already_reported": 9,
+    "authors_with_recent_candidates": 25
   },
   "authors": [
     {
@@ -23,6 +23,12 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://martin-buchheit.net/feed/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/mart1buch"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -35,7 +41,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-17T07:35:53+00:00",
-      "elapsed_seconds": 1.77,
+      "elapsed_seconds": 1.96,
       "recent_item_ids": [
         "ab13e5c2646b",
         "d3dc072045af",
@@ -57,6 +63,10 @@
         {
           "platform": "X",
           "url": "https://x.com/Jeukendrup"
+        },
+        {
+          "platform": "X",
+          "url": "https://www.twitter.com/jeukendrup"
         }
       ],
       "status": "feed_ok",
@@ -71,7 +81,7 @@
       ],
       "parsed_items": 12,
       "latest_visible_item_at": "2026-09-27T10:19:39+00:00",
-      "elapsed_seconds": 0.25,
+      "elapsed_seconds": 0.31,
       "recent_item_ids": []
     },
     {
@@ -112,6 +122,12 @@
       "platform": "播客",
       "language": "en",
       "feed_url": "https://rss.libsyn.com/shows/139580/destinations/872954.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "http://twitter.com/@hardwaypod"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -124,7 +140,7 @@
       ],
       "parsed_items": 2,
       "latest_visible_item_at": "2026-10-13T17:04:00+00:00",
-      "elapsed_seconds": 0.81,
+      "elapsed_seconds": 1.18,
       "recent_item_ids": [
         "bfd31cfa78f9"
       ]
@@ -144,6 +160,10 @@
         {
           "platform": "X",
           "url": "https://x.com/StuartMcMillan1"
+        },
+        {
+          "platform": "X",
+          "url": "https://twitter.com/ALTIS"
         }
       ],
       "status": "search_entry",
@@ -166,6 +186,12 @@
       "platform": "博客",
       "language": "en",
       "collect": false,
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://www.twitter.com/derekmhansen"
+        }
+      ],
       "status": "search_entry",
       "homepage_read": false,
       "feed_url": null,
@@ -198,7 +224,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2023-09-07T04:34:49+00:00",
-      "elapsed_seconds": 0.38,
+      "elapsed_seconds": 0.67,
       "recent_item_ids": []
     },
     {
@@ -237,6 +263,12 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://www.running-physio.com/feed/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/tomgoom"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -249,7 +281,7 @@
       ],
       "parsed_items": 4,
       "latest_visible_item_at": "2026-07-17T08:46:08+00:00",
-      "elapsed_seconds": 1.6,
+      "elapsed_seconds": 1.11,
       "recent_item_ids": []
     },
     {
@@ -285,7 +317,7 @@
       "page_title": "Greg Lehman",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.83,
+      "elapsed_seconds": 1.3,
       "recent_item_ids": []
     },
     {
@@ -298,6 +330,16 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://mikereinold.com/feed/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/mikereinold"
+        },
+        {
+          "platform": "X",
+          "url": "https://www.twitter.com/mikereinold"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -310,7 +352,7 @@
       ],
       "parsed_items": 5,
       "latest_visible_item_at": "2026-10-08T10:00:00+00:00",
-      "elapsed_seconds": 0.19,
+      "elapsed_seconds": 0.24,
       "recent_item_ids": [
         "78ecce3eb8d5"
       ]
@@ -324,6 +366,12 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://x.com/AdamMeakins"
+        }
+      ],
       "status": "homepage_only",
       "homepage_read": true,
       "feed_url": null,
@@ -350,7 +398,7 @@
       "page_title": "adammeakins.com",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.98,
+      "elapsed_seconds": 3.22,
       "recent_item_ids": []
     },
     {
@@ -363,6 +411,12 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://thesciencept.com/feed/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/erikMeira"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -375,7 +429,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-04-13T21:24:45+00:00",
-      "elapsed_seconds": 0.3,
+      "elapsed_seconds": 0.57,
       "recent_item_ids": []
     },
     {
@@ -388,6 +442,12 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://www.mickhughes.physio/blog-feed.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "http://www.twitter.com/mickwhughes"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -400,7 +460,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-05-21T07:31:00+00:00",
-      "elapsed_seconds": 0.36,
+      "elapsed_seconds": 0.4,
       "recent_item_ids": []
     },
     {
@@ -413,6 +473,12 @@
       "platform": "博客",
       "language": "en",
       "collect": false,
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/DrPeteMalliaras"
+        }
+      ],
       "status": "search_entry",
       "homepage_read": false,
       "feed_url": null,
@@ -453,6 +519,20 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://simonwillison.net/atom/everything/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/fofrai/status/2110043023954284889"
+        },
+        {
+          "platform": "X",
+          "url": "https://twitter.com/matthew_d_green/status/2108552414978564418"
+        },
+        {
+          "platform": "X",
+          "url": "https://twitter.com/sunjiao123sun_/status/2024555516551372920"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -464,9 +544,10 @@
         }
       ],
       "parsed_items": 30,
-      "latest_visible_item_at": "2026-10-18T23:43:09+00:00",
-      "elapsed_seconds": 0.12,
+      "latest_visible_item_at": "2026-10-19T23:58:25+00:00",
+      "elapsed_seconds": 0.11,
       "recent_item_ids": [
+        "efd79bd778da",
         "768169fbc557",
         "d221188525e6",
         "60deb4eddb49",
@@ -495,8 +576,7 @@
         "f5034dade94e",
         "f37003b32e19",
         "3618833fba59",
-        "6218fed10e32",
-        "fdc864340b44"
+        "6218fed10e32"
       ]
     },
     {
@@ -527,7 +607,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-01T10:54:12+00:00",
-      "elapsed_seconds": 0.22,
+      "elapsed_seconds": 0.52,
       "recent_item_ids": []
     },
     {
@@ -540,6 +620,12 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://hamel.dev/index.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/HamelHusain"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -552,7 +638,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-09-30T07:00:00+00:00",
-      "elapsed_seconds": 0.26,
+      "elapsed_seconds": 0.33,
       "recent_item_ids": []
     },
     {
@@ -565,6 +651,12 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://eugeneyan.com/rss/",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/eugeneyan"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -577,7 +669,7 @@
       ],
       "parsed_items": 212,
       "latest_visible_item_at": "2026-06-21T00:00:00+00:00",
-      "elapsed_seconds": 0.21,
+      "elapsed_seconds": 0.15,
       "recent_item_ids": []
     },
     {
@@ -590,6 +682,12 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://huyenchip.com/feed.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/chipro"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -602,7 +700,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-01-16T00:00:00+00:00",
-      "elapsed_seconds": 0.36,
+      "elapsed_seconds": 0.59,
       "recent_item_ids": []
     },
     {
@@ -615,6 +713,12 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://lilianweng.github.io/index.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/lilianweng/"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -652,7 +756,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-09-29T10:50:25+00:00",
-      "elapsed_seconds": 0.21,
+      "elapsed_seconds": 0.36,
       "recent_item_ids": []
     },
     {
@@ -666,6 +770,12 @@
       "platform": "博客",
       "language": "en",
       "feed_url": "https://www.fast.ai/index.xml",
+      "profiles": [
+        {
+          "platform": "X",
+          "url": "https://twitter.com/fastdotai"
+        }
+      ],
       "status": "feed_ok",
       "homepage_read": false,
       "social_links": [],
@@ -678,7 +788,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-10-29T14:00:00+00:00",
-      "elapsed_seconds": 0.12,
+      "elapsed_seconds": 0.14,
       "recent_item_ids": []
     },
     {
@@ -703,7 +813,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 3.97,
+      "elapsed_seconds": 3.64,
       "recent_item_ids": []
     },
     {
@@ -728,7 +838,7 @@
       ],
       "parsed_items": 12,
       "latest_visible_item_at": "2026-10-14T16:00:00+00:00",
-      "elapsed_seconds": 0.2,
+      "elapsed_seconds": 0.14,
       "recent_item_ids": [
         "ea76d45726fe",
         "e08c58b6de5c",
@@ -756,9 +866,10 @@
         }
       ],
       "parsed_items": 10,
-      "latest_visible_item_at": "2026-10-15T10:37:09+00:00",
-      "elapsed_seconds": 0.26,
+      "latest_visible_item_at": "2026-10-19T16:00:00+00:00",
+      "elapsed_seconds": 0.53,
       "recent_item_ids": [
+        "353ee92aaefd",
         "10e96577dcd0",
         "5bb1c1089483",
         "8398e9d7071d",
@@ -767,8 +878,7 @@
         "074b7f746122",
         "8dea0bbc04c7",
         "d101caded0de",
-        "eaa6b9dce4be",
-        "99a873f42537"
+        "eaa6b9dce4be"
       ]
     },
     {
@@ -793,7 +903,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-10T09:20:07+00:00",
-      "elapsed_seconds": 0.58,
+      "elapsed_seconds": 0.71,
       "recent_item_ids": [
         "fb12df8f3b2f"
       ]
@@ -820,7 +930,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-07-18T20:07:15+00:00",
-      "elapsed_seconds": 0.22,
+      "elapsed_seconds": 0.35,
       "recent_item_ids": []
     },
     {
@@ -855,7 +965,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.66,
+      "elapsed_seconds": 1.86,
       "recent_item_ids": []
     },
     {
@@ -880,7 +990,7 @@
       ],
       "parsed_items": 15,
       "latest_visible_item_at": "2026-06-11T19:24:38+00:00",
-      "elapsed_seconds": 1.96,
+      "elapsed_seconds": 2.27,
       "recent_item_ids": []
     },
     {
@@ -913,9 +1023,11 @@
       "resolved_homepage": "https://gabbettperformance.com.au/",
       "page_title": "Gabbett Performance – Professional development for coaches, teams, clubs and players.",
       "parsed_items": 10,
-      "latest_visible_item_at": "2026-01-20T21:17:13+00:00",
-      "elapsed_seconds": 4.95,
-      "recent_item_ids": []
+      "latest_visible_item_at": "2026-10-19T07:38:48+00:00",
+      "elapsed_seconds": 2.61,
+      "recent_item_ids": [
+        "b2732ca1d3c3"
+      ]
     },
     {
       "id": "hrv4training",
@@ -950,7 +1062,7 @@
       "page_title": "Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.06,
+      "elapsed_seconds": 0.83,
       "recent_item_ids": []
     },
     {
@@ -986,7 +1098,7 @@
       "page_title": "Home",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.33,
+      "elapsed_seconds": 0.24,
       "recent_item_ids": []
     },
     {
@@ -1172,7 +1284,7 @@
       "page_title": "ALTIS - Coach Education",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 4.81,
+      "elapsed_seconds": 7.06,
       "recent_item_ids": []
     },
     {
@@ -1203,7 +1315,7 @@
       "page_title": "Upside Strength - Performance, Physiology, Education Joinchat",
       "parsed_items": 25,
       "latest_visible_item_at": "2026-06-01T18:57:36+00:00",
-      "elapsed_seconds": 3.41,
+      "elapsed_seconds": 3.65,
       "recent_item_ids": []
     },
     {
@@ -1227,9 +1339,10 @@
         }
       ],
       "parsed_items": 10,
-      "latest_visible_item_at": "2026-10-16T07:00:44+00:00",
-      "elapsed_seconds": 0.42,
+      "latest_visible_item_at": "2026-10-19T07:00:53+00:00",
+      "elapsed_seconds": 0.63,
       "recent_item_ids": [
+        "b36ecc36597c",
         "9d6f74f0cb08",
         "cdeaea7345cf",
         "0e19f2e76cca"
@@ -1252,14 +1365,15 @@
         {
           "url": "https://feeds.resonaterecordings.com/jospt",
           "status": "feed_ok",
-          "entries": 285
+          "entries": 286
         }
       ],
-      "parsed_items": 285,
-      "latest_visible_item_at": "2026-10-12T09:00:00+00:00",
-      "elapsed_seconds": 1.83,
+      "parsed_items": 286,
+      "latest_visible_item_at": "2026-10-19T09:00:00+00:00",
+      "elapsed_seconds": 2.57,
       "recent_item_ids": [
-        "034343cb3991"
+        "c683d8e75d00",
+        "66e5a24d6de6"
       ]
     },
     {
@@ -1302,7 +1416,7 @@
       "page_title": "Physiotherapy Blog — 400+ Expert Physical Therapy Blogs",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 3.18,
+      "elapsed_seconds": 3.19,
       "recent_item_ids": []
     },
     {
@@ -1354,7 +1468,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-06-21T13:00:00+00:00",
-      "elapsed_seconds": 1.98,
+      "elapsed_seconds": 2.37,
       "recent_item_ids": []
     },
     {
@@ -1379,7 +1493,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-08T19:38:45+00:00",
-      "elapsed_seconds": 0.83,
+      "elapsed_seconds": 1.17,
       "recent_item_ids": [
         "c10aba2e453b"
       ]
@@ -1415,11 +1529,10 @@
       "page_title": "PainScience.com",
       "parsed_items": 31,
       "latest_visible_item_at": "2026-10-17T07:00:00+00:00",
-      "elapsed_seconds": 0.33,
+      "elapsed_seconds": 0.62,
       "recent_item_ids": [
         "622c65694e1d",
-        "45f34a289f22",
-        "003f25870c14"
+        "45f34a289f22"
       ]
     },
     {
@@ -1535,7 +1648,7 @@
       "page_title": "Sports Injury Bulletin - Home",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.89,
+      "elapsed_seconds": 2.54,
       "recent_item_ids": []
     },
     {
@@ -1560,7 +1673,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-04-30T16:00:00+00:00",
-      "elapsed_seconds": 0.14,
+      "elapsed_seconds": 0.12,
       "recent_item_ids": []
     },
     {
@@ -1604,8 +1717,7 @@
         "a092f744c7c1",
         "c07b5023822d",
         "22732f8185e3",
-        "9416b01a853f",
-        "417c3a0572d8"
+        "9416b01a853f"
       ]
     },
     {
@@ -1630,11 +1742,10 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-17T14:06:54+00:00",
-      "elapsed_seconds": 0.11,
+      "elapsed_seconds": 0.17,
       "recent_item_ids": [
         "0dd91801c3b6",
-        "377afb641e4c",
-        "673fb60ae752"
+        "377afb641e4c"
       ]
     },
     {
@@ -1659,7 +1770,7 @@
       ],
       "parsed_items": 15,
       "latest_visible_item_at": "2026-02-18T23:25:52+00:00",
-      "elapsed_seconds": 0.74,
+      "elapsed_seconds": 0.38,
       "recent_item_ids": []
     },
     {
@@ -1679,16 +1790,18 @@
         {
           "url": "https://huggingface.co/blog/feed.xml",
           "status": "feed_ok",
-          "entries": 880
+          "entries": 882
         }
       ],
-      "parsed_items": 880,
-      "latest_visible_item_at": "2026-10-16T01:44:47+00:00",
-      "elapsed_seconds": 0.15,
+      "parsed_items": 882,
+      "latest_visible_item_at": "2026-10-19T00:00:00+00:00",
+      "elapsed_seconds": 0.26,
       "recent_item_ids": [
+        "5c52b7d34bec",
         "138e9b7e7d97",
         "c9a6184923cc",
         "d33064359577",
+        "39052ad94a8a",
         "ff0cf28c5d75",
         "eb67409897ed",
         "504a28fcb44d",
@@ -1714,16 +1827,17 @@
         {
           "url": "https://openai.com/news/rss.xml",
           "status": "feed_ok",
-          "entries": 1299
+          "entries": 1300
         }
       ],
-      "parsed_items": 1299,
-      "latest_visible_item_at": "2026-10-16T19:00:00+00:00",
-      "elapsed_seconds": 0.18,
+      "parsed_items": 1300,
+      "latest_visible_item_at": "2026-10-19T12:00:00+00:00",
+      "elapsed_seconds": 0.2,
       "recent_item_ids": [
+        "1dbe22633003",
         "9732b2763df5",
-        "b6756c0a180e",
         "9e63539289a3",
+        "b6756c0a180e",
         "32165ee6af89",
         "a60f4a701f88",
         "94eadcab22c4",
@@ -1742,9 +1856,6 @@
         "661f64ddb5f4",
         "4e324623ab7c",
         "a097ef0d441a",
-        "ebb413cc5359",
-        "00427e47df5e",
-        "f57eff9c23a4",
         "2896758265ce"
       ]
     },
@@ -1790,7 +1901,7 @@
       ],
       "parsed_items": 100,
       "latest_visible_item_at": "2026-10-15T16:08:03+00:00",
-      "elapsed_seconds": 0.62,
+      "elapsed_seconds": 0.34,
       "recent_item_ids": [
         "3b88e6314086",
         "b76b11a1199f",
@@ -1822,7 +1933,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-13T16:00:00+00:00",
-      "elapsed_seconds": 0.26,
+      "elapsed_seconds": 0.37,
       "recent_item_ids": [
         "ed1be8ea5f53",
         "e04d1da69350"
@@ -1850,7 +1961,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-15T16:00:00+00:00",
-      "elapsed_seconds": 0.77,
+      "elapsed_seconds": 0.47,
       "recent_item_ids": [
         "467c8e42acb6",
         "ca946f1238ba",
@@ -1879,9 +1990,10 @@
         }
       ],
       "parsed_items": 10,
-      "latest_visible_item_at": "2026-10-13T17:56:33+00:00",
-      "elapsed_seconds": 0.27,
+      "latest_visible_item_at": "2026-10-19T18:47:22+00:00",
+      "elapsed_seconds": 0.45,
       "recent_item_ids": [
+        "1be45fb0ef68",
         "532983178914",
         "91597643c193",
         "daa797ee9439"
@@ -1927,7 +2039,7 @@
       "page_title": "LangChain Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.91,
+      "elapsed_seconds": 1.24,
       "recent_item_ids": []
     },
     {
@@ -1966,7 +2078,7 @@
       "page_title": "Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.66,
+      "elapsed_seconds": 0.76,
       "recent_item_ids": []
     },
     {
@@ -1987,13 +2099,15 @@
         {
           "url": "https://vercel.com/atom",
           "status": "feed_ok",
-          "entries": 1682
+          "entries": 1685
         }
       ],
-      "parsed_items": 442,
-      "latest_visible_item_at": "2026-10-18T20:03:00+00:00",
-      "elapsed_seconds": 0.39,
+      "parsed_items": 444,
+      "latest_visible_item_at": "2026-10-19T00:00:00+00:00",
+      "elapsed_seconds": 0.51,
       "recent_item_ids": [
+        "797342f077d6",
+        "a765c1add20e",
         "ec8a3eed6e1b",
         "2527a2533cad",
         "80f7d46d93c2",
@@ -2021,9 +2135,7 @@
         "9241bb628f04",
         "4635ada80900",
         "7fb9e49546b7",
-        "913dedb81fc2",
-        "bdce6de7d4b2",
-        "1bd9bbfeb6db"
+        "913dedb81fc2"
       ]
     },
     {
@@ -2048,7 +2160,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-07-29T09:00:00+00:00",
-      "elapsed_seconds": 0.56,
+      "elapsed_seconds": 0.45,
       "recent_item_ids": []
     },
     {
@@ -2073,7 +2185,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-09-21T14:23:46+00:00",
-      "elapsed_seconds": 0.78,
+      "elapsed_seconds": 0.43,
       "recent_item_ids": []
     },
     {
@@ -2098,7 +2210,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-03-26T00:00:00+00:00",
-      "elapsed_seconds": 0.17,
+      "elapsed_seconds": 0.2,
       "recent_item_ids": []
     },
     {
@@ -2133,7 +2245,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.15,
+      "elapsed_seconds": 0.16,
       "recent_item_ids": []
     },
     {
@@ -2168,7 +2280,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.13,
+      "elapsed_seconds": 0.18,
       "recent_item_ids": []
     },
     {
@@ -2223,7 +2335,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.16,
+      "elapsed_seconds": 0.15,
       "recent_item_ids": []
     },
     {
@@ -2279,7 +2391,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-18T11:49:49+00:00",
-      "elapsed_seconds": 1.75,
+      "elapsed_seconds": 1.3,
       "recent_item_ids": [
         "06e34488cd21",
         "c991932364dc",
@@ -2336,7 +2448,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.24,
+      "elapsed_seconds": 0.9,
       "recent_item_ids": []
     },
     {
@@ -2461,13 +2573,13 @@
         }
       ],
       "parsed_items": 4,
-      "latest_visible_item_at": "2026-10-19T05:58:46+00:00",
-      "elapsed_seconds": 0.21,
+      "latest_visible_item_at": "2026-10-19T23:22:18+00:00",
+      "elapsed_seconds": 0.18,
       "recent_item_ids": [
-        "ae6e49210029",
-        "962c8c99b4bd",
-        "313154ba192d",
-        "ba70912c04fe"
+        "9a49de55e706",
+        "71094174f326",
+        "55c3c0be518a",
+        "88b5537c8caf"
       ]
     },
     {
@@ -2513,9 +2625,95 @@
   ],
   "candidates": [
     {
-      "title": "Agent-Skills.market",
-      "url": "https://agent-skills.market/",
-      "published_at": "2026-10-19T05:58:46+00:00",
+      "title": "My obituary for programming",
+      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming",
+      "published_at": "2026-10-19T23:58:25+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "efd79bd778da",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "published_at": "2026-10-19T23:22:18+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "hacker-news",
+      "source_author": "Hacker News · AI讨论",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "platform": "社区",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "55c3c0be518a",
+      "observed_authors": [
+        "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "published_at": "2026-10-19T18:47:22+00:00",
+      "date_kind": "published",
+      "byline": "Kayla Cinnamon",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "github-ai",
+      "source_author": "GitHub Blog · AI",
+      "feed_url": "https://github.blog/ai-and-ml/feed/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "1be45fb0ef68",
+      "observed_authors": [
+        "GitHub Blog · AI"
+      ]
+    },
+    {
+      "title": "Integración del entrenamiento basado en la velocidad en un programa de entrenamiento de todo el cuerpo para deportistas jóvenes",
+      "url": "https://simplifaster.com/articles/integracion-del-entrenamiento-basado-en-la-velocidad-en-un-programa-de-entrenamiento-de-todo-el-cuerpo-para-deportistas-jovenes",
+      "published_at": "2026-10-19T16:00:00+00:00",
+      "date_kind": "published",
+      "byline": "Philip Reichhoff",
+      "dois": [
+        "10.1519/ssc.0000000000000560"
+      ],
+      "date_verified": true,
+      "topic_id": "sport-other",
+      "domain": "运动科学",
+      "author_id": "simplifaster",
+      "source_author": "SimpliFaster",
+      "feed_url": "https://simplifaster.com/feed/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "353ee92aaefd",
+      "observed_authors": [
+        "SimpliFaster"
+      ]
+    },
+    {
+      "title": "Agentic Monitoring",
+      "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring",
+      "published_at": "2026-10-19T14:52:04+00:00",
       "date_kind": "published",
       "byline": "",
       "dois": [],
@@ -2528,9 +2726,181 @@
       "platform": "社区",
       "language": "en",
       "previous_briefs": [],
-      "id": "962c8c99b4bd",
+      "id": "88b5537c8caf",
       "observed_authors": [
         "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "published_at": "2026-10-19T12:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "1dbe22633003",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "published_at": "2026-10-19T11:24:34+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-agent",
+      "domain": "AI",
+      "author_id": "hacker-news",
+      "source_author": "Hacker News · AI讨论",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "platform": "社区",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "71094174f326",
+      "observed_authors": [
+        "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "Ep 285: How well does a ruptured ACL heal? With Dr Joanna Kvist",
+      "url": "https://feeds.resonaterecordings.com/media/jospt/01a127a0-6ca0-737a-b288-c9ed79d59afb/01a1281a-66bd-71bf-883a-d55fdb9ad8ba/jospti-ep285-dr-joanna-kvist-full-audiomp3.mp3",
+      "published_at": "2026-10-19T09:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [
+        "10.2519/jospt.2026.13397"
+      ],
+      "date_verified": true,
+      "topic_id": "health-rtp",
+      "domain": "运动健康",
+      "author_id": "jospt-insights",
+      "source_author": "JOSPT Insights",
+      "feed_url": "https://feeds.resonaterecordings.com/jospt",
+      "platform": "播客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "c683d8e75d00",
+      "observed_authors": [
+        "JOSPT Insights"
+      ]
+    },
+    {
+      "title": "The Stigma of “Overtraining”: Why Your Words Might Be Injuring Your Athletes",
+      "url": "https://gabbettperformance.com.au/the-stigma-of-overtraining-why-your-words-might-be-injuring-your-athletes",
+      "published_at": "2026-10-19T07:38:48+00:00",
+      "date_kind": "published",
+      "byline": "admin",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "sport-load",
+      "domain": "运动科学",
+      "author_id": "gabbett",
+      "source_author": "Tim Gabbett / Gabbett Performance",
+      "feed_url": "https://gabbettperformance.com.au/feed/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "b2732ca1d3c3",
+      "observed_authors": [
+        "Tim Gabbett / Gabbett Performance"
+      ]
+    },
+    {
+      "title": "What’s Behind the Label? Rethinking Exercise Prescription for Tendinopathy",
+      "url": "https://blogs.bmj.com/bjsm/2026/10/19/whats-behind-the-label-rethinking-exercise-prescription-for-tendinopathy",
+      "published_at": "2026-10-19T07:00:53+00:00",
+      "date_kind": "published",
+      "byline": "bjsm",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "health-rtp",
+      "domain": "运动健康",
+      "author_id": "bjsm-blog",
+      "source_author": "BJSM Blog",
+      "feed_url": "https://blogs.bmj.com/bjsm/feed/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [
+        "2026-10-20"
+      ],
+      "id": "b36ecc36597c",
+      "observed_authors": [
+        "BJSM Blog"
+      ]
+    },
+    {
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "huggingface",
+      "source_author": "Hugging Face",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "5c52b7d34bec",
+      "observed_authors": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Mercury 3 now available on AI Gateway",
+      "url": "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "date_kind": "updated_only",
+      "byline": "Jerilyn Zheng",
+      "dois": [],
+      "date_verified": false,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "vercel",
+      "source_author": "Vercel",
+      "feed_url": "https://vercel.com/atom",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "797342f077d6",
+      "observed_authors": [
+        "Vercel"
+      ]
+    },
+    {
+      "title": "MiniMax M3.1 Flash now available on AI Gateway for free",
+      "url": "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free",
+      "published_at": "2026-10-19T00:00:00+00:00",
+      "date_kind": "updated_only",
+      "byline": "Zachary Chen",
+      "dois": [],
+      "date_verified": false,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "vercel",
+      "source_author": "Vercel",
+      "feed_url": "https://vercel.com/atom",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "a765c1add20e",
+      "observed_authors": [
+        "Vercel"
       ]
     },
     {
@@ -2569,52 +2939,12 @@
       "feed_url": "https://simonwillison.net/atom/everything/",
       "platform": "博客",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-10-20"
+      ],
       "id": "d221188525e6",
       "observed_authors": [
         "Simon Willison"
-      ]
-    },
-    {
-      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
-      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on",
-      "published_at": "2026-10-18T21:09:12+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "hacker-news",
-      "source_author": "Hacker News · AI讨论",
-      "feed_url": "https://news.ycombinator.com/rss",
-      "platform": "社区",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "313154ba192d",
-      "observed_authors": [
-        "Hacker News · AI讨论"
-      ]
-    },
-    {
-      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-      "url": "https://arxiv.org/abs/2610.18861",
-      "published_at": "2026-10-18T20:48:14+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "hacker-news",
-      "source_author": "Hacker News · AI讨论",
-      "feed_url": "https://news.ycombinator.com/rss",
-      "platform": "社区",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "ae6e49210029",
-      "observed_authors": [
-        "Hacker News · AI讨论"
       ]
     },
     {
@@ -2632,7 +2962,9 @@
       "feed_url": "https://vercel.com/atom",
       "platform": "博客",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-10-19"
+      ],
       "id": "ec8a3eed6e1b",
       "observed_authors": [
         "Vercel"
@@ -2660,14 +2992,14 @@
       ]
     },
     {
-      "title": "I built a programming language that LLMs can't use",
-      "url": "https://blog.picheta.me/post/killswitch-lang",
-      "published_at": "2026-10-17T22:26:47+00:00",
+      "title": "RuneScape Bench: MMOs for Agents [video]",
+      "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
+      "published_at": "2026-10-17T23:24:05+00:00",
       "date_kind": "published",
       "byline": "",
       "dois": [],
       "date_verified": true,
-      "topic_id": "ai-model",
+      "topic_id": "ai-agent",
       "domain": "AI",
       "author_id": "hacker-news",
       "source_author": "Hacker News · AI讨论",
@@ -2675,7 +3007,7 @@
       "platform": "社区",
       "language": "en",
       "previous_briefs": [],
-      "id": "ba70912c04fe",
+      "id": "9a49de55e706",
       "observed_authors": [
         "Hacker News · AI讨论"
       ]
@@ -2912,7 +3244,9 @@
       "feed_url": "https://www.painscience.com/rss.xml",
       "platform": "博客",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-10-19"
+      ],
       "id": "622c65694e1d",
       "observed_authors": [
         "Paul Ingraham / PainScience"
@@ -2996,7 +3330,9 @@
       "feed_url": "https://www.hawkindynamics.com/blog/rss.xml",
       "platform": "博客",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-10-19"
+      ],
       "id": "dc74ca33fd19",
       "observed_authors": [
         "Hawkin Dynamics"
@@ -3104,7 +3440,9 @@
       "feed_url": "https://blogs.bmj.com/bjsm/feed/",
       "platform": "博客",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-10-19"
+      ],
       "id": "9d6f74f0cb08",
       "observed_authors": [
         "BJSM Blog"
@@ -3195,27 +3533,6 @@
       ]
     },
     {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "published_at": "2026-10-16T00:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "b6756c0a180e",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
       "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "published_at": "2026-10-16T00:00:00+00:00",
@@ -3232,6 +3549,27 @@
       "language": "en",
       "previous_briefs": [],
       "id": "9e63539289a3",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "published_at": "2026-10-16T00:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "b6756c0a180e",
       "observed_authors": [
         "OpenAI"
       ]
@@ -3491,6 +3829,27 @@
       "id": "2a289299a4bd",
       "observed_authors": [
         "Latent Space"
+      ]
+    },
+    {
+      "title": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "published_at": "2026-10-15T09:08:45+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "huggingface",
+      "source_author": "Hugging Face",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "39052ad94a8a",
+      "observed_authors": [
+        "Hugging Face"
       ]
     },
     {
@@ -4437,7 +4796,9 @@
       "feed_url": "https://martin-buchheit.net/feed/",
       "platform": "博客",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-10-20"
+      ],
       "id": "d3dc072045af",
       "observed_authors": [
         "Martin Buchheit"
@@ -4613,7 +4974,7 @@
     },
     {
       "title": "Ep 284: No more CFT for chronic back pain? With Dr Henrik Bjarke Vægter",
-      "url": "http://www.jospt.org/",
+      "url": "https://feeds.resonaterecordings.com/media/jospt/01a103bc-9cd6-714b-aa29-cfda5aef45ec/01a10ab1-948a-722a-b644-40d0ea04b3a0/jospti-s1-ep284-dr-henrik-bjarke-vaegter-full-audiomp3.mp3",
       "published_at": "2026-10-12T09:00:00+00:00",
       "date_kind": "published",
       "byline": "",
@@ -4630,7 +4991,7 @@
       "platform": "播客",
       "language": "en",
       "previous_briefs": [],
-      "id": "034343cb3991",
+      "id": "66e5a24d6de6",
       "observed_authors": [
         "JOSPT Insights"
       ]
@@ -5679,27 +6040,6 @@
       ]
     },
     {
-      "title": "Claude Haiku 5.5",
-      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
-      "published_at": "2026-10-07T20:56:21+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "fdc864340b44",
-      "observed_authors": [
-        "Simon Willison"
-      ]
-    },
-    {
       "title": "Il flessore plantare dimenticato: l’allenamento del soleo",
       "url": "https://simplifaster.com/articles/il-flessore-plantare-dimenticato-lallenamento-del-soleo",
       "published_at": "2026-10-07T19:00:00+00:00",
@@ -5739,27 +6079,6 @@
       "id": "daa797ee9439",
       "observed_authors": [
         "GitHub Blog · AI"
-      ]
-    },
-    {
-      "title": "Indicadores críticos para o salto com vara III: 85% de proficiência nos exercícios",
-      "url": "https://simplifaster.com/articles/salto-com-vara-exercicios-tecnica",
-      "published_at": "2026-10-07T17:00:00+00:00",
-      "date_kind": "published",
-      "byline": "Noah Kaminsky",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "sport-other",
-      "domain": "运动科学",
-      "author_id": "simplifaster",
-      "source_author": "SimpliFaster",
-      "feed_url": "https://simplifaster.com/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "99a873f42537",
-      "observed_authors": [
-        "SimpliFaster"
       ]
     },
     {
@@ -6117,174 +6436,6 @@
       "id": "2896758265ce",
       "observed_authors": [
         "OpenAI"
-      ]
-    },
-    {
-      "title": "The Cyber Risk Discourse is Broken",
-      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-      "published_at": "2026-10-06T14:22:41+00:00",
-      "date_kind": "published",
-      "byline": "Nathan Lambert",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "nathan-lambert",
-      "source_author": "Nathan Lambert / Interconnects",
-      "feed_url": "https://www.interconnects.ai/feed",
-      "platform": "通讯",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "673fb60ae752",
-      "observed_authors": [
-        "Nathan Lambert / Interconnects"
-      ]
-    },
-    {
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "url": "https://openai.com/index/jump-trading",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "ebb413cc5359",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "00427e47df5e",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "published_at": "2026-10-06T10:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "f57eff9c23a4",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "Treating fibromyalgia like an autoimmune disease [3m]",
-      "url": "https://www.painscience.com/blog/fibromyalgia-antibody-trial.html",
-      "published_at": "2026-10-06T07:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "health-pain",
-      "domain": "运动健康",
-      "author_id": "painscience",
-      "source_author": "Paul Ingraham / PainScience",
-      "feed_url": "https://www.painscience.com/rss.xml",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "003f25870c14",
-      "observed_authors": [
-        "Paul Ingraham / PainScience"
-      ]
-    },
-    {
-      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
-      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-      "published_at": "2026-10-06T06:28:43+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "latent-space",
-      "source_author": "Latent Space",
-      "feed_url": "https://www.latent.space/feed",
-      "platform": "通讯",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "417c3a0572d8",
-      "observed_authors": [
-        "Latent Space"
-      ]
-    },
-    {
-      "title": "Nano Banana 2.1 now available on AI Gateway",
-      "url": "https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "date_kind": "updated_only",
-      "byline": "Zachary Chen",
-      "dois": [],
-      "date_verified": false,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "vercel",
-      "source_author": "Vercel",
-      "feed_url": "https://vercel.com/atom",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "bdce6de7d4b2",
-      "observed_authors": [
-        "Vercel"
-      ]
-    },
-    {
-      "title": "Mistral Large 4 now available on AI Gateway",
-      "url": "https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway",
-      "published_at": "2026-10-06T00:00:00+00:00",
-      "date_kind": "updated_only",
-      "byline": "Jerilyn Zheng",
-      "dois": [],
-      "date_verified": false,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "vercel",
-      "source_author": "Vercel",
-      "feed_url": "https://vercel.com/atom",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "1bd9bbfeb6db",
-      "observed_authors": [
-        "Vercel"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19T06:16:07.398604+00:00",
+  "checked_at": "2026-10-20T01:49:43.162555+00:00",
   "total": 88,
   "feeds_connected": 49,
   "sources": [
@@ -557,7 +557,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://gabbettperformance.com.au/feed/",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "hrv4training",
@@ -713,7 +713,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blogs.bmj.com/bjsm/feed/",
-      "recent_items": 3
+      "recent_items": 4
     },
     {
       "id": "jospt-insights",
@@ -726,7 +726,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://feeds.resonaterecordings.com/jospt",
-      "recent_items": 1
+      "recent_items": 2
     },
     {
       "id": "physio-network",
@@ -791,7 +791,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.painscience.com/rss.xml",
-      "recent_items": 3
+      "recent_items": 2
     },
     {
       "id": "clinical-edge",
@@ -882,7 +882,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.latent.space/feed",
-      "recent_items": 19
+      "recent_items": 18
     },
     {
       "id": "nathan-lambert",
@@ -895,7 +895,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.interconnects.ai/feed",
-      "recent_items": 3
+      "recent_items": 2
     },
     {
       "id": "the-gradient",
@@ -921,7 +921,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://huggingface.co/blog/feed.xml",
-      "recent_items": 9
+      "recent_items": 11
     },
     {
       "id": "openai",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 25
+      "recent_items": 23
     },
     {
       "id": "anthropic",
@@ -999,7 +999,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://github.blog/ai-and-ml/feed/",
-      "recent_items": 3
+      "recent_items": 4
     },
     {
       "id": "langchain",
