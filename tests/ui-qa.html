@@ -5,7 +5,7 @@
 <h1>Frontend regression checks</h1><p id="status" role="status">Running…</p><ol id="results"></ol><pre id="metrics"></pre><iframe title="Site under test"></iframe>
 <script>
 (async()=>{
- const cases=[
+ const allCases=[
   ['journal desktop',1440,1100,''],['journal mobile',390,844,''],
   ['social desktop',1440,1100,'?channel=social'],['social narrow mobile',320,900,'?channel=social'],
   ['social dark',1440,1100,'?channel=social&dark=1'],
@@ -13,6 +13,8 @@
   ['historical missing social edition',390,900,'briefs/2026-10-18/?channel=social'],
   ['shared trend on mobile',390,1000,'briefs/2026-10-20/?channel=social&field=ai&from=2026-10-13&to=2026-10-17&topic=s-ai-execution-debug']
  ];
+ const params=new URL(location.href).searchParams;
+ const cases=params.has('case')?[allCases[Number(params.get('case'))]]:allCases;
  const base=new URL('../',location.href),frame=document.querySelector('iframe');
  const pause=ms=>new Promise(r=>setTimeout(r,ms));
  const keys=()=>Object.keys(localStorage).filter(k=>k.startsWith('brief'));
@@ -26,7 +28,7 @@
    try{
     await new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(Error('page load timed out')),20000);frame.onload=()=>{clearTimeout(timeout);resolve()};frame.src=new URL(path,base).href});
     const d=frame.contentDocument,w=frame.contentWindow;
-    const script=d.createElement('script');script.src=new URL('tests/site-qa.js',base).href;d.body.append(script);
+    const script=d.createElement('script');script.src=new URL('tests/site-qa.js?v=20261020-5',base).href;d.body.append(script);
     for(let i=0;i<300&&!d.body.dataset.qa;i++)await pause(100);
     if(d.body.dataset.qa!=='pass')throw Error(d.body.dataset.qaError||'checks timed out');
     const surface=d.querySelector('.card,.panel'),glass=surface?w.getComputedStyle(surface):null;
@@ -34,10 +36,14 @@
     if(w.getComputedStyle(d.querySelector('.shell')).borderTopWidth!=='0px')throw Error('unexpected page frame');
     metrics.push({name,width:w.innerWidth,height:w.innerHeight,overflow:d.documentElement.scrollWidth>w.innerWidth,background:glass?.backgroundImage,blur:glass?.backdropFilter});
     row.className='pass';row.textContent=name+' — PASS';
-   }catch(e){failed++;row.className='fail';row.textContent=name+' — FAIL: '+e.message}
+   }catch(e){
+    failed++;row.className='fail';row.textContent=name+' — FAIL: '+e.message;
+    const d=frame.contentDocument;
+    metrics.push({name,error:e.message,positions:Object.fromEntries(['.edition-head','.datebar','#trends','#overview','#dailyTitle','.toolbar','#sport','#sections .card-title'].map(s=>[s,d.querySelector(s)?.getBoundingClientRect().toJSON()]))});
+   }
   }
  }finally{
-  frame.src='about:blank';keys().forEach(k=>localStorage.removeItem(k));Object.entries(saved).forEach(([k,v])=>localStorage.setItem(k,v));
+  if(!params.has('case'))frame.src='about:blank';keys().forEach(k=>localStorage.removeItem(k));Object.entries(saved).forEach(([k,v])=>localStorage.setItem(k,v));
  }
  document.querySelector('#metrics').textContent=JSON.stringify(metrics,null,2);
  document.querySelector('#status').textContent=failed?failed+' case(s) failed':cases.length+' cases passed';
