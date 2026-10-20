@@ -2,7 +2,7 @@
   "version": 1,
   "date": "2026-10-20",
   "title": "每日专业资讯简报｜社媒热点",
-  "observed_at": "2026-10-20T07:08:00+08:00",
+  "observed_at": "2026-10-20T08:00:26+08:00",
   "summary": {
     "title": "把标签拆回真实负荷，把Agent拆回可调试过程",
     "signal": "本期讨论最有价值的共同点，是把训练名称、比赛总量和AI模型名称拆回实际剂量、任务上下文与运行记录。",
@@ -123,7 +123,7 @@
       "short_title": "Copilot工作流需要迁移模型",
       "author": "GitHub",
       "platform": "官方更新",
-      "published_date": "2026-10-19",
+      "published_date": "2026-09-18",
       "priority": "重点关注",
       "one_liner": "GPT-5.5、GPT-5.4系列、GPT-5 mini、Gemini 3.7 Flash和Grok 4.5已从Copilot体验中退役。",
       "what": "GitHub按9月18日公告于10月19日执行模型退役，并给出GPT-5.6 Sol/Luna、Gemini 3.8 Flash和Grok 4.6等替代项。默认模型策略下部分企业会自动启用替代模型；关闭全局默认或显式禁用模型的组织需自行调整策略。",
@@ -170,7 +170,7 @@
       "references": [
         {"url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity", "label": "会话级成本与缓存", "note": "10月18日发布，会话视图汇总模型、提供方、成本和缓存。"},
         {"url": "https://simonwillison.net/2026/Oct/18/llm-echo", "label": "假模型调试usage", "note": "0.5版纳入工具、系统提示和推理token。"},
-        {"url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/", "label": "Copilot模型退役", "note": "10月19日执行六个旧模型退役。"}
+        {"url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity", "label": "会话级成本与缓存", "note": "10月18日发布，会话视图汇总模型、提供方、成本和缓存。"}
       ],
       "related": {"channel": "journal", "direction_id": "agent-efficiency-observability", "label": "连读期刊：效率与可观测性"}
     }
