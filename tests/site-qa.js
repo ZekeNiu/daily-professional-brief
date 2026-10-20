@@ -3,7 +3,8 @@
  const check=(v,s)=>{if(!v)throw Error(s)};
  const pause=ms=>new Promise(r=>setTimeout(r,ms));
  const wait=async f=>{for(let i=0;i<240;i++){if(f())return;await pause(50)}throw Error('view not ready: '+(window.__briefError||''))};
- const get=async p=>(await fetch(p)).json();
+ const siteRoot=new URL((document.body.dataset.root||'.')+'/',location.href);
+ const get=async p=>(await fetch(new URL(p.replace(/^\//,''),siteRoot))).json();
  const cards=()=>all('#sections .card:not(.hidden)');
  const change=async c=>{$('.channel-tabs [data-channel="'+c+'"]').click();await wait(()=>document.body.dataset.channel===c&&window.__briefReady)};
  const follows=(a,b)=>Boolean($(a).compareDocumentPosition($(b))&Node.DOCUMENT_POSITION_FOLLOWING);
@@ -69,6 +70,7 @@
    $('.inspector-close').click();
   }
   const topic=$('.heat-topic');topic.click();check(!$('#trendInspector').classList.contains('hidden'),'topic opens inspector');
+  topic.click();check($('#trendInspector').classList.contains('hidden'),'same topic closes inspector');topic.click();
   let xs=expectedItems($('#heatmap').dataset.domain,topic.dataset.topic);
   check(all('.heat-content-list li').length===xs.length,'topic content matches date range');
   range(7);xs=expectedItems($('#heatmap').dataset.domain,topic.dataset.topic);check(Number($('#trendInspector').dataset.count)===xs.length,'existing detail follows changed range');

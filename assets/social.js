@@ -18,7 +18,7 @@
     const version=++viewVersion,channel=document.body.dataset.channel;
     const old=$('#sources'),fresh=old.cloneNode(false);old.replaceWith(fresh);
     try{
-      const response=await fetch(root+'/data/social/sources.json',{cache:'no-store'});
+      const response=await fetch(root+'/data/social/sources.json',{cache:'no-cache'});
       if(!response.ok)throw Error('HTTP '+response.status);
       const data=await response.json();
       if(version!==viewVersion||document.body.dataset.channel!==channel)return;

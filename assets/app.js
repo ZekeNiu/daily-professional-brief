@@ -7,13 +7,14 @@ let channel=currentChannel(),loadVersion=0;
 const channelQuery=()=>channel==='social'?'?channel=social':'';
 const datedURL=date=>root+'/briefs/'+date+'/'+channelQuery();
 const channelData=()=>root+'/data/'+(channel==='social'?'social/':'');
-let cardObserver,sectionObserver;
+let sectionObserver;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const badgeClass=p=>p==='重点关注'?'high':p==='值得了解'?'mid':'fast';
 const setTheme=()=>{try{const saved=localStorage.getItem('brief-theme');if(saved)document.documentElement.dataset.theme=saved}catch{}};
 setTheme();
 $('#themeToggle')?.addEventListener('click',()=>{const n=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=n;try{localStorage.setItem('brief-theme',n)}catch{}});
-async function getJSON(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}
+// Revalidate on every visit; unchanged JSON can use HTTP 304 instead of downloading again.
+async function getJSON(url){const r=await fetch(url,{cache:'no-cache'});if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}
 function sourceLink(item){return item.source?.url||'#'}
 function badge(p){return '<span class="badge '+badgeClass(p)+'"><i class="badge-dot"></i>'+esc(p)+'</span>'}
 function displayDomain(d){return d==='运动科学'?'运动表现':d==='全球重要事件'?'全球事件':d}
@@ -95,12 +96,14 @@ function bindBriefInteractions(){
  }
  $$('.filter-btn').forEach(b=>b.onclick=()=>{$$('.filter-btn').forEach(x=>x.classList.remove('active'));b.classList.add('active');domain=b.dataset.domain;apply()});
  $('#search').oninput=e=>{query=e.target.value.trim().toLowerCase();apply()};
- cardObserver?.disconnect();sectionObserver?.disconnect();
- const ob=cardObserver=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');ob.unobserve(e.target)}}),{threshold:.06});cards.forEach(c=>ob.observe(c));
+}
+function observeSections(){
+ sectionObserver?.disconnect();
  const secs=$$('.section'),links=$$('.rail a');const so=sectionObserver=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-25% 0px -65% 0px'});secs.forEach(s=>so.observe(s));
 }
-function restoreFolds(date){
+function restoreFolds(date,onlyNew=false){
  $$('details[data-fold]').forEach(el=>{
+  if(onlyNew&&el.ontoggle)return;
   const name=el.dataset.fold,key='brief-fold:'+channel+':'+name+(['daily','domain-sport','domain-health','domain-ai','domain-global'].includes(name)?':'+date:'');
   // A fresh edition always starts with its daily items available.
   const defaults=['trend-map','overview','daily','domain-sport','domain-health','domain-ai','domain-global'];
@@ -154,19 +157,37 @@ async function init(){
   if(version!==loadVersion)return;
   $('#daily').classList.remove('hidden');$('#overview').classList.remove('hidden');$('#judgment').classList.remove('hidden');$('#search').value='';$$('.filter-btn').forEach(b=>b.classList.toggle('active',b.dataset.domain==='全部'));
   renderBrief(d);
-  await window.BriefTrends.render(d,root,channel);
-  if(version!==loadVersion)return;
-  if(channel==='social')await window.BriefSocial.render(d,root);
-  if(version!==loadVersion)return;
   restoreFolds(d.date);
-  if(version===loadVersion)bindBriefInteractions();
+  bindBriefInteractions();
+  // Reading and filtering are ready while the independent panels load in parallel.
+  await Promise.all([
+   window.BriefTrends.render(d,root,channel),
+   channel==='social'?window.BriefSocial.render(d,root):Promise.resolve()
+  ]);
+  if(version!==loadVersion)return;
+  restoreFolds(d.date,true);
+  observeSections();
+  scheduleScrollUpdate();
   if(version===loadVersion)window.__briefReady=true;
  }catch(e){if(version!==loadVersion)return;console.error(e);const box=$('#appError');if(box){box.textContent='简报数据载入失败，请刷新后重试。';box.classList.remove('hidden')}window.__briefError=e.message;}
 }
 $$('.channel-tabs a').forEach(a=>a.addEventListener('click',e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();if(a.dataset.channel===channel)return;history.pushState({},'',a.href);scrollTo({top:0,behavior:'instant'});init();}));
 addEventListener('popstate',init);
 document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(a)revealAnchor(a.getAttribute('href'))});
-addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;$('.progress').style.width=(h?scrollY/h*100:0)+'%';$('#toTop')?.classList.toggle('show',scrollY>650)});
+const progress=$('.progress'),toTop=$('#toTop');
+let scrollFrame=0;
+function scheduleScrollUpdate(){
+ if(scrollFrame)return;
+ scrollFrame=requestAnimationFrame(()=>{
+  scrollFrame=0;
+  const h=document.documentElement.scrollHeight-innerHeight;
+  if(progress)progress.style.transform='scaleX('+Math.max(0,Math.min(1,h?scrollY/h:0))+')';
+  toTop?.classList.toggle('show',scrollY>650);
+ });
+}
+addEventListener('scroll',scheduleScrollUpdate,{passive:true});
+addEventListener('resize',scheduleScrollUpdate,{passive:true});
+document.addEventListener('toggle',scheduleScrollUpdate,true);
 $('#toTop')?.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
 $('#copyLink')?.addEventListener('click',async e=>{try{await navigator.clipboard.writeText(location.href);e.currentTarget.textContent='已复制';setTimeout(()=>e.currentTarget.textContent='复制链接',1200)}catch{}});
 init();

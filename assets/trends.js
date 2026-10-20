@@ -103,7 +103,7 @@
  }
  window.BriefTrends={async render(d,root,channel){
   const version=++viewVersion,old=$('#trends'),fresh=old.cloneNode(false);old.replaceWith(fresh);
-  try{const r=await fetch(root+'/'+d.trends_url,{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();if(version!==viewVersion||document.body.dataset.channel!==channel)return;explorer(data,d,fresh,root,channel)}
+  try{const r=await fetch(root+'/'+d.trends_url,{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);const data=await r.json();if(version!==viewVersion||document.body.dataset.channel!==channel)return;explorer(data,d,fresh,root,channel)}
   catch(e){if(version===viewVersion&&document.body.dataset.channel===channel)fresh.innerHTML='<div class="panel empty">近期趋势暂未载入，请刷新后重试。</div>';}
  }};
 })();

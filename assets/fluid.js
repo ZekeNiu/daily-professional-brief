@@ -5,12 +5,10 @@
   const canvas = document.createElement('canvas');
   canvas.className = 'fluid-canvas';
   canvas.setAttribute('aria-hidden', 'true');
-  const ctx = canvas.getContext('2d', { alpha: false });
-  if (!ctx) return; // The CSS gradient remains visible if canvas is unavailable.
-
   const motion = matchMedia('(min-width: 721px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)');
   const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
-  let width = 0, height = 0, frame = 0, lastFrame = 0, activeUntil = 0;
+  let ctx, width = 0, height = 0, frame = 0, timer = 0, lastFrame = 0, activeUntil = 0;
+  let elapsed = 0;
   let x = 0, y = 0, targetX = 0, targetY = 0, velocityX = 0, velocityY = 0;
   let wakeX = 0, wakeY = 0, turn = 0, turnSpeed = 0;
   let previousX = null, previousY = null;
@@ -82,42 +80,64 @@
   }
 
   function tick(time) {
-    frame = requestAnimationFrame(tick);
-    if (time - lastFrame < (time < activeUntil ? 45 : 95)) return;
-    const step = clamp((time - lastFrame) / 16.67, 1, 5);
+    frame = 0;
+    if (!motion.matches || document.hidden) return;
+    const delta = clamp(time - lastFrame, 0, 80);
     lastFrame = time;
-    advance(step);
-    draw(time);
+    elapsed += delta;
+    // Small integration steps keep inertia stable even on a slow display.
+    for (let left = delta / 16.67; left > 0; left -= 1) advance(Math.min(1, left));
+    draw(elapsed);
+    const settled = Math.abs(targetX - x) + Math.abs(targetY - y)
+      + Math.abs(velocityX) + Math.abs(velocityY) + Math.abs(wakeX)
+      + Math.abs(wakeY) + Math.abs(turn) + Math.abs(turnSpeed) < .0008;
+    // Freeze the complete field once inertia settles; no idle animation loop.
+    if (time >= activeUntil && settled) return;
+    schedule();
+  }
+
+  function schedule() {
+    if (frame || timer || !ctx || !motion.matches || document.hidden) return;
+    // Avoid waking requestAnimationFrame at display refresh rate just to skip draws.
+    timer = setTimeout(() => {
+      timer = 0;
+      if (motion.matches && !document.hidden) frame = requestAnimationFrame(tick);
+    }, Math.max(0, 40 - (performance.now() - lastFrame)));
   }
 
   function start() {
-    if (frame || !motion.matches || document.hidden) return;
+    if (frame || timer || !ctx || !motion.matches || document.hidden) return;
     lastFrame = performance.now();
-    frame = requestAnimationFrame(tick);
+    schedule();
   }
 
   function stop() {
     cancelAnimationFrame(frame);
-    frame = 0;
+    clearTimeout(timer);
+    frame = timer = 0;
   }
 
   function resize() {
-    const spacing = clamp(Math.sqrt(innerWidth * innerHeight / 26000), 7, 14);
-    width = Math.max(120, Math.ceil(innerWidth / spacing));
-    height = Math.max(76, Math.ceil(innerHeight / spacing));
+    if (!motion.matches || document.hidden) return;
+    ctx ||= canvas.getContext('2d', { alpha: false });
+    if (!ctx) return; // Keep the CSS gradient when canvas is unavailable.
+    const viewportWidth = Math.max(1, innerWidth), viewportHeight = Math.max(1, innerHeight);
+    const scale = Math.min(1, Math.sqrt(24000 / (viewportWidth * viewportHeight)));
+    width = Math.max(1, Math.round(viewportWidth * scale));
+    height = Math.max(1, Math.round(viewportHeight * scale));
     canvas.width = width;
     canvas.height = height;
-    draw(performance.now());
+    draw(elapsed);
   }
 
   function applyMotionPreference() {
     canvas.style.display = motion.matches ? '' : 'none';
-    if (motion.matches) { resize(); start(); }
-    else stop();
+    stop();
+    if (motion.matches) resize();
   }
 
   addEventListener('pointermove', event => {
-    if (!motion.matches || (event.pointerType !== 'mouse' && event.pointerType !== 'pen')) return;
+    if (!motion.matches || document.hidden || !ctx || (event.pointerType !== 'mouse' && event.pointerType !== 'pen')) return;
     const nx = clamp(event.clientX / Math.max(1, innerWidth) * 2 - 1, -1, 1);
     const ny = clamp(event.clientY / Math.max(1, innerHeight) * 2 - 1, -1, 1);
     targetX = nx;
@@ -131,7 +151,7 @@
     }
     previousX = nx;
     previousY = ny;
-    activeUntil = performance.now() + 3200;
+    activeUntil = performance.now() + 400;
     start();
   }, { passive: true });
 
@@ -139,7 +159,8 @@
     if (event.relatedTarget) return;
     previousX = previousY = null;
     targetX = targetY = 0;
-    activeUntil = performance.now() + 2400;
+    activeUntil = performance.now() + 400;
+    start();
   }, { passive: true });
 
   let resizeTimer;
@@ -148,14 +169,15 @@
     resizeTimer = setTimeout(resize, 160);
   }, { passive: true });
   document.addEventListener('visibilitychange', () => {
-    if (document.hidden) stop(); else start();
+    stop();
+    previousX = previousY = null;
+    if (!document.hidden && motion.matches) { resize(); start(); }
   });
   motion.addEventListener?.('change', applyMotionPreference);
-  new MutationObserver(() => draw(performance.now())).observe(document.documentElement, {
+  new MutationObserver(() => { if (ctx && motion.matches && !document.hidden) draw(elapsed); }).observe(document.documentElement, {
     attributes: true, attributeFilter: ['data-theme']
   });
 
-  resize();
   layer.append(canvas);
   applyMotionPreference();
 })();
