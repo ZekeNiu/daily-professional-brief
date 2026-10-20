@@ -80,7 +80,12 @@
   if(innerWidth>=380&&innerWidth<720)check($('.heat-scroll').scrollWidth<=$('.heat-scroll').clientWidth+1,'seven-day mobile chart fits');
   $('#trendMap>summary').click();check(!$('#trendMap').open,'whole heatmap folds');$('#trendMap>summary').click();
   $('.filter-btn[data-domain="运动健康"]').click();check(cards().length===brief.items.filter(i=>i.domain==='运动健康').length,'daily filter');check(!$('#trends').classList.contains('hidden'),'filter preserves trend');
-  if(channel==='social'){$('#search').value='Asker';$('#search').dispatchEvent(new Event('input'));check(cards().length===1,'author search');}
+  if(channel==='social'){
+   $('.filter-btn[data-domain="全部"]').click();
+   const author=brief.items.find(x=>x.author)?.author;check(author,'social author available');
+   $('#search').value=author;$('#search').dispatchEvent(new Event('input'));
+   check(cards().length===brief.items.filter(x=>(x.author||'').toLowerCase().includes(author.toLowerCase())).length,'author search');
+  }
   $('#search').value='__unmatched__';$('#search').dispatchEvent(new Event('input'));check(!$('#noResults').classList.contains('hidden'),'no results');reset();
   const head=$('#sections .card-head');head.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',bubbles:true}));check(head.getAttribute('aria-expanded')==='true','keyboard card');check(!head.closest('.card').querySelector('.card-detail').inert,'detail accessible');head.click();
   const domain=$('#sport details');domain.querySelector('summary').click();check(!domain.open,'domain folds');domain.querySelector('summary').click();
@@ -98,7 +103,8 @@
   if(path.includes('archive.html')){
    const s=await get('/data/social/archive.json');check(all('.archive-card').length===s.length,'social archive');check($('.archive-card').href.includes('channel=social'),'archive column');await change('journal');const j=await get('/data/archive.json');check(all('.archive-card').length===j.length,'journal archive');await change('social');
   }else if(path.includes('/2026-10-18/')){
-   check($('#heroDate').textContent.includes('18'),'missing date correct');check(!$('#appError').classList.contains('hidden'),'missing explained');check($('#appError a').href.includes('2026-10-19/?channel=social'),'fallback link');check(all('#sections .card').length===0,'no wrong-date cards');
+   const latest=await get('/data/social/latest.json');
+   check($('#heroDate').textContent.includes('18'),'missing date correct');check(!$('#appError').classList.contains('hidden'),'missing explained');check($('#appError a').href.includes(latest.latest+'/?channel=social'),'fallback link');check(all('#sections .card').length===0,'no wrong-date cards');
    await change('journal');check($('#appError').classList.contains('hidden'),'journal recovers');check(all('.heat-topic').length>0,'historical journal heatmap');
   }else if(params.has('direction')||params.has('topic')){
    check($('#trendMap').open,'shared heatmap open');check(!$('#trendInspector').classList.contains('hidden'),'shared topic details open');

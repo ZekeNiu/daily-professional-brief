@@ -76,5 +76,31 @@
     "date_verified": true,
     "platform": "X",
     "topic_id": "health-other"
+  },
+  {
+    "id": "bjsm-tendon-dose-20261019",
+    "title": "肌腱运动处方需要记录真实机械剂量",
+    "url": "https://blogs.bmj.com/bjsm/2026/10/19/whats-behind-the-label-rethinking-exercise-prescription-for-tendinopathy/",
+    "domain": "运动健康",
+    "source_author": "Ahmed Samir等 / BJSM Blog",
+    "author_id": "bjsm-blog",
+    "published_at": "2026-10-19",
+    "observed_at": "2026-10-20T08:00:26+08:00",
+    "date_verified": true,
+    "platform": "研究者博客",
+    "topic_id": "health-pain"
+  },
+  {
+    "id": "github-copilot-model-retirement-20260918",
+    "title": "GitHub Copilot六个旧模型于10月19日退役",
+    "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/",
+    "domain": "AI",
+    "source_author": "GitHub",
+    "author_id": "github",
+    "published_at": "2026-09-18",
+    "observed_at": "2026-10-20T08:00:26+08:00",
+    "date_verified": true,
+    "platform": "官方更新",
+    "topic_id": "ai-agent"
   }
 ]
