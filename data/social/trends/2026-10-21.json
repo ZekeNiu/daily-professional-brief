@@ -1,0 +1,4672 @@
+{
+  "version": 3,
+  "start": "2026-10-08",
+  "end": "2026-10-21",
+  "as_of": "2026-10-21T07:59:00+08:00",
+  "unit": "来源数／日",
+  "rows": [
+    {
+      "id": "s-sport-context-load",
+      "domain": "运动科学",
+      "label": "负荷与状态的情境解释",
+      "summary": "赛后休息日、比赛跑动量与环境下心率是近期连读线索，共同指向测试和比赛情境如何影响指标解释。",
+      "summary_refs": [
+        "b0ebeed71849",
+        "ab13e5c2646b"
+      ],
+      "confidence": "中",
+      "confidence_reason": "Buchheit的赛后休息日与环境心率文章，均涉及指标的情境解释。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 4,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 2,
+          "item_ids": [
+            "b0ebeed71849",
+            "fb12df8f3b2f"
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 1,
+          "item_ids": [
+            "d3dc072045af"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 1,
+          "item_ids": [
+            "ab13e5c2646b"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-sport-force-time",
+      "domain": "运动科学",
+      "label": "力时曲线与速度测量",
+      "summary": "Enode测量工具、Hawkin R与Python力时曲线文章，把讨论从单一结果指标延伸到数据读取和完整曲线。",
+      "summary_refs": [
+        "fbaaf239310d",
+        "dc74ca33fd19"
+      ],
+      "confidence": "中",
+      "confidence_reason": "同一团队的Hawkin R与Python曲线文章有明确的工具和数据分析关联。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 3,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 2,
+          "item_ids": [
+            "8dea0bbc04c7",
+            "fbaaf239310d"
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 1,
+          "item_ids": [
+            "dc74ca33fd19"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-sport-muscle-stimulus",
+      "domain": "运动科学",
+      "label": "肌肉结构与训练刺激",
+      "summary": "比目鱼肌训练、力量类型、离心柔韧性及肌节与肌原纤维讨论，形成围绕肌肉结构和刺激选择的阅读线索。",
+      "summary_refs": [
+        "x-beardsley-2109932205757673780",
+        "x-beardsley-2110656989055344847"
+      ],
+      "confidence": "中",
+      "confidence_reason": "两则Beardsley帖文分别讨论离心柔韧性和肌节/肌原纤维刺激。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 4,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 1,
+          "item_ids": [
+            "eaa6b9dce4be"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1,
+          "item_ids": [
+            "d101caded0de"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 1,
+          "item_ids": [
+            "x-beardsley-2109932205757673780"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 1,
+          "item_ids": [
+            "x-beardsley-2110656989055344847"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-sport-youth-transfer",
+      "domain": "运动科学",
+      "label": "青少年训练与专项转化",
+      "summary": "运动技能游戏、青少年全身训练模板及短跑人才转项文章，围绕基础运动能力如何进入具体项目展开。",
+      "summary_refs": [
+        "8398e9d7071d",
+        "10e96577dcd0"
+      ],
+      "confidence": "中",
+      "confidence_reason": "转项文章与青少年全身训练模板，均涉及基础能力进入具体项目。",
+      "kind": "topic",
+      "source_count": 1,
+      "item_count": 8,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 1,
+          "item_ids": [
+            "99a873f42537"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 1,
+          "item_ids": [
+            "074b7f746122",
+            "d02b7b8b5734"
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 1,
+          "item_ids": [
+            "28733d68b3c0",
+            "8398e9d7071d"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 1,
+          "item_ids": [
+            "10e96577dcd0",
+            "5bb1c1089483"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 1,
+          "item_ids": [
+            "353ee92aaefd"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-health-tendon-dose",
+      "domain": "运动健康",
+      "label": "肌腱负荷与胶原补充",
+      "summary": "肌腱机械剂量处方与胶原补充讨论，分别从训练刺激和营养材料切入组织适应。",
+      "summary_refs": [
+        "c10aba2e453b",
+        "bjsm-tendon-dose-20261019"
+      ],
+      "confidence": "中",
+      "confidence_reason": "胶原蛋白文章与肌腱处方原文，提供营养与机械负荷两种视角。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 2,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1,
+          "item_ids": [
+            "c10aba2e453b"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 1,
+          "item_ids": [
+            "bjsm-tendon-dose-20261019"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-health-muscle-preserve",
+      "domain": "运动健康",
+      "label": "低负荷与固定期保肌",
+      "summary": "赛季内血流限制训练和固定期亮氨酸讨论，分别关注训练受限情境下的力量或肌肉量保持。",
+      "summary_refs": [
+        "78ecce3eb8d5",
+        "x-beardsley-2110297106636259587"
+      ],
+      "confidence": "中",
+      "confidence_reason": "BFR节目与固定期亮氨酸帖文，均关注受限条件下的力量或肌肉保持。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 2,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 1,
+          "item_ids": [
+            "78ecce3eb8d5"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 1,
+          "item_ids": [
+            "x-beardsley-2110297106636259587"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-health-nerve-imaging",
+      "domain": "运动健康",
+      "label": "神经压迫与影像解释",
+      "summary": "股外侧皮神经症状、腕管综合征指南与脊柱狭窄影像解读，聚焦症状定位、诊断和影像解释。",
+      "summary_refs": [
+        "45f34a289f22",
+        "622c65694e1d"
+      ],
+      "confidence": "中",
+      "confidence_reason": "两篇原文标题明确讨论神经压迫、症状与影像解释。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 3,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 1,
+          "item_ids": [
+            "45f34a289f22"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "value": 1,
+          "item_ids": [
+            "298e10103127"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 1,
+          "item_ids": [
+            "622c65694e1d"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-health-food-testing",
+      "domain": "运动健康",
+      "label": "食物敏感检测的有效性",
+      "summary": "近期两则作者讨论分别比较自报过敏与受控测试，以及解释食物敏感性指尖测试。",
+      "summary_refs": [
+        "x-asker-2111487940681428997",
+        "x-asker-2111850324675678267"
+      ],
+      "confidence": "中",
+      "confidence_reason": "同一作者两则连续帖文，分别讨论自报过敏和指尖测试。",
+      "kind": "topic",
+      "source_count": 1,
+      "item_count": 2,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 1,
+          "item_ids": [
+            "x-asker-2111487940681428997"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "value": 1,
+          "item_ids": [
+            "x-asker-2111850324675678267"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-execution-debug",
+      "domain": "AI",
+      "label": "Agent执行与调试",
+      "summary": "运行框架、可查记忆、网关日志、LLM代理和echo测试工具，共同关注Agent执行过程能否被观察和调试。",
+      "summary_refs": [
+        "ec8a3eed6e1b",
+        "d221188525e6"
+      ],
+      "confidence": "中",
+      "confidence_reason": "网关日志更新与工具作者echo版本记录，均可定位到运行调试功能。",
+      "kind": "topic",
+      "source_count": 5,
+      "item_count": 7,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 1,
+          "item_ids": [
+            "7fdb639a7950"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 1,
+          "item_ids": [
+            "7fc73ab44f09"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "value": 1,
+          "item_ids": [
+            "ec8a3eed6e1b"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "value": 2,
+          "item_ids": [
+            "313154ba192d",
+            "88b5537c8caf",
+            "ae6e49210029",
+            "d221188525e6"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-multiagent-long",
+      "domain": "AI",
+      "label": "多Agent编排与长任务",
+      "summary": "动态工作流、长时多Agent运行与技能工具入口，把Agent的讨论从单次对话扩展到任务组织。",
+      "summary_refs": [
+        "e71374164f2c",
+        "a8b8c31de898"
+      ],
+      "confidence": "中",
+      "confidence_reason": "动态工作流文章与长时多Agent运行案例，直接涉及任务编排。",
+      "kind": "topic",
+      "source_count": 5,
+      "item_count": 7,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 2,
+          "item_ids": [
+            "91597643c193",
+            "e71374164f2c"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "value": 1,
+          "item_ids": [
+            "57c3309db5be",
+            "a8b8c31de898"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "value": 1,
+          "item_ids": [
+            "x-mollick-2110447059086229670"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "value": 1,
+          "item_ids": [
+            "9e63539289a3"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 1,
+          "item_ids": [
+            "962c8c99b4bd"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-argon-release",
+      "domain": "AI",
+      "label": "Argon上线与工具适配",
+      "summary": "Gemini 4 Argon的发布、责任评估与客户端适配形成一组同期条目，可按日期追踪接入进展。",
+      "summary_refs": [
+        "4e31b829ae68",
+        "6451d923eed6"
+      ],
+      "confidence": "中",
+      "confidence_reason": "官方发布与llm-gemini工具作者的适配更新，可按版本时间连读。",
+      "kind": "topic",
+      "source_count": 4,
+      "item_count": 5,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 4,
+          "item_ids": [
+            "1dc99b611b24",
+            "43abc94dd1f0",
+            "4e31b829ae68",
+            "6451d923eed6",
+            "ed1be8ea5f53"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-open-ondevice",
+      "domain": "AI",
+      "label": "开放权重与端侧部署",
+      "summary": "开放权重模型、端侧Agent模型、预训练数据与AIPC部署条目，关注模型如何被获取和在本地运行。",
+      "summary_refs": [
+        "53911f98c21c",
+        "c9a6184923cc"
+      ],
+      "confidence": "中",
+      "confidence_reason": "LFM端侧模型与Beam开放模型条目，直接对应部署和获取方式。",
+      "kind": "topic",
+      "source_count": 3,
+      "item_count": 8,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 1,
+          "item_ids": [
+            "ffd281819637"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 1,
+          "item_ids": [
+            "53911f98c21c"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "value": 1,
+          "item_ids": [
+            "ff0cf28c5d75"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "value": 2,
+          "item_ids": [
+            "06d110e31202",
+            "138e9b7e7d97",
+            "c9a6184923cc",
+            "d33064359577"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "value": 1,
+          "item_ids": [
+            "0dd91801c3b6"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-model-cost-choice",
+      "domain": "AI",
+      "label": "模型换代与调用成本",
+      "summary": "Haiku、Meta模型和成本案例的同期讨论，把模型选择与实际工作流调用成本联系起来。",
+      "summary_refs": [
+        "c07b5023822d",
+        "9bf93d58cc35"
+      ],
+      "confidence": "中",
+      "confidence_reason": "Haiku模型报道和Asana成本案例，分别对应模型选型与实际调用。",
+      "kind": "topic",
+      "source_count": 4,
+      "item_count": 7,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 3,
+          "item_ids": [
+            "45d6a2b79938",
+            "c07b5023822d",
+            "fdc864340b44"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1,
+          "item_ids": [
+            "9bf93d58cc35"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 2,
+          "item_ids": [
+            "21096782dd6c",
+            "5ca8d6f055cb"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 1,
+          "item_ids": [
+            "c991932364dc"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-world-robotics",
+      "domain": "AI",
+      "label": "世界模型与机器人长任务",
+      "summary": "工业机器人执行、小时级物理Agent、世界模型和VLA条目，围绕物理任务中的预测与持续行动展开。",
+      "summary_refs": [
+        "be997bf71860",
+        "8a6f4c3d5eb5"
+      ],
+      "confidence": "中",
+      "confidence_reason": "Dyna物理Agent和世界模型/VLA材料，明确围绕物理任务的预测与行动。",
+      "kind": "topic",
+      "source_count": 3,
+      "item_count": 6,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 1,
+          "item_ids": [
+            "9a2a489d753a"
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 2,
+          "item_ids": [
+            "be997bf71860",
+            "d96a2391b623"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 1,
+          "item_ids": [
+            "8a6f4c3d5eb5",
+            "dd2f144e562f"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 1,
+          "item_ids": [
+            "06e34488cd21"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-lab-loop",
+      "domain": "AI",
+      "label": "科研Agent与实验闭环",
+      "summary": "科研模型接入、实验室闭环、抗菌肽搜索和科学计算条目，形成AI科研从计算任务走向实验与验证的讨论线索。",
+      "summary_refs": [
+        "649989f895c2",
+        "3b88e6314086"
+      ],
+      "confidence": "中",
+      "confidence_reason": "Lab-in-the-Loop节目与抗菌肽搜索条目，均涉及AI进入科研验证流程。",
+      "kind": "topic",
+      "source_count": 6,
+      "item_count": 8,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1,
+          "item_ids": [
+            "a092f744c7c1"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "value": 1,
+          "item_ids": [
+            "68a694837125"
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 2,
+          "item_ids": [
+            "504a28fcb44d",
+            "649989f895c2"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "value": 3,
+          "item_ids": [
+            "32165ee6af89",
+            "3b88e6314086",
+            "467c8e42acb6"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "value": 1,
+          "item_ids": [
+            "893e1df4cf89"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-generative-media",
+      "domain": "AI",
+      "label": "生成音视频与交互界面",
+      "summary": "语音识别、语音建站、图像与长视频生成及可交互界面，显示内容生成与交互产品的多条实现路径。",
+      "summary_refs": [
+        "6cb53bbd6b72",
+        "8d45898e533e"
+      ],
+      "confidence": "中",
+      "confidence_reason": "语音建站的作者记录与长视频案例，对应两种具体内容工作流。",
+      "kind": "topic",
+      "source_count": 3,
+      "item_count": 4,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 1,
+          "item_ids": [
+            "855092fba1df"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1,
+          "item_ids": [
+            "6cb53bbd6b72"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 1,
+          "item_ids": [
+            "8d45898e533e"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 1,
+          "item_ids": [
+            "eb67409897ed"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-security-analysis",
+      "domain": "AI",
+      "label": "AI安全检测与威胁分析",
+      "summary": "密钥检测、恶意软件分析、诈骗识别和威胁调查案例，构成AI进入安全分析流程的一组同期进展。",
+      "summary_refs": [
+        "532983178914",
+        "b76b11a1199f"
+      ],
+      "confidence": "中",
+      "confidence_reason": "密钥模型与诈骗识别的官方条目，都指向可定位的安全检测任务。",
+      "kind": "topic",
+      "source_count": 4,
+      "item_count": 8,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 2,
+          "item_ids": [
+            "d9e485b409fe",
+            "daa797ee9439"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1,
+          "item_ids": [
+            "570fe3204556"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 3,
+          "item_ids": [
+            "004cd593adab",
+            "532983178914",
+            "94ee28b93f9d",
+            "b76b11a1199f"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 1,
+          "item_ids": [
+            "55c3c0be518a"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-enterprise-knowledge",
+      "domain": "AI",
+      "label": "企业知识与专业任务应用",
+      "summary": "企业知识接入、合同审查、专业问答和客户服务案例，把Agent能力放进具体工作任务。",
+      "summary_refs": [
+        "db7b9e6fe248",
+        "94eadcab22c4"
+      ],
+      "confidence": "中",
+      "confidence_reason": "Atlassian知识接入与合同审查案例，均落在可辨识的工作任务上。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 5,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1,
+          "item_ids": [
+            "db7b9e6fe248"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 1,
+          "item_ids": [
+            "94eadcab22c4"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "value": 1,
+          "item_ids": [
+            "b6756c0a180e"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "value": 2,
+          "item_ids": [
+            "24ffd586aefb",
+            "9732b2763df5"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-learning-design",
+      "domain": "AI",
+      "label": "教育AI的提问与评估",
+      "summary": "青少年学习、模拟学生学习和提问式教学条目，聚焦如何设计与评价AI辅助学习过程。",
+      "summary_refs": [
+        "ca946f1238ba",
+        "a60f4a701f88"
+      ],
+      "confidence": "中",
+      "confidence_reason": "模拟学生学习与提问教学两条官方材料，对应学习过程的设计和评估。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 2,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 1,
+          "item_ids": [
+            "ca946f1238ba"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 1,
+          "item_ids": [
+            "a60f4a701f88"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-dev-tooling",
+      "domain": "AI",
+      "label": "LLM工具链与代码生成",
+      "summary": "令牌计数、web-edit、源码管理和LLM数据库工具更新，把开发讨论落到可运行工具与具体版本。",
+      "summary_refs": [
+        "7cd81fdcb0be",
+        "768169fbc557"
+      ],
+      "confidence": "中",
+      "confidence_reason": "web-edit和llm-tools-datasette版本记录，均给出具体的工具更新节点。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 10,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1,
+          "item_ids": [
+            "f37003b32e19",
+            "f5034dade94e"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 1,
+          "item_ids": [
+            "993bc19082d2"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "value": 1,
+          "item_ids": [
+            "97e3cba45007",
+            "e6734b2c1107"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "value": 1,
+          "item_ids": [
+            "7e289d45dfc4"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "value": 1,
+          "item_ids": [
+            "154a39176d88"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 1,
+          "item_ids": [
+            "7cd81fdcb0be"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "value": 1,
+          "item_ids": [
+            "ba70912c04fe"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "value": 1,
+          "item_ids": [
+            "768169fbc557"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-human-agent-handoff",
+      "domain": "AI",
+      "label": "人机编程交接方式",
+      "summary": "Copilot会话续接与编程角色反思都把焦点放在上下文、工作树和判断责任如何在人与Agent之间转移。",
+      "summary_refs": [
+        "1be45fb0ef68",
+        "efd79bd778da"
+      ],
+      "confidence": "中",
+      "confidence_reason": "一项是GitHub官方操作教程，另一项是实践者观点；两者共同指向交接问题，但证据类型不同。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 2,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-20",
+          "value": 2,
+          "item_ids": [
+            "1be45fb0ef68",
+            "efd79bd778da"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "other-sport",
+      "domain": "运动科学",
+      "label": "其他已收录内容",
+      "kind": "other",
+      "source_count": 3,
+      "item_count": 3,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 1,
+          "item_ids": [
+            "e08c58b6de5c"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 1,
+          "item_ids": [
+            "bfd31cfa78f9"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 1,
+          "item_ids": [
+            "b2732ca1d3c3"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "other-health",
+      "domain": "运动健康",
+      "label": "其他已收录内容",
+      "kind": "other",
+      "source_count": 2,
+      "item_count": 5,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-09",
+          "value": 1,
+          "item_ids": [
+            "0e19f2e76cca"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-11",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-12",
+          "value": 2,
+          "item_ids": [
+            "66e5a24d6de6",
+            "cdeaea7345cf"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-14",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-16",
+          "value": 1,
+          "item_ids": [
+            "9d6f74f0cb08"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-19",
+          "value": 1,
+          "item_ids": [
+            "c683d8e75d00"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "other-ai",
+      "domain": "AI",
+      "label": "其他已收录内容",
+      "kind": "other",
+      "source_count": 7,
+      "item_count": 29,
+      "points": [
+        {
+          "date": "2026-10-08",
+          "value": 1,
+          "item_ids": [
+            "6218fed10e32"
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "value": 2,
+          "item_ids": [
+            "3618833fba59",
+            "39e6bd368c40",
+            "9db9af42b7f6"
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "value": 2,
+          "item_ids": [
+            "377afb641e4c",
+            "51b622727300",
+            "7e720aeda47f"
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "value": 2,
+          "item_ids": [
+            "7291bd8b1295",
+            "d3612ff459da",
+            "e5f022f9be79"
+          ]
+        },
+        {
+          "date": "2026-10-12",
+          "value": 1,
+          "item_ids": [
+            "79fb31c20981"
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "value": 1,
+          "item_ids": [
+            "1ce341749cd1",
+            "e8d8f43511a9"
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "value": 1,
+          "item_ids": [
+            "200a5d3dd39c"
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "value": 3,
+          "item_ids": [
+            "247153705736",
+            "39052ad94a8a",
+            "3e6e644f1b2b",
+            "b734a6066c59"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "value": 3,
+          "item_ids": [
+            "1bf502587012",
+            "f63d7248b240",
+            "fe88897c2a46"
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "value": 3,
+          "item_ids": [
+            "3bc592cc5b68",
+            "66a8784860f5",
+            "ee5297d7e82b"
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "value": 2,
+          "item_ids": [
+            "60deb4eddb49",
+            "9a49de55e706"
+          ]
+        },
+        {
+          "date": "2026-10-19",
+          "value": 3,
+          "item_ids": [
+            "1dbe22633003",
+            "5c52b7d34bec",
+            "71094174f326"
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-10-21",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "45d6a2b79938",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "date": "2026-10-08",
+      "domain": "AI",
+      "topic_id": "s-ai-model-cost-choice",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "6218fed10e32",
+      "title": "Quoting Ben Affleck",
+      "url": "https://simonwillison.net/2026/Oct/7/ben-affleck",
+      "date": "2026-10-08",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "78ecce3eb8d5",
+      "title": "Does In-Season Training with BFR Improve Strength or Performance?",
+      "url": "https://mikereinold.com/does-in-season-training-with-bfr-improve-strength-or-performance",
+      "date": "2026-10-08",
+      "domain": "运动健康",
+      "topic_id": "s-health-muscle-preserve",
+      "sources": [
+        "Mike Reinold"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "health-rtp"
+    },
+    {
+      "id": "7fdb639a7950",
+      "title": "Agent Lightning v1.0: A 3,500-Line Lightweight Agentic RL Framework for Training Agents with Real Harnesses",
+      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
+      "date": "2026-10-08",
+      "domain": "AI",
+      "topic_id": "s-ai-execution-debug",
+      "sources": [
+        "Microsoft Research"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "855092fba1df",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "url": "https://openai.com/index/pollo-ai",
+      "date": "2026-10-08",
+      "domain": "AI",
+      "topic_id": "s-ai-generative-media",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "99a873f42537",
+      "title": "Indicadores críticos para o salto com vara III: 85% de proficiência nos exercícios",
+      "url": "https://simplifaster.com/articles/salto-com-vara-exercicios-tecnica",
+      "date": "2026-10-08",
+      "domain": "运动科学",
+      "topic_id": "s-sport-youth-transfer",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-19T06:16:07.398604+00:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "c07b5023822d",
+      "title": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
+      "url": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
+      "date": "2026-10-08",
+      "domain": "AI",
+      "topic_id": "s-ai-model-cost-choice",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "d9e485b409fe",
+      "title": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "date": "2026-10-08",
+      "domain": "AI",
+      "topic_id": "s-ai-security-analysis",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "daa797ee9439",
+      "title": "Secret protection must scale with software",
+      "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software",
+      "date": "2026-10-08",
+      "domain": "AI",
+      "topic_id": "s-ai-security-analysis",
+      "sources": [
+        "GitHub Blog · AI"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "e08c58b6de5c",
+      "title": "The Danger Of Chasing Perfection",
+      "url": "https://www.scienceforsport.com/the-danger-of-chasing-perfection",
+      "date": "2026-10-08",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Science for Sport"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-nutrition"
+    },
+    {
+      "id": "eaa6b9dce4be",
+      "title": "Il flessore plantare dimenticato: l’allenamento del soleo",
+      "url": "https://simplifaster.com/articles/il-flessore-plantare-dimenticato-lallenamento-del-soleo",
+      "date": "2026-10-08",
+      "domain": "运动科学",
+      "topic_id": "s-sport-muscle-stimulus",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-speed"
+    },
+    {
+      "id": "fdc864340b44",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
+      "date": "2026-10-08",
+      "domain": "AI",
+      "topic_id": "s-ai-model-cost-choice",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-19T06:16:07.398604+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "ffd281819637",
+      "title": "The model that didn't exist, so you made it yourself",
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "date": "2026-10-08",
+      "domain": "AI",
+      "topic_id": "s-ai-open-ondevice",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "0e19f2e76cca",
+      "title": "The MSK Playbook: Meniscal Root Tears",
+      "url": "https://blogs.bmj.com/bjsm/2026/10/09/the-msk-playbook-meniscal-root-tears",
+      "date": "2026-10-09",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "BJSM Blog"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "health-rtp"
+    },
+    {
+      "id": "3618833fba59",
+      "title": "Quoting Carson Gross",
+      "url": "https://simonwillison.net/2026/Oct/8/carson-gross",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "39e6bd368c40",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Oct/9/matthew-green",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "570fe3204556",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "s-ai-security-analysis",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "6cb53bbd6b72",
+      "title": "A new feature for my blog, built using my voice",
+      "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "s-ai-generative-media",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "9bf93d58cc35",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "s-ai-model-cost-choice",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "9db9af42b7f6",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "a092f744c7c1",
+      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+      "url": "https://www.latent.space/p/periodic",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "s-ai-lab-loop",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "c10aba2e453b",
+      "title": "Collagen Protein: What It Is and Does It Work for Muscle, Tendons, Joints, and Skin?",
+      "url": "https://www.barbellmedicine.com/blog/collagen-protein",
+      "date": "2026-10-09",
+      "domain": "运动健康",
+      "topic_id": "s-health-tendon-dose",
+      "sources": [
+        "Barbell Medicine"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "health-pain"
+    },
+    {
+      "id": "d101caded0de",
+      "title": "Die verschiedenen Arten von Kraft",
+      "url": "https://simplifaster.com/articles/die-verschiedenen-arten-von-kraft",
+      "date": "2026-10-09",
+      "domain": "运动科学",
+      "topic_id": "s-sport-muscle-stimulus",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "db7b9e6fe248",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "s-ai-enterprise-knowledge",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "f37003b32e19",
+      "title": "ttok 0.4",
+      "url": "https://simonwillison.net/2026/Oct/8/ttok",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "s-ai-dev-tooling",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "f5034dade94e",
+      "title": "ttok 1.0",
+      "url": "https://simonwillison.net/2026/Oct/9/ttok",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "s-ai-dev-tooling",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "377afb641e4c",
+      "title": "I expect rapid progress but not towards general superintelligence",
+      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+      "date": "2026-10-10",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Nathan Lambert / Interconnects"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "51b622727300",
+      "title": "Quoting The New York Times",
+      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times",
+      "date": "2026-10-10",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "68a694837125",
+      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
+      "url": "https://www.latent.space/p/biohub-deepmind",
+      "date": "2026-10-10",
+      "domain": "AI",
+      "topic_id": "s-ai-lab-loop",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "7e720aeda47f",
+      "title": "Deno is joining Cloudflare",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare",
+      "date": "2026-10-10",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "8dea0bbc04c7",
+      "title": "Análise do Enode Pro: tudo o que você precisa saber",
+      "url": "https://simplifaster.com/articles/analise-do-enode-pro-tudo-o-que-voce-precisa-saber",
+      "date": "2026-10-10",
+      "domain": "运动科学",
+      "topic_id": "s-sport-force-time",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "9a2a489d753a",
+      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "url": "https://www.latent.space/p/standard-bots",
+      "date": "2026-10-10",
+      "domain": "AI",
+      "topic_id": "s-ai-world-robotics",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "b0ebeed71849",
+      "title": "Post-match rest day placement and the shape of the week: external load distribution and injury occurrence in two elite football teams.",
+      "url": "https://martin-buchheit.net/2026/10/10/post-match-rest-day-placement-and-the-shape-of-the-week-external-load-distribution-and-injury-occurrence-in-two-elite-football-teams",
+      "date": "2026-10-10",
+      "domain": "运动科学",
+      "topic_id": "s-sport-context-load",
+      "sources": [
+        "Martin Buchheit"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-load"
+    },
+    {
+      "id": "fb12df8f3b2f",
+      "title": "Philosophy Behind Agile Periodization: Thinking About Thinking – Part 1",
+      "url": "https://complementarytraining.com/philosophy-behind-agile-periodization-thinking-about-thinking-part-1",
+      "date": "2026-10-10",
+      "domain": "运动科学",
+      "topic_id": "s-sport-context-load",
+      "sources": [
+        "Mladen Jovanović / Complementary Training"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-load"
+    },
+    {
+      "id": "fbaaf239310d",
+      "title": "Using Hawkin R as a Researcher",
+      "url": "https://www.hawkindynamics.com/blog/using-hawkin-r-as-a-researcher",
+      "date": "2026-10-10",
+      "domain": "运动科学",
+      "topic_id": "s-sport-force-time",
+      "sources": [
+        "Hawkin Dynamics"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "074b7f746122",
+      "title": "9 juegos (¡divertidos!) para desarrollar las habilidades motrices y la capacidad atlética",
+      "url": "https://simplifaster.com/articles/9-juegos-motores-ninos",
+      "date": "2026-10-11",
+      "domain": "运动科学",
+      "topic_id": "s-sport-youth-transfer",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-speed"
+    },
+    {
+      "id": "7291bd8b1295",
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress",
+      "date": "2026-10-11",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "d02b7b8b5734",
+      "title": "9 (spannende!) Spiele zur Förderung der Bewegungsfähigkeiten und der sportlichen Leistungsfähigkeit",
+      "url": "https://simplifaster.com/articles/9-bewegungsspiele-kinder",
+      "date": "2026-10-11",
+      "domain": "运动科学",
+      "topic_id": "s-sport-youth-transfer",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "d3612ff459da",
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "url": "https://simonwillison.net/2026/Oct/10/python-actions",
+      "date": "2026-10-11",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "e5f022f9be79",
+      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
+      "url": "https://www.latent.space/p/nyc2026",
+      "date": "2026-10-11",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "66e5a24d6de6",
+      "title": "Ep 284: No more CFT for chronic back pain? With Dr Henrik Bjarke Vægter",
+      "url": "https://feeds.resonaterecordings.com/media/jospt/01a103bc-9cd6-714b-aa29-cfda5aef45ec/01a10ab1-948a-722a-b644-40d0ea04b3a0/jospti-s1-ep284-dr-henrik-bjarke-vaegter-full-audiomp3.mp3",
+      "date": "2026-10-12",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "JOSPT Insights"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "health-pain"
+    },
+    {
+      "id": "79fb31c20981",
+      "title": "datasette-ports 0.4",
+      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports",
+      "date": "2026-10-12",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "993bc19082d2",
+      "title": "web-edit 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit",
+      "date": "2026-10-12",
+      "domain": "AI",
+      "topic_id": "s-ai-dev-tooling",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "cdeaea7345cf",
+      "title": "What helps people stay active after exercise therapy ends?",
+      "url": "https://blogs.bmj.com/bjsm/2026/10/12/what-helps-people-stay-active-after-exercise-therapy-ends",
+      "date": "2026-10-12",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "BJSM Blog"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "health-other"
+    },
+    {
+      "id": "1ce341749cd1",
+      "title": "Quoting Geoffrey Huntley",
+      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley",
+      "date": "2026-10-13",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "21096782dd6c",
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "url": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "date": "2026-10-13",
+      "domain": "AI",
+      "topic_id": "s-ai-model-cost-choice",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "28733d68b3c0",
+      "title": "9 jogos (divertidos!) para desenvolver habilidades motoras e aptidão atlética",
+      "url": "https://simplifaster.com/articles/9-jogos-divertidos-para-desenvolver-habilidades-motoras-e-aptidao-atletica",
+      "date": "2026-10-13",
+      "domain": "运动科学",
+      "topic_id": "s-sport-youth-transfer",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "45f34a289f22",
+      "title": "Meralgia paresthetica and the usual suspects: what a simple pinched nerve gets mistaken for, and blamed on [5m]",
+      "url": "https://www.painscience.com/blog/meralgia-scapegoats.html",
+      "date": "2026-10-13",
+      "domain": "运动健康",
+      "topic_id": "s-health-nerve-imaging",
+      "sources": [
+        "Paul Ingraham / PainScience"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "health-pain"
+    },
+    {
+      "id": "5ca8d6f055cb",
+      "title": "llm-meta-ai 0.2",
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai",
+      "date": "2026-10-13",
+      "domain": "AI",
+      "topic_id": "s-ai-model-cost-choice",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "8398e9d7071d",
+      "title": "Transformer les sprinteurs talentueux en coureurs de haies et en sauteurs",
+      "url": "https://simplifaster.com/articles/transformer-les-sprinteurs-talentueux-en-coureurs-de-haies-et-en-sauteurs",
+      "date": "2026-10-13",
+      "domain": "运动科学",
+      "topic_id": "s-sport-youth-transfer",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-speed"
+    },
+    {
+      "id": "8d45898e533e",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "date": "2026-10-13",
+      "domain": "AI",
+      "topic_id": "s-ai-generative-media",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "91597643c193",
+      "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+      "date": "2026-10-13",
+      "domain": "AI",
+      "topic_id": "s-ai-multiagent-long",
+      "sources": [
+        "GitHub Blog · AI"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "97e3cba45007",
+      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling",
+      "date": "2026-10-13",
+      "domain": "AI",
+      "topic_id": "s-ai-dev-tooling",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "ca946f1238ba",
+      "title": "Simulating student learning for better AI tutoring",
+      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring",
+      "date": "2026-10-13",
+      "domain": "AI",
+      "topic_id": "s-ai-learning-design",
+      "sources": [
+        "Microsoft Research"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "d3dc072045af",
+      "title": "« Le concept n’a pas de sens » : pourquoi les kilomètres parcourus sont un mauvais indicateur pour évaluer la performance ou la forme physique",
+      "url": "https://martin-buchheit.net/2026/10/12/le-concept-na-pas-de-sens-pourquoi-les-kilometres-parcourus-sont-un-mauvais-indicateur-pour-evaluer-la-performance-ou-la-forme-physique",
+      "date": "2026-10-13",
+      "domain": "运动科学",
+      "topic_id": "s-sport-context-load",
+      "sources": [
+        "Martin Buchheit"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "e6734b2c1107",
+      "title": "web-edit 0.1a1",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit",
+      "date": "2026-10-13",
+      "domain": "AI",
+      "topic_id": "s-ai-dev-tooling",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "e71374164f2c",
+      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents (Updated with video!)",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "date": "2026-10-13",
+      "domain": "AI",
+      "topic_id": "s-ai-multiagent-long",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "e8d8f43511a9",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15",
+      "date": "2026-10-13",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "x-beardsley-2109932205757673780",
+      "title": "离心收缩与静态拉伸的短期柔韧性响应",
+      "url": "https://x.com/SandCResearch/status/2109932205757673780",
+      "date": "2026-10-13",
+      "domain": "运动科学",
+      "topic_id": "s-sport-muscle-stimulus",
+      "sources": [
+        "Chris Beardsley"
+      ],
+      "platform": "X",
+      "first_seen": "2026-10-19T05:45:08.889Z",
+      "last_seen": "2026-10-19T05:45:08.889Z",
+      "category_id": "sport-speed"
+    },
+    {
+      "id": "004cd593adab",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-security-analysis",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "1dc99b611b24",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-argon-release",
+      "sources": [
+        "Google DeepMind"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "200a5d3dd39c",
+      "title": "The EU’s next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "298e10103127",
+      "title": "Carpal Tunnel Syndrome: The New 2026 Clinical Practice Guideline for Physiotherapists",
+      "url": "https://www.physiotutors.com/carpal-tunnel-syndrome-guideline-2026-key-updates",
+      "date": "2026-10-14",
+      "domain": "运动健康",
+      "topic_id": "s-health-nerve-imaging",
+      "sources": [
+        "Physiotutors"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "health-rtp"
+    },
+    {
+      "id": "43abc94dd1f0",
+      "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+      "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-argon-release",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "4e31b829ae68",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-argon-release",
+      "sources": [
+        "Google DeepMind"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "532983178914",
+      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-security-analysis",
+      "sources": [
+        "GitHub Blog · AI"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "53911f98c21c",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-open-ondevice",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "57c3309db5be",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-multiagent-long",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "6451d923eed6",
+      "title": "llm-gemini 0.35",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-argon-release",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "7e289d45dfc4",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-dev-tooling",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "94ee28b93f9d",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-security-analysis",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "a8b8c31de898",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-multiagent-long",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "b76b11a1199f",
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-security-analysis",
+      "sources": [
+        "Google DeepMind"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "be997bf71860",
+      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
+      "url": "https://www.latent.space/p/dyna",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-world-robotics",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "bfd31cfa78f9",
+      "title": "Dr. Stephen Seiler - How to Train VO2max - Beyond Huberman & Attia, how to get started & keep going - Case Study with Shannon Jones",
+      "url": "https://choosethehardway.libsyn.com/dr-stephen-seiler-how-to-train-vo2-max-beyond-huberman-attia-how-to-get-started-keep-going-case-study-with-shannon-jones",
+      "date": "2026-10-14",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Stephen Seiler"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-nutrition"
+    },
+    {
+      "id": "d96a2391b623",
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-world-robotics",
+      "sources": [
+        "Google DeepMind"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "ed1be8ea5f53",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "date": "2026-10-14",
+      "domain": "AI",
+      "topic_id": "s-ai-argon-release",
+      "sources": [
+        "Google AI"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "x-beardsley-2110297106636259587",
+      "title": "肢体固定期亮氨酸与肌肉量保持",
+      "url": "https://x.com/SandCResearch/status/2110297106636259587",
+      "date": "2026-10-14",
+      "domain": "运动健康",
+      "topic_id": "s-health-muscle-preserve",
+      "sources": [
+        "Chris Beardsley"
+      ],
+      "platform": "X",
+      "first_seen": "2026-10-19T05:45:08.889Z",
+      "last_seen": "2026-10-19T05:45:08.889Z",
+      "category_id": "health-rtp"
+    },
+    {
+      "id": "10e96577dcd0",
+      "title": "Building Full-Body Workout Templates for Youth Athletes",
+      "url": "https://simplifaster.com/articles/youth-athlete-workout-template",
+      "date": "2026-10-15",
+      "domain": "运动科学",
+      "topic_id": "s-sport-youth-transfer",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-load"
+    },
+    {
+      "id": "154a39176d88",
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "s-ai-dev-tooling",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "247153705736",
+      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+      "url": "https://www.latent.space/p/crossing-the-threshold",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "39052ad94a8a",
+      "title": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "3e6e644f1b2b",
+      "title": "Tree Appreciator",
+      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "504a28fcb44d",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "s-ai-lab-loop",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "5bb1c1089483",
+      "title": "Trasformare i talenti dello sprint in ostacolisti e saltatori",
+      "url": "https://simplifaster.com/articles/trasformare-i-talenti-dello-sprint-in-ostacolisti-e-saltatori",
+      "date": "2026-10-15",
+      "domain": "运动科学",
+      "topic_id": "s-sport-youth-transfer",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-speed"
+    },
+    {
+      "id": "649989f895c2",
+      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "s-ai-lab-loop",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "94eadcab22c4",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "s-ai-enterprise-knowledge",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "a60f4a701f88",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "s-ai-learning-design",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "b734a6066c59",
+      "title": "LaTeX renderer",
+      "url": "https://simonwillison.net/2026/Oct/15/latex",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "eb67409897ed",
+      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "url": "https://huggingface.co/blog/flux-3",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "s-ai-generative-media",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "ff0cf28c5d75",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "s-ai-open-ondevice",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "x-beardsley-2110656989055344847",
+      "title": "肌节增加与肌原纤维增加的刺激区别",
+      "url": "https://x.com/SandCResearch/status/2110656989055344847",
+      "date": "2026-10-15",
+      "domain": "运动科学",
+      "topic_id": "s-sport-muscle-stimulus",
+      "sources": [
+        "Chris Beardsley"
+      ],
+      "platform": "X",
+      "first_seen": "2026-10-19T05:45:08.889Z",
+      "last_seen": "2026-10-19T05:45:08.889Z",
+      "category_id": "sport-speed"
+    },
+    {
+      "id": "x-mollick-2110447059086229670",
+      "title": "避免把工作流锁定在旧模型的能力上限",
+      "url": "https://x.com/emollick/status/2110447059086229670",
+      "date": "2026-10-15",
+      "domain": "AI",
+      "topic_id": "s-ai-multiagent-long",
+      "sources": [
+        "Ethan Mollick"
+      ],
+      "platform": "X",
+      "first_seen": "2026-10-19T05:45:08.889Z",
+      "last_seen": "2026-10-19T05:45:08.889Z",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "06d110e31202",
+      "title": "端侧跑通超千亿大模型！联想YOGA Pro 15 RTX Spark超级AIPC今日正式发售",
+      "url": "https://www.qbitai.com/2026/10/504116.html",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-open-ondevice",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "138e9b7e7d97",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-open-ondevice",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "1bf502587012",
+      "title": "说真话就能拿10万？网易叭哥说重金求“真需求”，不卡专业学历",
+      "url": "https://www.qbitai.com/2026/10/503861.html",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "32165ee6af89",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-lab-loop",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "3b88e6314086",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-lab-loop",
+      "sources": [
+        "Google DeepMind"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "467c8e42acb6",
+      "title": "Proof-based general-purpose computing with Magnetar",
+      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-lab-loop",
+      "sources": [
+        "Microsoft Research"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "8a6f4c3d5eb5",
+      "title": "从“看懂世界”到“预演下一步”：世界模型与 VLA，如何让机器人拥有真正的“具身大脑”？",
+      "url": "https://www.qbitai.com/2026/10/503865.html",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-world-robotics",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "9d6f74f0cb08",
+      "title": "In case of a collapse in the field, can you save a footballer’s life? Sudden cardiac arrest preparedness in African football",
+      "url": "https://blogs.bmj.com/bjsm/2026/10/16/in-case-of-a-collapse-in-the-field-can-you-save-a-footballers-life-sudden-cardiac-arrest-preparedness-in-african-football",
+      "date": "2026-10-16",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "BJSM Blog"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "health-other"
+    },
+    {
+      "id": "9e63539289a3",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-multiagent-long",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "b6756c0a180e",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-enterprise-knowledge",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "c9a6184923cc",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-open-ondevice",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "d33064359577",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-open-ondevice",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "dd2f144e562f",
+      "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
+      "url": "https://www.qbitai.com/2026/10/503880.html",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "s-ai-world-robotics",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "f63d7248b240",
+      "title": "Chirp Pong",
+      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "fe88897c2a46",
+      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+      "date": "2026-10-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "0dd91801c3b6",
+      "title": "Meta shakes up the frontiers, open and closed",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "date": "2026-10-17",
+      "domain": "AI",
+      "topic_id": "s-ai-open-ondevice",
+      "sources": [
+        "Nathan Lambert / Interconnects"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "24ffd586aefb",
+      "title": "智谱新模型，懂法方面全球第一了",
+      "url": "https://www.qbitai.com/2026/10/503965.html",
+      "date": "2026-10-17",
+      "domain": "AI",
+      "topic_id": "s-ai-enterprise-knowledge",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "3bc592cc5b68",
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review",
+      "date": "2026-10-17",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "622c65694e1d",
+      "title": "Scary-looking spinal stenosis on MRI doesn’t mean much [2m]",
+      "url": "https://www.painscience.com/blog/stenosis-severity-and-exercise.html",
+      "date": "2026-10-17",
+      "domain": "运动健康",
+      "topic_id": "s-health-nerve-imaging",
+      "sources": [
+        "Paul Ingraham / PainScience"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "health-rtp"
+    },
+    {
+      "id": "66a8784860f5",
+      "title": "[AINews] High Taste Testers Ep. 1",
+      "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+      "date": "2026-10-17",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "7cd81fdcb0be",
+      "title": "web-edit 0.1a2",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit",
+      "date": "2026-10-17",
+      "domain": "AI",
+      "topic_id": "s-ai-dev-tooling",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "7fc73ab44f09",
+      "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
+      "url": "https://www.qbitai.com/2026/10/503935.html",
+      "date": "2026-10-17",
+      "domain": "AI",
+      "topic_id": "s-ai-execution-debug",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "893e1df4cf89",
+      "title": "Claude半小时解开密码学悬案，学界集体走偏20年",
+      "url": "https://www.qbitai.com/2026/10/503910.html",
+      "date": "2026-10-17",
+      "domain": "AI",
+      "topic_id": "s-ai-lab-loop",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "9732b2763df5",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "date": "2026-10-17",
+      "domain": "AI",
+      "topic_id": "s-ai-enterprise-knowledge",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "ab13e5c2646b",
+      "title": "Environmental associations with heart-rate responses during field-based submaximal fitness testing in female football players: an exploratory multi-centre study",
+      "url": "https://martin-buchheit.net/2026/10/17/environmental-associations-with-heart-rate-responses-during-field-based-submaximal-fitness-testing-in-female-football-players-an-exploratory-multi-centre-study",
+      "date": "2026-10-17",
+      "domain": "运动科学",
+      "topic_id": "s-sport-context-load",
+      "sources": [
+        "Martin Buchheit"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "c991932364dc",
+      "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "url": "https://www.qbitai.com/2026/10/504067.html",
+      "date": "2026-10-17",
+      "domain": "AI",
+      "topic_id": "s-ai-model-cost-choice",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "dc74ca33fd19",
+      "title": "Beyond Jump Height: Exploring Force-Time Waveforms in Python",
+      "url": "https://www.hawkindynamics.com/blog/exploring-force-time-waveforms-in-python",
+      "date": "2026-10-17",
+      "domain": "运动科学",
+      "topic_id": "s-sport-force-time",
+      "sources": [
+        "Hawkin Dynamics"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-speed"
+    },
+    {
+      "id": "ee5297d7e82b",
+      "title": "科技企业出海，为啥我推荐你去迪拜？",
+      "url": "https://www.qbitai.com/2026/10/503893.html",
+      "date": "2026-10-17",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "06e34488cd21",
+      "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+      "url": "https://www.qbitai.com/2026/10/504136.html",
+      "date": "2026-10-18",
+      "domain": "AI",
+      "topic_id": "s-ai-world-robotics",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "60deb4eddb49",
+      "title": "Inline rendering with document​.currentScript",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+      "date": "2026-10-18",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "9a49de55e706",
+      "title": "RuneScape Bench: MMOs for Agents [video]",
+      "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
+      "date": "2026-10-18",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "ba70912c04fe",
+      "title": "I built a programming language that LLMs can't use",
+      "url": "https://blog.picheta.me/post/killswitch-lang",
+      "date": "2026-10-18",
+      "domain": "AI",
+      "topic_id": "s-ai-dev-tooling",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-19T06:16:07.398604+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "ec8a3eed6e1b",
+      "title": "AI Gateway logs now show session affinity",
+      "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
+      "date": "2026-10-18",
+      "domain": "AI",
+      "topic_id": "s-ai-execution-debug",
+      "sources": [
+        "Vercel"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "x-asker-2111487940681428997",
+      "title": "自报食物过敏与受控测试的差别",
+      "url": "https://x.com/Jeukendrup/status/2111487940681428997",
+      "date": "2026-10-18",
+      "domain": "运动健康",
+      "topic_id": "s-health-food-testing",
+      "sources": [
+        "Asker Jeukendrup"
+      ],
+      "platform": "X",
+      "first_seen": "2026-10-19T05:45:08.889Z",
+      "last_seen": "2026-10-19T05:45:08.889Z",
+      "category_id": "health-other"
+    },
+    {
+      "id": "1dbe22633003",
+      "title": "Advancing coding in low‑resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "date": "2026-10-19",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "313154ba192d",
+      "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on",
+      "date": "2026-10-19",
+      "domain": "AI",
+      "topic_id": "s-ai-execution-debug",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-19T06:16:07.398604+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "5c52b7d34bec",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "date": "2026-10-19",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "71094174f326",
+      "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+      "url": "https://news.ycombinator.com/item?id=50151036",
+      "date": "2026-10-19",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "768169fbc557",
+      "title": "llm-tools-datasette 0.1.1",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+      "date": "2026-10-19",
+      "domain": "AI",
+      "topic_id": "s-ai-dev-tooling",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "88b5537c8caf",
+      "title": "Agentic Monitoring",
+      "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring",
+      "date": "2026-10-19",
+      "domain": "AI",
+      "topic_id": "s-ai-execution-debug",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "962c8c99b4bd",
+      "title": "Agent-Skills.market",
+      "url": "https://agent-skills.market/",
+      "date": "2026-10-19",
+      "domain": "AI",
+      "topic_id": "s-ai-multiagent-long",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-19T06:16:07.398604+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "ae6e49210029",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "date": "2026-10-19",
+      "domain": "AI",
+      "topic_id": "s-ai-execution-debug",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-19T06:16:07.398604+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "b2732ca1d3c3",
+      "title": "The Stigma of “Overtraining”: Why Your Words Might Be Injuring Your Athletes",
+      "url": "https://gabbettperformance.com.au/the-stigma-of-overtraining-why-your-words-might-be-injuring-your-athletes",
+      "date": "2026-10-19",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Tim Gabbett / Gabbett Performance"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-load"
+    },
+    {
+      "id": "bjsm-tendon-dose-20261019",
+      "title": "肌腱运动处方需要记录真实机械剂量",
+      "url": "https://blogs.bmj.com/bjsm/2026/10/19/whats-behind-the-label-rethinking-exercise-prescription-for-tendinopathy/",
+      "date": "2026-10-19",
+      "domain": "运动健康",
+      "topic_id": "s-health-tendon-dose",
+      "sources": [
+        "Ahmed Samir等 / BJSM Blog"
+      ],
+      "platform": "研究者博客",
+      "first_seen": "2026-10-20T08:00:26+08:00",
+      "last_seen": "2026-10-20T08:00:26+08:00",
+      "category_id": "health-pain"
+    },
+    {
+      "id": "c683d8e75d00",
+      "title": "Ep 285: How well does a ruptured ACL heal? With Dr Joanna Kvist",
+      "url": "https://feeds.resonaterecordings.com/media/jospt/01a127a0-6ca0-737a-b288-c9ed79d59afb/01a1281a-66bd-71bf-883a-d55fdb9ad8ba/jospti-ep285-dr-joanna-kvist-full-audiomp3.mp3",
+      "date": "2026-10-19",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "JOSPT Insights"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "health-rtp"
+    },
+    {
+      "id": "d221188525e6",
+      "title": "llm-echo 0.5",
+      "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+      "date": "2026-10-19",
+      "domain": "AI",
+      "topic_id": "s-ai-execution-debug",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-19T06:16:07.398604+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "x-asker-2111850324675678267",
+      "title": "食物敏感性指尖测试的解释",
+      "url": "https://x.com/Jeukendrup/status/2111850324675678267",
+      "date": "2026-10-19",
+      "domain": "运动健康",
+      "topic_id": "s-health-food-testing",
+      "sources": [
+        "Asker Jeukendrup"
+      ],
+      "platform": "X",
+      "first_seen": "2026-10-19T05:45:08.889Z",
+      "last_seen": "2026-10-19T05:45:08.889Z",
+      "category_id": "health-other"
+    },
+    {
+      "id": "1be45fb0ef68",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "date": "2026-10-20",
+      "domain": "AI",
+      "topic_id": "s-ai-human-agent-handoff",
+      "sources": [
+        "GitHub Blog · AI"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "353ee92aaefd",
+      "title": "Integración del entrenamiento basado en la velocidad en un programa de entrenamiento de todo el cuerpo para deportistas jóvenes",
+      "url": "https://simplifaster.com/articles/integracion-del-entrenamiento-basado-en-la-velocidad-en-un-programa-de-entrenamiento-de-todo-el-cuerpo-para-deportistas-jovenes",
+      "date": "2026-10-20",
+      "domain": "运动科学",
+      "topic_id": "s-sport-youth-transfer",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "55c3c0be518a",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "date": "2026-10-20",
+      "domain": "AI",
+      "topic_id": "s-ai-security-analysis",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "efd79bd778da",
+      "title": "My obituary for programming",
+      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming",
+      "date": "2026-10-20",
+      "domain": "AI",
+      "topic_id": "s-ai-human-agent-handoff",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-20T01:49:43.162555+00:00",
+      "last_seen": "2026-10-20T01:49:43.162555+00:00",
+      "category_id": "ai-eval"
+    }
+  ],
+  "total_items": 144,
+  "total_sources": 29,
+  "channel": "social",
+  "date_basis": "公开内容发布日期",
+  "directions": [
+    {
+      "id": "sport-other",
+      "domain": "运动科学",
+      "title": "运动科学综合",
+      "change": "最近收录：Integración del entrenamiento basado en la velocidad en un programa de entrenamiento de todo el cuerpo para deportistas jóvenes",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 2,
+      "evidence": [
+        {
+          "id": "d3dc072045af",
+          "title": "« Le concept n’a pas de sens » : pourquoi les kilomètres parcourus sont un mauvais indicateur pour évaluer la performance ou la forme physique",
+          "url": "https://martin-buchheit.net/2026/10/12/le-concept-na-pas-de-sens-pourquoi-les-kilometres-parcourus-sont-un-mauvais-indicateur-pour-evaluer-la-performance-ou-la-forme-physique",
+          "date": "2026-10-13",
+          "domain": "运动科学",
+          "topic_id": "sport-other",
+          "sources": [
+            "Martin Buchheit"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-19T06:16:07.398604+00:00",
+          "last_seen": "2026-10-20T01:49:43.162555+00:00",
+          "label": "« Le concept n’a pas de sens » : pourquoi les kilomètres parcourus sont un mauvais indicateur pour évaluer la performance ou la forme physique",
+          "note": ""
+        },
+        {
+          "id": "ab13e5c2646b",
+          "title": "Environmental associations with heart-rate responses during field-based submaximal fitness testing in female football players: an exploratory multi-centre study",
+          "url": "https://martin-buchheit.net/2026/10/17/environmental-associations-with-heart-rate-responses-during-field-based-submaximal-fitness-testing-in-female-football-players-an-exploratory-multi-centre-study",
+          "date": "2026-10-17",
+          "domain": "运动科学",
+          "topic_id": "sport-other",
+          "sources": [
+            "Martin Buchheit"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-19T06:16:07.398604+00:00",
+          "last_seen": "2026-10-20T01:49:43.162555+00:00",
+          "label": "Environmental associations with heart-rate responses during field-based submaximal fitness testing in female football players: an exploratory multi-centre study",
+          "note": ""
+        },
+        {
+          "id": "353ee92aaefd",
+          "title": "Integración del entrenamiento basado en la velocidad en un programa de entrenamiento de todo el cuerpo para deportistas jóvenes",
+          "url": "https://simplifaster.com/articles/integracion-del-entrenamiento-basado-en-la-velocidad-en-un-programa-de-entrenamiento-de-todo-el-cuerpo-para-deportistas-jovenes",
+          "date": "2026-10-20",
+          "domain": "运动科学",
+          "topic_id": "sport-other",
+          "sources": [
+            "SimpliFaster"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-20T01:49:43.162555+00:00",
+          "last_seen": "2026-10-20T01:49:43.162555+00:00",
+          "label": "Integración del entrenamiento basado en la velocidad en un programa de entrenamiento de todo el cuerpo para deportistas jóvenes",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "health-rtp",
+      "domain": "运动健康",
+      "title": "康复与重返运动",
+      "change": "最近收录：Ep 285: How well does a ruptured ACL heal? With Dr Joanna Kvist",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 3,
+      "evidence": [
+        {
+          "id": "x-beardsley-2110297106636259587",
+          "title": "肢体固定期亮氨酸与肌肉量保持",
+          "url": "https://x.com/SandCResearch/status/2110297106636259587",
+          "date": "2026-10-14",
+          "domain": "运动健康",
+          "topic_id": "health-rtp",
+          "sources": [
+            "Chris Beardsley"
+          ],
+          "platform": "X",
+          "first_seen": "2026-10-19T05:45:08.889Z",
+          "last_seen": "2026-10-19T05:45:08.889Z",
+          "label": "肢体固定期亮氨酸与肌肉量保持",
+          "note": ""
+        },
+        {
+          "id": "622c65694e1d",
+          "title": "Scary-looking spinal stenosis on MRI doesn’t mean much [2m]",
+          "url": "https://www.painscience.com/blog/stenosis-severity-and-exercise.html",
+          "date": "2026-10-17",
+          "domain": "运动健康",
+          "topic_id": "health-rtp",
+          "sources": [
+            "Paul Ingraham / PainScience"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-19T06:16:07.398604+00:00",
+          "last_seen": "2026-10-20T01:49:43.162555+00:00",
+          "label": "Scary-looking spinal stenosis on MRI doesn’t mean much [2m]",
+          "note": ""
+        },
+        {
+          "id": "c683d8e75d00",
+          "title": "Ep 285: How well does a ruptured ACL heal? With Dr Joanna Kvist",
+          "url": "https://feeds.resonaterecordings.com/media/jospt/01a127a0-6ca0-737a-b288-c9ed79d59afb/01a1281a-66bd-71bf-883a-d55fdb9ad8ba/jospti-ep285-dr-joanna-kvist-full-audiomp3.mp3",
+          "date": "2026-10-19",
+          "domain": "运动健康",
+          "topic_id": "health-rtp",
+          "sources": [
+            "JOSPT Insights"
+          ],
+          "platform": "播客",
+          "first_seen": "2026-10-20T01:49:43.162555+00:00",
+          "last_seen": "2026-10-20T01:49:43.162555+00:00",
+          "label": "Ep 285: How well does a ruptured ACL heal? With Dr Joanna Kvist",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-eval",
+      "domain": "AI",
+      "title": "评测、数据与可靠性",
+      "change": "最近收录：My obituary for programming",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 2,
+      "evidence": [
+        {
+          "id": "d221188525e6",
+          "title": "llm-echo 0.5",
+          "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+          "date": "2026-10-19",
+          "domain": "AI",
+          "topic_id": "ai-eval",
+          "sources": [
+            "Simon Willison"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-19T06:16:07.398604+00:00",
+          "last_seen": "2026-10-20T01:49:43.162555+00:00",
+          "label": "llm-echo 0.5",
+          "note": ""
+        },
+        {
+          "id": "1be45fb0ef68",
+          "title": "How to continue a GitHub Copilot app session in VS Code",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+          "date": "2026-10-20",
+          "domain": "AI",
+          "topic_id": "ai-eval",
+          "sources": [
+            "GitHub Blog · AI"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-20T01:49:43.162555+00:00",
+          "last_seen": "2026-10-20T01:49:43.162555+00:00",
+          "label": "How to continue a GitHub Copilot app session in VS Code",
+          "note": ""
+        },
+        {
+          "id": "efd79bd778da",
+          "title": "My obituary for programming",
+          "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming",
+          "date": "2026-10-20",
+          "domain": "AI",
+          "topic_id": "ai-eval",
+          "sources": [
+            "Simon Willison"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-10-20T01:49:43.162555+00:00",
+          "last_seen": "2026-10-20T01:49:43.162555+00:00",
+          "label": "My obituary for programming",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "topic_mode": "ai",
+  "topic_analysis": {
+    "generated_at": "2026-10-21T08:08:00+08:00",
+    "generated_by": "ChatGPT",
+    "source_fingerprint": "334eeda8e8a766878840ce664b50a168509028d9e2d91cece1a4b7f6d9e619fe",
+    "input_items": 144,
+    "grouped_items": 107
+  }
+}

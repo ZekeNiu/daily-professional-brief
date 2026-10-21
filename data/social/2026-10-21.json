@@ -7,9 +7,16 @@
     "title": "从固定模板转向连续工作流",
     "signal": "本期讨论的共同价值，是把青年训练、伤后决策和编码Agent都放回可延续、可复核、可由人接管的工作流。",
     "total": 6,
-    "counts": {"运动科学": 1, "运动健康": 1, "AI": 4}
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 4
+    }
   },
-  "navigation": {"prev": null, "next": null},
+  "navigation": {
+    "prev": "2026-10-20",
+    "next": null
+  },
   "section_notes": {
     "运动科学": "青年力量训练的实用讨论强调频率、动作质量和赛季可执行性，而不是追求单次疲劳。",
     "运动健康": "ACL愈合讨论重新把结构变化、功能恢复和手术决策拆开。",
@@ -32,7 +39,9 @@
       "evidence": "教练实践文章，引用青年训练与训练频率研究；不是干预试验",
       "confidence": "中",
       "confidence_reason": "模板、进阶和替代方法具体；剂量组合主要来自作者实践综合。",
-      "source": {"url": "https://simplifaster.com/articles/youth-athlete-workout-template/"},
+      "source": {
+        "url": "https://simplifaster.com/articles/youth-athlete-workout-template/"
+      },
       "references": [],
       "limit": "原文10月15日发布，本期因公开订阅重新进入讨论。"
     },
@@ -52,8 +61,15 @@
       "evidence": "专业播客触发＋同行评审研究摘要（DOI 10.2519/jospt.2026.13397）",
       "confidence": "中低",
       "confidence_reason": "论文摘要可核；本期未把未取得的完整节目内容写成证据。",
-      "source": {"url": "https://www.jospt.org/doi/10.2519/jospt.2026.13397"},
-      "references": [{"label": "JOSPT Insights Ep 285", "url": "https://feeds.resonaterecordings.com/jospt"}],
+      "source": {
+        "url": "https://www.jospt.org/doi/10.2519/jospt.2026.13397"
+      },
+      "references": [
+        {
+          "label": "JOSPT Insights Ep 285",
+          "url": "https://feeds.resonaterecordings.com/jospt"
+        }
+      ],
       "limit": ""
     },
     {
@@ -72,7 +88,9 @@
       "evidence": "实践者观点与团队案例转述；无受控效果评估",
       "confidence": "中低",
       "confidence_reason": "工作流具体且可试验；效果主要来自个案与作者判断。",
-      "source": {"url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/"},
+      "source": {
+        "url": "https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/"
+      },
       "references": [],
       "limit": ""
     },
@@ -92,7 +110,9 @@
       "evidence": "GitHub官方产品教程｜2026-10-19",
       "confidence": "高",
       "confidence_reason": "会话、diff与worktree交接步骤由官方文档直接确认。",
-      "source": {"url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/"},
+      "source": {
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/"
+      },
       "references": [],
       "limit": ""
     },
@@ -112,8 +132,15 @@
       "evidence": "独立网页调查＋WhatsApp回应；社区讨论用于发现线索",
       "confidence": "中高",
       "confidence_reason": "页面数量、组件名和删除时间有归档；对第三方Agent的实际影响未知。",
-      "source": {"url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"},
-      "references": [{"label": "Hacker News讨论", "url": "https://news.ycombinator.com/item?id=50159341"}],
+      "source": {
+        "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+      },
+      "references": [
+        {
+          "label": "Hacker News讨论",
+          "url": "https://news.ycombinator.com/item?id=50159341"
+        }
+      ],
       "limit": ""
     },
     {
@@ -132,7 +159,9 @@
       "evidence": "专家观点/职业观察｜2026-10-19",
       "confidence": "中",
       "confidence_reason": "观点来源清楚且与实际工作流变化一致；不是量化研究。",
-      "source": {"url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"},
+      "source": {
+        "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
+      },
       "references": [],
       "limit": ""
     }
@@ -140,5 +169,6 @@
   "professional_judgment": [
     "运动实践中，稳定的框架比复杂模板更有价值：青年训练用全身动作模式保证连续性，ACL随访则用结构、功能和目标运动三条线避免单指标决策。",
     "AI工作流的下一步不是让Agent更难以中断，而是让人能随时接管并复核。会话与worktree交接、只读监控Agent和检索内容隔离，分别对应开发、运维和信息安全三个关键接口。"
-  ]
+  ],
+  "trends_url": "data/social/trends/2026-10-21.json"
 }

@@ -3,10 +3,17 @@
   "title": "每日专业资讯简报",
   "summary": {
     "total": 8,
-    "counts": {"运动科学": 2, "运动健康": 3, "AI": 3},
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 3,
+      "AI": 3
+    },
     "signal": "本期最重要的进展是：训练与康复中的传统分类阈值正在被重新检验，而AI工作流也开始从单纯生成转向可迁移、可审查和受供应链保护的执行系统。"
   },
-  "navigation": {"prev": null, "next": null},
+  "navigation": {
+    "prev": "2026-10-20",
+    "next": null
+  },
   "section_notes": {
     "运动科学": "250毫秒快慢SSC边界缺少生物学断点证据；实时反馈的价值则取决于反馈变量与保留效应。",
     "运动健康": "新接收证据把攀岩手指伤、纤维肌痛水中运动和青少年心理转介分别落到训练暴露、生活质量与组织流程。",
@@ -25,7 +32,10 @@
       "evidence": "批判性综述｜106个来源；最后检索2026-09-02｜2026-10-07发表",
       "confidence": "中高（历史来源与机制链条清楚，但不是干预效应综述）",
       "limit": "",
-      "source": {"title": "Frontiers in Physiology（DOI 10.3389/fphys.2026.1981174）", "url": "https://doi.org/10.3389/fphys.2026.1981174"}
+      "source": {
+        "title": "Frontiers in Physiology（DOI 10.3389/fphys.2026.1981174）",
+        "url": "https://doi.org/10.3389/fphys.2026.1981174"
+      }
     },
     {
       "priority": "值得了解",
@@ -39,7 +49,10 @@
       "evidence": "组间实验｜89名健康参与者、5组、192次扰动｜2026-10-12发表",
       "confidence": "中（组间比较与保留测试明确；只观察同一训练时段）",
       "limit": "",
-      "source": {"title": "Frontiers in Sports and Active Living（DOI 10.3389/fspor.2026.1906272）", "url": "https://doi.org/10.3389/fspor.2026.1906272"}
+      "source": {
+        "title": "Frontiers in Sports and Active Living（DOI 10.3389/fspor.2026.1906272）",
+        "url": "https://doi.org/10.3389/fspor.2026.1906272"
+      }
     },
     {
       "priority": "重点关注",
@@ -53,7 +66,10 @@
       "evidence": "双中心登记横断面分析｜488名攀岩伤者，2017–2022｜2026-10-20接收稿",
       "confidence": "中（样本大且伤型具体；病例登记无法确定因果）",
       "limit": "",
-      "source": {"title": "Frontiers接收稿（DOI 10.3389/fspor.2026.1994765）", "url": "https://doi.org/10.3389/fspor.2026.1994765"}
+      "source": {
+        "title": "Frontiers接收稿（DOI 10.3389/fspor.2026.1994765）",
+        "url": "https://doi.org/10.3389/fspor.2026.1994765"
+      }
     },
     {
       "priority": "值得了解",
@@ -67,7 +83,10 @@
       "evidence": "系统综述与Meta分析｜17项RCT｜2026-10-20接收稿",
       "confidence": "中（合并方向明确；异质性高且剂量解释未成立）",
       "limit": "",
-      "source": {"title": "Frontiers接收稿（DOI 10.3389/fspor.2026.1950582）", "url": "https://doi.org/10.3389/fspor.2026.1950582"}
+      "source": {
+        "title": "Frontiers接收稿（DOI 10.3389/fspor.2026.1950582）",
+        "url": "https://doi.org/10.3389/fspor.2026.1950582"
+      }
     },
     {
       "priority": "值得了解",
@@ -81,7 +100,10 @@
       "evidence": "同行评审观点/实施框架｜无效果试验｜2026-10-20接收稿",
       "confidence": "中（组织逻辑具体；尚无实施效果数据）",
       "limit": "",
-      "source": {"title": "Frontiers接收稿（DOI 10.3389/fspor.2026.1862979）", "url": "https://doi.org/10.3389/fspor.2026.1862979"}
+      "source": {
+        "title": "Frontiers接收稿（DOI 10.3389/fspor.2026.1862979）",
+        "url": "https://doi.org/10.3389/fspor.2026.1862979"
+      }
     },
     {
       "priority": "重点关注",
@@ -95,7 +117,10 @@
       "evidence": "厂商研究与公开评测｜20种语言；两个自建基准｜2026-10-19发布",
       "confidence": "中（数字与测试框架可核；仍是厂商自评，缺独立复现）",
       "limit": "",
-      "source": {"title": "OpenAI原始研究发布", "url": "https://openai.com/index/low-resource-programming-languages/"}
+      "source": {
+        "title": "OpenAI原始研究发布",
+        "url": "https://openai.com/index/low-resource-programming-languages/"
+      }
     },
     {
       "priority": "快讯",
@@ -109,7 +134,10 @@
       "evidence": "公司收购与产品方向公告｜2026-10-20",
       "confidence": "高（事件可核）；低（效率与研发结果尚无验证）",
       "limit": "",
-      "source": {"title": "OpenAI官方公告", "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"}
+      "source": {
+        "title": "OpenAI官方公告",
+        "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
+      }
     },
     {
       "priority": "值得了解",
@@ -123,12 +151,16 @@
       "evidence": "GitHub官方产品公告｜公开预览、仅npm｜2026-10-20",
       "confidence": "高（功能与范围可核）；未知（独立拦截效果未公布）",
       "limit": "",
-      "source": {"title": "GitHub Changelog", "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview/"}
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview/"
+      }
     }
   ],
   "professional_judgment": [
     "训练端最值得立即更新的是：把250毫秒从‘真理阈值’降级为记录变量。它仍便于沟通，但处方和康复进阶应由任务、冲量、技术与个体反应共同决定。",
     "康复端本期没有单一万能方案：攀岩手指伤需要按伤型回溯暴露，纤维肌痛水中运动应以生活质量与可持续参与评价，青少年心理健康则要把转介流程本身当作干预。",
     "AI工作流正在补齐生成之后的环节：行为一致测试、跨团队执行协调和依赖供应链防护。采购或部署Agent时，验收标准应覆盖运行结果、权限与审计链，而不只比较模型回答。"
-  ]
+  ],
+  "trends_url": "data/trends/2026-10-21.json"
 }
