@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "date": "2026-10-22",
+  "title": "每日专业资讯简报·社媒热点｜2026-10-22",
+  "observed_at": "2026-10-22T08:18:00+08:00",
+  "summary": {
+    "title": "从低成本监测到可控Agent",
+    "signal": "本期讨论把两个看似不同的问题连在一起：实践工具越容易部署，越需要明确测什么、何时介入以及怎样保留人工接管。",
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 1,
+      "AI": 3
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-21",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "实践者正在同时讨论低预算监测和青年VBT，重点从“有没有设备”转向能否稳定获得可行动的数据。",
+    "运动健康": "ACL康复讨论强调，持续做同一件事不等于解决持续存在的问题，计划、复测与进阶条件必须具体。",
+    "AI": "Claude Duet、决策模型评测和Battle Drones案例分别展示主动Agent、低成本评测与长程编码迭代的机会和控制点。"
+  },
+  "items": [
+    {
+      "id": "minimal-resource-monitoring",
+      "domain": "运动科学",
+      "title": "零预算运动员监测：先确定能改变决策的最小数据",
+      "short_title": "零预算监测先看决策",
+      "author": "Tim Gabbett / Gabbett Performance",
+      "platform": "博客",
+      "published_date": "2026-10-20",
+      "priority": "值得了解",
+      "one_liner": "Gabbett把讨论拉回无技术条件下的监测：指标价值取决于是否能稳定记录并触发训练决策，而不是设备数量。",
+      "what": "10月20日发布的实践文章聚焦“零预算、无技术”时该追踪什么，明确把低资源环境而非设备采购作为问题起点。公开订阅可核实标题、作者来源与日期；本期未取得完整正文，因此不转述具体指标清单。",
+      "why": "许多团队的数据系统失败于收集过多、响应规则不清。先定义会改变训练的最小数据集，能降低记录负担并提高连续性。",
+      "practice": "先为每个候选指标写下采集频率、异常阈值和对应行动；若记录不会改变训练安排，就暂不纳入。可从训练暴露、简单主观反应和关键测试各选一个起步。",
+      "evidence": "实践者博客｜2026-10-20；已核实原文标题与发布日期，正文访问受限",
+      "confidence": "中低",
+      "confidence_reason": "主题与发布日期可核实；具体建议为简报基于监测原则的编辑判断，不冒充原文逐条结论。",
+      "source": {
+        "url": "https://gabbettperformance.com.au/monitoring-with-minimal-resources-what-to-track-when-you-have-zero-budget-and-no-technology"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "youth-vbt-full-body",
+      "domain": "运动科学",
+      "title": "青年全身训练加入VBT：速度反馈应服务动作意图与负荷调整",
+      "short_title": "青年VBT嵌入全身训练",
+      "author": "Philip Reichhoff",
+      "platform": "SimpliFaster博客",
+      "published_date": "2026-10-20",
+      "priority": "快讯",
+      "one_liner": "SimpliFaster发布青年运动员全身训练结合速度训练的实践指南，强调把速度信息嵌入既有动作模式，而非单独堆叠技术。",
+      "what": "文章于10月20日发布，主题是把速度基础训练整合进青年运动员全身计划；页面同时关联既有力量与体能文献。当前公开抓取只确认导语、作者和日期，未取得完整方案细节。",
+      "why": "青年VBT的关键不是追求精确到小数的速度，而是用即时反馈帮助保持最大动作意图、识别当天状态并控制不必要疲劳。",
+      "practice": "若采用速度设备，先固定动作、技术标准与测量设置，再用个体重复测量误差决定是否调整负荷；不要把成人速度区间直接当作青少年通用阈值。",
+      "evidence": "教练实践文章｜2026-10-20；可核实标题、作者、日期与文章定位",
+      "confidence": "中低",
+      "confidence_reason": "整合主题明确，但本期未完整读取处方细节，实践建议按可验证范围收缩。",
+      "source": {
+        "url": "https://simplifaster.com/articles/integration-von-geschwindigkeitsbasiertem-training-in-ein-ganzkorper-trainingsprogramm-fur-jugendliche-sportler"
+      },
+      "references": [
+        {
+          "label": "文中引用研究 DOI",
+          "url": "https://doi.org/10.1519/ssc.0000000000000560"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "acl-rehab-persistent-problems",
+      "domain": "运动健康",
+      "title": "ACL康复“继续做”不够：持续问题需要重新定义与复测",
+      "short_title": "持续问题要改计划而非加量",
+      "author": "Ravi Patel / The ACL Athlete Podcast",
+      "platform": "播客",
+      "published_date": "2026-10-15",
+      "priority": "值得了解",
+      "one_liner": "节目讨论为何反复执行同一康复内容仍可能停滞，核心是重新检查问题定义、测试结果和进阶计划。",
+      "what": "第298期围绕ACL康复中“继续努力”仍不解决问题的情境，结合文字稿讨论持续症状或表现停滞时，计划、测试和执行之间的断点。",
+      "why": "康复停滞常被解释为患者不够努力，但如果刺激、剂量或评价指标没有对应当前限制，增加相同训练只会重复暴露同一错误。",
+      "practice": "出现2–3周无进展时，重新测量目标功能，核对训练完成度、症状反应与剂量，再只改一个关键变量并设复测日期；需要医疗评估的红旗不由训练加量替代。",
+      "evidence": "临床实践播客与公开文字稿｜2026-10-15；专家观点，不是比较试验",
+      "confidence": "中",
+      "confidence_reason": "节目论点与文字稿可核查，行动框架与临床迭代逻辑一致；具体个案仍需临床判断。",
+      "source": {
+        "url": "https://theaclathletepodcast.buzzsprout.com/1574002/episodes/19964932-298-why-keep-working-on-it-might-not-be-enough-in-acl-rehab?t=0"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "claude-duet-preview",
+      "domain": "AI",
+      "title": "Claude Duet进入研究预览：主动简报与跨应用执行同台测试",
+      "short_title": "Claude Duet测试主动助理",
+      "author": "Anthropic",
+      "platform": "官方产品发布/Reuters",
+      "published_date": "2026-10-21",
+      "priority": "重点关注",
+      "one_liner": "Claude Duet以独立应用提供每日简报和主动任务执行，研究预览阶段强调敏感操作确认，但已知会误判紧急程度。",
+      "what": "Anthropic在10月21日发布Claude Duet研究预览，可在iOS、Android和claude.ai候补体验。Reuters报道其基于Opus 5.5、可连接约6000项服务，并在敏感操作前请求批准；早期测试也出现紧急程度误判和订票能力不足。",
+      "why": "它把聊天助手推进到持续观察、主动汇总与跨应用执行。真正的产品差异将来自触发逻辑、连接器权限和错误恢复，而非单次回答质量。",
+      "practice": "团队试用时先限定只读连接器和低风险任务；为每个主动动作记录触发条件、批准点和撤销路径，并专门测试漏报、误报与高优先级排序。",
+      "evidence": "厂商研究预览＋Reuters体验报道｜2026-10-21",
+      "confidence": "中高",
+      "confidence_reason": "功能与限制有官方和媒体可核信息；大规模真实工作流表现尚未形成。",
+      "source": {
+        "url": "https://www.reuters.com/technology/anthropic-unveils-claude-duet-ai-agent-app-2026-10-21/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "decision-model-evals",
+      "domain": "AI",
+      "title": "Decision Model评测：先调阈值，再比较成本与准确率",
+      "short_title": "模型评测别默认0.5阈值",
+      "author": "Hamel Husain",
+      "platform": "个人技术博客",
+      "published_date": "2026-10-20",
+      "priority": "值得了解",
+      "one_liner": "Hamel Husain展示以小型决策模型替代昂贵LLM评审时，默认0.5阈值可能明显失真，必须用验证集校准。",
+      "what": "文章以实际评测流程说明：把任务转成二分类概率后，默认0.5阈值未必对应最佳业务决策；应在验证集上调阈值，并同时比较准确率、成本与校准表现。",
+      "why": "低成本评测器可扩大回归测试覆盖，但阈值选择会直接改变误报与漏报。若只报告总体准确率，团队可能把一个便宜但偏置的评审器当成可靠裁判。",
+      "practice": "保留独立验证集，绘制不同阈值下的精确率/召回率与单位评测成本；按任务风险选择阈值，并定期抽样人工复核分布漂移。",
+      "evidence": "技术实践文章与示例｜2026-10-20；方法论案例，不是跨任务基准",
+      "confidence": "中高",
+      "confidence_reason": "阈值与校准问题可由标准分类评估验证，跨领域收益仍取决于数据和标签质量。",
+      "source": {
+        "url": "https://hamel.dev/blog/posts/decision-model-evals/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "battle-drones-agent-coding",
+      "domain": "AI",
+      "title": "Battle Drones：321次Agent提交把原型推进到可测的复杂系统",
+      "short_title": "长程编码靠模拟与迭代",
+      "author": "Simon Willison",
+      "platform": "个人技术博客",
+      "published_date": "2026-10-20",
+      "priority": "值得了解",
+      "one_liner": "Simon Willison用Claude Code完成12轮大迭代、321次Agent提交，并用1200场AI对战测试平衡；案例也暴露音频联机的真实体验问题。",
+      "what": "项目从2D原型扩展到3D、随机地图、Agent对战和音频多人同步。作者称第4轮更新通过1200场AI对战调整平衡，25分钟仍未决的比例从14%降至0.9%；音频多人后来因引发头痛而迅速增加在线替代方案。",
+      "why": "案例的价值不在“一句提示做出游戏”，而在Agent生成后用确定性模拟、回放、版本迭代和真实试玩闭环修正。规模化代码产出同时放大了未审代码和用户体验风险。",
+      "practice": "把Agent编码任务拆成可回放版本；为复杂行为建立自动模拟与失败指标，再用人工试玩验证体验。高风险系统不应复制作者几乎不审代码的做法。",
+      "evidence": "开发者公开项目复盘｜2026-10-20；含项目链接、迭代记录与作者自报测试数据",
+      "confidence": "中",
+      "confidence_reason": "过程与仓库可核查，量化结果由作者报告，未做独立复现。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Oct/20/battledrones/"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "低成本并不等于低标准：无设备监测与小型评测模型都需要先定义决策、阈值和复核机制，否则只是把噪声以更便宜的方式规模化。",
+    "ACL康复与主动Agent共享一个操作原则：持续运行之前要设置复测、批准与退出条件。努力程度或模型自主性，都不能替代明确的控制点。",
+    "长程Agent编码的可迁移经验是模拟、回放和迭代，而不是“一句提示”。Battle Drones的进步来自多轮版本和大量自动对战；体验缺陷仍要靠真实用户暴露。"
+  ],
+  "trends_url": "data/social/trends/2026-10-22.json"
+}

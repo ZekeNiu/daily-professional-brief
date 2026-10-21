@@ -102,5 +102,31 @@
     "date_verified": true,
     "platform": "官方更新",
     "topic_id": "ai-agent"
+  },
+  {
+    "id": "acl-athlete-ep298-20261015",
+    "title": "Why Keep Working On It Might Not Be Enough in ACL Rehab",
+    "url": "https://theaclathletepodcast.buzzsprout.com/1574002/episodes/19964932-298-why-keep-working-on-it-might-not-be-enough-in-acl-rehab?t=0",
+    "domain": "运动健康",
+    "source_author": "Ravi Patel / The ACL Athlete Podcast",
+    "author_id": "acl-athlete-podcast",
+    "published_at": "2026-10-15",
+    "observed_at": "2026-10-22T08:18:00+08:00",
+    "date_verified": true,
+    "platform": "播客",
+    "topic_id": "health-rehab"
+  },
+  {
+    "id": "anthropic-claude-duet-20261021",
+    "title": "Anthropic unveils Claude Duet AI agent app",
+    "url": "https://www.reuters.com/technology/anthropic-unveils-claude-duet-ai-agent-app-2026-10-21/",
+    "domain": "AI",
+    "source_author": "Anthropic / Reuters",
+    "author_id": "anthropic",
+    "published_at": "2026-10-21",
+    "observed_at": "2026-10-22T08:18:00+08:00",
+    "date_verified": true,
+    "platform": "官方产品发布/媒体报道",
+    "topic_id": "ai-agent"
   }
 ]
