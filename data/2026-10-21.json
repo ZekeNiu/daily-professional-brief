@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-21",
+  "title": "每日专业资讯简报",
+  "summary": {
+    "total": 8,
+    "counts": {"运动科学": 2, "运动健康": 3, "AI": 3},
+    "signal": "本期最重要的进展是：训练与康复中的传统分类阈值正在被重新检验，而AI工作流也开始从单纯生成转向可迁移、可审查和受供应链保护的执行系统。"
+  },
+  "navigation": {"prev": null, "next": null},
+  "section_notes": {
+    "运动科学": "250毫秒快慢SSC边界缺少生物学断点证据；实时反馈的价值则取决于反馈变量与保留效应。",
+    "运动健康": "新接收证据把攀岩手指伤、纤维肌痛水中运动和青少年心理转介分别落到训练暴露、生活质量与组织流程。",
+    "AI": "低资源语言编码评测、生命科学Agent整合和包供应链防护，共同指向更具体的生产工作流。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "250毫秒SSC边界不是生物学断点",
+      "title": "The fast–slow stretch-shortening cycle classification: provenance, transmission and evidential status of the 250 ms boundary",
+      "one_liner": "综述追溯发现，常用的250毫秒快慢SSC分界由双条件定义被简化而来，现有机制证据并未显示该点存在离散断点。",
+      "what": "作者追溯106个来源：原始分类同时包含动作时间与髋、膝、踝角位移，短SSC还限定在100–250毫秒；后续文献常把它缩减为单一接触时间阈值。唯一直接检验（46名休闲运动男性）没有复现250毫秒分界，跟腱长度反而是接触时间分组的最强区分因素。",
+      "why": "250毫秒长期用于选择增强式练习、安排进阶和划分研究亚组；如果它只是操作性启发式，而非机制断点，硬性二分会掩盖任务、个体和肌腱几何的连续差异。",
+      "practice": "保留接触时间作为连续指标，并同时记录跳跃任务、位移、冲量、技术质量和个体基线；康复进阶不要只用‘低于250毫秒’作为单一门槛。",
+      "evidence": "批判性综述｜106个来源；最后检索2026-09-02｜2026-10-07发表",
+      "confidence": "中高（历史来源与机制链条清楚，但不是干预效应综述）",
+      "limit": "",
+      "source": {"title": "Frontiers in Physiology（DOI 10.3389/fphys.2026.1981174）", "url": "https://doi.org/10.3389/fphys.2026.1981174"}
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "躯干角速度反馈保留效应最好",
+      "title": "Real-time visual feedback on dynamic postural stability modulates performance and strategy",
+      "one_liner": "89名健康参与者的单腿扰动实验中，四类视觉反馈都改变至少一个指标，但仅躯干角速度反馈在撤除后仍保留多项改善。",
+      "what": "参与者完成192次内外侧扰动并接受压力中心速度、稳定时间、垂直力偏差、躯干角速度或无反馈。垂直力偏差和躯干角速度反馈改善各自目标；反馈撤除后，只有躯干角速度组仍在稳定时间及躯干、手臂、摆动腿角速度上优于对照。基线较差者在稳定时间和躯干角速度反馈中获益更大。",
+      "why": "研究把‘给反馈’推进到‘反馈什么’，并显示即时变化与短时保留并不相同；这对平衡训练和运动学习设计比单看当次表现更有用。",
+      "practice": "若使用力台或动作捕捉做单腿扰动训练，可优先试验躯干运动反馈，并把撤除反馈后的保留测试设为主要结局；本研究尚未在伤后人群验证。",
+      "evidence": "组间实验｜89名健康参与者、5组、192次扰动｜2026-10-12发表",
+      "confidence": "中（组间比较与保留测试明确；只观察同一训练时段）",
+      "limit": "",
+      "source": {"title": "Frontiers in Sports and Active Living（DOI 10.3389/fspor.2026.1906272）", "url": "https://doi.org/10.3389/fspor.2026.1906272"}
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "攀岩手指伤要按伤型管理暴露",
+      "title": "Training Composition and Finger Injuries in Sport Climbing: A Six-Year Multicenter Registry Analysis of 488 Climbers",
+      "one_liner": "488名伤者登记显示，68%手指伤归因于慢性过载；校园板训练、力量训练和热身与不同伤型呈不同关联。",
+      "what": "六年双中心登记中，滑车伤34.2%、关节囊炎28.1%、腱鞘炎26.2%、蚓状肌撕裂8.0%、骨骺应力骨折3.5%。校园板训练与更多蚓状肌撕裂相关；额外力量训练与更少关节囊炎相关；热身与更少骨骺骨折相关。论文已于10月20日接收，正式排版版尚待发布。",
+      "why": "同一个‘手指伤预防’标签不足以指导攀岩训练；暴露与具体伤型的方向甚至可能不同，尤其青少年生长板需要单独处理。",
+      "practice": "青少年在生长板闭合前推迟校园板和负重攀爬，并系统记录热身与手指负荷；成人则应按伤型审查校园板、握持量和补充力量训练。登记研究给出关联，不等同于预防效果。",
+      "evidence": "双中心登记横断面分析｜488名攀岩伤者，2017–2022｜2026-10-20接收稿",
+      "confidence": "中（样本大且伤型具体；病例登记无法确定因果）",
+      "limit": "",
+      "source": {"title": "Frontiers接收稿（DOI 10.3389/fspor.2026.1994765）", "url": "https://doi.org/10.3389/fspor.2026.1994765"}
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "水中运动改善纤维肌痛生活质量",
+      "title": "Effects of Aquatic Exercise on Quality of Life in Individuals with Fibromyalgia: A Systematic Review and Meta-Analysis",
+      "one_liner": "17项RCT合并显示水中运动改善纤维肌痛生活质量（SMD −0.51），但异质性高，尚不能确定最佳频率或疗程。",
+      "what": "Meta分析纳入17项随机试验，生活质量总体效应SMD为−0.51（95%CI −0.80至−0.21），I²为80.1%。12–16周、每周两次或有氧方案在亚组中数值更大，但Meta回归未发现训练时长、频率、单次时长或类型与效应显著相关。论文10月20日接收，正式版待发布。",
+      "why": "它支持水中运动作为纤维肌痛的可选运动治疗环境，同时否定了目前就指定‘最佳水中处方’的依据。",
+      "practice": "可把水中运动用于陆上负荷耐受较差、疼痛或疲劳限制活动的患者，以生活质量和持续参与为主要监测结果；剂量从可执行性起步，而不是套用未被Meta回归支持的固定方案。",
+      "evidence": "系统综述与Meta分析｜17项RCT｜2026-10-20接收稿",
+      "confidence": "中（合并方向明确；异质性高且剂量解释未成立）",
+      "limit": "",
+      "source": {"title": "Frontiers接收稿（DOI 10.3389/fspor.2026.1950582）", "url": "https://doi.org/10.3389/fspor.2026.1950582"}
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "青少年运动组织应负责识别与转介",
+      "title": "From Mental Health Literacy to Referral: A Community Framework for Youth Sport",
+      "one_liner": "新框架主张教练负责识别问题与转介，而非充当临床人员；青少年筛查必须同时设计同意、隐私和持续照护路径。",
+      "what": "作者提出四部分社区框架：可信环境中的接触、结构化转介并可选受保障筛查、明确角色边界的能力培训、以公平为中心的治理。PlayStrong仅作为早期实施示例，不是有效性证据。论文10月20日接收，正式版待发布。",
+      "why": "心理健康素养和求助意愿不会自动变成可获得的照护；真正缺口通常在‘发现问题之后谁接手、如何保密、是否持续到诊疗’。",
+      "practice": "青少年俱乐部可借鉴脑震荡流程：教练识别和升级，指定临床转介责任人，预先写清家长同意、儿童保护报告、假阳性/假阴性处理及队内可见性风险。",
+      "evidence": "同行评审观点/实施框架｜无效果试验｜2026-10-20接收稿",
+      "confidence": "中（组织逻辑具体；尚无实施效果数据）",
+      "limit": "",
+      "source": {"title": "Frontiers接收稿（DOI 10.3389/fspor.2026.1862979）", "url": "https://doi.org/10.3389/fspor.2026.1862979"}
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "低资源语言编码评测出现大幅跃升",
+      "title": "Advancing coding in low-resource programming languages",
+      "one_liner": "OpenAI发布MultiLangBench与COBOL迁移评测：GPT‑6 Astra在20种语言平均测试通过率87.4%，GPT‑6.1 Sol高推理强度下COBOL迁移准确率97.9%。",
+      "what": "MultiLangBench要求模型从零构建SQLite兼容引擎；GPT‑6 Astra平均通过率87.4%，对比GPT‑5.6 Sol的26.8%，COBOL为72.1%。另一套迁移评测要求输出逐字节行为一致，GPT‑6.1 Sol低推理强度准确率86.6%、高强度97.9%。评测代码和逐语言结果已公开。",
+      "why": "真正有价值的变化不是‘会写更多语言’，而是开始用可运行系统和行为保持测试衡量遗留系统现代化任务。",
+      "practice": "遗留代码迁移可采用‘模型生成＋原系统黄金行为测试＋领域专家审查’；先在本单位真实业务规则上重建隐藏测试，不把厂商基准饱和等同于生产迁移完成。",
+      "evidence": "厂商研究与公开评测｜20种语言；两个自建基准｜2026-10-19发布",
+      "confidence": "中（数字与测试框架可核；仍是厂商自评，缺独立复现）",
+      "limit": "",
+      "source": {"title": "OpenAI原始研究发布", "url": "https://openai.com/index/low-resource-programming-languages/"}
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "OpenAI整合药物研发协调Agent",
+      "title": "OpenAI acquires Orchestra Bio",
+      "one_liner": "OpenAI收购Orchestra Bio，并计划把药物研发项目协调Agent与Rosalind模型和工作台整合。",
+      "what": "Orchestra平台让科学家与项目负责人把试验监控、依赖关系和时间线追踪委托给Agent；OpenAI称将其团队与Rosalind、GPT‑Rosalind和Rosalind Workbench整合，覆盖从科研推理到项目执行的链条。",
+      "why": "这表明科研AI产品正从回答生物化学问题扩展到管理跨部门研究、制造和临床依赖，工作流整合可能比单次模型能力更先影响研发效率。",
+      "practice": "生命科学团队评估此类系统时，应把试验决策的证据链、数据权限、依赖传播和人工批准点列为验收项；目前官方公告只确认整合方向，没有独立效果数据。",
+      "evidence": "公司收购与产品方向公告｜2026-10-20",
+      "confidence": "高（事件可核）；低（效率与研发结果尚无验证）",
+      "limit": "",
+      "source": {"title": "OpenAI官方公告", "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"}
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "GitHub包防火墙覆盖编码Agent端点",
+      "title": "GitHub package firewall in public preview",
+      "one_liner": "GitHub发布包防火墙预览，在Actions运行器或编码Agent与npm仓库之间检查恶意包、漏洞和证明降级。",
+      "what": "企业管理员可设置冷却期、GitHub Advisory Database检查和供应链证明降级规则；元数据查询与包下载都经过防火墙。当前仅支持npm，面向GitHub Enterprise Cloud公开预览，预览期免费。",
+      "why": "编码Agent会自主安装依赖，包安装阶段的恶意代码可能在项目代码运行前就窃取凭据；防护边界需要覆盖Agent访问的包源，而不只审查最终diff。",
+      "practice": "若Agent或CI可联网安装npm包，把包代理/防火墙、最小权限令牌和锁文件审查组合使用；先在评估模式观察误拦截，再决定强制策略。",
+      "evidence": "GitHub官方产品公告｜公开预览、仅npm｜2026-10-20",
+      "confidence": "高（功能与范围可核）；未知（独立拦截效果未公布）",
+      "limit": "",
+      "source": {"title": "GitHub Changelog", "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview/"}
+    }
+  ],
+  "professional_judgment": [
+    "训练端最值得立即更新的是：把250毫秒从‘真理阈值’降级为记录变量。它仍便于沟通，但处方和康复进阶应由任务、冲量、技术与个体反应共同决定。",
+    "康复端本期没有单一万能方案：攀岩手指伤需要按伤型回溯暴露，纤维肌痛水中运动应以生活质量与可持续参与评价，青少年心理健康则要把转介流程本身当作干预。",
+    "AI工作流正在补齐生成之后的环节：行为一致测试、跨团队执行协调和依赖供应链防护。采购或部署Agent时，验收标准应覆盖运行结果、权限与审计链，而不只比较模型回答。"
+  ]
+}
