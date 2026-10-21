@@ -586,7 +586,7 @@
           "domain": "AI",
           "label": "Agent依赖供应链防护",
           "summary": "工作流锁文件与包防火墙分别固定Actions依赖和拦截npm风险，把编码Agent防护前移到依赖解析与下载阶段。",
-          "confidence": "中高",
+          "confidence": "中",
           "confidence_reason": "两项GitHub官方发布对应不同供应链控制点，功能范围和发布日期可核。",
           "item_ids": [
             "4acdd8b4bda3",
