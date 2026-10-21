@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-20T01:49:43.162555+00:00",
+  "checked_at": "2026-10-21T01:35:22.658269+00:00",
   "total": 88,
-  "feeds_connected": 49,
+  "feeds_connected": 48,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -345,7 +345,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://www.oneusefulthing.org/feed",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "hamel-husain",
@@ -364,7 +364,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://hamel.dev/index.xml",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "eugene-yan",
@@ -479,7 +479,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.scienceforsport.com/feed/",
-      "recent_items": 3
+      "recent_items": 2
     },
     {
       "id": "simplifaster",
@@ -505,7 +505,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://complementarytraining.com/feed/",
-      "recent_items": 1
+      "recent_items": 2
     },
     {
       "id": "jb-morin",
@@ -557,7 +557,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://gabbettperformance.com.au/feed/",
-      "recent_items": 1
+      "recent_items": 2
     },
     {
       "id": "hrv4training",
@@ -895,7 +895,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.interconnects.ai/feed",
-      "recent_items": 2
+      "recent_items": 3
     },
     {
       "id": "the-gradient",
@@ -921,7 +921,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://huggingface.co/blog/feed.xml",
-      "recent_items": 11
+      "recent_items": 14
     },
     {
       "id": "openai",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 23
+      "recent_items": 22
     },
     {
       "id": "anthropic",
@@ -958,9 +958,9 @@
       "kind": "官方团队",
       "platform": "公开发布",
       "language": "en",
-      "status": "feed_ok",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "recent_items": 6
+      "status": "homepage_only",
+      "feed_url": null,
+      "recent_items": 0
     },
     {
       "id": "google-ai",
@@ -973,7 +973,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "microsoft-research",
@@ -999,7 +999,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://github.blog/ai-and-ml/feed/",
-      "recent_items": 4
+      "recent_items": 5
     },
     {
       "id": "langchain",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 30
+      "recent_items": 26
     },
     {
       "id": "bair",
@@ -1142,7 +1142,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vickiboykis.com/index.xml",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "qbitai",
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 4
+      "recent_items": 2
     },
     {
       "id": "reddit-ml",
