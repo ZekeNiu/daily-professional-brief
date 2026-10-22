@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-21T01:35:22.658269+00:00",
+  "checked_at": "2026-10-22T01:31:24.548350+00:00",
   "total": 88,
   "feeds_connected": 48,
   "sources": [
@@ -210,7 +210,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://mikereinold.com/feed/",
-      "recent_items": 1
+      "recent_items": 0
     },
     {
       "id": "adam-meakins",
@@ -882,7 +882,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.latent.space/feed",
-      "recent_items": 18
+      "recent_items": 20
     },
     {
       "id": "nathan-lambert",
@@ -921,7 +921,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://huggingface.co/blog/feed.xml",
-      "recent_items": 14
+      "recent_items": 15
     },
     {
       "id": "openai",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 22
+      "recent_items": 28
     },
     {
       "id": "anthropic",
@@ -958,9 +958,9 @@
       "kind": "官方团队",
       "platform": "公开发布",
       "language": "en",
-      "status": "homepage_only",
-      "feed_url": null,
-      "recent_items": 0
+      "status": "feed_ok",
+      "feed_url": "https://deepmind.google/blog/rss.xml",
+      "recent_items": 5
     },
     {
       "id": "google-ai",
@@ -973,7 +973,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "recent_items": 1
+      "recent_items": 2
     },
     {
       "id": "microsoft-research",
@@ -999,7 +999,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://github.blog/ai-and-ml/feed/",
-      "recent_items": 5
+      "recent_items": 4
     },
     {
       "id": "langchain",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 26
+      "recent_items": 23
     },
     {
       "id": "bair",
@@ -1049,8 +1049,8 @@
       "kind": "研究团队",
       "platform": "博客",
       "language": "en",
-      "status": "feed_ok",
-      "feed_url": "https://bair.berkeley.edu/blog/feed.xml",
+      "status": "unavailable",
+      "feed_url": null,
       "recent_items": 0
     },
     {
@@ -1181,7 +1181,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://sspai.com/feed",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "csss",
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 2
+      "recent_items": 5
     },
     {
       "id": "reddit-ml",
