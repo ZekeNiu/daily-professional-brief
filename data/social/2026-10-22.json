@@ -102,7 +102,7 @@
       "author": "Anthropic",
       "platform": "官方产品发布/Reuters",
       "published_date": "2026-10-21",
-      "priority": "重点关注",
+      "priority": "值得了解",
       "one_liner": "Claude Duet以独立应用提供每日简报和主动任务执行，研究预览阶段强调敏感操作确认，但已知会误判紧急程度。",
       "what": "Anthropic在10月21日发布Claude Duet研究预览，可在iOS、Android和claude.ai候补体验。Reuters报道其基于Opus 5.5、可连接约6000项服务，并在敏感操作前请求批准；早期测试也出现紧急程度误判和订票能力不足。",
       "why": "它把聊天助手推进到持续观察、主动汇总与跨应用执行。真正的产品差异将来自触发逻辑、连接器权限和错误恢复，而非单次回答质量。",
