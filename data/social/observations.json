@@ -618,6 +618,20 @@
       "last_seen": "2026-10-21T01:35:22.658269+00:00"
     },
     {
+      "id": "harness2-recursive-agent-harness-20261009",
+      "title": "Harness²: Recursive Agent Harnessing for an Open World",
+      "url": "https://github.com/google-research/harness2",
+      "date": "2026-10-09",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Google Cloud AI Research等"
+      ],
+      "platform": "GitHub / arXiv",
+      "first_seen": "2026-10-23T07:58:00+08:00",
+      "last_seen": "2026-10-23T07:58:00+08:00"
+    },
+    {
       "id": "377afb641e4c",
       "title": "I expect rapid progress but not towards general superintelligence",
       "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
@@ -3278,6 +3292,20 @@
       "platform": "博客",
       "first_seen": "2026-10-22T01:31:24.548350+00:00",
       "last_seen": "2026-10-22T01:31:24.548350+00:00"
+    },
+    {
+      "id": "github-agent-customization-metrics-20261022",
+      "title": "Custom skills, agents, and MCP servers in usage metrics API",
+      "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api/",
+      "date": "2026-10-22",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "GitHub"
+      ],
+      "platform": "官方更新",
+      "first_seen": "2026-10-23T07:58:00+08:00",
+      "last_seen": "2026-10-23T07:58:00+08:00"
     }
   ]
 }
