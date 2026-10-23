@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-23",
+  "title": "每日专业资讯简报｜2026-10-23",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "本期最值得更新的认识是：测试指标必须对应真实决策——NIRS训练排名没有显著组间差异，赛季监测要看个体基线与伤病史，AI的高频小判断则开始被独立成专用接口。"
+  },
+  "navigation": {
+    "prev": "2026-10-22",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "肌氧、比目鱼肌力量和负重上楼研究共同提醒：平均表现稳定不等于内部负荷或适应机制相同。",
+    "运动健康": "损伤负担需要同时看暴露情境、组织类型与长期功能；只报发生率或手术次数都不足以指导干预。",
+    "AI": "结构化决策和关系数据预测正在从通用LLM工作流中拆出专用层，部署价值取决于评测、权限与可观测性。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "NIRS训练排名未形成显著差异",
+      "title": "Training-Induced Adaptations in Skeletal Muscle Oxygenation in Athletes and Healthy Individuals: A Systematic Review and Network Meta-Analysis",
+      "one_liner": "27项研究的网络荟萃分析中，没有训练方式相对不训练在肌肉去氧或复氧指标上达到显著优势；BFR的最高排名仅属探索性。",
+      "what": "研究纳入27项研究（16项随机试验、11项非随机研究），比较多种训练对NIRS肌肉去氧与复氧指标的影响。所有训练方式相对不训练的95%置信区间都跨零；血流限制训练在两类指标的p-score最高，但作者明确将其定位为假设生成。运动员亚组的去氧结果异质性高于非运动员（I² 77.7% vs 48.9%）。",
+      "why": "排行榜看起来能给出最优方案，但当直接比较没有显著差异、网络节点稀疏时，排名不能替代效应与不确定性。研究也提示去氧与复氧反映的机制不同，不应合并成一个“肌氧适应分数”。",
+      "practice": "用NIRS监测训练时，预先固定测量部位、任务、探头和结局指标，并以个体重复测量变化解释；不要依据本次p-score把BFR直接定为最优训练。",
+      "evidence": "系统综述与网络荟萃分析｜27项研究，含16项随机试验｜2026-10-22上线",
+      "confidence": "中（综合范围较广，但所有直接比较均未显著，网络排名不稳定）",
+      "limit": "",
+      "source": {
+        "title": "Journal of Strength and Conditioning Research（DOI 10.1519/JSC.0000000000005600）",
+        "url": "https://doi.org/10.1519/JSC.0000000000005600"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "比目鱼肌力量赛季内未下降",
+      "title": "Do Athletes Lose Soleus Strength Over the Course of a Season? Longitudinal Monitoring of Seated Plantar Flexion Maximum Voluntary Contraction Strength and Factors That Affect It in Australian Football Players",
+      "one_liner": "41名澳式足球运动员的屈膝跖屈力量从季前到赛季中后期提高并维持；近期小腿伤史、年龄和性别影响纵向水平。",
+      "what": "三支州级球队的41名运动员完成210次测量。绝对力量由季前121.7 kg升至赛季初135.2 kg、赛季末135.8 kg；相对力量由1.51倍体重升至1.69和1.75。近期小腿伤史和年龄较大与更低力量相关；女性样本显示较低力量与更大不对称。",
+      "why": "赛季中力量下降并非必然。若团队只用统一阈值筛查，容易把正常的赛季适应、既往伤病和人口学差异混在一起。",
+      "practice": "以季前和伤前个体值建立屈膝跖屈基线，赛季中关注偏离个人轨迹；近期小腿伤运动员应单独设复测与负荷进阶标准。",
+      "evidence": "单赛季纵向队列｜41人、210次测量｜2026-10-20上线",
+      "confidence": "中（纵向重复测量直接，但女性仅9人且为州级澳式足球样本）",
+      "limit": "",
+      "source": {
+        "title": "Journal of Strength and Conditioning Research（DOI 10.1519/JSC.0000000000005705）",
+        "url": "https://doi.org/10.1519/JSC.0000000000005705"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "运动科学",
+      "short_title": "背包负重改变内部力学",
+      "title": "Biomechanical responses to incremental backpack loading during stair ascent in male adolescents",
+      "one_liner": "16名男性青少年在背负0%至20%体重上楼时，步时参数保持稳定，但动态稳定性、关节力学与肌电已随负重改变。",
+      "what": "三维动作、动力学、表面肌电和稳定性分析显示，负重增加改变前后稳定裕度、质心—压力中心倾角、垂直地面反作用力、下肢关节力学和肌肉激活；传统步时参数没有明显变化。",
+      "why": "外观上步速和步幅不变，并不意味着负荷没有增加。青少年可能通过内部力学调整维持相同上楼表现。",
+      "practice": "评估日常或训练背负任务时，把负重比例、台阶任务、主观用力和动作质量一起记录；若只能观察步时参数，可能漏掉内部负荷变化。",
+      "evidence": "实验室重复测量｜16名男性青少年，0/10/15/20%体重负重｜2026-10-20上线",
+      "confidence": "中低（多模态测量完整，但样本小且仅男性）",
+      "limit": "",
+      "source": {
+        "title": "Ergonomics（DOI 10.1080/00140139.2026.2746687）",
+        "url": "https://doi.org/10.1080/00140139.2026.2746687"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "青年与成年队发生率相近",
+      "title": "Within-club comparison of injury patterns, burden and incidence in senior and under-21 South African professional football players",
+      "one_liner": "同一俱乐部一赛季中，成年队与U21总体伤病发生率无显著差异，但组织类型、缺训负担和发生情境不同。",
+      "what": "成年队33人发生95次伤病（9.63/1000小时），U21 36人发生46次（7.63/1000小时）；发生率比1.26（95%CI 0.89–1.80）。两队比赛发生率均高于训练，肌肉/拉伤约占一半，后大腿最常见；U21的韧带/肌腱伤占比更高。",
+      "why": "从青年到成年队的风险变化不一定表现为总发生率跳升。组织构成和时间损失可能比单一伤病数更能定位预防重点。",
+      "practice": "跨梯队报告至少分开训练/比赛暴露、组织类型和时间损失；U21到成年队过渡期不要只比较每千小时伤病数。",
+      "evidence": "同俱乐部回顾性队列｜69名男性职业球员、一个赛季｜2026-10-21上线",
+      "confidence": "中（暴露口径一致，但单俱乐部单赛季且仅记录时间损失伤）",
+      "limit": "",
+      "source": {
+        "title": "Journal of Sports Medicine and Physical Fitness（DOI 10.23736/S0022-4707.26.18154-7）",
+        "url": "https://doi.org/10.23736/S0022-4707.26.18154-7"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "女足手术负担延续至退役后",
+      "title": "Surgical Profiles of Elite Female Athletes and Their Association with Long-Term Musculoskeletal Health: Findings from the Women's Soccer Health Study",
+      "one_liner": "560名退役精英女足运动员中，膝是运动生涯和退役后最常见手术部位；手术更多与更低膝功能和活动水平相关。",
+      "what": "横断面调查显示，运动生涯平均手术1次、退役后0.5次；生涯手术中膝占39%，退役后膝仍占24%。更多生涯及退役后手术与更低SANE膝评分相关，较低膝评分又与较低UCLA活动水平相关；相关程度为弱到中等。",
+      "why": "伤病治理的时间轴不能止于重返赛场。膝部手术负担持续出现在退役后，提示俱乐部和联赛需要把长期关节功能纳入运动员健康结局。",
+      "practice": "为接受ACL、半月板或软骨手术的女足运动员保留长期随访，退役后继续评估症状、功能和活动水平；将预防项目依从性作为实施指标，而非只看是否提供项目。",
+      "evidence": "横断面调查｜560名退役精英女足运动员｜2026-10-20上线",
+      "confidence": "中（样本较大且长期结局明确，但回顾性自报不能证明手术导致功能下降）",
+      "limit": "",
+      "source": {
+        "title": "Medicine & Science in Sports & Exercise（DOI 10.1249/MSS.0000000000004196）",
+        "url": "https://doi.org/10.1249/MSS.0000000000004196"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "精英接触项目大麻沟通断层",
+      "title": "Athletes and Medical Staff in Elite Contact Sports: a Quantitative Analysis of Use, Knowledge, and Attitudes Regarding Cannabinoids",
+      "one_liner": "166名运动员中56%当前使用大麻素，但只有21.4%愿与医疗人员讨论；64名工作人员中71.4%缺乏制定治疗计划的信心。",
+      "what": "加拿大、美国和澳大利亚的166名精英接触项目运动员与64名医疗/训练人员完成调查。81%运动员曾使用、56%当前使用；67.4%不熟悉治疗剂量。工作人员仅14%熟悉剂量方案，100%希望获得运动员特异教育。",
+      "why": "高使用率与低沟通率并存，会把相互作用、剂量、产品质量和反兴奋剂风险留在非正式渠道。问题不是简单劝阻，而是建立可信的问询与转介路径。",
+      "practice": "赛季前健康问询加入非惩罚式的大麻素使用筛查，区分医疗用途、产品成分与竞赛规则；由熟悉药理和反兴奋剂要求的人员提供教育。",
+      "evidence": "描述性横断面调查｜166名运动员、64名医疗/训练人员｜2026-10-21上线",
+      "confidence": "中（使用与知识缺口数据直接，但便利样本和自报限制代表性）",
+      "limit": "",
+      "source": {
+        "title": "Sports Health（DOI 10.1177/19417381261495512）",
+        "url": "https://doi.org/10.1177/19417381261495512"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Decisions API拆出高频小判断",
+      "title": "Build more responsive apps with the Decisions API",
+      "one_liner": "OpenAI将文本/图像分类、路由和评分独立为公开测试接口，返回布尔、选项或分数及概率，官方称延迟约为Responses API的十分之一。",
+      "what": "10月22日OpenAI发布Decisions API公开测试版，当前使用gpt-6-luna，通过POST /v1/decisions返回类型化答案与概率，可处理布尔判断、固定选项和量表评分，并提供评测与阈值设置流程。官方称速度约为Responses API的10倍。",
+      "why": "Agent工作流中的大量步骤不是开放式生成，而是分类、路由、是否批准和优先级判断。独立接口有机会降低延迟与成本，也把阈值、校准和弃权机制变成一等工程问题。",
+      "practice": "先从有人工标签、可逆的路由任务试点；在独立验证集上比较阈值下的误报、漏报、延迟和成本，并为低置信度结果保留人工或更强模型回退。",
+      "evidence": "OpenAI官方产品发布与API文档｜公开测试版，2026-10-22；性能数字为厂商陈述",
+      "confidence": "高（接口与能力已公开；跨任务效果需自行评测）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI：Build more responsive apps with the Decisions API",
+        "url": "https://openai.com/index/decisions-api/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Kumo把关系数据预测改为上下文学习",
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "one_liner": "NVIDIA发布Kumo Relational，用预测查询语言对多表关系数据直接推断，省去每个数据集单独训练模型的循环。",
+      "what": "10月21日NVIDIA与Kumo团队发布预训练关系基础模型及客户端。用户用PQL描述预测对象和目标，模型通过NIM服务读取关联表和示例进行推断；官方材料报告其在关系数据基准上优于多种监督学习基线。",
+      "why": "企业预测问题常散落在客户、订单、事件等多表结构中。若预训练模型能跨模式迁移，原型成本会从特征工程和训练管线转移到数据权限、查询定义与外部验证。",
+      "practice": "先选一个有稳定历史标签的关系预测任务，与现有GBDT/图模型做时间切分对照；同时核对数据驻留、NIM部署、模式泄漏和概率校准。",
+      "evidence": "厂商技术发布、文档与论文链接｜2026-10-21；基准优势主要来自发布方",
+      "confidence": "中（产品和方法可核实，尚缺独立复现及跨行业部署数据）",
+      "limit": "",
+      "source": {
+        "title": "Hugging Face / NVIDIA：Kumo Relational",
+        "url": "https://huggingface.co/blog/nvidia/kumo-relational"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "GitHub可统计Agent自定义组件",
+      "title": "Custom skills, agents, and MCP servers in usage metrics API",
+      "one_liner": "GitHub Copilot用量指标API现可统计skill调用、自定义Agent启动和MCP连接尝试，让企业从席位使用转向组件级可观测。",
+      "what": "GitHub在10月22日更新用量指标API，增加agentic CLI自定义项：skill和slash command调用、plugin skill调用、自定义Agent启动以及MCP server连接尝试。",
+      "why": "Agent治理不能只看总会话数。组件级数据能回答哪些skill真正被调用、哪些MCP连接失败，以及自定义Agent是否获得持续使用。",
+      "practice": "把调用次数与任务完成率、失败类型和人工接管率连接起来；连接尝试不是成功使用，启动数也不能替代产出质量。",
+      "evidence": "GitHub官方更新｜2026-10-22；可确认指标可用性，不证明业务成效",
+      "confidence": "高（官方API变更，口径明确）",
+      "limit": "",
+      "source": {
+        "title": "GitHub Changelog：Custom skills, agents, and MCP servers in usage metrics API",
+        "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api/"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "运动表现监测要停止把“有排名”当成“有差异”。NIRS网络排名、赛季比目鱼肌轨迹和背包负重实验都说明，先定义结局、个体基线和内部负荷，再决定是否据此改训练。",
+    "运动健康应把时间尺度拉长：梯队伤病构成和退役女足的膝功能提示，预防项目不仅要减少当季事件，还要记录组织负担、时间损失、依从性与退役后功能。",
+    "AI工作流正在分层：开放生成、关系数据预测和高频小判断开始使用不同组件。部署时最重要的动作是为每一层建立自己的验证集、阈值、回退和可观测指标。"
+  ],
+  "trends_url": "data/trends/2026-10-23.json"
+}

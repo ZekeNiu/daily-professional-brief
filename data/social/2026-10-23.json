@@ -1,0 +1,207 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "title": "每日专业资讯简报·社媒热点｜2026-10-23",
+  "observed_at": "2026-10-23T07:58:00+08:00",
+  "summary": {
+    "title": "从原始信号到可检查的Agent组件",
+    "signal": "本期讨论的共同点是把黑箱拆开：运动监测回到原始波形与情境修正，AI工作流回到可改写的harness、专用词表和组件级使用数据。",
+    "total": 7,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 1,
+      "AI": 4
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-22",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "环境修正和原始力—时间波形都在提醒实践者：单一汇总指标会隐藏比平均值更大的个体差异。",
+    "运动健康": "腰椎管狭窄影像严重度未区分运动改善幅度，影像分级不应单独决定是否跳过保守康复。",
+    "AI": "Agent与小模型优化从换底座转向改harness、关系数据推断、词表成本和组件可观测性。"
+  },
+  "items": [
+    {
+      "id": "female-football-submax-heat-correction",
+      "domain": "运动科学",
+      "title": "女子足球次极量测试：温度平均效应小于个体与日间波动",
+      "short_title": "温度修正别覆盖个体波动",
+      "author": "Martin Buchheit等",
+      "platform": "研究者博客",
+      "published_date": "2026-10-17",
+      "priority": "值得了解",
+      "one_liner": "84名女子球员971次测试显示，湿球温度每升10°C，运动心率约升1个百分点，但个体与日间波动约为其两倍。",
+      "what": "Buchheit介绍一项多中心观察研究：3家澳大利亚NPL俱乐部、84名女子球员、971次场地次极量测试。湿球温度每升10°C，运动心率约高1个百分点（90%CI 0.1–1.9）；个体反应SD 2.2个百分点、日间噪声SD 2.0个百分点。",
+      "why": "固定温度修正可以改善团队层面的解释，却不足以替代个体基线；对单次测试，个人反应和日常噪声可能比平均环境效应更大。",
+      "practice": "记录湿球温度并在团队模型中校正，同时保留个人控制图；只有超出个人正常波动且与负荷、恢复等信息一致时才改变训练。",
+      "evidence": "研究者对同行评审观察研究的解读｜84人、971次测试｜原文2026-10-17",
+      "confidence": "中高",
+      "confidence_reason": "样本和效应区间明确；结论为关联，作者也报告了个体与日间方差。",
+      "source": {
+        "url": "https://martin-buchheit.net/2026/10/17/environmental-associations-with-heart-rate-responses-during-field-based-submaximal-fitness-testing-in-female-football-players-an-exploratory-multi-centre-study/"
+      },
+      "references": [
+        {
+          "label": "论文DOI",
+          "url": "https://doi.org/10.1080/24733938.2026.2747385"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "force-time-waveform-python",
+      "domain": "运动科学",
+      "title": "别停在跳高：导出力—时间波形才能检查算法与动作策略",
+      "short_title": "原始波形让指标可复核",
+      "author": "Tom Shaw / Hawkin Dynamics",
+      "platform": "厂商技术博客",
+      "published_date": "2026-10-16",
+      "priority": "值得了解",
+      "one_liner": "Hawkin开放1000 Hz力板波形与Python接口，并指出不同体重估计和起始点算法可让约三分之一试次的跳高差异超过2 cm。",
+      "what": "文章展示用HDforce导出左右及合力、速度、位移和功率波形，重建动作起始、分相和自定义指标。其引用的2026研究把30种分析组合应用于579名NCAA一级运动员的32,952次CMJ，约三分之一试次仅因分析方法不同就超过2 cm最小有意义变化。",
+      "why": "相同原始信号可以因算法选择产生足以改变判断的差异。保留波形让团队能复核厂商指标、重新分析旧数据并报告可重复的方法。",
+      "practice": "采购或续约测力平台时，把原始波形导出、指标定义和API权限列为必选项；内部分析固定体重估计、起始点与分相规则并做版本控制。",
+      "evidence": "厂商技术文章＋引用研究｜2026-10-16；开放接口事实可核实，性能论述含厂商立场",
+      "confidence": "中高",
+      "confidence_reason": "技术流程和引用样本清楚；具体硬件质量仍需独立验证。",
+      "source": {
+        "url": "https://www.hawkindynamics.com/blog/exploring-force-time-waveforms-in-python"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "stenosis-imaging-exercise-response",
+      "domain": "运动健康",
+      "title": "腰椎管狭窄影像严重度没有预测运动康复改善",
+      "short_title": "严重影像不等于运动无效",
+      "author": "Paul Ingraham / PainScience",
+      "platform": "专业科普博客",
+      "published_date": "2026-10-17",
+      "priority": "值得了解",
+      "one_liner": "对1336人的回顾分析解读显示，轻、中、重影像分组在疼痛、功能和力量改善上没有差异；严重影像本身不足以跳过运动尝试。",
+      "what": "作者解读Shahidi等对1336名影像确诊腰椎管狭窄患者的单组回顾分析。平均约13次训练后，疼痛下降26.6/100、Oswestry下降5.1分、个体功能提高1.7分、腰伸力量提高35%；所有结局的改善均不随影像严重度变化（p>0.49）。",
+      "why": "这项研究不能比较运动与手术，但直接削弱了“影像越严重，运动越不值得尝试”的分流逻辑。",
+      "practice": "在没有进行性神经缺损等明确手术指征时，先按症状、功能和神经体征决定保守康复试验，并设复评节点；不要用影像等级单独预测康复反应。",
+      "evidence": "专家博客解读单组回顾研究｜1336人｜博客2026-10-17，论文2026-08",
+      "confidence": "中",
+      "confidence_reason": "样本大且分层结果一致，但无对照组、神经性间歇跛行记录不完整。",
+      "source": {
+        "url": "https://www.painscience.com/blog/stenosis-severity-and-exercise.html"
+      },
+      "references": [
+        {
+          "label": "原始研究",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42570301/"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "harness2-recursive-agent-harness",
+      "domain": "AI",
+      "title": "Harness²开源：固定模型权重，让Agent改写自己的执行脚手架",
+      "short_title": "Agent开始优化自身harness",
+      "author": "Google Cloud AI Research等",
+      "platform": "GitHub / arXiv / 社区讨论",
+      "published_date": "2026-10-09",
+      "priority": "值得了解",
+      "one_liner": "Harness²通过任务级和跨任务两层递归修改提示、工具、记忆与技能；论文报告三类专业基准最高提升4.5至11.8个百分点。",
+      "what": "论文和Apache-2.0仓库于10月9日发布，10月18—22日在开发者社区集中讨论。框架保持底座权重不变，由Agent提出、测试并保留harness修改；作者报告单步可让GLM-5和Gemini 3.5 Flash在WorkBuddy、JobBench和法律任务上分别最高提升11.5、4.5和11.8个百分点。",
+      "why": "Agent性能优化不再只靠换模型或人工提示工程，而是把系统提示、工具说明、记忆和技能当成可迭代软件资产。",
+      "practice": "复现时把harness改动、评测集和回滚点纳入版本控制；用隐藏测试防止针对基准过拟合，并限制自改写范围和网络权限。",
+      "evidence": "arXiv预印本＋开源仓库＋公开社区讨论｜2026-10-09发布，本周形成新讨论",
+      "confidence": "中",
+      "confidence_reason": "代码与作者基准公开，但增益尚缺独立复现，递归修改也增加评测泄漏和权限风险。",
+      "source": {
+        "url": "https://github.com/google-research/harness2"
+      },
+      "references": [
+        {
+          "label": "arXiv 2610.14224",
+          "url": "https://arxiv.org/abs/2610.14224"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "kumo-relational-foundation-model",
+      "domain": "AI",
+      "title": "Kumo Relational把多表预测改成查询而非逐库训练",
+      "short_title": "关系数据预测免逐库训练",
+      "author": "NVIDIA / Kumo",
+      "platform": "Hugging Face技术博客",
+      "published_date": "2026-10-21",
+      "priority": "快讯",
+      "one_liner": "预训练关系基础模型通过PQL描述预测对象和目标，直接在关联表上推断；当前独立证据仍不足。",
+      "what": "发布方展示Kumo Relational及Python客户端，可连接Snowflake、Databricks、S3、DuckDB和SQLite，通过NIM服务执行关系预测，无需为每个数据集建立训练循环。",
+      "why": "这类模型把关系特征工程和训练管线压缩为查询与上下文构造，但同时把数据泄漏、时间切分和云端数据边界推到评测中心。",
+      "practice": "用已有生产任务做时间外验证，并与简单GBDT/图模型比较校准、推理成本和错误类型；先从只读、低风险预测开始。",
+      "evidence": "厂商技术发布与公开客户端｜2026-10-21；效果数字来自发布方",
+      "confidence": "中低",
+      "confidence_reason": "产品与接口可核实，跨企业数据的独立复现尚缺。",
+      "source": {
+        "url": "https://huggingface.co/blog/nvidia/kumo-relational"
+      },
+      "references": [
+        {
+          "label": "NVIDIA Kumo文档",
+          "url": "https://docs.nvidia.com/sdgm/kumo-relational/about-kumo-relational/introduction"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "vocabx-cost-weighted-tokenizer",
+      "domain": "AI",
+      "title": "VocabX把词表按生成成本重构，生产作文评分成本下降77%",
+      "short_title": "词表也能成为推理优化层",
+      "author": "Dharma AI",
+      "platform": "Hugging Face技术博客",
+      "published_date": "2026-10-21",
+      "priority": "值得了解",
+      "one_liner": "同一Qwen3-4B、数据和训练配方下，成本加权词表在葡语作文评分器中减少生成token并将实测推理成本降低77%。",
+      "what": "团队预告尚未正式发表的VocabX论文：不按词频，而按token成本重建领域词表。在七个同随机种子评分器中，作者报告实测成本下降77%，并在Qwen3、Llama-3.1和Gemma-3的15项比较中取得更低估算成本。",
+      "why": "专用小模型的成本不只由参数和量化决定；领域词表可减少高价输出token数量，尤其适合输出格式稳定、语言专门化的任务。",
+      "practice": "先对真实流量统计输入/输出token、延迟和质量，再用保留集比较原词表与专用词表；必须测试少见词、代码切换和域外输入。",
+      "evidence": "作者技术博客｜论文待发表，2026-10-21；生产案例自报",
+      "confidence": "中低",
+      "confidence_reason": "方法与实验设置有细节，但论文、代码和独立复现尚未齐备。",
+      "source": {
+        "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "github-agent-customization-metrics",
+      "domain": "AI",
+      "title": "GitHub把skill、Agent和MCP调用纳入企业用量指标",
+      "short_title": "Agent组件开始可观测",
+      "author": "GitHub",
+      "platform": "官方更新",
+      "published_date": "2026-10-22",
+      "priority": "快讯",
+      "one_liner": "企业现可通过API查看skill调用、自定义Agent启动和MCP连接尝试，开始识别哪些Agent组件真正进入日常工作。",
+      "what": "10月22日GitHub更新Copilot用量指标API，覆盖skills、slash commands、plugin skills、自定义Agent和MCP server连接尝试，并可按企业或组织层级读取。",
+      "why": "Agent采用率若只看席位或会话，会漏掉工具链的实际组成。组件级指标能支持清理无人使用的skill、定位MCP连接问题并评估推广范围。",
+      "practice": "建立skill/Agent/MCP清单，把调用或连接数据与任务完成、失败和人工接管指标关联；不要把启动和连接尝试直接当作成功。",
+      "evidence": "GitHub官方更新｜2026-10-22",
+      "confidence": "高",
+      "confidence_reason": "API字段和统计对象由官方明确；业务价值仍需结合结果指标。",
+      "source": {
+        "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api/"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动监测本期最直接的行动是保留上下文和原始信号：温度修正不能覆盖个人波动，跳高也不能替代力—时间策略。",
+    "腰椎管狭窄的影像等级不应单独决定跳过运动康复；分流应回到症状、功能、神经体征和预设复评节点。",
+    "AI团队应把harness、词表、skill和MCP视为可版本化、可评测、可观测的系统组件。底座模型不变时，这些层也能显著改变成本与表现。"
+  ],
+  "trends_url": "data/social/trends/2026-10-23.json"
+}

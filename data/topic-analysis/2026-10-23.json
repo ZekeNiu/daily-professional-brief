@@ -1,0 +1,1103 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T08:01:20+08:00",
+  "generated_by": "ChatGPT",
+  "channels": {
+    "journal": {
+      "start": "2026-09-24",
+      "end": "2026-10-23",
+      "source_fingerprint": "45cf439fc01a02cc7bea74aed5614f7082f60bccdbf9e40f95a40ef80cb5db61",
+      "topics": [
+        {
+          "id": "j-sport-task-validity",
+          "domain": "运动科学",
+          "label": "专项测试与表现迁移",
+          "summary": "测试与比赛数据都提示，群体汇总指标需要回到个体与任务情境解释；盲足射门脚效应即主要受单个球员驱动。",
+          "confidence": "中",
+          "confidence_reason": "盲足比赛观察与既有任务效度研究均显示群体结果不等于稳定个体规律。",
+          "item_ids": [
+            "7a1272dfeb6d",
+            "503aaf8e0c3e",
+            "1c254d5fc31a",
+            "cbc97380b4d6",
+            "cd3d7c7e848a",
+            "a0476d84a058",
+            "efe0f80768ea",
+            "e74336af1e4a",
+            "daf41ceb10fe",
+            "2c2bef48f982",
+            "2abd10d0ef27",
+            "f13a8835c89c",
+            "0922f9fc13bb"
+          ],
+          "summary_refs": [
+            "0922f9fc13bb",
+            "7a1272dfeb6d"
+          ]
+        },
+        {
+          "id": "j-sport-load-decisions",
+          "domain": "运动科学",
+          "label": "疲劳监控与训练决策",
+          "summary": "纵向监测需要个人轨迹而非统一阈值；澳式足球运动员的比目鱼肌力量赛季内提高并维持，但受近期伤病、年龄与性别影响。",
+          "confidence": "中",
+          "confidence_reason": "单赛季重复测量与既有疲劳监测记录共同支持以个人基线解释变化。",
+          "item_ids": [
+            "e3abe4ece2ac",
+            "c2ef100b3692",
+            "3e92e0ce50c3",
+            "0b69e7b34b2d",
+            "e923d5fb0963",
+            "b83af7cffcd7",
+            "5fa143c1d50a",
+            "ddc1d5acee95",
+            "f7d51d8c4436",
+            "c801b2a89cce"
+          ],
+          "summary_refs": [
+            "c801b2a89cce",
+            "e3abe4ece2ac"
+          ]
+        },
+        {
+          "id": "j-sport-warmup-pape",
+          "domain": "运动科学",
+          "label": "热身与PAPE刺激选择",
+          "summary": "热身共识、证据综述和青少年女篮试验聚焦同一问题：额外激活刺激是否比现有热身带来任务相关收益。",
+          "confidence": "中",
+          "confidence_reason": "研究综述与青少年女篮交叉试验直接覆盖额外激活刺激与热身比较。",
+          "item_ids": [
+            "f7ad8a78ddd0",
+            "e0ef3ab82824",
+            "dec9c807a3a3",
+            "3a4034995ac3",
+            "5171c9ab190f",
+            "2eb58b585498"
+          ],
+          "summary_refs": [
+            "5171c9ab190f",
+            "2eb58b585498"
+          ]
+        },
+        {
+          "id": "j-sport-rest-structure",
+          "domain": "运动科学",
+          "label": "组内休息与输出维持",
+          "summary": "总休息量相同时，组内休息或自选间歇仍可能改变重复表现、总功率与主观疲劳。",
+          "confidence": "中",
+          "confidence_reason": "两项随机交叉试验均在总休息量匹配的条件下改变间歇分配。",
+          "item_ids": [
+            "3be1014717b7",
+            "310adbaec45d",
+            "829ea849113f"
+          ],
+          "summary_refs": [
+            "310adbaec45d",
+            "829ea849113f"
+          ]
+        },
+        {
+          "id": "j-sport-muscle-adaptation",
+          "domain": "运动科学",
+          "label": "肌纤维肥大与适应机制",
+          "summary": "训练适应研究继续拆分机制与结局：NIRS网络荟萃中各训练方式均未显著优于对照，去氧与复氧指标也不应互换。",
+          "confidence": "中",
+          "confidence_reason": "肌纤维适应研究与本期NIRS综合都显示训练机制需按具体结局解释，排名不能替代效应。",
+          "item_ids": [
+            "4cd66e7574a3",
+            "209068535776",
+            "e9c0064483f6",
+            "9977c9e81403",
+            "6ba5cbbed46b",
+            "ab2916569a0c"
+          ],
+          "summary_refs": [
+            "ab2916569a0c",
+            "4cd66e7574a3"
+          ]
+        },
+        {
+          "id": "j-sport-landing-load",
+          "domain": "运动科学",
+          "label": "落地与跑步的组织负荷",
+          "summary": "外部表现稳定仍可能伴随内部力学重排；青少年负重上楼时步时参数不变，但稳定性、关节力学与肌电随负重改变。",
+          "confidence": "中",
+          "confidence_reason": "负重上楼多模态测量与既有落地和跑步负荷研究共同指向内部组织负荷。",
+          "item_ids": [
+            "8894eb97249e",
+            "db7c58c6a052",
+            "cb32f705ad36",
+            "421e2803db57",
+            "3ca0b747d5a0",
+            "4f74093e786b",
+            "264d20b7a229",
+            "a4d6f67aa77e"
+          ],
+          "summary_refs": [
+            "a4d6f67aa77e",
+            "8894eb97249e"
+          ]
+        },
+        {
+          "id": "j-sport-nutrition-benefit",
+          "domain": "运动科学",
+          "label": "补剂与补水的实际收益",
+          "summary": "肌酸、瓜氨酸、睡眠补剂和脱水研究分别检验具体结局，主观改善与训练表现收益需要分开核对。",
+          "confidence": "中",
+          "confidence_reason": "睡眠补剂与瓜氨酸试验均同时报告主观或客观训练结局。",
+          "item_ids": [
+            "83252db5a889",
+            "fd910cbae584",
+            "eeeec359b228",
+            "3a4d9f081656"
+          ],
+          "summary_refs": [
+            "fd910cbae584",
+            "eeeec359b228"
+          ]
+        },
+        {
+          "id": "j-sport-neuro-task",
+          "domain": "运动科学",
+          "label": "神经认知与专项执行",
+          "summary": "专项神经认知研究开始把平均反应时拆成刺激前抑制、动作启动与启动后机械输出，精英差异可能出现在这些短时环节。",
+          "confidence": "中",
+          "confidence_reason": "剑道启动策略与既有专项执行研究共同支持按时间窗口拆分表现。",
+          "item_ids": [
+            "104ac871d2ec",
+            "43b569b97229",
+            "cb6dd6080711",
+            "b5c4cb530df1",
+            "9fa234b8127d",
+            "70bdcb43fc97"
+          ],
+          "summary_refs": [
+            "70bdcb43fc97",
+            "104ac871d2ec"
+          ]
+        },
+        {
+          "id": "j-health-return-sport",
+          "domain": "运动健康",
+          "label": "ACL与腘绳肌重返运动",
+          "summary": "重返运动后的健康结局需要延伸至退役期；女足膝部手术负担持续存在，并与较低长期关节功能和活动水平相关。",
+          "confidence": "中",
+          "confidence_reason": "退役女足调查与既有ACL、腘绳肌重返运动研究共同支持长期功能随访。",
+          "item_ids": [
+            "883e1e8f4988",
+            "2b2e4c2fca51",
+            "dd1789548074",
+            "fce76243fefb",
+            "80f617666639"
+          ],
+          "summary_refs": [
+            "80f617666639",
+            "883e1e8f4988"
+          ]
+        },
+        {
+          "id": "j-health-risk-validity",
+          "domain": "运动健康",
+          "label": "伤病筛查的预测效度",
+          "summary": "伤病风险比较需同时看暴露、组织与时间损失；同俱乐部成年队和U21总发生率相近，但损伤构成不同。",
+          "confidence": "中",
+          "confidence_reason": "梯队队列与既有筛查效度研究都说明单一总发生率不足以定位风险。",
+          "item_ids": [
+            "6d762828e445",
+            "a3bda0db585a",
+            "2199f5872d2f",
+            "e2e609ce280d",
+            "b8f26731083d",
+            "cf6e3a8b53e2"
+          ],
+          "summary_refs": [
+            "cf6e3a8b53e2",
+            "6d762828e445"
+          ]
+        },
+        {
+          "id": "j-health-stroke-walking",
+          "domain": "运动健康",
+          "label": "卒中辅助训练的净增益",
+          "summary": "Myosuit、外骨骼和血流限制训练研究集中检验步行与下肢功能，部分统计变化尚未形成一致的额外临床收益。",
+          "confidence": "中",
+          "confidence_reason": "外骨骼与血流限制训练的系统综述均报告步行或下肢功能结果。",
+          "item_ids": [
+            "5849ea8cc025",
+            "856973fe6b71",
+            "f989b9704ad8",
+            "904bb56fd269"
+          ],
+          "summary_refs": [
+            "f989b9704ad8",
+            "904bb56fd269"
+          ]
+        },
+        {
+          "id": "j-health-digital-outcomes",
+          "domain": "运动健康",
+          "label": "数字康复的效果与依从性",
+          "summary": "数字康复研究开始同时观察功能结果与持续参与：技术可用、短期指标变化和长期活动轨迹是不同问题。",
+          "confidence": "中",
+          "confidence_reason": "AI远程康复试验与数字骨关节炎长期轨迹研究提供功能和参与数据。",
+          "item_ids": [
+            "7e771144366e",
+            "ad3b8818ebaf",
+            "d7ab07fe62cf",
+            "89d3a6dba714",
+            "35ca5149bfc3",
+            "937f0fac9c9f"
+          ],
+          "summary_refs": [
+            "89d3a6dba714",
+            "937f0fac9c9f"
+          ]
+        },
+        {
+          "id": "j-health-chronic-pain",
+          "domain": "运动健康",
+          "label": "运动缓解慢性疼痛的收益",
+          "summary": "慢性肌骨疼痛的运动收益需要按结局分域：膝骨关节炎骑行对疼痛、症状和日常活动的效果并不等同。",
+          "confidence": "中",
+          "confidence_reason": "KOOS分域荟萃分析与既有慢性疼痛研究共同支持按目标结局选择运动。",
+          "item_ids": [
+            "639f6ca62b46",
+            "f52a8c3192b8",
+            "cd8d85b8d94d",
+            "d53a48689f12"
+          ],
+          "summary_refs": [
+            "d53a48689f12",
+            "639f6ca62b46"
+          ]
+        },
+        {
+          "id": "j-health-cardiometabolic",
+          "domain": "运动健康",
+          "label": "运动处方的心代谢结局",
+          "summary": "血管功能、血压、心衰功能与肝代谢研究使用不同终点，体适能改善并不自动意味着所有疾病指标同步改善。",
+          "confidence": "中",
+          "confidence_reason": "心衰居家训练研究与MASLD随机试验Meta分析均区分体适能和疾病指标。",
+          "item_ids": [
+            "ace82a734db5",
+            "451c24379693",
+            "4a1ce75bd29e",
+            "21df4ed4048a",
+            "56f3e0e5e1c7",
+            "50330311422f"
+          ],
+          "summary_refs": [
+            "56f3e0e5e1c7",
+            "50330311422f"
+          ]
+        },
+        {
+          "id": "j-health-frailty-dose",
+          "domain": "运动健康",
+          "label": "肌少症与衰弱运动处方",
+          "summary": "近期综述把肌肉功能、步行和跌倒结局与运动方案对应，肌少症研究进一步关注频率、强度及时长的达标度。",
+          "confidence": "中",
+          "confidence_reason": "老年肌肉功能伞状综述与33项肌少症RCT的Meta分析提供互补证据。",
+          "item_ids": [
+            "ae7eef35730a",
+            "fa9095dd6743",
+            "80ed6ccfd8f8"
+          ],
+          "summary_refs": [
+            "ae7eef35730a",
+            "80ed6ccfd8f8"
+          ]
+        },
+        {
+          "id": "j-health-massage-recovery",
+          "domain": "运动健康",
+          "label": "按摩恢复的主客观效应",
+          "summary": "体操与柔道研究分别测量疲劳感、本体感觉和肌肉僵硬；这些变化与爆发输出并非同一结果。",
+          "confidence": "中",
+          "confidence_reason": "两项小样本体操、柔道试验直接并列主观感受与肌肉或输出指标。",
+          "item_ids": [
+            "f8aba6fd82ca",
+            "bfd36f599d01"
+          ],
+          "summary_refs": [
+            "f8aba6fd82ca",
+            "bfd36f599d01"
+          ]
+        },
+        {
+          "id": "j-health-balance-transfer",
+          "domain": "运动健康",
+          "label": "平衡干预与功能迁移",
+          "summary": "振动鞋垫、实时反馈与足部近端训练改善的指标各不相同，结构或平衡变化应与实际功能结局一并查看。",
+          "confidence": "中",
+          "confidence_reason": "动态反馈实验与扁平足训练研究分别检验平衡策略和功能迁移。",
+          "item_ids": [
+            "6e02abd8f1ab",
+            "10f18e3eedf2",
+            "0bffa120ade3"
+          ],
+          "summary_refs": [
+            "10f18e3eedf2",
+            "0bffa120ade3"
+          ]
+        },
+        {
+          "id": "j-health-head-impact",
+          "domain": "运动健康",
+          "label": "头部撞击与恢复评估",
+          "summary": "脑震荡相关评估同时推进重复测量稳定性与恢复判断；足球专项认知任务显示中等重测信度且练习效应有限。",
+          "confidence": "中",
+          "confidence_reason": "足球专项认知重测与既有头部撞击恢复材料分别覆盖基线稳定性和伤后解释。",
+          "item_ids": [
+            "3b07855f93a6",
+            "17d1f60af5f0",
+            "1fe41da2247f",
+            "240d56030406"
+          ],
+          "summary_refs": [
+            "240d56030406",
+            "3b07855f93a6"
+          ]
+        },
+        {
+          "id": "j-health-reds-screening",
+          "domain": "运动健康",
+          "label": "低能量可用性与REDs筛查",
+          "summary": "能量平衡研究与指南实施综述共同把问题落到恢复健康、筛查工具和实际执行，而不只看体重变化。",
+          "confidence": "中",
+          "confidence_reason": "女性运动员能量平衡材料与REDs指南实施综述围绕筛查落地形成线索。",
+          "item_ids": [
+            "357fe7ffb297",
+            "23d5112ca8de"
+          ],
+          "summary_refs": [
+            "357fe7ffb297",
+            "23d5112ca8de"
+          ]
+        },
+        {
+          "id": "j-ai-runtime-audit",
+          "domain": "AI",
+          "label": "Agent越权与运行审计",
+          "summary": "Agent治理从权限边界延伸到组件级可观测；GitHub开始统计skill调用、自定义Agent启动和MCP连接尝试。",
+          "confidence": "中",
+          "confidence_reason": "官方指标更新与既有越权、运行审计事件共同支持把监控细化到具体组件。",
+          "item_ids": [
+            "c955e8a2961f",
+            "fc1448521700",
+            "d957d6c99957",
+            "09588a91d3e0",
+            "4421cb94cd13",
+            "49ff66e5f6ce",
+            "dd3480c18e77",
+            "2c185d617251",
+            "b9e7915be186",
+            "93854539beed",
+            "7012647b8221",
+            "830cae1f4f8c",
+            "4e66a7e453a3",
+            "e53d362bf380",
+            "263d0fc8b02c",
+            "515c82f613b8",
+            "fd0f0f457a22",
+            "50f30069a754",
+            "14159ebd4a8d",
+            "68b9584e4221"
+          ],
+          "summary_refs": [
+            "68b9584e4221",
+            "c955e8a2961f"
+          ]
+        },
+        {
+          "id": "j-ai-code-review-repair",
+          "domain": "AI",
+          "label": "编码Agent的评审与修复",
+          "summary": "代码审查、AI Scan和代理修复进入常用工作流，审查速度、语言覆盖与修复后的复验需要分别核对。",
+          "confidence": "中",
+          "confidence_reason": "代理修复GA与代码审查GA的原始公告可定位到各自发布节点。",
+          "item_ids": [
+            "d8b55c40c599",
+            "1784e10e2112",
+            "744500a45867",
+            "e7d74824ba10",
+            "0e68ff3d1c05",
+            "b3181e9e7545",
+            "a2f02a2750d4",
+            "3fb5ca9402f1",
+            "67e0e2ca251f"
+          ],
+          "summary_refs": [
+            "a2f02a2750d4",
+            "67e0e2ca251f"
+          ]
+        },
+        {
+          "id": "j-ai-context-cost",
+          "domain": "AI",
+          "label": "上下文压缩与推理成本",
+          "summary": "上下文压缩策略、令牌计数与混合推理架构从不同层面优化长任务成本，效果依赖各自的评测设置。",
+          "confidence": "中",
+          "confidence_reason": "上下文压缩与混合推理两项预印本均报告特定基准下的效率结果。",
+          "item_ids": [
+            "9275e031a99e",
+            "1155c3483f6d",
+            "6652a5764d46",
+            "61bfecb8e249",
+            "ae6e49210029"
+          ],
+          "summary_refs": [
+            "1155c3483f6d",
+            "ae6e49210029"
+          ]
+        },
+        {
+          "id": "j-ai-orchestration-tools",
+          "domain": "AI",
+          "label": "多Agent编排与工具接入",
+          "summary": "Agent编排开始把高频小判断拆成专用层；Decisions API用类型化概率结果处理分类、路由和评分。",
+          "confidence": "中",
+          "confidence_reason": "官方接口与既有工具编排材料都显示工作流正从单次生成转向分层组件。",
+          "item_ids": [
+            "c4f6b71acc49",
+            "9b8bb9aa720a",
+            "ca54f2835997",
+            "c38af6e5cae4",
+            "6700ae6042b7",
+            "4cac4ccbea57",
+            "07cea01bdb80",
+            "69d3bdce5fc6",
+            "0b465ac1bcd5",
+            "891b7e0bbf66"
+          ],
+          "summary_refs": [
+            "891b7e0bbf66",
+            "c4f6b71acc49"
+          ]
+        },
+        {
+          "id": "j-ai-model-availability",
+          "domain": "AI",
+          "label": "模型可用性与版本迁移",
+          "summary": "模型可用性继续向企业云与多模型治理扩展，OpenAI进入Google Cloud后，部署选择更依赖权限、日志与退出路径。",
+          "confidence": "中",
+          "confidence_reason": "Google Cloud合作公告与既有模型迁移记录共同显示可用渠道持续扩展。",
+          "item_ids": [
+            "0dd3bed5c7dd",
+            "4e3ca8a95d36",
+            "5906a70e58c6",
+            "8a18dee8ca8f",
+            "fa7d8125075c",
+            "917ba46d3f15",
+            "f903fa4c6622",
+            "6c94397e1b7b",
+            "40e53f330e1e",
+            "3889374a34b9",
+            "95dedf578de7"
+          ],
+          "summary_refs": [
+            "95dedf578de7",
+            "0dd3bed5c7dd"
+          ]
+        },
+        {
+          "id": "j-ai-science-validation",
+          "domain": "AI",
+          "label": "科研Agent的验证与应用",
+          "summary": "科研检索、论文转Agent和物理求解器研究采用不同的验证任务；科研模型开放则进一步改变实际接入条件。",
+          "confidence": "中",
+          "confidence_reason": "物理求解器基准与科研模型学术接入公告，分别对应验证和实际使用。",
+          "item_ids": [
+            "ef1b3a4772ea",
+            "e49faaf95243",
+            "e72715cb6aeb",
+            "c24558a8f175",
+            "1a19b67cb952",
+            "32165ee6af89",
+            "1cfb6291fa15"
+          ],
+          "summary_refs": [
+            "1a19b67cb952",
+            "32165ee6af89"
+          ]
+        },
+        {
+          "id": "j-ai-business-artifacts",
+          "domain": "AI",
+          "label": "数据与办公Agent的落地",
+          "summary": "企业数据Agent从文档与表格扩展到关系数据预测；Kumo尝试用预训练模型和PQL替代逐库训练管线。",
+          "confidence": "中",
+          "confidence_reason": "Kumo发布与既有数据Agent记录都面向结构化业务数据，但效果主要来自厂商基准。",
+          "item_ids": [
+            "b29526b4a6c6",
+            "a44eac78d893",
+            "c84dc311ce76",
+            "9de6ce5d556c",
+            "2eea8542a0bf",
+            "43a60d6d7bd4",
+            "94a5f6526ead"
+          ],
+          "summary_refs": [
+            "94a5f6526ead",
+            "b29526b4a6c6"
+          ]
+        },
+        {
+          "id": "j-ai-live-voice",
+          "domain": "AI",
+          "label": "语音与实时多模态交互",
+          "summary": "实时视觉语音会话、可提示TTS和自定义语音接口，分别推进了交互会话与声音生成的产品能力。",
+          "confidence": "中",
+          "confidence_reason": "实时多模态会话与文字创建语音的产品说明直接支持这一交互方向。",
+          "item_ids": [
+            "ca359f02283b",
+            "c99106a5c97c",
+            "2f758b406c47"
+          ],
+          "summary_refs": [
+            "ca359f02283b",
+            "2f758b406c47"
+          ]
+        },
+        {
+          "id": "j-health-mental-care-pathway",
+          "domain": "运动健康",
+          "label": "运动员心理识别与转介",
+          "summary": "精英运动员心理健康共识与青少年社区框架都把重点从识别症状推进到角色边界、升级与持续转介。",
+          "confidence": "中",
+          "confidence_reason": "IOC共识与青少年运动社区框架分别覆盖精英和青少年场景，并共同要求结构化照护路径。",
+          "item_ids": [
+            "1714fe93c924",
+            "d4ffe0cb6dc3"
+          ],
+          "summary_refs": [
+            "1714fe93c924",
+            "d4ffe0cb6dc3"
+          ]
+        },
+        {
+          "id": "j-ai-package-supply-chain",
+          "domain": "AI",
+          "label": "Agent依赖供应链防护",
+          "summary": "AI安全工作流从发现漏洞延伸到协调披露、修补和资产检查；PHP事件同时给出修复与版本检查工具。",
+          "confidence": "中",
+          "confidence_reason": "PHP协调披露与既有依赖防护材料都覆盖发现后的修复和资产治理。",
+          "item_ids": [
+            "4acdd8b4bda3",
+            "378065059e7a",
+            "de9db6f384cb"
+          ],
+          "summary_refs": [
+            "de9db6f384cb",
+            "4acdd8b4bda3"
+          ]
+        }
+      ],
+      "unassigned_ids": [
+        "0bd9fae714f0",
+        "26f1a456c1e2",
+        "f3899afd4d6a",
+        "b15be5900f61",
+        "a5e6698f87e7",
+        "f01c37ee34fb",
+        "857c6645a6f7",
+        "eed48e1c7d80",
+        "ee5a860cf4af",
+        "03604471b2ff",
+        "0791ef5ef4c3",
+        "94385199fd1b",
+        "72618d7b46b1",
+        "b9cba25cf292",
+        "5c355f746b27",
+        "ca2d39a7f5b0",
+        "6347747136d0",
+        "4b3cd63ebf3f",
+        "46b92faa3211",
+        "dcffaf5702d2",
+        "f463ef62c495",
+        "d52d5662ea50",
+        "d8b8487e08fa",
+        "45ae361b046d",
+        "2021068534d3",
+        "d2b5b29b4c81",
+        "de8fbd5b73c1",
+        "307854f5bbc4",
+        "fcb6095a008f",
+        "4b7719dea853",
+        "b66945ffb08e",
+        "c541c5636806",
+        "f56b4611430c",
+        "77afbf0e459b",
+        "e024ecac9882",
+        "a42363a7ca46",
+        "e5dfad53c87c",
+        "ee144f138e09",
+        "8f3ee6969fdd",
+        "72fcb47abe64",
+        "7063dd0c7720",
+        "b1f6ca460e29",
+        "7dc6982d90a0",
+        "499238a7ac2e",
+        "8246c449739b",
+        "c619377fceea",
+        "f4a447b10b96",
+        "4c144e46ff2e",
+        "1dbe22633003",
+        "5c318387e803"
+      ]
+    },
+    "social": {
+      "start": "2026-10-10",
+      "end": "2026-10-23",
+      "source_fingerprint": "5ce185fa459d28b9869d076833d49e011d82199548f6089e42653903c4513962",
+      "topics": [
+        {
+          "id": "s-sport-context-load",
+          "domain": "运动科学",
+          "label": "负荷与状态的情境解释",
+          "summary": "场地监测的情境解释更具体：女子足球次极量心率的平均温度效应小于个体和日间波动。",
+          "confidence": "中",
+          "confidence_reason": "971次测试的环境关联与既有负荷情境材料共同支持团队校正与个人基线并用。",
+          "item_ids": [
+            "b0ebeed71849",
+            "fb12df8f3b2f",
+            "d3dc072045af",
+            "ab13e5c2646b",
+            "c44a1c2bdd24"
+          ],
+          "summary_refs": [
+            "ab13e5c2646b",
+            "b0ebeed71849"
+          ]
+        },
+        {
+          "id": "s-sport-force-time",
+          "domain": "运动科学",
+          "label": "力时曲线与速度测量",
+          "summary": "力板讨论从汇总指标转向原始波形复核；不同体重估计与动作起始算法可产生超过最小有意义变化的差异。",
+          "confidence": "中",
+          "confidence_reason": "Hawkin开放波形流程与既有力时曲线研究共同支持固定算法和版本控制。",
+          "item_ids": [
+            "8dea0bbc04c7",
+            "fbaaf239310d",
+            "dc74ca33fd19"
+          ],
+          "summary_refs": [
+            "dc74ca33fd19",
+            "8dea0bbc04c7"
+          ]
+        },
+        {
+          "id": "s-sport-muscle-stimulus",
+          "domain": "运动科学",
+          "label": "肌肉结构与训练刺激",
+          "summary": "比目鱼肌训练、力量类型、离心柔韧性及肌节与肌原纤维讨论，形成围绕肌肉结构和刺激选择的阅读线索。",
+          "confidence": "中",
+          "confidence_reason": "两则Beardsley帖文分别讨论离心柔韧性和肌节/肌原纤维刺激。",
+          "item_ids": [
+            "x-beardsley-2109932205757673780",
+            "x-beardsley-2110656989055344847"
+          ],
+          "summary_refs": [
+            "x-beardsley-2109932205757673780",
+            "x-beardsley-2110656989055344847"
+          ]
+        },
+        {
+          "id": "s-sport-youth-transfer",
+          "domain": "运动科学",
+          "label": "青少年训练与专项转化",
+          "summary": "青年训练讨论从通用全身模板推进到速度反馈整合，重点仍是动作质量、个体基线和赛季可执行性。",
+          "confidence": "中",
+          "confidence_reason": "青年VBT指南与既有青年训练材料形成连续的计划设计线索。",
+          "item_ids": [
+            "074b7f746122",
+            "d02b7b8b5734",
+            "28733d68b3c0",
+            "8398e9d7071d",
+            "10e96577dcd0",
+            "5bb1c1089483",
+            "353ee92aaefd",
+            "122ba5817641"
+          ],
+          "summary_refs": [
+            "122ba5817641",
+            "074b7f746122"
+          ]
+        },
+        {
+          "id": "s-health-nerve-imaging",
+          "domain": "运动健康",
+          "label": "神经压迫与影像解释",
+          "summary": "影像严重度继续与功能反应脱钩：腰椎管狭窄分级未区分运动康复后的疼痛、功能和力量改善。",
+          "confidence": "中",
+          "confidence_reason": "1336人回顾分析与既有神经压迫和影像讨论都反对仅按影像等级分流。",
+          "item_ids": [
+            "45f34a289f22",
+            "298e10103127",
+            "622c65694e1d"
+          ],
+          "summary_refs": [
+            "622c65694e1d",
+            "45f34a289f22"
+          ]
+        },
+        {
+          "id": "s-health-food-testing",
+          "domain": "运动健康",
+          "label": "食物敏感检测的有效性",
+          "summary": "近期两则作者讨论分别比较自报过敏与受控测试，以及解释食物敏感性指尖测试。",
+          "confidence": "中",
+          "confidence_reason": "同一作者两则连续帖文，分别讨论自报过敏和指尖测试。",
+          "item_ids": [
+            "x-asker-2111487940681428997",
+            "x-asker-2111850324675678267"
+          ],
+          "summary_refs": [
+            "x-asker-2111487940681428997",
+            "x-asker-2111850324675678267"
+          ]
+        },
+        {
+          "id": "s-ai-execution-debug",
+          "domain": "AI",
+          "label": "Agent执行与调试",
+          "summary": "Agent执行评测开始同时优化质量、成本与决策阈值；小型Decision Model需要验证集校准而非默认0.5。",
+          "confidence": "中",
+          "confidence_reason": "Decision Model案例与既有执行调试材料共同涉及可测失败与校准。",
+          "item_ids": [
+            "7fc73ab44f09",
+            "ec8a3eed6e1b",
+            "313154ba192d",
+            "ae6e49210029",
+            "d221188525e6",
+            "88b5537c8caf",
+            "58b479d20c57"
+          ],
+          "summary_refs": [
+            "58b479d20c57",
+            "7fc73ab44f09"
+          ]
+        },
+        {
+          "id": "s-ai-multiagent-long",
+          "domain": "AI",
+          "label": "多Agent编排与长任务",
+          "summary": "动态工作流、长时多Agent运行与技能工具入口，把Agent的讨论从单次对话扩展到任务组织。",
+          "confidence": "中",
+          "confidence_reason": "动态工作流文章与长时多Agent运行案例，直接涉及任务编排。",
+          "item_ids": [
+            "91597643c193",
+            "e71374164f2c",
+            "57c3309db5be",
+            "a8b8c31de898",
+            "x-mollick-2110447059086229670",
+            "9e63539289a3",
+            "962c8c99b4bd"
+          ],
+          "summary_refs": [
+            "e71374164f2c",
+            "a8b8c31de898"
+          ]
+        },
+        {
+          "id": "s-ai-argon-release",
+          "domain": "AI",
+          "label": "Argon上线与工具适配",
+          "summary": "Gemini 4 Argon的发布、责任评估与客户端适配形成一组同期条目，可按日期追踪接入进展。",
+          "confidence": "中",
+          "confidence_reason": "官方发布与llm-gemini工具作者的适配更新，可按版本时间连读。",
+          "item_ids": [
+            "1dc99b611b24",
+            "43abc94dd1f0",
+            "4e31b829ae68",
+            "6451d923eed6",
+            "ed1be8ea5f53"
+          ],
+          "summary_refs": [
+            "4e31b829ae68",
+            "6451d923eed6"
+          ]
+        },
+        {
+          "id": "s-ai-open-ondevice",
+          "domain": "AI",
+          "label": "开放权重与端侧部署",
+          "summary": "小模型效率优化从量化与端侧扩展到词表本身；VocabX按生成成本重构领域词表并报告大幅降本。",
+          "confidence": "中",
+          "confidence_reason": "作者案例与既有小模型部署材料共同关注推理成本；论文和独立复现仍待完成。",
+          "item_ids": [
+            "53911f98c21c",
+            "ff0cf28c5d75",
+            "06d110e31202",
+            "138e9b7e7d97",
+            "c9a6184923cc",
+            "d33064359577",
+            "0dd91801c3b6",
+            "40a01666d562"
+          ],
+          "summary_refs": [
+            "40a01666d562",
+            "53911f98c21c"
+          ]
+        },
+        {
+          "id": "s-ai-world-robotics",
+          "domain": "AI",
+          "label": "世界模型与机器人长任务",
+          "summary": "工业机器人执行、小时级物理Agent、世界模型和VLA条目，围绕物理任务中的预测与持续行动展开。",
+          "confidence": "中",
+          "confidence_reason": "Dyna物理Agent和世界模型/VLA材料，明确围绕物理任务的预测与行动。",
+          "item_ids": [
+            "9a2a489d753a",
+            "be997bf71860",
+            "d96a2391b623",
+            "8a6f4c3d5eb5",
+            "dd2f144e562f",
+            "06e34488cd21"
+          ],
+          "summary_refs": [
+            "be997bf71860",
+            "8a6f4c3d5eb5"
+          ]
+        },
+        {
+          "id": "s-ai-lab-loop",
+          "domain": "AI",
+          "label": "科研Agent与实验闭环",
+          "summary": "科研模型接入、实验室闭环、抗菌肽搜索和科学计算条目，形成AI科研从计算任务走向实验与验证的讨论线索。",
+          "confidence": "中",
+          "confidence_reason": "Lab-in-the-Loop节目与抗菌肽搜索条目，均涉及AI进入科研验证流程。",
+          "item_ids": [
+            "68a694837125",
+            "504a28fcb44d",
+            "649989f895c2",
+            "32165ee6af89",
+            "3b88e6314086",
+            "467c8e42acb6",
+            "893e1df4cf89"
+          ],
+          "summary_refs": [
+            "649989f895c2",
+            "3b88e6314086"
+          ]
+        },
+        {
+          "id": "s-ai-security-analysis",
+          "domain": "AI",
+          "label": "AI安全检测与威胁分析",
+          "summary": "AI辅助安全研究进入修补后的运行阶段；PHP官方发布关键更新，开发者讨论聚焦补丁验证与安全流程。",
+          "confidence": "中",
+          "confidence_reason": "PHP安全发布和研究者复盘与既有AI安全分析材料共同覆盖发现、修补与运行防护。",
+          "item_ids": [
+            "004cd593adab",
+            "532983178914",
+            "94ee28b93f9d",
+            "b76b11a1199f",
+            "55c3c0be518a",
+            "de377fdb3304"
+          ],
+          "summary_refs": [
+            "de377fdb3304",
+            "004cd593adab"
+          ]
+        },
+        {
+          "id": "s-ai-enterprise-knowledge",
+          "domain": "AI",
+          "label": "企业知识与专业任务应用",
+          "summary": "企业知识应用开始向关系数据预测扩展；Kumo用PQL和预训练关系模型直接处理多表任务。",
+          "confidence": "中",
+          "confidence_reason": "NVIDIA/Kumo发布与既有企业知识材料共同指向结构化数据，但独立效果验证不足。",
+          "item_ids": [
+            "94eadcab22c4",
+            "b6756c0a180e",
+            "24ffd586aefb",
+            "9732b2763df5",
+            "94a5f6526ead"
+          ],
+          "summary_refs": [
+            "94a5f6526ead",
+            "94eadcab22c4"
+          ]
+        },
+        {
+          "id": "s-ai-learning-design",
+          "domain": "AI",
+          "label": "教育AI的提问与评估",
+          "summary": "青少年学习、模拟学生学习和提问式教学条目，聚焦如何设计与评价AI辅助学习过程。",
+          "confidence": "中",
+          "confidence_reason": "模拟学生学习与提问教学两条官方材料，对应学习过程的设计和评估。",
+          "item_ids": [
+            "ca946f1238ba",
+            "a60f4a701f88"
+          ],
+          "summary_refs": [
+            "ca946f1238ba",
+            "a60f4a701f88"
+          ]
+        },
+        {
+          "id": "s-ai-dev-tooling",
+          "domain": "AI",
+          "label": "LLM工具链与代码生成",
+          "summary": "Agent开发工具开始具备组件级使用指标，skill、自定义Agent与MCP连接可被单独观察和治理。",
+          "confidence": "中",
+          "confidence_reason": "GitHub官方API更新与既有工具链记录共同支持从会话统计转向组件统计。",
+          "item_ids": [
+            "993bc19082d2",
+            "97e3cba45007",
+            "e6734b2c1107",
+            "7e289d45dfc4",
+            "154a39176d88",
+            "7cd81fdcb0be",
+            "ba70912c04fe",
+            "768169fbc557",
+            "d0f0045fb40f",
+            "github-agent-customization-metrics-20261022"
+          ],
+          "summary_refs": [
+            "github-agent-customization-metrics-20261022",
+            "993bc19082d2"
+          ]
+        },
+        {
+          "id": "s-ai-human-agent-handoff",
+          "domain": "AI",
+          "label": "人机编程交接方式",
+          "summary": "主动Agent把人机交接从编码会话推进到跨应用任务：Claude Duet的批准点与误判案例凸显人工接管设计。",
+          "confidence": "中",
+          "confidence_reason": "Claude Duet研究预览与既有人机交接材料都直接涉及批准、接管和连续任务。",
+          "item_ids": [
+            "1be45fb0ef68",
+            "efd79bd778da",
+            "anthropic-claude-duet-20261021"
+          ],
+          "summary_refs": [
+            "anthropic-claude-duet-20261021",
+            "1be45fb0ef68"
+          ]
+        },
+        {
+          "id": "s-health-acl-retest",
+          "domain": "运动健康",
+          "label": "ACL康复复测与决策",
+          "summary": "ACL讨论把结构愈合与持续功能问题分开：影像或重复训练都不能替代目标功能复测和计划调整。",
+          "confidence": "中",
+          "confidence_reason": "ACL愈合访谈与康复停滞节目从结构和功能两侧支持复测后再决策。",
+          "item_ids": [
+            "c683d8e75d00",
+            "acl-athlete-ep298-20261015"
+          ],
+          "summary_refs": [
+            "c683d8e75d00",
+            "acl-athlete-ep298-20261015"
+          ]
+        }
+      ],
+      "unassigned_ids": [
+        "377afb641e4c",
+        "51b622727300",
+        "7e720aeda47f",
+        "7291bd8b1295",
+        "d3612ff459da",
+        "e5f022f9be79",
+        "66e5a24d6de6",
+        "79fb31c20981",
+        "cdeaea7345cf",
+        "1ce341749cd1",
+        "21096782dd6c",
+        "5ca8d6f055cb",
+        "8d45898e533e",
+        "e8d8f43511a9",
+        "200a5d3dd39c",
+        "bfd31cfa78f9",
+        "x-beardsley-2110297106636259587",
+        "247153705736",
+        "39052ad94a8a",
+        "3e6e644f1b2b",
+        "b734a6066c59",
+        "eb67409897ed",
+        "1bf502587012",
+        "439c9906884b",
+        "9d6f74f0cb08",
+        "f63d7248b240",
+        "fe88897c2a46",
+        "1bdcc8ae33c7",
+        "3bc592cc5b68",
+        "66a8784860f5",
+        "c991932364dc",
+        "ee5297d7e82b",
+        "60deb4eddb49",
+        "9a49de55e706",
+        "00cd1bea6bfd",
+        "0917a45d3d50",
+        "09cb8fc2597d",
+        "1dbe22633003",
+        "415d59bb4bc1",
+        "46929abac940",
+        "5c52b7d34bec",
+        "71094174f326",
+        "89e7fb3bb5f7",
+        "8e391a88b370",
+        "b2732ca1d3c3",
+        "bjsm-tendon-dose-20261019",
+        "da5ef4034b86",
+        "f8b043a484c8",
+        "16616dd6eb8d",
+        "1725d137aa3d",
+        "1cfb6291fa15",
+        "2311446a3d6c",
+        "39e60f901a73",
+        "3ba16f7af300",
+        "41fb25a47d12",
+        "536f23cd94f1",
+        "585ae24e026f",
+        "682fa8bdff32",
+        "6f2a7ccde6ec",
+        "7623f794020a",
+        "89d73f41375c",
+        "996b48d3900b",
+        "aa8847d44cba",
+        "b5265b43a3fa",
+        "c1e7afb972e1",
+        "c2b4b68d7e00",
+        "ef24f0c655c4",
+        "fbc0a908132c",
+        "19cf17baf631",
+        "1aa70594680b",
+        "1cd487805b81",
+        "1d7a06d42816",
+        "28dc766197a7",
+        "3fe372fb2e81",
+        "64802d1262fb",
+        "64ddfb139fec",
+        "78cebe09803b",
+        "86f0484abc1b",
+        "95dedf578de7",
+        "9c99dc597b92",
+        "9f73602b9c16",
+        "a379ec2597bb",
+        "b1215e1aefc0",
+        "c2ed162a1577",
+        "c59142aad3a7",
+        "db3c2eda6e56",
+        "de8f10da3ca7",
+        "de9db6f384cb",
+        "e08619ed2cad",
+        "e270f5ba4688",
+        "e8a8161ff834",
+        "ea92da5c121e",
+        "0336c2290ec1",
+        "24e7bc554495",
+        "39cad894cdd2",
+        "3f1a11956436",
+        "5b4e08461387",
+        "77ec6ad66af3",
+        "9eaa706368b4",
+        "c295cb6c772e"
+      ]
+    }
+  }
+}

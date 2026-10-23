@@ -128,5 +128,31 @@
     "date_verified": true,
     "platform": "官方产品发布/媒体报道",
     "topic_id": "ai-agent"
+  },
+  {
+    "id": "harness2-recursive-agent-harness-20261009",
+    "title": "Harness²: Recursive Agent Harnessing for an Open World",
+    "url": "https://github.com/google-research/harness2",
+    "domain": "AI",
+    "source_author": "Google Cloud AI Research等",
+    "author_id": "google-research",
+    "published_at": "2026-10-09",
+    "observed_at": "2026-10-23T07:58:00+08:00",
+    "date_verified": true,
+    "platform": "GitHub / arXiv",
+    "topic_id": "ai-agent"
+  },
+  {
+    "id": "github-agent-customization-metrics-20261022",
+    "title": "Custom skills, agents, and MCP servers in usage metrics API",
+    "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api/",
+    "domain": "AI",
+    "source_author": "GitHub",
+    "author_id": "github",
+    "published_at": "2026-10-22",
+    "observed_at": "2026-10-23T07:58:00+08:00",
+    "date_verified": true,
+    "platform": "官方更新",
+    "topic_id": "ai-agent"
   }
 ]
