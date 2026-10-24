@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "date": "2026-10-25",
+  "title": "每日专业资讯简报·社媒热点｜2026-10-25",
+  "observed_at": "2026-10-25T08:18:00+08:00",
+  "summary": {
+    "title": "测量与Agent权限都开始追问‘谁能做什么’",
+    "signal": "本期讨论从青少年球员的力台画像延伸到Agent专属支付密钥、预算和可观测性：数据有价值的前提，是明确用途、权限与复核路径。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 4
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-24",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "青少年选材正在加入力台和动作数据，但机构仍把它视为需要纵向校准的辅助证据。",
+    "运动健康": "疼痛判断应看功能改变与次日反应，而不是只问当下疼不疼。",
+    "AI": "Agent基础设施开始把专属凭据、预算、失败反馈和执行历史拆成可管理对象。"
+  },
+  "items": [
+    {
+      "id": "cardinals-youth-biomechanics-scouting",
+      "domain": "运动科学",
+      "title": "红雀队把力台与动作筛查带入14—16岁国际球员评估，但承认预测仍在学习期",
+      "short_title": "青少年选材加入纵向体能画像",
+      "author": "Moises Rodriguez / Viva El Birdos",
+      "platform": "访谈播客与全文转录",
+      "published_date": "2026-10-20",
+      "priority": "值得了解",
+      "one_liner": "圣路易斯红雀国际业务负责人称，球队正记录年轻球员的力台、动作与力量特征，并追踪这些指标四年后如何变化。",
+      "what": "访谈明确提到球队把性能科学人员、力台和动作筛查加入球探流程，目标是客观记录爆发性、力量画像及其随成熟的变化。负责人同时承认，这是仍在演化的领域，青少年预测会产生大量错误。",
+      "why": "这提供了职业选材如何真正使用生物力学数据的现场证据：它是长期数据库的一部分，而非一次测试给出确定答案。",
+      "practice": "青少年选材应保存成熟度、训练史和多次复测，把单次力台指标用于提出发展假设；决策时保留球探观察、技术表现和成长速度。",
+      "evidence": "职业棒球管理者访谈全文｜2026-10-20",
+      "confidence": "中",
+      "confidence_reason": "流程由当事管理者直接描述，但尚无公开预测效度与决策增益数据。",
+      "source": {
+        "url": "https://www.vivaelbirdos.com/podcast/76524/the-viva-el-birdos-podcast-episode-86-interview-with-moises-rodriguez"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "pain-function-next-day-response",
+      "domain": "运动健康",
+      "title": "区分酸痛与损伤：先看动作功能是否改变，再看当天晚些时候和次日反应",
+      "short_title": "疼痛判断回到功能与次日反应",
+      "author": "Baptist Health运动医学团队",
+      "platform": "医疗机构科普",
+      "published_date": "2026-10-16",
+      "priority": "值得了解",
+      "one_liner": "团队建议把跛行、动作代偿、力量下降、持续肿胀和次日明显加重作为升级评估信号，而不是仅用即时疼痛评分。",
+      "what": "文章区分非熟悉训练后的延迟性酸痛与可能损伤，强调疼痛是否改变跑、跳、切向、投掷等功能，并列出不能负重、明显肿胀、麻木、疑似脑震荡等需及时就诊的信号。",
+      "why": "对大众和青少年运动，功能改变比‘能不能忍’更容易形成可执行的停练、替代训练和转介决定。",
+      "practice": "记录动作质量、训练后数小时和次日反应；若功能下降或同一部位持续复发，改为低冲击训练并安排评估，而不是从完全休息直接跳回全速比赛。",
+      "evidence": "运动医学医生专业科普｜2026-10-16",
+      "confidence": "中",
+      "confidence_reason": "建议与临床分诊逻辑一致，但不是效果试验或正式指南。",
+      "source": {
+        "url": "https://baptisthealth.net/baptist-health-news/sore-or-injured-how-to-know-when-to-play-through-the-pain-and-when-to-sit-out"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "vercel-agent-stripe-scoped-keys",
+      "domain": "AI",
+      "title": "Vercel为每个Agent或任务创建独立Stripe密钥，权限不再共用全账户secret",
+      "short_title": "支付Agent获得任务级密钥",
+      "author": "Vercel",
+      "platform": "官方更新",
+      "published_date": "2026-10-23",
+      "priority": "重点关注",
+      "one_liner": "Vercel Connect可按Agent或任务生成受限Stripe API密钥，并在不重新部署的情况下轮换。",
+      "what": "用户可在连接器中选择Managed API Key，为收入报告Agent只开放charges读取，为入驻Agent只开放customers写入；Vercel创建和保存密钥，轮换时旧密钥最多保留24小时。",
+      "why": "Agent的最小权限终于从提示约束落到上游服务真正认可的凭据边界，能减少一个Agent泄露全账户密钥的爆炸半径。",
+      "practice": "按任务拆分读写范围、环境和有效期；轮换窗口内监控旧密钥调用，并把不可逆支付动作再加人工批准。",
+      "evidence": "Vercel官方产品更新｜2026-10-23",
+      "confidence": "高",
+      "confidence_reason": "功能、权限例子和轮换行为已明确；实际安全收益取决于配置。",
+      "source": {
+        "url": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "vercel-cli-agent-feedback",
+      "domain": "AI",
+      "title": "Vercel CLI允许Agent结构化上报失败，把运行摩擦直接送回产品团队",
+      "short_title": "Agent失败反馈进入CLI",
+      "author": "Vercel",
+      "platform": "官方更新",
+      "published_date": "2026-10-23",
+      "priority": "快讯",
+      "one_liner": "新增vercel feedback命令，可附产品、模型、harness、任务、预期与实际结果等字段。",
+      "what": "CLI可从命令参数或标准输入提交反馈；编码Agent遇到失败时能把任务上下文、预期行为与实际错误一起上报，而不只留下非结构化日志。",
+      "why": "自动化工作流的改进依赖可聚合的失败分类；结构化反馈比聊天截图更适合定位模型、工具或文档层问题。",
+      "practice": "仅发送去标识化的错误与最小复现，禁止把仓库秘密、用户数据或完整提示自动上报；内部同时保留本地事件ID用于追踪。",
+      "evidence": "Vercel官方产品更新｜2026-10-23",
+      "confidence": "高",
+      "confidence_reason": "命令和字段已公开；是否改善修复速度尚无数据。",
+      "source": {
+        "url": "https://vercel.com/changelog/send-feedback-from-vercel-cli"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "archestra-agent-schedules-145",
+      "domain": "AI",
+      "title": "Archestra 1.4.5把Agent计划任务与压缩后的执行历史放进稳定版本",
+      "short_title": "Agent调度开始显示执行历史",
+      "author": "Archestra",
+      "platform": "GitHub Releases",
+      "published_date": "2026-10-24",
+      "priority": "快讯",
+      "one_liner": "稳定版新增Agent schedules显示和压缩执行历史，并同时回补多项依赖与授权安全修复。",
+      "what": "1.4.5发布说明列出调度历史、Agent运行提示、授权检查、依赖漏洞和沙箱镜像修复；同日1.5.0候选版还加入任务级token/请求限额和稳定失败码。",
+      "why": "长时间运行的Agent需要能看见何时执行、为何失败和消耗多少，否则‘自动化成功率’无法审计。",
+      "practice": "评估调度平台时至少导出运行ID、触发时间、版本、权限、成本、失败码与重试；候选版功能不要直接等同于稳定版可用。",
+      "evidence": "开源项目正式版本页｜1.4.5，2026-10-24",
+      "confidence": "高",
+      "confidence_reason": "版本内容可核；部署稳定性未独立测试。",
+      "source": {
+        "url": "https://github.com/archestra-ai/archestra/releases/tag/platform-v1.4.5"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "nemotron-multimodal-retrieval",
+      "domain": "AI",
+      "title": "Nemotron 3.5把PDF图表检索、重排和解析拆成可替换组件",
+      "short_title": "Agent检索转向图表与结构证据",
+      "author": "NVIDIA / Hugging Face",
+      "platform": "厂商技术博客与开放模型",
+      "published_date": "2026-10-21",
+      "priority": "值得了解",
+      "one_liner": "新模型覆盖视觉文档检索、二阶段重排和结构化解析，目标是在相同上下文预算里给Agent更少但更相关的证据。",
+      "what": "8B Embed在ViDoRe v3.1得61.17 nDCG@10；1B NVFP4在GB200测试中吞吐提高27.1%并保留99.85%准确度。厂商称加入8B Rerank后，单查询Agent token成本下降约13%—14%。",
+      "why": "科研与企业RAG常丢失表格、图像和阅读顺序；将解析、召回和重排拆开，便于分别测错在哪里。",
+      "practice": "先建立含图表、扫描页和多语文档的自有评测集，再比较解析正确率、Recall@k、最终引用和总成本；不要把公开榜单名次直接当业务效果。",
+      "evidence": "厂商技术报告与模型发布｜2026-10-21",
+      "confidence": "中",
+      "confidence_reason": "模型与公开分数可核，部分效率和私有基准由厂商提供。",
+      "source": {
+        "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动端的数据化最值得学的是纵向校准：青少年力台指标需要与成熟、技术和多年发展连接，疼痛则要与动作功能和次日反应连接。",
+    "AI端本期可直接执行的顺序是：先给每个Agent最小权限密钥和预算，再记录计划任务、失败码与反馈；模型效果评估放在这套可审计边界内进行。"
+  ],
+  "trends_url": "data/social/trends/2026-10-25.json"
+}

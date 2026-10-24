@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-25",
+  "title": "每日专业资讯简报｜2026-10-25",
+  "summary": {
+    "total": 11,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 4,
+      "AI": 3
+    },
+    "signal": "今天最重要的进展不是又多一个‘有效’方案，而是三项直接影响决策的边界：咖啡因的体能增益不能自动外推到疲劳下技能，陆上最大力量变化不能自动外推到水中表现，康复中的疼痛增加也没有通用调整阈值。"
+  },
+  "navigation": {
+    "prev": "2026-10-24",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "专项表现必须直接测量；生理或陆上能力改善，不能代替疲劳下技能、水中输出和比赛动作的验证。",
+    "运动健康": "筛查、肌腱邻近肌肉力学与疼痛沟通都在补足传统诊断之外的可行动信息。",
+    "AI": "近期更新集中在安全、可观测性与多模态证据检索，而不是单纯扩大模型参数。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "咖啡因未改善疲劳下专项技能",
+      "title": "Acute caffeine and carbohydrate strategies for fatigue-related sport-specific performance in team-sport athletes: a systematic review and multilevel meta-analysis",
+      "one_liner": "23个独立研究簇中，咖啡因对疲劳下决策与专项技能的合并效应接近零；碳水可能有小收益，但不确定性很高。",
+      "what": "荟萃分析纳入31份报告，其中23个独立定量研究簇、341名运动员和67个效应进入模型。咖啡因合并效应Hedges' g=0.040（95%CI -0.211至0.291）；碳水g=0.256（-0.094至0.605），且一个研究簇明显影响结果。六项GRADE比较均为极低确定性。",
+      "why": "咖啡因对体能输出的既有证据，不能自动推导为疲劳下传球、射门、知觉—动作或战术决策改善。",
+      "practice": "团队项目若使用咖啡因或碳水，应把赛后半段的专项技能测试单列为结局；不要只凭冲刺或功率改善判断技术收益。碳水结论仅覆盖异质的饮料摄入方案。",
+      "evidence": "系统综述与多层荟萃分析｜31份报告；23个定量研究簇、341名运动员｜2026-10-23上线",
+      "confidence": "中高（合并模型与敏感性分析充分，但专项任务稀疏，全部GRADE为极低确定性）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42908119",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42908119/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "陆上最大力量未迁移到水中",
+      "title": "Maximal strength training effects on dry-land force-velocity characteristics, swimming load-velocity profiles and drag parameters",
+      "one_liner": "18名地区级游泳运动员完成6周方案后，仅卧推力—速曲线斜率出现组间变化，水中速度、负荷与阻力参数均无显著组效应。",
+      "what": "实验组进行了5周、每周两次卧推与高位下拉最大力量训练，随后1周只游泳。以基线为协变量后，显著组效应仅见于卧推力—速曲线斜率（η²p=0.296），水中自由泳负荷—速度与主动阻力均未改变。",
+      "why": "陆上能力变化和专项迁移是两个结局；若只复测力量房指标，会把训练适应误写成游泳表现改善。",
+      "practice": "保留陆上训练时，同步设置水中负荷—速度或专项计时复测；若一个周期只改变陆上曲线，就应调整动作选择、周期长度或水中整合方式。",
+      "evidence": "对照干预研究｜18名地区级男女游泳运动员｜2026-10-23上线",
+      "confidence": "中（专项测量直接，但样本小、周期6周）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42912420",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42912420/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "场地自行车起步依赖预先前移",
+      "title": "Standing-start biomechanics in elite track cycling: inertial launch dynamics at the 2022 UCI World Championships",
+      "one_liner": "世锦赛六名男子团体竞速第一棒的最佳早期起步，呈现近水平质心路径、闸门释放前已建立前向速度及释放点附近快速减速。",
+      "what": "研究用240 Hz视频与专项无标记姿态估计重建质心。六名男子团体竞速起步中，较好成绩与释放前建立前向质心动量、t=0附近快速减速相伴；作者估算其惯性驱动可短暂超过传动系统推进力。",
+      "why": "起步技术不只是第一脚踩踏功率，还包含运动员—自行车系统在闸门释放前后的动量转移。",
+      "practice": "训练可增加侧视高速视频，核对质心是否在释放前前移、路径是否过度竖直，以及释放瞬间能否把身体动量传到车体；不要把描述性模式当作统一角度阈值。",
+      "evidence": "比赛现场描述性病例系列｜6名男子团体竞速第一棒，另4次起步作示例｜2026-10-23上线",
+      "confidence": "中低（机制连贯、比赛生态效度高，但样本小且非推断性）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42909850",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42909850/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "睡前40克营养未扰乱睡眠",
+      "title": "Pre-sleep milk-derived proteins do not impair sleep or recovery in elite female athletes",
+      "one_liner": "21名NCAA一级女运动员的交叉试验中，睡前40克酪蛋白、α-乳白蛋白或碳水均未改变睡眠时长、效率、HRV或主观恢复。",
+      "what": "参与者分别连续3晚摄入40克酪蛋白、α-乳白蛋白、碳水或低热量安慰剂。总睡眠7.47—7.62小时、睡眠效率91.5%—92.0%，各条件间无显著差异；6人的连续血糖子样本也无处理差异。",
+      "why": "对于需要把恢复营养安排到晚间的女运动员，这项试验直接检验了‘睡前进食会损害睡眠’这一常见顾虑。",
+      "practice": "若晚间训练后需要补充蛋白或碳水，可把睡前30分钟摄入作为可行选项；本研究支持的是三晚内不损害睡眠，并未证明某种营养能改善恢复。",
+      "evidence": "随机、双盲、安慰剂对照交叉试验｜21名NCAA一级女运动员完成｜2026-10-22上线",
+      "confidence": "中（设计强、样本小且观察仅三晚）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42897977",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42897977/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "精英体校近一成筛查阳性",
+      "title": "Exploring a positive screen for eating disorders among 7,993 elite sport pupils in Sweden and its association with everyday food practices, demographics, and sports",
+      "one_liner": "7,993名瑞典精英体校学生中9.5%饮食障碍筛查阳性；女性、经常漏餐、个人项目和日常备餐障碍与更高阳性率相关。",
+      "what": "横断面调查使用SCOFF筛查。女性OR=3.50、经常漏餐OR=2.31、素食/纯素OR=1.87、补剂使用OR=1.69、个人项目OR=1.40；49.1%至少报告一个实际障碍，最常见是时间不足。",
+      "why": "结果把风险从抽象的‘运动员饮食问题’落到可改变的日常流程：时间、餐次、烹饪技能与学校供餐。",
+      "practice": "精英学校和青训应把保密筛查与实际供餐支持并列：关注漏餐、连续时间冲突和个人项目运动员；SCOFF阳性用于转介评估，不等于临床诊断。",
+      "evidence": "全国性横断面调查｜7,993名瑞典精英体校学生｜数据采于2023年，2026-10-24上线",
+      "confidence": "中高（样本大且变量明确；关联不能确定因果）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42920168",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42920168/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "肌腱治疗后邻近肌肉也在变化",
+      "title": "Muscle biomechanical rehabilitation following therapy in Achilles and patellar tendinopathy assessed by MR elastography",
+      "one_liner": "20名运动员治疗至少6个月后，跟腱组腓肠肌/比目鱼肌、髌腱组股外侧肌的部分刚度指标增加，并与腱尺寸减小相关。",
+      "what": "前瞻纵向研究纳入8例跟腱病和12例髌腱病。治疗后跟腱组腓肠肌与后部比目鱼肌各向同性刚度约增加4.3%和4.9%；髌腱组股外侧肌各向异性刚度增加5.3%和10.3%。",
+      "why": "肌腱康复的反应可能同时发生在邻近肌肉；只看疼痛和腱结构会漏掉负荷使用方式的变化。",
+      "practice": "研究阶段可把肌肉MRE与腱结构、力量和临床评分联合；当前数据不足以把刚度增加直接设为康复成功阈值。",
+      "evidence": "前瞻纵向影像研究｜20名运动员；治疗前与≥6个月后｜2026-10-24上线",
+      "confidence": "中低（纵向同体比较，但样本小、治疗方案异质）",
+      "limit": "",
+      "source": {
+        "title": "DOI 10.1016/j.zemedi.2026.10.003",
+        "url": "https://doi.org/10.1016/j.zemedi.2026.10.003"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "SARM增肌有限而产品风险高",
+      "title": "Selective Androgen Receptor Modulators (SARMs) in Sport: Patterns of Use, Product Contamination, Health Risks and Doping-Control Implications",
+      "one_liner": "随机试验中SARM平均增加约1—1.5千克瘦体重，但功能改善不一致，同时可抑制激素和HDL；市售产品常错标并可能混入其他未批准药物。",
+      "what": "综述整合临床试验、使用调查、产品分析和反兴奋剂数据。高剂量、叠加与无监测使用的主要严重风险是胆汁淤积性药物性肝损伤与内分泌抑制；2024年报告106例相关阳性分析结果。",
+      "why": "‘组织选择性’和‘比类固醇安全’的营销叙事，与人体效应幅度、产品真实性和现实使用剂量并不一致。",
+      "practice": "运动医学与营养咨询应直接询问网购SARM、堆叠使用和‘研究化学品’，并说明其自2008年起始终禁用；所谓普通补剂污染导致阳性的证据目前有限。",
+      "evidence": "同行评审综合综述｜临床试验、产品分析、病例与反兴奋剂统计｜2026-10-24上线",
+      "confidence": "中高（多类证据方向一致；现实严重病例常缺少产品化验）",
+      "limit": "",
+      "source": {
+        "title": "DOI 10.1002/dta.70174",
+        "url": "https://doi.org/10.1002/dta.70174"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "疼痛增加应预先约定处理方式",
+      "title": "Discussing pain increases at the point of exercise prescription: a clinical commentary for persistent musculoskeletal conditions",
+      "one_liner": "疼痛性与非疼痛性运动没有稳定优劣，也不存在可跨病种套用的阈值；处方时应先约定症状增加如何解释、何时复查。",
+      "what": "临床评论结合腰痛、骨关节炎和肌腱病证据指出，2025年更新综述未发现疼痛性或非疼痛性运动的稳定优势；跟腱疼痛监测协议的阈值尚未在其他疾病中验证。",
+      "why": "无监督训练中，患者遇到症状增加时最需要的是决策规则和复查路径，而不是只有动作名称、次数与组数。",
+      "practice": "开出处方时写清可接受的症状变化、需要调整的功能信号、复查时点和联系渠道；不要把某一肌腱方案的疼痛阈值复制到所有慢性肌骨问题。",
+      "evidence": "同行评审临床评论，基于试验与2025系统综述｜2026-10-23上线",
+      "confidence": "中（建议与既有比较证据一致，但沟通策略本身尚未用结局试验验证）",
+      "limit": "",
+      "source": {
+        "title": "DOI 10.1080/09593985.2026.2753023",
+        "url": "https://doi.org/10.1080/09593985.2026.2753023"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Codex Security进入研究预览",
+      "title": "Codex Security: now in research preview",
+      "one_liner": "OpenAI把Aardvark正式命名为Codex Security，研究预览版会先建项目威胁模型，再验证漏洞并提出补丁。",
+      "what": "官方披露该Agent在外部测试库近30天扫描约120万次提交，发现792项严重和10,561项高危问题；同一仓库迭代中，曾把噪声降低84%，误报率下降超过50%。访问正向Pro、Enterprise、Business和Edu用户开放。",
+      "why": "代码安全Agent的关键竞争点正从‘找得多’转向威胁模型、可复现实证与补丁可审查性。",
+      "practice": "试用时用已知漏洞与干净基线同时测精确率、严重度校准、复现证据和修复回归；官方汇总数字不能替代团队自己的盲测。",
+      "evidence": "OpenAI官方产品与内部/测试者指标｜2026-10-23更新",
+      "confidence": "中（发布事实可核；性能数字由厂商提供，缺少独立基准）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI：Codex Security",
+        "url": "https://openai.com/index/codex-security-now-in-research-preview/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "Copilot统计覆盖OpenCode客户端",
+      "title": "Usage metrics API adds usage from tools like OpenCode",
+      "one_liner": "GitHub Copilot使用指标API新增totals_by_client，可把OpenCode等此前未覆盖客户端纳入1日和28日报告。",
+      "what": "GitHub于10月23日更新企业、组织及用户级1日/28日使用报告，新增按客户端汇总数组。它延续前一日对custom skills、agents和MCP服务器的组件级统计，但本次新增的是客户端维度。",
+      "why": "多入口AI coding部署若只统计官方IDE，会低估实际采用和成本，也无法区分问题来自模型、Agent组件还是客户端。",
+      "practice": "把客户端、模型、Agent/skill和仓库结果连接到同一审计表；采用率之外至少跟踪PR通过率、返工、回滚与安全事件。",
+      "evidence": "GitHub官方产品更新｜2026-10-23",
+      "confidence": "高（API字段与覆盖范围已公开；业务价值取决于内部指标设计）",
+      "limit": "",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "多模态检索开始压缩Agent上下文成本",
+      "title": "NVIDIA Nemotron 3.5 Embed, Rerank, and Parse: Advancing Agents with World-Class Retrieval Models",
+      "one_liner": "NVIDIA发布文本—图像检索、重排和文档解析模型；厂商测试中加入重排后，Agent单查询token成本下降约13%—14%。",
+      "what": "8B与1B Embed支持图表、信息图和示意图检索，8B Rerank联合评估查询—文档对，631M Parse把页面转换为结构化文本。ViDoRe v3.1上8B Embed得61.17 nDCG@10；1B NVFP4吞吐比BF16高27.1%，保留99.85%检索准确度。",
+      "why": "研究与企业知识库的瓶颈往往不是生成模型，而是能否从PDF图表和多语文档中找到足够少、足够准的证据。",
+      "practice": "在真实论文、扫描件和图表集上比较召回、引用正确率、总token与延迟；优先检查专有语料微调后是否改善，而非只看公开榜单。",
+      "evidence": "NVIDIA厂商技术报告与开放模型卡｜2026-10-21；含公开与私有基准",
+      "confidence": "中（模型与测试数据可查；关键性能主张主要来自厂商及合作方）",
+      "limit": "",
+      "source": {
+        "title": "Hugging Face / NVIDIA技术报告",
+        "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "训练与营养决策今天最值得做的是补上专项结局：咖啡因、最大力量和晚间营养都不能用通用代理指标代替疲劳下技术、水中表现或长期恢复。",
+    "运动健康端可以立刻改两处流程：精英青少年筛查后同步解决漏餐与时间障碍；运动处方在交付动作时一并写清症状增加后的调整和复查规则。",
+    "AI工作流的实用改进点从‘换更大模型’转向三件事：让安全Agent给出可复现实证、让使用统计覆盖真实客户端、让检索层先压缩高质量证据。"
+  ],
+  "trends_url": "data/trends/2026-10-25.json"
+}
