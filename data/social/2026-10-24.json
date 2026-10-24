@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "date": "2026-10-24",
+  "title": "每日专业资讯简报·社媒热点｜2026-10-24",
+  "observed_at": "2026-10-24T07:58:00+08:00",
+  "summary": {
+    "title": "从口号式框架转向可观察的动作与权限",
+    "signal": "本期讨论共同要求把抽象框架落到可观察层：腹股沟康复要看切向与踢球动作，训练框架要接受反例，Agent工具调用则要逐次授权。",
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 1,
+      "AI": 3
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-23",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "运动框架的价值在于组织观察和实验，而不是把复杂动作压缩成固定标签。",
+    "运动健康": "腹股沟疼痛的进阶标准应覆盖多方向移动、踢球与症状反应，而不只看力量和静态痛感。",
+    "AI": "开放权重竞争、skill标准化和MCP逐调用授权，分别推动模型、能力包与执行权限分层。"
+  },
+  "items": [
+    {
+      "id": "groin-pain-onfield-biomechanics",
+      "domain": "运动科学",
+      "title": "腹股沟痛监测不能停在力量和疼痛：切向、制动和踢球才接近比赛问题",
+      "short_title": "腹股沟评估走向场上动作",
+      "author": "Martin Buchheit、Bryan Heiderscheit、Roula Kotsifaki",
+      "platform": "研究者博客/Aspetar",
+      "published_date": "2026-10-23",
+      "priority": "重点关注",
+      "one_liner": "作者主张把90°切向、制动方向和踢球暴露纳入腹股沟疼痛评估，因为无力量或跳跃缺陷仍可能伴随动作与运动功能异常。",
+      "what": "作者汇总文献指出，腹股沟痛相关动作差异分散在躯干、骨盆、髋和踝，诊断标签不能预测具体模式；部分改变在疼痛消失后仍存在。GPS总量也无法区分左右切向，踢球暴露通常被遗漏。",
+      "why": "力量与疼痛容易测，却未必覆盖导致症状的动态、多方向任务；相同诊断的两名球员可能需要不同动作进阶。",
+      "practice": "在内收肌力量与HAGOS之外，加入左右切向、减速和渐进踢球，记录疼痛、动作策略和次日反应；把通过场上任务作为进阶依据之一。",
+      "evidence": "研究者对同行评审专题文章的实践解读｜2026-10-23",
+      "confidence": "中",
+      "confidence_reason": "论点由多项观察研究支持，但尚无单一动作阈值可直接作为复出标准。",
+      "source": {
+        "url": "https://martin-buchheit.net/2026/10/23/what-gets-measured-gets-managed-biomechanical-and-on-field-measurement-in-athletic-groin-pain/"
+      },
+      "references": [
+        {
+          "label": "Aspetar全文",
+          "url": "https://journal.aspetar.com/en/journals/volume-15-targeted-topic-decoding-groin-pain"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "joint-by-joint-20-years",
+      "domain": "运动科学",
+      "title": "Joint-by-Joint框架20年后：把它当作提问工具，而不是固定的关节角色表",
+      "short_title": "经典动作框架接受反例",
+      "author": "Mike Boyle、Gray Cook、Lee Burton",
+      "platform": "Movement Podcast",
+      "published_date": "2026-10-22",
+      "priority": "值得了解",
+      "one_liner": "三位实践者回顾‘活动—稳定交替’框架的演变，强调其用途是组织筛查和训练假设，而不是给每个关节永久贴标签。",
+      "what": "节目回顾该框架从教练会议笔记发展为广泛使用的训练概念，并讨论单腿训练、功能解剖、筛查批评和从康复到表现的进阶。内容属于长期实践反思，不是验证某套筛查可预测损伤的效果研究。",
+      "why": "流行框架一旦变成固定规则，容易把局部活动度或稳定性异常直接写成病因。",
+      "practice": "用框架提出可测试假设，再用症状、任务表现和干预前后变化验证；若局部处理不改变目标动作，应改查负荷、技术或其他环节。",
+      "evidence": "专家播客/实践观点｜61分钟节目，2026-10-22",
+      "confidence": "中低",
+      "confidence_reason": "作者经验丰富且明确讨论批评，但节目不提供干预效果估计。",
+      "source": {
+        "url": "https://www.movementpod.com/847855/episodes/20004156-mike-boyle-gray-cook-the-joint-by-joint-approach-20-years-later?t=0"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "aspetar-athletic-groin-rehab",
+      "domain": "运动健康",
+      "title": "Aspetar腹股沟疼痛康复路径：时间损失低估长期症状负担",
+      "short_title": "腹股沟康复按阶段与任务进阶",
+      "author": "Michael Palladino、Dermot Simpson、Steve Short、Enda King",
+      "platform": "Aspetar Sports Medicine Journal",
+      "published_date": "2026-10-15",
+      "priority": "值得了解",
+      "one_liner": "文章指出次精英男足近半数一季出现症状，但不到一半因此缺赛；康复需按症状、容量和场上任务进阶。",
+      "what": "专题文章将运动性腹股沟痛视为多种前髋/腹股沟表现的总称，报告前瞻队列和试验中常见症状持续32—40周。它把HAGOS、力量、跑动、变向和踢球整合到分阶段康复，而非依赖固定愈合时钟。",
+      "why": "只统计时间损失会漏掉继续训练比赛但功能下降的运动员；这类人往往在症状长期化后才进入康复。",
+      "practice": "赛季筛查加入HAGOS或同类患者报告结局；进阶同时检查内收肌容量、加速减速、变向、踢球和24小时症状反应。",
+      "evidence": "同行评审专题实践文章｜2026-10-15",
+      "confidence": "中",
+      "confidence_reason": "综合临床与研究路径，具体阶段阈值仍需按运动员和项目验证。",
+      "source": {
+        "url": "https://journal.aspetar.com/en/journals/volume-15-targeted-topic-decoding-groin-pain/athletic-groin-pain-rehabilitation"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "kimi-k31-pro-release",
+      "domain": "AI",
+      "title": "Kimi K3.1 Pro冲入前沿模型区间，开放权重承诺延后到11月",
+      "short_title": "Kimi新模型先API后权重",
+      "author": "Simon Willison / Moonshot AI",
+      "platform": "独立技术博客",
+      "published_date": "2026-10-23",
+      "priority": "值得了解",
+      "one_liner": "Kimi K3.1 Pro先上线API，高速版定价翻倍；第三方综合评分进入前沿区间，但开放权重尚未实际交付。",
+      "what": "Simon Willison核对发布与价格：普通版输入/输出为2/10美元每百万token，高速版约2—3倍速度、价格约2倍。Artificial Analysis给出55分；Moonshot称完整权重将在11月4日前发布。",
+      "why": "模型发布正分成API可用、性能验证和权重开放三个时间点；任何一项都不能替代另外两项。",
+      "practice": "若评估迁移，先用真实代码或研究任务比较成功率、延迟和总成本；需要本地部署的团队等权重与许可证实际发布后再决策。",
+      "evidence": "独立开发者核查官方API、定价与第三方评分｜2026-10-23",
+      "confidence": "中",
+      "confidence_reason": "价格与可用性可核，基准需结合实际任务，开放权重目前仍是承诺。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/"
+      },
+      "references": [
+        {
+          "label": "Kimi发布",
+          "url": "https://www.kimi.ai/blog/kimi-k3-1"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "agent-skills-aaif-standard",
+      "domain": "AI",
+      "title": "Agent Skills捐给AAIF：能力包开始从厂商功能走向共同治理",
+      "short_title": "Agent Skills进入基金会治理",
+      "author": "Simon Willison / Anthropic",
+      "platform": "独立技术博客",
+      "published_date": "2026-10-22",
+      "priority": "快讯",
+      "one_liner": "Anthropic把Agent Skills规范捐给Linux Foundation旗下AAIF，和MCP进入同一标准化生态。",
+      "what": "Simon Willison追踪确认Agent Skills进入Agentic AI Foundation；他还用自己的MCP博客接口检索到去年曾预测这一走向。事件可确认的是治理归属变化，并不意味着不同Agent已经完全兼容。",
+      "why": "skill包包含指令、脚本和资源，标准治理会影响跨工具分发、版本和安全审查，而不仅是文件格式。",
+      "practice": "团队内部skill应固定来源、版本、权限和测试；评估跨Agent复用时，分别验证加载语义、脚本执行和资源路径。",
+      "evidence": "独立技术博客＋基金会/厂商事件｜2026-10-22",
+      "confidence": "高",
+      "confidence_reason": "捐赠与治理变化可核；互操作效果尚需实现层测试。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "mcp-zero-trust-tool-call",
+      "domain": "AI",
+      "title": "MCP零信任落到每次工具调用：同时核验用户、Agent与目标服务",
+      "short_title": "MCP逐调用授权",
+      "author": "Maria Paktiti / WorkOS",
+      "platform": "厂商技术博客",
+      "published_date": "2026-10-23",
+      "priority": "重点关注",
+      "one_liner": "文章把NIST零信任映射到MCP请求链：每个Agent独立身份、token绑定单一服务、逐工具授权、窄化换票并默认拒绝。",
+      "what": "作者指出2026-07-28版MCP取消会话后，每个请求独立携带token；协议可处理获取和校验token，但‘可调用哪个工具、工具再访问什么上游API’仍需部署方实现。建议每次同时检查用户和Agent主体，并在不可逆动作前要求人工批准。",
+      "why": "‘已经连上MCP服务器’不能成为后续所有工具调用的信任依据，尤其当Agent可跨工具组合行动时。",
+      "practice": "为每个Agent建立独立身份，token限定受众与工具范围，调用上游API时换取更窄token；记录每次允许/拒绝并为写入、支付、删除设置批准。",
+      "evidence": "厂商技术架构文章｜2026-10-23；协议事实可核，方案含产品立场",
+      "confidence": "中高",
+      "confidence_reason": "控制点具体且符合零信任原则，实施效果未提供独立对照。",
+      "source": {
+        "url": "https://workos.com/blog/mcp-ai-agents-zero-trust"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动端最值得执行的是把评估移向目标任务：腹股沟痛用左右切向、制动和踢球验证恢复，通用动作框架只负责提出假设，不负责替代结果。",
+    "AI端要把模型、skill与工具权限分层治理。模型可以更换，skill可以迁移，但每次工具调用仍必须重新证明主体、范围与批准条件。"
+  ],
+  "trends_url": "data/social/trends/2026-10-24.json"
+}
