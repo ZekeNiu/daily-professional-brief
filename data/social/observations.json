@@ -1514,6 +1514,20 @@
       "last_seen": "2026-10-22T08:18:00+08:00"
     },
     {
+      "id": "aspetar-athletic-groin-rehab-20261015",
+      "title": "Athletic Groin Pain Rehabilitation",
+      "url": "https://journal.aspetar.com/en/journals/volume-15-targeted-topic-decoding-groin-pain/athletic-groin-pain-rehabilitation",
+      "date": "2026-10-15",
+      "domain": "运动健康",
+      "topic_id": "health-rtp",
+      "sources": [
+        "Aspetar Sports Medicine Journal"
+      ],
+      "platform": "专业期刊网站",
+      "first_seen": "2026-10-24T07:58:00+08:00",
+      "last_seen": "2026-10-24T07:58:00+08:00"
+    },
+    {
       "id": "b734a6066c59",
       "title": "LaTeX renderer",
       "url": "https://simonwillison.net/2026/Oct/15/latex",
@@ -3266,6 +3280,20 @@
       "last_seen": "2026-10-22T01:31:24.548350+00:00"
     },
     {
+      "id": "agent-skills-aaif-standard-20261022",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "date": "2026-10-22",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Simon Willison / Anthropic"
+      ],
+      "platform": "独立技术博客",
+      "first_seen": "2026-10-24T07:58:00+08:00",
+      "last_seen": "2026-10-24T07:58:00+08:00"
+    },
+    {
       "id": "c295cb6c772e",
       "title": "Integração do treinamento baseado em velocidade em um programa de treinamento de corpo inteiro para jovens atletas",
       "url": "https://simplifaster.com/articles/integracao-do-treinamento-baseado-em-velocidade-em-um-programa-de-treinamento-de-corpo-inteiro-para-jovens-atletas",
@@ -3306,6 +3334,62 @@
       "platform": "官方更新",
       "first_seen": "2026-10-23T07:58:00+08:00",
       "last_seen": "2026-10-23T07:58:00+08:00"
+    },
+    {
+      "id": "joint-by-joint-20-years-20261022",
+      "title": "Mike Boyle & Gray Cook: The Joint-by-Joint Approach, 20 Years Later",
+      "url": "https://www.movementpod.com/847855/episodes/20004156-mike-boyle-gray-cook-the-joint-by-joint-approach-20-years-later?t=0",
+      "date": "2026-10-22",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Movement Podcast"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-10-24T07:58:00+08:00",
+      "last_seen": "2026-10-24T07:58:00+08:00"
+    },
+    {
+      "id": "groin-pain-onfield-biomechanics-20261023",
+      "title": "What gets measured gets managed: biomechanical and on-field measurement in athletic groin pain",
+      "url": "https://martin-buchheit.net/2026/10/23/what-gets-measured-gets-managed-biomechanical-and-on-field-measurement-in-athletic-groin-pain/",
+      "date": "2026-10-23",
+      "domain": "运动科学",
+      "topic_id": "sport-speed",
+      "sources": [
+        "Martin Buchheit等"
+      ],
+      "platform": "研究者博客",
+      "first_seen": "2026-10-24T07:58:00+08:00",
+      "last_seen": "2026-10-24T07:58:00+08:00"
+    },
+    {
+      "id": "kimi-k31-pro-release-20261023",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Simon Willison / Moonshot AI"
+      ],
+      "platform": "独立技术博客",
+      "first_seen": "2026-10-24T07:58:00+08:00",
+      "last_seen": "2026-10-24T07:58:00+08:00"
+    },
+    {
+      "id": "mcp-zero-trust-tool-call-20261023",
+      "title": "MCP, AI agents, and Zero Trust: Verifying every tool call",
+      "url": "https://workos.com/blog/mcp-ai-agents-zero-trust",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Maria Paktiti / WorkOS"
+      ],
+      "platform": "厂商技术博客",
+      "first_seen": "2026-10-24T07:58:00+08:00",
+      "last_seen": "2026-10-24T07:58:00+08:00"
     }
   ]
 }
