@@ -1822,6 +1822,20 @@
       "last_seen": "2026-10-22T01:31:24.548350+00:00"
     },
     {
+      "id": "pain-function-next-day-response-20261016",
+      "title": "Sore or Injured? How to Know When to Play Through the Pain and When to Sit Out",
+      "url": "https://baptisthealth.net/baptist-health-news/sore-or-injured-how-to-know-when-to-play-through-the-pain-and-when-to-sit-out",
+      "date": "2026-10-16",
+      "domain": "运动健康",
+      "topic_id": "health-pain",
+      "sources": [
+        "Baptist Health运动医学团队"
+      ],
+      "platform": "医疗机构科普",
+      "first_seen": "2026-10-25T08:18:00+08:00",
+      "last_seen": "2026-10-25T08:18:00+08:00"
+    },
+    {
       "id": "0dd91801c3b6",
       "title": "Meta shakes up the frontiers, open and closed",
       "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
@@ -2732,6 +2746,20 @@
       "last_seen": "2026-10-22T01:31:24.548350+00:00"
     },
     {
+      "id": "cardinals-youth-biomechanics-scouting-20261020",
+      "title": "The Viva El Birdos Podcast: Episode 86: Interview with Moises Rodriguez",
+      "url": "https://www.vivaelbirdos.com/podcast/76524/the-viva-el-birdos-podcast-episode-86-interview-with-moises-rodriguez",
+      "date": "2026-10-20",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Moises Rodriguez / Viva El Birdos"
+      ],
+      "platform": "访谈播客与全文转录",
+      "first_seen": "2026-10-25T08:18:00+08:00",
+      "last_seen": "2026-10-25T08:18:00+08:00"
+    },
+    {
       "id": "ef24f0c655c4",
       "title": "Meshy推出Meshy Edit：基于全新自研AI模型，一句指令实现3D模型局部编辑",
       "url": "https://www.qbitai.com/2026/10/504415.html",
@@ -3154,6 +3182,20 @@
       "last_seen": "2026-10-22T01:31:24.548350+00:00"
     },
     {
+      "id": "nemotron-multimodal-retrieval-20261021",
+      "title": "NVIDIA Nemotron 3.5 Embed, Rerank, and Parse",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
+      "date": "2026-10-21",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "NVIDIA / Hugging Face"
+      ],
+      "platform": "厂商技术博客与开放模型",
+      "first_seen": "2026-10-25T08:18:00+08:00",
+      "last_seen": "2026-10-25T08:18:00+08:00"
+    },
+    {
       "id": "0336c2290ec1",
       "title": "Claude Duet",
       "url": "https://claude.com/product/claude-duet",
@@ -3390,6 +3432,48 @@
       "platform": "厂商技术博客",
       "first_seen": "2026-10-24T07:58:00+08:00",
       "last_seen": "2026-10-24T07:58:00+08:00"
+    },
+    {
+      "id": "vercel-agent-stripe-scoped-keys-20261023",
+      "title": "Vercel Connect adds managed Stripe API keys",
+      "url": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Vercel"
+      ],
+      "platform": "官方更新",
+      "first_seen": "2026-10-25T08:18:00+08:00",
+      "last_seen": "2026-10-25T08:18:00+08:00"
+    },
+    {
+      "id": "vercel-cli-agent-feedback-20261023",
+      "title": "Send feedback from the Vercel CLI",
+      "url": "https://vercel.com/changelog/send-feedback-from-vercel-cli",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Vercel"
+      ],
+      "platform": "官方更新",
+      "first_seen": "2026-10-25T08:18:00+08:00",
+      "last_seen": "2026-10-25T08:18:00+08:00"
+    },
+    {
+      "id": "archestra-agent-schedules-145-20261024",
+      "title": "Archestra platform v1.4.5",
+      "url": "https://github.com/archestra-ai/archestra/releases/tag/platform-v1.4.5",
+      "date": "2026-10-24",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Archestra"
+      ],
+      "platform": "GitHub Releases",
+      "first_seen": "2026-10-25T08:18:00+08:00",
+      "last_seen": "2026-10-25T08:18:00+08:00"
     }
   ]
 }
