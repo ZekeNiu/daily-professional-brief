@@ -3336,6 +3336,20 @@
       "last_seen": "2026-10-24T07:58:00+08:00"
     },
     {
+      "id": "ai-strength-coach-admin-workflow-20261022",
+      "title": "Using AI to Buy Back Time: Practical Applications for Strength and Conditioning Coaches",
+      "url": "https://simplifaster.com/articles/ai-strength-conditioning-coaches/",
+      "date": "2026-10-22",
+      "domain": "运动科学",
+      "topic_id": "sport-speed",
+      "sources": [
+        "Kosta Telegadas"
+      ],
+      "platform": "实践者方法文章",
+      "first_seen": "2026-10-26T08:24:00+08:00",
+      "last_seen": "2026-10-26T08:24:00+08:00"
+    },
+    {
       "id": "c295cb6c772e",
       "title": "Integração do treinamento baseado em velocidade em um programa de treinamento de corpo inteiro para jovens atletas",
       "url": "https://simplifaster.com/articles/integracao-do-treinamento-baseado-em-velocidade-em-um-programa-de-treinamento-de-corpo-inteiro-para-jovens-atletas",
@@ -3348,6 +3362,20 @@
       "platform": "博客",
       "first_seen": "2026-10-22T01:31:24.548350+00:00",
       "last_seen": "2026-10-22T01:31:24.548350+00:00"
+    },
+    {
+      "id": "cerebras-trillion-model-pipeline-20261022",
+      "title": "How we deploy Trillion-parameter frontier models on Cerebras",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "date": "2026-10-22",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Sarah Chieng / Cerebras"
+      ],
+      "platform": "厂商工程博客",
+      "first_seen": "2026-10-26T08:24:00+08:00",
+      "last_seen": "2026-10-26T08:24:00+08:00"
     },
     {
       "id": "de377fdb3304",
@@ -3392,6 +3420,20 @@
       "last_seen": "2026-10-24T07:58:00+08:00"
     },
     {
+      "id": "activity-fitness-cvd-dose-20261023",
+      "title": "How much exercise does your heart really need? Why 150 minutes a week is the floor, not the ceiling",
+      "url": "https://blogs.bmj.com/bjsm/2026/10/23/how-much-exercise-does-your-heart-really-need-why-150-minutes-a-week-is-the-floor-not-the-ceiling/",
+      "date": "2026-10-23",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "Zhide Liang等 / BJSM Blog"
+      ],
+      "platform": "作者研究解读",
+      "first_seen": "2026-10-26T08:24:00+08:00",
+      "last_seen": "2026-10-26T08:24:00+08:00"
+    },
+    {
       "id": "groin-pain-onfield-biomechanics-20261023",
       "title": "What gets measured gets managed: biomechanical and on-field measurement in athletic groin pain",
       "url": "https://martin-buchheit.net/2026/10/23/what-gets-measured-gets-managed-biomechanical-and-on-field-measurement-in-athletic-groin-pain/",
@@ -3434,6 +3476,20 @@
       "last_seen": "2026-10-24T07:58:00+08:00"
     },
     {
+      "id": "vercel-agent-plan-scoped-permissions-20261023",
+      "title": "How Vercel Agent accesses production safely",
+      "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Tom Dale / Vercel"
+      ],
+      "platform": "官方工程文章",
+      "first_seen": "2026-10-26T08:24:00+08:00",
+      "last_seen": "2026-10-26T08:24:00+08:00"
+    },
+    {
       "id": "vercel-agent-stripe-scoped-keys-20261023",
       "title": "Vercel Connect adds managed Stripe API keys",
       "url": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
@@ -3474,6 +3530,34 @@
       "platform": "GitHub Releases",
       "first_seen": "2026-10-25T08:18:00+08:00",
       "last_seen": "2026-10-25T08:18:00+08:00"
+    },
+    {
+      "id": "instant-strength-pain-claims-20261024",
+      "title": "Can you get stronger instantly? (And would it fix your pain if you could?)",
+      "url": "https://www.painscience.com/blog/instant-strength.html",
+      "date": "2026-10-24",
+      "domain": "运动健康",
+      "topic_id": "health-pain",
+      "sources": [
+        "Paul Ingraham"
+      ],
+      "platform": "疼痛科学评论",
+      "first_seen": "2026-10-26T08:24:00+08:00",
+      "last_seen": "2026-10-26T08:24:00+08:00"
+    },
+    {
+      "id": "vision-training-individual-response-20261024",
+      "title": "Vision Training for Athletes with Chris Korfist and Dan Fichter",
+      "url": "https://simplifaster.com/articles/vision-training-athletes-korfist-fichter/",
+      "date": "2026-10-24",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Chris Kerr、Chris Korfist、Dan Fichter"
+      ],
+      "platform": "教练访谈与全文整理",
+      "first_seen": "2026-10-26T08:24:00+08:00",
+      "last_seen": "2026-10-26T08:24:00+08:00"
     }
   ]
 }
