@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "date": "2026-10-26",
+  "title": "每日专业资讯简报·社媒热点｜2026-10-26",
+  "observed_at": "2026-10-26T08:24:00+08:00",
+  "summary": {
+    "title": "从视觉训练到生产Agent，先验证作用对象再扩大权限",
+    "signal": "本期公开讨论的共同价值是把新工具拆回可测环节：视觉任务看运动响应，疼痛看功能与时间过程，Agent看计划对应的真实权限。",
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 2,
+      "AI": 2
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-25",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "实践者正在把视觉训练和AI辅助规划放回具体任务与复测，而不是当作统一升级包。",
+    "运动健康": "两条讨论分别校正了‘瞬时变强治疼’和‘150分钟已经足够’的常见简化。",
+    "AI": "生产Agent的关键进展是计划、凭据和权限开始绑定；超大模型部署则把内存布局与流水线并发公开到工程层。"
+  },
+  "items": [
+    {
+      "id": "vision-training-individual-response-20261024",
+      "domain": "运动科学",
+      "title": "视觉训练先做小剂量前后测：同一眼动任务可能改善，也可能增加疲劳",
+      "short_title": "视觉训练回到个体反应",
+      "author": "Chris Kerr、Chris Korfist、Dan Fichter",
+      "platform": "教练访谈与全文整理",
+      "published_date": "2026-10-24",
+      "priority": "值得了解",
+      "one_liner": "实践者把扫视、反扫视和追踪视为可叠加的知觉负荷，建议先观察平衡、脚触地或下一动作是否真正改善。",
+      "what": "讨论区分了水平扫视的平衡用途、反扫视的抑制控制和移动目标追踪的额外姿势需求。Korfist在大组训练中只保留简单任务，Fichter强调视觉任务会疲劳，个人一次过量棱镜暴露后不适持续两周。",
+      "why": "这纠正了‘眼动练习能直接提升加速或变向’的简单叙事：真正需要验证的是它对同一运动任务的即时与后续影响。",
+      "practice": "先用极短剂量介入，再复测同一平衡、起跑或变向任务；只有反应稳定改善才进阶到站立、步态或移动目标，不把个人案例剂量复制给全队。",
+      "evidence": "资深教练访谈与实践案例｜非对照研究｜2026-10-24",
+      "confidence": "低",
+      "confidence_reason": "操作逻辑具体，但效果依据主要来自教练观察与个人经历。",
+      "source": {
+        "url": "https://simplifaster.com/articles/vision-training-athletes-korfist-fichter/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "ai-strength-coach-admin-workflow-20261022",
+      "domain": "运动科学",
+      "title": "体能教练把AI限定在初稿、报告和教育材料，最终负荷与动作仍由人决定",
+      "short_title": "AI先替代空白页和重复整理",
+      "author": "Kosta Telegadas",
+      "platform": "实践者方法文章",
+      "published_date": "2026-10-22",
+      "priority": "值得了解",
+      "one_liner": "一线教练给出可复制分工：AI生成方案骨架和报告初稿，教练保留评估、动作选择、负荷、进阶与现场调整。",
+      "what": "作者服务两个训练中心的225名以上战术人群，描述了从需求分析、AI初稿、人工选择动作与负荷、三至六周调整，到报告和教育材料生成的七步流程；他称演示文稿准备可由约10小时降至4小时。",
+      "why": "这比‘AI能否写训练计划’更接近真实工作流：先识别哪些环节只是格式和重复劳动，再明确不可外包的专业判断。",
+      "practice": "可先试点报告摘要、动作说明和模板复用，并要求每个输出保留原始数据、修改人和最终批准；新教练应先具备独立评估训练方案的能力。",
+      "evidence": "单一实践者工作流与经验数据｜2026-10-22",
+      "confidence": "中低",
+      "confidence_reason": "流程可复用且边界明确，但节时数据未经过独立测量。",
+      "source": {
+        "url": "https://simplifaster.com/articles/ai-strength-conditioning-coaches/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "instant-strength-pain-claims-20261024",
+      "domain": "运动健康",
+      "title": "‘瞬时增力’展示多是测试与期望效应，不能据此解释疼痛改善",
+      "short_title": "瞬时增力不等于组织变强",
+      "author": "Paul Ingraham",
+      "platform": "疼痛科学评论",
+      "published_date": "2026-10-24",
+      "priority": "值得了解",
+      "one_liner": "评论指出热身、鼓励、努力程度和测试力臂能在数分钟内改变表现，但真正肌力增长需要训练时间。",
+      "what": "文章拆解经络刺激、筋膜释放和‘解锁神经驱动’等即时增力说法，强调徒手肌力测试容易受操作者、预期和意识运动效应影响；短时表现变化不是肌肉生长，也不证明疼痛来源于薄弱。",
+      "why": "康复营销常把一次现场变化同时当成诊断、机制和治疗证据，三个推断都超过测试本身。",
+      "practice": "遇到即时前后测时固定姿势、力臂、鼓励和盲法条件，并看效应是否跨日、跨任务保留；疼痛管理目标应直接测疼痛、功能和参与，而非只测一次抗阻。",
+      "evidence": "专业评论与既有机制证据梳理｜2026-10-24",
+      "confidence": "中",
+      "confidence_reason": "对测试偏差和肌力适应时间的解释合理；文章本身不是系统综述。",
+      "source": {
+        "url": "https://www.painscience.com/blog/instant-strength.html"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "activity-fitness-cvd-dose-20261023",
+      "domain": "运动健康",
+      "title": "150分钟是心血管保护起点；更大风险下降需要显著更高活动量并结合体适能",
+      "short_title": "活动分钟与体适能应联合解释",
+      "author": "Zhide Liang等 / BJSM Blog",
+      "platform": "作者研究解读",
+      "published_date": "2026-10-23",
+      "priority": "重点关注",
+      "one_liner": "17,088名成年人中，每周150分钟中高强度活动与约8%—9%较低心血管风险相关；模型估计30%下降需要约560—610分钟。",
+      "what": "UK Biobank参与者佩戴腕部设备7天并完成体适能测试，随访近8年出现1,233例心血管事件。作者同时使用非线性模型和孟德尔随机化，报告体适能在活动量之外仍与较低风险相关，遗传分析支持其对心衰的保护作用。",
+      "why": "公共卫生最低线与个体追求更大风险降低不是同一个处方；只计分钟会忽略体适能水平与训练反应。",
+      "practice": "临床沟通仍先帮助低活动者达到150分钟，再根据目标和耐受逐步增加；若条件允许，加入体适能评估，而不是把560—610分钟当作所有人的统一目标。",
+      "evidence": "作者对同行评审队列与孟德尔随机化研究的解读｜17,088人｜2026-10-23",
+      "confidence": "中",
+      "confidence_reason": "样本大且活动客观测量；剂量矩阵主要来自观察模型，单次7日测量限制长期暴露估计。",
+      "source": {
+        "url": "https://blogs.bmj.com/bjsm/2026/10/23/how-much-exercise-does-your-heart-really-need-why-150-minutes-a-week-is-the-floor-not-the-ceiling/"
+      },
+      "references": [
+        {
+          "label": "原始论文 DOI",
+          "url": "https://doi.org/10.1136/bjsports-2025-111351"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "vercel-agent-plan-scoped-permissions-20261023",
+      "domain": "AI",
+      "title": "Vercel Agent先只读调查，再把计划与所需权限绑定为一次审批",
+      "short_title": "Agent权限绑定到具体计划",
+      "author": "Tom Dale / Vercel",
+      "platform": "官方工程文章",
+      "published_date": "2026-10-23",
+      "priority": "重点关注",
+      "one_liner": "系统让只读调查先运行，涉及重部署或外部PR时再展示完整计划与权限，并用短期scope token由API强制执行。",
+      "what": "每个存储计划记录任务、进度和scope；批准后运行时只选择该活动计划对应的短期凭据，停止的计划即使token未过期也不能恢复。外部GitHub操作使用独立仓库范围权限，未知或过期scope在计划阶段被拒绝。",
+      "why": "它把‘用户同意Agent做什么’与‘凭据实际允许做什么’连接起来，减少连续逐步弹窗造成的机械批准，也避免模型自行扩大权限。",
+      "practice": "生产Agent可采用只读基线→完整计划→一次范围化批准→运行时二次状态检查；高敏感读取、日志提示注入和允许范围内的误操作仍需独立控制。",
+      "evidence": "厂商生产架构说明｜2026-10-23",
+      "confidence": "中高",
+      "confidence_reason": "权限流和强制点描述详细；未提供独立安全评估或误授权率。",
+      "source": {
+        "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "cerebras-trillion-model-pipeline-20261022",
+      "domain": "AI",
+      "title": "Cerebras公开三万亿参数模型的59片晶圆映射与流水线并发方法",
+      "short_title": "超大模型按整层映射到晶圆",
+      "author": "Sarah Chieng / Cerebras",
+      "platform": "厂商工程博客",
+      "published_date": "2026-10-22",
+      "priority": "值得了解",
+      "one_liner": "以Kimi K3为例，线性注意力层每片放两层、密集层每片一层并预留KV缓存，共需约59片WSE-3T。",
+      "what": "示例假设4-bit权重和8-bit KV cache，把69个线性注意力层放在35片晶圆、24个密集层放在24片晶圆；权重常驻44 GB片上SRAM，只让激活经RDMA跨片传递，并用多请求与micro-batch填满流水线。",
+      "why": "这说明超大MoE模型的低延迟不只是芯片峰值算力问题，还取决于层类型、KV缓存和并发请求如何共同映射。",
+      "practice": "比较推理平台时同时询问平均上下文、并发上限、每用户token速度、总吞吐/功耗与量化假设；不要把1000—2000+ token/s脱离配置和服务体验单独比较。",
+      "evidence": "厂商架构说明与示例计算｜2026-10-22",
+      "confidence": "中",
+      "confidence_reason": "映射逻辑和假设透明；吞吐与竞品比较主要由厂商报告。",
+      "source": {
+        "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动端最值得采用的不是某个新练习，而是同一套验证纪律：视觉训练前后复测同一动作，AI只先接管可审计的初稿与整理，疼痛和心血管目标直接测功能、时间过程与体适能。",
+    "Agent工程端已经出现可落地的权限范式：只读调查、计划级授权、短期scope凭据和运行时状态复核。它比把安全寄托在模型‘记得规则’上更接近生产要求。"
+  ],
+  "trends_url": "data/social/trends/2026-10-26.json"
+}
