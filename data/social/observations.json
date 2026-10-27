@@ -3392,6 +3392,20 @@
       "last_seen": "2026-10-22T01:31:24.548350+00:00"
     },
     {
+      "id": "gabbett-heavy-strength-running-economy-20261022",
+      "title": "More Than Miles – Lift Heavy, Run Faster!",
+      "url": "https://gabbettperformance.com.au/more-than-miles-lift-heavy-run-faster",
+      "date": "2026-10-22",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Gabbett Performance"
+      ],
+      "platform": "实践者博客",
+      "first_seen": "2026-10-28T08:22:00+08:00",
+      "last_seen": "2026-10-28T08:22:00+08:00"
+    },
+    {
       "id": "github-agent-customization-metrics-20261022",
       "title": "Custom skills, agents, and MCP servers in usage metrics API",
       "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api/",
@@ -3602,6 +3616,20 @@
       "last_seen": "2026-10-27T07:58:00+08:00"
     },
     {
+      "id": "jospt-knee-oa-prevention-podcast-20261026",
+      "title": "Ep 286: How to prevent osteoarthritis, with Dr Tarcisio de Campos",
+      "url": "https://feeds.resonaterecordings.com/media/jospt/01a14c62-627e-720b-9ab8-cba0e0f46c39/01a15145-ad8e-706b-8020-cba55b33b418/jospt-e286-how-to-prevent-osteoarthritis-with-dr-tarcisio-de-campos-full-audiomp.mp3",
+      "date": "2026-10-26",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "JOSPT Insights / Tarcisio de Campos"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-10-28T08:22:00+08:00",
+      "last_seen": "2026-10-28T08:22:00+08:00"
+    },
+    {
       "id": "msit-plus-concussion-screen-20261026",
       "title": "mSIT+: A Faster, Better Concussion Exam in Under 3 Minutes",
       "url": "https://blogs.bmj.com/bjsm/2026/10/26/msit-a-faster-better-concussion-exam-in-under-3-minutes/",
@@ -3642,6 +3670,62 @@
       "platform": "官方更新",
       "first_seen": "2026-10-27T07:58:00+08:00",
       "last_seen": "2026-10-27T07:58:00+08:00"
+    },
+    {
+      "id": "liquid-lfm3-multimodal-edge-20261027",
+      "title": "Build specialized multimodal models with LFM3",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Liquid AI / Hugging Face"
+      ],
+      "platform": "技术博客与模型发布",
+      "first_seen": "2026-10-28T08:22:00+08:00",
+      "last_seen": "2026-10-28T08:22:00+08:00"
+    },
+    {
+      "id": "openai-oracle-apps-chatgpt-20261027",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt/",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI / Oracle"
+      ],
+      "platform": "官方公告",
+      "first_seen": "2026-10-28T08:22:00+08:00",
+      "last_seen": "2026-10-28T08:22:00+08:00"
+    },
+    {
+      "id": "openai-retell-voice-agent-scale-20261027",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "url": "https://openai.com/index/retell-ai/",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI / Retell AI"
+      ],
+      "platform": "客户案例",
+      "first_seen": "2026-10-28T08:22:00+08:00",
+      "last_seen": "2026-10-28T08:22:00+08:00"
+    },
+    {
+      "id": "vercel-agent-session-cost-context-20261027",
+      "title": "Vercel Agent sessions now cost 67% less",
+      "url": "https://vercel.com/changelog/vercel-agent-sessions-now-cost-67-percent-less",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Vercel"
+      ],
+      "platform": "产品更新",
+      "first_seen": "2026-10-28T08:22:00+08:00",
+      "last_seen": "2026-10-28T08:22:00+08:00"
     }
   ]
 }
