@@ -2992,7 +2992,7 @@
     "social": {
       "start": "2026-10-14",
       "end": "2026-10-27",
-      "source_fingerprint": "f10f222a6af0c2b2cc07eadc4093c37a8f3cf221c5922521fb94a5af05f5778a",
+      "source_fingerprint": "839ed4a92d7846bbef12f34d795c0a3f5867177469612b3455ea140cd772049e",
       "records": [
         {
           "id": "004cd593adab",
@@ -4754,6 +4754,66 @@
           "title": "Vision Training for Athletes with Chris Korfist and Dan Fichter",
           "sources": [
             "Chris Kerr、Chris Korfist、Dan Fichter"
+          ]
+        },
+        {
+          "id": "agentenv-vercel-sandbox-evals-20261026",
+          "date": "2026-10-26",
+          "domain": "AI",
+          "url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox",
+          "title": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
+          "sources": [
+            "Elisabeth Rülke / Vercel"
+          ]
+        },
+        {
+          "id": "cloudflare-kv-cache-tenant-isolation-20261026",
+          "date": "2026-10-26",
+          "domain": "AI",
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+          "sources": [
+            "Kevin Flansburg、Michelle Chen / Cloudflare"
+          ]
+        },
+        {
+          "id": "hawkin-connect-open-force-data-20261026",
+          "date": "2026-10-26",
+          "domain": "运动科学",
+          "url": "https://www.hawkindynamics.com/blog/hawkin-connect-your-data-your-way",
+          "title": "Hawkin Connect: Your Data, Your Way",
+          "sources": [
+            "Tom Shaw / Hawkin Dynamics"
+          ]
+        },
+        {
+          "id": "msit-plus-concussion-screen-20261026",
+          "date": "2026-10-26",
+          "domain": "运动健康",
+          "url": "https://blogs.bmj.com/bjsm/2026/10/26/msit-a-faster-better-concussion-exam-in-under-3-minutes/",
+          "title": "mSIT+: A Faster, Better Concussion Exam in Under 3 Minutes",
+          "sources": [
+            "Lauren Teresa Rooks等 / BJSM Blog"
+          ]
+        },
+        {
+          "id": "openai-ultrafast-incident-response-20261026",
+          "date": "2026-10-26",
+          "domain": "AI",
+          "url": "https://openai.com/index/openai-cut-incident-investigation/",
+          "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+          "sources": [
+            "OpenAI"
+          ]
+        },
+        {
+          "id": "vercel-agent-alert-validation-20261026",
+          "date": "2026-10-26",
+          "domain": "AI",
+          "url": "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you",
+          "title": "Vercel Agent can now validate alerts before paging you",
+          "sources": [
+            "Fabio Benedetti等 / Vercel"
           ]
         }
       ],
