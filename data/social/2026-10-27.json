@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "date": "2026-10-27",
+  "title": "每日专业资讯简报·社媒热点｜2026-10-27",
+  "observed_at": "2026-10-27T07:58:00+08:00",
+  "summary": {
+    "title": "从设备开放接口到Agent运行记录：可用性正在转向可连接、可复核",
+    "signal": "本期值得跟进的不是又多一个黑箱评分，而是把原始数据、简化筛查、Agent轨迹和告警证据留给专业人员复核。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 4
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-26",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "力台生态开始把API、数据定义和长期算法一致性作为产品能力，而不只展示单次测试报告。",
+    "运动健康": "超短脑震荡筛查获得大样本支持，但它服务的是快速识别，不是替代完整评估与重返赛场流程。",
+    "AI": "Agent运行开始同时追求低延迟、可复现评测和告警减噪；这些收益都依赖完整轨迹、权限与人工升级规则。"
+  },
+  "items": [
+    {
+      "id": "hawkin-connect-open-force-data-20261026",
+      "domain": "运动科学",
+      "title": "Hawkin Connect开放力台API，并承诺跨赛季保持指标定义与算法一致",
+      "short_title": "力台数据走向开放接口",
+      "author": "Tom Shaw / Hawkin Dynamics",
+      "platform": "厂商博客",
+      "published_date": "2026-10-26",
+      "priority": "值得了解",
+      "one_liner": "Hawkin把开放API、R/Python工具和公开指标定义整合为Connect，目标是让原始力—时曲线进入团队自己的分析栈。",
+      "what": "Hawkin Connect允许授权平台从v1 API拉取数据；官方维护hawkinR与hdforce，后者可将测试和完整力—时波形直接读入Python。公司称核心算法和定义自2017年以来保持不变，以支持多年纵向比较。",
+      "why": "对高水平团队，数据可迁移、指标定义稳定和原始波形可取回，往往比增加一个封闭评分更能决定长期价值。",
+      "practice": "采购或续约时把API权限、原始波形导出、字段版本、算法变更日志和数据删除权写入验收；仍需用本队动作协议核对设备重复性。",
+      "evidence": "厂商产品与技术说明｜2026-10-26",
+      "confidence": "中",
+      "confidence_reason": "API与工具发布可核；数据所有权和长期算法一致性属于厂商声明。",
+      "source": {
+        "url": "https://www.hawkindynamics.com/blog/hawkin-connect-your-data-your-way"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "msit-plus-concussion-screen-20261026",
+      "domain": "运动健康",
+      "title": "mSIT+用6项症状与简化VOMS在3分钟内完成脑震荡快速识别",
+      "short_title": "三分钟脑震荡快速筛查",
+      "author": "Lauren Teresa Rooks等 / BJSM Blog",
+      "platform": "作者研究解读",
+      "published_date": "2026-10-26",
+      "priority": "重点关注",
+      "one_liner": "CARE联盟约59,000份基线与5,075份急性检查显示，6项症状指数较完整SCAT症状分数AUC由0.88升至0.93，加入简化VOMS后再增特异度。",
+      "what": "mSIT保留头痛、头部压力感、不适感、畏光、眩晕和畏声六项症状；作者报告其较22项SCAT症状评分灵敏度高2%、特异度高12%。加入四项眼—头运动的mVOMS后，灵敏度再增1%、特异度再增4%，总时长少于3分钟。",
+      "why": "场边时间有限时，删除低增量项目比机械压缩完整SCAT更可操作；大样本分析也明确了哪些项目真正增加识别信息。",
+      "practice": "可用于受训医疗人员的场边初筛和决定是否移出比赛；阳性或持续怀疑者仍进入完整医学评估，不能用一次阴性结果直接完成重返赛场决策。",
+      "evidence": "作者对同行评审研究的解读｜NCAA/DoD CARE，59,901份基线与5,075份急性检查｜2026-10-26",
+      "confidence": "中高",
+      "confidence_reason": "样本极大、增量指标具体；博客未展示全部模型校准和外部验证细节。",
+      "source": {
+        "url": "https://blogs.bmj.com/bjsm/2026/10/26/msit-a-faster-better-concussion-exam-in-under-3-minutes/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "agentenv-vercel-sandbox-evals-20261026",
+      "domain": "AI",
+      "title": "AgentEnv把Agent与任务环境分置沙箱，并保留得分和动作轨迹",
+      "short_title": "Agent评测进入独立沙箱",
+      "author": "Elisabeth Rülke / Vercel",
+      "platform": "官方更新",
+      "published_date": "2026-10-26",
+      "priority": "值得了解",
+      "one_liner": "AgentEnv 0.9.1334起支持Vercel Sandbox，可隔离运行Agent与任务环境并检查评分和完整动作记录。",
+      "what": "Scale AI的AgentEnv新增Vercel provider，分别运行Agent和任务环境；官方示例可用现有Vercel CLI登录发起评测，并查看任务分数与记录的行动。",
+      "why": "Agent评测如果与开发机、共享凭据或非固定环境混在一起，结果难以复现，也容易把环境污染误当成模型能力。",
+      "practice": "把关键工作流转换为带固定输入、允许动作和成功判据的任务；每次模型或工具升级后在隔离环境回归，并审查轨迹而不只看最终得分。",
+      "evidence": "官方集成公告｜AgentEnv ≥0.9.1334｜2026-10-26",
+      "confidence": "高",
+      "confidence_reason": "版本、隔离结构和可检查输出均有明确发布记录。",
+      "source": {
+        "url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "vercel-agent-alert-validation-20261026",
+      "domain": "AI",
+      "title": "Vercel Agent先查日志与指标，只把判为Critical的告警送入值班系统",
+      "short_title": "Agent先验证告警再呼叫",
+      "author": "Fabio Benedetti等 / Vercel",
+      "platform": "官方更新",
+      "published_date": "2026-10-26",
+      "priority": "值得了解",
+      "one_liner": "新功能可在webhook前验证自定义监控，区分无用户影响的健康检查错误与持续影响结账的5xx。",
+      "what": "为webhook目的地启用Critical Only后，Agent读取日志和指标评估影响，只有被分类为Critical的告警才发送到incident.io等值班系统；团队可为监控补充上下文指导调查。",
+      "why": "这把Agent放在告警与人工之间，可能降低噪声，但也把漏报风险集中到分类规则、上下文和观测数据质量。",
+      "practice": "先影子运行并比较Agent分类与值班人员结论，单独统计漏报、延迟和误升级；支付、数据完整性等高影响告警保留硬规则直达。",
+      "evidence": "厂商功能公告｜Pro/Enterprise Observability Plus｜2026-10-26",
+      "confidence": "中",
+      "confidence_reason": "功能边界可核；未公开独立准确率、漏报率或生产对照数据。",
+      "source": {
+        "url": "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "openai-ultrafast-incident-response-20261026",
+      "domain": "AI",
+      "title": "OpenAI称高速Codex把部分安全事件资料整理由一两小时降至10—15分钟",
+      "short_title": "低延迟改变事故调查分工",
+      "author": "OpenAI",
+      "platform": "厂商内部案例",
+      "published_date": "2026-10-26",
+      "priority": "值得了解",
+      "one_liner": "内部团队让Codex并行查日志、Slack与多条假设；案例报告称结构化与非结构化资料整理由1—2小时缩短至10—15分钟。",
+      "what": "OpenAI工程师在事件频道中让Ultrafast持续监控、调查并回答问题，同时从日志和Slack寻找可疑变更。官方称多数问答可在30秒内返回，安全事件资料整理由一两小时缩短至10—15分钟。",
+      "why": "低延迟的价值不只是节时，它让工程师不必在等待期间切走，从而可以连续追问并并行检查多个故障路径。",
+      "practice": "事故响应可先让Agent做只读证据聚合和时间线，输出必须附原始日志位置；变更、回滚和外部沟通继续由值班负责人批准，并记录Agent未覆盖的数据源。",
+      "evidence": "厂商内部使用案例与员工访谈｜2026-10-26",
+      "confidence": "中低",
+      "confidence_reason": "流程细节具体，但时间收益是单一机构自报，未提供对照设计。",
+      "source": {
+        "url": "https://openai.com/index/openai-cut-incident-investigation/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "cloudflare-kv-cache-tenant-isolation-20261026",
+      "domain": "AI",
+      "title": "Cloudflare复盘KV缓存跨租户泄漏：状态码正常也可能返回他人上下文",
+      "short_title": "KV缓存隔离不能只测状态码",
+      "author": "Kevin Flansburg、Michelle Chen / Cloudflare",
+      "platform": "协调安全披露",
+      "published_date": "2026-10-26",
+      "priority": "重点关注",
+      "one_liner": "155个超长请求响应混入其他客户数据，运营方随后把KV池尺寸、拒绝路径与传输完整性加入部署门禁。",
+      "what": "GLM-5.3部署的KV池只能容纳681,280 token，却暴露1,048,576 token上下文；SGLang拒绝路径仍把不完整KV交给decode，后者读取旧页并返回HTTP 200。事件已修复并协调发布上游补丁。",
+      "why": "这是推理平台特有的多租户内存安全问题：传统可用性监控显示正常，输出也可能语义连贯，却已经越过租户边界。",
+      "practice": "自建或托管推理平台都应要求长上下文边界测试、跨租户canary、KV所有权/校验和以及失败路径审计；SGLang分离式部署至少核对0.5.22及相关补丁。",
+      "evidence": "运营方事故复盘、研究者报告与上游修复记录｜2026-10-26",
+      "confidence": "高",
+      "confidence_reason": "受影响范围、根因、时间线和补丁均有直接证据。",
+      "source": {
+        "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动团队应把‘数据归属和可导出’提升到设备采购的一等条件。开放API只有与公开定义、原始波形和版本记录同时存在，才真正支持多年纵向分析。",
+    "脑震荡工具可以更短，但临床路径不能变短。mSIT+适合快速识别与移出比赛，不负责完成诊断、恢复监控或重返赛场决策。",
+    "Agent运维出现一条可执行主线：先在独立沙箱回归，生产中优先只读聚合证据，再以硬规则和人工批准控制高影响动作。低延迟和告警减噪都是结果，不是治理替代品。"
+  ],
+  "trends_url": "data/social/trends/2026-10-27.json"
+}
