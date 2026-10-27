@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-28",
+  "title": "每日专业资讯简报｜2026-10-28",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "今天最值得更新的认识是：无论训练监测、远程康复还是科研AI，关键不再只是生成更多指标，而是让协议、预测区间和评价基准足以支持可复核的决策。"
+  },
+  "navigation": {
+    "prev": "2026-10-27",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "训练方案有效与否取决于协议细节和专项迁移；测量时的离心指令、三维视角与蛋白周转模型都会改变结论。",
+    "运动健康": "远程心脏康复显示平均获益，但预测区间揭示实施差异；踝不稳与腰痛证据则把关注点推向组织特征和可实施的非手术路径。",
+    "AI": "世界模型、药物研发Agent和科研新颖性评估同时前进，但可用性的分水岭仍是外部验证与任务级评价，而不是演示效果。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "赛季中对比训练改善跳跃冲刺",
+      "title": "Effects of In-Season Contrast Strength Training on Jump Performance and Sprint Ability in Female Field Hockey Players",
+      "one_liner": "25名次精英女子曲棍球运动员在赛季中完成6周对比训练后，跳跃提高5.7%—29.6%，10/20米冲刺提高1.6%—1.9%。",
+      "what": "训练每次依次安排70%—85% 1RM高负荷力量、约30% 1RM高速爆发动作和高速专项任务。6周后，双侧与单侧反向跳、自由摆臂跳以及10米和20米冲刺均显著改善。",
+      "why": "它把高负荷—低负荷爆发—专项速度串成同一训练链，提供了赛季中维持比赛训练同时提升神经肌肉表现的可操作范式。",
+      "practice": "可将三段式对比训练作为每周力量课的核心结构，但本研究无对照组；实施时应同时记录实际出勤、比赛负荷和跳跃/冲刺测试误差，避免把赛季自然波动全部归因于方案。",
+      "evidence": "单组前后干预｜25名次精英女子曲棍球运动员｜6周｜PubMed 2026-10-27收录",
+      "confidence": "中（改善幅度清楚，但缺少随机对照）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42945482",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42945482/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "离心指令改变负荷速度曲线",
+      "title": "Comparison Between Concentric-Only and Eccentric-Concentric Load-Velocity Relationships and its Derived Parameters in the Jump Squat and Bench Press Throw Exercises",
+      "one_liner": "最大意图离心使跳蹲和卧推抛的推进速度提高6.1%—23.3%，并系统性抬高推算的V0与1RM。",
+      "what": "18名男性在20%、40%、60%和80% 1RM下比较纯向心与最大意图离心—向心协议。最大离心条件的可靠性相近，但跳蹲各负荷速度高8.9%—10.9%，卧推抛多数负荷高6.1%—23.3%；推算深蹲1RM为124.1对117.8千克，卧推为89.2对83.9千克。",
+      "why": "同一运动员若测试指令改变，负荷—速度曲线和由此计算的能力参数也会改变；这会制造并不存在的训练进步或退步。",
+      "practice": "建立个人负荷—速度档案时固定离心阶段指令、动作深度和设备算法；若从纯向心切换到快速离心，应重新建基线，不能沿用旧阈值。",
+      "evidence": "重复测量方法学研究｜18名男性｜两种协议、四档负荷",
+      "confidence": "中高（协议效应和可靠性均有量化；人群较窄）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42945128",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42945128/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "拳击战术分析进入自由视角",
+      "title": "In Sight of Insights: Virtual Representation of Boxing for Interactive Viewpoint in Tactical Analysis through 3D Human Motion Reconstruction",
+      "one_liner": "稀疏多机位三维重建可让教练自由切换视角并保留源视频证据，初步提升拳击战术观察准确性。",
+      "what": "研究与职业拳击教练共同开发桌面沉浸式系统，把稀疏多视角视频重建为可导航的三维动作，并在同一空间嵌入比赛事件和原始视频链接。两项用户研究显示，其战术观察准确性优于传统视频流程，分析效率相近。",
+      "why": "固定机位遮挡和统计表分离一直限制对距离、角度和时序的联合判断；可回到原视频的自由视角重建把可视化与证据链放在一起。",
+      "practice": "适合先用于少量关键回合的复盘和教学，不宜立即替代全场视频编码；部署前需核算多机位同步、人工标注量和重建误差对距离判断的影响。",
+      "evidence": "系统开发与两项用户研究｜职业运动员和有经验观察者｜IEEE TVCG",
+      "confidence": "中（原型和用户结果一致，评估规模与采集条件有限）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42945090",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42945090/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "停用萎缩主要来自合成下降",
+      "title": "Non-steady-state modelling reveals reduced skeletal muscle protein synthesis as the primary driver of disuse-atrophy in young, healthy females",
+      "one_liner": "年轻女性单腿卸载10天后，肌肉体积和肌原纤维蛋白合成下降，而蛋白分解未升高；非稳态模型未改变这一结论。",
+      "what": "14名年轻女性一侧下肢卸载10天，另一侧进行抗阻负荷。MRI确认股外侧肌体积下降；氘水示踪在稳态与非稳态计算下均显示混合及肌原纤维蛋白合成下降，蛋白分解保持不变。",
+      "why": "研究直接检验了‘蛋白库缩小会扭曲周转估计’这一方法学问题，并把短期停用萎缩的主要机制继续指向合成受抑，而非分解加速。",
+      "practice": "短期制动或卸载后的营养与训练研究，应优先设计能恢复合成刺激的渐进负荷和蛋白摄入策略；临床重症消耗并不等同于本研究的健康年轻女性停用模型。",
+      "evidence": "人体对侧腿研究｜14名年轻女性｜10天卸载、氘水示踪与MRI｜Journal of Physiology",
+      "confidence": "中高（人体机制测量直接，样本小且场景特定）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42936986",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42936986/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "腕戴设备远程心脏康复的真实边界",
+      "title": "Effectiveness of Wrist-Worn Wearable-Guided Cardiac Rehabilitation Delivered Through Fully Remote or Hybrid Programs in Patients With Cardiovascular Disease: Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "one_liner": "18项随机试验显示腕戴设备引导的远程/混合心脏康复平均提高峰值摄氧1.69 mL/kg/min、6分钟步行31米和日步数1063步，但三项预测区间均跨过无效线。",
+      "what": "系统综述纳入18项随机试验、1993人，17项进入荟萃分析。平均效应支持峰值摄氧、6分钟步行和步数改善；但95%预测区间分别为-2.21至5.39 mL/kg/min、-62.11至123.18米、-503至2860步/日。",
+      "why": "均值回答‘总体可能有效’，预测区间回答‘下一家机构能否复制’；后者显示效果高度依赖项目结构，而不是单靠手表。",
+      "practice": "建设远程心脏康复时，把设备作为监测和反馈入口，同时保留运动处方、行为支持、临床升级与依从性管理；评估应报告个体达标率和安全事件，而不只看平均步数。",
+      "evidence": "系统综述与随机效应荟萃分析｜18项RCT、1993人｜JMIR mHealth",
+      "confidence": "高（随机试验汇总；跨项目一致性不足已由预测区间揭示）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42945529",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42945529/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "慢性踝不稳伴随组织机械改变",
+      "title": "Silent mechanical adaptation: Passive mechanical properties of ankle-surrounding tissues in individuals with unilateral chronic ankle instability",
+      "one_liner": "75名单侧慢性踝不稳者的患侧胫前肌、腓骨长肌和足底筋膜更硬、耗散特征更差，而跟腱未见侧间差异。",
+      "what": "横断面研究用MyotonPRO比较75名18—45岁单侧慢性踝不稳者双侧组织。患侧胫前肌、腓骨长肌和足底筋膜的刚度与对数衰减升高，腓肠肌部分指标也改变；跟腱频率、刚度和衰减均无显著差异。",
+      "why": "结果提示踝不稳的组织适应并非只发生在外侧韧带或跟腱，足底筋膜和小腿肌群可能参与长期负荷重分配。",
+      "practice": "评估可在平衡、力量和跳跃测试之外加入足底与小腿组织触诊/机械测量，但横断面差异不能决定治疗方向；康复目标仍应由症状、功能和负荷反应共同设定。",
+      "evidence": "横断面双侧比较｜75名单侧慢性踝不稳成年人｜MyotonPRO",
+      "confidence": "中（样本尚可、侧间结果明确；不提供因果或治疗效应）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42935279",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42935279/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "腰痛非手术路径多具成本效益",
+      "title": "Cost-effectiveness of recommended interventions for managing low back pain: A systematic review",
+      "one_liner": "20项经济学研究显示，教育、心理支持、运动、瑜伽和自我管理等指南推荐的非手术方案，多数在每QALY 2万英镑阈值下具成本效益。",
+      "what": "PLoS Medicine系统综述纳入20项研究，其中17项为试验内经济评价。多种非药物、非手术干预相较常规照护具有成本效益；针对恐惧/压力和自我管理的慢性腰痛项目在部分研究中同时更有效且成本更低。",
+      "why": "它把‘有效’推进到‘值得配置资源’，支持将运动治疗和心理/自我管理服务作为正式照护路径，而非可有可无的附加项。",
+      "practice": "机构可优先评估教育+运动+心理支持的整合路径，并同步收集医疗利用、缺勤和生产力结局；现有20项证据均来自高收入国家，成本结论需按本地支付体系重算。",
+      "evidence": "系统综述｜20项健康经济学研究｜PLoS Medicine",
+      "confidence": "中高（方向跨研究一致，但方案和成本口径异质）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42945153",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42945153/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "科研新颖性判定对提示词高度敏感",
+      "title": "Old Ideas, Novel Problems: Benchmarking LLM Judges of Scientific Novelty",
+      "one_liner": "Ai2基准显示，同一组研究想法仅改变少量评价提示词，LLM识别相对新颖性的准确率可波动超过50个百分点。",
+      "what": "Ai2发布论文、基准、数据和代码，测试GPT与Claude系列作为科研新颖性评委。检索与增加推理预算并未稳定改善判断，两套专用新颖性系统反而低于简单提示的Claude Opus 4.6基线。",
+      "why": "把生成想法交给一个模型、再让另一个模型判‘是否新颖’，正在成为科研Agent常见闭环；该研究表明评价器本身可能是最不稳定的一环。",
+      "practice": "科研工作流不要用单次LLM评分淘汰选题。至少固定评价提示与模型版本，保留检索证据，加入多评委一致性和领域专家复核，并用历史已知新颖性样本做本地校准。",
+      "evidence": "研究论文与开放基准｜Ai2官方发布，2026-10-27｜结果针对新颖性评价任务",
+      "confidence": "中高（基准和代码公开；跨学科真实评审外推仍需验证）",
+      "limit": "",
+      "source": {
+        "title": "Ai2 / Hugging Face",
+        "url": "https://huggingface.co/blog/allenai/novelty-bench"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Genie 4把世界模型推向实时交互",
+      "title": "Genie 4: A new generation of world simulation",
+      "one_liner": "Google DeepMind发布可实时文本控制、原生生成声音与对话的Genie 4研究预览，并用Gemini代理持续规划和检查模拟进程。",
+      "what": "Genie 4可从图像与文本启动可导航环境，在运行中修改天气、镜头和角色，并生成环境声与交互对话。Gemini模型在循环中观察画面、拆解目标和验证步骤；目前仅向可信测试者开放，随后计划进入Project Genie及部分API早期访问。",
+      "why": "世界模型开始从短视频生成转向可干预、可用于机器人/Agent训练的交互环境，这对运动动作仿真和情境训练也具有潜在方法价值。",
+      "practice": "研究团队可把它视为情境原型和假设生成工具，而非生物力学模拟器；官方明确指出物体恒常性、复杂物理、空间精度和长时一致性仍会漂移，涉及动作风险的训练必须用真实数据校验。",
+      "evidence": "Google DeepMind官方研究预览｜2026-10-27｜尚无独立基准或公开API普测",
+      "confidence": "中（发布事实明确，能力与边界主要来自厂商演示）",
+      "limit": "",
+      "source": {
+        "title": "Google DeepMind",
+        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Claude进入真实药物研发闭环",
+      "title": "Early progress on accelerating drug development with Claude",
+      "one_liner": "Anthropic披露六家机构的药物研发案例：Claude参与分子设计、实验数据复核、制造文档和临床规划，但多数结果仍处于临床前阶段。",
+      "what": "案例包括：Generate的一项设计缩短约70%并在实验中产生约10倍受体；Divergence约一个月生成3.5万种抗体设计；BigHat在10周测试约1010个变体；Enveda在1061页文件中识别全部11个人工已知问题并多发现7个，将复核时间从25小时以上降至3小时以内。",
+      "why": "它显示AI价值不只在提出分子，还可能来自连接实验、原始数据、质量文档和监管文本的端到端工作流。",
+      "practice": "生命科学团队可优先选择有可验证中间产物的任务——设计候选、原始数据重分析、文档差错检测——并记录人工复核率、湿实验命中率和失败样本；不能用厂商案例替代独立临床证据。",
+      "evidence": "Anthropic官方案例汇总，链接技术报告与预印本｜2026-10-27｜多数为合作方自报的临床前结果",
+      "confidence": "中（具体实验数字可追溯，独立复现和临床结局尚缺）",
+      "limit": "",
+      "source": {
+        "title": "Anthropic",
+        "url": "https://www.anthropic.com/research/early-progress-drug-development"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "训练与监测团队今天最该立刻修正的是协议治理：离心指令可让负荷—速度曲线整体移动，因而任何跨周期比较都应把动作阶段、口令和算法版本与结果一起保存。",
+    "远程康复采购不要只问设备是否能提高平均步数。预测区间跨过无效线说明，同一腕戴设备放入不同处方、反馈和临床升级体系，结果可能完全不同；项目组件才是实施单位。",
+    "科研AI的共同风险正在从‘模型会不会生成’转向‘谁来判定生成结果值得相信’。新颖性评委的提示敏感性与药物研发案例的临床前状态都要求把可复核证据和人工决策点写进工作流。"
+  ],
+  "trends_url": "data/trends/2026-10-28.json"
+}

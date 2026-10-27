@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "date": "2026-10-28",
+  "observed_at": "2026-10-28T08:22:00+08:00",
+  "title": "每日专业资讯简报·社媒热点｜2026-10-28",
+  "summary": {
+    "title": "从重力量到上下文复用：实践讨论开始把效率写成可执行结构",
+    "signal": "本期最有用的共同线索是：跑步力量、康复预防和Agent成本都不是靠单一工具解决，而是通过固定协议、复核节点与上下文管理获得收益。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 4
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-27",
+    "next": null
+  },
+  "trends_url": "data/social/trends/2026-10-28.json",
+  "section_notes": {
+    "运动科学": "耐力跑力量训练的讨论回到低剂量、高力输出和不干扰关键跑课的安排。",
+    "运动健康": "骨关节炎预防讨论把‘避免磨损’改写为管理体重、症状和运动暴露的主动策略。",
+    "AI": "企业应用、边缘多模态、Agent上下文和语音生产案例共同表明，真实价值来自集成、评测和成本结构，而非单次演示。"
+  },
+  "items": [
+    {
+      "id": "gabbett-heavy-strength-running-economy-20261022",
+      "domain": "运动科学",
+      "title": "Gabbett Performance给出耐力跑力量训练的低剂量处方框架",
+      "short_title": "重力量如何嵌入跑步计划",
+      "author": "Gabbett Performance",
+      "platform": "实践者博客",
+      "published_date": "2026-10-22",
+      "priority": "值得了解",
+      "one_liner": "文章建议每周两次、每次20—30分钟，以2—4组×3—6次高负荷下肢动作为主，并避开关键间歇和长跑。",
+      "what": "文章基于既有综述解释高力与功率训练对跑步经济性的价值，给出深蹲、硬拉、分腿蹲和提踵等少量动作的安排，并把等长训练列为高跑量阶段管理附加疲劳的备选。",
+      "why": "它把‘跑者要不要练力量’推进到可执行的剂量与排课问题，强调目标是提升每步产力效率，而不是增加训练房总量。",
+      "practice": "可先用每周2次、每次20—30分钟作为起点，并把力量课与关键跑课间隔开；追踪跑步经济性或固定配速心率，而不只看最大力量增长。",
+      "evidence": "实践者证据综述与编程建议｜2026-10-22",
+      "confidence": "中",
+      "confidence_reason": "建议可追溯到系统综述，但文章不是新的干预试验。",
+      "source": {
+        "url": "https://gabbettperformance.com.au/more-than-miles-lift-heavy-run-faster"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "jospt-knee-oa-prevention-podcast-20261026",
+      "domain": "运动健康",
+      "title": "JOSPT讨论膝骨关节炎预防：生活方式项目有信号，其他干预证据仍稀薄",
+      "short_title": "膝骨关节炎预防证据",
+      "author": "JOSPT Insights / Tarcisio de Campos",
+      "platform": "播客",
+      "published_date": "2026-10-26",
+      "priority": "值得了解",
+      "one_liner": "配套系统综述仅找到3项RCT；对BMI≥25女性，生活方式自我管理项目可降低12个月膝痛发生风险，其他方案结论不确定。",
+      "what": "节目围绕《Intervention Strategies for Preventing Knee Osteoarthritis》展开。综述纳入1481人，生活方式项目相较单次教育的膝痛风险比为0.27；饮食+运动、氨糖和关节内sprifermin等证据不足以得出稳定结论。",
+      "why": "它纠正了把骨关节炎预防简化成‘少运动、少磨损’的叙事，也显示真正的预防RCT数量仍很少。",
+      "practice": "对超重且有风险的人群，可把体重、活动与自我管理纳入长期计划；不应把补充剂或单一结构干预宣传成已证实的预防方案。",
+      "evidence": "专家播客解读同行评审系统综述｜2026-10-26；原综述3项RCT、1481人",
+      "confidence": "中高",
+      "confidence_reason": "核心数字来自同行评审综述；可用干预数量有限。",
+      "source": {
+        "url": "https://feeds.resonaterecordings.com/media/jospt/01a14c62-627e-720b-9ab8-cba0e0f46c39/01a15145-ad8e-706b-8020-cba55b33b418/jospt-e286-how-to-prevent-osteoarthritis-with-dr-tarcisio-de-campos-full-audiomp.mp3"
+      },
+      "references": [
+        {
+          "label": "配套系统综述",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42686175/"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "liquid-lfm3-multimodal-edge-20261027",
+      "domain": "AI",
+      "title": "Liquid AI发布2B级LFM3多模态模型族，瞄准单卡微调与边缘部署",
+      "short_title": "2B级多模态模型走向边缘",
+      "author": "Liquid AI / Hugging Face",
+      "platform": "技术博客与模型发布",
+      "published_date": "2026-10-27",
+      "priority": "值得了解",
+      "one_liner": "LFM3把文本、视觉、音频、全模态和决策模型放在同一1.7B骨干上，文本4-bit约1GB，并提供单GPU微调范例。",
+      "what": "模型族包含文本、视觉、音频、Omni及两种决策模型，支持256K上下文。官方称1.7B模型较上一代2.6B少35%参数，在8K上下文下约快25%；全部权重与微调笔记本已公开。",
+      "why": "对运动视频、语音记录和设备端筛查，能在本地定制的小模型可能比通用云端模型更易满足延迟、隐私和成本要求。",
+      "practice": "先选一项封闭任务做本地基准，例如动作标签、语音转结构化记录或视频事件检测；用本领域数据比较准确率、延迟、内存和校准，不直接采用厂商综合榜单。",
+      "evidence": "开放权重模型与厂商技术发布｜2026-10-27",
+      "confidence": "中",
+      "confidence_reason": "权重和代码可核；性能数字主要由发布方提供。",
+      "source": {
+        "url": "https://huggingface.co/blog/LiquidAI/lfm3"
+      },
+      "references": [
+        {
+          "label": "模型集合",
+          "url": "https://huggingface.co/collections/LiquidAI/lfm3"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "openai-oracle-apps-chatgpt-20261027",
+      "domain": "AI",
+      "title": "Oracle将企业应用与权限体系接入ChatGPT，并推出Agent就绪工作区",
+      "short_title": "企业系统进入ChatGPT工作流",
+      "author": "OpenAI / Oracle",
+      "platform": "官方公告",
+      "published_date": "2026-10-27",
+      "priority": "值得了解",
+      "one_liner": "Oracle AI Workspace计划把财务、采购和规划数据带入ChatGPT，并沿用组织权限、审批和统一登录。",
+      "what": "合作还包括AI Security Mesh、面向中小企业的ChatGPT Business+Codex组合，以及用于构建和部署内部应用的App Composer。OpenAI称Oracle已有13万名活跃ChatGPT用户和9.5万名活跃Codex用户。",
+      "why": "企业Agent的竞争焦点正在从单个聊天窗口转向能否在原有权限边界内完成跨系统、可审批的业务流程。",
+      "practice": "评估类似集成时先做一条低风险只读流程，明确数据域、批准动作、日志留存和回滚；公告确认产品方向，不等于跨系统正确率已经获得独立验证。",
+      "evidence": "OpenAI与Oracle官方合作公告｜2026-10-27",
+      "confidence": "中",
+      "confidence_reason": "发布和产品范围可核；效果数据为合作方自报。",
+      "source": {
+        "url": "https://openai.com/index/oracle-apps-in-chatgpt/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "vercel-agent-session-cost-context-20261027",
+      "domain": "AI",
+      "title": "Vercel称通过增量上下文与提示缓存，把Agent会话平均成本降低67%",
+      "short_title": "Agent成本转向上下文工程",
+      "author": "Vercel",
+      "platform": "产品更新",
+      "published_date": "2026-10-27",
+      "priority": "快讯",
+      "one_liner": "计费单价未变，成本下降来自工作流型CLI技能、增量上下文管理、提示缓存复用和更短的规划/编码轨迹。",
+      "what": "Vercel更新其Dashboard与Slack内的Agent，会话平均成本下降67%，无需用户操作。官方把改进归因于更少的重复上下文、更高缓存命中率和更明确的错误恢复指引。",
+      "why": "它提供了一个可迁移的工程结论：生产Agent的成本优化未必需要更便宜的模型，先减少每轮重复输入和无效轨迹就可能获得大幅收益。",
+      "practice": "在自有Agent记录每轮输入token、缓存命中率、上下文增长和成功任务成本；按任务复杂度分层比较升级前后，而不是只看供应商平均值。",
+      "evidence": "厂商产品更新｜2026-10-27",
+      "confidence": "中",
+      "confidence_reason": "机制与上线事实明确；67%为Vercel跨客户平均，缺少分布和独立复测。",
+      "source": {
+        "url": "https://vercel.com/changelog/vercel-agent-sessions-now-cost-67-percent-less"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "openai-retell-voice-agent-scale-20261027",
+      "domain": "AI",
+      "title": "Retell披露语音Agent月处理超1亿通电话，并把模型评测放在真实多轮任务上",
+      "short_title": "语音Agent进入生产规模",
+      "author": "OpenAI / Retell AI",
+      "platform": "客户案例",
+      "published_date": "2026-10-27",
+      "priority": "值得了解",
+      "one_liner": "Retell称月呼叫量从年初3000万升至9月超1亿，并用真实多轮对话评估指令遵循、幻觉、工具调用与首句延迟。",
+      "what": "案例称OpenAI模型生成80%的通话回复，客户解决率超过80%；Retell报告GPT-6 Astra在10月13日基准的指令遵循率为89.7%，并为峰值流量配置专用服务器和多层故障切换。",
+      "why": "生产语音Agent的关键指标已经从‘能对话’扩展到任务解决率、工具正确性、延迟、交接和高低峰弹性。",
+      "practice": "构建语音工作流时，用真实任务回放建立多指标门槛，并设置人工转接、模型/电话栈冗余与区域路由；案例中的性能与商业数字均由供应商及客户自报。",
+      "evidence": "OpenAI客户案例与Retell内部基准｜2026-10-27",
+      "confidence": "中",
+      "confidence_reason": "规模和方法披露具体，但缺少独立审计与完整基准集。",
+      "source": {
+        "url": "https://openai.com/index/retell-ai/"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动团队可把耐力力量训练简化成低剂量、高质量、可追踪的模块；若它持续挤占关键跑课或没有改善固定配速成本，就需要调整排课而不是盲目加量。",
+    "康复传播中最值得保留的是证据缺口本身：膝骨关节炎预防只有少量RCT，生活方式管理有信号，但不能据此扩写成补充剂或单项结构治疗的广泛承诺。",
+    "AI实践的本期主线是把成本和可靠性拆成可观测指标：上下文复用、真实任务基准、权限审批、人工交接与故障切换，比模型名称更能决定系统是否可用。"
+  ]
+}
