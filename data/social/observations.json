@@ -3574,6 +3574,20 @@
       "last_seen": "2026-10-26T08:24:00+08:00"
     },
     {
+      "id": "b085a761acce",
+      "title": "Two Years Since I Put My Hand Up",
+      "url": "https://www.mickhughes.physio/single-post/two-years-since-i-put-my-hand-up",
+      "date": "2026-10-25",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "Mick Hughes"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-29T07:53:00+08:00",
+      "last_seen": "2026-10-29T07:53:00+08:00"
+    },
+    {
       "id": "agentenv-vercel-sandbox-evals-20261026",
       "title": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
       "url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox",
@@ -3726,6 +3740,76 @@
       "platform": "产品更新",
       "first_seen": "2026-10-28T08:22:00+08:00",
       "last_seen": "2026-10-28T08:22:00+08:00"
+    },
+    {
+      "id": "887c59818f68",
+      "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+      "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Nathan Lambert / Interconnects"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-10-29T07:53:00+08:00",
+      "last_seen": "2026-10-29T07:53:00+08:00"
+    },
+    {
+      "id": "8b398a4d862e",
+      "title": "How is exogenous carbohydrate oxidation measured?",
+      "url": "https://www.mysportscience.com/post/exogenous-carbohydrate-oxidation",
+      "date": "2026-10-28",
+      "domain": "运动科学",
+      "topic_id": "sport-nutrition",
+      "sources": [
+        "Asker Jeukendrup"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-29T07:53:00+08:00",
+      "last_seen": "2026-10-29T07:53:00+08:00"
+    },
+    {
+      "id": "ea41a986fe71",
+      "title": "Introducing the Agent SDK",
+      "url": "https://cursor.com/blog/agent-sdk",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Cursor"
+      ],
+      "platform": "官方博客",
+      "first_seen": "2026-10-29T07:53:00+08:00",
+      "last_seen": "2026-10-29T07:53:00+08:00"
+    },
+    {
+      "id": "59788a007bb4",
+      "title": "Why Agents Love Supabase",
+      "url": "https://latent.space/p/supabase",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Latent Space / Supabase"
+      ],
+      "platform": "播客与文字稿",
+      "first_seen": "2026-10-29T07:53:00+08:00",
+      "last_seen": "2026-10-29T07:53:00+08:00"
+    },
+    {
+      "id": "faf34df179d1",
+      "title": "The Perfect Protein?",
+      "url": "https://www.scienceforsport.com/the-perfect-protein",
+      "date": "2026-10-29",
+      "domain": "运动科学",
+      "topic_id": "sport-nutrition",
+      "sources": [
+        "Science for Sport"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-10-29T07:53:00+08:00",
+      "last_seen": "2026-10-29T07:53:00+08:00"
     }
   ]
 }
