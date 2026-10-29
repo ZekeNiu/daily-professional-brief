@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-29",
+  "title": "每日专业资讯简报｜2026-10-29",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "今天最重要的进展是：便携测量、远程运动与Agent基础设施都在降低实施门槛，但能否用于决策仍取决于误差、结局取舍和可回滚配置是否被显式管理。"
+  },
+  "navigation": {
+    "prev": "2026-10-28",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "现场化测量继续推进，但测试协议与误差仍决定数据能否支持训练调整。",
+    "运动健康": "数字化交付可以扩大可及性和降低成本，但运动结局、生活质量与筛查准确性必须分别评价。",
+    "AI": "模型、路由和Agent使用快速扩张，生产系统的重点正转向任务级评测、集中配置与人类复核。"
+  },
+  "items": [
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "RPE处方以较低负担达到相近高氧摄取时间",
+      "title": "The Same Gain for Less Pain When Using Rating of Perceived Exertion Instead of Maximal Aerobic Speed to Prescribe High-Intensity Interval Training",
+      "one_liner": "RPE 5与85%最大有氧速度处方获得相近的≥90% VO₂max时间，但峰值心率、乳酸和训练感受更低。",
+      "what": "13名男性体育专业学生分别完成3×3分钟的RPE 5和85%最大有氧速度HIIT。两种方案在≥90% VO₂max/HRmax时间上无显著差异；RPE方案的峰值心率、峰值呼吸频率、血乳酸和session-RPE均更低。",
+      "why": "它提示固定外部速度不是获得高氧摄取刺激的唯一方法，主观强度可在个体状态波动时自动调节输出。",
+      "practice": "可在3分钟间歇中试用CR-10量表RPE 5，并同步记录实际速度与心率；本研究只比较单次训练、样本13人，不能据此判断长期适应等效。",
+      "evidence": "随机交叉单次实验｜13名男性体育专业学生｜3×3分钟跑步HIIT｜PubMed 2026-10-28收录",
+      "confidence": "中（生理测量完整，但样本小且无长期训练结局）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42950202",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42950202/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "投球出手时刻需按球种校正",
+      "title": "Accuracy and precision of kinematic methods for determining ball release in baseball pitching",
+      "one_liner": "131名投手数据显示，腕部通过法精度最稳定；2毫秒时差可造成约10度肩内旋角误差。",
+      "what": "研究用1000 Hz动作捕捉比较三种出手时刻算法。掌指通过法平均偏差最小，但腕部通过法跨投手和球种的离散更小；曲线球中其平均绝对偏差为1.1毫秒。",
+      "why": "出手时刻是肩肘运动学对齐的锚点，毫秒级误差会被超过5000度/秒的肩内旋速度放大。",
+      "practice": "研究与临床投球分析可优先采用腕部通过法，并为快球、曲线球等建立独立偏移量；报告中应同时给出系统偏差和精度。",
+      "evidence": "方法学验证｜131名男性投手｜五种球路｜1000 Hz动作捕捉｜PubMed 2026-10-28收录",
+      "confidence": "中高（样本较大且有几何参考标准）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42950079",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42950079/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "单枚加速度计重建完整跳跃力曲线",
+      "title": "Reconstructing ground reaction force curves from a single accelerometer using functional principal components",
+      "one_liner": "腰部单枚加速度计重建垂直地反力曲线R²达0.96—0.98，但跳高误差仍为4.0—6.1厘米。",
+      "what": "67名参与者完成663次反向跳。功能主成分加MLP重建力曲线，并保留了下蹲深度、峰值力、制动—推进转换力和推进冲量等特征；模型参数量由约12.8万降到约4000。",
+      "why": "它不只预测一个跳高数字，而是尝试保留力—时间策略，适合现场纵向观察动作组织方式。",
+      "practice": "可用于同一运动员的力曲线形态与较大变化筛查；跳高和峰值功率误差仍高于许多训练周期中的真实变化，关键决策应继续用力台复核。",
+      "evidence": "算法开发与交叉验证｜67人、663次跳跃｜单枚腰部加速度计｜PubMed 2026-10-28收录",
+      "confidence": "中（曲线拟合强，但摘要未报告独立外部队列）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42950021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42950021/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "引体向上握距和角度改变肩负荷",
+      "title": "Effects of grip width and angle on sEMG, joint kinematics and moments during pull-ups",
+      "one_liner": "宽握使肩关节净力矩增加7%，0度握角则提高背阔肌、冈下肌和下斜方肌激活。",
+      "what": "21名男性在10种握距和握角组合下完成引体向上。50%掌骨跨度宽握配30度握角提高胸大肌和腹直肌激活；0度握角使部分肩带肌激活最高约达60% MVIC。",
+      "why": "同一动作名称下，握把几何会改变肌肉需求和肩关节力矩，训练处方不能只写‘引体向上’。",
+      "practice": "记录握距占掌骨跨度比例和握角；需要限制肩负荷时避免把宽握自动视为更高级的进阶，目标肌群与症状反应应共同决定设置。",
+      "evidence": "重复测量生物力学研究｜21名男性｜sEMG、运动学、测力与OpenSim建模｜PubMed 2026-10-28收录",
+      "confidence": "中（测量维度丰富，但仅测试单次男性样本）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42950064",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42950064/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "App运动训练改善ADHD儿童动作技能",
+      "title": "Effects of a Multicomponent App-Based Exercise Program on Motor Skill Development in Children With Attention Deficit Hyperactivity Disorder: A Secondary Outcome Analysis of a Three-Arm Randomized Controlled Trial",
+      "one_liner": "12周App训练与面对面训练均优于最低干预，对各动作技能结局的组间差异不显著。",
+      "what": "145名6—10岁ADHD儿童分为微信小程序运动、教练面对面运动和最低干预三组；前两组每周3次、每次45—60分钟。两种运动交付方式在TGMD-3和MABC-2各维度均优于对照。",
+      "why": "它把数字运动从依从性工具推进到与面对面方案并列比较的交付方式，为服务不足地区提供了可扩展选项。",
+      "practice": "可将App用于标准化动作示范、认知—运动任务和家庭执行，并保留家长监督与技术反馈；结果是预设试验的次要结局，尚未证明长期保持或日常功能改善。",
+      "evidence": "三组随机对照试验次要结局｜145名6—10岁ADHD儿童｜12周｜PubMed 2026-10-28收录",
+      "confidence": "中高（随机对照且样本较大，但属于次要结局分析）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42949431",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42949431/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "网络颈部训练省钱但生活质量略低",
+      "title": "Neck-Specific Exercises With Internet Support Versus Standard Neck-Specific Exercise for the Treatment of Chronic Whiplash-Associated Disorders: Cost-Effectiveness Analysis",
+      "one_liner": "网络支持加4次就诊比24次门诊训练成本低，但15个月健康相关生活质量也略低。",
+      "what": "140名慢性中重度挥鞭伤患者接受3个月颈部专项训练。15个月时，网络组平均成本约12,882瑞典克朗，门诊组约40,087；效用值分别为0.662和0.711。",
+      "why": "低成本交付不是无损替代，机构必须明确愿意用多少健康结局交换可及性和资源节省。",
+      "practice": "若采用网络方案，应设置症状或功能未改善时的升级就诊规则，并同时跟踪费用、生活质量和工作影响；研究未计入带病工作成本。",
+      "evidence": "多中心随机试验的成本效果分析｜140名慢性中重度WAD患者｜15个月随访｜PubMed 2026-10-28收录",
+      "confidence": "中（随机设计，但结局差异小且成本资料部分自报）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42950242",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42950242/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "睡眠心率辅助甲减复查分流",
+      "title": "Harnessing AI for Hypothyroidism Monitoring Using Wearable-Derived Heart Rate Data: Retrospective Cohort Study",
+      "one_liner": "可穿戴睡眠心率模型在甲状腺功能正常与甲减子集中准确率78.1%，检出96.3%的重度显性甲减。",
+      "what": "413人提供1677组Fitbit睡眠心率与甲状腺化验配对数据。LightGBM结合既往化验和15夜心率特征；在仅含正常和甲减的744组数据中，使用3次历史参照时灵敏度81.8%、特异度77.7%。",
+      "why": "它把可穿戴设备定位为化验前分流工具，而不是替代血液检查，适合发现需要提前复查的人。",
+      "practice": "若用于随访，应把输出定义为‘建议复查’，并监测假阳性与漏诊；样本以女性和医源性停药人群为主，基层原发甲减仍需前瞻验证。",
+      "evidence": "回顾性队列与患者级留一交叉验证｜413人、1677组配对观察｜PubMed 2026-10-28收录",
+      "confidence": "中（信号明确，但缺少独立前瞻外部验证）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42950109",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42950109/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Gemini 4 Carbon聚焦长程Agent与网络安全",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "one_liner": "Google先向部分网络防御人员开放Carbon，并报告SEC-bench Pro 88.2%、ExploitGym 54.8%和CWE-bench 71.0%。",
+      "what": "Google于10月28日发布Gemini 4 Carbon，初期仅通过Fairwind计划向可信网络防御伙伴分阶段开放；官方定价预告为每百万输入/输出token 2/10美元，后续为4/20美元。",
+      "why": "它把漏洞发现、可利用性验证和根因修补放进同一长程Agent叙事，但当前仍是受限发布。",
+      "practice": "安全团队可先准备隔离代码库、漏洞复现环境和补丁回归集；在获得访问前不要把厂商无护栏基准换算成生产自主权限。",
+      "evidence": "Google官方模型发布与基准披露｜2026-10-28｜受限预览",
+      "confidence": "中（发布、价格和访问范围可核实；性能主要为厂商报告）",
+      "limit": "",
+      "source": {
+        "title": "Google：Introducing Gemini 4 Carbon",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "虚拟模型把路由策略移出应用代码",
+      "title": "Introducing Virtual Models on AI Gateway",
+      "one_liner": "Vercel允许用稳定ID集中切换模型、配置故障转移和强制零数据保留，无需改代码或重新部署。",
+      "what": "团队可为编码、工单或合同审阅分别创建虚拟模型ID；底层模型与提供商可在网关中更新，调用方数分钟内继承新配置。集中策略优先于请求级参数。",
+      "why": "模型更换从代码发布变成运行配置，提高了回滚速度，也把治理风险集中到少数配置变更。",
+      "practice": "为每类任务建立生产ID与候选ID，切换前用同一回归集评测；对模型、提供商选项、保留策略和回滚记录实施代码审阅等价的变更控制。",
+      "evidence": "Vercel官方产品发布｜2026-10-28",
+      "confidence": "中高（功能和配置行为可核实，可靠性收益尚无独立评估）",
+      "limit": "",
+      "source": {
+        "title": "Vercel：Introducing Virtual Models on AI Gateway",
+        "url": "https://vercel.com/blog/ai-gateway-virtual-models"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "超过四成PR由Agent发起",
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "one_liner": "GitHub称9月超过40%的PR由Agent发起，61%的Copilot用户使用多个模型，63%使用过自动模型选择。",
+      "what": "Octoverse统计窗口为2025年10月1日至2026年9月30日。Agent发起PR占比从3月17%升至9月超过40%；带Agent配置的新仓库平均提交数是不带配置者的8倍。",
+      "why": "Agent正从单次补全进入创建变更的入口，人的工作重心转向需求表达、评审和验收。",
+      "practice": "团队应单独追踪Agent发起PR的合并率、返工、缺陷和审阅时长；提交量受项目活跃度与选择偏差影响，不能直接当生产率。",
+      "evidence": "GitHub平台年度观察报告｜公开与私有仓库聚合数据｜2026-10-28",
+      "confidence": "中高（平台数据规模大、口径公开，但属于单平台观察）",
+      "limit": "",
+      "source": {
+        "title": "GitHub Octoverse 2026",
+        "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "运动团队今天最值得做的不是再增加一个现场模型，而是为每个输出同时保存协议、绝对误差和行动阈值。单枚加速度计已能重建力曲线，但4—6厘米跳高误差仍足以吞掉许多真实训练变化。",
+    "数字康复的价值应拆成可及性、成本、运动结局和生活质量。ADHD儿童App训练显示交付方式可以替代部分面对面服务；挥鞭伤数据则提醒，省钱可能伴随小幅健康结局损失。",
+    "AI团队应把模型名称从应用代码中抽离，但不能把治理也抽离。虚拟路由、自动选模和Agent发起PR都需要任务级回归集、配置审计与可快速回滚的基线。"
+  ],
+  "trends_url": "data/trends/2026-10-29.json"
+}

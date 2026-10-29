@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "date": "2026-10-29",
+  "observed_at": "2026-10-29T07:53:00+08:00",
+  "title": "社媒热点｜2026-10-29",
+  "summary": {
+    "title": "从燃料测量到Agent基建：实践者开始追问数字背后的条件",
+    "signal": "本期最有价值的共同线索是把看似简单的数字拆回方法：碳水氧化需要示踪假设，青年体能需要成熟度背景，Agent则需要可读状态、回放与任务级评价。",
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 1,
+      "AI": 3
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-28",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "补给与青少年训练讨论都在从产品或年龄标签转向测量条件和具体能力的发展轨迹。",
+    "运动健康": "临床人员的心理健康案例提示，工作量、家庭角色和自我照护需要在问题升级前被主动讨论。",
+    "AI": "Agent开发正在靠近传统软件工程：状态写入版本库、工作流定义成代码，并用多指标评价替代单一总分。"
+  },
+  "items": [
+    {
+      "id": "8b398a4d862e",
+      "domain": "运动科学",
+      "title": "Asker Jeukendrup解释外源碳水氧化测量的关键假设与高摄入量争议",
+      "short_title": "高碳水氧化数字依赖示踪假设",
+      "author": "Asker Jeukendrup",
+      "platform": "博客",
+      "published_date": "2026-10-28",
+      "priority": "重点关注",
+      "one_liner": "120 g/h以上的氧化率高度依赖背景13C、碳酸氢盐池和饮食控制，实验室间的绝对值不能直接互换。",
+      "what": "文章拆解13C呼气法：摄入量不等于氧化量，背景同位素漂移与方法简化可能放大结果；不同独立实验室在120 g/h时报告的氧化效率约72%—89%。",
+      "why": "高碳水策略的争论常把方法学估计当成直接燃料利用事实，进而把更高氧化率写成更好表现。",
+      "practice": "阅读研究时检查示踪物、饮食控制、背景校正和运动时长；比赛补给仍以表现、胃肠耐受和个体肠道训练为终点，而不是追逐单次氧化峰值。",
+      "evidence": "专家方法学解读与多项研究对照｜2026-10-28",
+      "confidence": "中高",
+      "confidence_reason": "方法限制可追溯到稳定同位素研究，但文章本身不是新的对照试验。",
+      "source": {
+        "url": "https://www.mysportscience.com/post/exogenous-carbohydrate-oxidation"
+      },
+      "references": [
+        {
+          "label": "配套表现策略综述",
+          "url": "https://www.mysportscience.com/post/best-carbohydrates-for-performance"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "faf34df179d1",
+      "domain": "运动科学",
+      "title": "Science for Sport汇总青少年运动员不同体能素质的非同步发展",
+      "short_title": "青春期体能发展并不同步",
+      "author": "Science for Sport",
+      "platform": "博客",
+      "published_date": "2026-10-28",
+      "priority": "值得了解",
+      "one_liner": "纵向荟萃结果显示，下肢功率和耐力在约13岁附近改善较快，10米加速则在12—17岁间更平稳。",
+      "what": "文章基于28项、9个运动项目的纵向研究，强调峰值身高速度附近并非所有能力都会同步跃升；同时对‘完美蛋白’等产品主张保持证据区分。",
+      "why": "按年龄或成熟阶段统一安排训练，容易把自然发育速度误判为训练效果或潜力。",
+      "practice": "青年项目应分别追踪跳跃、加速和耐力的个人轨迹，并结合身高增长速度解释；不要用一次成熟度窗口替代持续测试。",
+      "evidence": "专业媒体研究解读｜2026-10-28｜原研究为纵向荟萃分析",
+      "confidence": "中",
+      "confidence_reason": "文章给出研究规模与发展节点，但本期未取得原始全文的完整效应估计。",
+      "source": {
+        "url": "https://www.scienceforsport.com/the-perfect-protein"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "b085a761acce",
+      "domain": "运动健康",
+      "title": "运动物理治疗师复盘两年焦虑与抑郁管理，强调在低度困扰阶段求助",
+      "short_title": "临床人员心理健康的早期求助",
+      "author": "Mick Hughes",
+      "platform": "博客",
+      "published_date": "2026-10-25",
+      "priority": "值得了解",
+      "one_liner": "个人案例显示，持续过载、负面自我对话和自我照护中断可在危机前长期存在，GP、心理治疗与生活调整形成了组合支持。",
+      "what": "作者回顾工作旅行、家庭任务和自我施压逐渐叠加，之后通过全科医生评估、药物、心理咨询、减少承诺和恢复运动营养管理改善状态。",
+      "why": "康复与体能专业人员经常擅长照顾别人，却可能把自身的长期焦虑和低度抑郁正常化。",
+      "practice": "团队可设置保密的早期求助路径、工作量复盘和定期一对一沟通；这是一名临床人员的经验，不是药物或治疗方案的比较证据。",
+      "evidence": "专业人员第一人称案例｜2026-10-25",
+      "confidence": "中",
+      "confidence_reason": "经历与时间线来自作者本人，可支持实践反思，不能估计治疗效果。",
+      "source": {
+        "url": "https://www.mickhughes.physio/single-post/two-years-since-i-put-my-hand-up"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "ea41a986fe71",
+      "domain": "AI",
+      "title": "Cursor发布Agent SDK，把事件触发、工具、策略、评测和回放组织成代码项目",
+      "short_title": "Agent工作流进入代码化管理",
+      "author": "Cursor",
+      "platform": "官方博客",
+      "published_date": "2026-10-28",
+      "priority": "重点关注",
+      "one_liner": "Agent SDK支持GitHub、GitLab和Bitbucket事件，内置评测与事件回放，可托管部署或自托管为Node进程。",
+      "what": "提示词以Markdown保存，工具用TypeScript定义，策略、连接和评测与普通代码一起版本管理；复杂工作可分派给专门子Agent并行执行。",
+      "why": "可复现的Agent不再只是聊天配置，而是包含触发条件、权限、工具和测试的可审阅软件。",
+      "practice": "先选择一个只读事件工作流，用历史事件回放建立通过率、误报和人工升级指标；部署前对提示、工具和密钥范围走常规代码审阅。",
+      "evidence": "Cursor官方SDK发布｜2026-10-28",
+      "confidence": "中高",
+      "confidence_reason": "功能与部署方式可核实，案例效果主要由发布方和客户自报。",
+      "source": {
+        "url": "https://cursor.com/blog/agent-sdk"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "887c59818f68",
+      "domain": "AI",
+      "title": "Nathan Lambert质疑单一智能指数掩盖基准价值选择",
+      "short_title": "单一模型总分正在失去解释力",
+      "author": "Nathan Lambert / Interconnects",
+      "platform": "通讯",
+      "published_date": "2026-10-28",
+      "priority": "值得了解",
+      "one_liner": "Artificial Analysis v5把知识工作、编码、科学和通用能力各占25%，但任何权重都会改变模型排序和开发方向。",
+      "what": "评论指出，封闭题目减少训练污染，却降低社区发现错误的能力；开放模型在科学任务落后，不等于其在成本、可控部署和专用工作流中的价值消失。",
+      "why": "模型榜单正在同时承担技术测量、市场定价和研发导航，单一总分无法完整表达这些目的。",
+      "practice": "采购和选模应建立任务组合与失败成本权重，并保存分项结果；总榜只用于生成候选，不用于直接决定生产模型。",
+      "evidence": "独立研究者评论与基准方法分析｜2026-10-28",
+      "confidence": "中",
+      "confidence_reason": "权重与排名可核实，关于产业影响的部分属于作者分析。",
+      "source": {
+        "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "59788a007bb4",
+      "domain": "AI",
+      "title": "Latent Space讨论Agent友好后端：声明式状态、近数据计算和可观察运行信息",
+      "short_title": "Agent需要可读的后端状态",
+      "author": "Latent Space / Supabase",
+      "platform": "播客与文字稿",
+      "published_date": "2026-10-28",
+      "priority": "值得了解",
+      "one_liner": "把目标数据库结构写进Git、减少本地依赖并让计算靠近数据库，可降低Agent反复搭建和理解环境的成本。",
+      "what": "访谈讨论无Docker本地运行、声明式schema、数据库旁容器计算，以及日志、检查和连接信息如何帮助Agent理解其正在修改的系统。",
+      "why": "Agent能写SQL并不等于理解当前状态；可读的目标状态与运行反馈决定它能否从原型走向维护。",
+      "practice": "将schema、迁移与策略纳入版本库，为Agent提供只读结构检查和日志；写入操作继续经迁移审阅、测试数据库和回滚脚本。",
+      "evidence": "创始人访谈与产品讨论｜2026-10-28｜部分功能处于alpha",
+      "confidence": "中",
+      "confidence_reason": "产品方向和工作流具体，但规模与转化效果由公司自报。",
+      "source": {
+        "url": "https://latent.space/p/supabase"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动营养团队应把稳定同位素氧化率当成方法依赖的估计，而不是直接的比赛处方。超过90 g/h的策略只有在胃肠耐受、训练强度和表现终点同时受益时才有行动价值。",
+    "临床与体能组织可以把早期心理健康支持当作职业基础设施：低度但持续的焦虑、过载和自我照护中断，值得在危机发生前进入保密沟通与转介流程。",
+    "Agent开发正回到软件工程基本功。状态可读、策略版本化、历史事件回放和任务级评测，比‘选择最强模型’更能解释系统能否长期维护。"
+  ],
+  "trends_url": "data/social/trends/2026-10-29.json"
+}
