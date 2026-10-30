@@ -3784,6 +3784,34 @@
       "last_seen": "2026-10-29T07:53:00+08:00"
     },
     {
+      "id": "0611f5c9d42e",
+      "title": "Breaking Down the Brakes: Mechanical Demands Across Successive Contacts During Maximal 5-m Deceleration",
+      "url": "https://martin-buchheit.net/2026/10/29/breaking-down-the-brakes-mechanical-demands-across-successive-contacts-during-maximal-5-m-deceleration",
+      "date": "2026-10-29",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Martin Buchheit"
+      ],
+      "platform": "研究者博客",
+      "first_seen": "2026-10-30T08:02:35+08:00",
+      "last_seen": "2026-10-30T08:02:35+08:00"
+    },
+    {
+      "id": "2cf1fb795ba0",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "YC Labs"
+      ],
+      "platform": "研究博客",
+      "first_seen": "2026-10-30T08:02:35+08:00",
+      "last_seen": "2026-10-30T08:02:35+08:00"
+    },
+    {
       "id": "59788a007bb4",
       "title": "Why Agents Love Supabase",
       "url": "https://latent.space/p/supabase",
@@ -3796,6 +3824,62 @@
       "platform": "播客与文字稿",
       "first_seen": "2026-10-29T07:53:00+08:00",
       "last_seen": "2026-10-29T07:53:00+08:00"
+    },
+    {
+      "id": "6394645bd510",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "技术博客与开放模型",
+      "first_seen": "2026-10-30T08:02:35+08:00",
+      "last_seen": "2026-10-30T08:02:35+08:00"
+    },
+    {
+      "id": "68dcb801f302",
+      "title": "Control AI crawlers and assistants separately in Vercel Firewall",
+      "url": "https://vercel.com/changelog/block-ai-crawlers-and-assistants-independently-with-managed-rules",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Vercel"
+      ],
+      "platform": "官方产品更新",
+      "first_seen": "2026-10-30T08:02:35+08:00",
+      "last_seen": "2026-10-30T08:02:35+08:00"
+    },
+    {
+      "id": "88899755dba0",
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "独立技术博客",
+      "first_seen": "2026-10-30T08:02:35+08:00",
+      "last_seen": "2026-10-30T08:02:35+08:00"
+    },
+    {
+      "id": "b6b30743068c",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Hugging Face / Mistral AI"
+      ],
+      "platform": "技术博客与开放模型",
+      "first_seen": "2026-10-30T08:02:35+08:00",
+      "last_seen": "2026-10-30T08:02:35+08:00"
     },
     {
       "id": "faf34df179d1",
