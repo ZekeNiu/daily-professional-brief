@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "date": "2026-10-30",
+  "observed_at": "2026-10-30T08:06:00+08:00",
+  "title": "社媒热点｜2026-10-30",
+  "summary": {
+    "title": "从刹车触地到Agent群体：拆开过程才能解释结果",
+    "signal": "本期公开讨论的共同价值是提供过程证据：减速要逐触地看负功，Agent群体要看消息、角色和回放，AI流量与本地模型则需要可区分、可配置的接口。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 0,
+      "AI": 5
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-29",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "减速不是最后一步完成的单事件，早期触地与最后触地承担不同机械任务。",
+    "运动健康": "",
+    "AI": "讨论从单模型能力转向群体行为、部署成本、开放权重、本地专用模型和网站访问策略。"
+  },
+  "items": [
+    {
+      "id": "0611f5c9d42e",
+      "domain": "运动科学",
+      "title": "Martin Buchheit解读5米最大减速中连续触地的机械分工",
+      "short_title": "减速负功集中在最后一步之前",
+      "author": "Martin Buchheit",
+      "platform": "博客",
+      "published_date": "2026-10-29",
+      "priority": "重点关注",
+      "one_liner": "4人先导研究显示，最后区间速度下降最大，但最早两个区间消散的动能和制动功率最高。",
+      "what": "四名休闲男性完成最大5米减速。最后区间贡献44.3%的总速度下降；最早两个区间分别消散25.4%和27.9%的动能。倒数第三、第二次触地约79%和83%的负关节功来自膝，最后一次触地则以髋为主。",
+      "why": "只看最后一步或峰值减速度会漏掉前序触地的高功率制动需求，也无法解释膝—髋策略转换。",
+      "practice": "减速测试可按连续触地报告速度损失、动能消散、制动功率和关节负功；样本仅4人，适合形成测量假设，不适合建立常模或复出阈值。",
+      "evidence": "Sport Performance & Science Reports先导研究解读｜4名休闲男性｜动作捕捉与测力台",
+      "confidence": "低",
+      "confidence_reason": "原始方法和数值可核实，但样本极小。",
+      "source": {
+        "url": "https://martin-buchheit.net/2026/10/29/breaking-down-the-brakes-mechanical-demands-across-successive-contacts-during-maximal-5-m-deceleration"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "88899755dba0",
+      "domain": "AI",
+      "title": "Simon Willison核对高阶ChatGPT订阅的API额度权益",
+      "short_title": "订阅额度可转为API实验预算",
+      "author": "Simon Willison",
+      "platform": "博客",
+      "published_date": "2026-10-29",
+      "priority": "快讯",
+      "one_liner": "100、200或500美元订阅计划可将同额月度额度分配给一个API组织，为原型和公开演示提供独立实验预算。",
+      "what": "Willison对照Anthropic类似权益后指出，符合条件的OpenAI订阅者可把月度API额度分配到一个组织；该额度有使用边界，不能简单视作长期固定云预算。",
+      "why": "订阅与API预算结合会降低个人开发者试验Agent、评测和演示的成本，但也容易掩盖真实单位成本。",
+      "practice": "将赠送额度放入独立API组织并保留硬预算、用量标签和到期提醒；评估生产经济性时仍按标准价格重算。",
+      "evidence": "独立开发者核对官方权益后的实践说明｜2026-10-29",
+      "confidence": "中",
+      "confidence_reason": "权益事实可核对，具体可用范围受账户计划和条款影响。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Oct/29/api-credits"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "b6b30743068c",
+      "domain": "AI",
+      "title": "Mistral Large 4开放权重并快速进入多种推理栈",
+      "short_title": "1T MoE模型进入开放部署栈",
+      "author": "Hugging Face",
+      "platform": "技术博客",
+      "published_date": "2026-10-29",
+      "priority": "值得了解",
+      "one_liner": "Mistral Large 4以1T总参数、52B激活参数发布，Hugging Face同步展示Transformers、vLLM、llama.cpp及量化部署路径。",
+      "what": "官方模型卡和生态说明提供开放权重、长上下文与多模态部署入口，并出现NVFP4、FP8和GGUF等社区或合作格式。",
+      "why": "大规模MoE模型开始获得与软件版本类似的可移植部署面，但硬件、量化误差和长上下文成本仍决定实际可用性。",
+      "practice": "先用目标任务比较原始与量化版本的准确率、显存、首token和吞吐；不要把开放权重等同于能在普通本地设备低成本运行。",
+      "evidence": "Hugging Face官方生态发布与模型卡｜2026-10-29",
+      "confidence": "中",
+      "confidence_reason": "参数、格式和部署支持可核实，性能结论主要来自发布方。",
+      "source": {
+        "url": "https://huggingface.co/blog/mistral-large4"
+      },
+      "references": [
+        {
+          "label": "模型卡",
+          "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "68dcb801f302",
+      "domain": "AI",
+      "title": "Vercel防火墙开始分开控制AI爬虫与用户触发助手",
+      "short_title": "AI抓取与助手访问可分开治理",
+      "author": "Vercel",
+      "platform": "产品更新",
+      "published_date": "2026-10-29",
+      "priority": "值得了解",
+      "one_liner": "网站可拒绝用于索引或训练的AI爬虫，同时允许用户请求触发的AI助手访问内容。",
+      "what": "AI Bots规则集新增ai-crawlers与ai-assistants两个类别，可分别记录或拒绝，并通过CLI执行diff和publish；规则集向所有计划开放。",
+      "why": "过去一刀切封禁会同时阻断训练抓取和用户主动搜索，二者在内容分发价值和授权语境上并不相同。",
+      "practice": "先以log模式观察真实请求，再分别制定策略；托管分类依赖供应商维护的机器人列表，不能替代robots、许可条款和服务器日志核查。",
+      "evidence": "Vercel官方产品更新｜2026-10-29",
+      "confidence": "高",
+      "confidence_reason": "规则类别、配置方式和可用范围可直接核实。",
+      "source": {
+        "url": "https://vercel.com/changelog/block-ai-crawlers-and-assistants-independently-with-managed-rules"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "2cf1fb795ba0",
+      "domain": "AI",
+      "title": "YC Labs在Minecraft与Mindustry中公开多Agent群体实验",
+      "short_title": "游戏环境暴露Agent群体行为",
+      "author": "YC Labs",
+      "platform": "研究博客",
+      "published_date": "2026-10-29",
+      "priority": "重点关注",
+      "one_liner": "50个Agent在Minecraft中形成层级、规则与资源分工；Mindustry对战则提供长时回放、聊天和开放运行框架。",
+      "what": "Minecraft实验运行3小时并产生约5900条消息；群体快速形成目录顺序驱动的领导结构和共享计划。Mindustry进行7局、约9.5小时对战，环境、Agent聊天与框架被开放用于复现。",
+      "why": "群体能力和失败模式可能来自通信结构、角色形成和共享资源竞争，单Agent基准无法覆盖。",
+      "practice": "多Agent评测应保存消息图、共享文件、资源消耗、角色变化和完整回放；游戏结果是研究平台演示，不能直接外推到企业协作可靠性。",
+      "evidence": "YC Labs与Olam Labs公开实验、回放和开源框架｜2026-10",
+      "confidence": "中",
+      "confidence_reason": "环境与轨迹公开，但实验设计和模型比较并非正式同行评审。",
+      "source": {
+        "url": "https://labs.ycombinator.com/projects/games/index.html"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "6394645bd510",
+      "domain": "AI",
+      "title": "AnySpeechRecognizer与AnyDecisionModel把专用模型带到Apple端侧",
+      "short_title": "端侧语音与决策不必都交给LLM",
+      "author": "Hugging Face",
+      "platform": "技术博客",
+      "published_date": "2026-10-29",
+      "priority": "值得了解",
+      "one_liner": "两个Swift包分别统一端侧语音识别和概率型决策接口，支持Parakeet、Qwen3-ASR、MLX、Core AI与llama.cpp。",
+      "what": "AnySpeechRecognizer提供语音转写、说话人分离和命令行评测；AnyDecisionModel用模型概率返回是非、选择和评分结果，而不是生成自由文本。两者可从Hugging Face下载开放模型并在设备上运行。",
+      "why": "许多分类、路由和转写任务不需要通用LLM；专用模型可降低延迟、成本和数据外传。",
+      "practice": "Apple端工作流可先把语音转写和有限选项决策拆出LLM，并用真实口音、噪声和类别失衡数据评测；当前存在Swift、Xcode和后端组合兼容限制。",
+      "evidence": "Hugging Face官方开源包发布｜2026-10-29",
+      "confidence": "高",
+      "confidence_reason": "API、运行要求和已知兼容限制均有公开代码与文档。",
+      "source": {
+        "url": "https://huggingface.co/blog/anydecisionmodel"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "减速测试应把连续触地作为一个序列：最后一步决定剩余速度是否归零，前序触地可能承担更高的动能消散和膝关节负功。当前数据只足以指导测量设计，不足以形成复出阈值。",
+    "多Agent系统的关键观测单位不是最终得分，而是通信、共享状态、角色和恢复轨迹。游戏实验的价值在于提供可回放环境，而不是证明某个模型已适合自主经营生产系统。",
+    "AI基础设施正在分层：通用大模型、端侧专用模型、开放权重和网站访问策略各自承担不同任务。选型应围绕延迟、数据边界和可评测输出，而非统一交给最大模型。"
+  ],
+  "trends_url": "data/social/trends/2026-10-30.json"
+}
