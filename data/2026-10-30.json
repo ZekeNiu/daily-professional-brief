@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-30",
+  "title": "每日专业资讯简报｜2026-10-30",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "今天最值得更新的认识是：测试组合、复合环境和AI治理都需要拆成可验证组件；把多个指标、刺激或安全层堆在一起，并不自动产生更好的决策。"
+  },
+  "navigation": {
+    "prev": "2026-10-29",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "精简测试电池、热—低氧复合训练与营养替代都应围绕具体目标和可辨别效应设计。",
+    "运动健康": "本期证据分别修正了青年髋部筛查、卒中药物增强和髌股疼痛附加技术的判断。",
+    "AI": "模型行为规范、失配监控和科研数据基础设施开始从原则表述走向可检查的运行机制。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "18项力量指标可压缩为6个能力域",
+      "title": "Dimensionality Reduction of Full-Body Strength-Power Metrics to Identify Distinct Strength Domains in Elite Rugby Union Athletes",
+      "one_liner": "20名职业橄榄球运动员的18项指标可归为上肢推拉和下肢等长、动态、反应、相对力量6个域。",
+      "what": "探索性因子分析将4项上肢、5项下肢测试产生的18个指标压缩为6个能力域，解释上肢73%和下肢79%的方差。早期100—200毫秒力主导等长域，重深蹲速度主导动态域，接触时间和下蹲深度主导反应域。",
+      "why": "测试数量多不等于信息更多；峰值力、跳高和负荷速度可能回答不同问题，也可能重复占用训练和测试时间。",
+      "practice": "可按每个能力域保留1—2个高可靠指标，再结合位置需求和伤病史调整；样本仅20名男性职业球员，因子结构应在本队数据中复核后再删减测试。",
+      "evidence": "探索性因子分析｜20名职业男子橄榄球运动员｜18项力量—功率指标｜2026-10-29 PubMed收录",
+      "confidence": "中（结构清晰但样本量对因子分析偏小，外部稳定性未知）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42956284",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42956284/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "热与低氧叠加尚未证明训练收益更高",
+      "title": "Repeated-sprint performance in combined heat and hypoxia: Current evidence",
+      "one_liner": "没有高热时，热—低氧复合环境下重复冲刺表现可维持，但长期适应是否优于单独低氧仍无答案。",
+      "what": "综述显示，热与低氧叠加可改变肌氧和无氧供能反应，但现有结果不一致，且以急性实验、小样本和低参与者多样性为主。",
+      "why": "复合环境可能增加生理刺激，也可能只增加热负担、脱水和恢复成本；急性信号变化不是长期训练优势。",
+      "practice": "若试用，应先控制核心体温、补液和冲刺质量，并与单独低氧方案比较训练完成度；不应仅凭急性肌氧变化追加热刺激。",
+      "evidence": "叙述性证据综述｜重复冲刺、热与低氧复合暴露｜2026-10-29 PubMed收录",
+      "confidence": "低（研究数量少，缺少长期随机训练比较）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42954956",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42954956/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "植物蛋白与乳清未见体成分差异",
+      "title": "Is plant-based protein supplementation as effective as whey protein? A systematic review and meta-analysis in untrained adults undergoing resistance training",
+      "one_liner": "5项研究未发现大豆或豌豆蛋白与乳清在瘦体重和脂肪量变化上的显著组间差异。",
+      "what": "荟萃分析纳入开始抗阻训练的18—59岁未训练成人，并限定DEXA体成分测量。总蛋白摄入和训练变量匹配时，两类补剂均伴随瘦体重改善，组间差异不显著。",
+      "why": "结果支持把蛋白来源选择更多建立在总量、氨基酸组成、耐受、成本和饮食偏好上，而不是默认乳清必然占优。",
+      "practice": "大豆或豌豆蛋白可作为实用替代；只有5项研究且置信区间较宽，“无显著差异”不能写成已经证明生理等效，奇亚蛋白证据仅一项。",
+      "evidence": "系统综述与荟萃分析｜5项研究｜未训练成人抗阻训练｜2026-10-29 PubMed收录",
+      "confidence": "中（方向一致但研究数少，等效性未建立）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42954267",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42954267/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "肌酸不能稳定阻止制动期肌萎缩",
+      "title": "Effects of creatine supplementation on lean mass, muscle size and muscle performance during immobilisation and rehabilitation: A systematic review",
+      "one_liner": "6项安慰剂对照试验未一致支持肌酸减少制动期萎缩，但康复阶段部分研究显示肌围度、力量和功率恢复更快。",
+      "what": "118名以15—24岁为主的参与者经历1—2周肢体制动。影像测得的股四头肌横截面积下降在肌酸和安慰剂间相近；部分DXA/BIA瘦体重结果较好，可能受水合状态影响。4项含恢复期研究中有2项报告较大改善。",
+      "why": "肌酸在正常训练中的作用不能直接外推到完全卸载；恢复期与制动期也应分开判断。",
+      "practice": "若用于康复，可把肌酸定位为抗阻训练的潜在辅助，并优先跟踪影像肌肉大小和功能，而非只看DXA/BIA瘦体重；老年及临床人群证据不足。",
+      "evidence": "系统综述｜6项随机安慰剂对照试验、118人｜短期肢体制动与康复｜2026-10-29 PubMed收录",
+      "confidence": "中（随机试验为主，但样本年轻、方案和测量异质）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42952382",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42952382/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "女足髋臼形态与成熟期暴露相关",
+      "title": "Shallow under load? Prevalence of acetabular morphologies and their association with sport exposure during skeletal maturation in professional female football players",
+      "one_liner": "100名职业女足球员中32%为临界髋臼发育不良、9%为发育不良；较晚初潮者的童年运动暴露与风险升高相关。",
+      "what": "200侧髋关节X线中58%覆盖正常、32%临界发育不良、9%发育不良。较晚初潮球员在8—10岁和11—12岁每增加运动暴露，发育不良优势比分别为1.23和1.21。",
+      "why": "成熟时序可能改变高负荷运动与髋臼发育的关系，为青少年女足髋部症状评估提供背景。",
+      "practice": "对髋腹股沟症状球员可记录初潮年龄和成长阶段训练史，并结合临床检查与影像；回顾性暴露和横断面形态不能证明训练造成发育不良，也不支持对无症状球员普遍限制运动。",
+      "evidence": "PROFE队列回顾性横断面研究｜100名职业女足球员、200侧髋｜X线与问卷",
+      "confidence": "中（样本明确，但童年暴露依赖回忆且不能推断因果）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42954471",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42954471/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "多巴胺能药物未改善卒中运动恢复",
+      "title": "Levodopa or dopamine agonists for enhancing motor function after stroke",
+      "one_liner": "Cochrane综述纳入12项RCT、1860人，未发现左旋多巴或多巴胺激动剂改善卒中后运动功能。",
+      "what": "连续运动结局合并效应置信区间很宽且异质性I²达99%；仅保留两项低偏倚试验、1025人后，效应接近零（SMD 0.02，95%CI −0.10至0.14）。严重不良事件也无明显组间差异。",
+      "why": "高质量敏感性分析比总体高异质结果更能改变实践判断：目前不支持把多巴胺能药物作为常规运动康复增强剂。",
+      "practice": "卒中运动恢复仍应以任务训练和康复剂量为核心；药物增强应限于研究或有独立临床适应证的情境。",
+      "evidence": "Cochrane系统综述｜12项平行组RCT、1860人｜GRADE低至极低确定性",
+      "confidence": "高（综述方法严格，关键低偏倚试验结果接近零；证据确定性仍低）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42954433",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42954433/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "全身电刺激可能增加髌股疼痛训练收益",
+      "title": "The effect of adding whole-body electromyostimulation to hip and knee strengthening exercises on pain, muscle strength, and function in women with patellofemoral pain syndrome",
+      "one_liner": "36名女性的7周RCT中，强化训练叠加全身电刺激在3个月疼痛和Kujala功能上优于单纯强化训练。",
+      "what": "两组均每周3次髋膝强化，干预组另加每周2次WB-EMS。3个月时疼痛组间差为−7.64分，Kujala量表差7.32分；7周时膝屈伸力量和台阶下蹲重复次数也更高。",
+      "why": "研究检验的是在标准强化之上的增量价值，而不是以设备替代运动治疗。",
+      "practice": "可将WB-EMS作为短期附加选项，尤其在常规负荷受限时；样本仅36人、单盲且缺少长期客观随访，采购前应比较增量收益、成本和依从性。",
+      "evidence": "单盲随机对照试验｜36名单侧髌股疼痛女性｜7周训练、3个月随访",
+      "confidence": "中（随机设计且有随访，但样本小、盲法有限）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42954254",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42954254/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Model Spec转向意图、监督与副作用",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "one_liner": "OpenAI将模型行为规范重组为五项价值，并增加上下文、记忆、个性化、人类能动性和副作用沟通指引。",
+      "what": "10月29日更新以忠实于人类意图、减少伤害、诚实透明、人类能动性和关怀为核心，修订指令层级与行为默认，并退役多数细粒度风格规则。官方明确说明这是目标行为，现有模型尚未完全实现。",
+      "why": "对Agent开发而言，规范从静态拒绝规则扩展到如何理解上下文、处理监督和说明外部影响。",
+      "practice": "应用团队应把规范转成自己的可执行测试：冲突指令、记忆引用、外部写操作、撤销路径和副作用披露分别做回归，而不是把官方文档当作运行时保证。",
+      "evidence": "OpenAI官方行为规范更新｜2026-10-29｜规范性文件而非性能评测",
+      "confidence": "高（更新内容和适用意图可直接核实）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI：An updated Model Spec",
+        "url": "https://openai.com/index/updated-model-spec/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "失配监控进入分层筛查与事件回放",
+      "title": "How we detect frontier model misalignment",
+      "one_liner": "OpenAI披露从激活探针、模型审查到调查Agent和人工响应的多层监控，并用历史事件、模拟攻击和随机抽样评估漏检。",
+      "what": "L0以高召回探针筛查并随机抽取5%未标记流量；L1审查对话、推理和工具调用；L2调查任务目的及跨上下文证据；敏感工作负载再结合网络日志与既往案例。部分最高优先级事件可自动暂停工作负载。",
+      "why": "单一安全分类器无法覆盖长程Agent。可用监控必须同时处理召回、误报、跨步骤证据和响应时限。",
+      "practice": "生产Agent可借鉴为轻量筛查—完整轨迹审查—外部遥测—人工升级四层，并定期回放真实失败；官方也承认部分流量未启用全天候人工告警，覆盖不等于及时干预。",
+      "evidence": "OpenAI官方系统说明与内部事件评测｜2026-10-29",
+      "confidence": "中（架构与案例可核实，整体漏检率和外部可复制性未充分公开）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI：How we detect frontier model misalignment",
+        "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "ProtoStar推动科研产物机器可用",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "one_liner": "多所大学、Hugging Face与开放科研组织启动ProtoStar，推动公共资助数据、模型和代码以带元数据与溯源的机器可用格式发布。",
+      "what": "计划将通过机构备忘录、开放基础设施和连续挑战测试科研产物能否被发现、复用和组合。首个CMU气候挑战使用210座城市历史数据预测2019—2026观测结果，并与简单统计基线比较。",
+      "why": "公开访问不等于可复用；缺少文档、版本和溯源会直接限制科研Agent和自动分析的可靠性。",
+      "practice": "研究团队可将数据字典、许可、版本、生成代码、基线和已知缺失作为发布最小集；首个挑战尚未完成，当前能确认的是基础设施与评测设计，而非AI已改善科学预测。",
+      "evidence": "多机构开放科学倡议与挑战公告｜2026-10-29",
+      "confidence": "高（参与方、发布要求和挑战设计可核实；实际成效尚未知）",
+      "limit": "",
+      "source": {
+        "title": "Hugging Face：Project ProtoStar",
+        "url": "https://huggingface.co/blog/announcing-project-protostar"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "运动测试电池应按决策域删减，而不是按设备保留。橄榄球数据提示早期力、重负荷速度和反应时间结构并非同一能力；每个域保留一个可靠指标通常比持续增加总指标更可操作。",
+    "康复中的附加技术必须回答增量价值。多巴胺能药物在低偏倚卒中试验中效应接近零；WB-EMS则出现短期增益信号，但尚需用成本、依从性和长期功能判断是否值得部署。",
+    "AI治理应同时包含规范、检测和可复用证据。行为原则需要转为回归测试，监控需要连接完整轨迹与外部遥测，科研数据则需要版本和溯源才能真正被Agent复用。"
+  ],
+  "trends_url": "data/trends/2026-10-30.json"
+}
