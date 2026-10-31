@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-31",
+  "title": "每日专业资讯简报｜2026-10-31",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 4,
+      "AI": 3
+    },
+    "signal": "今天最值得更新的认识是：恢复成绩或完成任务不等于原有机制已经恢复；从跟腱修复后的关节代偿，到模型评测中的合成环境，都需要检查过程层证据。"
+  },
+  "navigation": {
+    "prev": "2026-10-30",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "轻负荷弹道训练、器械选择和代谢组恢复轨迹都提示：训练结果、即时疲劳与生物恢复必须分层测量。",
+    "运动健康": "重返表现、低负荷康复和术式选择应同时检查功能、局部机制与长期失败，而非只看短期症状或总任务成绩。",
+    "AI": "生命科学模型、企业级评测和网站训练偏好都从原则走向更具体的访问、数据与验证机制。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "轻负荷弹道深蹲提高跳跃但未保住冲刺",
+      "title": "Effects of Ballistic and Traditional Half-Squat Training With Light Loads on Strength, Jump, and Sprint Performance in Young Rugby Players: A Randomized Controlled Trial",
+      "one_liner": "25名青年橄榄球运动员赛季中训练6周，弹道跳深蹲比传统半蹲带来更大力量与跳跃增益，但两组30米冲刺都下降。",
+      "what": "两组每周3次、使用30%—40% 1RM。弹道组力量约提高7%、跳跃约提高16%，传统组约为4%与8%，CMJ组间交互有利于弹道组；两组30米冲刺均下降且无组间差异。",
+      "why": "同一力量—功率方案可以改善垂直输出，却无法自动抵消密集赛程中的水平冲刺损失，说明转移效应需要专项验证。",
+      "practice": "赛季中可用轻负荷弹道动作维持或提高神经肌肉输出，但要单独安排短距离高质量冲刺暴露，并用冲刺分段而非跳跃成绩替代速度监控。",
+      "evidence": "随机对照试验｜25名高训练水平青年橄榄球运动员｜6周、每周3次｜2026-10-30 PubMed收录",
+      "confidence": "中（随机设计且结果具体，但样本小、赛程负荷可能影响冲刺）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42956728",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42956728/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "史密斯深蹲的神经肌肉疲劳更低",
+      "title": "Central and Peripheral Fatigue Following Free-Weight and Smith Machine Squat Training: Neuromuscular Efficiency in Knee Extensors",
+      "one_liner": "相同4×9、70% 1RM下，自由重量与史密斯深蹲的速度损失和主观疲劳相近，但自由重量造成更大中枢与外周疲劳。",
+      "what": "19名训练男性随机交叉完成两种深蹲。速度损失、剩余次数估计和等长力变化未见差异，但抽搐插入法显示自由重量组多数中枢与外周疲劳指标更高。",
+      "why": "常用的杆速和主观量表未捕捉到全部神经肌肉成本；器械稳定性可能改变同样外部负荷下的恢复需求。",
+      "practice": "在需要保留膝伸肌训练刺激、又要控制短期神经肌肉成本的密集周期，可考虑史密斯深蹲；结论只覆盖单次训练和膝伸肌，不能据此判断长期专项转移。",
+      "evidence": "随机交叉实验｜19名力量训练男性｜4×9 @70% 1RM｜抽搐插入法",
+      "confidence": "中（实验控制较好，但样本小且只测单次反应）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42956730",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42956730/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "恢复60分钟后仍有140种代谢物偏离基线",
+      "title": "Baseline-referenced plasma metabolomic trajectories during early post-exercise recovery: A secondary analysis of public human exercise metabolomics data",
+      "one_liner": "19人完成90分钟耐力跑后，198种代谢物即时改变，60分钟恢复后仍有140种偏离基线。",
+      "what": "研究二次分析两个公开血浆代谢组数据集。主数据中116种代谢物在即时运动后至60分钟恢复间继续变化；77个跨数据集匹配特征中74个至少有一次方向一致的外部比较，最终筛出54个优先候选。",
+      "why": "只比较运动后与恢复时点会把“正在回归基线”和“仍残留偏离”混在一起；基线参照轨迹更适合组织早期恢复信号。",
+      "practice": "恢复研究应预先保留基线、即时运动后及多个恢复时点，并报告个体轨迹；这些候选来自二次分析，只能用于后续验证和靶向检测设计，尚不是可用恢复生物标志物。",
+      "evidence": "公开数据二次分析｜主数据19人、57份配对样本｜外部数据支持｜假设生成",
+      "confidence": "中（跨数据集方向支持较强，但非前瞻验证）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42961852",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42961852/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "跟腱修复后冲刺成绩恢复仍伴踝关节代偿",
+      "title": "Ankle and knee joint differences exist despite restoration of acceleration performance after Achilles tendon repair",
+      "one_liner": "跟腱修复者可完成与对照相近的加速任务时间，但踝正功、负功率和背屈仍低，并以更高膝正功代偿。",
+      "what": "23名跟腱修复者与22名对照完成单腿反应式最大加速。修复组踝峰值负功率、踝正功、踝背屈和平均垂直地反力更低，膝正功更高；任务完成时间无组间差异。",
+      "why": "全局成绩恢复可能掩盖远端力学缺陷与近端代偿；仅凭冲刺时间放行，可能漏掉仍未恢复的踝关节能力。",
+      "practice": "重返冲刺评估应把任务时间与踝正功、负功率、背屈范围、双侧差异及膝代偿并列；训练可继续针对踝跖屈输出和快速伸缩负荷，而不是因总成绩正常就停止局部恢复。",
+      "evidence": "横断面生物力学研究｜45人（修复23、对照22）｜3D动力学与反应式冲刺",
+      "confidence": "中（效应和机制一致，但横断面设计不能确定代偿的时间演变）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42956444",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42956444/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "BFR在多发性硬化中的功能收益仍不确定",
+      "title": "Effects of blood flow restriction therapy on lower-limb strength in multiple sclerosis: A systematic review and meta-analysis",
+      "one_liner": "5项研究提示低负荷训练叠加BFR可改善腿后肌力量，但股四头肌效应在敏感性分析中消失，步态和坐站未见明确收益。",
+      "what": "干预持续6—12周，负荷30%—40% 1RM，压力30%—80%动脉闭塞压。合并结果显示股四头肌SMD 0.55、腿后肌0.38的改善信号，但股四头肌结果不稳健，功能结局没有明确优势。",
+      "why": "低负荷BFR可能适合高负荷耐受有限的人群，但肌力变化不等于步态或日常功能改善。",
+      "practice": "若用于MS康复，应把BFR定位为低负荷力量训练的可选附加，并同时追踪疲劳、步态和坐站；现有证据不足以确定最佳压力，也不能证明其等同高负荷训练。",
+      "evidence": "系统综述与荟萃分析｜5项临床/准实验研究｜证据确定性低",
+      "confidence": "低（研究少，方案异质，关键股四头肌结果不稳健）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42956553",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42956553/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "腕舟月韧带内支撑出现长期结构失败信号",
+      "title": "Internal Brace Augmentation for Scapholunate Interosseous Ligament Injuries Is Supported by Limited Evidence and Is Associated With Early Failures: A Systematic Review",
+      "one_liner": "11项研究、161腕中，内支撑未在比较研究中改善临床结局；最长随访研究结构失败44%，多项研究锚周骨溶解达36%—59%。",
+      "what": "系统综述纳入2项比较研究和9项单臂系列，随访12—50个月。短期疼痛、握力和影像对位常改善，但比较研究未显示叠加内支撑的优势；超过4年的唯一研究中近半结构失败。",
+      "why": "短期稳定和早期康复承诺可能掩盖锚周骨溶解及迟发结构失败，改变了该术式的知情同意与随访重点。",
+      "practice": "不应仅凭早期症状和影像改善常规推广；术前应说明长期失败信号，术后保留影像监测，并把新技术评估窗口延长到至少5年。",
+      "evidence": "系统综述｜11项非随机研究、161腕｜Level IV｜最长随访50个月",
+      "confidence": "中（长期不良信号具体，但总体证据以小样本非随机系列为主）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42962064",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42962064/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "爱尔兰曲棍球出现一致的颈椎重伤机制",
+      "title": "Cervical spine injuries in Gaelic hurling",
+      "one_liner": "5例年轻球员严重颈椎伤中4例脊髓损伤、4例需手术，常见情境是低头控球时被盲侧撞击并头部先着地。",
+      "what": "爱尔兰脊柱损伤三级中心回顾2024年7月至2025年9月病例并访谈，识别出重复机制：球员弯髋、视线向下、双手占用时从盲侧受撞，随后头部先着地。",
+      "why": "虽无法估计发生率，但高度一致的任务情境提供了规则、执法和技术训练可直接观察的风险点。",
+      "practice": "可优先审查盲侧接触规则、低位控球情境训练和视频事件编码，并建立全联盟暴露分母；5例病例系列适合触发预防行动与监测，不足以量化某项干预的效果。",
+      "evidence": "病例系列｜5例年轻曲棍球运动员严重颈椎伤｜临床影像与结构化访谈",
+      "confidence": "中（伤情与机制描述具体，但无暴露分母和对照）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42961726",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42961726/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "GPT-6 Rosalind进入受控生命科学研究",
+      "title": "GPT-6 Rosalind Research",
+      "one_liner": "OpenAI将GPT-6级生命科学推理模型向获批Research客户有限开放，覆盖Work、Codex与API，并设置组织与用户双重授权。",
+      "what": "10月30日发布的gpt-6-rosalind面向多步骤生命科学研究，不在Chat标签页提供；Enterprise先经历两周管理员预览且默认关闭，Discovery批准不自动获得Research权限。",
+      "why": "高能力生物研究模型正在从通用访问转为用途审查、组织治理和细粒度用户授权并行的部署模式。",
+      "practice": "获批机构应把模型接入限定到明确项目与授权人员，记录工具调用、数据来源和实验决策；发布说明能确认访问与治理结构，不能替代对具体科研任务的独立准确性验证。",
+      "evidence": "OpenAI官方模型发布说明与系统卡补充｜2026-10-30｜受控发布",
+      "confidence": "高（模型、访问条件和部署范围可直接核实）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI Model Release Notes",
+        "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "合成企业环境开始承担Agent回归评测",
+      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
+      "one_liner": "Microsoft构建全规模合成企业环境作为Copilot标准评测基线，复合质量指标较初始生成方案提高39%。",
+      "what": "平台以O*NET、公开职位信息和SEC文件为依据生成不含真实客户敏感数据的组织、人员与内容，并用自动查询流水线评测Copilot。该环境已进入内部共享目录，供跨团队复用。",
+      "why": "企业Agent评测既需要真实组织复杂度，又不能直接复制客户数据；可复用的合成环境可让权限、检索和跨应用任务进入持续回归。",
+      "practice": "团队可为典型组织角色、权限边界、文档冲突和工具失败生成版本化测试环境，并把生产失败补入评测集；39%是发布方的合成数据质量指标，不等于Copilot真实业务成功率提高39%。",
+      "evidence": "Microsoft Research官方工程案例｜内部平台与复合质量指标｜2026-10-30",
+      "confidence": "中（平台与部署事实可核实，外部复现和下游业务效度尚未公开）",
+      "limit": "",
+      "source": {
+        "title": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "网站可用统一robots信号表达训练偏好",
+      "title": "Making it easier for websites to express AI training preferences",
+      "one_liner": "OpenAI宣布将遵循robots.txt中的跨厂商共同信号，让网站统一表达是否允许内容用于基础生成式AI训练。",
+      "what": "共同信号旨在替代逐个维护不同厂商爬虫规则的部分工作。OpenAI表示将在未来数月实施，具体实现细节尚待后续更新。",
+      "why": "内容许可开始从厂商专属爬虫名单走向可互操作偏好层，可降低发布者维护成本并提高机器可读性。",
+      "practice": "网站方可提前梳理训练、搜索和用户触发助手的不同政策，并保留服务器日志核验；当前是实施承诺，不应把信号发布写成所有参与方已完成执行或具有法律许可效力。",
+      "evidence": "OpenAI官方政策与技术公告｜2026-10-30｜计划在未来数月实施",
+      "confidence": "高（公告内容明确；实际执行效果尚未发生）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "训练转移必须按目标能力验收。青年橄榄球数据中力量与跳跃改善并未阻止冲刺下降；赛季内应保留专项速度暴露，而不能用力量—功率进步替代速度判断。",
+    "重返运动和术后随访要检查局部机制与长期耐久性。跟腱修复者的任务时间可正常但踝输出仍低；腕部内支撑的短期改善也未消除长期骨溶解与结构失败信号。",
+    "AI部署正在把访问控制、评测环境和内容偏好做成独立层。生命科学模型需要项目级授权，企业Agent需要可回归的合成环境，内容网站则需要区分训练抓取、检索与用户触发访问。"
+  ],
+  "trends_url": "data/trends/2026-10-31.json"
+}

@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "date": "2026-10-31",
+  "observed_at": "2026-10-31T08:00:16+08:00",
+  "title": "社媒热点｜2026-10-31",
+  "summary": {
+    "title": "从专项动作到模型权重：把系统拆开才看得见边界",
+    "signal": "本期公开讨论集中在可检查的实现层：跳高助跑需要分段稳定，模型权重可以承载确定性电路，开放模型的风险则必须与真实攻击生态分开判断。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 0,
+      "AI": 5
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-30",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "跳高助跑的价值不只是获得速度，而是把节奏、曲线和起跳位置稳定成可重复技能。",
+    "运动健康": "",
+    "AI": "讨论横跨确定性电路写入模型权重、开放模型网络安全归因、多模态本地Agent与视频重生成工程。"
+  },
+  "items": [
+    {
+      "id": "571016b414bf",
+      "domain": "运动科学",
+      "title": "Rob Assise拆解跳高助跑训练的节奏、曲线与检查点",
+      "short_title": "跳高助跑先稳定路径再追求速度",
+      "author": "Rob Assise / SimpliFaster",
+      "platform": "实践者博客",
+      "published_date": "2026-10-30",
+      "priority": "值得了解",
+      "one_liner": "助跑训练应把直线段、曲线段、节奏和起跳位置拆开练习，再逐步回到全程助跑。",
+      "what": "文章围绕跳高J形助跑的建立与校准，强调以分段跑、曲线跑、标记点和逐步延长助跑来形成稳定节奏，而不是只追求末端最大速度。",
+      "why": "助跑偏差会改变身体内倾、倒数步和起跳位置；技术问题若只在完整跳跃中修正，反馈常被过杆结果掩盖。",
+      "practice": "可分别记录各段用时、弧线位置、最后两步节奏和起跳点偏差，再逐步增加助跑长度；这是教练方法文章，应以本队命中率和起跳一致性检验，而不是当作已验证处方。",
+      "evidence": "教练实践方法文章｜2026-10-30",
+      "confidence": "中",
+      "confidence_reason": "训练逻辑具体可执行，但未提供对照研究。",
+      "source": {
+        "url": "https://simplifaster.com/articles/entrenamiento-de-la-carrera-de-aproximacion-en-el-salto-de-altura"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "54f20f9f7f25",
+      "domain": "AI",
+      "title": "Nesformer把NES 6502处理器编译进Qwen3.5权重",
+      "short_title": "模型权重可承载确定性CPU",
+      "author": "Simon Willison / Drew Breunig",
+      "platform": "独立技术博客与GitHub",
+      "published_date": "2026-10-30",
+      "priority": "重点关注",
+      "one_liner": "项目没有训练模型，而是把6502 CPU、2KB RAM和程序ROM编译进Qwen3.5-4B权重，并逐token输出执行轨迹。",
+      "what": "测试游戏每帧与传统6502模拟器输出一致；优化引擎在单CPU核约1650 token/s，但整体仍比真实主机慢150—290倍，且只支持NROM、官方操作码等有限范围。",
+      "why": "它把Transformer类权重从概率生成器变成可编译计算载体，清楚区分了“学得的行为”和“写入的确定性电路”。",
+      "practice": "研究者可用一致性测试、参考实现逐步对照和明确的输入边界来评估此类神经计算系统；当前价值在方法证明，不在替代高效模拟器。",
+      "evidence": "开源工程项目、代码与一致性测试｜MIT许可｜2026-10-30",
+      "confidence": "高",
+      "confidence_reason": "实现、限制、速度和参考对照均公开可核查。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Oct/30/nesformer"
+      },
+      "references": [
+        {
+          "label": "GitHub项目",
+          "url": "https://github.com/dbreunig/nesformer"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "d4d35b3da5b2",
+      "domain": "AI",
+      "title": "Nathan Lambert修正对开放模型网络安全风险的判断",
+      "short_title": "网络风险归因不能只盯开放权重",
+      "author": "Nathan Lambert / Interconnects",
+      "platform": "专家通讯",
+      "published_date": "2026-10-30",
+      "priority": "重点关注",
+      "one_liner": "Lambert认为近期漏洞增长是真实风险，但公开证据仍不足以把变化主要归因于开放权重模型，封闭模型也深度参与攻防。",
+      "what": "文章回顾近期严重漏洞与攻击讨论，修正先前“开放模型基本无碍”的措辞，同时强调攻击者动机、算力成本、服务可得性和既有漏洞趋势共同决定实际危害。",
+      "why": "模型能力、开放方式与社会危害不是同一个变量；没有攻击链、调用来源和基线趋势，单凭事件数量无法判断开放权重造成了阶跃式风险。",
+      "practice": "安全评估应记录漏洞发现来源、模型访问方式、攻击者资源与补丁时延，并同时比较开放和封闭服务；本文是专家判断与证据梳理，不是因果研究。",
+      "evidence": "专家分析与公开事件综合｜2026-10-30",
+      "confidence": "中",
+      "confidence_reason": "论证区分了多种机制，但模型实际使用数据仍有较大不确定性。",
+      "source": {
+        "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "037154e824aa",
+      "domain": "AI",
+      "title": "NVIDIA公开本地多模型万圣节语音Agent的完整组合",
+      "short_title": "本地语音Agent拆成听说想与动画",
+      "author": "NVIDIA / Hugging Face",
+      "platform": "技术博客与开放模型",
+      "published_date": "2026-10-30",
+      "priority": "值得了解",
+      "one_liner": "项目将流式ASR、Nemotron 3.5 Bolt E4B、零样本TTS和Audio2Face拆成独立本地组件，驱动实时会说话的车库门。",
+      "what": "语音Agent在RTX PRO 6000上运行，Unreal Engine与Audio2Face置于另一张RTX PRO 4000；作者明确把计算吞吐而非显存视为保持动画帧率的主要约束。",
+      "why": "实时多模态Agent的瓶颈来自组件并发、延迟和硬件分配，单一大模型指标无法解释整体交互质量。",
+      "practice": "原型可分别测ASR延迟、模型首token、TTS启动、动画帧率与端到端中断恢复，再决定是否合并组件；该案例仍是单一硬件配置的工程演示。",
+      "evidence": "NVIDIA工程案例与开放模型/蓝图｜2026-10-30",
+      "confidence": "中",
+      "confidence_reason": "组件与硬件可核实，但未提供系统化跨硬件基准。",
+      "source": {
+        "url": "https://huggingface.co/blog/nvidia/nemotron-halloween"
+      },
+      "references": [
+        {
+          "label": "Nemotron Voice Agent",
+          "url": "https://github.com/NVIDIA-AI-Blueprints/nemotron-voice-agent"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "5d096e437ca7",
+      "domain": "AI",
+      "title": "英伟达与MIT开源MiniMax H3视频重生成方案",
+      "short_title": "2K视频重生成压缩到约22秒",
+      "author": "量子位 / NVIDIA与MIT团队",
+      "platform": "中文科技媒体与开源项目",
+      "published_date": "2026-10-30",
+      "priority": "值得了解",
+      "one_liner": "Open-H3-Regenerate-2K冻结H3主干与VAE，只训练细化LoRA，并用三步去噪、潜空间放大和快速解码加速高分辨率重生成。",
+      "what": "发布方测试称，单张B200上约5秒视频的潜空间放大、三步细化和2K解码从87.26秒降至22.45秒；RefinerBench-150的UniPercept平均分60.0，高于官方API的53.4，但运动平滑度略低。",
+      "why": "方案展示了开放基础模型上通过LoRA、稀疏注意力和VAE优化形成可部署视频后处理栈，而非重新训练完整视频模型。",
+      "practice": "采用前应以自有镜头复测细节、运动连续性、显存和总时延，并保存原始草稿用于回退；速度与质量数字均来自项目团队条件。",
+      "evidence": "中文技术报道、开源权重与发布方基准｜2026-10-30",
+      "confidence": "中",
+      "confidence_reason": "实现和测试条件具体，但缺少独立基准复核。",
+      "source": {
+        "url": "https://www.qbitai.com/2026/10/506743.html"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "55737272f83d",
+      "domain": "AI",
+      "title": "SRE讨论AI辅助是否在削弱故障排查能力",
+      "short_title": "AI提速运维也可能削弱技能积累",
+      "author": "SigNoz Newsletter / Hacker News讨论",
+      "platform": "工程通讯与社区讨论",
+      "published_date": "2026-10-30",
+      "priority": "值得了解",
+      "one_liner": "讨论焦点从AI是否替代SRE转向：若工具直接给出修复步骤，团队可能减少建立系统心智模型和独立诊断的机会。",
+      "what": "文章将技能退化风险放在告警解释、日志查询、根因分析和事故响应流程中，主张保留人类对系统状态、假设和验证路径的显式记录。",
+      "why": "短期解决速度与长期团队能力是不同指标；只优化平均修复时间可能掩盖对工具依赖和罕见故障处理能力下降。",
+      "practice": "可要求AI先给证据与候选假设，再由值班人员选择验证；事故复盘同时记录AI建议、人工修正和未被发现的路径。当前内容是实践观点，不是技能退化的纵向实证。",
+      "evidence": "工程实践评论与社区讨论｜2026-10-30",
+      "confidence": "低",
+      "confidence_reason": "问题具有实践价值，但缺少长期对照数据。",
+      "source": {
+        "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "专项技术文章最有用的部分是把结果拆成可观测过程。跳高助跑应分段看路径、节奏与起跳偏差，而不是只看最终过杆高度。",
+    "Nesformer提示模型权重不只承载统计模式，也可被编译成确定性电路；评测时必须先区分系统是在学习、检索、调用工具，还是执行被写入权重的算法。",
+    "AI风险和工程收益都需要生态级基线。网络安全归因要连接攻击者、访问方式和历史趋势；多模态Agent与视频重生成则要分别核对组件延迟、质量和硬件成本。"
+  ],
+  "trends_url": "data/social/trends/2026-10-31.json"
+}
