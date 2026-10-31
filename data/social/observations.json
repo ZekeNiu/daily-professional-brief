@@ -3742,6 +3742,20 @@
       "last_seen": "2026-10-28T08:22:00+08:00"
     },
     {
+      "id": "1c640f88e053",
+      "title": "Do the Math: How We Took Over ChatGPT Accounts",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Mukul Goyal / Parameter"
+      ],
+      "platform": "安全研究博客",
+      "first_seen": "2026-11-01T07:51:11+08:00",
+      "last_seen": "2026-11-01T07:51:11+08:00"
+    },
+    {
       "id": "887c59818f68",
       "title": "Artificial Analysis v5 and the benchmarker's dilemma",
       "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
@@ -3924,6 +3938,20 @@
       "last_seen": "2026-10-31T08:00:16+08:00"
     },
     {
+      "id": "80c8954150da",
+      "title": "Own your data",
+      "url": "https://www.hawkindynamics.com/blog/data-ownership",
+      "date": "2026-10-30",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Ben Watson / Hawkin Dynamics"
+      ],
+      "platform": "厂商观点文章",
+      "first_seen": "2026-11-01T07:51:11+08:00",
+      "last_seen": "2026-11-01T07:51:11+08:00"
+    },
+    {
       "id": "037154e824aa",
       "title": "nemotron-halloween",
       "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
@@ -3936,6 +3964,34 @@
       "platform": "技术博客与开放模型",
       "first_seen": "2026-10-31T08:00:16+08:00",
       "last_seen": "2026-10-31T08:00:16+08:00"
+    },
+    {
+      "id": "4254cf14ca6b",
+      "title": "Plyometrics Start With the Landing: Chris Korfist and Dan Fichter",
+      "url": "https://simplifaster.com/articles/plyometrics-landing-korfist-fichter",
+      "date": "2026-10-31",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Chris Kerr / Chris Korfist / Dan Fichter"
+      ],
+      "platform": "实践者博客",
+      "first_seen": "2026-11-01T07:51:11+08:00",
+      "last_seen": "2026-11-01T07:51:11+08:00"
+    },
+    {
+      "id": "53329debad3f",
+      "title": "DeepSeek Harness: Everything is a Plugin",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "date": "2026-10-31",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "DeepSeek"
+      ],
+      "platform": "官方开源仓库",
+      "first_seen": "2026-11-01T07:51:11+08:00",
+      "last_seen": "2026-11-01T07:51:11+08:00"
     },
     {
       "id": "54f20f9f7f25",
@@ -3978,6 +4034,34 @@
       "platform": "专家通讯",
       "first_seen": "2026-10-31T08:00:16+08:00",
       "last_seen": "2026-10-31T08:00:16+08:00"
+    },
+    {
+      "id": "1a9ec1373c3b",
+      "title": "HackerTube",
+      "url": "https://karpathy.bearblog.dev/hacker-tube",
+      "date": "2026-11-01",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Andrej Karpathy"
+      ],
+      "platform": "个人博客",
+      "first_seen": "2026-11-01T07:51:11+08:00",
+      "last_seen": "2026-11-01T07:51:11+08:00"
+    },
+    {
+      "id": "bc32ee579288",
+      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+      "url": "https://latent.space/p/arca",
+      "date": "2026-11-01",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Aman Singh / Latent Space"
+      ],
+      "platform": "访谈与播客",
+      "first_seen": "2026-11-01T07:51:11+08:00",
+      "last_seen": "2026-11-01T07:51:11+08:00"
     }
   ]
 }
