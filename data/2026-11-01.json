@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-01",
+  "title": "每日专业资讯简报｜2026-11-01",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 4,
+      "AI": 3
+    },
+    "signal": "今天最值得更新的认识是：工具或方案进入实践前，不仅要证明能测、能做，还要检查设备间系统偏差、目标人群可用性，以及组件边界是否真正隔离。"
+  },
+  "navigation": {
+    "prev": "2026-10-31",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "便携测量与智能可穿戴正在扩展现场数据，但跨设备一致性和复杂运动中的信号质量仍是应用前提。",
+    "运动健康": "本期研究把安全、可行、功能收益和真实采用拆开检验；多个方案可实施，却尚未证明所有临床结局改善。",
+    "AI": "Agent与生成式工作区继续走向可组合工具，但分享、预览和长周期执行让权限边界、持久记忆与确定性控制成为核心工程问题。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "便携超声可靠，但设备间存在固定偏差",
+      "title": "Ultrasound Evaluation of the Abductor Hallucis Muscle in Youth: A Reliability Study",
+      "one_liner": "27名11—17岁青少年中，便携超声测量拇展肌横截面积的评定者间与跨次信度均优秀，但台式设备读数平均高0.19 cm²。",
+      "what": "便携设备的评定者间ICC为0.934、跨次ICC为0.969，SEM分别为0.039和0.013 cm²；与台式设备相关系数达0.938，但两者均值存在显著系统差异。",
+      "why": "高相关和高重测信度不能推出设备可直接互换。若纵向监测中途更换设备，真实肌肉变化会与设备偏差混在一起。",
+      "practice": "同一运动员的纵向足内在肌监测应固定设备、探头位置和操作者流程；确需换机时先做重叠测量和设备内基线，不要直接套用旧阈值。",
+      "evidence": "方法学可靠性研究｜27名青少年；设备比较n=12、跨次n=15｜2026-10-30 PubMed收录",
+      "confidence": "中（重复性指标具体，但设备比较样本小，且尚无功能结局验证）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42957939",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42957939/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "智能可穿戴仍卡在运动伪差与多模态验证",
+      "title": "Conductive Composite-Based Wearable Sensors for Sports Science: Intelligent Data Analysis and Emerging Applications",
+      "one_liner": "新综述梳理导电聚合物、碳材料、MXene与水凝胶传感器结合AI的运动应用，同时把复杂运动中的信号可靠性列为主要瓶颈。",
+      "what": "综述覆盖生理、生化和生物力学信号，以及监督学习、无监督学习、深度学习与大模型在动作识别、疲劳、损伤和康复监测中的用途；材料柔性与贴合性改善并未消除运动伪差、漂移和跨场景泛化问题。",
+      "why": "可穿戴系统的价值不取决于模型复杂度，而取决于采集链、标定、标签和真实运动环境能否共同保持稳定。",
+      "practice": "设备或算法选型时，应要求报告动态条件下的重测误差、跨人泛化、漂移与缺失数据处理，并把模型输出与力台、动作捕捉或临床量表做任务匹配的效标验证。",
+      "evidence": "叙述性技术综述｜材料、传感与AI应用整合｜2026-10-30 PubMed收录",
+      "confidence": "中（技术版图完整，但不是定量效果综述，应用主张依赖后续独立验证）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42962209",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42962209/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "女子橄榄球乳房损伤漏报约11倍",
+      "title": "Breast Injuries in Women's Rugby Union: A Comparison of Prospective and Retrospective Surveillance",
+      "one_liner": "女子橄榄球乳房损伤的回顾性发生率为28.5/1000比赛小时，前瞻医疗监测仅2.5/1000小时；96%的回顾报告未告知医务人员。",
+      "what": "前瞻监测140名球员、1204比赛小时，仅记录3例；370名球员的回顾调查在5055小时暴露中报告144例，发生率比为11.4。两种方法记录的严重程度相近，所有球员均继续比赛，超过半数认为表现受影响。",
+      "why": "常规伤病登记可能把未就医理解为无伤，系统性低估女性运动员特有伤病负担，并错过护具、规则和医疗沟通改进。",
+      "practice": "球队应把乳房疼痛、瘀伤、肿胀和表现影响加入主动询问与匿名赛后报告；发生率监测需同时记录比赛暴露，不能只依赖医疗室就诊。",
+      "evidence": "前瞻监测与回顾调查比较｜140人对370人｜IRR 11.4（95%CI 3.15—41.73）",
+      "confidence": "中（漏报信号强且方向一致，但回顾调查存在记忆偏倚，两个样本并非同一队列）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42960524",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42960524/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "AI卒中居家康复仍需要人类中介",
+      "title": "Stakeholder Perspectives and Perceived Usability of an AI-Enabled Stroke Rehabilitation Platform: A Multicentre Mixed-Methods Focus Group Study With Stroke Survivors, Caregivers, and Clinicians",
+      "one_liner": "四国71名利益相关者测试AI卒中康复平台后，总体SUS为68.1；患者评分58.9，明显低于照护者75.6，支持混合而非完全自主模式。",
+      "what": "17个焦点小组结合上手测试与访谈。27名卒中幸存者、17名照护者和27名临床人员共同指出技术可靠性、数字素养、临床时间、报销与工作流整合障碍；患者与照护者对同一界面的评分差异显著。",
+      "why": "开发团队或照护者认为“可用”，不等于目标患者能独立完成居家训练。患者能力、支持成本和临床工作流直接决定实际采用。",
+      "practice": "试点应分别测患者、照护者和治疗师的任务完成率与负担，保留人工复核和故障转介，并把自主使用作为待验证结局，而不是产品默认前提。",
+      "evidence": "多中心混合方法形成性研究｜4国、71人、17个焦点小组｜尚未检验康复疗效",
+      "confidence": "中（目标人群直接参与且量化—质性结果一致，但平台仍为早期版本）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42958746",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42958746/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "Fontan成人力量训练改善有限且具选择性",
+      "title": "Effects of strength training on isometric muscle strength and muscle cross-sectional area in adults with a Fontan circulation: a pilot study",
+      "one_liner": "9名Fontan循环成人完成10周力量训练后，肘屈力量和胫部肌横截面积提高，但膝伸与握力未变，且未见严重不良事件。",
+      "what": "患者肘屈等长力量提高6.2%、胫部肌横截面积提高5.0%；年龄与性别匹配对照也出现相近变化，组间差异不显著。研究未观察到膝伸力量或握力改善。",
+      "why": "结果支持该人群在监督下参加力量训练的可行性，但不能把局部变化写成全身功能或心血管获益。",
+      "practice": "临床训练可在个体化评估和监测下采用渐进力量方案，同时分别追踪目标肌群、功能任务和症状；不应仅凭无不良事件就宣称普遍安全或有效。",
+      "evidence": "先导干预研究｜9名Fontan循环成人｜10周监督力量训练｜小样本",
+      "confidence": "低（样本极小、组间无显著差异，主要用于可行性与效应量估计）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42960030",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42960030/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "血透运动方案可行，但校正后无明确组间获益",
+      "title": "Effects of a Nurse-Led Multicomponent Exercise Intervention for Haemodialysis Patients With Possible or Confirmed Sarcopenia: A Cluster Randomised Trial",
+      "one_liner": "56名可能或确诊肌少症的血液透析患者接受12周护士主导多组分运动后，功能指标呈有利趋势，但多重校正后均未保持显著。",
+      "what": "28人接受干预、28人常规照护，50人完成研究。握力、步速与SPPB出现中到大效应趋势，但Bonferroni校正后不显著；肌量、生活质量和CRP也无组间差异，未见严重干预相关不良事件。",
+      "why": "安全可行与临床有效是两个不同问题。本研究支持继续做更充分试验，却不足以宣称方案已改善肌少症或生活质量。",
+      "practice": "透析单元可把该方案作为可行性模板，但实施时应预先指定主要结局、记录依从性与不良事件，并以更大样本验证功能收益，而不是据趋势性结果扩大处方。",
+      "evidence": "集群随机试验｜56人、12周｜意向性分析｜多重校正后阴性",
+      "confidence": "中（随机设计和结局透明，但样本小、集群按固定透析时段划分）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42963345",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42963345/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "分享链接漏洞暴露了预览隔离的组合失效",
+      "title": "Do the Math: How We Took Over ChatGPT Accounts",
+      "one_liner": "Parameter披露一条已修复的ChatGPT漏洞链：恶意分享会话可让预览代码跨越隔离边界，以登录用户身份读取私有会话。",
+      "what": "研究者称漏洞由图表、HTML Preview、跨窗口消息处理与允许的外部脚本组合形成；10月18日报告，OpenAI于10月21日升为P1并在10月26日修复。公开材料未报告真实攻击利用。",
+      "why": "单个组件看似受限，组合后的消息桥、内容安全策略和同源身份仍可形成权限升级路径；Agent产品的安全边界必须按完整交互链验证。",
+      "practice": "开发者应对预览、分享、嵌入与连接器做跨组件威胁建模，严格校验postMessage来源、收紧可执行内容和CSP，并用登录态端到端攻击测试验证隔离；用户无需把已修复漏洞当作当前仍开放。",
+      "evidence": "安全研究团队技术披露与漏洞时间线｜2026-10-28公开、10月26日已修复｜无在野利用证据",
+      "confidence": "中（技术链和修复时间具体，但修复确认主要来自报告方，未见OpenAI独立公告）",
+      "limit": "",
+      "source": {
+        "title": "Parameter Labs",
+        "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "DeepSeek Harness把Agent能力拆成插件",
+      "title": "DeepSeek Harness: Everything is a Plugin",
+      "one_liner": "DeepSeek将Agent运行框架以开发者预览和开源形式发布，核心采用“everything-is-a-plugin”架构，可本地启动Web UI并检查工具调用。",
+      "what": "官方页面与GitHub仓库显示，Harness支持文档、表格、代码等任务，核心插件和API仍快速变化，项目明确提示会有破坏性兼容变更，并要求运行前阅读安全说明。",
+      "why": "Agent框架竞争正在从单一模型能力转向可组合工具、可检查执行和可替换基础设施；插件边界同时扩大供应链与权限面。",
+      "practice": "适合在隔离环境评估插件协议、任务追踪和本地工作流，不宜直接接入生产凭证；应固定版本、审查插件权限与来源，并把破坏性更新纳入回归测试。",
+      "evidence": "DeepSeek官方产品页与开源仓库｜public/developer preview｜2026-10-31核验",
+      "confidence": "高（发布状态、安装方式和预览限制可由官方页面与仓库直接核实）",
+      "limit": "",
+      "source": {
+        "title": "DeepSeek Harness",
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Gemini将文档编辑并入对话工作区",
+      "title": "You can now generate, preview, and edit documents, PDFs, presentations, spreadsheets, and more directly in Gemini",
+      "one_liner": "Gemini应用现可在对话中生成、全屏预览并局部编辑多类文件；PDF支持网页与移动端，其余格式目前限网页端。",
+      "what": "Google于10月29日宣布覆盖PDF、Docs、Sheets、幻灯片、Markdown、TXT与代码，用户可选中文本让Gemini局部修改；该能力已向Gemini可用语言的用户开放。",
+      "why": "生成式AI正从输出附件转向同一工作区内的人机共编，减少复制粘贴，但也需要更清楚的版本、格式保真和人工审阅机制。",
+      "practice": "可用于草稿、格式整理和局部改写；正式交付前应检查公式、引用、分页与原文件版本，并区分PDF视觉编辑与原生结构化文档编辑的可逆性。",
+      "evidence": "Google官方产品公告｜2026-10-29｜全球逐步可用",
+      "confidence": "高（功能范围、平台差异与发布日期可直接核实）",
+      "limit": "",
+      "source": {
+        "title": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "现场测量首先要守住可比性。便携超声可以可靠重复，但设备间固定偏差足以干扰纵向判断；任何可穿戴或智能分析接入前，也应先验证动态条件下的误差与漂移。",
+    "康复创新应把可行性、采用与疗效拆开。AI卒中平台显示患者端独立使用仍需要支持；Fontan和透析运动研究则说明无严重不良事件或趋势性改善，都不能替代明确的功能效应。",
+    "Agent系统的关键风险越来越位于组件之间。分享、预览、插件、长期记忆和工具执行需要统一权限模型；模型能力提升不能弥补跨组件消息、凭证和版本控制的缺口。"
+  ],
+  "trends_url": "data/trends/2026-11-01.json"
+}

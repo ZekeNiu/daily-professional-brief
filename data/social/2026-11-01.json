@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "date": "2026-11-01",
+  "observed_at": "2026-11-01T07:51:11+08:00",
+  "title": "社媒热点｜2026-11-01",
+  "summary": {
+    "title": "从落地动作到十天任务：把控制放在正确层级",
+    "signal": "本期公开讨论的共同点是先确定可控层级：弹跳先看落地与专项转移，运动数据先守住所有权和采集质量，Agent则把资金动作、持久记忆与插件权限分开控制。",
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 0,
+      "AI": 4
+    }
+  },
+  "navigation": {
+    "prev": "2026-10-31",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "教练与设备团队都把结果指标往前拆：跳得远之前先看落地与专项动作，进入AI之前先保证原始测试和长期记录可信。",
+    "运动健康": "",
+    "AI": "公开讨论从快速原型、插件化框架延伸到十天级任务和已修复安全漏洞，重点转向记忆、权限与确定性边界。"
+  },
+  "items": [
+    {
+      "id": "4254cf14ca6b",
+      "domain": "运动科学",
+      "title": "Chris Korfist与Dan Fichter主张先练落地，再谈反弹高度",
+      "short_title": "增强式训练先验收落地与专项转移",
+      "author": "Chris Kerr / Chris Korfist / Dan Fichter",
+      "platform": "SimpliFaster实践者文章",
+      "published_date": "2026-10-31",
+      "priority": "重点关注",
+      "one_liner": "两位教练把增强式训练定义为“把落地转成起跳”，强调落地组织、踝足行为与冲刺转移，而不是只追求箱高或跨步距离。",
+      "what": "文章以高处落地、特定角度等长、跨步和冲刺为例：受控落地可先放慢并观察身体组织；跨得更远不必然意味着跑得更快，动作模式和随后冲刺表现才是转移证据。",
+      "why": "跳跃成绩容易掩盖触地策略和专项任务是否改善；把落地与反弹拆开，可让技术反馈和负荷进阶更可观察。",
+      "practice": "可先用低高度落地检查躯干、髋膝踝组织和稳定性，再逐步加入短接触反弹，并用冲刺或专项动作复核转移；这是教练经验，不是统一的高度或次数处方。",
+      "evidence": "教练实践访谈与方法整理｜2026-10-31",
+      "confidence": "中",
+      "confidence_reason": "方法逻辑具体并明确经验边界，但未提供对照试验。",
+      "source": {
+        "url": "https://simplifaster.com/articles/plyometrics-landing-korfist-fichter"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "80c8954150da",
+      "domain": "运动科学",
+      "title": "Hawkin强调运动数据所有权之外还要做单次测试质控",
+      "short_title": "运动数据进入AI前先保证每次测试可信",
+      "author": "Ben Watson / Hawkin Dynamics",
+      "platform": "厂商观点文章",
+      "published_date": "2026-10-30",
+      "priority": "值得了解",
+      "one_liner": "文章把运动数据责任拆成所有权、可迁移性和采集质量，并主张在数据进入长期档案或AI前识别无效单次测试。",
+      "what": "Hawkin称客户拥有数据，并说明其质控引擎会标记需复核的力台测试；文章强调多年纵向记录的价值来自一致、可解释的原始测量，而不是简单扩大数据量。",
+      "why": "错误动作或采集异常一旦进入长期档案，后续算法会放大而不是修复问题；事后清理也难以重建当时情境。",
+      "practice": "采购平台时应询问导出格式、访问权限、保留政策、质量标记和第三方设备兼容性；厂商自述可用于尽调问题清单，不能替代独立验证其质控准确率。",
+      "evidence": "厂商负责人观点与产品机制说明｜2026-10-30",
+      "confidence": "中",
+      "confidence_reason": "数据治理原则清晰，具体质控性能尚无独立比较数据。",
+      "source": {
+        "url": "https://www.hawkindynamics.com/blog/data-ownership"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "1c640f88e053",
+      "domain": "AI",
+      "title": "Parameter复盘已修复的ChatGPT分享链接账户接管链",
+      "short_title": "预览隔离会在消息桥上失效",
+      "author": "Mukul Goyal / Parameter",
+      "platform": "安全研究博客与Hacker News讨论",
+      "published_date": "2026-10-28",
+      "priority": "重点关注",
+      "one_liner": "研究者称恶意分享会话曾可借图表、HTML Preview与跨窗口消息链读取登录用户的私有会话；OpenAI已于10月26日修复。",
+      "what": "报告给出10月18日报告、21日定为P1、26日修复的时间线；漏洞不是单一沙箱直接失效，而是多个允许功能在主页面身份下组合形成权限提升。",
+      "why": "社区讨论聚焦到关键工程问题：安全边界不能只审查单个iframe，还要覆盖消息来源、CSP允许项和共享内容到登录态API的完整路径。",
+      "practice": "产品团队应把分享与预览视为高风险输入，做登录态组合测试并记录修复回归；公开资料未显示在野利用，使用者不应把披露误读为当前漏洞仍开放。",
+      "evidence": "一手安全披露、时间线与公开技术讨论｜2026-10-28披露、10月31形成集中讨论",
+      "confidence": "中",
+      "confidence_reason": "技术链条具体，修复与分级主要由报告方转述，缺少OpenAI独立公告。",
+      "source": {
+        "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+      },
+      "references": [
+        {
+          "label": "Hacker News讨论",
+          "url": "https://news.ycombinator.com/item?id=50314699"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "53329debad3f",
+      "domain": "AI",
+      "title": "DeepSeek开源插件化Agent运行框架Harness",
+      "short_title": "Agent运行层开始转向可组合插件",
+      "author": "DeepSeek",
+      "platform": "官方仓库与产品页",
+      "published_date": "2026-10-31",
+      "priority": "重点关注",
+      "one_liner": "DeepSeek Harness进入全球公开预览并开源，采用“everything-is-a-plugin”架构，覆盖文档、表格、代码和可检查工具调用。",
+      "what": "官方仓库可通过npx本地启动Web UI，并明确标注开发者预览、核心插件与API快速变化、可能发生破坏性兼容更新；量子位的当日讨论把关注点带到Agent底座而非单一模型。",
+      "why": "插件化提高工具复用和框架可替换性，同时把权限、依赖和供应链风险从模型层推到运行层。",
+      "practice": "可在无生产凭证的隔离环境评估任务追踪与插件接口，固定版本并审查插件来源；预览阶段不要把API稳定性和安全默认值当作生产承诺。",
+      "evidence": "官方产品页、开源仓库与中文技术报道｜public/developer preview｜2026-10-31",
+      "confidence": "高",
+      "confidence_reason": "核心发布事实、安装方式和预览限制均可由官方材料核实。",
+      "source": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "bc32ee579288",
+      "domain": "AI",
+      "title": "Arca把十天级金融Agent任务做成持久记忆与确定性审批",
+      "short_title": "长周期Agent用状态机而非长时间运行",
+      "author": "Aman Singh / Latent Space",
+      "platform": "访谈与播客",
+      "published_date": "2026-10-31",
+      "priority": "值得了解",
+      "one_liner": "Arca称Agent任务可跨十天、多人和多次交接，但资金移动始终由人类顾问执行，安全限制采用确定性规则。",
+      "what": "团队为每位客户持久记录已完成事项、下一步、期限和责任人，自建harness按内部基准选择模型；Agent可分析并提出方案，但交易和资金移动不交给模型。",
+      "why": "长周期工作并不等于一个进程连续运行，真正难点是可恢复状态、责任归属、交接与高风险动作边界。",
+      "practice": "设计长任务时应把状态、截止时间、责任人和审批写入外部持久层；将不可逆操作从模型工具集中移出，用确定性策略和人工授权执行。",
+      "evidence": "企业AI负责人访谈与工作流案例｜未提供独立绩效数据｜2026-10-31",
+      "confidence": "中",
+      "confidence_reason": "架构与控制描述具体，但属于单家公司经验和自述。",
+      "source": {
+        "url": "https://latent.space/p/arca"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "1a9ec1373c3b",
+      "domain": "AI",
+      "title": "Karpathy用编码Agent两小时搭出HackerTube原型",
+      "short_title": "快速原型的价值在可导出与可替换",
+      "author": "Andrej Karpathy",
+      "platform": "个人博客",
+      "published_date": "2026-10-31",
+      "priority": "快讯",
+      "one_liner": "Karpathy称其用Claude Opus 5.5约两小时构建HackerTube：从Hacker News评论筛出6454个YouTube视频并生成无账号推荐站。",
+      "what": "流程抓取并过滤Hacker News评论，再用模型清理低质量内容，按约150个主题组织视频；站点把偏好保存在浏览器本地，并提供数据导出，方便用户让自己的Agent重建版本。",
+      "why": "案例展示编码Agent已能快速完成数据处理、前端、部署和加固的端到端原型，但两小时交付不等于长期质量、版权或安全已完成验证。",
+      "practice": "可借鉴其最小数据管线、无账号状态和可导出设计来做内部原型；上线前仍需独立检查抓取许可、推荐偏差、依赖安全和运维成本。",
+      "evidence": "个人项目复盘与可访问站点｜作者自述开发时长｜2026-10-31",
+      "confidence": "中",
+      "confidence_reason": "项目与主要实现可核查，开发时长和质量判断来自作者自述。",
+      "source": {
+        "url": "https://karpathy.bearblog.dev/hacker-tube"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "训练讨论最有价值的更新不是新增动作，而是验收顺序：先把落地组织和专项转移测清，再增加反弹高度、距离或复杂度。",
+    "运动数据进入AI前，单次采集质量、所有权和可导出性应写进采购要求；多年纵向记录的价值取决于能否解释每一次测量。",
+    "长周期Agent应被设计为可恢复的状态机。持久记忆负责跨日连续性，确定性规则和人工审批负责资金、凭证与其他不可逆动作，插件则需要单独的版本与权限治理。"
+  ],
+  "trends_url": "data/social/trends/2026-11-01.json"
+}
