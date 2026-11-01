@@ -2,20 +2,6 @@
   "version": 1,
   "items": [
     {
-      "id": "github-copilot-model-retirement-20260918",
-      "title": "GitHub Copilot六个旧模型于10月19日退役",
-      "url": "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/",
-      "date": "2026-09-18",
-      "domain": "AI",
-      "topic_id": "ai-agent",
-      "sources": [
-        "GitHub"
-      ],
-      "platform": "官方更新",
-      "first_seen": "2026-10-20T08:00:26+08:00",
-      "last_seen": "2026-10-20T08:00:26+08:00"
-    },
-    {
       "id": "003f25870c14",
       "title": "Treating fibromyalgia like an autoimmune disease [3m]",
       "url": "https://www.painscience.com/blog/fibromyalgia-antibody-trial.html",
@@ -3784,6 +3770,20 @@
       "last_seen": "2026-10-29T07:53:00+08:00"
     },
     {
+      "id": "967be99077d1",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Nolan Lawson / Hacker News"
+      ],
+      "platform": "工程博客与社区讨论",
+      "first_seen": "2026-11-02T08:14:00+08:00",
+      "last_seen": "2026-11-02T08:14:00+08:00"
+    },
+    {
       "id": "ea41a986fe71",
       "title": "Introducing the Agent SDK",
       "url": "https://cursor.com/blog/agent-sdk",
@@ -4036,6 +4036,48 @@
       "last_seen": "2026-10-31T08:00:16+08:00"
     },
     {
+      "id": "d9eda3a427e3",
+      "title": "Flexibility in Football: Beyond Stretching",
+      "url": "https://complementarytraining.com/flexibility-in-football-beyond-stretching",
+      "date": "2026-10-31",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Nicolás Rodríguez / Complementary Training"
+      ],
+      "platform": "实践者综述",
+      "first_seen": "2026-11-02T08:14:00+08:00",
+      "last_seen": "2026-11-02T08:14:00+08:00"
+    },
+    {
+      "id": "08b28bcc30db",
+      "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+      "url": "https://www.qbitai.com/2026/11/506990.html",
+      "date": "2026-11-01",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "量子位ROBO"
+      ],
+      "platform": "行业走访与公告复盘",
+      "first_seen": "2026-11-02T08:14:00+08:00",
+      "last_seen": "2026-11-02T08:14:00+08:00"
+    },
+    {
+      "id": "156f3096451c",
+      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "url": "https://www.qbitai.com/2026/11/507031.html",
+      "date": "2026-11-01",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "清华交叉信息院团队 / 量子位"
+      ],
+      "platform": "中文研究解读",
+      "first_seen": "2026-11-02T08:14:00+08:00",
+      "last_seen": "2026-11-02T08:14:00+08:00"
+    },
+    {
       "id": "1a9ec1373c3b",
       "title": "HackerTube",
       "url": "https://karpathy.bearblog.dev/hacker-tube",
@@ -4062,6 +4104,34 @@
       "platform": "访谈与播客",
       "first_seen": "2026-11-01T07:51:11+08:00",
       "last_seen": "2026-11-01T07:51:11+08:00"
+    },
+    {
+      "id": "d19ad0628a8a",
+      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "url": "https://www.qbitai.com/2026/11/507038.html",
+      "date": "2026-11-01",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "开发者社区 / 量子位"
+      ],
+      "platform": "GitHub issues与中文科技媒体",
+      "first_seen": "2026-11-02T08:14:00+08:00",
+      "last_seen": "2026-11-02T08:14:00+08:00"
+    },
+    {
+      "id": "e2f2cd3ee0a6",
+      "title": "If in doubt, delete the uv.lock file",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+      "date": "2026-11-02",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "独立技术博客",
+      "first_seen": "2026-11-02T08:14:00+08:00",
+      "last_seen": "2026-11-02T08:14:00+08:00"
     }
   ]
 }
