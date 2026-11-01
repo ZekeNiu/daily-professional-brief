@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-02",
+  "title": "每日专业资讯简报｜2026-11-02",
+  "summary": {
+    "total": 8,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 2,
+      "AI": 4
+    },
+    "signal": "今天最值得更新的认识是：训练、康复和Agent工具都不能只验收结果；测试姿势、临床重要性、环境规则与真实部署条件会直接改变结论。"
+  },
+  "navigation": {
+    "prev": "2026-11-01",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本期证据把训练方案的平均效果与测量协议拆开：HIIT可增加体能收益，而足趾位置足以改变跖屈力矩读数。",
+    "运动健康": "康复新增干预必须跨过临床重要性阈值；机制研究可解释方向，但不能代替人群疗效。",
+    "AI": "AI进展从任务完成转向可检查模型与真实成本：形式化证明、Agent基准、运行边界和线下部署失败都在提供过程证据。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "团队项目叠加HIIT可提高体能，但处方调节证据较弱",
+      "title": "Effects and Moderators of High-Intensity Interval Training (HIIT) on Physiological Adaptations Among Team-Sport Athletes: A Systematic Review and Meta-Analysis",
+      "one_liner": "46项研究、1204名团队项目运动员显示，常规专项训练外叠加HIIT可改善VO₂max、通气阈、Yo-Yo表现和Wingate功率；训练时长与收益相关，具体处方变量仍估计不精确。",
+      "what": "与单独专项训练相比，HIIT对VO₂max的合并效应g=0.76，对Yo-Yo间歇恢复测试g=1.02；约5周和10周的模型预测VO₂max分别增加2.56和5.11 mL·kg⁻¹·min⁻¹。体成分结果不明确，较短组间恢复与更大VO₂max效应相关，但来自研究层级回归。",
+      "why": "结果支持在已接受专项训练的运动员中获得额外体能刺激，同时提醒不能把Meta回归直接写成最佳间歇处方。",
+      "practice": "可把HIIT作为专项训练外的明确刺激模块，并用VO₂max、Yo-Yo或项目相关有氧指标追踪；选择周数和恢复时间时先考虑赛历、总负荷和完成质量，不按回归结果机械复制。",
+      "evidence": "系统综述与Meta分析｜46项研究、1204名团队项目运动员｜研究层级调节分析",
+      "confidence": "中高（总体效应稳定且样本广，但处方调节来自研究层级关联）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42961026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42961026/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "跖趾位置可让跖屈最大力矩相差两成",
+      "title": "Effect of Metatarsophalangeal Joint Position on Maximal Voluntary Isometric Ankle Plantar-Flexion Torque",
+      "one_liner": "16名青年男性在第一跖趾关节背屈15°时跖屈MVIC最高，较0°、30°和45°高11.0%—21.4%，变化主要来自足趾力和足内在肌活动。",
+      "what": "四种跖趾角度下，主要小腿跖屈肌sEMG近似不变；15°时足趾下压力最高，45°时足趾力下降、压力中心近移，拇展肌和趾短屈肌活动降低。",
+      "why": "同一踝角度并不保证跖屈测试可比；足趾支撑和跖趾角度会改变力矩输出，足以吞掉许多训练周期中的真实变化。",
+      "practice": "等长跖屈测试应固定并记录跖趾角度、足底支撑和压力中心条件；若用于跟腱或小腿康复，跨次复测不要更换脚板位置。",
+      "evidence": "实验室重复条件研究｜16名健康青年男性｜力矩、足底压力与sEMG",
+      "confidence": "中（机制和效应量清楚，但仅男性小样本，未直接检验临床人群）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42954323",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42954323/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "支具基础上监督Schroth训练未跨过临床阈值",
+      "title": "Supervised physiotherapeutic scoliosis-specific exercises provide limited additional benefit at 24 months in braced adolescents with idiopathic scoliosis: a randomized trial",
+      "one_liner": "支具治疗青少年中，监督Schroth训练24个月使Cobb角平均多改善3.23°，但未达到预设5°临床重要差异，也未提高改善／稳定／恶化分类或生活质量。",
+      "what": "研究比较治疗师监督加每日家庭PSSE与自主一般运动。虽然连续Cobb角差异有统计学意义，但按5°阈值分类后，意向性分析OR为1.08（95%CI 0.58—2.03），生活质量无临床意义差异。",
+      "why": "统计显著不等于患者获得了可感知或改变决策的增量收益；这直接影响监督资源、家庭负担和项目成本的解释。",
+      "practice": "支具仍是基础管理时，可将PSSE用于个体目标和技能支持，但应以预设Cobb角阈值、生活质量和依从性验收，不用平均3°变化承诺普遍防止进展。",
+      "evidence": "随机试验｜支具治疗、Cobb角25°—45°青少年｜24个月随访｜预设MCID 5°",
+      "confidence": "高（随机设计、长期随访及临床阈值均明确，结论指向有限增量收益）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42966369",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42966369/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "骨关节炎运动机制锁定E2F8/NLRP14轴",
+      "title": "Aerobic Exercise Ameliorates Osteoarthritic Chondrocyte Degradation in Osteoarthritis via Regulating E2F8/NLRP14 Signaling Pathway",
+      "one_liner": "大鼠和细胞实验显示，中等跑台运动与机械牵张可上调E2F8、抑制NLRP14，并减轻软骨分解和炎症相关衰老。",
+      "what": "MIA骨关节炎大鼠中，软骨E2F8下降而NLRP14升高；运动逆转该模式并改善组织学。体外IL-1β模型和周期牵张、基因敲低实验支持E2F8作为机械敏感介质。",
+      "why": "研究为运动如何影响软骨细胞提供了可检验通路，也为后续剂量和靶向实验提供候选机制。",
+      "practice": "可用于设计带组织标志物的机制研究；它不提供人类膝OA处方剂量，临床训练仍应依据疼痛、功能、负荷耐受和现有人体试验证据。",
+      "evidence": "动物与细胞机制研究｜MIA大鼠、周期牵张与基因敲低｜非人体疗效试验",
+      "confidence": "中（多层机制结果一致，但向人体症状和功能转化尚未检验）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42870550",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42870550/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "代数世界模型把环境假设转成Lean证明",
+      "title": "Algebraic World Model: From Exploration to Proofs",
+      "one_liner": "AWM让Agent从未知环境中提出可执行假设、抽象为类型化规则，再用Lean证明可达或不可达；在两个不可能关卡的6次运行中均给出内核校验证明。",
+      "what": "系统在25个ARC-AGI-3公开游戏、183个关卡上用显式模型回放获胜轨迹，并可预测未见转移和检测规则变化；对两个不可能关卡，Claude Opus 5.5与GPT-6 Astra的12次工具基线未生成同类闭合证明。",
+      "why": "它把‘Agent完成任务’升级为‘Agent给出可执行世界模型和机器可检验证明’，特别适合不可达性、安全约束和科研假设审计。",
+      "practice": "科研或复杂工作流可借鉴观察—假设—实验—形式化—验证链，把模型规则和反例留作中间产物；当前结果仍是预印本和游戏环境基准。",
+      "evidence": "arXiv预印本｜ARC-AGI-3交互环境与Lean 4核验｜2026-10-29",
+      "confidence": "中（证明可由Lean核验，但外部环境泛化和基线公平性仍需独立复现）",
+      "limit": "",
+      "source": {
+        "title": "arXiv 2610.40503",
+        "url": "https://arxiv.org/abs/2610.40503"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "编码Agent选框架要同时测成本与产物质量",
+      "title": "The AI cost of JavaScript frameworks",
+      "one_liner": "同一小型应用由Opus 5.5在12种JavaScript框架下各构建5次，单次中位成本约2.67—4.97美元、token约385万—976万，框架选择显著影响Agent读取文档和生成代码的开销。",
+      "what": "实验用可访问性树一致性测试、Lighthouse和构建成本评价输出。Hono+htmx、Astro和Nuxt成本较低；Angular两次未生成可测应用。质量指标多接近饱和，但传输JS从Astro的0 KiB到Next.js的142 KiB不等。",
+      "why": "Agent编码成本不仅由模型和提示决定，框架熟悉度、迁移文档、插件是否被真正调用及客户端架构都会进入总成本。",
+      "practice": "技术选型基准应同时记录任务通过率、token、时间、包体和维护性，并至少重复多次；单一小型内容站结果不能直接决定大型应用框架。",
+      "evidence": "独立工程基准｜12种框架、通常每种5次｜单一应用、单一模型",
+      "confidence": "中（方法和原始实现公开，但任务代表性有限且随机波动较大）",
+      "limit": "",
+      "source": {
+        "title": "Nolan Lawson",
+        "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Claude游戏克隆限制出现误拒绝争议",
+      "title": "Claude game-cloning and reverse-engineering refusal reports",
+      "one_liner": "多名开发者报告Claude Code新增避免复刻特定游戏的系统规则后，对原创开发、机制复现和部分逆向工程任务也出现拒绝；Anthropic尚未公开完整规则和影响范围。",
+      "what": "公开报道与GitHub issues记录了开发中途、常见机制、反作弊和安全审查被拦截的案例；据报道规则允许原创或用户自有素材，但禁止复刻特定现有游戏。不同用户的触发条件并不一致。",
+      "why": "这是应用层安全策略改变既有工作流的案例：更严格的版权与网络安全控制可能同时带来合法任务误拒绝和供应商可替换性问题。",
+      "practice": "依赖编码Agent的团队应保存可复现任务、拒绝日志和替代路径，将关键逆向或安全任务在合规授权下做多模型回归；在官方说明前不要把个别报告写成统一政策。",
+      "evidence": "开发者公开报告、GitHub issues与媒体核查｜2026-10-31至11-01｜缺少Anthropic完整公告",
+      "confidence": "低（现象有多方报告，但规则文本、部署范围和误拒率未获官方独立确认）",
+      "limit": "",
+      "source": {
+        "title": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "零售机器人失败暴露真实部署的长尾条件",
+      "title": "红旗连锁终止机器人无人售货系统研发后的现场复盘",
+      "one_liner": "媒体复盘显示，该项目在实验室测试后仍因冷凝玻璃瓶、复杂包装、光照、窄通道和人流等条件无法达到规模化标准，转向云值守方案。",
+      "what": "公开公告确认项目终止；现场走访显示现有零售机器人多依赖标准化货架、人工补货、充电和故障处理，取货常需十几至二十多秒，开放商超中的自主运营仍受抓取、安全和定制成本限制。",
+      "why": "具身系统的平均演示成功率不能代表长时间商业可靠性，真实价值取决于异常恢复、人力替代比例、SKU覆盖和单位经济性。",
+      "practice": "机器人PoC应提前设置按SKU成功率、人工介入分钟数、异常恢复、营业时长与单店回本周期；把展示和引流收益与替代劳动的运营收益分开核算。",
+      "evidence": "上市公司终止公告的媒体复盘与门店走访｜行业案例、非对照研究｜2026-11-01",
+      "confidence": "中（项目终止与现场限制可核实，成本和行业时间预测主要来自匿名从业者）",
+      "limit": "",
+      "source": {
+        "title": "量子位",
+        "url": "https://www.qbitai.com/2026/11/506990.html"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "运动表现团队应把测试姿势写进协议，而不是只记录测试名称。跖趾角度造成的11%—21%差异足以改变训练或康复判断。",
+    "康复资源应按临床增量配置。监督PSSE在连续Cobb角上有差异，却没有跨过预设5°阈值；这类结果比单纯的p值更接近真实决策。",
+    "Agent工作流应同时保存环境模型、运行成本和拒绝轨迹。形式化证明能提高可审计性，工程基准和部署失败则提醒团队检验真实条件，而不是只看演示成功。"
+  ],
+  "trends_url": "data/trends/2026-11-02.json"
+}

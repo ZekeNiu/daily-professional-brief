@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "date": "2026-11-02",
+  "observed_at": "2026-11-02T08:14:00+08:00",
+  "title": "社媒热点｜2026-11-02",
+  "summary": {
+    "title": "从活动度到Agent规则：先定位限制发生在哪一层",
+    "signal": "本期讨论都在拆分表面问题：足球活动度要区分被动范围、主动控制与长肌长力量；编码Agent则要区分环境模型、框架成本、依赖锁定和安全规则。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 0,
+      "AI": 5
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-01",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "实践者把柔韧性从例行拉伸改写为任务范围、主动控制和长肌长力量的分层评估。",
+    "运动健康": "",
+    "AI": "讨论重点不是模型又会做什么，而是规则、依赖、框架和现实环境如何改变Agent的稳定性与可用边界。"
+  },
+  "items": [
+    {
+      "id": "d9eda3a427e3",
+      "domain": "运动科学",
+      "title": "足球柔韧性需要拆成被动范围、主动控制与长肌长力量",
+      "short_title": "足球活动度先确定真正受限层级",
+      "author": "Nicolás Rodríguez / Complementary Training",
+      "platform": "实践者综述",
+      "published_date": "2026-10-31",
+      "priority": "重点关注",
+      "one_liner": "文章主张足球并不需要各关节统一追求最大柔韧，而应根据踢球、冲刺、变向和落地所需范围，区分被动受限、主动控制不足和末端力量不足。",
+      "what": "作者把柔韧性、主动活动度、长肌长力量与末端等长控制拆开，并建议结合任务、症状、伤病史和成熟度解释ROM；静态、PNF和动态拉伸均可增加急性ROM，但方法应按时机和目标选择。",
+      "why": "相同的主动ROM不足可能来自完全不同的限制，统一拉伸流程会把技术、力量或临床问题误判为组织短缩。",
+      "practice": "筛查时先比较主动与被动范围，再测试目标位置的控制和力量；只有与专项动作或症状相关的限制才进入干预，并用原任务复测。",
+      "evidence": "实践者证据综述与评估框架｜引用拉伸、腘绳肌和青年球员研究｜2026-10-31",
+      "confidence": "中",
+      "confidence_reason": "框架与现有证据方向一致，但不是新的比较试验，也未给出统一阈值。",
+      "source": {
+        "url": "https://complementarytraining.com/flexibility-in-football-beyond-stretching"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "156f3096451c",
+      "domain": "AI",
+      "title": "清华团队用代数世界模型让Agent从探索走向机器证明",
+      "short_title": "世界模型开始输出可检查证明",
+      "author": "清华交叉信息院团队 / 量子位",
+      "platform": "中文研究解读与arXiv",
+      "published_date": "2026-11-01",
+      "priority": "重点关注",
+      "one_liner": "讨论焦点从ARC得分转向Agent能否交出显式规则、可执行模型和Lean核验证明，并在新观察下修正规则。",
+      "what": "AWM通过观察、Python假设、范畴论引导的结构化和Lean形式化，证明未知游戏环境中的可达与不可达；中文讨论强调‘证明只对已学到的模型成立’，遗漏规则仍需继续实验。",
+      "why": "这提供了比单条成功轨迹更强的审计材料，也明确了形式化证明不能替代对环境模型完整性的验证。",
+      "practice": "研究Agent可保留假设版本、反例、规则变更和证明对象，让人工能区分‘模型内成立’与‘现实中已证实’。",
+      "evidence": "研究团队预印本与中文解读｜ARC-AGI-3、Lean 4｜2026-10-29论文、11-01讨论",
+      "confidence": "中",
+      "confidence_reason": "核心结果来自预印本，证明可核验，但真实科研环境中的泛化尚未建立。",
+      "source": {
+        "url": "https://www.qbitai.com/2026/11/507031.html"
+      },
+      "references": [
+        {
+          "label": "arXiv原文",
+          "url": "https://arxiv.org/abs/2610.40503"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "967be99077d1",
+      "domain": "AI",
+      "title": "Nolan Lawson用重复构建比较JavaScript框架的Agent成本",
+      "short_title": "框架会改变编码Agent的总成本",
+      "author": "Nolan Lawson / Hacker News",
+      "platform": "独立工程基准与社区讨论",
+      "published_date": "2026-10-28",
+      "priority": "重点关注",
+      "one_liner": "同一应用在12种框架下重复构建显示，Agent会因迁移文档、框架熟悉度和插件使用差异消耗不同token与时间；11月1日进入集中讨论。",
+      "what": "多数框架运行5次，记录任务通过、成本、时间、token、Lighthouse与包体；单次中位成本约2.67—4.97美元，token约385万—976万，Angular两次未生成可测应用。",
+      "why": "‘某框架更适合Agent’应成为可测假设，而不是根据一次成功演示或开发者体验下结论。",
+      "practice": "内部选型应使用本队真实任务、相同验收集和至少多次重复，分别报告失败率、成本与产物质量。",
+      "evidence": "公开工程基准与社区讨论｜单一应用、单一模型、通常每框架5次｜2026-10-28原文、11-01讨论",
+      "confidence": "中",
+      "confidence_reason": "测试与实现透明，但任务代表性和随机波动限制了框架普遍排名。",
+      "source": {
+        "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "d19ad0628a8a",
+      "domain": "AI",
+      "title": "Claude游戏克隆规则引发合法任务误拒绝报告",
+      "short_title": "安全规则变更需要误拒绝回归集",
+      "author": "开发者社区 / 量子位",
+      "platform": "GitHub issues与中文科技媒体",
+      "published_date": "2026-11-01",
+      "priority": "值得了解",
+      "one_liner": "开发者报告新增游戏复刻限制后，原创开发、机制实现和部分安全任务也被拒绝；规则目的、实际触发和影响范围仍存在争议。",
+      "what": "据报道规则允许原创游戏或用户自有素材，但禁止复刻特定现有游戏；公开issues显示部分项目在中途触发拒绝，也有用户认为报道夸大，逆向与改模并未被整体禁止。",
+      "why": "供应商侧系统提示更新可以在不改代码的情况下改变生产工作流，误拒绝与合规控制需要一起测。",
+      "practice": "为关键任务保存最小复现、模型版本和拒绝日志；策略变更后重跑授权、安全和版权边界测试，并准备人工或替代模型路径。",
+      "evidence": "开发者报告、GitHub issues与媒体整理｜2026-10-31至11-01｜无完整官方公告",
+      "confidence": "低",
+      "confidence_reason": "多方现象可见，但规则原文、部署范围和误拒绝率没有独立量化。",
+      "source": {
+        "url": "https://www.qbitai.com/2026/11/507038.html"
+      },
+      "references": [
+        {
+          "label": "英文报道",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "08b28bcc30db",
+      "domain": "AI",
+      "title": "零售机器人现场失败把PoC成功率拉回运营指标",
+      "short_title": "具身部署必须计算人工介入",
+      "author": "量子位ROBO",
+      "platform": "行业走访与公告复盘",
+      "published_date": "2026-11-01",
+      "priority": "值得了解",
+      "one_liner": "红旗连锁终止无人售货机器人项目后，走访显示现有方案仍依赖标准货架、人工补货与故障处理，展示能力与替代劳动之间差距明显。",
+      "what": "冷凝玻璃瓶、软包装、光照、窄通道和顾客干扰都造成抓取或导航问题；部分门店取货需十几至二十多秒，后台仍需人员值守、充电和补货。",
+      "why": "真实场景中的长尾异常、人力介入和定制成本决定商业价值，实验室动作成功次数无法直接回答是否能运营。",
+      "practice": "PoC验收应记录每SKU成功率、人工介入分钟数、异常恢复时间、无人营业占比与回本周期，并将引流展示价值单列。",
+      "evidence": "上市公司项目终止信息、门店走访与从业者访谈｜行业案例｜2026-11-01",
+      "confidence": "中",
+      "confidence_reason": "项目终止和现场依赖可核查，行业普遍性与成本预测仍主要来自个案和匿名访谈。",
+      "source": {
+        "url": "https://www.qbitai.com/2026/11/506990.html"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "e2f2cd3ee0a6",
+      "domain": "AI",
+      "title": "Python 3.15迁移中的uv.lock可制造过期依赖假象",
+      "short_title": "解释器升级先检查本地锁文件",
+      "author": "Simon Willison",
+      "platform": "独立技术博客",
+      "published_date": "2026-11-01",
+      "priority": "快讯",
+      "one_liner": "Simon Willison记录：未提交但由uv运行留下的锁文件可能固定尚无Python 3.15 wheel的旧依赖，删除后重新解析可避免误判为项目不兼容。",
+      "what": "示例中watchfiles 1.1.1经maturin构建失败，因为PyO3最高支持Python 3.14；本地uv.lock被.gitignore忽略但持续影响测试，重新解析后可选择兼容版本。",
+      "why": "Agent或CI看到构建错误时容易直接修改代码或降级解释器，实际根因可能是工作区中的隐形状态。",
+      "practice": "解释器升级排障应先记录锁文件来源和差异；应用项目不要无条件删锁，库项目若锁文件不提交，可在重解析后验证依赖范围和测试矩阵。",
+      "evidence": "维护者排障记录与具体构建错误｜Python 3.15、uv、PyO3｜2026-11-01",
+      "confidence": "中",
+      "confidence_reason": "机制与复现错误具体，但属于单一工具链案例，不是所有uv故障的通用修复。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动评估先定位限制层级：被动范围、主动控制和长肌长力量回答不同问题，统一拉伸只会掩盖真正短板。",
+    "编码Agent的稳定性由可见与不可见状态共同决定。框架文档、插件是否被调用、本地锁文件和供应商规则都应进入复现记录。",
+    "具身与软件Agent都需要真实环境回归集：前者记录人工介入和异常恢复，后者记录成本、失败率与误拒绝。"
+  ],
+  "trends_url": "data/social/trends/2026-11-02.json"
+}
