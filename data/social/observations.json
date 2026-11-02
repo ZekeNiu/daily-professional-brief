@@ -4120,6 +4120,34 @@
       "last_seen": "2026-11-02T08:14:00+08:00"
     },
     {
+      "id": "277870ffc8d7",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "date": "2026-11-02",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "官方工程文章",
+      "first_seen": "2026-11-03T08:20:00+08:00",
+      "last_seen": "2026-11-03T08:20:00+08:00"
+    },
+    {
+      "id": "5a014341bc3f",
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "date": "2026-11-02",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "官方研究发布",
+      "first_seen": "2026-11-03T08:20:00+08:00",
+      "last_seen": "2026-11-03T08:20:00+08:00"
+    },
+    {
       "id": "e2f2cd3ee0a6",
       "title": "If in doubt, delete the uv.lock file",
       "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
@@ -4132,6 +4160,62 @@
       "platform": "独立技术博客",
       "first_seen": "2026-11-02T08:14:00+08:00",
       "last_seen": "2026-11-02T08:14:00+08:00"
+    },
+    {
+      "id": "5010fb296f76",
+      "title": "Egoless Mathematics in the AI Era",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Terence Tao / Hacker News"
+      ],
+      "platform": "研究者博客与社区讨论",
+      "first_seen": "2026-11-03T08:20:00+08:00",
+      "last_seen": "2026-11-03T08:20:00+08:00"
+    },
+    {
+      "id": "a3c49b8be310",
+      "title": "Cómo contribuyen los entrenadores a la motivación de los deportistas",
+      "url": "https://simplifaster.com/articles/como-contribuyen-los-entrenadores-a-la-motivacion-de-los-deportistas",
+      "date": "2026-11-03",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "实践者文章",
+      "first_seen": "2026-11-03T08:20:00+08:00",
+      "last_seen": "2026-11-03T08:20:00+08:00"
+    },
+    {
+      "id": "c90b220cbc29",
+      "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "播客与文字访谈",
+      "first_seen": "2026-11-03T08:20:00+08:00",
+      "last_seen": "2026-11-03T08:20:00+08:00"
+    },
+    {
+      "id": "dc7eb9e8885f",
+      "title": "Agentic backdoors via pretraining poisoning",
+      "url": "https://arxiv.org/abs/2610.37741",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "安全研究团队 / Hacker News"
+      ],
+      "platform": "arXiv预印本与社区讨论",
+      "first_seen": "2026-11-03T08:20:00+08:00",
+      "last_seen": "2026-11-03T08:20:00+08:00"
     }
   ]
 }
