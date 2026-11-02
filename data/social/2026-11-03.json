@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "date": "2026-11-03",
+  "observed_at": "2026-11-03T08:20:00+08:00",
+  "title": "社媒热点｜2026-11-03",
+  "summary": {
+    "title": "从教练沟通到Agent评测：把可见结果拆回产生过程",
+    "signal": "本期公开讨论的共同价值是把结果拆回机制：运动员动机来自沟通环境，数学发现需要可追踪贡献，Agent则必须暴露数据、状态与失败链。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 0,
+      "AI": 5
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-02",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "教练对动机的影响主要通过自主支持、胜任感、关系和反馈环境实现，而不是靠一次鼓舞性讲话。",
+    "运动健康": "",
+    "AI": "讨论从模型能力转向贡献归属、真实任务评测、训练数据安全和难以访问数据时的产品验证。"
+  },
+  "items": [
+    {
+      "id": "a3c49b8be310",
+      "domain": "运动科学",
+      "title": "教练影响运动员动机的核心是长期沟通环境",
+      "short_title": "动机管理应落到反馈与自主支持",
+      "author": "Dominique Stasulli / SimpliFaster",
+      "platform": "实践者文章",
+      "published_date": "2026-11-02",
+      "priority": "值得了解",
+      "one_liner": "文章把教练影响拆为自主支持、胜任感、关系质量、反馈方式和目标气候，强调动机不是运动员的固定特质。",
+      "what": "作者结合自我决定理论和教练—运动员关系研究，讨论选择权、清晰期望、过程反馈、错误处理和个体沟通如何影响训练投入。",
+      "why": "训练计划相同，执行质量仍可能因为反馈和关系环境不同而分化；‘缺乏动机’常常是系统问题而非个人标签。",
+      "practice": "教练可在周计划中明确可选择部分、成功标准和反馈频率，并分别记录完成度、主观投入与沟通问题。",
+      "evidence": "实践者文章与既有动机研究综述｜2026-11-02",
+      "confidence": "中",
+      "confidence_reason": "理论和既有研究方向一致，但本文不是新的干预试验。",
+      "source": {
+        "url": "https://simplifaster.com/articles/como-contribuyen-los-entrenadores-a-la-motivacion-de-los-deportistas"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "5010fb296f76",
+      "domain": "AI",
+      "title": "陶哲轩讨论AI时代数学贡献的可追踪性",
+      "short_title": "数学协作需要记录贡献链",
+      "author": "Terence Tao / Hacker News",
+      "platform": "研究者博客与社区讨论",
+      "published_date": "2026-11-02",
+      "priority": "重点关注",
+      "one_liner": "文章主张在AI参与的数学工作中弱化个人英雄叙事，同时强化提示、验证、反例、修订和证明来源的可追踪记录。",
+      "what": "讨论区分AI生成候选、人工发现错误、形式化验证和最终叙事，并将可复现记录视为比单一作者声称更重要的科学资产。",
+      "why": "当模型参与推导和搜索后，传统作者列表难以表达实际贡献，也更容易隐藏验证缺口。",
+      "practice": "科研工作流可保存模型版本、提示、候选证明、反例、人工修改与验证工具输出，并在论文中明确哪些环节由人作出关键判断。",
+      "evidence": "数学家个人文章与社区讨论｜2026-11-02｜观点与方法倡议",
+      "confidence": "中",
+      "confidence_reason": "作者经验和问题定义有价值，但不是效果研究或统一学术规范。",
+      "source": {
+        "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "dc7eb9e8885f",
+      "domain": "AI",
+      "title": "预训练污染触发Agent远程执行进入安全讨论",
+      "short_title": "Agent后门可能来自预训练语料",
+      "author": "安全研究团队 / Hacker News",
+      "platform": "arXiv预印本与社区讨论",
+      "published_date": "2026-11-02",
+      "priority": "重点关注",
+      "one_liner": "社区关注点从提示注入扩展到训练数据供应链：低比例恶意文档可在清洁后训练后继续触发命令执行。",
+      "what": "研究使用三种Qwen3规模完整走过预训练和Agent后训练，普通文件路径即可触发后门；4B模型在0.1%污染下攻击成功率约92.7%。",
+      "why": "后训练对齐和部署系统提示并不能自动清除预训练阶段形成的触发—行为关联。",
+      "practice": "自托管模型和Agent框架应把数据溯源、后门探测、出网控制和命令审批纳入同一安全评估。",
+      "evidence": "arXiv预印本、代码公开与社区讨论｜论文2026-10-27、讨论2026-11-02",
+      "confidence": "中高",
+      "confidence_reason": "端到端实验可检查，但尚需在更大模型与独立训练管线复现。",
+      "source": {
+        "url": "https://arxiv.org/abs/2610.37741"
+      },
+      "references": [
+        {
+          "label": "代码仓库",
+          "url": "https://github.com/safety-research/agentic-backdoor"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "277870ffc8d7",
+      "domain": "AI",
+      "title": "OpenAI公开超大Git仓库扩展经验",
+      "short_title": "编码Agent依赖仓库可扩展基础设施",
+      "author": "OpenAI",
+      "platform": "官方工程文章",
+      "published_date": "2026-11-02",
+      "priority": "值得了解",
+      "one_liner": "公开讨论将编码Agent的吞吐瓶颈放回Git存储、检出、对象访问和并发工作区，而不是只比较模型写代码能力。",
+      "what": "文章围绕大型仓库和高并发开发工作流的基础设施改造，说明Agent数量上升会把传统开发工具中的尾延迟和共享状态问题放大。",
+      "why": "当多个Agent持续创建分支、工作树和提交时，版本控制基础设施本身会成为系统能力上限。",
+      "practice": "部署多Agent编码前应压测克隆、检出、索引、对象存储和并发写入，并为每个任务隔离工作树和可回滚提交。",
+      "evidence": "OpenAI官方工程文章｜2026-11-02",
+      "confidence": "中高",
+      "confidence_reason": "工程事实来自一手团队，但具体架构收益未必适用于小型仓库。",
+      "source": {
+        "url": "https://openai.com/index/scaling-git-at-openai"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "5a014341bc3f",
+      "domain": "AI",
+      "title": "LifeVal把个人Agent评测放进生活事务",
+      "short_title": "真实任务评测开始覆盖完整行动链",
+      "author": "OpenAI",
+      "platform": "官方研究发布",
+      "published_date": "2026-11-02",
+      "priority": "值得了解",
+      "one_liner": "评测从3995人需求调查出发，覆盖照护、教育、健康、财务、购物和政务，并要求模型完成跨工具操作。",
+      "what": "公开案例包括筛选幼儿园、组织志愿者、处理家庭餐食和政务流程；部分任务报告90%以上成绩。",
+      "why": "任务选择和验收标准比单一模型总分更接近个人Agent的实际价值，但厂商自测仍需要外部任务集补充。",
+      "practice": "内部评测应按真实用户目标创建任务，并保留需要人工决策的节点、操作记录、费用、失败恢复和最终产物。",
+      "evidence": "官方评测发布｜3995人代表性调查｜2026-11-02",
+      "confidence": "中",
+      "confidence_reason": "任务来源可核实，但完整数据和独立复现尚未公开。",
+      "source": {
+        "url": "https://openai.com/index/lifeval"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "c90b220cbc29",
+      "domain": "AI",
+      "title": "法律Agent在看不到客户数据时如何建立产品证据",
+      "short_title": "受限数据场景需要合成任务与现场验收",
+      "author": "Latent Space / Jacob Lauritzen",
+      "platform": "播客与文字访谈",
+      "published_date": "2026-11-02",
+      "priority": "值得了解",
+      "one_liner": "访谈讨论法律团队无法集中查看客户材料时，如何依靠合成数据、领域专家反馈和部署现场指标迭代Agent。",
+      "what": "团队把产品开发拆成可公开测试的通用能力、客户环境中的私有任务和专家验收，并强调引用、审计日志及权限控制。",
+      "why": "医疗、法律和高水平运动团队都存在类似数据限制，离线基准很容易与真实工作流脱节。",
+      "practice": "可建立脱敏或合成回归集验证通用能力，再在客户环境中只返回聚合错误类型和验收结果，避免把敏感原始数据带出边界。",
+      "evidence": "行业访谈与实践案例｜2026-11-02｜非独立效果评估",
+      "confidence": "中",
+      "confidence_reason": "工作流经验具体，但效果和成本主要来自受访团队自述。",
+      "source": {
+        "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动团队管理动机时，应先修正反馈、选择权和成功标准，而不是把低投入简单归因于运动员态度。",
+    "科研与Agent工作流都需要贡献链：保存模型、提示、候选结果、反例、人工修改和验证输出，才能区分生成、判断与证实。",
+    "当真实数据不能离开客户环境时，合成回归集只能负责基础能力；最终是否可用仍要依靠现场任务、权限日志和专家验收。"
+  ],
+  "trends_url": "data/social/trends/2026-11-03.json"
+}

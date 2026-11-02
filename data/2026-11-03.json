@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-03",
+  "title": "每日专业资讯简报｜2026-11-03",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "本期最值得更新的认识是：训练与Agent系统的平均效果正在变得更容易获得，但真正可迁移的决策仍取决于任务人群、协议条件、过程数据和独立验收。"
+  },
+  "navigation": {
+    "prev": "2026-11-02",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "增强式训练、热适应和耐力测试都显示出可用平均效应，但处方解释必须回到人群、环境和测量协议。",
+    "运动健康": "康复与健康干预需要同时看功能结局和任务后的代偿策略，单一改善指标不足以代表整体恢复。",
+    "AI": "AI评测开始转向真实任务和可执行过程，同时预训练污染与工具权限把安全风险推进到训练数据和运行链条。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "女子团队项目增强式训练同时改善跳跃、冲刺与变向",
+      "title": "Female Team-Sport Athletes' Physical Fitness and Jump Performance Kinematics After Plyometric Jump Training: A Systematic Review and Meta-analysis",
+      "one_liner": "31篇研究、609名成年女子团队项目运动员显示，增强式跳跃训练可改善CMJ、RSI、10—30米冲刺及变向表现，8周以上方案在部分结局上更有利。",
+      "what": "25篇研究进入Meta分析。CMJ高度效应量g=0.55，DJ反应力量指数g=0.93，10米、20米和30米冲刺分别为0.71、0.71和1.02，Illinois与T-test变向分别为1.23和0.97；证据确定性为低至中等。",
+      "why": "该结果补足了成年女子团队项目中长期被男性样本替代的处方依据，并显示增强式训练的收益不只体现在跳高。",
+      "practice": "可将增强式训练设计为至少8周的独立模块，同时记录周跳跃量、接触类型、落地质量和专项冲刺暴露；不应只以CMJ高度验收转移效果。",
+      "evidence": "系统综述与Meta分析｜31篇研究、609人｜25篇进入定量合并｜GRADE低至中等",
+      "confidence": "中高（多个表现结局方向一致，但研究异质性和证据确定性限制精确处方）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42970020",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42970020/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "固定外部功率后男女耐力运动员热适应轨迹相近",
+      "title": "Physiological Adaptations to Controlled Work Rate Heat Acclimation Do Not Differ Between Highly Trained Male and Female Endurance Runners",
+      "one_liner": "18名高水平耐力跑者完成两种7次干预后，40℃热适应的核心体温、心率和出汗适应在男女间没有差异，环境热应激的增量大于同功率温和环境训练。",
+      "what": "8名男性和10名女性以随机交叉方式完成40℃与22℃下各7次、每次60分钟、50% vVO₂max跑步。热适应带来更大的核心体温和心率下降以及出汗率上升，血浆容量未改变。",
+      "why": "当绝对训练工作率被控制后，性别并未改变适应轨迹，说明许多处方差异可能来自起始状态、剂量和热负荷，而不是简单的男女二分。",
+      "practice": "可对高水平男女耐力运动员使用相同的基础热适应结构，再依据核心体温、心率、出汗与主观负担个体调节；月经周期并不是本研究检验的主要处方变量。",
+      "evidence": "随机、平衡交叉实验｜18名高水平耐力跑者｜两种环境各7次训练",
+      "confidence": "中（交叉设计和剂量控制较强，但样本小且只覆盖高水平跑者）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42969971",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42969971/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "呼吸代偿点比VO₂peak更能解释30分钟骑行表现",
+      "title": "The Respiratory Compensation Point Predicts 19.2-km Cycling Performance in Trained Male Cyclists",
+      "one_liner": "28名训练男性骑手中，经step-ramp-step校正的相对RCP功率与19.2公里计时成绩相关最高，并独立解释模型30.9%的预测方差。",
+      "what": "相对RCP功率与完赛时间r=-0.61；骑行经济性r=-0.55、相对VO₂peak r=-0.42，赛后峰值功率变化与表现无显著相关。多元模型总体r=0.68。",
+      "why": "约30分钟耐力表现更依赖接近重度—极重度边界的可持续功率，而非只看最大摄氧量。",
+      "practice": "实验室可用同一套step-ramp-step测试同时获取VO₂peak、经济性和RCP，并优先用相对RCP功率跟踪30分钟左右项目；当前结果尚未覆盖女性和不同赛程。",
+      "evidence": "横断面预测研究｜28名训练男性骑手｜个人公路车与智能骑行台",
+      "confidence": "中（指标与任务匹配且效应清楚，但样本和人群范围有限）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42969941",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42969941/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "相同负荷下发力意图会改变肌电频谱和速度衰减",
+      "title": "Gotta Go Fast: Intended Concentric Effort Produces Divergent Myoelectric Spectral Profiles During Fatiguing, Load-Equated Resistance Exercise",
+      "one_liner": "20人在70% 1RM腿伸展做到力竭时，最大加速意图与50%速度意图形成不同肌电频谱，前者平均推进速度下降斜率高3.6倍，但完成次数相近。",
+      "what": "最大意图条件使低频功率上升而高频受到抑制；50%速度条件则全频段上升。两种模式在力竭时高度收敛，但疲劳后的低意图模式更接近新鲜的最大意图模式。",
+      "why": "组数、次数和负荷相同并不代表神经肌肉刺激相同，动作口令本身就是可改变训练内部负荷的处方变量。",
+      "practice": "力量与爆发训练记录应保留向心意图和实际速度，不把‘控制速度’与‘尽快发力但实际速度较慢’混为同一方案。",
+      "evidence": "被试内实验｜20名休闲活动成年人｜70% 1RM单腿伸展至力竭｜小波肌电频谱",
+      "confidence": "中（被试内负荷控制清晰，但单关节任务与肌电频谱不等同于长期适应）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42969891",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42969891/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "极低量HIIT为缺铁性贫血女性增加部分姿势控制收益",
+      "title": "Effects of extremely low-volume high-intensity interval training combined with iron supplementation versus iron supplementation alone on postural control in young women with iron deficiency anemia: a randomized controlled trial",
+      "one_liner": "33名18—25岁缺铁性贫血女性中，8周极低量增强式HIIT叠加铁剂比单用铁剂进一步改善血红蛋白、肌耐力和两个较困难姿势条件。",
+      "what": "多重比较校正后，组间差异仅在泡沫面双足睁眼和泡沫面半串联闭眼仍显著；两组总体均随铁剂治疗改善。",
+      "why": "结果支持运动叠加治疗在功能层面的增量，但也显示多数姿势条件的差异会在严格校正后消失。",
+      "practice": "对已接受规范缺铁治疗且能够运动的年轻女性，可将低量训练作为体能和姿势功能补充；验收应使用预先指定的功能任务，而非从多个稳定性指标中挑选阳性结果。",
+      "evidence": "随机对照试验｜33名年轻女性｜8周｜铁剂共同治疗｜多重比较校正",
+      "confidence": "中（随机设计且报告校正结果，但样本小、结局多且未提供长期随访）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42970451",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42970451/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "老年睡眠改善不存在脱离剂量参数的固定最佳运动",
+      "title": "What exercise regimen is most effective for improving sleep quality in older adults? a systematic review and network meta-analysis",
+      "one_liner": "32项RCT、2658名老年人中，组合运动的排名最高，但不同训练时长、频率、周期、强度和人群会改变排序，结果更适合指导方案比较而非宣布单一赢家。",
+      "what": "SUCRA排序为组合运动74.8%、有氧65.4%、抗阻64.4%、身心运动49.7%、舞蹈46.1%；作者将结论明确标为初步，因为不同节点研究数量有限。",
+      "why": "睡眠处方不能只写运动类型，真正决定可执行性的往往是周频率、单次时长、训练周期和个体能力。",
+      "practice": "优先选择能够长期执行的组合、有氧或抗阻方案，并同时记录睡眠结局、训练剂量和依从性；SUCRA排名不应直接转成个体处方优先级。",
+      "evidence": "系统综述与网络Meta分析｜32项RCT、2658人｜多种运动类型与剂量亚组",
+      "confidence": "中（RCT总样本较大，但网络节点和剂量亚组有限，排序不够稳定）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42970245",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42970245/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "截肢者耐受极限步行后转向近端肌共同收缩",
+      "title": "Changes in gait-related muscle activation following a tolerance-limited prolonged walking task in men with unilateral transtibial amputation",
+      "one_liner": "10名单侧小腿截肢男性在10—20分钟耐受极限步行后，残肢侧股直肌—股二头肌共同收缩增加，完整侧小腿和腘绳肌募集也上升。",
+      "what": "与10名对照相比，截肢组在负重接受、单支撑和摆动期出现不同的肌电重分配；对照在任务后降低共同收缩，截肢组残肢侧摆动期反而增加。",
+      "why": "完成相似步行任务可能依赖更高的稳定性代偿和累积肌肉负担，静态步态检查可能漏掉疲劳后策略。",
+      "practice": "步态康复可加入耐受性步行后的重复测试，重点观察残肢侧近端肌耐力、共同收缩和完整侧小腿负荷，而不只记录步速与距离。",
+      "evidence": "实验室比较研究｜10名单侧小腿截肢男性、10名对照｜任务前后表面肌电",
+      "confidence": "中（阶段性肌电结果清楚，但样本小且共同收缩的保护或代价仍属机制解释）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42970147",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42970147/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "LifeVal把Agent评测移到真实生活任务",
+      "title": "LifeVal",
+      "one_liner": "OpenAI用3995人代表性调查构建生活任务评测，覆盖照护、健康、教育、家庭行政、个人财务、购物和政务，并要求模型完成实际操作而非只回答问题。",
+      "what": "公开示例包括筛选幼儿园、组织防洪志愿者、远程观赛和糖尿病家庭餐食规划；页面报告GPT-6 Astra在部分任务达到90%—100%，但尚未给出完整外部复现包和统一失败分布。",
+      "why": "Agent评测从知识问答转向跨网站、文件和决策链的任务完成，更接近真实工作流，但厂商自建基准仍可能偏向自家工具生态。",
+      "practice": "团队可借鉴‘真实任务—可观察中间产物—需要人工决定的节点—最终验收’结构，并用本组织任务建立独立回归集。",
+      "evidence": "OpenAI官方评测发布｜3995人需求调查｜2026-11-02｜部分结果为厂商自测",
+      "confidence": "中（评测目标和来源可核实，但外部可复现性与完整失败数据尚不足）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI LifeVal",
+        "url": "https://openai.com/index/lifeval/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "极低比例预训练污染可植入Agent远程执行后门",
+      "title": "Agentic Backdoors via Pretraining Poisoning",
+      "one_liner": "研究从头预训练0.6B、1.7B和4B Qwen3，并显示0.1%语料污染可在清洁后训练后保留Agent后门；4B模型普通字符串触发的Pass@32攻击成功率约92.7%。",
+      "what": "后门在SFT、DPO和GRPO后仍存在，且攻击成功率随模型规模上升；4B模型在0.0005%污染率下仍有正向攻击成功。触发器可是不显眼的普通文件路径，负载为远程脚本执行。",
+      "why": "Agent安全不能只检查后训练数据和系统提示，训练语料中的低比例污染也可能最终转化为真实工具调用和命令执行。",
+      "practice": "模型供应链评估应加入训练数据溯源、触发器扫描、工具调用沙箱、出网限制和部署前后门测试；生产Agent不应直接执行模型生成的下载运行链。",
+      "evidence": "arXiv预印本｜三种Qwen3规模｜完整预训练—后训练—CLI Agent链｜代码公开",
+      "confidence": "中高（端到端实验和代码公开，但规模仍远小于前沿闭源模型，威胁外推需独立复现）",
+      "limit": "",
+      "source": {
+        "title": "arXiv 2610.37741",
+        "url": "https://arxiv.org/abs/2610.37741"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "部署状态与构建日志开始直接进入MCP对话",
+      "title": "Vercel MCP now renders deployments as an interactive card",
+      "one_liner": "Vercel MCP可在支持MCP Apps的聊天客户端中显示实时部署状态、构建日志、源码和提交信息，并按项目、仓库、提交及环境查询部署。",
+      "what": "交互卡片可切换同仓库的多个项目，将日志发送回对话调试，并在部署完成后直接访问预览；不支持MCP Apps的客户端仍返回文本状态和URL。",
+      "why": "这把部署观察从外部仪表盘带入Agent工作流，但日志读取和调试建议仍需与环境权限、项目身份和人工发布门槛结合。",
+      "practice": "适合用于构建失败定位和预览核对；生产发布仍应保留状态检查、测试门槛、环境区分和可回滚提交，而不是以卡片显示成功替代验收。",
+      "evidence": "Vercel官方产品更新｜2026-11-02｜功能发布事实",
+      "confidence": "高（官方功能与接口说明明确；未评价实际调试质量）",
+      "limit": "",
+      "source": {
+        "title": "Vercel Changelog",
+        "url": "https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "运动团队应把处方变量写进数据：增强式训练的周数与接触结构、热适应的环境和外部功率、力量训练的向心意图，都会改变结果，不能只保存最终成绩。",
+    "康复评估应加入任务后的重复测量。截肢者能够完成步行并不代表代偿成本稳定，疲劳后的共同收缩和完整侧负荷才可能暴露真实限制。",
+    "Agent系统需要同时审查评测任务、训练数据和执行权限。真实任务基准提高了生态效度，但预训练后门说明工具调用必须被沙箱、出网控制和人工验收包围。"
+  ],
+  "trends_url": "data/trends/2026-11-03.json"
+}
