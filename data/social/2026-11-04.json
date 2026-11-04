@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "date": "2026-11-04",
+  "observed_at": "2026-11-04T08:05:00+08:00",
+  "title": "社媒热点｜2026-11-04",
+  "summary": {
+    "title": "从心率到模型权重：先把信号、状态与权限边界说清楚",
+    "signal": "本期公开讨论集中在可解释过程：心率要绑定用途，康复要区分移植物与功能，Agent则要让状态变化、设计规则和插件权限可检查。",
+    "total": 7,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 5
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-03",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "心率数据的价值取决于先明确要回答训练负荷还是个体反应，而不是把同一指标解释为所有类型的疲劳。",
+    "运动健康": "ACL移植物讨论正在从‘哪种最好’转向供区症状、力量恢复、附加手术与运动需求的组合决策。",
+    "AI": "公开讨论从生成结果推进到状态追踪、结构化检查、模型内部表征和第三方插件权限。"
+  },
+  "items": [
+    {
+      "id": "c45752ca11a1",
+      "domain": "运动科学",
+      "title": "Martin Buchheit强调心率必须按具体决策用途解释",
+      "short_title": "心率监控先回答用途再选指标",
+      "author": "Martin Buchheit / Firstbeat",
+      "platform": "公开网络研讨会",
+      "published_date": "2026-11-03",
+      "priority": "重点关注",
+      "one_liner": "研讨会把现场心率应用拆成两个问题：训练有多大代谢负荷，以及运动员如何响应；心率不能同时替代恢复、神经肌肉疲劳和专项输出评估。",
+      "what": "内容回到心率的基础用途，区分训练负荷描述和个体反应监控，并讨论不同指标能回答什么、何时失去解释力。",
+      "why": "球队常把区间时间、恢复心率、静息心率和HRV混在同一个‘状态分’中，导致异常出现时无法定位是训练刺激、环境还是恢复问题。",
+      "practice": "建立心率监控表时先为每个指标写明决策问题、采集条件和比较基线；训练负荷与恢复状态分别呈现，再与速度、功率、sRPE和症状交叉判断。",
+      "evidence": "专家公开研讨会｜2026-11-03｜实践框架而非新干预研究",
+      "confidence": "中高",
+      "confidence_reason": "主讲者长期从事精英运动心率监控，框架与生理测量逻辑一致；网页仅提供课程摘要。",
+      "source": {
+        "url": "https://www.firstbeat.com/en/webinars/beats-per-purpose-back-to-the-basics-of-heart-rate-in-practice/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "56ff93a46a6c",
+      "domain": "运动健康",
+      "title": "E3 Rehab讨论ACL股四头肌腱移植物的实际取舍",
+      "short_title": "移植物选择要同时看供区与运动需求",
+      "author": "E3 Rehab / Anders Stålman",
+      "platform": "专业播客",
+      "published_date": "2026-11-03",
+      "priority": "值得了解",
+      "one_liner": "讨论比较股四头肌腱、髌腱和腘绳肌腱移植物，并把供区疼痛、手术细节、外侧关节外固定和运动需求放在同一决策中。",
+      "what": "访谈围绕不同自体移植物的优势、供区症状、力量恢复、手术技术和LET适应情境展开，并连接近期股四头肌腱研究。",
+      "why": "移植物名称本身不能决定康复路径；取材部位、固定方式、运动项目和附加手术会共同改变早期负荷与后续力量缺口。",
+      "practice": "术前与术后记录应明确移植物构型和附加手术；功能测试除通用跳跃外，还应针对伸膝或屈膝力量缺口安排角度与速度特异评估。",
+      "evidence": "临床研究者访谈｜2026-11-03｜结合研究与临床经验",
+      "confidence": "中",
+      "confidence_reason": "议题和临床变量具体，但播客观点不是移植物优劣的直接比较试验。",
+      "source": {
+        "url": "https://directory.libsyn.com/episode/index/show/e3rehab/id/43488489"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "8d8667671049",
+      "domain": "AI",
+      "title": "StateBench把长文状态追踪拆成四种复杂度",
+      "short_title": "长上下文不等于持续维护正确状态",
+      "author": "Ai2 / Hugging Face",
+      "platform": "技术博客与公开基准",
+      "published_date": "2026-11-03",
+      "priority": "重点关注",
+      "one_liner": "StateBench显示，前沿模型在输入增长后仍会在自引用更新和变量间引用等复杂状态任务上失效，循环与混合架构在专项训练后外推更远。",
+      "what": "基准把问题分为不可变赋值、最新值覆盖、自引用累积和变量间引用四级，并发布技术报告、数据与代码，比较Transformer、循环和混合架构。",
+      "why": "Agent读取很长的日志或档案并不意味着它能正确更新运动员状态、任务进度或依赖关系；检索到片段与维护当前状态是不同能力。",
+      "practice": "长程工作流应把关键状态存为结构化字段，使用事件重放和不变量检查验证更新；不要只以最大上下文长度决定模型是否适合连续监控。",
+      "evidence": "公开基准、技术报告与代码｜2026-11-03",
+      "confidence": "中高",
+      "confidence_reason": "任务分层和材料可检查，但与真实业务状态机的迁移效果仍需独立评估。",
+      "source": {
+        "url": "https://huggingface.co/blog/allenai/statebench"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "4d3938441f21",
+      "domain": "AI",
+      "title": "IBM用20B模型、设计语言和检查器生成品牌化PPT",
+      "short_title": "结构化产物需要生成—检查—修复闭环",
+      "author": "IBM Research / Hugging Face",
+      "platform": "技术博客",
+      "published_date": "2026-11-03",
+      "priority": "值得了解",
+      "one_liner": "Palette将内容设计与版面编码拆开，用IBM设计语言合成训练数据，并在渲染后检查溢出、重叠和对比度，再让模型修复。",
+      "what": "团队微调20B开放权重模型，以‘设计者规划—编码者绘制’方式生成幻灯片，并用可执行检查器校验布局；其在PresentBench三个领域中的两个排名第一。",
+      "why": "这说明品牌一致性和版面质量不应完全依赖提示词，能被代码检查的结构约束更适合放进自动验收。",
+      "practice": "制作固定风格报告或PPT时，可把配色、字体、边距、文本容量和重叠检测写成规则，在每次渲染后自动检查，再由模型只修复失败页面。",
+      "evidence": "IBM Research技术项目与厂商基准｜2026-11-03",
+      "confidence": "中",
+      "confidence_reason": "方法和检查闭环具体，但排名来自项目方评测，尚缺跨模板独立复现。",
+      "source": {
+        "url": "https://huggingface.co/blog/ibm-research/palette-deck-building"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "b5cba0d01134",
+      "domain": "AI",
+      "title": "Simon Willison在本地复测模型读取神经网络权重",
+      "short_title": "权重空间编程出现可复现的本地案例",
+      "author": "Simon Willison",
+      "platform": "个人技术实验",
+      "published_date": "2026-11-03",
+      "priority": "值得了解",
+      "one_liner": "Qwen 3.8 27B在本地、无工具条件下从原始权重识别出Pac-Man、Pong和Breakout策略网络，但未识别Freeway，显示能力真实且边界明显。",
+      "what": "作者复用了公开论文仓库的相同提示，在17GB本地模型上运行长推理；三个任务正确、一个失败，每次耗时约46—65分钟。",
+      "why": "社区复测把厂商级‘模型能读权重’主张扩展到可本地运行模型，也揭示成功可能依赖任务熟悉度、上下文长度和巨大推理成本。",
+      "practice": "研究新型模型分析能力时，应保留公开提示、失败案例、运行时间、token和硬件，而不是只展示成功样例；当前结果尚不足以替代标准模型诊断与训练工具。",
+      "evidence": "可复现实验记录｜公开提示与推理日志｜2026-11-03",
+      "confidence": "中",
+      "confidence_reason": "过程和失败样例透明，但样本仅四个小型策略网络，且不是正式同行评审。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "210b26f029f3",
+      "domain": "AI",
+      "title": "Postman插件自动安装与权限范围引发社区安全质疑",
+      "short_title": "第三方Agent插件必须显式审查权限",
+      "author": "Postman用户 / Hacker News",
+      "platform": "GitHub Issue与社区讨论",
+      "published_date": "2026-10-25",
+      "priority": "值得了解",
+      "one_liner": "一项尚未结案的用户报告称桌面端自动安装Codex/Claude插件并注册启动钩子，11月3日进入集中讨论；目前应视为可检查的安全报告，而非已确认产品结论。",
+      "what": "Issue列出插件仓库、配置和钩子路径，质疑安装提示、信任范围和API数据访问。公开页面尚未提供厂商最终调查结论。",
+      "why": "Agent插件通常同时获得仓库、API定义、终端或网络权限，安装路径和默认信任设置会直接改变数据边界。",
+      "practice": "团队应盘点自动安装的技能、钩子与MCP配置，核对文件、网络和密钥权限，并在隔离项目中测试；不要仅凭社区标题认定发生数据外传。",
+      "evidence": "公开GitHub Issue｜原始发布2026-10-25、社区讨论2026-11-03｜未结案用户报告",
+      "confidence": "低",
+      "confidence_reason": "配置路径可核查，但自动安装范围、实际数据传输和厂商结论尚未确认。",
+      "source": {
+        "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+      },
+      "references": [
+        {
+          "label": "插件仓库",
+          "url": "https://github.com/postmanlabs/postman-plugin"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "74ce49b66593",
+      "domain": "AI",
+      "title": "GitHub Copilot通过ACP进入JetBrains Air",
+      "short_title": "编码Agent正在跨IDE共享协议与执行环境",
+      "author": "GitHub",
+      "platform": "官方产品更新",
+      "published_date": "2026-11-03",
+      "priority": "快讯",
+      "one_liner": "JetBrains Air现可通过Agent Client Protocol调用GitHub Copilot，支持本地或隔离云环境中的并行任务与就地审阅。",
+      "what": "云任务运行在全新虚拟机的Docker容器中，经代理出网且任务间不保留状态；现阶段Air治理分析不包含Copilot使用明细，也不能在Air中设置Copilot消费上限。",
+      "why": "编码Agent的交互层开始协议化，但执行隔离、状态持久化、费用归属和审计仍由各平台分别实现。",
+      "practice": "采用跨IDE Agent前，应先验证仓库授权、容器网络、任务状态和使用计费；并行会话应使用独立分支或工作树，合并前运行统一回归测试。",
+      "evidence": "GitHub官方产品更新｜2026-11-03",
+      "confidence": "高",
+      "confidence_reason": "发布事实、运行环境和当前管理限制均由官方明确说明。",
+      "source": {
+        "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动监控不应把心率、速度、sRPE和恢复指标压成一个无法解释的总分。先定义每个指标回答的决策问题，再决定是否组合。",
+    "ACL康复的测试选择应跟随移植物和专项任务：股四头肌腱、髌腱和腘绳肌腱会留下不同的供区与力量缺口，通用测试电池需要增加针对性模块。",
+    "AI工作流的下一步不是继续增加提示词，而是把状态、设计规则和插件权限变成可检查对象。能够自动验证的部分应交给代码和确定性工具，模型负责规划、解释和修复。"
+  ],
+  "trends_url": "data/social/trends/2026-11-04.json"
+}

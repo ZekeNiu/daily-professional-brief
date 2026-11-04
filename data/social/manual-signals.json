@@ -946,5 +946,89 @@
     "observed_at": "2026-11-03T08:20:00+08:00",
     "date_verified": true,
     "platform": "播客与文字访谈"
+  },
+  {
+    "id": "c45752ca11a1",
+    "title": "Beats per Purpose: Back to the Basics of Heart Rate in Practice",
+    "url": "https://www.firstbeat.com/en/webinars/beats-per-purpose-back-to-the-basics-of-heart-rate-in-practice/",
+    "domain": "运动科学",
+    "source_author": "Martin Buchheit / Firstbeat",
+    "author_id": "martin-buchheit-firstbeat",
+    "published_at": "2026-11-03T13:00:00+00:00",
+    "observed_at": "2026-11-04T07:57:35+08:00",
+    "date_verified": true,
+    "platform": "公开网络研讨会"
+  },
+  {
+    "id": "56ff93a46a6c",
+    "title": "277. Quad Tendon Autografts w/ Anders Stalman",
+    "url": "https://directory.libsyn.com/episode/index/show/e3rehab/id/43488489",
+    "domain": "运动健康",
+    "source_author": "E3 Rehab",
+    "author_id": "e3-rehab",
+    "published_at": "2026-11-03",
+    "observed_at": "2026-11-04T07:57:35+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "8d8667671049",
+    "title": "StateBench: A Benchmark for Evaluating State-Based Agents",
+    "url": "https://huggingface.co/blog/allenai/statebench",
+    "domain": "AI",
+    "source_author": "Hugging Face / AllenAI",
+    "author_id": "huggingface",
+    "published_at": "2026-11-03T17:15:21+00:00",
+    "observed_at": "2026-11-04T07:57:35+08:00",
+    "date_verified": true,
+    "platform": "技术博客"
+  },
+  {
+    "id": "4d3938441f21",
+    "title": "Palette: Agentic PowerPoint Deck Building",
+    "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+    "domain": "AI",
+    "source_author": "IBM Research / Hugging Face",
+    "author_id": "huggingface",
+    "published_at": "2026-11-03T16:35:36+00:00",
+    "observed_at": "2026-11-04T07:57:35+08:00",
+    "date_verified": true,
+    "platform": "技术博客"
+  },
+  {
+    "id": "b5cba0d01134",
+    "title": "Qwen can interpret the model weights of an 8-layer Transformer",
+    "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "domain": "AI",
+    "source_author": "Simon Willison",
+    "author_id": "simon-willison",
+    "published_at": "2026-11-03T16:29:48+00:00",
+    "observed_at": "2026-11-04T07:57:35+08:00",
+    "date_verified": true,
+    "platform": "个人技术博客"
+  },
+  {
+    "id": "210b26f029f3",
+    "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+    "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+    "domain": "AI",
+    "source_author": "Postman用户 / Hacker News",
+    "author_id": "hacker-news",
+    "published_at": "2026-10-25T19:03:26+00:00",
+    "observed_at": "2026-11-04T07:57:35+08:00",
+    "date_verified": true,
+    "platform": "GitHub Issue与社区讨论"
+  },
+  {
+    "id": "74ce49b66593",
+    "title": "GitHub Copilot is now available in JetBrains Air",
+    "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/",
+    "domain": "AI",
+    "source_author": "GitHub",
+    "author_id": "github",
+    "published_at": "2026-11-03T15:11:46+00:00",
+    "observed_at": "2026-11-04T07:57:35+08:00",
+    "date_verified": true,
+    "platform": "官方产品更新"
   }
 ]
