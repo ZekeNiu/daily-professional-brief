@@ -3207,7 +3207,7 @@
       ],
       "platform": "博客",
       "first_seen": "2026-10-22T01:31:24.548350+00:00",
-      "last_seen": "2026-10-22T01:31:24.548350+00:00"
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "39cad894cdd2",
@@ -3221,7 +3221,7 @@
       ],
       "platform": "公开发布",
       "first_seen": "2026-10-22T01:31:24.548350+00:00",
-      "last_seen": "2026-10-22T01:31:24.548350+00:00"
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "3f1a11956436",
@@ -3235,7 +3235,7 @@
       ],
       "platform": "公开发布",
       "first_seen": "2026-10-22T01:31:24.548350+00:00",
-      "last_seen": "2026-10-22T01:31:24.548350+00:00"
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "40a01666d562",
@@ -3249,7 +3249,21 @@
       ],
       "platform": "博客",
       "first_seen": "2026-10-22T01:31:24.548350+00:00",
-      "last_seen": "2026-10-22T01:31:24.548350+00:00"
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "5a5c7870dd07",
+      "title": "How Many Patients Per Day Is Too Many and Setting You Up to Burn Out?",
+      "url": "https://mikereinold.com/how-many-patients-per-day-is-too-many-and-setting-you-up-to-burn-out",
+      "date": "2026-10-22",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "Mike Reinold"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "5b4e08461387",
@@ -3263,7 +3277,35 @@
       ],
       "platform": "博客",
       "first_seen": "2026-10-22T01:31:24.548350+00:00",
-      "last_seen": "2026-10-22T01:31:24.548350+00:00"
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "6400feb68147",
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "date": "2026-10-22",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "661913408709",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher",
+      "date": "2026-10-22",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "77ec6ad66af3",
@@ -3277,7 +3319,7 @@
       ],
       "platform": "博客",
       "first_seen": "2026-10-22T01:31:24.548350+00:00",
-      "last_seen": "2026-10-22T01:31:24.548350+00:00"
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "94a5f6526ead",
@@ -3305,7 +3347,21 @@
       ],
       "platform": "博客",
       "first_seen": "2026-10-22T01:31:24.548350+00:00",
-      "last_seen": "2026-10-22T01:31:24.548350+00:00"
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "adabb743e471",
+      "title": "You are the Team — Anekha Sokhal, Moshi",
+      "url": "https://latent.space/p/moshi",
+      "date": "2026-10-22",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "agent-skills-aaif-standard-20261022",
@@ -3334,6 +3390,20 @@
       "platform": "实践者方法文章",
       "first_seen": "2026-10-26T08:24:00+08:00",
       "last_seen": "2026-10-26T08:24:00+08:00"
+    },
+    {
+      "id": "be77c76cb6e9",
+      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "url": "https://latent.space/p/ainews-openais-patch-the-planet-program",
+      "date": "2026-10-22",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "c295cb6c772e",
@@ -3375,7 +3445,21 @@
       ],
       "platform": "博客",
       "first_seen": "2026-10-22T01:31:24.548350+00:00",
-      "last_seen": "2026-10-22T01:31:24.548350+00:00"
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "eda525050cea",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "date": "2026-10-22",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "gabbett-heavy-strength-running-economy-20261022",
@@ -3420,6 +3504,104 @@
       "last_seen": "2026-10-24T07:58:00+08:00"
     },
     {
+      "id": "1a543055a02f",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "2b3f616d26d3",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "3b5a2a6a27ab",
+      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "url": "https://openai.com/index/anima",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "51888f116f5b",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "6c4c3021090e",
+      "title": "Tim Honored with Top 5 Research Ranking",
+      "url": "https://gabbettperformance.com.au/tim-honored-with-top-5-research-ranking",
+      "date": "2026-10-23",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Tim Gabbett / Gabbett Performance"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "8347efbf60ca",
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://latent.space/p/modal-d",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "891b7e0bbf66",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "activity-fitness-cvd-dose-20261023",
       "title": "How much exercise does your heart really need? Why 150 minutes a week is the floor, not the ceiling",
       "url": "https://blogs.bmj.com/bjsm/2026/10/23/how-much-exercise-does-your-heart-really-need-why-150-minutes-a-week-is-the-floor-not-the-ceiling/",
@@ -3432,6 +3614,76 @@
       "platform": "作者研究解读",
       "first_seen": "2026-10-26T08:24:00+08:00",
       "last_seen": "2026-10-26T08:24:00+08:00"
+    },
+    {
+      "id": "b11a3832e61f",
+      "title": "[AINews] Black October",
+      "url": "https://latent.space/p/ainews-black-october",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "c87632915228",
+      "title": "AI Is Getting Good at Math. Here’s Why.",
+      "url": "https://latent.space/p/ai-is-getting-good-at-math",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "d1cc4ab1d566",
+      "title": "DE STAAT - FREEDOM (Official Music Video)",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "d6172869a6c9",
+      "title": "Flint-interactive: A language for creating interactive data visualizations",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Microsoft Research"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "f8c156dba788",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "date": "2026-10-23",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "groin-pain-onfield-biomechanics-20261023",
@@ -3518,6 +3770,62 @@
       "last_seen": "2026-10-25T08:18:00+08:00"
     },
     {
+      "id": "02a20fdf8ff0",
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter",
+      "date": "2026-10-24",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "6e1fc50fabcd",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones",
+      "date": "2026-10-24",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "8721b6b1a71f",
+      "title": "Lo que sabemos sobre el entrenamiento de deportistas con pesas rusas",
+      "url": "https://simplifaster.com/articles/lo-que-sabemos-sobre-el-entrenamiento-de-deportistas-con-pesas-rusas",
+      "date": "2026-10-24",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "a74122a98f64",
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31",
+      "date": "2026-10-24",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "archestra-agent-schedules-145-20261024",
       "title": "Archestra platform v1.4.5",
       "url": "https://github.com/archestra-ai/archestra/releases/tag/platform-v1.4.5",
@@ -3530,6 +3838,34 @@
       "platform": "GitHub Releases",
       "first_seen": "2026-10-25T08:18:00+08:00",
       "last_seen": "2026-10-25T08:18:00+08:00"
+    },
+    {
+      "id": "da8785cc5779",
+      "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "date": "2026-10-24",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Sebastian Raschka"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "ee4c22366ef7",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "date": "2026-10-24",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "instant-strength-pain-claims-20261024",
@@ -3560,6 +3896,34 @@
       "last_seen": "2026-10-26T08:24:00+08:00"
     },
     {
+      "id": "0186c0f1dfec",
+      "title": "Seam Cutter",
+      "url": "https://simonwillison.net/2026/Oct/25/seam-cutter",
+      "date": "2026-10-25",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "9c6009b025f4",
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "date": "2026-10-25",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Nathan Lambert / Interconnects"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "b085a761acce",
       "title": "Two Years Since I Put My Hand Up",
       "url": "https://www.mickhughes.physio/single-post/two-years-since-i-put-my-hand-up",
@@ -3586,6 +3950,62 @@
       "platform": "GitHub Issue与社区讨论",
       "first_seen": "2026-11-04T07:57:35+08:00",
       "last_seen": "2026-11-04T07:57:35+08:00"
+    },
+    {
+      "id": "27334100e818",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "date": "2026-10-26",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "7d972df501d0",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "date": "2026-10-26",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "7e73eebe3e90",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "date": "2026-10-26",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "8eb6001a836a",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "date": "2026-10-26",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "agentenv-vercel-sandbox-evals-20261026",
@@ -3686,6 +4106,118 @@
       "last_seen": "2026-10-27T07:58:00+08:00"
     },
     {
+      "id": "335251daca6e",
+      "title": "webframe: evaluated as a scraper and a sandbox",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "35e334c19874",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "670bdc25a85e",
+      "title": "GPT-6.1 Terra",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "7788db215579",
+      "title": "Quoting Jason Koebler",
+      "url": "https://simonwillison.net/2026/Oct/26/jason-koebler",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "9a15b40232fd",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Google AI"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "a9c488820a62",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "c44dc9ed271f",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "f3da086cf64c",
+      "title": "Coding From the Himalayas With an Offline AI Agent",
+      "url": "https://latent.space/p/offline-coding",
+      "date": "2026-10-27",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "liquid-lfm3-multimodal-edge-20261027",
       "title": "Build specialized multimodal models with LFM3",
       "url": "https://huggingface.co/blog/LiquidAI/lfm3",
@@ -3756,6 +4288,76 @@
       "last_seen": "2026-11-01T07:51:11+08:00"
     },
     {
+      "id": "2247b97d682b",
+      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/opus55",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "68b12007f7f4",
+      "title": "Game Boy Color on My Conference Badge",
+      "url": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "6d1e998db622",
+      "title": "Quoting Terk Terkowitz",
+      "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "709cc8e2bd46",
+      "title": "Legora is building the agentic operating system for legal work",
+      "url": "https://openai.com/index/legora",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "70f2bbbd704a",
+      "title": "The October inflection point for vibe game development",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "887c59818f68",
       "title": "Artificial Analysis v5 and the benchmarker's dilemma",
       "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
@@ -3798,6 +4400,90 @@
       "last_seen": "2026-11-02T08:14:00+08:00"
     },
     {
+      "id": "a395c7da350b",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "add40a8fdaef",
+      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "c31843e7cdc1",
+      "title": "Was wir über das Training von Sportlern mit Kettlebells wissen",
+      "url": "https://simplifaster.com/articles/was-wir-uber-das-training-von-sportlern-mit-kettlebells-wissen",
+      "date": "2026-10-28",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "e2ed7680c50a",
+      "title": "The future of the firm",
+      "url": "https://openai.com/index/the-future-of-the-firm",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "e889cfac982d",
+      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure",
+      "date": "2026-10-28",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "e99726e13f52",
+      "title": "Is more carbohydrate better during exercise? What the evidence says about 90, 120 and 150 g/h",
+      "url": "https://www.mysportscience.com/post/2015/05/23/is-more-carbohydrate-better-during-exercise-and-how-much-is-too-much",
+      "date": "2026-10-28",
+      "domain": "运动科学",
+      "topic_id": "sport-nutrition",
+      "sources": [
+        "Asker Jeukendrup"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "ea41a986fe71",
       "title": "Introducing the Agent SDK",
       "url": "https://cursor.com/blog/agent-sdk",
@@ -3826,6 +4512,34 @@
       "last_seen": "2026-10-30T08:02:35+08:00"
     },
     {
+      "id": "0f01adb2acab",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "16681fd606d5",
+      "title": "Evernote turns AI-driven discovery into paid subscriptions",
+      "url": "https://openai.com/ads/customers/evernote",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "2cf1fb795ba0",
       "title": "We ran AI agent swarms in Minecraft and Mindustry",
       "url": "https://labs.ycombinator.com/projects/games/index.html",
@@ -3840,6 +4554,20 @@
       "last_seen": "2026-10-30T08:02:35+08:00"
     },
     {
+      "id": "2d0c2102a719",
+      "title": "Quoting Ben Hylak",
+      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "59788a007bb4",
       "title": "Why Agents Love Supabase",
       "url": "https://latent.space/p/supabase",
@@ -3852,6 +4580,34 @@
       "platform": "播客与文字稿",
       "first_seen": "2026-10-29T07:53:00+08:00",
       "last_seen": "2026-10-29T07:53:00+08:00"
+    },
+    {
+      "id": "598cba8875af",
+      "title": "¿Sirven para algo las escaleras? 4 formas sencillas de utilizar esta herramienta de entrenamiento",
+      "url": "https://simplifaster.com/articles/sirven-para-algo-las-escaleras-4-formas-sencillas-de-utilizar-esta-herramienta-de-entrenamiento",
+      "date": "2026-10-29",
+      "domain": "运动科学",
+      "topic_id": "sport-speed",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "5e9e44475572",
+      "title": "GitHub Octoverse 2026",
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "6394645bd510",
@@ -3882,6 +4638,48 @@
       "last_seen": "2026-10-30T08:02:35+08:00"
     },
     {
+      "id": "7066b0e18e3a",
+      "title": "Hypnosis for pain: you’re getting very sleepy and unimpressed [2m]",
+      "url": "https://www.painscience.com/blog/hypnosis-for-pain.html",
+      "date": "2026-10-29",
+      "domain": "运动健康",
+      "topic_id": "health-pain",
+      "sources": [
+        "Paul Ingraham / PainScience"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "718617961cab",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "85f94c0fe8f0",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "88899755dba0",
       "title": "API credits benefit for eligible ChatGPT subscriptions",
       "url": "https://simonwillison.net/2026/Oct/29/api-credits",
@@ -3894,6 +4692,34 @@
       "platform": "独立技术博客",
       "first_seen": "2026-10-30T08:02:35+08:00",
       "last_seen": "2026-10-30T08:02:35+08:00"
+    },
+    {
+      "id": "8b48bdf40545",
+      "title": "O que sabemos sobre o treinamento de atletas com kettlebells",
+      "url": "https://simplifaster.com/articles/o-que-sabemos-sobre-o-treinamento-de-atletas-com-kettlebells",
+      "date": "2026-10-29",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "a1a23e154cf4",
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "url": "https://latent.space/p/ainews-gemini-4-carbon",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "b6b30743068c",
@@ -3910,6 +4736,48 @@
       "last_seen": "2026-10-30T08:02:35+08:00"
     },
     {
+      "id": "bfb31ceb6c55",
+      "title": "Quoting Ted Sanders",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "d948735545c2",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "e508e29ae812",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "date": "2026-10-29",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "faf34df179d1",
       "title": "The Perfect Protein?",
       "url": "https://www.scienceforsport.com/the-perfect-protein",
@@ -3922,6 +4790,48 @@
       "platform": "博客",
       "first_seen": "2026-10-29T07:53:00+08:00",
       "last_seen": "2026-10-29T07:53:00+08:00"
+    },
+    {
+      "id": "35c84e950b28",
+      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "url": "https://latent.space/p/elorian",
+      "date": "2026-10-30",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "44864eac16c3",
+      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference",
+      "date": "2026-10-30",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "49f8fdcf9435",
+      "title": "Microsoft Research Focus – Edition #97",
+      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97",
+      "date": "2026-10-30",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Microsoft Research"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "55737272f83d",
@@ -3938,6 +4848,20 @@
       "last_seen": "2026-10-31T08:00:16+08:00"
     },
     {
+      "id": "574dbaf7fc87",
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "date": "2026-10-30",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "5d096e437ca7",
       "title": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
       "url": "https://www.qbitai.com/2026/10/506743.html",
@@ -3952,6 +4876,20 @@
       "last_seen": "2026-10-31T08:00:16+08:00"
     },
     {
+      "id": "71a86afdc10d",
+      "title": "Haben Leitern einen Nutzen? 4 einfache Möglichkeiten, dieses Trainingsgerät einzusetzen",
+      "url": "https://simplifaster.com/articles/haben-leitern-einen-nutzen-4-einfache-moglichkeiten-dieses-trainingsgerat-einzusetzen",
+      "date": "2026-10-30",
+      "domain": "运动科学",
+      "topic_id": "sport-speed",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "80c8954150da",
       "title": "Own your data",
       "url": "https://www.hawkindynamics.com/blog/data-ownership",
@@ -3964,6 +4902,62 @@
       "platform": "厂商观点文章",
       "first_seen": "2026-11-01T07:51:11+08:00",
       "last_seen": "2026-11-01T07:51:11+08:00"
+    },
+    {
+      "id": "84abd1857de5",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "date": "2026-10-30",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "9349f418e7bc",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "date": "2026-10-30",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "a86d24c59c82",
+      "title": "Community safety report and new protections for teens",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "date": "2026-10-30",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "e65fcafff408",
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
+      "date": "2026-10-30",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "037154e824aa",
@@ -4106,6 +5100,34 @@
       "last_seen": "2026-11-01T07:51:11+08:00"
     },
     {
+      "id": "785d4ceb71a8",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+      "date": "2026-11-01",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "9fc5ee213b01",
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm",
+      "date": "2026-11-01",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "bc32ee579288",
       "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
       "url": "https://latent.space/p/arca",
@@ -4134,6 +5156,20 @@
       "last_seen": "2026-11-02T08:14:00+08:00"
     },
     {
+      "id": "1e75cc35b491",
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+      "date": "2026-11-02",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "277870ffc8d7",
       "title": "Scaling Git at OpenAI",
       "url": "https://openai.com/index/scaling-git-at-openai",
@@ -4146,6 +5182,34 @@
       "platform": "官方工程文章",
       "first_seen": "2026-11-03T08:20:00+08:00",
       "last_seen": "2026-11-03T08:20:00+08:00"
+    },
+    {
+      "id": "2dd1a315b516",
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+      "date": "2026-11-02",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "4094d4340f9e",
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "date": "2026-11-02",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "5a014341bc3f",
@@ -4162,6 +5226,62 @@
       "last_seen": "2026-11-03T08:20:00+08:00"
     },
     {
+      "id": "5d33ed0c66ac",
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "date": "2026-11-02",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "6326113d20ac",
+      "title": "Ep 287: Finding your place in high-performance sport, with Emily Ross",
+      "url": "https://feeds.resonaterecordings.com/media/jospt/01a17093-a91b-73ad-9ab6-834c4e2fef29/01a1769e-5128-7180-93b2-dec0863d6da0/jospti-emily-ross-full-audiomp3.mp3",
+      "date": "2026-11-02",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "JOSPT Insights"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "945f879ef3a4",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "date": "2026-11-02",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "9c79addb856a",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+      "date": "2026-11-02",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "e2f2cd3ee0a6",
       "title": "If in doubt, delete the uv.lock file",
       "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
@@ -4174,6 +5294,202 @@
       "platform": "独立技术博客",
       "first_seen": "2026-11-02T08:14:00+08:00",
       "last_seen": "2026-11-02T08:14:00+08:00"
+    },
+    {
+      "id": "019edb616369",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "0abda820af02",
+      "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
+      "url": "https://www.qbitai.com/2026/11/507367.html",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "0be39f43d2b2",
+      "title": "B站举办2026超级科学晚，脑机接口、人造太阳等前沿科技齐亮相",
+      "url": "https://www.qbitai.com/2026/11/507339.html",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "0d297090385a",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "1b989df1def3",
+      "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri",
+      "url": "https://www.qbitai.com/2026/11/507419.html",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "22262baef95a",
+      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "25493a43cba5",
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "31346adcac76",
+      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
+      "url": "https://www.qbitai.com/2026/11/507448.html",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "3343cd5df22c",
+      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "通讯",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "34e7d6261520",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "3dfc4ef96d40",
+      "title": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间",
+      "url": "https://www.qbitai.com/2026/11/507410.html",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "449ed68b9005",
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "46933a36d260",
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "4734444af824",
+      "title": "社区速递 164 | 1500 元圆梦昔日卡皇与派友们做的 AI 平替",
+      "url": "https://sspai.com/post/118317",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "少数派 · AI应用"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "5010fb296f76",
@@ -4204,6 +5520,34 @@
       "last_seen": "2026-11-04T07:57:35+08:00"
     },
     {
+      "id": "63945bc79480",
+      "title": "CWE-bench v2: More coverage, quality, and transparency",
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "6455864ee0c7",
+      "title": "A社紧急修改招股书！RSI我们快要控制不住了",
+      "url": "https://www.qbitai.com/2026/11/507382.html",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "74ce49b66593",
       "title": "GitHub Copilot is now available in JetBrains Air",
       "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/",
@@ -4218,6 +5562,48 @@
       "last_seen": "2026-11-04T07:57:35+08:00"
     },
     {
+      "id": "7715ad33c91e",
+      "title": "智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池",
+      "url": "https://www.qbitai.com/2026/11/507473.html",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "996c88dfa31d",
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Google AI"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "9d52bf97ae05",
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "a3c49b8be310",
       "title": "Cómo contribuyen los entrenadores a la motivación de los deportistas",
       "url": "https://simplifaster.com/articles/como-contribuyen-los-entrenadores-a-la-motivacion-de-los-deportistas",
@@ -4230,6 +5616,34 @@
       "platform": "实践者文章",
       "first_seen": "2026-11-03T08:20:00+08:00",
       "last_seen": "2026-11-03T08:20:00+08:00"
+    },
+    {
+      "id": "a6f54d325d31",
+      "title": "Transformers Model Integration Contracts",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Hugging Face"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "bca108e4c77b",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     },
     {
       "id": "c45752ca11a1",
@@ -4274,6 +5688,90 @@
       "last_seen": "2026-11-03T08:20:00+08:00"
     },
     {
+      "id": "f4913a0dc65c",
+      "title": "AI数据平台OceanBase获世界互联网大会杰出贡献奖",
+      "url": "https://www.qbitai.com/2026/11/507405.html",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "f64ac08bcee0",
+      "title": "小米斩获乌镇峰会双料大奖：小米集团获“杰出贡献奖”，小米具身基座模型获“领先科技奖”",
+      "url": "https://www.qbitai.com/2026/11/507396.html",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "fc87a45dcfbf",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "fd5d0690f18a",
+      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "url": "https://www.qbitai.com/2026/11/507507.html",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "量子位"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "01b1e45f222d",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "date": "2026-11-04",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "32aabc03de73",
+      "title": "Learn the rules: The hacker mindset",
+      "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset",
+      "date": "2026-11-04",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Microsoft Research"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "4d3938441f21",
       "title": "Palette: Agentic PowerPoint Deck Building",
       "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
@@ -4302,6 +5800,20 @@
       "last_seen": "2026-11-04T07:57:35+08:00"
     },
     {
+      "id": "ae61902e2afa",
+      "title": "How I use AI (Oct 2026)",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026",
+      "date": "2026-11-04",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
       "id": "b5cba0d01134",
       "title": "Qwen can interpret the model weights of an 8-layer Transformer",
       "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
@@ -4314,6 +5826,34 @@
       "platform": "个人技术博客",
       "first_seen": "2026-11-04T07:57:35+08:00",
       "last_seen": "2026-11-04T07:57:35+08:00"
+    },
+    {
+      "id": "bc5091194b44",
+      "title": "Training des Anlaufs beim Hochsprung",
+      "url": "https://simplifaster.com/articles/training-des-anlaufs-beim-hochsprung",
+      "date": "2026-11-04",
+      "domain": "运动科学",
+      "topic_id": "sport-speed",
+      "sources": [
+        "SimpliFaster"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
+    },
+    {
+      "id": "f7735096343c",
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "date": "2026-11-04",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-04T03:00:05.972663+00:00",
+      "last_seen": "2026-11-04T03:00:05.972663+00:00"
     }
   ]
 }
