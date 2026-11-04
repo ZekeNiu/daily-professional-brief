@@ -3574,6 +3574,20 @@
       "last_seen": "2026-10-29T07:53:00+08:00"
     },
     {
+      "id": "210b26f029f3",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "date": "2026-10-26",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Postman用户 / Hacker News"
+      ],
+      "platform": "GitHub Issue与社区讨论",
+      "first_seen": "2026-11-04T07:57:35+08:00",
+      "last_seen": "2026-11-04T07:57:35+08:00"
+    },
+    {
       "id": "agentenv-vercel-sandbox-evals-20261026",
       "title": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
       "url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox",
@@ -4176,6 +4190,34 @@
       "last_seen": "2026-11-03T08:20:00+08:00"
     },
     {
+      "id": "56ff93a46a6c",
+      "title": "277. Quad Tendon Autografts w/ Anders Stalman",
+      "url": "https://directory.libsyn.com/episode/index/show/e3rehab/id/43488489",
+      "date": "2026-11-03",
+      "domain": "运动健康",
+      "topic_id": "health-pain",
+      "sources": [
+        "E3 Rehab"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-04T07:57:35+08:00",
+      "last_seen": "2026-11-04T07:57:35+08:00"
+    },
+    {
+      "id": "74ce49b66593",
+      "title": "GitHub Copilot is now available in JetBrains Air",
+      "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/",
+      "date": "2026-11-03",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "GitHub"
+      ],
+      "platform": "官方产品更新",
+      "first_seen": "2026-11-04T07:57:35+08:00",
+      "last_seen": "2026-11-04T07:57:35+08:00"
+    },
+    {
       "id": "a3c49b8be310",
       "title": "Cómo contribuyen los entrenadores a la motivación de los deportistas",
       "url": "https://simplifaster.com/articles/como-contribuyen-los-entrenadores-a-la-motivacion-de-los-deportistas",
@@ -4188,6 +4230,20 @@
       "platform": "实践者文章",
       "first_seen": "2026-11-03T08:20:00+08:00",
       "last_seen": "2026-11-03T08:20:00+08:00"
+    },
+    {
+      "id": "c45752ca11a1",
+      "title": "Beats per Purpose: Back to the Basics of Heart Rate in Practice",
+      "url": "https://www.firstbeat.com/en/webinars/beats-per-purpose-back-to-the-basics-of-heart-rate-in-practice/",
+      "date": "2026-11-03",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Martin Buchheit / Firstbeat"
+      ],
+      "platform": "公开网络研讨会",
+      "first_seen": "2026-11-04T07:57:35+08:00",
+      "last_seen": "2026-11-04T07:57:35+08:00"
     },
     {
       "id": "c90b220cbc29",
@@ -4216,6 +4272,48 @@
       "platform": "arXiv预印本与社区讨论",
       "first_seen": "2026-11-03T08:20:00+08:00",
       "last_seen": "2026-11-03T08:20:00+08:00"
+    },
+    {
+      "id": "4d3938441f21",
+      "title": "Palette: Agentic PowerPoint Deck Building",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "date": "2026-11-04",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "IBM Research / Hugging Face"
+      ],
+      "platform": "技术博客",
+      "first_seen": "2026-11-04T07:57:35+08:00",
+      "last_seen": "2026-11-04T07:57:35+08:00"
+    },
+    {
+      "id": "8d8667671049",
+      "title": "StateBench: A Benchmark for Evaluating State-Based Agents",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "date": "2026-11-04",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Hugging Face / AllenAI"
+      ],
+      "platform": "技术博客",
+      "first_seen": "2026-11-04T07:57:35+08:00",
+      "last_seen": "2026-11-04T07:57:35+08:00"
+    },
+    {
+      "id": "b5cba0d01134",
+      "title": "Qwen can interpret the model weights of an 8-layer Transformer",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "date": "2026-11-04",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "个人技术博客",
+      "first_seen": "2026-11-04T07:57:35+08:00",
+      "last_seen": "2026-11-04T07:57:35+08:00"
     }
   ]
 }
