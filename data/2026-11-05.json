@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-05",
+  "title": "每日专业资讯简报｜2026-11-05",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "本期最重要的共同进展是：无论动作评估、重返运动还是AI安全，单个峰值或最终结果都不够，真正可执行的证据来自过程定位、独立验证和明确权限边界。"
+  },
+  "navigation": {
+    "prev": "2026-11-04",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "动作阶段、肌腱连接区的局部适应和训练转移共同提示：平均值与终点成绩会掩盖真正发生变化的位置。",
+    "运动健康": "康复评估应把可及的现场测试、专项功能与神经生理反应分开解释，避免用单一对称性替代恢复状态。",
+    "AI": "AI进入安全审计、视觉生产和文档抽取后，动态复现、结构化输出与任务专用模型成为可落地性的核心。"
+  },
+  "items": [
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "武术击法的性别差异集中在后脚水平发力阶段",
+      "title": "Statistical Parametric Mapping reveals sex-specific, phase-dependent differences in bilateral three-dimensional ground reaction force during Wushu Changbing PiJi in high-level athletes",
+      "one_liner": "44名高水平运动员的616次试次显示，组间差异主要出现在后脚和双脚合力的水平分量及特定阶段，而不是单一峰值。",
+      "what": "研究用双力台记录22名男性和22名女性运动员的长兵劈击，将每次动作标准化为143个时间节点。校正多重比较后，男性在33.98%—47.04%阶段的后脚前后向力更高，并在54.18%—71.99%阶段表现出更高的水平向合力；女性仅在42.11%—44.61%出现短暂更高的后脚垂直力。",
+      "why": "如果只比较峰值或整段平均值，训练者会看不到差异发生在哪只脚、哪个方向和哪个动作阶段，难以判断是助推、制动还是力量传递问题。",
+      "practice": "专项技术评估应保留连续力—时间曲线，并按后脚、前脚、方向和阶段标记；训练反馈优先指出差异出现的动作窗口，而不是笼统要求提高峰值力。",
+      "evidence": "横断面实验｜44名高水平运动员、616次试次；双力台、统计参数映射与5000次置换敏感性分析",
+      "confidence": "中高（连续波形和敏感性分析一致，但结果限于单一武术技术，未直接检验成绩转移）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42981364",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42981364/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "肌肉—肌腱连接区存在运动响应的局部翻译程序",
+      "title": "Local translational program at the muscle-tendon junction endows domain identity in muscle syncytia",
+      "one_liner": "新型MTJ-AAV工具显示，肌肉—肌腱连接区不仅有特异转录，还通过局部翻译塑造结构身份并随运动重塑。",
+      "what": "研究建立可选择性靶向肌肉—肌腱连接区肌核的MTJ-AAV系统，结合区域特异核糖体标记发现大量局部翻译调控；转录本非翻译区足以控制区域化翻译，Kruppel样因子家族在连接区翻译上调并驱动局部基因表达。",
+      "why": "这把训练适应从‘整块肌肉统一响应’推进到亚细胞空间层级：负责传力的连接区可能拥有独立的蛋白合成与重塑程序。",
+      "practice": "当前价值主要在研究设计：肌肉—肌腱适应研究应增加连接区取样、空间组学或区域特异标记，不能用肌腹平均信号替代连接区机制；尚不支持直接改变训练处方。",
+      "evidence": "基础机制研究｜Science Advances；区域特异AAV、核糖体标记与运动重塑实验",
+      "confidence": "高（工具、翻译组与功能验证形成机制链；实践转化仍处基础阶段）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42981407",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42981407/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "3000米与2000米低氧重复冲刺的场地转移都有限",
+      "title": "Ergocycling-Based Repeated-Sprint Training in Hypoxia Performed at Either 3,000 m or 2,000 m Similarly Impacts Overground Performance in Under-18 Field Hockey Players",
+      "one_liner": "15名U18曲棍球运动员完成6次低氧功率车冲刺后，场地6×20米总时间仅改善约1%，两种低氧水平无差异。",
+      "what": "运动员在模拟3000米或2000米低氧下完成3周、每周2次功率车重复冲刺。两组车上峰值与平均功率均提高，但地面最大理论力和功率未变，理论最大速度反而下降；6×20米最佳成绩与衰减率无显著变化，仅总时间分别改善1.1%和0.9%。",
+      "why": "训练设备上的进步没有完整转移到场地，且更强低氧未带来额外收益，说明呼吸刺激不能替代动作与力向量的专项性。",
+      "practice": "若目标是场地重复冲刺，应把功率车低氧作为补充而非主训练；至少保留地面加速、最大速度和重复冲刺测试，确认转移是否发生。",
+      "evidence": "小样本训练研究｜15名高水平U18男性曲棍球运动员；3周、6次训练、两种低氧剂量",
+      "confidence": "中（结果数字明确，但每组仅7—8人且无常氧对照）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42980048",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42980048/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "ACL术后跳跃距离可补充力量评估但不能替代全部维度",
+      "title": "Horizontal and Multidirectional Single-Leg Hop Tests Predict Isokinetic Quadriceps and Hamstring Strengths After Anterior Cruciate Ligament Reconstruction",
+      "one_liner": "51名男性ACL重建者在术后6—8个月的单跳与三连跳可解释26%—52%的等速力量差异，但大多数LSI之间相关很弱。",
+      "what": "研究比较5种单腿跳与60、180和240°/s膝伸屈等速力量。单跳和三连跳对术侧伸膝、屈膝力量的回归解释度为调整R² 0.26—0.52；但LSI层面仅60°/s伸膝与三连跳LSI显著相关，且三连跳与90°内旋跳的术侧距离仍较短。",
+      "why": "绝对表现之间有关系，不等于两个测试的对称指数可互换。只看跳跃LSI可能掩盖力量速度、方向与代偿策略的不同缺口。",
+      "practice": "设备受限时可用单跳和三连跳筛查力量恢复线索；重返运动决策仍应保留直接力量测试、至少一个多方向跳和动作质量观察，并同时看绝对值与LSI。",
+      "evidence": "横断面研究｜51名男性、ACL重建后6—8个月；5种单腿跳与3种等速速度",
+      "confidence": "中高（关系和解释度清楚，但仅男性且为横断面预测）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42981220",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42981220/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "多次脑震荡改变急性运动后的皮层响应",
+      "title": "Cumulative sport-related concussions alter cortical responses to acute aerobic exercise in rugby players",
+      "one_liner": "19名男性橄榄球运动员运动后认知均改善，但既往多次脑震荡者的枕叶γ波响应更弱。",
+      "what": "运动员在约75%年龄预测最大心率骑行前后接受Stroop、King-Devick和静息脑电测试。运动后两项认知表现改善；睁眼枕叶γ功率存在时间×组别交互，脑震荡负担与其变化呈负相关（r=-0.482）。",
+      "why": "无症状和短时认知改善并不意味着神经生理响应完全恢复；累积脑震荡史可能改变运动后的皮层调节方式。",
+      "practice": "碰撞项目的运动后评估应记录脑震荡史，并避免用一次认知测试改善作为完整恢复依据；该研究更适合支持进一步监测，不足以建立个体清除阈值。",
+      "evidence": "探索性实验｜19名男性橄榄球运动员，其中8人无脑震荡史、11人多次脑震荡；急性骑行前后脑电与认知",
+      "confidence": "中低（方向一致但样本很小，分组并非随机）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42980653",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42980653/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "职业女足6周盆底训练改善肌力与自我效能",
+      "title": "Effectiveness of Pelvic Floor Muscle Training in Women Soccer Players and Its Relationship With Quality of Life and Pelvic Floor Muscle Strength: A Randomized Controlled Pilot Study",
+      "one_liner": "20名职业女足球员的随机先导试验中，6周监督训练令盆底肌表现提高122.4%，未报告不良事件。",
+      "what": "12人接受每周4次、每次30分钟的教育—本体感觉—力量—功能整合训练，8人对照。干预组盆底自我效能提高48.8%—59.6%，肌肉表现提高122.4%，组间效应量较大（d=0.91—1.26）。",
+      "why": "盆底功能在高冲击女运动员中常被忽略；该方案把孤立收缩推进到运动情境下的功能整合，提供了可实施的训练框架。",
+      "practice": "有症状或筛查异常的女足球员可由具备盆底专业能力的临床人员评估，并在常规体能中加入渐进、监督的功能整合；不应把小样本结果直接当作所有球员的统一预防处方。",
+      "evidence": "随机对照先导试验｜20名未产职业女足球员；6周、每周4次监督训练",
+      "confidence": "中（随机设计与客观测量支持效果，但样本仅20人）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42980063",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42980063/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Linux安全Agent已把发现、复现、利用与补丁连成流水线",
+      "title": "A thousand fewer paths to root",
+      "one_liner": "OpenAI称一次受控扫描复现1724个漏洞、形成948个独立本地提权利用与候选补丁，成本约121万美元。",
+      "what": "流水线先由Scout筛选5034个审计目标，再由Analyst生成2308个候选；动态环境复现率为74.7%，随后生成1169个可工作的提权利用，并经变体分析归并为948个独立补丁目标。人工复核发现早期200个‘成功利用’中有20个走了错误0-day路径，之后增加独立路径核验。",
+      "why": "关键进展不是模型会找漏洞，而是候选发现、动态复现、可利用性判断、补丁生成和人工上游流程可以规模化串联；同时也证明只验证‘拿到root’会漏掉因果路径错误。",
+      "practice": "构建安全Agent时应保存崩溃证据、利用路径和补丁差异，使用隔离虚机与独立验证器确认目标漏洞；扫描结果进入修复队列前还要对最新代码重验，避免重复或已失效报告。",
+      "evidence": "厂商安全研究｜受控Linux内核实验；公布阶段数量、API成本、动态证据与人工复核案例",
+      "confidence": "中高（方法与数字详细，但核心模型和完整样本未开放，结果来自厂商自报）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI Security",
+        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Images 2.6把局部标注、SVG与复杂度控制带入API",
+      "title": "Introducing Images 2.6",
+      "one_liner": "OpenAI发布两档图像API模型，称生成速度提高50%，并加入图像标注编辑、SVG导出、复杂度控制和GIF工作流。",
+      "what": "GPT-Image-2.6 Flare面向快速生成，低质量模式最快约6秒；Sunburst面向中高质量和跨轮次一致性。API新增区域标注、SVG导出与complexity参数，模型已在ChatGPT、Codex和API上线。",
+      "why": "这把图像工作流从一次性生成推进到可定位修改、矢量交付和速度—质量—规划量的显式权衡，更接近设计生产链。",
+      "practice": "批量创意或快速修改可先用低complexity与Flare，品牌资产和复杂场景再升到Sunburst；上线前应以自有素材测试文字、布局、编辑一致性和SVG可用性，不能用厂商示例替代验收。",
+      "evidence": "官方产品发布｜2026-11-04；速度和质量为厂商指标，尚无独立横评",
+      "confidence": "中（功能与可用性已明确，效果提升主要依据官方声明）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI",
+        "url": "https://openai.com/index/introducing-images-2-6/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "2B文档模型在自建基准上胜过四个通用前沿配置",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "one_liner": "Dharma-AI称其2B模型在1638个文档抽取案例得分0.834，高于Claude Opus 5的0.816，并可按指定schema输出JSON。",
+      "what": "模型基于DharmaOCR-LITE v1.1加LoRA，在43384个样本上训练；评测覆盖546份文档、三种请求场景，综合字段F1、值相似度和JSON有效率。自报成本比四个通用模型低约6—147倍，缺失字段返回null。",
+      "why": "它展示了一个实用取舍：边界明确、输出结构稳定的高频任务，专用小模型可能比通用模型更便宜且更容易自托管。",
+      "practice": "文档工作流应先固定字段schema与缺失值规则，再用自有扫描件做按字段验收；若任务类型稳定，可把专用模型作为第一层抽取，通用模型只处理低置信度或异常案例。",
+      "evidence": "团队技术报告与开放模型｜自建基准1638例；含公开保留集，但整体比较尚未独立复现",
+      "confidence": "中（评测定义和数字透明，结论仍来自开发团队自测）",
+      "limit": "",
+      "source": {
+        "title": "Hugging Face / Dharma-AI",
+        "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "运动评估的下一步不是再增加一个总分，而是保留过程结构：连续波形要能定位脚、方向与阶段；康复电池要区分绝对能力、对称性和动作策略。",
+    "机制研究正在把训练适应从整块组织推进到空间域。肌肉—肌腱连接区的局部翻译程序提示，未来解释肌腱传力与恢复时，取样位置本身就是研究变量。",
+    "AI生产系统应把‘结果正确’升级为‘路径可验证’。安全Agent需复现与独立路径核验，文档Agent需schema与null规则，视觉Agent需局部编辑和交付格式验收。"
+  ],
+  "trends_url": "data/trends/2026-11-05.json"
+}

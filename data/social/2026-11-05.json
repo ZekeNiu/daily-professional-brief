@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "date": "2026-11-05",
+  "observed_at": "2026-11-05T08:05:00+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-05",
+  "summary": {
+    "title": "从器材标签到权限边界：先问它具体解决什么问题",
+    "signal": "本期讨论的共同点是去除技术光环：运动食品按用途判断、机器人手术按患者结局判断、Agent应用按查询权限与可测采用数据判断。",
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 1,
+      "AI": 3
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-04",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "训练工具和运动食品都不能仅凭类别名称判断价值，必须回到动作目标、使用时机和总体饮食结构。",
+    "运动健康": "昂贵技术是否值得采用，应优先看盲法随机试验中的患者结局、成本和手术时间。",
+    "AI": "可用Agent应用正在收紧数据权限，同时开放模型生态的规模判断仍受平台样本和披露口径限制。"
+  },
+  "items": [
+    {
+      "id": "f5599ae5c3fe",
+      "domain": "运动科学",
+      "title": "Science for Sport讨论运动食品的“超加工”标签是否足以指导决策",
+      "short_title": "运动食品应按用途与总体饮食判断",
+      "author": "Eric Curry / Science for Sport",
+      "platform": "专业通讯",
+      "published_date": "2026-11-04",
+      "priority": "重点关注",
+      "one_liner": "运动饮料、凝胶和恢复饮品虽常被归为超加工食品，但在长时运动中可提供难以由完整食物即时替代的碳水、电解质与便利性。",
+      "what": "文章围绕一篇新综述指出，超加工分类会把多种专项运动食品与普通高能量零食放在同一类别，而运动员研究仍很少；这些产品的用途通常是运动中补碳水、补液与训练后恢复。",
+      "why": "只看加工等级会忽略摄入时机和运动需求，但只看功能又可能掩盖长期膳食质量。真正需要判断的是产品在总饮食和训练情境中的角色。",
+      "practice": "日常饮食继续以营养密度高的食物为基础；长时训练、比赛和胃肠耐受受限时，再按碳水、液体与电解质目标选用运动食品，并记录实际耐受。",
+      "evidence": "专业媒体解读｜2026-11-04；基于综述，非新的运动员干预试验",
+      "confidence": "中",
+      "confidence_reason": "用途判断符合运动营养实践，但文章同时承认运动员专门证据有限。",
+      "source": {
+        "url": "https://www.scienceforsport.com/the-ultra-processed-sports-food-dilemma"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "ad13aea1f5a7",
+      "domain": "运动科学",
+      "title": "SimpliFaster把直立加速跑作为赛前热身与速度准备的桥梁",
+      "short_title": "热身冲刺应逐步接近比赛姿势与速度",
+      "author": "SimpliFaster",
+      "platform": "教练实践文章",
+      "published_date": "2026-11-04",
+      "priority": "值得了解",
+      "one_liner": "文章主张用短距离、直立姿势的渐进冲刺连接一般热身与高速度跑，重点是节奏和暴露剂量，而非把热身做成疲劳训练。",
+      "what": "内容将直立冲刺安排在基础活动之后，用逐步加速的短跑让运动员接近当天训练所需的姿势、触地与速度要求。",
+      "why": "很多热身停留在低速活动，随后直接进入高强度冲刺，中间缺少速度与技术过渡；另一端则是热身量过大，主训练前已经产生疲劳。",
+      "practice": "速度课前可用少量、充分恢复的渐进冲刺逐级靠近目标速度，并把最后一次热身表现作为是否进入主训练的检查点；距离和次数按项目与当日状态调整。",
+      "evidence": "教练实践文章｜2026-11-04；方法建议，不是对照研究",
+      "confidence": "中低",
+      "confidence_reason": "原则与专项热身逻辑一致，但公开页面未提供方案对照效果。",
+      "source": {
+        "url": "https://simplifaster.com/articles/calentamiento-atletismo-sprints-erguidos"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "ee577f1bfcbf",
+      "domain": "运动健康",
+      "title": "PainScience用盲法随机试验质疑机器人辅助全膝置换的患者收益",
+      "short_title": "机器人膝置换未改善一年患者结局",
+      "author": "Paul Ingraham / PainScience",
+      "platform": "临床证据评论",
+      "published_date": "2026-11-03",
+      "priority": "重点关注",
+      "one_liner": "一项300余人的参与者与评估者盲法随机试验中，Mako机器人辅助未改善一年后的Forgotten Joint Score，却多花约1000英镑并延长约10分钟。",
+      "what": "评论梳理RACER-Knee试验：研究用假切口等方法遮蔽患者是否接受机器人辅助；一年时主要患者报告结局无优势，成本和手术时间增加。相信自己接受机器人手术者的评分更高，提示非盲观察研究可能受期待影响。",
+      "why": "机器人能提高定位精度，不等于患者疼痛、功能或‘忘记人工关节’的体验会改善；这直接影响医院采购和患者沟通。",
+      "practice": "评估机器人置换技术时，应把盲法患者结局、并发症、成本和流程时间列为核心指标，不能只用影像对位或营销中的精度提升做决定。",
+      "evidence": "临床证据评论｜基于多中心、参与者与评估者盲法随机试验，样本300余人",
+      "confidence": "高",
+      "confidence_reason": "结论来自高质量随机试验，且成本与时间结果方向明确。",
+      "source": {
+        "url": "https://www.painscience.com/blog/robot-or-not-knee-replacement-with-help-from-a-robot-arm.html"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "b3ab12a34ee3",
+      "domain": "AI",
+      "title": "Datasette Apps把数据库Agent的查询权限放进应用创建流程",
+      "short_title": "数据库Agent按存储查询授予最小权限",
+      "author": "Simon Willison",
+      "platform": "开源项目发布",
+      "published_date": "2026-11-04",
+      "priority": "重点关注",
+      "one_liner": "datasette-apps 0.3a0允许Agent为应用绑定存储查询，但写查询必须经用户批准，创建时还会核对查询存在性与可见权限。",
+      "what": "新版本支持在Datasette内托管和编辑HTML应用；Agent可添加或移除应用可调用的存储查询，引用应用时按当前用户权限自动完成，任何写查询都要求显式批准。",
+      "why": "数据库Agent最大的风险不是页面生成错误，而是生成的应用继承了过宽的数据或写入权限。把权限绑定到已命名查询，比给Agent完整数据库连接更容易审计。",
+      "practice": "数据应用应预先定义只读查询和少量受控写操作，让Agent选择而不是自由拼接SQL；写权限保持逐次批准，并记录应用—查询映射。",
+      "evidence": "开源软件发布｜datasette-apps 0.3a0；功能可在代码与发布说明核对",
+      "confidence": "高",
+      "confidence_reason": "权限行为由公开版本说明直接描述，属于已发布功能。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Nov/4/datasette-apps"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "ecb2e13c36b5",
+      "domain": "AI",
+      "title": "Nathan Lambert提醒开放模型采用率仍缺少统一分母",
+      "short_title": "开放模型规模数据仍受平台样本偏差",
+      "author": "Nathan Lambert / Interconnects",
+      "platform": "研究通讯与公开仪表板",
+      "published_date": "2026-11-04",
+      "priority": "值得了解",
+      "one_liner": "现有数据多来自OpenRouter前50模型和厂商自报吞吐量，能显示方向，却不能代表整个开放模型市场。",
+      "what": "作者汇总OpenRouter、Together、Fireworks和Baseten等公开数据，并明确指出平台指标有截断、不同分词器不可直接比较、私有部署不可见，厂商披露口径也不统一。",
+      "why": "把单个平台的token占比当成全球市场份额，会把路由偏好、模型榜单截断和企业私有部署混为一谈，进而误导模型采购与生态判断。",
+      "practice": "评估开放模型采用时至少分开平台内占比、厂商总吞吐、下载量和企业部署；报告趋势时写清分母、覆盖模型和时间窗，不输出伪精确市场份额。",
+      "evidence": "研究通讯与数据仪表板｜公开平台数据和厂商披露的综合，非完整市场普查",
+      "confidence": "中高",
+      "confidence_reason": "限制条件由数据源直接决定；具体市场规模仍无法精确估计。",
+      "source": {
+        "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model"
+      },
+      "references": [
+        {
+          "label": "Open Models Dashboard",
+          "url": "https://dashboard.interconnects.ai/"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "3a41f9480808",
+      "domain": "AI",
+      "title": "Qualcomm推出150W、128GB显存的Cloud AI 100 Ultra加速卡",
+      "short_title": "低功耗大显存推理卡瞄准机架部署",
+      "author": "Qualcomm",
+      "platform": "官方产品页与社区讨论",
+      "published_date": "2026-11-04",
+      "priority": "快讯",
+      "one_liner": "Cloud AI 100 Ultra以150W功耗提供128GB内存和548GB/s带宽，目标是提高机架内大模型推理的内存密度。",
+      "what": "官方产品页列出128GB LPDDR5内存、548GB/s带宽与150W典型板卡功耗，定位云端生成式AI推理；讨论焦点是用较低功耗和大显存容纳更大的单卡模型。",
+      "why": "推理部署常受内存容量、带宽和机架功耗共同限制；这类卡的价值不只看峰值算力，而要看目标模型能否单卡容纳及实际tokens/s/W。",
+      "practice": "采购评估应以自己的模型尺寸、量化格式、批量和上下文长度做端到端基准，并同时记录延迟、吞吐、功耗、软件栈成熟度和集群扩展效率。",
+      "evidence": "官方产品规格与社区讨论｜2026-11-04；尚缺独立同配置推理横评",
+      "confidence": "中",
+      "confidence_reason": "硬件规格可由官方页核对，实际模型性能和软件兼容性尚需独立测试。",
+      "source": {
+        "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "专业实践中最容易被技术光环替代的是‘比较标准’。运动食品看任务与总饮食，机器人手术看患者结局与成本，训练热身看是否为主训练建立了足够而不过量的速度暴露。",
+    "Agent应用的权限模型应具体到可调用查询和可写动作；同时，生态规模判断必须公开分母。权限与测量口径如果不可见，功能越强，错误决策的放大效应越大。"
+  ],
+  "trends_url": "data/social/trends/2026-11-05.json"
+}

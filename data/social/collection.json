@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-11-04T03:00:19.537024+00:00",
-  "window_start": "2026-10-21T16:00:00+00:00",
-  "as_of": "2026-11-04T03:00:05.972663+00:00",
+  "generated_at": "2026-11-05T00:05:52.723991+00:00",
+  "window_start": "2026-10-22T16:00:00+00:00",
+  "as_of": "2026-11-05T00:04:18.632000+00:00",
   "summary": {
     "authors_total": 88,
-    "homepages_read": 14,
-    "feeds_read": 47,
-    "candidates": 181,
-    "published_date_candidates": 162,
-    "already_reported": 58,
-    "authors_with_recent_candidates": 25
+    "homepages_read": 18,
+    "feeds_read": 46,
+    "candidates": 177,
+    "published_date_candidates": 156,
+    "already_reported": 59,
+    "authors_with_recent_candidates": 23
   },
   "authors": [
     {
@@ -41,7 +41,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-29T19:54:59+00:00",
-      "elapsed_seconds": 3.49,
+      "elapsed_seconds": 5.3,
       "recent_item_ids": [
         "0611f5c9d42e",
         "187dbafefca1"
@@ -80,7 +80,7 @@
       ],
       "parsed_items": 13,
       "latest_visible_item_at": "2026-10-28T15:35:22+00:00",
-      "elapsed_seconds": 0.31,
+      "elapsed_seconds": 5.31,
       "recent_item_ids": [
         "e99726e13f52",
         "8b398a4d862e"
@@ -142,7 +142,7 @@
       ],
       "parsed_items": 2,
       "latest_visible_item_at": "2026-10-13T17:04:00+00:00",
-      "elapsed_seconds": 1.19,
+      "elapsed_seconds": 4.99,
       "recent_item_ids": []
     },
     {
@@ -224,7 +224,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2023-09-07T04:34:49+00:00",
-      "elapsed_seconds": 0.58,
+      "elapsed_seconds": 7.5,
       "recent_item_ids": []
     },
     {
@@ -281,7 +281,7 @@
       ],
       "parsed_items": 4,
       "latest_visible_item_at": "2026-07-17T08:46:08+00:00",
-      "elapsed_seconds": 1.19,
+      "elapsed_seconds": 6.08,
       "recent_item_ids": []
     },
     {
@@ -317,7 +317,7 @@
       "page_title": "Greg Lehman",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.11,
+      "elapsed_seconds": 11.85,
       "recent_item_ids": []
     },
     {
@@ -352,10 +352,8 @@
       ],
       "parsed_items": 5,
       "latest_visible_item_at": "2026-10-22T10:00:00+00:00",
-      "elapsed_seconds": 0.2,
-      "recent_item_ids": [
-        "5a5c7870dd07"
-      ]
+      "elapsed_seconds": 5.51,
+      "recent_item_ids": []
     },
     {
       "id": "adam-meakins",
@@ -398,7 +396,7 @@
       "page_title": "adammeakins.com",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 3.43,
+      "elapsed_seconds": 23.28,
       "recent_item_ids": []
     },
     {
@@ -429,7 +427,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-04-13T21:24:45+00:00",
-      "elapsed_seconds": 0.6,
+      "elapsed_seconds": 4.11,
       "recent_item_ids": []
     },
     {
@@ -460,7 +458,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-25T01:28:41+00:00",
-      "elapsed_seconds": 0.75,
+      "elapsed_seconds": 4.78,
       "recent_item_ids": [
         "b085a761acce"
       ]
@@ -546,9 +544,13 @@
         }
       ],
       "parsed_items": 30,
-      "latest_visible_item_at": "2026-11-03T16:29:48+00:00",
-      "elapsed_seconds": 0.26,
+      "latest_visible_item_at": "2026-11-04T15:26:02+00:00",
+      "elapsed_seconds": 3.51,
       "recent_item_ids": [
+        "cd09dc87fba0",
+        "b3ab12a34ee3",
+        "b0671b3fa0f5",
+        "0eec722f1150",
         "b5cba0d01134",
         "46933a36d260",
         "449ed68b9005",
@@ -574,11 +576,7 @@
         "6e1fc50fabcd",
         "02a20fdf8ff0",
         "b5619922e4bc",
-        "d1cc4ab1d566",
-        "ee487a66d7e4",
-        "661913408709",
-        "de377fdb3304",
-        "24e7bc554495"
+        "d1cc4ab1d566"
       ]
     },
     {
@@ -609,7 +607,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-20T15:57:59+00:00",
-      "elapsed_seconds": 0.22,
+      "elapsed_seconds": 3.77,
       "recent_item_ids": []
     },
     {
@@ -640,7 +638,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-20T07:00:00+00:00",
-      "elapsed_seconds": 0.38,
+      "elapsed_seconds": 4.34,
       "recent_item_ids": []
     },
     {
@@ -671,7 +669,7 @@
       ],
       "parsed_items": 212,
       "latest_visible_item_at": "2026-06-21T00:00:00+00:00",
-      "elapsed_seconds": 0.29,
+      "elapsed_seconds": 3.68,
       "recent_item_ids": []
     },
     {
@@ -702,7 +700,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-01-16T00:00:00+00:00",
-      "elapsed_seconds": 0.73,
+      "elapsed_seconds": 4.35,
       "recent_item_ids": []
     },
     {
@@ -733,7 +731,7 @@
       ],
       "parsed_items": 53,
       "latest_visible_item_at": "2026-07-04T00:00:00+00:00",
-      "elapsed_seconds": 0.21,
+      "elapsed_seconds": 4.83,
       "recent_item_ids": []
     },
     {
@@ -758,7 +756,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-24T11:14:32+00:00",
-      "elapsed_seconds": 0.23,
+      "elapsed_seconds": 4.67,
       "recent_item_ids": [
         "da8785cc5779"
       ]
@@ -792,7 +790,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-10-29T14:00:00+00:00",
-      "elapsed_seconds": 0.25,
+      "elapsed_seconds": 3.96,
       "recent_item_ids": []
     },
     {
@@ -817,7 +815,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 2.46,
+      "elapsed_seconds": 5.52,
       "recent_item_ids": []
     },
     {
@@ -831,21 +829,34 @@
       "language": "en",
       "feed_url": "https://www.scienceforsport.com/feed/",
       "status": "feed_ok",
-      "homepage_read": false,
-      "social_links": [],
+      "homepage_read": true,
+      "social_links": [
+        "https://twitter.com/ScienceforSport/"
+      ],
       "attempts": [
+        {
+          "url": "https://www.scienceforsport.com/feed/",
+          "status": "HTTPError",
+          "detail": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "url": "https://www.scienceforsport.com/",
+          "status": "ok"
+        },
         {
           "url": "https://www.scienceforsport.com/feed/",
           "status": "feed_ok",
           "entries": 12
         }
       ],
+      "resolved_homepage": "https://www.scienceforsport.com/",
+      "page_title": "Science for Sport: Online Courses, Articles & Education",
       "parsed_items": 12,
-      "latest_visible_item_at": "2026-10-28T17:00:00+00:00",
-      "elapsed_seconds": 0.21,
+      "latest_visible_item_at": "2026-11-04T17:00:00+00:00",
+      "elapsed_seconds": 12.36,
       "recent_item_ids": [
-        "faf34df179d1",
-        "9eaa706368b4"
+        "f5599ae5c3fe",
+        "faf34df179d1"
       ]
     },
     {
@@ -869,9 +880,11 @@
         }
       ],
       "parsed_items": 10,
-      "latest_visible_item_at": "2026-11-03T19:00:00+00:00",
-      "elapsed_seconds": 0.37,
+      "latest_visible_item_at": "2026-11-04T18:00:00+00:00",
+      "elapsed_seconds": 3.85,
       "recent_item_ids": [
+        "81c28adea0a7",
+        "ad13aea1f5a7",
         "bc5091194b44",
         "a3c49b8be310",
         "4254cf14ca6b",
@@ -879,9 +892,7 @@
         "71a86afdc10d",
         "8b48bdf40545",
         "598cba8875af",
-        "c31843e7cdc1",
-        "ebfb4f13ce4a",
-        "8721b6b1a71f"
+        "c31843e7cdc1"
       ]
     },
     {
@@ -906,7 +917,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-31T09:13:05+00:00",
-      "elapsed_seconds": 0.72,
+      "elapsed_seconds": 6.2,
       "recent_item_ids": [
         "d9eda3a427e3"
       ]
@@ -933,7 +944,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-07-18T20:07:15+00:00",
-      "elapsed_seconds": 0.15,
+      "elapsed_seconds": 4.58,
       "recent_item_ids": []
     },
     {
@@ -952,23 +963,23 @@
       "attempts": [
         {
           "url": "https://sportsscientists.com/feed/",
-          "status": "URLError",
-          "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sportsscientists.com'. (_ssl.c:1081)>"
+          "status": "HTTPError",
+          "detail": "HTTP Error 503: Service Unavailable"
         },
         {
           "url": "https://sportsscientists.com/",
-          "status": "URLError",
-          "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sportsscientists.com'. (_ssl.c:1081)>"
+          "status": "HTTPError",
+          "detail": "HTTP Error 503: Service Unavailable"
         },
         {
           "url": "https://sportsscientists.com/feed/",
-          "status": "URLError",
-          "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sportsscientists.com'. (_ssl.c:1081)>"
+          "status": "HTTPError",
+          "detail": "HTTP Error 503: Service Unavailable"
         }
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.85,
+      "elapsed_seconds": 13.25,
       "recent_item_ids": []
     },
     {
@@ -993,7 +1004,7 @@
       ],
       "parsed_items": 15,
       "latest_visible_item_at": "2026-06-11T19:24:38+00:00",
-      "elapsed_seconds": 2.07,
+      "elapsed_seconds": 6.44,
       "recent_item_ids": []
     },
     {
@@ -1027,10 +1038,9 @@
       "page_title": "Gabbett Performance – Professional development for coaches, teams, clubs and players.",
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-23T00:50:50+00:00",
-      "elapsed_seconds": 5.54,
+      "elapsed_seconds": 10.76,
       "recent_item_ids": [
-        "6c4c3021090e",
-        "8dc24cfb959b"
+        "6c4c3021090e"
       ]
     },
     {
@@ -1066,7 +1076,7 @@
       "page_title": "Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.02,
+      "elapsed_seconds": 14.97,
       "recent_item_ids": []
     },
     {
@@ -1102,7 +1112,7 @@
       "page_title": "Home",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.97,
+      "elapsed_seconds": 10.57,
       "recent_item_ids": []
     },
     {
@@ -1127,7 +1137,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-30T14:53:02+00:00",
-      "elapsed_seconds": 0.27,
+      "elapsed_seconds": 3.82,
       "recent_item_ids": [
         "80c8954150da",
         "979436ce6b3e"
@@ -1288,7 +1298,7 @@
       "page_title": "ALTIS - Coach Education",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 4.55,
+      "elapsed_seconds": 22.16,
       "recent_item_ids": []
     },
     {
@@ -1319,7 +1329,7 @@
       "page_title": "Upside Strength - Performance, Physiology, Education Joinchat",
       "parsed_items": 25,
       "latest_visible_item_at": "2026-06-01T18:57:36+00:00",
-      "elapsed_seconds": 4.53,
+      "elapsed_seconds": 13.7,
       "recent_item_ids": []
     },
     {
@@ -1344,7 +1354,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-26T05:00:06+00:00",
-      "elapsed_seconds": 0.47,
+      "elapsed_seconds": 4.04,
       "recent_item_ids": [
         "af84fe7f8d58",
         "2ce662d8f5f7"
@@ -1372,7 +1382,7 @@
       ],
       "parsed_items": 288,
       "latest_visible_item_at": "2026-11-02T10:00:00+00:00",
-      "elapsed_seconds": 1.68,
+      "elapsed_seconds": 5.84,
       "recent_item_ids": [
         "6326113d20ac",
         "38550cc249a8"
@@ -1418,7 +1428,7 @@
       "page_title": "Physiotherapy Blog — 400+ Expert Physical Therapy Blogs",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 4.01,
+      "elapsed_seconds": 21.65,
       "recent_item_ids": []
     },
     {
@@ -1443,7 +1453,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-14T06:00:00+00:00",
-      "elapsed_seconds": 0.38,
+      "elapsed_seconds": 3.99,
       "recent_item_ids": []
     },
     {
@@ -1468,7 +1478,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-06-21T13:00:00+00:00",
-      "elapsed_seconds": 2.16,
+      "elapsed_seconds": 5.93,
       "recent_item_ids": []
     },
     {
@@ -1493,7 +1503,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-08T19:38:45+00:00",
-      "elapsed_seconds": 1.32,
+      "elapsed_seconds": 5.46,
       "recent_item_ids": []
     },
     {
@@ -1526,9 +1536,10 @@
       "resolved_homepage": "https://www.painscience.com/",
       "page_title": "PainScience.com",
       "parsed_items": 31,
-      "latest_visible_item_at": "2026-10-29T07:00:00+00:00",
-      "elapsed_seconds": 0.39,
+      "latest_visible_item_at": "2026-11-03T07:00:00+00:00",
+      "elapsed_seconds": 8.34,
       "recent_item_ids": [
+        "ee577f1bfcbf",
         "7066b0e18e3a",
         "2dd913386e28"
       ]
@@ -1634,19 +1645,19 @@
         {
           "url": "https://www.sportsinjurybulletin.com/feed",
           "status": "HTTPError",
-          "detail": "HTTP Error 404: "
+          "detail": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://www.sportsinjurybulletin.com/feed.xml",
           "status": "HTTPError",
-          "detail": "HTTP Error 404: "
+          "detail": "HTTP Error 404: Not Found"
         }
       ],
       "resolved_homepage": "https://www.sportsinjurybulletin.com/",
       "page_title": "Sports Injury Bulletin - Home",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.91,
+      "elapsed_seconds": 13.05,
       "recent_item_ids": []
     },
     {
@@ -1671,7 +1682,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-31T17:00:00+00:00",
-      "elapsed_seconds": 0.25,
+      "elapsed_seconds": 3.83,
       "recent_item_ids": [
         "1a9ec1373c3b"
       ]
@@ -1697,9 +1708,10 @@
         }
       ],
       "parsed_items": 20,
-      "latest_visible_item_at": "2026-11-03T05:35:00+00:00",
-      "elapsed_seconds": 0.62,
+      "latest_visible_item_at": "2026-11-04T19:17:30+00:00",
+      "elapsed_seconds": 7.14,
       "recent_item_ids": [
+        "5b25d779ec2f",
         "22262baef95a",
         "c90b220cbc29",
         "3343cd5df22c",
@@ -1717,9 +1729,7 @@
         "a74122a98f64",
         "c87632915228",
         "b11a3832e61f",
-        "8347efbf60ca",
-        "adabb743e471",
-        "be77c76cb6e9"
+        "8347efbf60ca"
       ]
     },
     {
@@ -1743,9 +1753,10 @@
         }
       ],
       "parsed_items": 20,
-      "latest_visible_item_at": "2026-10-30T17:36:56+00:00",
-      "elapsed_seconds": 0.16,
+      "latest_visible_item_at": "2026-11-04T16:35:44+00:00",
+      "elapsed_seconds": 4.75,
       "recent_item_ids": [
+        "ecb2e13c36b5",
         "d4d35b3da5b2",
         "887c59818f68",
         "9c6009b025f4"
@@ -1773,7 +1784,7 @@
       ],
       "parsed_items": 15,
       "latest_visible_item_at": "2026-02-18T23:25:52+00:00",
-      "elapsed_seconds": 8.02,
+      "elapsed_seconds": 4.88,
       "recent_item_ids": []
     },
     {
@@ -1793,13 +1804,14 @@
         {
           "url": "https://huggingface.co/blog/feed.xml",
           "status": "feed_ok",
-          "entries": 896
+          "entries": 897
         }
       ],
-      "parsed_items": 896,
-      "latest_visible_item_at": "2026-11-03T17:15:21+00:00",
-      "elapsed_seconds": 0.2,
+      "parsed_items": 897,
+      "latest_visible_item_at": "2026-11-04T17:50:10+00:00",
+      "elapsed_seconds": 3.85,
       "recent_item_ids": [
+        "32d4e91d243e",
         "8d8667671049",
         "4d3938441f21",
         "63945bc79480",
@@ -1811,9 +1823,7 @@
         "6394645bd510",
         "1c5b51464767",
         "2b3f616d26d3",
-        "51888f116f5b",
-        "40a01666d562",
-        "5b4e08461387"
+        "51888f116f5b"
       ]
     },
     {
@@ -1833,13 +1843,17 @@
         {
           "url": "https://openai.com/news/rss.xml",
           "status": "feed_ok",
-          "entries": 1354
+          "entries": 1358
         }
       ],
-      "parsed_items": 1354,
-      "latest_visible_item_at": "2026-11-03T12:00:00+00:00",
-      "elapsed_seconds": 0.24,
+      "parsed_items": 1358,
+      "latest_visible_item_at": "2026-11-04T14:30:00+00:00",
+      "elapsed_seconds": 3.66,
       "recent_item_ids": [
+        "1be4fdd8e6ca",
+        "a3433e936d2c",
+        "fbaa86a829ad",
+        "981785a01550",
         "25493a43cba5",
         "34e7d6261520",
         "fc87a45dcfbf",
@@ -1849,8 +1863,8 @@
         "0d297090385a",
         "bca108e4c77b",
         "5a014341bc3f",
-        "945f879ef3a4",
         "4094d4340f9e",
+        "945f879ef3a4",
         "84abd1857de5",
         "a86d24c59c82",
         "574dbaf7fc87",
@@ -1876,11 +1890,7 @@
         "f8c156dba788",
         "3b5a2a6a27ab",
         "1a543055a02f",
-        "891b7e0bbf66",
-        "6400feb68147",
-        "eda525050cea",
-        "39cad894cdd2",
-        "3f1a11956436"
+        "891b7e0bbf66"
       ]
     },
     {
@@ -1941,7 +1951,7 @@
       "page_title": "",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.18,
+      "elapsed_seconds": 31.34,
       "recent_item_ids": []
     },
     {
@@ -1966,7 +1976,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-11-02T17:45:00+00:00",
-      "elapsed_seconds": 0.21,
+      "elapsed_seconds": 8.22,
       "recent_item_ids": [
         "996c88dfa31d",
         "9a15b40232fd"
@@ -1981,27 +1991,31 @@
       "kind": "官方团队",
       "platform": "博客",
       "language": "en",
-      "feed_url": "https://www.microsoft.com/en-us/research/feed/",
-      "status": "feed_ok",
+      "feed_url": null,
+      "status": "unavailable",
       "homepage_read": false,
       "social_links": [],
       "attempts": [
         {
           "url": "https://www.microsoft.com/en-us/research/feed/",
-          "status": "feed_ok",
-          "entries": 10
+          "status": "TimeoutError",
+          "detail": "The read operation timed out"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/research/blog/",
+          "status": "TimeoutError",
+          "detail": "The read operation timed out"
+        },
+        {
+          "url": "https://www.microsoft.com/en-us/research/feed/",
+          "status": "TimeoutError",
+          "detail": "The read operation timed out"
         }
       ],
-      "parsed_items": 10,
-      "latest_visible_item_at": "2026-11-03T17:14:38+00:00",
-      "elapsed_seconds": 0.89,
-      "recent_item_ids": [
-        "32aabc03de73",
-        "bafa68df361f",
-        "49f8fdcf9435",
-        "d6172869a6c9",
-        "77ec6ad66af3"
-      ]
+      "parsed_items": 0,
+      "latest_visible_item_at": null,
+      "elapsed_seconds": 53.65,
+      "recent_item_ids": []
     },
     {
       "id": "github-ai",
@@ -2025,7 +2039,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-20T16:05:03+00:00",
-      "elapsed_seconds": 0.16,
+      "elapsed_seconds": 5.5,
       "recent_item_ids": []
     },
     {
@@ -2068,7 +2082,7 @@
       "page_title": "LangChain Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.27,
+      "elapsed_seconds": 40.4,
       "recent_item_ids": []
     },
     {
@@ -2107,7 +2121,7 @@
       "page_title": "Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.49,
+      "elapsed_seconds": 12.84,
       "recent_item_ids": []
     },
     {
@@ -2128,13 +2142,15 @@
         {
           "url": "https://vercel.com/atom",
           "status": "feed_ok",
-          "entries": 2121
+          "entries": 2124
         }
       ],
-      "parsed_items": 470,
-      "latest_visible_item_at": "2026-11-02T00:00:00+00:00",
-      "elapsed_seconds": 0.59,
+      "parsed_items": 472,
+      "latest_visible_item_at": "2026-11-04T17:00:00+00:00",
+      "elapsed_seconds": 4.72,
       "recent_item_ids": [
+        "944c67163165",
+        "efad017cf383",
         "a23be2e123d4",
         "f05cde2bcd7e",
         "f029f146885f",
@@ -2178,7 +2194,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-07-29T09:00:00+00:00",
-      "elapsed_seconds": 0.46,
+      "elapsed_seconds": 4.04,
       "recent_item_ids": []
     },
     {
@@ -2203,7 +2219,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-09-21T14:23:46+00:00",
-      "elapsed_seconds": 0.34,
+      "elapsed_seconds": 4.13,
       "recent_item_ids": []
     },
     {
@@ -2228,7 +2244,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-03-26T00:00:00+00:00",
-      "elapsed_seconds": 0.36,
+      "elapsed_seconds": 3.98,
       "recent_item_ids": []
     },
     {
@@ -2241,29 +2257,35 @@
       "platform": "通讯",
       "language": "en",
       "feed_url": null,
-      "status": "unavailable",
-      "homepage_read": false,
+      "status": "homepage_only",
+      "homepage_read": true,
       "social_links": [],
       "attempts": [
         {
           "url": "https://importai.substack.com/feed",
-          "status": "HTTPError",
-          "detail": "HTTP Error 403: Forbidden"
+          "status": "ValueError",
+          "detail": "Response is not an RSS/Atom feed"
         },
         {
           "url": "https://importai.substack.com/",
-          "status": "HTTPError",
-          "detail": "HTTP Error 403: Forbidden"
+          "status": "ok"
         },
         {
           "url": "https://importai.substack.com/feed",
-          "status": "HTTPError",
-          "detail": "HTTP Error 403: Forbidden"
+          "status": "ValueError",
+          "detail": "Response is not an RSS/Atom feed"
+        },
+        {
+          "url": "https://importai.substack.com/feed.xml",
+          "status": "ValueError",
+          "detail": "Response is not an RSS/Atom feed"
         }
       ],
+      "resolved_homepage": "https://importai.substack.com/",
+      "page_title": "Site Unavailable",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.23,
+      "elapsed_seconds": 17.65,
       "recent_item_ids": []
     },
     {
@@ -2276,29 +2298,35 @@
       "platform": "通讯",
       "language": "en",
       "feed_url": null,
-      "status": "unavailable",
-      "homepage_read": false,
+      "status": "homepage_only",
+      "homepage_read": true,
       "social_links": [],
       "attempts": [
         {
           "url": "https://thesequence.substack.com/feed",
-          "status": "HTTPError",
-          "detail": "HTTP Error 403: Forbidden"
+          "status": "ValueError",
+          "detail": "Response is not an RSS/Atom feed"
         },
         {
           "url": "https://thesequence.substack.com/",
-          "status": "HTTPError",
-          "detail": "HTTP Error 403: Forbidden"
+          "status": "ok"
         },
         {
           "url": "https://thesequence.substack.com/feed",
-          "status": "HTTPError",
-          "detail": "HTTP Error 403: Forbidden"
+          "status": "ValueError",
+          "detail": "Response is not an RSS/Atom feed"
+        },
+        {
+          "url": "https://thesequence.substack.com/feed.xml",
+          "status": "ValueError",
+          "detail": "Response is not an RSS/Atom feed"
         }
       ],
+      "resolved_homepage": "https://thesequence.substack.com/",
+      "page_title": "Site Unavailable",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.22,
+      "elapsed_seconds": 19.66,
       "recent_item_ids": []
     },
     {
@@ -2330,30 +2358,33 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
-      "homepage_read": false,
+      "status": "homepage_only",
+      "homepage_read": true,
       "feed_url": null,
-      "social_links": [],
+      "social_links": [
+        "https://x.com/deeplearningai"
+      ],
       "attempts": [
         {
           "url": "https://www.deeplearning.ai/the-batch/",
-          "status": "HTTPError",
-          "detail": "HTTP Error 403: Forbidden"
+          "status": "ok"
         },
         {
           "url": "https://www.deeplearning.ai/feed",
           "status": "HTTPError",
-          "detail": "HTTP Error 403: Forbidden"
+          "detail": "HTTP Error 404: Not Found"
         },
         {
           "url": "https://www.deeplearning.ai/feed.xml",
           "status": "HTTPError",
-          "detail": "HTTP Error 403: Forbidden"
+          "detail": "HTTP Error 404: Not Found"
         }
       ],
+      "resolved_homepage": "https://www.deeplearning.ai/the-batch",
+      "page_title": "The Batch | DeepLearning.AI | AI News & Insights",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.26,
+      "elapsed_seconds": 17.16,
       "recent_item_ids": []
     },
     {
@@ -2384,7 +2415,7 @@
       "page_title": "Tech Blog | ✰Vicki Boykis✰",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.49,
+      "elapsed_seconds": 8.4,
       "recent_item_ids": []
     },
     {
@@ -2408,19 +2439,19 @@
         }
       ],
       "parsed_items": 10,
-      "latest_visible_item_at": "2026-11-03T13:57:11+00:00",
-      "elapsed_seconds": 1.52,
+      "latest_visible_item_at": "2026-11-04T16:13:23+00:00",
+      "elapsed_seconds": 4.67,
       "recent_item_ids": [
+        "d5a060648a16",
+        "1e6f2ae7c668",
+        "efa7c7f9d0d9",
+        "07702e7b922c",
+        "4930107de9b7",
         "fd5d0690f18a",
         "7715ad33c91e",
         "31346adcac76",
         "1b989df1def3",
-        "3dfc4ef96d40",
-        "f4913a0dc65c",
-        "f64ac08bcee0",
-        "6455864ee0c7",
-        "0abda820af02",
-        "0be39f43d2b2"
+        "3dfc4ef96d40"
       ]
     },
     {
@@ -2464,10 +2495,11 @@
           "entries": 10
         }
       ],
-      "parsed_items": 1,
-      "latest_visible_item_at": "2026-11-03T07:12:54+00:00",
-      "elapsed_seconds": 1.33,
+      "parsed_items": 2,
+      "latest_visible_item_at": "2026-11-04T12:25:55+00:00",
+      "elapsed_seconds": 4.22,
       "recent_item_ids": [
+        "77c8c48d74b5",
         "4734444af824"
       ]
     },
@@ -2593,14 +2625,14 @@
         }
       ],
       "parsed_items": 5,
-      "latest_visible_item_at": "2026-11-03T21:40:53+00:00",
-      "elapsed_seconds": 0.11,
+      "latest_visible_item_at": "2026-11-04T19:55:14+00:00",
+      "elapsed_seconds": 3.61,
       "recent_item_ids": [
-        "9c79addb856a",
-        "01b1e45f222d",
-        "210b26f029f3",
-        "f7735096343c",
-        "ae61902e2afa"
+        "dfa876a54a2d",
+        "857e942cc111",
+        "3a41f9480808",
+        "44cd1b0540a7",
+        "d7d9a2a25df6"
       ]
     },
     {
@@ -2646,9 +2678,9 @@
   ],
   "candidates": [
     {
-      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
-      "url": "https://arxiv.org/abs/2605.29713",
-      "published_at": "2026-11-03T21:40:53+00:00",
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "published_at": "2026-11-04T19:55:14+00:00",
       "date_kind": "published",
       "byline": "",
       "dois": [],
@@ -2661,15 +2693,101 @@
       "platform": "社区",
       "language": "en",
       "previous_briefs": [],
-      "id": "01b1e45f222d",
+      "id": "3a41f9480808",
       "observed_authors": [
         "Hacker News · AI讨论"
       ]
     },
     {
-      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
-      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
-      "published_at": "2026-11-03T21:26:44+00:00",
+      "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+      "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai",
+      "published_at": "2026-11-04T19:17:30+00:00",
+      "date_kind": "published",
+      "byline": "swyx .ai",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "latent-space",
+      "source_author": "Latent Space",
+      "feed_url": "https://latent.space/feed",
+      "platform": "通讯",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "5b25d779ec2f",
+      "observed_authors": [
+        "Latent Space"
+      ]
+    },
+    {
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "url": "https://www.ricursive.com/ripple",
+      "published_at": "2026-11-04T18:53:29+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "hacker-news",
+      "source_author": "Hacker News · AI讨论",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "platform": "社区",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "dfa876a54a2d",
+      "observed_authors": [
+        "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "As escadas têm alguma utilidade? 4 maneiras simples de utilizar essa ferramenta de treinamento",
+      "url": "https://simplifaster.com/articles/as-escadas-tem-alguma-utilidade-4-maneiras-simples-de-utilizar-essa-ferramenta-de-treinamento",
+      "published_at": "2026-11-04T18:00:00+00:00",
+      "date_kind": "published",
+      "byline": "TJ Cahill",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "sport-speed",
+      "domain": "运动科学",
+      "author_id": "simplifaster",
+      "source_author": "SimpliFaster",
+      "feed_url": "https://simplifaster.com/feed/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "81c28adea0a7",
+      "observed_authors": [
+        "SimpliFaster"
+      ]
+    },
+    {
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "published_at": "2026-11-04T17:50:10+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "huggingface",
+      "source_author": "Hugging Face",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [
+        "2026-11-05"
+      ],
+      "id": "32d4e91d243e",
+      "observed_authors": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "url": "https://news.ycombinator.com/item?id=50368804",
+      "published_at": "2026-11-04T17:31:53+00:00",
       "date_kind": "published",
       "byline": "",
       "dois": [],
@@ -2682,9 +2800,441 @@
       "platform": "社区",
       "language": "en",
       "previous_briefs": [],
-      "id": "f7735096343c",
+      "id": "44cd1b0540a7",
       "observed_authors": [
         "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "The Ultra-Processed Sports Food Dilemma",
+      "url": "https://www.scienceforsport.com/the-ultra-processed-sports-food-dilemma",
+      "published_at": "2026-11-04T17:00:00+00:00",
+      "date_kind": "published",
+      "byline": "Eric Curry",
+      "dois": [
+        "10.1186/s40798-026-01098-7"
+      ],
+      "date_verified": true,
+      "topic_id": "sport-speed",
+      "domain": "运动科学",
+      "author_id": "science-for-sport",
+      "source_author": "Science for Sport",
+      "feed_url": "https://www.scienceforsport.com/feed/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [
+        "2026-11-05"
+      ],
+      "id": "f5599ae5c3fe",
+      "observed_authors": [
+        "Science for Sport"
+      ]
+    },
+    {
+      "title": "Salgamos al aire libre: gana velocidad con un sencillo calentamiento de sprints en posición erguida",
+      "url": "https://simplifaster.com/articles/calentamiento-atletismo-sprints-erguidos",
+      "published_at": "2026-11-04T17:00:00+00:00",
+      "date_kind": "published",
+      "byline": "Adrian Guyer",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "sport-speed",
+      "domain": "运动科学",
+      "author_id": "simplifaster",
+      "source_author": "SimpliFaster",
+      "feed_url": "https://simplifaster.com/feed/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [
+        "2026-11-05"
+      ],
+      "id": "ad13aea1f5a7",
+      "observed_authors": [
+        "SimpliFaster"
+      ]
+    },
+    {
+      "title": "Kimi K3.1 Pro now has more ZDR providers on AI Gateway",
+      "url": "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway",
+      "published_at": "2026-11-04T17:00:00+00:00",
+      "date_kind": "updated_only",
+      "byline": "Jerilyn Zheng",
+      "dois": [],
+      "date_verified": false,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "vercel",
+      "source_author": "Vercel",
+      "feed_url": "https://vercel.com/atom",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "944c67163165",
+      "observed_authors": [
+        "Vercel"
+      ]
+    },
+    {
+      "title": "How big is the open model economy today?",
+      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+      "published_at": "2026-11-04T16:35:44+00:00",
+      "date_kind": "published",
+      "byline": "Nathan Lambert",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "nathan-lambert",
+      "source_author": "Nathan Lambert / Interconnects",
+      "feed_url": "https://www.interconnects.ai/feed",
+      "platform": "通讯",
+      "language": "en",
+      "previous_briefs": [
+        "2026-11-05"
+      ],
+      "id": "ecb2e13c36b5",
+      "observed_authors": [
+        "Nathan Lambert / Interconnects"
+      ]
+    },
+    {
+      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "url": "https://www.qbitai.com/2026/11/507647.html",
+      "published_at": "2026-11-04T16:13:23+00:00",
+      "date_kind": "published",
+      "byline": "杰西卡",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "d5a060648a16",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm",
+      "published_at": "2026-11-04T15:26:02+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "cd09dc87fba0",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "url": "https://news.ycombinator.com/item?id=50366117",
+      "published_at": "2026-11-04T14:37:22+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-agent",
+      "domain": "AI",
+      "author_id": "hacker-news",
+      "source_author": "Hacker News · AI讨论",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "platform": "社区",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "d7d9a2a25df6",
+      "observed_authors": [
+        "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "published_at": "2026-11-04T14:30:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "1be4fdd8e6ca",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "你不知道的客户端开发：AI 时代下的选型、原生与借力",
+      "url": "https://sspai.com/post/117713",
+      "published_at": "2026-11-04T12:25:55+00:00",
+      "date_kind": "published",
+      "byline": "Tw93",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "sspai",
+      "source_author": "少数派 · AI应用",
+      "feed_url": "https://sspai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "77c8c48d74b5",
+      "observed_authors": [
+        "少数派 · AI应用"
+      ]
+    },
+    {
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "published_at": "2026-11-04T11:52:17+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "hacker-news",
+      "source_author": "Hacker News · AI讨论",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "platform": "社区",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "857e942cc111",
+      "observed_authors": [
+        "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
+      "url": "https://www.qbitai.com/2026/11/507586.html",
+      "published_at": "2026-11-04T10:08:38+00:00",
+      "date_kind": "published",
+      "byline": "思邈",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "1e6f2ae7c668",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
+      "url": "https://www.qbitai.com/2026/11/507574.html",
+      "published_at": "2026-11-04T08:59:57+00:00",
+      "date_kind": "published",
+      "byline": "量子位的朋友们",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "efa7c7f9d0d9",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
+      "url": "https://www.qbitai.com/2026/11/507567.html",
+      "published_at": "2026-11-04T08:49:12+00:00",
+      "date_kind": "published",
+      "byline": "量子位的朋友们",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "07702e7b922c",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [
+        "2026-11-05"
+      ],
+      "id": "fbaa86a829ad",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "published_at": "2026-11-04T07:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "a3433e936d2c",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
+      "url": "https://www.qbitai.com/2026/11/507533.html",
+      "published_at": "2026-11-04T02:49:02+00:00",
+      "date_kind": "published",
+      "byline": "思邈",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-agent",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "4930107de9b7",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps",
+      "published_at": "2026-11-04T00:29:36+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [
+        "2026-11-05"
+      ],
+      "id": "b3ab12a34ee3",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "published_at": "2026-11-04T00:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "981785a01550",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent",
+      "published_at": "2026-11-03T23:13:45+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "b0671b3fa0f5",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "llm 0.37.1",
+      "url": "https://simonwillison.net/2026/Nov/3/llm",
+      "published_at": "2026-11-03T21:41:42+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "0eec722f1150",
+      "observed_authors": [
+        "Simon Willison"
       ]
     },
     {
@@ -2709,50 +3259,6 @@
       ]
     },
     {
-      "title": "How I use AI (Oct 2026)",
-      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026",
-      "published_at": "2026-11-03T18:11:11+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "hacker-news",
-      "source_author": "Hacker News · AI讨论",
-      "feed_url": "https://news.ycombinator.com/rss",
-      "platform": "社区",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "ae61902e2afa",
-      "observed_authors": [
-        "Hacker News · AI讨论"
-      ]
-    },
-    {
-      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
-      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
-      "published_at": "2026-11-03T17:22:37+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "hacker-news",
-      "source_author": "Hacker News · AI讨论",
-      "feed_url": "https://news.ycombinator.com/rss",
-      "platform": "社区",
-      "language": "en",
-      "previous_briefs": [
-        "2026-11-04"
-      ],
-      "id": "210b26f029f3",
-      "observed_authors": [
-        "Hacker News · AI讨论"
-      ]
-    },
-    {
       "title": "StateBench: Testing how language models track state changes over long documents",
       "url": "https://huggingface.co/blog/allenai/statebench",
       "published_at": "2026-11-03T17:15:21+00:00",
@@ -2773,27 +3279,6 @@
       "id": "8d8667671049",
       "observed_authors": [
         "Hugging Face"
-      ]
-    },
-    {
-      "title": "Learn the rules: The hacker mindset",
-      "url": "https://www.microsoft.com/en-us/research/podcast/learn-the-rules-the-hacker-mindset",
-      "published_at": "2026-11-03T17:14:38+00:00",
-      "date_kind": "published",
-      "byline": "Weishung Liu, Mike Walker",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "microsoft-research",
-      "source_author": "Microsoft Research",
-      "feed_url": "https://www.microsoft.com/en-us/research/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "32aabc03de73",
-      "observed_authors": [
-        "Microsoft Research"
       ]
     },
     {
@@ -2992,6 +3477,29 @@
       ]
     },
     {
+      "title": "Robot or not? Knee replacement with help from a robot arm [90s]",
+      "url": "https://www.painscience.com/blog/robot-or-not-knee-replacement-with-help-from-a-robot-arm.html",
+      "published_at": "2026-11-03T07:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "health-rtp",
+      "domain": "运动健康",
+      "author_id": "painscience",
+      "source_author": "Paul Ingraham / PainScience",
+      "feed_url": "https://www.painscience.com/rss.xml",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [
+        "2026-11-05"
+      ],
+      "id": "ee577f1bfcbf",
+      "observed_authors": [
+        "Paul Ingraham / PainScience"
+      ]
+    },
+    {
       "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri",
       "url": "https://www.qbitai.com/2026/11/507419.html",
       "published_at": "2026-11-03T06:55:30+00:00",
@@ -3029,27 +3537,6 @@
       "language": "zh",
       "previous_briefs": [],
       "id": "3dfc4ef96d40",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "AI数据平台OceanBase获世界互联网大会杰出贡献奖",
-      "url": "https://www.qbitai.com/2026/11/507405.html",
-      "published_at": "2026-11-03T05:59:05+00:00",
-      "date_kind": "published",
-      "byline": "量子位的朋友们",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "f4913a0dc65c",
       "observed_authors": [
         "量子位"
       ]
@@ -3118,90 +3605,6 @@
       ]
     },
     {
-      "title": "小米斩获乌镇峰会双料大奖：小米集团获“杰出贡献奖”，小米具身基座模型获“领先科技奖”",
-      "url": "https://www.qbitai.com/2026/11/507396.html",
-      "published_at": "2026-11-03T05:16:35+00:00",
-      "date_kind": "published",
-      "byline": "量子位的朋友们",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "f64ac08bcee0",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "A社紧急修改招股书！RSI我们快要控制不住了",
-      "url": "https://www.qbitai.com/2026/11/507382.html",
-      "published_at": "2026-11-03T03:41:06+00:00",
-      "date_kind": "published",
-      "byline": "鱼羊",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "6455864ee0c7",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
-      "url": "https://www.qbitai.com/2026/11/507367.html",
-      "published_at": "2026-11-03T03:16:23+00:00",
-      "date_kind": "published",
-      "byline": "克雷西",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "0abda820af02",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "B站举办2026超级科学晚，脑机接口、人造太阳等前沿科技齐亮相",
-      "url": "https://www.qbitai.com/2026/11/507339.html",
-      "published_at": "2026-11-03T02:02:05+00:00",
-      "date_kind": "published",
-      "byline": "量子位的朋友们",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "0be39f43d2b2",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
       "title": "CWE-bench v2: More coverage, quality, and transparency",
       "url": "https://huggingface.co/blog/cwe-bench",
       "published_at": "2026-11-03T00:00:00+00:00",
@@ -3262,6 +3665,27 @@
       "id": "019edb616369",
       "observed_authors": [
         "OpenAI"
+      ]
+    },
+    {
+      "title": "Tencent Hy4 now available on AI Gateway",
+      "url": "https://vercel.com/changelog/tencent-hy4-now-available-on-ai-gateway",
+      "published_at": "2026-11-03T00:00:00+00:00",
+      "date_kind": "updated_only",
+      "byline": "Jerilyn Zheng",
+      "dois": [],
+      "date_verified": false,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "vercel",
+      "source_author": "Vercel",
+      "feed_url": "https://vercel.com/atom",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "efad017cf383",
+      "observed_authors": [
+        "Vercel"
       ]
     },
     {
@@ -3464,27 +3888,6 @@
       ]
     },
     {
-      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
-      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
-      "published_at": "2026-11-02T14:02:42+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "hacker-news",
-      "source_author": "Hacker News · AI讨论",
-      "feed_url": "https://news.ycombinator.com/rss",
-      "platform": "社区",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "9c79addb856a",
-      "observed_authors": [
-        "Hacker News · AI讨论"
-      ]
-    },
-    {
       "title": "The U.S. Census Bureau and “Super Intelligence”",
       "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
       "published_at": "2026-11-02T13:31:26+00:00",
@@ -3550,27 +3953,6 @@
       ]
     },
     {
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "published_at": "2026-11-02T00:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "945f879ef3a4",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
       "published_at": "2026-11-02T00:00:00+00:00",
@@ -3587,6 +3969,27 @@
       "language": "en",
       "previous_briefs": [],
       "id": "4094d4340f9e",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "945f879ef3a4",
       "observed_authors": [
         "OpenAI"
       ]
@@ -3927,29 +4330,6 @@
       ]
     },
     {
-      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
-      "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence",
-      "published_at": "2026-10-30T13:05:28+00:00",
-      "date_kind": "published",
-      "byline": "Somya Chatterjee, Harshita Sahijwani, Min Chen, Sushmitha Rajeswari Muppa, Dayquan Julienne, Irene Shaffer, Chandra Inguva, Jenny Chen, Minha Hwang, Sam Ade Jacobs",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "microsoft-research",
-      "source_author": "Microsoft Research",
-      "feed_url": "https://www.microsoft.com/en-us/research/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-31"
-      ],
-      "id": "bafa68df361f",
-      "observed_authors": [
-        "Microsoft Research"
-      ]
-    },
-    {
       "title": "Making it easier for websites to express AI training preferences",
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
       "published_at": "2026-10-30T09:30:00+00:00",
@@ -4100,27 +4480,6 @@
       "id": "0611f5c9d42e",
       "observed_authors": [
         "Martin Buchheit"
-      ]
-    },
-    {
-      "title": "Microsoft Research Focus – Edition #97",
-      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97",
-      "published_at": "2026-10-29T19:19:16+00:00",
-      "date_kind": "published",
-      "byline": "Sowbhagya Suresh",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "microsoft-research",
-      "source_author": "Microsoft Research",
-      "feed_url": "https://www.microsoft.com/en-us/research/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "49f8fdcf9435",
-      "observed_authors": [
-        "Microsoft Research"
       ]
     },
     {
@@ -5686,29 +6045,6 @@
       ]
     },
     {
-      "title": "Vision Training for Athletes with Chris Korfist and Dan Fichter",
-      "url": "https://simplifaster.com/articles/vision-training-athletes-korfist-fichter",
-      "published_at": "2026-10-24T21:57:51+00:00",
-      "date_kind": "published",
-      "byline": "Chris Kerr",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "sport-load",
-      "domain": "运动科学",
-      "author_id": "simplifaster",
-      "source_author": "SimpliFaster",
-      "feed_url": "https://simplifaster.com/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-26"
-      ],
-      "id": "ebfb4f13ce4a",
-      "observed_authors": [
-        "SimpliFaster"
-      ]
-    },
-    {
       "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
       "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
       "published_at": "2026-10-24T11:14:32+00:00",
@@ -5882,27 +6218,6 @@
       "id": "ee4c22366ef7",
       "observed_authors": [
         "OpenAI"
-      ]
-    },
-    {
-      "title": "Lo que sabemos sobre el entrenamiento de deportistas con pesas rusas",
-      "url": "https://simplifaster.com/articles/lo-que-sabemos-sobre-el-entrenamiento-de-deportistas-con-pesas-rusas",
-      "published_at": "2026-10-23T16:00:00+00:00",
-      "date_kind": "published",
-      "byline": "Ken Jakalski",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "sport-other",
-      "domain": "运动科学",
-      "author_id": "simplifaster",
-      "source_author": "SimpliFaster",
-      "feed_url": "https://simplifaster.com/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "8721b6b1a71f",
-      "observed_authors": [
-        "SimpliFaster"
       ]
     },
     {
@@ -6189,29 +6504,6 @@
       ]
     },
     {
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
-      "published_at": "2026-10-22T18:09:56+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-24"
-      ],
-      "id": "ee487a66d7e4",
-      "observed_authors": [
-        "Simon Willison"
-      ]
-    },
-    {
       "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
       "url": "https://latent.space/p/modal-d",
       "published_at": "2026-10-22T17:40:57+00:00",
@@ -6230,349 +6522,6 @@
       "id": "8347efbf60ca",
       "observed_authors": [
         "Latent Space"
-      ]
-    },
-    {
-      "title": "Flint-interactive: A language for creating interactive data visualizations",
-      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
-      "published_at": "2026-10-22T16:00:00+00:00",
-      "date_kind": "published",
-      "byline": "Chenglong Wang, Yuwei  Xiao, Alper Sarikaya, Michel Galley, Chris Quirk, Jianfeng Gao",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "microsoft-research",
-      "source_author": "Microsoft Research",
-      "feed_url": "https://www.microsoft.com/en-us/research/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "d6172869a6c9",
-      "observed_authors": [
-        "Microsoft Research"
-      ]
-    },
-    {
-      "title": "Quoting Armin Ronacher",
-      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher",
-      "published_at": "2026-10-22T15:34:13+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "661913408709",
-      "observed_authors": [
-        "Simon Willison"
-      ]
-    },
-    {
-      "title": "You are the Team — Anekha Sokhal, Moshi",
-      "url": "https://latent.space/p/moshi",
-      "published_at": "2026-10-22T14:03:40+00:00",
-      "date_kind": "published",
-      "byline": "Latent.Space",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "latent-space",
-      "source_author": "Latent Space",
-      "feed_url": "https://latent.space/feed",
-      "platform": "通讯",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "adabb743e471",
-      "observed_authors": [
-        "Latent Space"
-      ]
-    },
-    {
-      "title": "How Many Patients Per Day Is Too Many and Setting You Up to Burn Out?",
-      "url": "https://mikereinold.com/how-many-patients-per-day-is-too-many-and-setting-you-up-to-burn-out",
-      "published_at": "2026-10-22T10:00:00+00:00",
-      "date_kind": "published",
-      "byline": "Mike Reinold",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "health-other",
-      "domain": "运动健康",
-      "author_id": "mike-reinold",
-      "source_author": "Mike Reinold",
-      "feed_url": "https://mikereinold.com/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "5a5c7870dd07",
-      "observed_authors": [
-        "Mike Reinold"
-      ]
-    },
-    {
-      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-      "url": "https://latent.space/p/ainews-openais-patch-the-planet-program",
-      "published_at": "2026-10-22T07:42:44+00:00",
-      "date_kind": "published",
-      "byline": "Latent Space",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "latent-space",
-      "source_author": "Latent Space",
-      "feed_url": "https://latent.space/feed",
-      "platform": "通讯",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "be77c76cb6e9",
-      "observed_authors": [
-        "Latent Space"
-      ]
-    },
-    {
-      "title": "What FDE means at OpenAI",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "published_at": "2026-10-22T06:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "6400feb68147",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "More Than Miles – Lift Heavy, Run Faster!",
-      "url": "https://gabbettperformance.com.au/more-than-miles-lift-heavy-run-faster",
-      "published_at": "2026-10-22T02:00:22+00:00",
-      "date_kind": "published",
-      "byline": "admin",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "sport-load",
-      "domain": "运动科学",
-      "author_id": "gabbett",
-      "source_author": "Tim Gabbett / Gabbett Performance",
-      "feed_url": "https://gabbettperformance.com.au/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-28"
-      ],
-      "id": "8dc24cfb959b",
-      "observed_authors": [
-        "Tim Gabbett / Gabbett Performance"
-      ]
-    },
-    {
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "published_at": "2026-10-22T00:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "eda525050cea",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "Broad access through consistent standards",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "published_at": "2026-10-21T21:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "3f1a11956436",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-      "url": "https://simonwillison.net/2026/Oct/21/php-security-release",
-      "published_at": "2026-10-21T18:41:53+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "de377fdb3304",
-      "observed_authors": [
-        "Simon Willison"
-      ]
-    },
-    {
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "published_at": "2026-10-21T17:35:36+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "huggingface",
-      "source_author": "Hugging Face",
-      "feed_url": "https://huggingface.co/blog/feed.xml",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-23"
-      ],
-      "id": "40a01666d562",
-      "observed_authors": [
-        "Hugging Face"
-      ]
-    },
-    {
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "url": "https://openai.com/index/att-legal",
-      "published_at": "2026-10-21T17:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "39cad894cdd2",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "Panache — RTS Belle Époque pour mobile",
-      "url": "https://simonwillison.net/2026/Oct/21/panache",
-      "published_at": "2026-10-21T16:25:16+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "24e7bc554495",
-      "observed_authors": [
-        "Simon Willison"
-      ]
-    },
-    {
-      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-      "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-      "published_at": "2026-10-21T16:04:43+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "huggingface",
-      "source_author": "Hugging Face",
-      "feed_url": "https://huggingface.co/blog/feed.xml",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "5b4e08461387",
-      "observed_authors": [
-        "Hugging Face"
-      ]
-    },
-    {
-      "title": "The Next Major Controversy in Sport?",
-      "url": "https://www.scienceforsport.com/the-next-major-controversy-sport",
-      "published_at": "2026-10-21T16:00:00+00:00",
-      "date_kind": "published",
-      "byline": "Eric Curry",
-      "dois": [
-        "10.1007/s00421-026-06462-9",
-        "10.1007/s40279-026-02514-4"
-      ],
-      "date_verified": true,
-      "topic_id": "sport-load",
-      "domain": "运动科学",
-      "author_id": "science-for-sport",
-      "source_author": "Science for Sport",
-      "feed_url": "https://www.scienceforsport.com/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "9eaa706368b4",
-      "observed_authors": [
-        "Science for Sport"
-      ]
-    },
-    {
-      "title": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",
-      "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture",
-      "published_at": "2026-10-21T16:00:00+00:00",
-      "date_kind": "published",
-      "byline": "Xinzhi Zhang",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "microsoft-research",
-      "source_author": "Microsoft Research",
-      "feed_url": "https://www.microsoft.com/en-us/research/feed/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "77ec6ad66af3",
-      "observed_authors": [
-        "Microsoft Research"
       ]
     }
   ]
