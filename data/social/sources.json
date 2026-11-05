@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-05T00:04:18.632000+00:00",
+  "checked_at": "2026-11-05T03:29:00.367059+00:00",
   "total": 88,
-  "feeds_connected": 46,
+  "feeds_connected": 47,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 41
+      "recent_items": 42
     },
     {
       "id": "anthropic",
@@ -984,9 +984,9 @@
       "kind": "官方团队",
       "platform": "博客",
       "language": "en",
-      "status": "unavailable",
-      "feed_url": null,
-      "recent_items": 0
+      "status": "feed_ok",
+      "feed_url": "https://www.microsoft.com/en-us/research/feed/",
+      "recent_items": 4
     },
     {
       "id": "github-ai",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1181,7 +1181,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://sspai.com/feed",
-      "recent_items": 2
+      "recent_items": 3
     },
     {
       "id": "csss",
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 5
+      "recent_items": 6
     },
     {
       "id": "reddit-ml",
