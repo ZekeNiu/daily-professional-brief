@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-04T03:00:05.972663+00:00",
+  "checked_at": "2026-11-05T00:04:18.632000+00:00",
   "total": 88,
-  "feeds_connected": 47,
+  "feeds_connected": 46,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -210,7 +210,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://mikereinold.com/feed/",
-      "recent_items": 1
+      "recent_items": 0
     },
     {
       "id": "adam-meakins",
@@ -557,7 +557,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://gabbettperformance.com.au/feed/",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "hrv4training",
@@ -791,7 +791,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.painscience.com/rss.xml",
-      "recent_items": 2
+      "recent_items": 3
     },
     {
       "id": "clinical-edge",
@@ -882,7 +882,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://latent.space/feed",
-      "recent_items": 20
+      "recent_items": 19
     },
     {
       "id": "nathan-lambert",
@@ -895,7 +895,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.interconnects.ai/feed",
-      "recent_items": 3
+      "recent_items": 4
     },
     {
       "id": "the-gradient",
@@ -921,7 +921,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://huggingface.co/blog/feed.xml",
-      "recent_items": 14
+      "recent_items": 13
     },
     {
       "id": "openai",
@@ -984,9 +984,9 @@
       "kind": "官方团队",
       "platform": "博客",
       "language": "en",
-      "status": "feed_ok",
-      "feed_url": "https://www.microsoft.com/en-us/research/feed/",
-      "recent_items": 5
+      "status": "unavailable",
+      "feed_url": null,
+      "recent_items": 0
     },
     {
       "id": "github-ai",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 19
+      "recent_items": 21
     },
     {
       "id": "bair",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1181,7 +1181,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://sspai.com/feed",
-      "recent_items": 1
+      "recent_items": 2
     },
     {
       "id": "csss",
