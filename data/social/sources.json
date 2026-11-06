@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-05T23:55:36.100531+00:00",
+  "checked_at": "2026-11-06T03:26:18.486250+00:00",
   "total": 88,
-  "feeds_connected": 48,
+  "feeds_connected": 47,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 42
+      "recent_items": 45
     },
     {
       "id": "anthropic",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 21
+      "recent_items": 22
     },
     {
       "id": "bair",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1153,9 +1153,9 @@
       "kind": "中文媒体",
       "platform": "博客",
       "language": "zh",
-      "status": "feed_ok",
-      "feed_url": "https://www.qbitai.com/feed",
-      "recent_items": 9
+      "status": "unavailable",
+      "feed_url": null,
+      "recent_items": 0
     },
     {
       "id": "jiqizhixin",
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 8
+      "recent_items": 7
     },
     {
       "id": "reddit-ml",
