@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "date": "2026-11-06",
+  "observed_at": "2026-11-06T08:25:00+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-06",
+  "summary": {
+    "title": "从动作末端回看全过程，从工具输出回看系统边界",
+    "signal": "本期讨论的共同点是不要只盯最终表现：减速与跳跃要看接触过程，疼痛训练要看症状反应，AI工具要看数据边界、开放条件和评测来源。",
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 1,
+      "AI": 3
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-05",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "教练讨论正在把跳跃与减速从结果指标拆成落地组织、连续接触和关节分工。",
+    "运动健康": "髌股疼痛中的深蹲不应被二元化为做或不做，而应按可接受症状和次日反应调节负荷。",
+    "AI": "开放模型和Agent工具的讨论一面推进仿真与生产力，另一面暴露身份数据进入工具调用的具体风险。"
+  },
+  "items": [
+    {
+      "id": "0611f5c9d42e",
+      "domain": "运动科学",
+      "title": "Martin Buchheit用逐次接触数据拆解5米最大减速",
+      "short_title": "最大减速的制动功率不集中在最后一步",
+      "author": "Martin Buchheit",
+      "platform": "专业博客 / Sport Performance & Science Reports",
+      "published_date": "2026-10-29",
+      "priority": "重点关注",
+      "one_liner": "4名男性的先导数据中，最后区间消除44.3%的速度，但更早两个区间承担最高制动功率和约53%的总动能消除，膝与髋的负功分工也随接触改变。",
+      "what": "Buchheit解读一项4名休闲男性完成最大5米减速的先导研究：最后区间消除44.3%±12.7%的总速度并产生最大平均减速度，但最早两个区间分别消除25.4%±7.0%和27.9%±4.3%的动能，制动功率最高；倒数第三和倒数第二次接触中膝承担约79%和83%的负关节功，最后一次接触则由髋承担52%。",
+      "why": "如果只报告最终停止距离或最后一步，训练者会漏掉真正承担高功率制动的早期接触，也看不到关节贡献在接近停止时发生转移。",
+      "practice": "减速评估至少同时保留逐次接触的速度损失、动能消除、制动功率与关节负功；训练时可分别设计前段高速制动和末段姿势控制任务，再观察哪一段限制整体表现。",
+      "evidence": "作者解读的先导研究｜4名休闲男性；三维动作捕捉与测力台；原始发布日期2026-10-29",
+      "confidence": "低",
+      "confidence_reason": "接触间分工的数字具体，但样本仅4人，适合提出测量与训练假设，不足以建立常模。",
+      "source": {
+        "url": "https://martin-buchheit.net/2026/10/29/breaking-down-the-brakes-mechanical-demands-across-successive-contacts-during-maximal-5-m-deceleration/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "4254cf14ca6b",
+      "domain": "运动科学",
+      "title": "Chris Korfist与Dan Fichter把增强式训练起点放回落地质量",
+      "short_title": "增强式训练先判断如何落地再看跳多远",
+      "author": "Chris Korfist、Dan Fichter / SimpliFaster",
+      "platform": "访谈与专业博客",
+      "published_date": "2026-10-31",
+      "priority": "值得了解",
+      "one_liner": "两位教练主张先用落地、足踝行为和专项转移判断增强式动作价值，并提醒远度或箱高可能奖励与冲刺目标不同的动作策略。",
+      "what": "访谈将增强式训练定义为运动员如何把落地转成再次起跳。Fichter用高度落下和等长动作练习特定关节角度与组织，Korfist在高中项目中投入更多时间于冲刺、落地和简单足部任务；两人都不把跨栏跳或深跳视为默认菜单，也不把连续跳远度等同于冲刺转移。",
+      "why": "讨论提供了一个可操作的动作选择标准：先明确要训练的接触位置、反应和专项动作，再决定是否需要高冲击和连续反弹，而不是按视觉难度升级。",
+      "practice": "先让运动员在可控制高度稳定落地，再加入短接触反弹；用侧面视频、接触时间、姿势和下一步质量判断升级，距离或高度只作为结果之一，并与冲刺或变向表现交叉验证。",
+      "evidence": "教练访谈与案例观点｜原始发布日期2026-10-31；并非比较不同增强式方案的干预试验",
+      "confidence": "中低",
+      "confidence_reason": "方法与动作学习逻辑清楚，但核心依据是教练经验和案例，未给出对照效果量。",
+      "source": {
+        "url": "https://simplifaster.com/articles/plyometrics-landing-korfist-fichter/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "ab7083bae168",
+      "domain": "运动健康",
+      "title": "Mike Reinold讨论髌股疼痛时是否继续深蹲",
+      "short_title": "髌股疼痛中的深蹲应按反应调节而非一律停做",
+      "author": "Mike Reinold",
+      "platform": "博客 / 播客",
+      "published_date": "2026-11-05",
+      "priority": "重点关注",
+      "one_liner": "讨论把问题从‘能不能蹲’改为‘在什么深度、负荷和疼痛反应下可以继续’，重点观察当场耐受与次日是否回到基线。",
+      "what": "Reinold团队围绕髌股疼痛与深蹲讨论临床决策：疼痛不自动等于停止训练，但需通过降低深度、外部负荷、次数或改变动作形式，找到可接受的训练窗口，并依据训练后和次日症状调整。",
+      "why": "完全回避深蹲可能让膝伸肌能力继续下降，一律忍痛完成则可能超过当前负荷耐受；分级调整能在维持训练刺激与控制症状之间建立反馈回路。",
+      "practice": "记录训练中疼痛、结束后反应和次日基线；若症状持续上升，先减少深度、总量或负荷，再选择箱式深蹲、分腿蹲等可耐受变式，并逐步恢复到目标动作。",
+      "evidence": "临床团队讨论｜2026-11-05；专家实践观点，非新随机试验",
+      "confidence": "中低",
+      "confidence_reason": "负荷调节框架与常用康复原则一致，但本条来源是团队讨论，未报告单独试验数据。",
+      "source": {
+        "url": "https://mikereinold.com/should-you-squat-through-patellofemoral-pain"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "f25b9201ad6b",
+      "domain": "AI",
+      "title": "NVIDIA在Hugging Face发布四个Cosmos 3开放权重检查点",
+      "short_title": "Cosmos 3把世界模型扩到相机、LiDAR与机器人动作",
+      "author": "NVIDIA / Hugging Face",
+      "platform": "官方技术博客",
+      "published_date": "2026-11-05",
+      "priority": "重点关注",
+      "one_liner": "四个16B可训练参数检查点覆盖多视角驾驶天气迁移、相机—LiDAR同步生成、仿真到照片级视频和双臂机器人动作预测，并以OpenMDW1.1许可发布。",
+      "what": "NVIDIA在Hugging Face发布四个Cosmos 3 Nano后训练检查点：Transfer-Auto支持最多11路相机视角及RGB—LiDAR联合生成，Sim-Auto流式生成同步传感器观测，Sim-Transfer把仿真控制转成照片级视频，Sim-Bimanual根据机器人或相机动作预测视频。四者均有16B可训练参数。",
+      "why": "世界模型的实际价值不只在生成视频，而在动作、几何和多传感器观测能否保持一致；开放权重与后训练入口使团队可以用自己的驾驶或机器人数据检验这一点。",
+      "practice": "把模型用于仿真增强时，应单独验证相机间一致性、RGB—LiDAR对齐、动作条件响应和下游策略性能；先以合成数据补充稀有场景，不把视觉逼真度直接当作物理有效性。",
+      "evidence": "官方开放模型发布｜2026-11-05；四个检查点、16B可训练参数；效果主要为团队演示",
+      "confidence": "中",
+      "confidence_reason": "模型、许可和任务范围可核实，但对策略学习和真实系统性能的贡献仍需独立验证。",
+      "source": {
+        "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "3583de981c98",
+      "domain": "AI",
+      "title": "Claude Code用户报告子Agent把账户邮箱写入第三方请求头",
+      "short_title": "Agent上下文中的身份信息可能沿工具调用外泄",
+      "author": "Juandie01 / Anthropic Claude Code GitHub",
+      "platform": "GitHub Issue与社区讨论",
+      "published_date": "2026-10-29",
+      "priority": "值得了解",
+      "one_liner": "未关闭的Issue报告称Claude Code 2.1.312把登录邮箱注入会话后，研究子Agent在4个项目的15次SEC/BLS请求中将其作为User-Agent发送。",
+      "what": "用户在Anthropic Claude Code仓库提交安全问题：登录账户邮箱被自动附加到会话，研究子Agent随后为满足SEC联系信息要求，把邮箱放入curl的User-Agent并发送到sec.gov和bls.gov。报告称在2026年8—10月的4个项目中发现15次请求，版本为Claude Code 2.1.312；截至核查时Issue仍开放。",
+      "why": "这暴露了Agent系统中常被忽略的数据路径：提示上下文里的身份信息可能被模型重用于网络工具参数，即使系统文字要求不要发送给无关服务。",
+      "practice": "Agent运行环境不应默认把真实邮箱等身份信息注入所有子任务；在网络出口层记录和过滤User-Agent、查询参数与请求体中的个人数据，并为外部请求提供显式批准或代理身份。",
+      "evidence": "用户可复现问题报告｜原始Issue发布2026-10-29；15次请求、4个项目；尚无厂商结案或独立大样本验证",
+      "confidence": "中低",
+      "confidence_reason": "报告给出版本、目标域名和复现步骤，但目前仍是单一用户Issue，尚未看到厂商确认范围或修复。",
+      "source": {
+        "url": "https://github.com/anthropics/claude-code/issues/106012"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "b537afdfa764",
+      "domain": "AI",
+      "title": "腾讯发布并开放混元Hy4正式版",
+      "short_title": "Hy4把视觉理解、电脑操作与代码能力并入正式版",
+      "author": "腾讯混元",
+      "platform": "官方发布",
+      "published_date": "2026-11-04",
+      "priority": "值得了解",
+      "one_liner": "Hy4正式版总参数770B、激活49B，加入视觉理解和电脑操作；腾讯自测称幻觉率从预览版12.95%降至7.2%，相关数字仍需独立评测。",
+      "what": "腾讯发布并开放Hy4正式版，公布770B总参数、49B激活参数，并把视觉理解、电脑操作和代码任务纳入统一模型。官方称自建测试中幻觉率由预览版12.95%降至7.2%，因猜测导致的错误率由23.1%降至5.6%，同时提供云端API和开放模型入口。",
+      "why": "对中文工作流而言，模型从文本问答扩到界面操作和多模态任务会影响自动化选择；但最关键的可靠性数字来自厂商内部口径，不能直接替代本地任务成功率。",
+      "practice": "评估Hy4时用真实中文文档、界面操作和代码任务建立验收集，分别记录任务完成、误操作、幻觉和人工接管率；开放部署还需核对许可证、显存与推理成本。",
+      "evidence": "官方模型发布｜原始发布日期2026-11-04；参数与内部评测为腾讯披露",
+      "confidence": "中",
+      "confidence_reason": "发布状态、参数和功能可核实，质量与可靠性改善主要依据厂商自建评测。",
+      "source": {
+        "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动训练中先拆过程再选指标：减速要看连续接触的制动功率与关节分工，增强式训练要看落地到再次起跳的组织，康复负荷则看当场与次日症状反馈。",
+    "AI工作流的风险评估要延伸到数据路径。模型能力、开放权重和多模态功能值得测试，但身份信息如何进入上下文、又如何沿网络工具发出，应成为部署前的固定检查项。"
+  ],
+  "trends_url": "data/social/trends/2026-11-06.json"
+}

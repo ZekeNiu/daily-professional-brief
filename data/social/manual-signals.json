@@ -1030,5 +1030,17 @@
     "observed_at": "2026-11-04T07:57:35+08:00",
     "date_verified": true,
     "platform": "官方产品更新"
+  },
+  {
+    "id": "3583de981c98",
+    "title": "Sub-agents send the auto-attached account email to third-party sites in request headers",
+    "url": "https://github.com/anthropics/claude-code/issues/106012",
+    "domain": "AI",
+    "source_author": "Juandie01 / Anthropic Claude Code GitHub",
+    "author_id": "anthropic-claude-code-community",
+    "published_at": "2026-10-29T00:00:00+00:00",
+    "observed_at": "2026-11-06T08:25:00+08:00",
+    "date_verified": true,
+    "platform": "GitHub Issue与社区讨论"
   }
 ]

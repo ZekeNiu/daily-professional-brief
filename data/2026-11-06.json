@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-06",
+  "title": "每日专业资讯简报｜2026-11-06",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "本期最重要的进展是：从力量—速度训练、关节力矩估计到网络安全Agent，真正有用的系统都开始把‘结果好不好’进一步拆成可定位、可验证、可追踪的过程证据。"
+  },
+  "navigation": {
+    "prev": "2026-11-05",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "训练适应与动作负荷的判断正在从单一成绩推进到力量—速度缺口、连续关节力矩和具体代谢来源。",
+    "运动健康": "睡眠与疼痛的新证据都指向个体内波动和上游情境变量，单晚评分或单一行为标签不足以支持干预。",
+    "AI": "AI工具的实用边界越来越清楚：高风险能力要靠访问控制，生成式开发要把自然语言意图转成可验证约束，多模态生产则要看真实交付成本。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "举重衍生训练更适合提升MMA运动员功率缺口",
+      "title": "Comparative effects of weightlifting derivatives and traditional resistance training on force-velocity profile characteristics in mixed martial arts athletes",
+      "one_liner": "35名存在力量缺口的男性MMA运动员训练10周后，举重衍生训练组最大功率提高5.11%，传统抗阻组反而下降6.46%，但传统方案更偏向最大力量适应。",
+      "what": "研究将35名力量—速度谱显示力量缺口的男性MMA运动员分为举重衍生训练组（20人）和传统抗阻组（15人），完成10周训练。举重衍生组最大功率提高5.11%±5.65%，传统组下降6.46%±5.86%（组间p<0.001）；前者的反向纵跳提高13.81%±7.11%，等长大腿中段拉峰值力提高13.12%±8.25%。",
+      "why": "结果说明即使运动员都被归为‘力量缺口’，方案仍会沿不同适应方向移动力量—速度谱：举重衍生动作同时改善功率与跳跃表现，传统抗阻更可能把刺激集中到最大力量端。",
+      "practice": "为MMA或其他混合体能项目选方案时，先用力量—速度谱明确缺口，再同时追踪F0、V0、Pmax、跳跃和等长力；需要提高爆发功率时可优先加入抓举、高翻等衍生动作，需要扩大力量储备时保留重负荷传统动作，并用复测决定下一周期比例。",
+      "evidence": "非盲随机分组训练研究｜35名男性MMA运动员；10周；举重衍生训练20人、传统抗阻15人",
+      "confidence": "中高（组间差异幅度明确且多个性能指标同向，但样本较小、仅男性，分组细节限制因果强度）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42985921",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42985921/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "少量足底传感器可估算多方向膝关节力矩",
+      "title": "Wearable Sensor-Based Prediction of Knee Joint Moments in Competitive Rugby Players During Multidirectional Movements",
+      "one_liner": "31名竞技橄榄球运动员完成四类多方向动作时，7—18个足底压力传感器对未见运动员的膝力矩合成值达到R²=0.795。",
+      "what": "研究同步采集31名竞技橄榄球运动员在四类专项多方向动作中的足底压力、三维动作捕捉和测力台数据，并用参与者级嵌套交叉验证预测膝关节力矩。仅用7—18个足底传感器时，合成力矩R²为0.795、RMSE为0.0512 Nm/N；屈伸、内收外展和内外旋方向R²分别为0.806、0.662和0.675。",
+      "why": "这比在实验室内拟合高R²更接近现场使用问题：验证过程把未见运动员留在测试集，且模型覆盖切入、变向等多方向任务，说明足底压力可能成为膝负荷连续监测的可部署入口。",
+      "practice": "设备开发与科研可先用精简足底阵列筛查动作间和训练周期内的力矩波形变化，再用动作捕捉与测力台做定期标定；内收外展和旋转方向误差更大，不宜把单次估计直接转成损伤阈值。",
+      "evidence": "可穿戴设备验证研究｜31名竞技橄榄球运动员；四类多方向动作；参与者级嵌套交叉验证",
+      "confidence": "中高（外部到参与者层面的验证设计较强，但样本和运动项目仍有限，尚未验证纵向伤病预测）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42961009",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42961009/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "低氧计时赛的糖原利用下降但性别策略不同",
+      "title": "Leg glucose uptake and substrate utilisation during time trial exercise: Effects of acute hypobaric hypoxia and biological sex",
+      "one_liner": "22名训练良好的骑手在约2800米低压低氧完成30分钟计时赛时，女性成绩下降14%、男性下降18%，肌糖原氧化估计下降，但绝对脂肪和血糖氧化未变。",
+      "what": "22名训练良好的骑行者或铁三运动员（10名女性）以交叉顺序在约400米和约2800米环境完成30分钟计时赛。低氧下女性和男性表现分别下降14%和18%；估算肌糖原氧化下降，而绝对脂肪和血糖氧化没有改变。女性在两种海拔下以更高相对强度完成任务，并从血糖获得更高比例能量。",
+      "why": "低氧成绩下降不能简单解释为‘更快耗尽糖原’；在这类短时高强度耐力任务中，肌糖原使用反而下降，且女性与男性到达相似任务终点时采用的相对强度和外源血糖贡献不同。",
+      "practice": "高原测试应同时记录绝对功率、相对强度和补给条件；比较男女运动员或评估低氧适应时，不要仅用总碳水氧化推断糖原消耗，必要时把血糖来源和肌糖原来源分开建模。",
+      "evidence": "交叉实验｜22名训练良好骑行/铁三运动员，其中10名女性；30分钟计时赛；约400米与约2800米低压低氧",
+      "confidence": "中高（交叉设计和代谢测量支持方向，但样本较小，底物来源部分依赖模型估算）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42984347",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42984347/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "运动员睡眠管理应先抓旅行、时区与咖啡因",
+      "title": "Understanding the Complexity of Athlete Sleep: A Systems Approach to Modelling the Athlete Sleep Environment",
+      "one_liner": "文献与10名专家共识建立了含48个变量、120条关系的运动员睡眠系统模型，最上游的高连接变量包括旅行时长、跨时区、咖啡因剂量和可用资源。",
+      "what": "研究综合文献并通过10名专家共识，建立运动员睡眠环境的因果回路模型，涵盖48个变量、120条关系和4个领域。旅行时长、跨越时区、咖啡因剂量以及资源/支出位于连接度较高的上游位置，作者据此提出上游决定因素—睡眠状态—下游后果的三级监测框架。",
+      "why": "运动员睡眠常被压缩成时长或评分，但同一睡眠结果可能由赛程、旅行、兴奋剂摄入和资源条件共同造成；只在睡眠差后增加恢复措施，往往错过更可改变的上游原因。",
+      "practice": "睡眠监测表应至少并列记录旅行小时、时区变化、咖啡因剂量与时间、训练/比赛时间和主观睡眠；干预优先改动连接度高且可控的上游变量，再用连续多晚数据判断是否改善。",
+      "evidence": "系统建模与专家共识｜文献整合、10名专家；48个变量、120条关系；非干预效果试验",
+      "confidence": "中（结构化共识有助于设计监测，但变量权重来自模型与专家判断，未直接比较干预效果）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42986605",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42986605/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "慢性疼痛的次日强度与N3睡眠连续性相关",
+      "title": "Temporal Associations Between Physiological Sleep and Next-Day Pain Intensity in Individuals With Activity-Limiting Chronic Pain: A Multiple Night At-Home Ear-EEG Sleep-Monitoring Study",
+      "one_liner": "19名活动受限的慢性疼痛患者连续11—33晚居家耳脑电显示，更多且更稳定的N3睡眠对应较低次日疼痛，N3碎片化和N1比例更高则对应疼痛升高。",
+      "what": "这项预注册前瞻性观察研究让19名活动受限的慢性疼痛患者连续11—33晚使用居家耳脑电。多项睡眠指标的个体内波动很大（ICC<0.5）；N3时长（β=-0.01，p=0.005）、N3比例（β=-0.07，p=0.001）及稳定性更高与次日疼痛较低相关，而N3碎片化和N1比例更高与疼痛较高相关。",
+      "why": "重复多晚的生理记录把‘睡不好会更痛’细化到深睡眠的数量与连续性，同时显示单晚结果无法代表个人常态；这对疼痛康复中如何安排监测比一次问卷更有信息量。",
+      "practice": "慢性疼痛康复可用连续多晚而非单晚数据识别个人睡眠—疼痛联动，并优先处理会打断深睡眠的可查因素；现有结果支持监测和假设生成，不支持把增加N3直接写成已证实的镇痛处方。",
+      "evidence": "预注册前瞻性观察研究｜19名活动受限慢性疼痛患者；每人11—33晚居家耳脑电",
+      "confidence": "中低（重复测量增强个体内分析，但样本仅19人，关联不能证明改善N3会降低疼痛）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42984383",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42984383/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "运动健康",
+      "short_title": "久坐时间未预测慢性腰痛六个月结局",
+      "title": "Is sedentary time associated with pain and disability in patients with chronic low back pain? A longitudinal study",
+      "one_liner": "182名慢性腰痛患者的纵向数据中，客观久坐时间与六个月后的疼痛和残疾均无关联，自报久坐的单变量关联在校正后消失。",
+      "what": "研究基线纳入182名慢性腰痛患者，其中141人完成六个月随访；用7天加速度计和IPAQ测量久坐。客观久坐时间未预测六个月后的疼痛或残疾，自报久坐仅在单变量模型中出现关联，进入多变量模型后消失，年龄反而是更稳定的预测因素。",
+      "why": "结果直接削弱了把‘少坐’作为慢性腰痛结局的独立解释变量；如果患者总久坐时间下降但功能没有改善，这并不与现有证据冲突。",
+      "practice": "腰痛康复仍可通过减少久坐增加总体活动，但目标应落在可耐受活动量、功能任务和症状反应，不要把总久坐分钟数当成疗效代理或主要风险分层指标。",
+      "evidence": "纵向队列｜182人基线、141人六个月随访；7天加速度计与自报久坐",
+      "confidence": "中高（客观和自报测量方向一致，但观察研究仍可能受活动类型和未测混杂影响）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42986430",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42986430/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "GPT-6 Cyber把高阶网络能力置于受限访问",
+      "title": "Introducing GPT-6 Cyber",
+      "one_liner": "OpenAI发布受限访问的GPT-6 Cyber，在ExploitGym上达到48.5%，并披露发现81个此前未知的Firefox高严重性漏洞，同时按关键级网络能力实施身份与网络边界控制。",
+      "what": "OpenAI发布GPT-6 Cyber，定位于漏洞研究和防御工作流。官方报告其ExploitGym得分48.5%，高于GPT-5.6 Cyber的32.1%；安全研究中发现81个此前未知的高严重性Firefox漏洞。模型被按关键级网络安全能力管理，通过Daybreak Red受限提供，并要求身份核验、SSO/MFA和IP允许名单等控制。",
+      "why": "这不是一次普通的编程模型升级：厂商同时承认能力已经跨入需要强访问控制的等级，并把漏洞发现规模与防滥用机制放在同一发布中，说明能力评测与部署权限必须联动。",
+      "practice": "安全团队若申请使用，应先定义允许的资产范围、身份和网络边界、命令审计与人工批准点；评估时分别记录漏洞发现率、误报、复现成功和越界行为，不用单一基准分数替代部署风险评估。",
+      "evidence": "官方模型发布与系统卡｜ExploitGym、SRE-Bench及内部漏洞研究；效果数字主要来自厂商评测",
+      "confidence": "中高（发布、访问控制和漏洞数量可核实，但核心能力表现主要为官方自测，独立评估尚少）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "PDD Kit把Agent写代码转成可证明的契约",
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "one_liner": "Microsoft Research发布PDD Kit，把自然语言意图转换为Verus规范并验证Agent生成代码；示例中五个登录相关函数通过证明，数据库、bcrypt和时钟等边界继续用测试覆盖。",
+      "what": "PDD Kit让开发者先用自然语言描述行为，再生成Verus形式化规范与实现，证明代码对满足前置条件的输入符合契约。官方Pet Store示例中，五个登录相关函数完成证明；数据库查询、bcrypt、时钟和令牌等可信边界无法被同一证明覆盖，仍用测试验证。",
+      "why": "Agent写代码的主要风险不是能否生成，而是需求和实现是否持续一致。PDD Kit提供了可检查的中间层，同时清楚暴露哪些部分仍依赖外部库与运行时测试。",
+      "practice": "先把高风险、纯函数或状态转移明确的模块写成契约，再让Agent生成实现和证明；对密码学、数据库、网络和时间等边界建立独立测试与运行时监控，避免把‘核心函数已证明’扩写成‘全栈系统已证明’。",
+      "evidence": "官方研究原型与案例｜自然语言到Verus规范；Pet Store登录示例；非大规模生产评测",
+      "confidence": "中（方法与证明边界透明，但目前主要证据是团队示例，尚缺多项目独立复现）",
+      "limit": "",
+      "source": {
+        "title": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "Gemini Omni 1.2 Flash把视频生成扩到15秒",
+      "title": "Introducing Gemini Omni 1.2 Flash",
+      "one_liner": "Google将Gemini Omni 1.2 Flash推向正式可用，原生视频最长15秒、支持多轮编辑，720p定价降至每秒0.07美元，并提供低分辨率草稿后放大的工作流。",
+      "what": "Google宣布Gemini Omni 1.2 Flash正式可用，原生视频时长从10秒扩到15秒，支持多轮编辑；720p生成价格降至每秒0.07美元，官方建议先用较低分辨率草稿迭代，再放大最终版本。",
+      "why": "对内容生产而言，时长、编辑循环和单位秒成本比单张演示更决定是否能进入工作流；低清草稿—确认—放大的模式也降低了反复生成高分辨率成片的浪费。",
+      "practice": "可把脚本拆成15秒以内镜头，先低分辨率确认构图、动作和连续性，再只对选中版本放大；预算按有效成片秒数和重生成率核算，并保留人工检查人物一致性、文字和物理错误。",
+      "evidence": "官方产品发布｜正式可用；时长、价格与编辑功能为官方规格，尚缺跨模型独立质量比较",
+      "confidence": "中高（可用性和价格明确，画质与一致性提升仍主要依据厂商展示）",
+      "limit": "",
+      "source": {
+        "title": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "训练与评估应把‘缺口’写成可复测的维度。力量—速度训练至少同时追踪F0、Pmax和专项表现；可穿戴负荷估计要保留方向与波形；低氧测试要区分相对强度和底物来源。",
+    "睡眠和慢性疼痛管理的优先级应从单一结果指标转向上游情境与连续个体数据。旅行、时区、咖啡因和多晚N3连续性比一次睡眠评分更能支持下一步决策。",
+    "高能力AI的专业采用标准正在分化：网络安全模型先看访问控制，Agent开发先看可证明契约与可信边界，生成视频先看迭代成本和交付验收。"
+  ],
+  "trends_url": "data/trends/2026-11-06.json"
+}
