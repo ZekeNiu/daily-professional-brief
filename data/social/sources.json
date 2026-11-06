@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-05T03:29:00.367059+00:00",
+  "checked_at": "2026-11-05T23:55:36.100531+00:00",
   "total": 88,
-  "feeds_connected": 47,
+  "feeds_connected": 48,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -20,7 +20,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://martin-buchheit.net/feed/",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "asker-jeukendrup",
@@ -210,7 +210,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://mikereinold.com/feed/",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "adam-meakins",
@@ -505,7 +505,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://complementarytraining.com/feed/",
-      "recent_items": 1
+      "recent_items": 2
     },
     {
       "id": "jb-morin",
@@ -557,7 +557,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://gabbettperformance.com.au/feed/",
-      "recent_items": 1
+      "recent_items": 0
     },
     {
       "id": "hrv4training",
@@ -713,7 +713,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blogs.bmj.com/bjsm/feed/",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "jospt-insights",
@@ -882,7 +882,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://latent.space/feed",
-      "recent_items": 19
+      "recent_items": 17
     },
     {
       "id": "nathan-lambert",
@@ -921,7 +921,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://huggingface.co/blog/feed.xml",
-      "recent_items": 13
+      "recent_items": 12
     },
     {
       "id": "openai",
@@ -958,9 +958,9 @@
       "kind": "官方团队",
       "platform": "公开发布",
       "language": "en",
-      "status": "homepage_only",
-      "feed_url": null,
-      "recent_items": 0
+      "status": "feed_ok",
+      "feed_url": "https://deepmind.google/blog/rss.xml",
+      "recent_items": 5
     },
     {
       "id": "google-ai",
@@ -973,7 +973,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "recent_items": 2
+      "recent_items": 3
     },
     {
       "id": "microsoft-research",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1155,7 +1155,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://www.qbitai.com/feed",
-      "recent_items": 10
+      "recent_items": 9
     },
     {
       "id": "jiqizhixin",
@@ -1181,7 +1181,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://sspai.com/feed",
-      "recent_items": 3
+      "recent_items": 2
     },
     {
       "id": "csss",
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 6
+      "recent_items": 8
     },
     {
       "id": "reddit-ml",
