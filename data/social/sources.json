@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-06T23:51:20.333258+00:00",
+  "checked_at": "2026-11-07T02:47:34.356956+00:00",
   "total": 88,
-  "feeds_connected": 47,
+  "feeds_connected": 48,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -791,7 +791,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.painscience.com/rss.xml",
-      "recent_items": 2
+      "recent_items": 3
     },
     {
       "id": "clinical-edge",
@@ -958,9 +958,9 @@
       "kind": "官方团队",
       "platform": "公开发布",
       "language": "en",
-      "status": "homepage_only",
-      "feed_url": null,
-      "recent_items": 0
+      "status": "feed_ok",
+      "feed_url": "https://deepmind.google/blog/rss.xml",
+      "recent_items": 5
     },
     {
       "id": "google-ai",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
