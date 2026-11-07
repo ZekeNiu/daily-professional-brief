@@ -1,7 +1,7 @@
 {
   "version": 1,
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T08:35:00+08:00",
+  "generated_at": "2026-11-07T08:30:00+08:00",
   "generated_by": "ChatGPT",
   "channels": {
   "journal": {
@@ -403,7 +403,7 @@
   "social": {
     "start": "2026-10-24",
     "end": "2026-11-06",
-    "source_fingerprint": "6c9a355132bddeec6167093bfb7da47a28e44ac7b8b84d3fec65ffe0c60773f0",
+    "source_fingerprint": "08d32d2bae67a6d1d88df5d1055567f62baed281cada35e9e186e34c876251a0",
     "topics": [
       {
         "id": "s-sport-force-data-interoperability",

@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "date": "2026-11-07",
+  "observed_at": "2026-11-07T07:55:00+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-07",
+  "summary": {
+    "title": "把画像、Agent和监控放回它们真正能回答的问题",
+    "signal": "本期讨论集中在工具边界：足球locomotor profile适合定强度和分组，却不能直接反推肌纤维；Agent工程与连接器安全也要求把任务、授权和追踪上下文绑定。",
+    "total": 3,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 0,
+      "AI": 2
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-06",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "足球运动画像仍适合个体化定强度与分组，但不能把外部表现直接翻译成肌肉类型。",
+    "AI": "Agent工程的新增价值不在多写代码，而在上下文连续、授权连续和可追踪运行。"
+  },
+  "items": [
+    {
+      "id": "f1ac852461a6",
+      "domain": "运动科学",
+      "title": "Martin Buchheit修正足球locomotor profile的解释边界",
+      "short_title": "速度画像能定强度，不能直接推断肌纤维",
+      "author": "Martin Buchheit、Freek Van de Casteele",
+      "platform": "专业博客 / Sport Performance & Science Reports",
+      "published_date": "2026-11-06",
+      "priority": "重点关注",
+      "one_liner": "Buchheit认为MAS、MSS、ASR和VIFT仍适合个体化HIIT与运动员分组，但冲刺或跳跃快只说明表现快，不能可靠说明肌肉由何种纤维构成。",
+      "what": "Buchheit复盘20多年使用MAS、MSS、ASR与30-15IFT的实践，明确保留两项用途：按个人能力设定HIIT强度，以及把运动员分组以支持个体化；他同时撤回把冲刺、跳跃结果直接解释为肌纤维类型并据此选课表的做法。",
+      "why": "这是对常见推理链的实质修正：外部表现画像可以用于训练处方，却不能自动升级为组织层面的机制测量。混用两者会让教练把‘快’误写成‘快肌型’。",
+      "practice": "继续用MAS/MSS/ASR或VIFT定强度和做初步分组，但若决策真正依赖肌肉类型，应使用经验证的直接或近端测量；课表选择仍需结合专项需求、历史反应和训练后复测。",
+      "evidence": "专家立场更新与专题报告｜2026-11-06；依据其团队多活检研究与既往画像实践，非新干预试验",
+      "confidence": "中",
+      "confidence_reason": "用途边界与作者修正表述清楚，但本条公开页面只提供核心论点，具体活检数据需回到完整报告核对。",
+      "source": {
+        "url": "https://martin-buchheit.net/2026/11/06/taken-too-far-what-the-locomotor-profile-does-well-less-well-and-least-well-in-football-soccer/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "92b8001eea64",
+      "domain": "AI",
+      "title": "GitHub把Agentic Engineering定义为完整交付系统而非代码生成",
+      "short_title": "Agent工程要覆盖计划、验证、审查与运行",
+      "author": "Nick Liffen / GitHub",
+      "platform": "官方工程博客",
+      "published_date": "2026-11-06",
+      "priority": "值得了解",
+      "one_liner": "GitHub的新指南把Agent使用从生成代码扩展到任务拆解、上下文准备、自动验证、审查和反馈闭环，强调工程系统而非单次提示。",
+      "what": "GitHub发布面向开发者的Agentic Engineering指南，核心转变是让Agent进入需求拆解、计划、实现、测试、审查和反馈循环，而不是只在编辑器中补全代码；作者强调为Agent提供仓库规则、工具、可验证目标和人工接管点。",
+      "why": "团队采用编码Agent后的瓶颈通常从‘能否写代码’转到‘能否持续产出可审查、可回滚的改动’。这要求把上下文、验证和责任边界做成工程基础设施。",
+      "practice": "为高频任务固定spec、plan、验收命令和PR检查清单；让Agent每次提交同时附测试结果与未解决风险，复杂架构和高影响改动保留人工审批。",
+      "evidence": "官方开发实践指南｜2026-11-06；工程方法总结，未提供对照生产率研究",
+      "confidence": "中",
+      "confidence_reason": "流程建议可直接复用，但主要来自GitHub自身产品与工程经验，效果大小需团队本地评估。",
+      "source": {
+        "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "5b5f4925f1b3",
+      "domain": "AI",
+      "title": "社区复现多连接器流程中的授权上下文错配",
+      "short_title": "确认码被错误路由到另一OAuth客户端",
+      "author": "AldiPower / OpenAI Developer Community",
+      "platform": "开发者社区与Hacker News讨论",
+      "published_date": "2026-11-06",
+      "priority": "重点关注",
+      "one_liner": "一个双连接器复现中，确认码由连接器A生成，后续调用却经连接器B发送；服务端因绑定OAuth客户端而拒绝，暴露了路由与授权连续性分离的问题。",
+      "what": "用户报告在同一对话启用两个指向同一MCP服务器、但使用不同OAuth客户端的连接器时，确认步骤由A发起，模型随后把一次性确认码通过B调用。服务端把码绑定A的OAuth客户端，因此拒绝执行；帖子给出设置、步骤和详细日志描述。",
+      "why": "服务端防护阻止了这次执行，却同时证明‘同一工具名或服务器URL’不能代表同一授权边界。多步骤Agent流程若不固定连接器身份，可能把一个应用产生的数据带入另一个应用。",
+      "practice": "确认令牌必须绑定操作、连接器ID、OAuth客户端和租户；编排层应禁止中途自动切换连接器，确需切换时重新向用户确认，并在追踪中记录路由决策但不保存敏感令牌。",
+      "evidence": "公开可复现问题报告｜2026-11-05发帖、11-06继续讨论；单一案例，尚无官方结案",
+      "confidence": "中低",
+      "confidence_reason": "复现步骤与服务端拒绝逻辑具体，但仍是社区报告，影响范围和客户端根因未获官方确认。",
+      "source": {
+        "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动画像只应回答它被验证过的问题。MAS、MSS和ASR适合定强度与分组；若问题变成肌纤维类型、组织负荷或伤病风险，就必须换测量层级。",
+    "Agent工程的最低交付单元不再是代码，而是带上下文、授权身份、验证结果和可审查记录的改动。连接器连续性与路由日志应成为默认控制。"
+  ],
+  "trends_url": "data/social/trends/2026-11-07.json"
+}

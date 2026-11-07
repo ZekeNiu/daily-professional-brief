@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-07",
+  "title": "每日专业资讯简报｜2026-11-07",
+  "summary": {
+    "total": 7,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 2,
+      "AI": 3
+    },
+    "signal": "本期最重要的进展是：同一个外部结果背后的机制可能完全不同——热环境主要放大跑步经济性漂移，ACL术后动作也可能受心理—神经行为状态影响，AI系统则必须把任务表现与权限、数据流和可观察性一起验收。"
+  },
+  "navigation": {
+    "prev": "2026-11-06",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "耐力训练的评估正在从新鲜状态和总训练量，转向环境压力下的耐久性、集中负荷后的具体适应及其结局差异。",
+    "运动健康": "回归训练决策不能只看结构与力量：动作心理状态和受伤情境会显著改变落地策略与预计缺阵时间。",
+    "AI": "高价值AI进展开始同时给出任务级评测、连接器安全边界和可验证的交互/追踪机制。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "热环境更明显损害跑步经济性与末端速度",
+      "title": "Durability of Physiological Determinants of Distance-Running Performance in Warm and Temperate Environments",
+      "one_liner": "10名训练跑者完成90分钟跑后，30°C并未额外放大VT1速度或VO₂peak下降，却把跑步经济性漂移扩大到5.4%，末端测试速度下降12.1%。",
+      "what": "10名训练跑者在19°C与30°C、40%相对湿度下，以各环境能力为基准完成90分钟跑。VT1速度分别下降8.6%与11.1%，VO₂peak分别下降4.8%与4.0%，两项均无环境×时间交互；但跑步经济性从15至90分钟在热环境恶化5.4%，温和环境仅1.7%，末端测试速度则分别下降12.1%与6.8%。",
+      "why": "热环境并非把所有耐力决定因素等比例拉低。阈值和VO₂peak的耐久性在按环境能力配速后相近，真正被额外放大的主要是经济性漂移和可实现速度；用单次新鲜状态测试会低估比赛后段损失。",
+      "practice": "热环境耐力测试可保留环境校准后的阈值强度，但应增加长时段后的跑步经济性或固定速度氧耗复测，并把末端速度下降单独记录；训练配速不要只按凉爽环境的新鲜VT1换算。",
+      "evidence": "随机顺序交叉实验｜10名训练跑者（7男、3女）；19°C与30°C；90分钟跑前后测试",
+      "confidence": "中高（交叉设计与结果分化清楚，但样本仅10人，男女比例不平衡）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42993016",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42993016/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "6天集中HIT改善阈值与VO₂max对应速度",
+      "title": "A Six-Day High-Intensity Interval Training Microcycle Improves Selected Indicators of Endurance Performance in Well-Trained Female Cross-Country Skiers and Biathletes",
+      "one_liner": "17名训练良好的女子越野滑雪/冬季两项运动员中，6天5次HIT使VO₂max对应速度提高3.6%、4 mmol阈值速度提高4.4%，但15分钟表现的组间差异未达显著。",
+      "what": "17名训练良好的女子越野滑雪/冬季两项运动员完成6天微周期；HIT组以5次6×5分钟、RPE 17—18的高强度间歇替换部分惯常训练并降低总负荷，随后主动恢复5天。相较常规训练，HIT组VO₂max对应速度提高3.6%（对照1.2%，p=0.024），4 mmol阈值速度提高4.4%（对照0.0%，p=0.023）；15分钟速度提高5.4%对1.3%，组间p=0.083。",
+      "why": "集中高强度微周期可以在较短时间改变实验室耐力指标，但并非所有结局同步改善。阈值与VO₂max对应速度出现组间差异，而15分钟任务没有，说明计划价值取决于要转移的具体表现指标。",
+      "practice": "若赛历允许，可把5次6×5分钟集中HIT作为训练良好女子耐力运动员的短期刺激方案，并同步减少其他负荷、安排约5天主动恢复；验收应同时保留阈值、VO₂max对应速度和专项持续表现，不能以前两项改善替代比赛能力判断。",
+      "evidence": "对照训练研究｜17名训练良好女子越野滑雪/冬季两项运动员；6天5次HIT后主动恢复5天",
+      "confidence": "中（组间差异支持部分实验室指标改善，但样本小，15分钟表现未见显著组间优势）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42960553",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42960553/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "ACL术后无助感与更大膝外展落地相关",
+      "title": "Learned helplessness is associated with jump-landing biomechanics following anterior cruciate ligament reconstruction",
+      "one_liner": "33名平均术后2.78年的ACLR人群中，无助感越高，重建侧峰值膝外展越大；校正年龄、性别和术后时间后模型解释34.8%变异。",
+      "what": "33名初次单侧ACLR参与者完成无助感量表和三维跳跃落地测试。无助感与重建侧峰值膝外展中度相关（r=0.564，p=0.001），校正年龄、性别和术后时间后仍相关（B=0.230，p=0.007）；整体模型解释34.8%的峰值膝外展变异。",
+      "why": "这项结果把心理—神经行为状态与具体落地动作联系起来，说明力量恢复后仍出现回避或异常额状面策略，可能并非纯粹的肌力缺口。",
+      "practice": "ACLR后期评估可在力量、跳跃距离和对称性之外加入心理准备/无助感量表，并对高分者复核落地膝外展与髋策略；量表用于定位需要进一步干预的环节，不作为单独放行或禁止重返运动的阈值。",
+      "evidence": "横断面关联研究｜33名初次单侧ACLR；平均术后2.78±2.78年；三维落地运动学",
+      "confidence": "中（校正后关联明确，但样本小、无助感总体较低，不能确定因果方向）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42967377",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42967377/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "没有明确受伤瞬间的肌肉不适可能对应更短缺阵",
+      "title": "Injury mechanism and return to play duration in non-contact muscle injuries in elite football players: a case series",
+      "one_liner": "一支顶级足球队43次非接触肌肉损伤中，没有明确动作或瞬间的6次事件中位回归仅2.5天，典型机制事件为12天。",
+      "what": "回顾性病例系列记录28名精英足球运动员的43次下肢非接触肌肉损伤：37次有明确动作/瞬间，6次没有。无典型机制事件的回归时间中位数为2.5天（IQR 0.5—3.0），典型机制为12天（IQR 8—24，p<0.001）；前者至少9个月未见复发。",
+      "why": "‘没有明确受伤瞬间’不只是病史描述，可能标记一种更短暂、不同严重度的临床表型；把所有训练中出现的肌肉症状按同一预计缺阵期处理，会过度或不足管理。",
+      "practice": "初诊记录应明确症状是否对应具体动作、瞬间和功能丢失，并结合查体与影像决定分层；无典型机制可支持更快复测和功能导向推进，但不能因该标签直接承诺2—3天回归。",
+      "evidence": "单队回顾性病例系列｜28名精英足球运动员、43次损伤；其中无典型机制仅6次",
+      "confidence": "低（组间差异很大，但无典型机制仅6例，单队经验易受诊断和回归流程影响）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42952287",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42952287/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "BioBasicsBench把科研Agent放到原始湿实验数据上",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "one_liner": "BioBasicsBench用100个常规湿实验任务测试原始凝胶、显微图像、仪器导出和实验记录；GPT-6 Astra得分66.7%，仍明显受图像、对照和实验情境限制。",
+      "what": "OpenAI与Ligo发布BioBasicsBench，覆盖100个蛋白、成像/流式、定量、核酸和克隆任务，输入包括凝胶、平板、显微堆栈、FCS/CSV、仪器屏幕和实验记录。官方评测中，GPT-6 Astra在xhigh设置平均获得66.7%可用分数，GPT-5.6 Sol为43.8%。",
+      "why": "该基准把科研Agent从整理发表图表推进到更接近日常实验室的含噪原始证据，并把‘识别对照失效或无法下结论’纳入评分；这比只测文献问答更接近科研协作风险。",
+      "practice": "实验室引入Agent时，可仿照该结构建立本地任务集：原始图像/导出、对照检查、结论与证据定位分开评分；自动结果进入实验记录前保留人工复核，尤其检查阴性对照、图像伪影和仪器上下文。",
+      "evidence": "官方新基准与模型评测｜100个专家编写任务、五类湿实验工作；核心分数来自发布方评测",
+      "confidence": "中高（任务构成和评分透明，但仍是单一基准，模型结果尚缺独立复测）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "OpenAI把第三方连接器边界纳入联合红队",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "one_liner": "OpenAI与Hacktron建立联合测试，重点检查系统与第三方服务的交互，并向其开放Daybreak Red前沿模型访问。",
+      "what": "OpenAI宣布与安全研究团队Hacktron合作，由双方选择高优先级区域联合测试，重点放在OpenAI系统与第三方服务交互处；Hacktron将通过Daybreak Red获得前沿模型访问，用于代码审查、渗透测试和红队工作。",
+      "why": "Agent的高风险故障越来越集中在身份、授权、工具参数和跨服务数据流，而非模型单次输出。把连接器边界列为专项红队对象，说明部署验收必须覆盖整条调用链。",
+      "practice": "多连接器Agent应把OAuth客户端、确认令牌、租户和目标服务绑定到同一操作上下文；红队测试至少覆盖连接器切换、重放、工具同名冲突、跨租户数据和失败回滚，并记录每次路由决策。",
+      "evidence": "官方安全合作公告｜测试范围与合作机制已发布；尚未披露具体发现数量或修复结果",
+      "confidence": "高（合作与范围来自官方公告；实际安全收益仍待后续结果）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI",
+        "url": "https://openai.com/index/partnering-with-hacktron/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "json-render让Chat SDK Agent流式输出原生卡片",
+      "title": "Chat SDK agents can now stream generative UI with json-render",
+      "one_liner": "json-render 0.22加入Chat SDK适配器，可用同一组件目录流式生成Slack与Teams原生卡片，并在最终输出时按组件模式和平台限制校验。",
+      "what": "Vercel发布json-render与Chat SDK的生成式UI集成；底层0.22版本新增@json-render/chat，streamCard可随元素到达持续更新消息，toCard则在完成时按组件schema及可选平台限制验证，示例覆盖Slack Block Kit和Teams Adaptive Cards。",
+      "why": "Agent输出开始从自由文本转向结构化、可交互且可校验的界面。组件目录与最终验证能减少模型任意生成UI的失控面，但平台限制、权限和交互动作仍需要应用层约束。",
+      "practice": "可先为高频工作流建立小型白名单组件目录，把表单提交和写操作绑定显式确认；同时测试平台元素上限、流式中断、重复提交和无渲染器时的文本回退。",
+      "evidence": "官方产品更新与开源版本｜json-render 0.22、Chat SDK适配；缺少长期生产延迟与失败率数据",
+      "confidence": "中（功能与实现可核实，规模化稳定性和跨平台一致性仍待实测）",
+      "limit": "",
+      "source": {
+        "title": "Vercel",
+        "url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "耐力测试要把环境压力下的‘耐久性’单独测出来。热环境中阈值与VO₂peak未出现额外下降，不等于比赛后段不受影响；经济性漂移和末端速度才是更敏感的决策指标。",
+    "短周期集中HIT可提高阈值与VO₂max对应速度，却没有同步证明15分钟表现优于常规训练；训练块验收要使用目标结局。康复同样不能只看力量，相似力量水平下，心理—神经行为状态仍可能改变落地策略。",
+    "科研与生产Agent的验收标准应统一为三层：任务结果、证据/轨迹、授权与数据边界。只看基准分数或最终文本，无法发现原始实验数据误读和跨连接器风险。"
+  ],
+  "trends_url": "data/trends/2026-11-07.json"
+}
