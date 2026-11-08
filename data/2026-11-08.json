@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-08",
+  "title": "每日专业资讯简报｜2026-11-08",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 4,
+      "AI": 2
+    },
+    "signal": "本期最重要的进展是：训练与康复决策都在从单一成绩转向过程证据——选材要看偏差何时形成，回归运动要看分阶段负荷与专项耐受，编码Agent则要把仓库中的陈旧指令视为真实的任务漂移源。"
+  },
+  "navigation": {
+    "prev": "2026-11-07",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "测试工具只有在对应真实决策时才有价值：热适应要验证热应变下降，敏捷测试要区分相关性与可替代性，选材则要把干预前移到偏差真正出现的阶段。",
+    "运动健康": "康复进阶应由组织状态、症状反应、客观能力与专项暴露共同决定，而不是用固定时间或单一功能指标替代。",
+    "AI": "代码库本身已经成为Agent的行为环境：陈旧TODO、聊天上下文和写操作归因都会直接影响范围、成本与审查责任。"
+  },
+  "items": [
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "渐进加装备可在10天内建立消防热适应",
+      "title": "Heat Acclimatization Through Progressive Overdressing in Fire Academy Students",
+      "one_liner": "17名消防学员以核心温度指导逐步增加防护装备训练10天后，静息核心温度下降0.25°C，20分钟跑距离由1.66增至2.16公里。",
+      "what": "17名消防学员连续10天完成户外消防专项功能训练，并按每日峰值直肠温度逐步增加防护裤、头盔、上衣和空气呼吸器。第10天较第1天，主动训练时间由63.1增至73.0分钟，20分钟跑距离由1.66增至2.16公里，汗率由0.83增至1.26 L/h；静息直肠温度由37.49降至37.24°C，静息心率由95降至85次/分。",
+      "why": "方案把热适应刺激嵌入真实工作动作，并用核心温度决定装备进阶，说明在缺少环境舱时仍可建立可操作的等温热刺激，而不是每天固定穿同样装备。",
+      "practice": "需要穿防护装备工作的队伍可采用逐日加装备的10天方案，但应以核心温度、症状、补液和当日训练表现决定进阶；验收至少比较同类任务下的核心温度、心率、汗率与完成量。",
+      "evidence": "前后对照现场研究｜17名消防学员；10天户外功能训练；2026-11-06上线",
+      "confidence": "中（多项热调节与表现指标同向改善，但无平行对照组，环境和熟悉效应不能完全排除）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42993967",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42993967/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "运动科学",
+      "short_title": "反应敏捷测试与有氧、峰值功率高度相关",
+      "title": "Estimation of aerobic and anaerobic performance using a novel intermittent reactive agility test - An exploratory correlation study",
+      "one_liner": "22名训练者的第四次反应敏捷跑时间与VO₂max相关r=-0.80，测试峰值功率与RAST峰值功率相关r=0.72，但这仍是相关性而非替代验证。",
+      "what": "22名训练者完成跑台VO₂max、RAST和SKILLCOURT反应敏捷测试；后者包含4次150米最大多方向反应跑，间歇30秒。第4次跑时间与VO₂max相关r=-0.80，SKILLCOURT与RAST峰值功率相关r=0.72，均p<0.001。",
+      "why": "球类项目常把有氧、无氧和反应变向拆成多次测试；这项结果提示一个含运动认知与多方向动作的任务可能同时提供多个能力线索，但尚未证明可直接换算VO₂max或替代RAST。",
+      "practice": "可把该类测试用于队内重复监控，并保留跑次、心率、功率和反应错误；在本队建立重测信度、最小变化量及与标准测试的校准前，不应把回归方程当作个体VO₂max处方依据。",
+      "evidence": "探索性相关研究｜22名训练者；三类测试同批完成；2026-11-06上线",
+      "confidence": "中低（相关幅度较大，但样本小，缺少独立验证与重测信度）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42993755",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42993755/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "田径相对年龄偏差在10岁参赛入口已形成",
+      "title": "Dropped Out Before They Ever Competed: A Population-Wide Registry Analysis of Relative Age Effects in Norwegian Track and Field from Age 10 to 25",
+      "one_liner": "挪威田径87,624名运动员、139万次成绩显示，Q1/Q4参赛比在10岁已达1.44，此后到25岁没有持续放大，干预重点应前移到进入竞赛前后。",
+      "what": "研究使用2011—2026年挪威田径注册数据，覆盖87,624名运动员和1,395,788次成绩。10岁时，第一季度出生者占28.3%，第四季度为19.7%，人口基线分别为24.6%和22.9%；Q1/Q4比为1.44，10至25岁范围1.36—1.75，女性没有随年龄增长，男性仅18—19岁出现轻度曲线升高。10岁后的首年留存差仅2—3个百分点。",
+      "why": "常见解释把相对年龄效应归因于青春期选材层层放大；这组全人群注册数据更支持偏差在进入有组织竞赛前或入口处已经形成。若只在青年精英梯队修正选材，可能错过主要流失节点。",
+      "practice": "协会和俱乐部应把出生季度监控前移到首次报名、入门课程和第一次竞赛，比较触达、报名和首次参赛转化，而不只看高年龄组代表队；可试行年龄带更细、按生物成熟度补充解释及延迟淘汰。",
+      "evidence": "全国注册队列分析｜87,624名挪威田径运动员、1,395,788次成绩；年龄10—25岁；2026-11-06上线",
+      "confidence": "中高（覆盖完整竞赛人群且稳健性分析一致；10—12岁仍有较多缺失出生日期，研究用边界分析处理）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42993455",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42993455/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "腘绳肌共识把回归运动拆成可测的连续过程",
+      "title": "Diagnosis, Rehabilitation, and Return to Sport after Athletic Hamstring Injury: An ICCUS Society Consensus Statement",
+      "one_liner": "17名资深临床专家对60条陈述中的54条达成至少80%共识，支持渐进组织负荷、跑动与冲刺暴露、客观力量和专项训练耐受共同决定回归。",
+      "what": "ICCUS Society采用修订Delphi流程，在分类、康复和重返运动三类共60条陈述中，17名最终轮专家对54条达到预设的≥80%共识，平均同意率89.9%。共识支持明确损伤分类、必要时MRI/超声、按功能表现和症状反应推进负荷、逐步恢复跑动与无痛冲刺，并在回归前评估峰值力量、专项工作量、训练耐受与运动员准备度。",
+      "why": "它把腘绳肌康复从‘时间到了即可跑’转成贯穿分类、组织负荷、速度暴露与专项准备度的连续决策框架，尤其明确力量恢复不能替代全速跑和训练耐受。",
+      "practice": "康复记录可按阶段固定四类门槛：症状24小时反应、力量/功能、跑动与冲刺剂量、专项训练耐受；只有这些结果同时支持时再推进。某些物理因子也获得专家共识，但证据层级仍是Delphi意见，不能与负荷进阶同等对待。",
+      "evidence": "修订Delphi共识｜17名最终轮资深临床专家；54/60条达≥80%同意；IJSPT 2026-11-01",
+      "confidence": "中高（流程和阈值透明、临床框架完整，但属于专家共识，最终轮女性仅2人且并非干预效果比较）",
+      "limit": "",
+      "source": {
+        "title": "International Journal of Sports Physical Therapy",
+        "url": "https://ijspt.scholasticahq.com/article/172912-diagnosis-rehabilitation-and-return-to-sport-after-athletic-hamstring-injury-an-iccus-society-consensus-statement"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "三角骨切除后回归原水平失败少见",
+      "title": "Outcomes of open and endoscopic excision of a symptomatic os trigonum in athletes: a systematic review with exploratory analysis of prognostic factors",
+      "one_liner": "13项研究、440名运动员中，仅9/438未回到原运动水平；低确定性证据显示内镜手术比开放手术快约4.4周回归。",
+      "what": "系统综述纳入13项研究、17个研究臂和440名运动员。438人中9人未回到既往运动水平；随机试验中，内镜切除较开放手术快4.4周回归原水平，合并另外两项非随机研究后差异为4.9周。永久性神经损伤的描述均出现在开放手术后，但总并发症事件很少。",
+      "why": "对保守治疗失败的症状性三角骨运动员，手术后回到原水平总体常见；真正影响方案选择的可能是回归速度与并发症谱，而不是能否回归这一粗指标。",
+      "practice": "术式讨论可向运动员呈现‘两种术式大多能回归、内镜可能更快约一个月’这一层级的证据，并结合术者经验和解剖条件决策；随访应统一记录原水平回归、时间和神经并发症。",
+      "evidence": "系统综述｜13项研究、440名运动员；随机与非随机证据混合；2026-11-06上线",
+      "confidence": "中低（回归失败比例稳定，但术式速度差异为低确定性证据，并发症估计事件数很少）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42994214",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42994214/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "运动健康",
+      "short_title": "等工作量下动态抗阻的运动后降压更明显",
+      "title": "Post-exercise hypotension is greater after dynamic resistance than isometric exercise",
+      "one_liner": "10名正常血压青年男性的交叉试验中，腿推动力性抗阻后40—90分钟血压约下降8 mmHg，等长方案未出现运动后降压。",
+      "what": "10名正常血压青年男性分别完成工作量匹配的双腿腿推动力性抗阻、等长抗阻和无运动对照，均为30%MVC、4组×2分钟。动态抗阻后40—90分钟出现约8 mmHg的运动后降压，等长抗阻没有；动态方案还引起更大的心率、每搏量、心输出量、外周阻力和压力反射敏感性变化。",
+      "why": "即使肌群、强度、时间与总工作量匹配，收缩方式也会改变急性血流动力学反应；因此不能把‘抗阻运动’视为单一的降压刺激。",
+      "practice": "若目标包含急性血压管理，可在监测良好的情况下优先测试低强度动态抗阻的个体反应，并在训练后至少观察至60—90分钟；等长训练仍可有其他长期价值，但本研究未观察到同等急性降压。",
+      "evidence": "随机顺序交叉实验｜10名正常血压青年男性；动态、等长与无运动对照；2026-11-06上线",
+      "confidence": "中（工作量匹配和交叉设计较强，但仅10名健康青年男性，结论限于急性反应）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42994439",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42994439/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "HFpEF心脏康复后左房储备功能与体能同步改善",
+      "title": "Changes in left atrial reservoir function and their association with exercise capacity after outpatient cardiac rehabilitation in early-stage heart failure with preserved ejection fraction",
+      "one_liner": "21名早期HFpEF患者门诊心脏康复后，峰值VO₂由13.3升至15.0 mL/kg/min，左房储备应变由20.4%升至24.2%，两者变化率相关r=0.62。",
+      "what": "21名无心衰住院史的早期HFpEF患者完成门诊心脏康复前后超声心动图和心肺运动试验，年龄中位数80岁。峰值VO₂由13.3升至15.0 mL/kg/min，左房储备应变由20.4%升至24.2%；两者变化率相关r=0.62，而左室整体纵向应变变化与峰值VO₂无相关。",
+      "why": "体能改善可能与左房储备和舒张期充盈环境的变化更同步，而不是只反映左室收缩指标；这为早期HFpEF康复的机制监测提供了更接近功能结局的候选指标。",
+      "practice": "门诊HFpEF康复仍应以症状、峰值VO₂和功能能力验收；有条件的团队可把左房储备应变作为机制性随访指标，但不应据此替代临床结局或推断因果。",
+      "evidence": "单组前后观察研究｜21名早期HFpEF患者；中位年龄80岁；门诊心脏康复",
+      "confidence": "中低（变化和相关性清楚，但样本小、无对照组，不能确定左房变化驱动体能改善）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42993462",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42993462/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "陈旧TODO会让编码Agent主动偏离任务",
+      "title": "Agent Distraction",
+      "one_liner": "Google对数百万文件读取会话的分析显示，13%会遇到TODO/bug引用；其中6%触发后续动作，83%未经用户要求，偏航会增加70%步骤、77%令牌和105%等待时间。",
+      "what": "Google工程团队把Agent读到的TODO/FIXME与缺陷单状态及用户请求交叉核对：13%的文件读取会话暴露于此类引用，6%的遭遇会引发针对该缺陷的后续动作，其中83%并非用户要求。未经要求的偏航中，41%追踪已关闭事项，57%扩展到仍开放但不在任务范围内的问题；控制开发者、代码库复杂度、任务类型和模型等级后，偏航会话增加70%步骤、77%令牌和105%等待时间。",
+      "why": "代码库中的注释不再只是技术债记录，而会成为Agent可执行的上下文指令。能力更强、工具更多的Agent若缺少范围约束，可能更高效地做错任务。",
+      "practice": "仓库治理应增加三项默认控制：清理或绑定状态已关闭的TODO、让Agent先写明本次任务边界、对超出计划的缺陷查询和代码改动要求重新确认；评估时跟踪任务外文件、步骤和令牌。",
+      "evidence": "官方大规模遥测分析｜数百万文件读取会话、数亿Agent步骤；多变量固定效应回归；2026-11-06发布",
+      "confidence": "中高（规模大、指标和控制变量透明，但数据来自Google内部工程环境，外部仓库的绝对比例可能不同）",
+      "limit": "",
+      "source": {
+        "title": "Google Developers Blog",
+        "url": "https://developers.googleblog.com/agent-distraction/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "GitHub把聊天中的需求直接推进到PR",
+      "title": "@GitHub in Slack and Teams is generally available and more",
+      "one_liner": "@GitHub在Slack和Teams正式可用，可从对话调查缺陷、创建Issue、实现改动和打开PR，并为生成的Issue/PR写入对话发起者归因。",
+      "what": "GitHub宣布@GitHub在Slack和Teams正式可用，能够从团队对话启动仓库会话、调查缺陷、创建Issue、实现代码并打开PR；Teams Canvas支持并排审查计划、代码差异与预览。新版本会从消息推断仓库，并在生成的Issue和PR中标记来源对话及用户名。",
+      "why": "编码Agent的入口从IDE移到团队协作线程后，需求上下文更完整，但写操作也更容易在多人聊天中被含混触发。明确归因是必要的审计基础，却不能替代仓库权限和合并审查。",
+      "practice": "团队启用前应限定可访问仓库、默认只创建Issue或草稿PR，并要求测试和人工合并；把对话链接、发起者、计划和最终差异保留在PR中，避免聊天结论与代码变更脱节。",
+      "evidence": "官方产品GA公告｜功能范围与归因机制已发布；2026-11-06；未提供独立生产率或误触发率",
+      "confidence": "高（发布状态和功能来自官方公告；实际效率与治理效果需团队本地验证）",
+      "limit": "",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "选材与测试要先回答‘偏差在什么时候产生、这个测试能否支持个体决策’。挪威田径数据把相对年龄干预节点前移到首次参与；反应敏捷测试虽与VO₂max高度相关，仍需本地信度和校准后才能承担处方功能。",
+    "康复放行应同时覆盖组织与症状反应、客观力量/功能、跑动或专项暴露和训练耐受。腘绳肌共识支持这种分阶段结构；三角骨和HFpEF研究则提醒，回归速度、并发症与功能机制要分别记录。",
+    "Agent进入代码库后，仓库注释、聊天线程和身份归因都成为生产控制面。今天可立即执行的动作是清理失效TODO、限制聊天入口的默认写权限，并让任何超出原任务的改动重新确认。"
+  ],
+  "trends_url": "data/trends/2026-11-08.json"
+}

@@ -1,4 +1,12 @@
 {
+  "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again": {
+    "published_date": "2026-11-05",
+    "basis": "原始Apiiro研究文章日期；2026-11-07为Hacker News再次讨论日期。"
+  },
+  "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway": {
+    "published_date": "2026-11-07",
+    "basis": "Vercel官方产品日志页面明确标注7 Nov 2026。"
+  },
   "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity": {
     "published_date": "2026-10-18",
     "basis": "官方更新页标注18 Oct 2026；Atom只含updated，采用页面日期。"

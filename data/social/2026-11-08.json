@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "date": "2026-11-08",
+  "observed_at": "2026-11-08T07:56:28+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-08",
+  "summary": {
+    "title": "把练习、治疗算法与Agent权限都拆成可核查条件",
+    "signal": "本期讨论的共同价值在于把模糊经验改写为可检查条件：变向训练加入真实决策，跟腱治疗依据超声形态分流，Agent则必须限制指令来源并避免把秘密写进持久化配置。",
+    "total": 5,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 3
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-07",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "变向能力讨论从预设脚步转向足部位置、躯干控制、视觉抑制与真实选择的组合。",
+    "运动健康": "急性跟腱断裂的分流正在尝试用可重复超声条件减少默认手术，同时保持再断裂与患者结局。",
+    "AI": "近期开发者讨论集中在三类可落地风险：权限规则持久化秘密、仓库指令文件劫持和高吞吐模型上线后的独立验收。"
+  },
+  "items": [
+    {
+      "id": "4ad7573ba348",
+      "domain": "运动科学",
+      "title": "Chris Korfist与Dan Fichter把变向拆成位置控制和感知决策",
+      "short_title": "变向训练不能停在计划性切步",
+      "author": "Chris Korfist、Dan Fichter、Chris Kerr",
+      "platform": "SimpliFaster / 教练访谈",
+      "published_date": "2026-11-07",
+      "priority": "值得了解",
+      "one_liner": "两位教练主张先建立足部与关节角度下的等长控制，再加入视觉抑制、追逐和不可完全预测的变向任务；其依据主要是教练观察而非干预试验。",
+      "what": "访谈把变向训练分成三层：先在目标足位和关节角度建立等长力量，再练降低重心时的膝踝参与和躯干稳定，最后用反向扫视、追逐游戏和外部提示加入真实选择。Korfist观察到其NFL录像中的运动员更多用膝踝降低重心，而高中组更常以躯干前折解决。",
+      "why": "计划性绕桩可以得到整齐动作，却省略比赛中读取对手、抑制错误反应和在不确定时保持平衡的任务。该框架适合帮助教练检查训练是否覆盖了位置、力量和感知三层。",
+      "practice": "可按‘控制位置—加水平负荷—加入选择’递进，并用视频记录躯干、重心下降和下一步接触；不要把某个足部器械、约90度膝角或两次训练后的主观反馈写成普遍阈值。",
+      "evidence": "教练访谈与方法示例｜2026-11-07；含定性录像观察和训练案例，非对照研究",
+      "confidence": "中低",
+      "confidence_reason": "任务递进逻辑与示例清楚，但核心动作比较来自个人录像和实践经验，尚无本期干预数据验证效果大小。",
+      "source": {
+        "url": "https://simplifaster.com/articles/change-of-direction-feet-vision-position"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "d39aae2db9d7",
+      "domain": "运动健康",
+      "title": "BJSM博客解读CARTA超声分流急性跟腱断裂",
+      "short_title": "CARTA减少手术，未改善一年提踵耐力",
+      "author": "Signe Toft团队 / BJSM Blog",
+      "platform": "BJSM Blog / 研究解读",
+      "published_date": "2026-11-07",
+      "priority": "重点关注",
+      "one_liner": "CARTA按断端重叠与肌腱延长选择手术或非手术；一年提踵至力竭无优势，但博客报告再断裂率降低73%、手术量降低36%。",
+      "what": "CARTA用超声检查断端是否重叠及断裂肌腱是否延长：无重叠或已延长者进入手术，有重叠且无延长者采用非手术。与默认手术或默认非手术相比，一年时提踵至力竭没有临床或统计优势；作者同时报告相较默认非手术，再断裂率降低73%、患者报告结局改善，并以更低手术量实现。",
+      "why": "它没有证明‘个体化算法让所有功能更好’，而是显示分流可能在不提高主要功能指标的情况下减少手术并改善再断裂风险结构，这比按运动需求高低直接决定手术更可检验。",
+      "practice": "团队若采用CARTA，应先确保超声测量方法、阈值和操作者一致，并同时审计一年提踵功能、患者报告结局、再断裂和手术率；不能只用‘减少36%手术’评价成功。",
+      "evidence": "研究作者的BJSM博客摘要｜2026-11-07；随机比较的结果解读，样本与完整统计需回原论文核对",
+      "confidence": "中",
+      "confidence_reason": "算法、主要阴性结局和相对变化来自研究团队摘要，但本条未独立复算完整论文中的绝对事件数与置信区间。",
+      "source": {
+        "url": "https://blogs.bmj.com/bjsm/2026/11/07/evaluating-carta-a-new-algorithm-for-personalised-acute-achilles-tendon-rupture-management"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "10bdc73097cf",
+      "domain": "AI",
+      "title": "Apiiro报告Claude Code持久化允许规则泄露真实秘密",
+      "short_title": "永久允许规则会把命令中的秘密写入配置",
+      "author": "Apiiro研究团队",
+      "platform": "安全研究博客 / Hacker News再传播",
+      "published_date": "2026-11-05",
+      "priority": "重点关注",
+      "one_liner": "Apiiro称在104,185个公开settings.local.json副本中发现1,122个含真实秘密，且215个同时漏过Gitleaks与TruffleHog；11月7日因社区讨论重新升温。",
+      "what": "Apiiro称其扫描103,617个公开仓库中的104,185份.claude/settings.local.json，发现1,122份包含按其规则判定的真实秘密，共1,379个不同凭据；215份同时未被Gitleaks和TruffleHog检出。风险链条是用户对带秘密的完整命令选择永久允许，命令被写入本地规则文件，随后该文件又被提交到公开仓库。",
+      "why": "问题并非点击‘不再询问’就自动公开秘密，而是持久化完整命令、项目缺少可随仓库传播的忽略规则、再叠加提交。普通秘密扫描器对命令参数中的口令也可能漏检。",
+      "practice": "禁止在持久化允许规则中出现内联口令，改用环境变量或秘密存储；把本地Agent配置加入仓库级.gitignore与CI阻断，并轮换所有已经提交过的凭据。不要把扫描器无告警视为安全证明。",
+      "evidence": "厂商安全研究与公开仓库扫描｜原文2026-11-05、11-07社区再讨论；计数来自Apiiro，未见独立复现",
+      "confidence": "中",
+      "confidence_reason": "泄露机制、文件路径和计数具体，社区也核对了触发条件；但‘真实秘密’分类和总量仍主要来自安全厂商自身扫描。",
+      "source": {
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+      },
+      "references": [
+        {
+          "label": "Hacker News讨论",
+          "url": "https://news.ycombinator.com/item?id=50407882"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "2b5cf155038f",
+      "domain": "AI",
+      "title": "量子位跟进AGENTS.md作为开发者Agent指令注入载体",
+      "short_title": "下载目录中的AGENTS.md也可能成为攻击入口",
+      "author": "量子位 / Forever Security",
+      "platform": "中文科技媒体 / 安全研究线索",
+      "published_date": "2026-11-07",
+      "priority": "值得了解",
+      "one_liner": "报道指向一种跨信任边界问题：恶意AGENTS.md若进入Agent会自动读取的目录，可伪装成项目规范，诱导修改全局配置、安装依赖或外传令牌。",
+      "what": "量子位转述Forever Security的演示：网页下载的AGENTS.md被放入用户随后启动编码Agent的目录，文件以开发规范形式夹带关闭沙箱、修改全局配置、下载恶意依赖和读取令牌等指令。报道给出对Codex与Claude Code的测试成功率，但本期未取得研究方完整方法和样本分布。",
+      "why": "AGENTS.md本来用于向编码Agent传递仓库规则；如果工具仅按路径和文件名信任内容，下载文件、解压项目和陌生仓库都可能把外部文本提升为高优先级指令。",
+      "practice": "在陌生目录启动Agent前先列出并审阅AGENTS.md/CLAUDE.md等指令文件；下载目录默认禁用工具写权限，项目指令不得自行关闭沙箱或修改全局配置，任何此类动作都应触发来源可见的重新确认。",
+      "evidence": "中文媒体对安全演示的报道｜2026-11-07；具体成功率尚缺独立方法核验",
+      "confidence": "中低",
+      "confidence_reason": "攻击链符合编码Agent读取项目指令的机制，但当前可核查材料主要是媒体转述，不能确认不同版本和默认配置下的发生率。",
+      "source": {
+        "url": "https://www.qbitai.com/2026/11/508244.html"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "e596bcb992c5",
+      "domain": "AI",
+      "title": "Vercel上线DeepSeek V4.1 Flash 1017 Ultrafast",
+      "short_title": "网关宣称DeepSeek推理速度超过千token/秒",
+      "author": "Vercel",
+      "platform": "官方产品日志",
+      "published_date": "2026-11-07",
+      "priority": "快讯",
+      "one_liner": "Vercel AI Gateway经Fireworks提供DeepSeek V4.1 Flash 1017 Ultrafast，宣称输出可超过1,000 token/秒、支持100万token上下文，目前为公开预览。",
+      "what": "Vercel新增模型标识deepseek/deepseek-v4.1-flash-1017-ultrafast，通过Fireworks加速端点提供10月17日更新版DeepSeek V4.1 Flash。官方称其输出速度可超过1,000 token/秒，支持100万token上下文，适合需要快速进入下一步的交互编码、推理和Agent流程。",
+      "why": "高吞吐可以降低多步Agent的纯生成等待，但端到端速度仍受首token延迟、工具调用、长上下文预填和网关路由影响；厂商峰值不能直接代表工作流完成时间。",
+      "practice": "上线前用本地真实任务同时测首token、稳态吞吐、总任务耗时、正确率和成本，并分别覆盖短提示、长代码库和工具调用；公开预览版本应保留回退模型。",
+      "evidence": "官方产品日志｜2026-11-07；速度与上下文为厂商参数，未见独立基准",
+      "confidence": "中",
+      "confidence_reason": "接入状态和模型标识可核实，峰值速度、长上下文质量及稳定性仍需独立实测。",
+      "source": {
+        "url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "变向训练值得保留‘先控制位置、再加决策’的递进，但动作观察不能直接升级为普遍角度阈值；最好用本队视频和可重复任务验证。",
+    "跟腱CARTA的价值不是让一年提踵更好，而是尝试用超声形态减少默认手术并重组再断裂风险；落地时必须同时记录绝对事件、手术率和功能结局。",
+    "编码Agent的当前高优先级防护是限制指令来源和秘密持久化：陌生项目指令先审阅，永久允许规则不保存内联凭据，任何修改沙箱或全局配置的动作重新确认。"
+  ],
+  "trends_url": "data/social/trends/2026-11-08.json"
+}
