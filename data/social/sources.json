@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-07T02:47:34.356956+00:00",
+  "checked_at": "2026-11-07T23:54:48.780279+00:00",
   "total": 88,
-  "feeds_connected": 48,
+  "feeds_connected": 47,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -267,7 +267,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://www.mickhughes.physio/blog-feed.xml",
-      "recent_items": 1
+      "recent_items": 0
     },
     {
       "id": "peter-malliaras",
@@ -326,7 +326,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://simonwillison.net/atom/everything/",
-      "recent_items": 28
+      "recent_items": 27
     },
     {
       "id": "ethan-mollick",
@@ -713,7 +713,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blogs.bmj.com/bjsm/feed/",
-      "recent_items": 1
+      "recent_items": 2
     },
     {
       "id": "jospt-insights",
@@ -882,7 +882,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://latent.space/feed",
-      "recent_items": 18
+      "recent_items": 19
     },
     {
       "id": "nathan-lambert",
@@ -895,7 +895,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.interconnects.ai/feed",
-      "recent_items": 4
+      "recent_items": 3
     },
     {
       "id": "the-gradient",
@@ -958,9 +958,9 @@
       "kind": "官方团队",
       "platform": "公开发布",
       "language": "en",
-      "status": "feed_ok",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "recent_items": 5
+      "status": "homepage_only",
+      "feed_url": null,
+      "recent_items": 0
     },
     {
       "id": "google-ai",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 24
+      "recent_items": 25
     },
     {
       "id": "bair",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1155,7 +1155,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://www.qbitai.com/feed",
-      "recent_items": 10
+      "recent_items": 9
     },
     {
       "id": "jiqizhixin",
@@ -1181,7 +1181,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://sspai.com/feed",
-      "recent_items": 3
+      "recent_items": 2
     },
     {
       "id": "csss",
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 6
+      "recent_items": 2
     },
     {
       "id": "reddit-ml",
