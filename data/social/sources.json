@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-07T23:54:48.780279+00:00",
+  "checked_at": "2026-11-08T02:29:07.078332+00:00",
   "total": 88,
-  "feeds_connected": 47,
+  "feeds_connected": 48,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -326,7 +326,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://simonwillison.net/atom/everything/",
-      "recent_items": 27
+      "recent_items": 28
     },
     {
       "id": "ethan-mollick",
@@ -958,9 +958,9 @@
       "kind": "官方团队",
       "platform": "公开发布",
       "language": "en",
-      "status": "homepage_only",
-      "feed_url": null,
-      "recent_items": 0
+      "status": "feed_ok",
+      "feed_url": "https://deepmind.google/blog/rss.xml",
+      "recent_items": 5
     },
     {
       "id": "google-ai",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
