@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T23:55:18.854282+00:00",
+  "checked_at": "2026-11-09T02:39:14.679833+00:00",
   "total": 88,
   "feeds_connected": 48,
   "sources": [
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
