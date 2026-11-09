@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "date": "2026-11-09",
+  "observed_at": "2026-11-09T08:01:48+08:00",
+  "title": "每日专业资讯简报·社媒热点｜2026-11-09",
+  "summary": {
+    "title": "AI工程讨论从多开窗口转向可核查的外部状态",
+    "signal": "本期真正有用的共同点不是再开更多Agent，而是把任务、记忆、评审和实验结果移出聊天窗口，形成可恢复、可审查、可复现的记录。",
+    "total": 4,
+    "counts": {
+      "运动科学": 0,
+      "运动健康": 0,
+      "AI": 4
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-08",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "",
+    "运动健康": "",
+    "AI": "讨论集中在两个可操作方向：用真实评审和基准测试约束Agent生成，用Git或共享数据模型承接跨会话任务与记忆。"
+  },
+  "items": [
+    {
+      "id": "71c843041955",
+      "domain": "AI",
+      "title": "Simon Willison用同一SQLite扩展比较C与Rust，并做800万次模糊测试",
+      "short_title": "Agent辅助原型必须经过基准与模糊测试",
+      "author": "Simon Willison",
+      "platform": "博客",
+      "published_date": "2026-11-08",
+      "priority": "重点关注",
+      "one_liner": "优化后的C扩展每行16–19 ns，约为两种Rust实现的两倍快；四个版本在800万次模糊检查中保持一致。",
+      "what": "Willison先让Claude分别生成C与Rust版SQLite parse_number()扩展，再要求针对C版strtod()瓶颈写快速路径。两百万行基准中，优化C版在混合、整数和小数数据上分别约19、16、18 ns/行；Rust版本约32–55 ns/行。四种实现还通过了800万次模糊一致性检查。",
+      "why": "这个案例的价值不是‘C赢了Rust’，而是展示了Agent辅助系统编程的可靠闭环：固定语义、同一测试集、微基准、针对瓶颈迭代，再用大规模随机输入检查一致性。",
+      "practice": "用Agent比较实现时，先冻结输入语义和类型保留规则；同时报告二进制体积、每行净成本和错误输入行为，并把模糊测试作为交付条件，而不是只展示最快的一次结果。",
+      "evidence": "个人工程实验与公开研究报告｜4种SQLite扩展；200万行基准；800万次模糊检查",
+      "confidence": "中高",
+      "confidence_reason": "作者公开了任务、实现差异和量化结果；结论仅适用于该解析函数与测试环境。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "2c00110bd623",
+      "domain": "AI",
+      "title": "Stanford把AI编程作业改成真实开源贡献和人工维护者评审",
+      "short_title": "AI原生工程课把验收移到真实PR",
+      "author": "Latent Space / Mihail Eric",
+      "platform": "播客与通讯",
+      "published_date": "2026-11-08",
+      "priority": "值得了解",
+      "one_liner": "当去年的作业已能被一次提示完成，CS146S把任务升级为开源贡献、维护者评审和对Agent生成diff的解释测验。",
+      "what": "Mihail Eric介绍Stanford《The Modern Software Developer》课程调整：学生普遍已使用Agent，旧练习可被一次提示完成，因此新作业要求向真实开源项目提交补丁，由维护者审查；课程还使用explain-diff技能生成可视化变更说明并提问，检查学生是否理解Agent写出的代码。",
+      "why": "它把学习目标从‘能生成代码’改为‘能进入已有系统、解释变化、处理维护者反馈并承担后果’，更接近团队工程中的真实瓶颈。",
+      "practice": "团队培训可把纯生成题替换为受约束的真实仓库任务：要求阅读现有约定、提交小PR、回答变更影响问题，并由非生成者完成代码评审。",
+      "evidence": "课程负责人访谈与课程案例｜非对照教育研究",
+      "confidence": "中",
+      "confidence_reason": "课程设计与任务变化可核对，但尚无学习效果或缺陷率的比较数据。",
+      "source": {
+        "url": "https://latent.space/p/cs146s"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "96571aa39f8d",
+      "domain": "AI",
+      "title": "Agent记忆开始暴露互操作缺口：格式很多，共享地址和生命周期仍缺标准",
+      "short_title": "Agent记忆缺少共同数据模型",
+      "author": "Mads Thines / LoreKit",
+      "platform": "博客，经Hacker News传播",
+      "published_date": "2026-11-07",
+      "priority": "值得了解",
+      "one_liner": "文章比较AGENTS.md、Claude memory、Copilot Memory、Mem0、LangGraph、Graphiti等格式，认为导出与实时共享地址是两个不同问题。",
+      "what": "作者把当前记忆实现分为指令文件、Agent管理文件、托管仓库事实、上下文块、抽取事实、命名空间存储和时间图等，并比较寻址、身份、来源与遗忘机制。现有Portable Memory、Open Memory Protocol和COGX偏重导出；CI、编辑器Agent与评审机器人实时读写同一仓库记忆仍缺共同地址。",
+      "why": "当多个Agent接力同一项目时，问题不只是把旧对话搬过去，而是要知道一条记忆在哪里有效、谁写的、何时过期、第二次写入是更新还是重复。缺少这些字段会把陈旧事实变成隐性指令。",
+      "practice": "在等待标准成熟前，可为项目记忆至少记录scope、key、written_by、来源、expires_at和最后验证时间；不同工具共享时以仓库内可审查文件或统一服务为主，不把厂商私有记忆当作唯一记录。",
+      "evidence": "生态综述与标准提案｜作者同时是LoreKit项目开发者；非正式标准",
+      "confidence": "中",
+      "confidence_reason": "格式比较具体且可核查，但‘OpenTelemetry时刻’是作者判断，尚无行业共识。",
+      "source": {
+        "url": "https://www.lorekit.io/blog/open-agent-memory-format"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "8b18a5361e6d",
+      "domain": "AI",
+      "title": "开发者用Git任务队列和单一Owner Inbox减少多Agent切换成本",
+      "short_title": "把多Agent待决事项收敛到一个队列",
+      "author": "Sergey Kuhne",
+      "platform": "个人博客，经Hacker News传播",
+      "published_date": "2026-11-08",
+      "priority": "快讯",
+      "one_liner": "每个任务是一份仓库内Markdown卡片，Agent循环研究、实现和验证；所有需要人工判断的事项集中到一个优先队列。",
+      "what": "Kuhne把任务板保存在Git：每张票据是仓库内Markdown文件，状态以提交快照保存。Agent负责研究、实现已标记安全的任务、测试和部署后验证；敏感代码走分支并先询问。需要人类取舍的事项统一进入Owner Inbox，阅读界面每轮从Git重建，人工结论再写回卡片。",
+      "why": "该方法直接处理多会话工作的两个成本：任务顺序散落在多个终端，关键上下文只留在聊天里。把状态外部化后，会话中断不再等于任务记录丢失。",
+      "practice": "多Agent工作流可先做最小版：仓库内任务卡、显式状态、唯一人工待决队列、每次只处理一项；部署权限继续由人保留，并设置阻塞和重复循环的检测条件。",
+      "evidence": "个人工作流案例｜无对照效率数据；公开说明状态结构与权限边界",
+      "confidence": "中低",
+      "confidence_reason": "结构可直接复用，但收益来自单个开发者自述，尚无跨团队数据。",
+      "source": {
+        "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "多Agent并行的主要瓶颈正在从生成速度转向状态管理。今天最可执行的动作是把任务、待决问题和验收证据写入仓库或统一系统，让聊天只承担交互，不承担唯一记忆。",
+    "Agent生成的代码应至少经过三种独立约束：真实维护者或同伴评审、固定语义的基准测试、对随机与错误输入的鲁棒性测试。只看一次成功演示，无法支持生产采用。",
+    "共享记忆的最小字段不是更长的摘要，而是作用域、身份、来源、写入者和生命周期；这些信息决定下一位Agent是否应相信并继续执行。"
+  ],
+  "trends_url": "data/social/trends/2026-11-09.json"
+}

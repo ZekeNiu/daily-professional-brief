@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-09",
+  "title": "每日专业资讯简报｜2026-11-09",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 5,
+      "AI": 1
+    },
+    "signal": "本期最重要的进展是：康复与训练决策不能只看单个终点——跟腱负荷要看峰值应变，ACL术后比值要结合判别能力，疼痛改善也不能替代功能和移动能力。"
+  },
+  "navigation": {
+    "prev": "2026-11-08",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "最大努力跳跃会让青少年跟腱在不同跳法下都承受高应变；专项评估应同时记录负荷强度、动作策略与表现，而不是把动作名称当成剂量。",
+    "运动健康": "今天的康复证据反复指向同一件事：症状、功能、再损伤风险和回归运动是不同结局，需要分别测量并据此进阶。",
+    "AI": "Claude Code把后台MCP任务、无提示拒绝和延迟优化纳入正式工作流，自动化团队需要同步更新权限与失败处理。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "四类最大努力跳跃都让青少年跟腱进入高应变",
+      "title": "Maximum-Effort Jumping Exposes the Achilles Tendon to High Strain and Indicates Potential Overload in Adolescent Athletes",
+      "one_liner": "18名青少年运动员完成四类最大努力跳跃时，跟腱峰值应变均约9.0%–10.7%，不同跳法之间没有明显差异。",
+      "what": "研究以超声、动作捕捉、测力和肌电同步测量18名青少年运动员的反向跳、落深跳、栏架跳和单腿水平跳。虽然踝关节峰值力矩随跳法改变，跟腱峰值应变和小腿三头肌激活却基本不变；峰值应变为9.0%–10.7%，肌电达到最大等长跖屈时的0.96–1.43倍。",
+      "why": "最大努力本身可能比具体跳法更能决定跟腱峰值机械负荷。若教练只按动作名称轮换，却不控制努力程度、触地次数和周频率，累计刺激可能仍然集中在同一组织。",
+      "practice": "青少年爆发力课应把最大努力跳跃统一计入高跟腱负荷暴露，按周统计次数、单腿比例和恢复间隔；需要降低组织负荷时，优先调整努力程度与总接触量，而不是仅更换跳跃方向。",
+      "evidence": "实验室横断测量｜18名青少年运动员；超声+三维运动学+测力+肌电；2026-11-07收录",
+      "confidence": "中（多模态测量显示四类任务结果一致，但样本小，研究没有观察长期适应或损伤发生）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42997988",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42997988/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "间歇性低氧没有额外放大HIIT代谢物反应",
+      "title": "Characterising the plasma metabolome following high intensity interval exercise in continuous and intermittent hypoxia in overweight individuals",
+      "one_liner": "18名超重、缺乏活动者在四种氧环境完成同一HIIT后，糖酵解与脂质代谢物均改变，但低氧安排未产生额外代谢物效应。",
+      "what": "18名超重且缺乏活动者以随机顺序完成常氧、全程低氧、仅间歇恢复低氧和仅工作段低氧的高强度间歇运动。全程低氧降低平均功率和血氧饱和度；丙酮酸、乳酸、柠檬酸和游离脂肪酸在所有条件下改变，但任何代谢物均未出现条件×时间交互。",
+      "why": "把低氧插入工作段或恢复段确实改变生理应激，却没有给单次全身代谢物反应增加可检测优势。至少在该人群和协议下，额外设备与低氧暴露不能仅凭‘代谢刺激更强’来论证。",
+      "practice": "若目标是提高间歇运动功率或代谢训练量，应先确认低氧没有降低完成质量；将低氧方案作为独立刺激评估，用功率、血氧、主观负荷和恢复数据验收，而不要根据单次代谢组结果预设收益。",
+      "evidence": "随机交叉急性实验｜18名超重、缺乏活动者；四种氧环境；代谢组与核磁检测",
+      "confidence": "中（交叉设计和多平台代谢检测一致，但只观察一次运动后的即时反应）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42998881",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42998881/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "网球正手站位改变骨盆—躯干时序而非躯干峰值",
+      "title": "Relationship between trunk and pelvis coordination strategies and stances during tennis forehand strokes",
+      "one_liner": "25名男子竞技网球运动员中，开放式站位更常出现骨盆先达峰，半开放和平方站位更常由躯干先达峰。",
+      "what": "25名男子竞技网球运动员完成最大努力平击正手。200 Hz三维运动学显示，站位影响骨盆—躯干峰值延迟、X-factor、前向动量和骨盆角动量；开放式站位多为骨盆先达峰，半开放与平方站位多为躯干先达峰，平方站位前向动量最大。躯干峰值角动量未随站位改变。",
+      "why": "不同站位不是同一挥拍的脚位变体，而是会重组加速阶段的节段时序。技术诊断若只看躯干旋转幅度，可能漏掉骨盆先后次序与前移动量的差别。",
+      "practice": "视频或动作捕捉评估可按站位分别建立基线，记录骨盆与躯干峰值顺序、X-factor和前向位移；论文未测球速，因此不能把某一种时序直接写成更高表现。",
+      "evidence": "实验室横断研究｜25名男子竞技网球运动员；最大努力平击；200 Hz三维运动学",
+      "confidence": "中（站位内差异清楚，但仅男性样本，且未验证与球速或命中表现的联系）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42993164",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42993164/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "ACL术后H/Q比值与翻修相关，但单独判别能力很弱",
+      "title": "Greater eccentric hamstrings to concentric quadriceps strength ratio at 6 months after anterior cruciate ligament reconstruction is associated with reduced odds of revision within 2 years",
+      "one_liner": "3458例ACL重建中，术后6个月混合H/Q比每增加10单位，两年内翻修优势比下降19%，但模型AUC仅0.64。",
+      "what": "瑞典单中心登记纳入3458例使用腘绳肌腱自体移植物的初次ACL重建。术后6个月患侧离心腘绳肌/向心股四头肌比值每增加10单位，两年内翻修优势比为0.81（95%CI 0.71–0.93）；但判别AUC仅0.64。更高比值还与更差的单腿跳远LSI相关。",
+      "why": "关联方向支持同时恢复腘绳肌和股四头肌，但同一比值既与较低翻修风险相关，又与较差跳跃对称性相关，说明它不是单向的‘越高越好’放行指标。",
+      "practice": "6个月复测可保留离心腘绳肌、向心股四头肌绝对值与比值，并与跳跃、症状、跑动暴露和专项任务并列解释；AUC 0.64意味着不能据此单独筛出会翻修的人。",
+      "evidence": "登记队列｜3458例ACL重建；6个月等速力量；两年翻修结局；Level III",
+      "confidence": "中高（样本大且结局明确；观察性关联、单中心和较弱判别限制个体预测用途）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42994101",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42994101/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "TECAR叠加运动改善踝扭伤功能，疼痛增益未达MCID",
+      "title": "Effects of capacitive-resistive electric transfer therapy integrated with active rehabilitation on pain, sensorimotor function, and functional performance in subacute lateral ankle sprain: A randomized controlled trial",
+      "one_liner": "42例亚急性外侧踝扭伤中，TECAR加运动比单纯运动改善更多功能指标，但额外疼痛下降1.60分，低于2分MCID。",
+      "what": "42名伤后10–21天、I–II级外侧踝扭伤者随机接受6周、每周2次的运动加同步TECAR或相同运动。TECAR组在Y-Balance综合分、关节位置误差、FAAM日常与运动分量表上组间改善更大；疼痛额外下降1.60分，低于预设2分MCID。",
+      "why": "结果支持这套‘不延长治疗时间的组合方案’可能提升短期感觉运动和功能表现，但不能把统计学疼痛差异包装成患者能明显感受到的镇痛优势。",
+      "practice": "如采用TECAR，可把Y-Balance、关节位置觉和FAAM作为续用条件；若主要目标只是减痛，本研究的组间增益不足以支持把设备置于渐进负荷之前。",
+      "evidence": "随机对照试验｜42名亚急性I–II级外侧踝扭伤；6周；无假治疗组",
+      "confidence": "中（随机设计、多项功能指标一致；样本小且无假治疗，不能分离特异设备效应）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42995721",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42995721/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "膝OA注射后加远程力量训练主要改善功能而非疼痛",
+      "title": "More than a shot: function over pain with tele-supervised resistance exercise added to hyaluronic acid injection in knee osteoarthritis, a randomized add-on trial",
+      "one_liner": "80名膝骨关节炎患者中，透明质酸注射后加12周远程弹力带训练改善WOMAC功能、坐站和TUG，但VAS疼痛无组间差异。",
+      "what": "80名Kellgren-Lawrence 1–3级膝骨关节炎成人均接受一次关节腔透明质酸注射，随后分配至12周远程监督弹力带训练或标准教育。训练组WOMAC总分多改善5分，30秒坐站多3.79次，TUG快1.87秒；VAS疼痛组间差异为-0.38，95%CI跨零。",
+      "why": "这项试验把‘感觉不更痛’与‘功能确实更好’分开：注射后增加监督力量训练的主要价值在移动与任务能力，而不是额外镇痛。",
+      "practice": "膝OA随访应把坐站、TUG和WOMAC功能与疼痛并列；即使疼痛曲线相近，只要功能和训练耐受进步，仍有理由继续渐进阻力训练。",
+      "evidence": "随机加做试验｜80名KL 1–3级膝OA；一次透明质酸注射；12周远程监督训练",
+      "confidence": "中（功能结局方向一致；摘要未提供盲法与长期随访，WOMAC总分组间差异接近显著性边界）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42999981",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42999981/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "椎体骨折后12周监督训练改善步行与恐动",
+      "title": "The Effect of Exercise Training on Individuals With Osteoporotic Vertebral Fracture: A Randomized Controlled Trial",
+      "one_liner": "44名完成研究的骨质疏松性椎体骨折者中，每周2次监督训练使6分钟步行多改善38.94米，并降低疼痛和恐动。",
+      "what": "单中心开放随机试验将48名骨质疏松性椎体骨折者分至12周、每周2次、每次40分钟的个体监督训练或日常活动；44人完成。训练包括脊柱伸肌、姿势、下肢力量和由静态到动态的平衡进阶。相较对照，VAS疼痛多下降1.24分，6分钟步行多38.94米，抑郁、残障、恐动和生活质量也改善；睡眠指标无组间差异。",
+      "why": "方案同时处理伸肌能力、下肢力量、平衡和恐动，改善落在可直接观察的步行能力上，而不是只改变问卷。阴性的睡眠结果也说明这套训练的收益范围相对明确。",
+      "practice": "椎体骨折稳定后的康复可采用每周2次监督、按耐受加阻的12周框架，并跟踪6分钟步行、疼痛与恐动；睡眠问题应另行评估，不能期待同一训练方案自动解决。",
+      "evidence": "开放标签随机对照试验｜48例随机、44例完成；12周个体监督训练；单中心",
+      "confidence": "中（随机设计和功能改善幅度明确；开放标签、样本小且单中心）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42998057",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42998057/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "运动健康",
+      "short_title": "距骨软骨修复共识支持早期受控活动与功能性回归",
+      "title": "Post-Treatment Follow-up, Rehabilitation, and Return to Sport: Proceedings of the International Consensus Meetings on Cartilage Repair of the Ankle",
+      "one_liner": "国际专家形成16条距骨骨软骨损伤术后随访、康复与回归运动共识，但10条仅为Grade E专家证据。",
+      "what": "ICCRA专家以改良Delphi形成并在2025年复核16条共识：7条关于随访、9条关于康复与回归运动，赞同率75%–98%。框架支持早期受控活动、按术式和临床表现渐进负重，以及依据功能恢复而非固定日期决定回归。",
+      "why": "它为差异很大的术后流程提供了共同结构，也把证据薄弱处直接标出：16条中10条仅为Grade E，强共识并不等于强试验证据。",
+      "practice": "可把标准化临床量表、患者报告结局、负重进阶和功能性回归条件写入路径；具体周数与负荷仍应按修复术式、影像/症状反应和任务表现定制。",
+      "evidence": "国际专家共识｜16条陈述；改良Delphi；Level V；10条为Grade E",
+      "confidence": "中（流程一致性高，但多数建议缺少高质量前瞻验证）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42992615",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42992615/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Claude Code 2.1.319把MCP长任务转入后台",
+      "title": "Claude Code v2.1.319",
+      "one_liner": "新版支持MCP任务后台执行、permissions.denyInsteadOfPrompting和延迟优化检查，同时收紧部分自动模式的权限回退。",
+      "what": "Anthropic在Claude Code 2.1.319中加入MCP任务后台执行，完成后再把结果回传模型；新增permissions.denyInsteadOfPrompting，使原本等待权限确认的调用直接被拒绝并继续当前回合；还加入/claude-api latency-optimize。自动模式在关闭遥测或特性标志、以及部分LLM网关场景下，不再回退到内置分类器。",
+      "why": "这不是单纯的界面更新：后台任务会改变完成顺序，直接拒绝会改变失败语义，权限检查来源变化则会影响无人值守流程能否继续。",
+      "practice": "升级前应测试三类路径：后台MCP结果能否正确回到原任务、无提示拒绝是否被工作流识别为可恢复失败、网关环境中的自动模式是否仍按组织策略运行；需要同步更新超时和重试监控。",
+      "evidence": "官方GitHub发布说明｜Claude Code v2.1.319；2026-11-06发布",
+      "confidence": "高（功能与行为变化由官方版本说明直接确认；实际稳定性仍取决于本地MCP与网关配置）",
+      "limit": "",
+      "source": {
+        "title": "Anthropic Claude Code v2.1.319",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "高负荷动作的处方应从‘动作名称’升级到‘组织峰值与累计暴露’。四类最大努力跳跃的跟腱应变都很高，降低风险的首要旋钮是努力程度、总接触量和恢复，而不是换一个看起来不同的跳法。",
+    "康复指标必须按用途拆开：H/Q比值可以补充ACL术后力量画像，却不能单独预测翻修；膝OA与踝扭伤试验也显示功能改善和疼痛变化并不同步。放行与续用决策应预先指定各自结局。",
+    "AI工作流今天最值得做的是把后台任务和权限拒绝纳入可观测状态。工具调用从等待变成后台或直接拒绝后，旧的超时、重试和成功判定可能悄然失效。"
+  ],
+  "trends_url": "data/trends/2026-11-09.json"
+}

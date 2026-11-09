@@ -22,5 +22,9 @@
   "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models": {
     "published_date": "2026-11-04",
     "basis": "腾讯官方新闻页明确标注2026-11-04；订阅候选时间为抓取或更新时刻，采用官方首次发布日期。"
+  },
+  "https://www.lorekit.io/blog/open-agent-memory-format": {
+    "published_date": "2026-11-07",
+    "basis": "原文页明确标注November 7, 2026；订阅候选时间为Hacker News收录时间，采用原文首次发布日期。"
   }
 }
