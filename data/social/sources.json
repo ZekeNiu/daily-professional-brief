@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T02:29:07.078332+00:00",
+  "checked_at": "2026-11-08T23:55:18.854282+00:00",
   "total": 88,
   "feeds_connected": 48,
   "sources": [
@@ -326,7 +326,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://simonwillison.net/atom/everything/",
-      "recent_items": 28
+      "recent_items": 29
     },
     {
       "id": "ethan-mollick",
@@ -713,7 +713,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blogs.bmj.com/bjsm/feed/",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "jospt-insights",
@@ -726,7 +726,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://feeds.resonaterecordings.com/jospt",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "physio-network",
@@ -882,7 +882,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://latent.space/feed",
-      "recent_items": 19
+      "recent_items": 20
     },
     {
       "id": "nathan-lambert",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 46
+      "recent_items": 41
     },
     {
       "id": "anthropic",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 25
+      "recent_items": 24
     },
     {
       "id": "bair",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1155,7 +1155,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://www.qbitai.com/feed",
-      "recent_items": 9
+      "recent_items": 10
     },
     {
       "id": "jiqizhixin",
@@ -1181,7 +1181,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://sspai.com/feed",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "csss",
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 2
+      "recent_items": 5
     },
     {
       "id": "reddit-ml",
