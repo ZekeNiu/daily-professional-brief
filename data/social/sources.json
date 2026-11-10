@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T02:39:14.679833+00:00",
+  "checked_at": "2026-11-10T04:37:31.639270+00:00",
   "total": 88,
   "feeds_connected": 48,
   "sources": [
@@ -326,7 +326,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://simonwillison.net/atom/everything/",
-      "recent_items": 29
+      "recent_items": 30
     },
     {
       "id": "ethan-mollick",
@@ -345,7 +345,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://www.oneusefulthing.org/feed",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "hamel-husain",
@@ -596,7 +596,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.hawkindynamics.com/blog/rss.xml",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "vald",
@@ -713,7 +713,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blogs.bmj.com/bjsm/feed/",
-      "recent_items": 1
+      "recent_items": 2
     },
     {
       "id": "jospt-insights",
@@ -726,7 +726,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://feeds.resonaterecordings.com/jospt",
-      "recent_items": 1
+      "recent_items": 2
     },
     {
       "id": "physio-network",
@@ -921,7 +921,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://huggingface.co/blog/feed.xml",
-      "recent_items": 13
+      "recent_items": 14
     },
     {
       "id": "openai",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 41
+      "recent_items": 40
     },
     {
       "id": "anthropic",
@@ -973,7 +973,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "recent_items": 3
+      "recent_items": 2
     },
     {
       "id": "microsoft-research",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 24
+      "recent_items": 22
     },
     {
       "id": "bair",
@@ -1051,7 +1051,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://bair.berkeley.edu/blog/feed.xml",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "tim-dettmers",
@@ -1181,7 +1181,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://sspai.com/feed",
-      "recent_items": 1
+      "recent_items": 0
     },
     {
       "id": "csss",
