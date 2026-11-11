@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "generated_at": "2026-11-10T04:37:39.167598+00:00",
-  "window_start": "2026-10-27T16:00:00+00:00",
-  "as_of": "2026-11-10T04:37:31.639270+00:00",
+  "generated_at": "2026-11-11T02:46:57.888750+00:00",
+  "window_start": "2026-10-28T16:00:00+00:00",
+  "as_of": "2026-11-11T02:46:50.358317+00:00",
   "summary": {
     "authors_total": 88,
-    "homepages_read": 13,
-    "feeds_read": 48,
-    "candidates": 186,
-    "published_date_candidates": 164,
-    "already_reported": 57,
-    "authors_with_recent_candidates": 25
+    "homepages_read": 14,
+    "feeds_read": 47,
+    "candidates": 180,
+    "published_date_candidates": 163,
+    "already_reported": 50,
+    "authors_with_recent_candidates": 24
   },
   "authors": [
     {
@@ -41,7 +41,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-06T18:32:27+00:00",
-      "elapsed_seconds": 3.98,
+      "elapsed_seconds": 0.8,
       "recent_item_ids": [
         "f1ac852461a6",
         "0611f5c9d42e"
@@ -80,11 +80,8 @@
       ],
       "parsed_items": 13,
       "latest_visible_item_at": "2026-10-28T15:35:22+00:00",
-      "elapsed_seconds": 0.23,
-      "recent_item_ids": [
-        "e99726e13f52",
-        "8b398a4d862e"
-      ]
+      "elapsed_seconds": 0.28,
+      "recent_item_ids": []
     },
     {
       "id": "yann-le-meur",
@@ -142,7 +139,7 @@
       ],
       "parsed_items": 2,
       "latest_visible_item_at": "2026-10-13T17:04:00+00:00",
-      "elapsed_seconds": 1.16,
+      "elapsed_seconds": 0.45,
       "recent_item_ids": []
     },
     {
@@ -224,7 +221,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2023-09-07T04:34:49+00:00",
-      "elapsed_seconds": 0.55,
+      "elapsed_seconds": 0.24,
       "recent_item_ids": []
     },
     {
@@ -281,7 +278,7 @@
       ],
       "parsed_items": 4,
       "latest_visible_item_at": "2026-07-17T08:46:08+00:00",
-      "elapsed_seconds": 0.97,
+      "elapsed_seconds": 1.5,
       "recent_item_ids": []
     },
     {
@@ -317,7 +314,7 @@
       "page_title": "Greg Lehman",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.08,
+      "elapsed_seconds": 0.97,
       "recent_item_ids": []
     },
     {
@@ -352,7 +349,7 @@
       ],
       "parsed_items": 5,
       "latest_visible_item_at": "2026-11-05T11:00:00+00:00",
-      "elapsed_seconds": 0.1,
+      "elapsed_seconds": 0.14,
       "recent_item_ids": [
         "ab7083bae168"
       ]
@@ -398,7 +395,7 @@
       "page_title": "adammeakins.com",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 3.06,
+      "elapsed_seconds": 2.32,
       "recent_item_ids": []
     },
     {
@@ -429,7 +426,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-04-13T21:24:45+00:00",
-      "elapsed_seconds": 0.62,
+      "elapsed_seconds": 0.2,
       "recent_item_ids": []
     },
     {
@@ -460,7 +457,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-25T01:28:41+00:00",
-      "elapsed_seconds": 0.48,
+      "elapsed_seconds": 0.36,
       "recent_item_ids": []
     },
     {
@@ -544,9 +541,13 @@
         }
       ],
       "parsed_items": 30,
-      "latest_visible_item_at": "2026-11-09T23:58:46+00:00",
-      "elapsed_seconds": 0.1,
+      "latest_visible_item_at": "2026-11-10T20:09:44+00:00",
+      "elapsed_seconds": 0.05,
       "recent_item_ids": [
+        "5bf610d1dd7d",
+        "cba41f0395d5",
+        "19c160f4485a",
+        "7a8b85431c54",
         "9a8fde6cfa9a",
         "1cd01b15863e",
         "45e8de741ea9",
@@ -572,11 +573,7 @@
         "9fc5ee213b01",
         "54f20f9f7f25",
         "88899755dba0",
-        "e65fcafff408",
-        "2d0c2102a719",
-        "bfb31ceb6c55",
-        "5e9e44475572",
-        "70f2bbbd704a"
+        "e65fcafff408"
       ]
     },
     {
@@ -607,7 +604,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-11-09T19:04:26+00:00",
-      "elapsed_seconds": 0.21,
+      "elapsed_seconds": 0.19,
       "recent_item_ids": [
         "c02cc2dffd5e"
       ]
@@ -640,7 +637,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-20T07:00:00+00:00",
-      "elapsed_seconds": 0.23,
+      "elapsed_seconds": 0.22,
       "recent_item_ids": []
     },
     {
@@ -671,7 +668,7 @@
       ],
       "parsed_items": 212,
       "latest_visible_item_at": "2026-06-21T00:00:00+00:00",
-      "elapsed_seconds": 0.17,
+      "elapsed_seconds": 0.13,
       "recent_item_ids": []
     },
     {
@@ -702,7 +699,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-01-16T00:00:00+00:00",
-      "elapsed_seconds": 0.54,
+      "elapsed_seconds": 0.27,
       "recent_item_ids": []
     },
     {
@@ -733,7 +730,7 @@
       ],
       "parsed_items": 53,
       "latest_visible_item_at": "2026-07-04T00:00:00+00:00",
-      "elapsed_seconds": 0.06,
+      "elapsed_seconds": 0.07,
       "recent_item_ids": []
     },
     {
@@ -758,7 +755,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-24T11:14:32+00:00",
-      "elapsed_seconds": 0.14,
+      "elapsed_seconds": 0.17,
       "recent_item_ids": []
     },
     {
@@ -790,7 +787,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-10-29T14:00:00+00:00",
-      "elapsed_seconds": 0.06,
+      "elapsed_seconds": 0.07,
       "recent_item_ids": []
     },
     {
@@ -815,7 +812,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.85,
+      "elapsed_seconds": 1.91,
       "recent_item_ids": []
     },
     {
@@ -840,7 +837,7 @@
       ],
       "parsed_items": 12,
       "latest_visible_item_at": "2026-11-04T17:00:00+00:00",
-      "elapsed_seconds": 0.16,
+      "elapsed_seconds": 0.18,
       "recent_item_ids": [
         "f5599ae5c3fe",
         "faf34df179d1"
@@ -868,7 +865,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-09T17:00:00+00:00",
-      "elapsed_seconds": 0.15,
+      "elapsed_seconds": 0.41,
       "recent_item_ids": [
         "170818adff70",
         "4ad7573ba348",
@@ -904,7 +901,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-05T03:35:04+00:00",
-      "elapsed_seconds": 0.72,
+      "elapsed_seconds": 0.45,
       "recent_item_ids": [
         "a41404309148",
         "d9eda3a427e3"
@@ -932,7 +929,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-07-18T20:07:15+00:00",
-      "elapsed_seconds": 0.15,
+      "elapsed_seconds": 0.31,
       "recent_item_ids": []
     },
     {
@@ -967,7 +964,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 1.85,
+      "elapsed_seconds": 1.69,
       "recent_item_ids": []
     },
     {
@@ -992,7 +989,7 @@
       ],
       "parsed_items": 15,
       "latest_visible_item_at": "2026-06-11T19:24:38+00:00",
-      "elapsed_seconds": 2.07,
+      "elapsed_seconds": 2.06,
       "recent_item_ids": []
     },
     {
@@ -1026,7 +1023,7 @@
       "page_title": "Gabbett Performance – Professional development for coaches, teams, clubs and players.",
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-23T00:50:50+00:00",
-      "elapsed_seconds": 4.01,
+      "elapsed_seconds": 4.64,
       "recent_item_ids": []
     },
     {
@@ -1062,7 +1059,7 @@
       "page_title": "Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.59,
+      "elapsed_seconds": 0.83,
       "recent_item_ids": []
     },
     {
@@ -1095,10 +1092,10 @@
         }
       ],
       "resolved_homepage": "https://www.marcoaltini.com/",
-      "page_title": "Home",
+      "page_title": "Marco Altini",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.19,
+      "elapsed_seconds": 0.15,
       "recent_item_ids": []
     },
     {
@@ -1123,7 +1120,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-30T14:53:02+00:00",
-      "elapsed_seconds": 0.14,
+      "elapsed_seconds": 0.24,
       "recent_item_ids": [
         "80c8954150da"
       ]
@@ -1283,7 +1280,7 @@
       "page_title": "ALTIS - Coach Education",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 5.37,
+      "elapsed_seconds": 4.46,
       "recent_item_ids": []
     },
     {
@@ -1314,7 +1311,7 @@
       "page_title": "Upside Strength - Performance, Physiology, Education Joinchat",
       "parsed_items": 25,
       "latest_visible_item_at": "2026-06-01T18:57:36+00:00",
-      "elapsed_seconds": 3.66,
+      "elapsed_seconds": 2.86,
       "recent_item_ids": []
     },
     {
@@ -1338,9 +1335,10 @@
         }
       ],
       "parsed_items": 10,
-      "latest_visible_item_at": "2026-11-09T13:51:06+00:00",
-      "elapsed_seconds": 0.5,
+      "latest_visible_item_at": "2026-11-10T05:00:58+00:00",
+      "elapsed_seconds": 0.28,
       "recent_item_ids": [
+        "b6ee947ba419",
         "bcc0ff3439a4",
         "d39aae2db9d7"
       ]
@@ -1367,7 +1365,7 @@
       ],
       "parsed_items": 289,
       "latest_visible_item_at": "2026-11-09T10:00:00+00:00",
-      "elapsed_seconds": 1.38,
+      "elapsed_seconds": 0.85,
       "recent_item_ids": [
         "473d2fa7a5e5",
         "6326113d20ac"
@@ -1413,7 +1411,7 @@
       "page_title": "Physiotherapy Blog — 400+ Expert Physical Therapy Blogs",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 4.41,
+      "elapsed_seconds": 3.15,
       "recent_item_ids": []
     },
     {
@@ -1438,7 +1436,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-14T06:00:00+00:00",
-      "elapsed_seconds": 0.38,
+      "elapsed_seconds": 0.3,
       "recent_item_ids": []
     },
     {
@@ -1463,7 +1461,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-06-21T13:00:00+00:00",
-      "elapsed_seconds": 2.17,
+      "elapsed_seconds": 1.9,
       "recent_item_ids": []
     },
     {
@@ -1488,7 +1486,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-08T19:38:45+00:00",
-      "elapsed_seconds": 1.38,
+      "elapsed_seconds": 1.08,
       "recent_item_ids": []
     },
     {
@@ -1522,7 +1520,7 @@
       "page_title": "PainScience.com",
       "parsed_items": 31,
       "latest_visible_item_at": "2026-11-05T07:00:00+00:00",
-      "elapsed_seconds": 0.32,
+      "elapsed_seconds": 0.17,
       "recent_item_ids": [
         "6424c6ea3602",
         "ee577f1bfcbf",
@@ -1642,7 +1640,7 @@
       "page_title": "Sports Injury Bulletin - Home",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 2.42,
+      "elapsed_seconds": 1.89,
       "recent_item_ids": []
     },
     {
@@ -1667,7 +1665,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-31T17:00:00+00:00",
-      "elapsed_seconds": 0.12,
+      "elapsed_seconds": 0.1,
       "recent_item_ids": [
         "1a9ec1373c3b"
       ]
@@ -1693,9 +1691,12 @@
         }
       ],
       "parsed_items": 20,
-      "latest_visible_item_at": "2026-11-09T17:15:53+00:00",
-      "elapsed_seconds": 0.24,
+      "latest_visible_item_at": "2026-11-10T20:05:17+00:00",
+      "elapsed_seconds": 0.34,
       "recent_item_ids": [
+        "93ae92fecf61",
+        "55a30966cc42",
+        "8915e46a0985",
         "e4b7803bfd81",
         "2c00110bd623",
         "15593d458c27",
@@ -1712,10 +1713,7 @@
         "44864eac16c3",
         "35c84e950b28",
         "a1a23e154cf4",
-        "59788a007bb4",
-        "e889cfac982d",
-        "2247b97d682b",
-        "add40a8fdaef"
+        "59788a007bb4"
       ]
     },
     {
@@ -1740,11 +1738,10 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-11-04T16:35:44+00:00",
-      "elapsed_seconds": 0.1,
+      "elapsed_seconds": 0.11,
       "recent_item_ids": [
         "ecb2e13c36b5",
-        "d4d35b3da5b2",
-        "887c59818f68"
+        "d4d35b3da5b2"
       ]
     },
     {
@@ -1769,7 +1766,7 @@
       ],
       "parsed_items": 15,
       "latest_visible_item_at": "2026-02-18T23:25:52+00:00",
-      "elapsed_seconds": 0.23,
+      "elapsed_seconds": 0.78,
       "recent_item_ids": []
     },
     {
@@ -1789,13 +1786,15 @@
         {
           "url": "https://huggingface.co/blog/feed.xml",
           "status": "feed_ok",
-          "entries": 900
+          "entries": 902
         }
       ],
-      "parsed_items": 900,
-      "latest_visible_item_at": "2026-11-09T15:05:57+00:00",
-      "elapsed_seconds": 0.26,
+      "parsed_items": 902,
+      "latest_visible_item_at": "2026-11-10T00:00:00+00:00",
+      "elapsed_seconds": 0.14,
       "recent_item_ids": [
+        "cb93d68b445c",
+        "5f3963726dbe",
         "ac8f18750241",
         "55d059b88c6c",
         "5a90caffb2c8",
@@ -1808,8 +1807,7 @@
         "e508e29ae812",
         "718617961cab",
         "b6b30743068c",
-        "6394645bd510",
-        "1c5b51464767"
+        "6394645bd510"
       ]
     },
     {
@@ -1829,13 +1827,17 @@
         {
           "url": "https://openai.com/news/rss.xml",
           "status": "feed_ok",
-          "entries": 1372
+          "entries": 1377
         }
       ],
-      "parsed_items": 1372,
-      "latest_visible_item_at": "2026-11-09T19:00:00+00:00",
-      "elapsed_seconds": 0.16,
+      "parsed_items": 1377,
+      "latest_visible_item_at": "2026-11-12T00:00:00+00:00",
+      "elapsed_seconds": 0.14,
       "recent_item_ids": [
+        "0f0020abcf73",
+        "991ad48e8559",
+        "69d4d9d74efa",
+        "f3fc54cd1d78",
         "caa9073cefb4",
         "952d2516af2e",
         "02e9abf47eaf",
@@ -1860,11 +1862,11 @@
         "019edb616369",
         "277870ffc8d7",
         "5d33ed0c66ac",
-        "bca108e4c77b",
         "0d297090385a",
+        "bca108e4c77b",
         "5a014341bc3f",
-        "945f879ef3a4",
         "4094d4340f9e",
+        "945f879ef3a4",
         "84abd1857de5",
         "a86d24c59c82",
         "574dbaf7fc87",
@@ -1872,10 +1874,7 @@
         "0f01adb2acab",
         "d948735545c2",
         "85f94c0fe8f0",
-        "16681fd606d5",
-        "a395c7da350b",
-        "e2ed7680c50a",
-        "709cc8e2bd46"
+        "16681fd606d5"
       ]
     },
     {
@@ -1907,27 +1906,39 @@
       "kind": "官方团队",
       "platform": "公开发布",
       "language": "en",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "status": "feed_ok",
-      "homepage_read": false,
-      "social_links": [],
+      "feed_url": null,
+      "status": "homepage_only",
+      "homepage_read": true,
+      "social_links": [
+        "https://x.com/googledeepmind"
+      ],
       "attempts": [
         {
           "url": "https://deepmind.google/blog/rss.xml",
-          "status": "feed_ok",
-          "entries": 100
+          "status": "ParseError",
+          "detail": "not well-formed (invalid token): line 1, column 0"
+        },
+        {
+          "url": "https://deepmind.google/blog/",
+          "status": "ok"
+        },
+        {
+          "url": "https://deepmind.google/feed",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://deepmind.google/feed.xml",
+          "status": "HTTPError",
+          "detail": "HTTP Error 404: Not Found"
         }
       ],
-      "parsed_items": 100,
-      "latest_visible_item_at": "2026-11-05T17:05:16+00:00",
-      "elapsed_seconds": 0.28,
-      "recent_item_ids": [
-        "1750855042e8",
-        "23c4f130369c",
-        "59623d61a7aa",
-        "3e32bae570ff",
-        "e960e8891f7d"
-      ]
+      "resolved_homepage": "https://deepmind.google/blog/",
+      "page_title": "News — Google DeepMind",
+      "parsed_items": 0,
+      "latest_visible_item_at": null,
+      "elapsed_seconds": 1.25,
+      "recent_item_ids": []
     },
     {
       "id": "google-ai",
@@ -1950,9 +1961,12 @@
         }
       ],
       "parsed_items": 20,
-      "latest_visible_item_at": "2026-11-05T17:00:00+00:00",
-      "elapsed_seconds": 0.43,
+      "latest_visible_item_at": "2026-11-10T19:00:00+00:00",
+      "elapsed_seconds": 0.3,
       "recent_item_ids": [
+        "fafff4292c09",
+        "e192e4f92a70",
+        "c979be8e72cc",
         "485654c1f98a",
         "996c88dfa31d"
       ]
@@ -1978,9 +1992,10 @@
         }
       ],
       "parsed_items": 10,
-      "latest_visible_item_at": "2026-11-05T16:00:00+00:00",
-      "elapsed_seconds": 0.95,
+      "latest_visible_item_at": "2026-11-10T20:52:56+00:00",
+      "elapsed_seconds": 0.75,
       "recent_item_ids": [
+        "d48977b6fbc8",
         "3a45181f6d99",
         "32aabc03de73",
         "bafa68df361f",
@@ -2009,7 +2024,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-06T22:15:59+00:00",
-      "elapsed_seconds": 0.49,
+      "elapsed_seconds": 0.32,
       "recent_item_ids": [
         "92b8001eea64"
       ]
@@ -2054,7 +2069,7 @@
       "page_title": "LangChain Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.86,
+      "elapsed_seconds": 1.02,
       "recent_item_ids": []
     },
     {
@@ -2093,7 +2108,7 @@
       "page_title": "Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.25,
+      "elapsed_seconds": 0.34,
       "recent_item_ids": []
     },
     {
@@ -2117,10 +2132,12 @@
           "entries": 100
         }
       ],
-      "parsed_items": 34,
-      "latest_visible_item_at": "2026-11-09T00:00:00+00:00",
-      "elapsed_seconds": 0.12,
+      "parsed_items": 33,
+      "latest_visible_item_at": "2026-11-10T00:00:00+00:00",
+      "elapsed_seconds": 0.15,
       "recent_item_ids": [
+        "b0eaf51fe58e",
+        "88a13733978c",
         "d7834758eba1",
         "757a175d1806",
         "e596bcb992c5",
@@ -2135,14 +2152,7 @@
         "f05cde2bcd7e",
         "f029f146885f",
         "68dcb801f302",
-        "880564c444d9",
-        "d65abdeddeb4",
-        "8c59428f2bfd",
-        "bbe1749f488c",
-        "99cd20ecddd1",
-        "d1bf327b14a1",
-        "c877fe652411",
-        "76b9678e5a2f"
+        "880564c444d9"
       ]
     },
     {
@@ -2167,7 +2177,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-09T09:00:00+00:00",
-      "elapsed_seconds": 0.26,
+      "elapsed_seconds": 0.65,
       "recent_item_ids": [
         "a7a4aac751ca"
       ]
@@ -2194,7 +2204,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-09-21T14:23:46+00:00",
-      "elapsed_seconds": 0.1,
+      "elapsed_seconds": 0.78,
       "recent_item_ids": []
     },
     {
@@ -2219,7 +2229,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-03-26T00:00:00+00:00",
-      "elapsed_seconds": 0.1,
+      "elapsed_seconds": 0.05,
       "recent_item_ids": []
     },
     {
@@ -2254,7 +2264,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.14,
+      "elapsed_seconds": 0.07,
       "recent_item_ids": []
     },
     {
@@ -2344,7 +2354,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.27,
+      "elapsed_seconds": 0.09,
       "recent_item_ids": []
     },
     {
@@ -2375,7 +2385,7 @@
       "page_title": "Tech Blog | ✰Vicki Boykis✰",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 0.39,
+      "elapsed_seconds": 0.43,
       "recent_item_ids": []
     },
     {
@@ -2399,19 +2409,19 @@
         }
       ],
       "parsed_items": 10,
-      "latest_visible_item_at": "2026-11-09T08:57:20+00:00",
-      "elapsed_seconds": 1.24,
+      "latest_visible_item_at": "2026-11-10T08:33:25+00:00",
+      "elapsed_seconds": 2.02,
       "recent_item_ids": [
-        "537678315f44",
-        "5d497975e484",
-        "1ea6002e9048",
-        "ed97d311b8bb",
-        "eeb4d8c8f536",
-        "f70bff34c8e8",
-        "da5717d7f399",
-        "38ffbbecb0a9",
-        "ecb695329bc0",
-        "0aef263f1a1d"
+        "c156c0581473",
+        "973a673ed0c1",
+        "9254344b53f3",
+        "ed555519a279",
+        "25068f02c308",
+        "f6164407cb9f",
+        "51cfdc09b2a5",
+        "8bbd867d1065",
+        "eb17f6ea4810",
+        "81f0ae22bacf"
       ]
     },
     {
@@ -2455,10 +2465,12 @@
           "entries": 10
         }
       ],
-      "parsed_items": 0,
-      "latest_visible_item_at": null,
-      "elapsed_seconds": 1.06,
-      "recent_item_ids": []
+      "parsed_items": 1,
+      "latest_visible_item_at": "2026-11-11T00:26:34+00:00",
+      "elapsed_seconds": 1.33,
+      "recent_item_ids": [
+        "7d01e08e91d0"
+      ]
     },
     {
       "id": "csss",
@@ -2581,15 +2593,14 @@
           "entries": 30
         }
       ],
-      "parsed_items": 5,
-      "latest_visible_item_at": "2026-11-10T03:20:06+00:00",
-      "elapsed_seconds": 0.05,
+      "parsed_items": 4,
+      "latest_visible_item_at": "2026-11-11T00:37:05+00:00",
+      "elapsed_seconds": 0.25,
       "recent_item_ids": [
-        "a989f1582084",
-        "e7d9d1552b0e",
-        "a7583252cfdd",
-        "a847d1340755",
-        "fbdf36c6d0b0"
+        "a4978faa7e16",
+        "76a08ecdf5a7",
+        "b87487ef0365",
+        "db8fc4949921"
       ]
     },
     {
@@ -2635,9 +2646,51 @@
   ],
   "candidates": [
     {
-      "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
-      "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-      "published_at": "2026-11-10T03:20:06+00:00",
+      "title": "LLMs Play Zachtronics' TIS-100",
+      "url": "https://tis-100.wincon.dev/",
+      "published_at": "2026-11-11T00:37:05+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "hacker-news",
+      "source_author": "Hacker News · AI讨论",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "platform": "社区",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "76a08ecdf5a7",
+      "observed_authors": [
+        "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等",
+      "url": "https://sspai.com/post/118905",
+      "published_at": "2026-11-11T00:26:34+00:00",
+      "date_kind": "published",
+      "byline": "少数派编辑部",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-agent",
+      "domain": "AI",
+      "author_id": "sspai",
+      "source_author": "少数派 · AI应用",
+      "feed_url": "https://sspai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "7d01e08e91d0",
+      "observed_authors": [
+        "少数派 · AI应用"
+      ]
+    },
+    {
+      "title": "AI is an information gateway. Audiences still don't want it making their news",
+      "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news",
+      "published_at": "2026-11-11T00:15:33+00:00",
       "date_kind": "published",
       "byline": "",
       "dois": [],
@@ -2650,9 +2703,663 @@
       "platform": "社区",
       "language": "en",
       "previous_briefs": [],
-      "id": "e7d9d1552b0e",
+      "id": "b87487ef0365",
       "observed_authors": [
         "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "published_at": "2026-11-10T20:52:56+00:00",
+      "date_kind": "published",
+      "byline": "Dimitris Papailiopoulos",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "microsoft-research",
+      "source_author": "Microsoft Research",
+      "feed_url": "https://www.microsoft.com/en-us/research/feed/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "d48977b6fbc8",
+      "observed_authors": [
+        "Microsoft Research"
+      ]
+    },
+    {
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini",
+      "published_at": "2026-11-10T20:09:44+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "5bf610d1dd7d",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Designing for Agents — Zeno Rocha, Resend",
+      "url": "https://latent.space/p/resend",
+      "published_at": "2026-11-10T20:05:17+00:00",
+      "date_kind": "published",
+      "byline": "swyx .ai",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "latent-space",
+      "source_author": "Latent Space",
+      "feed_url": "https://latent.space/feed",
+      "platform": "通讯",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "93ae92fecf61",
+      "observed_authors": [
+        "Latent Space"
+      ]
+    },
+    {
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "published_at": "2026-11-10T19:00:00+00:00",
+      "date_kind": "published",
+      "byline": "Karthik Thirumalai",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "google-ai",
+      "source_author": "Google AI",
+      "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "fafff4292c09",
+      "observed_authors": [
+        "Google AI"
+      ]
+    },
+    {
+      "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
+      "url": "https://latent.space/p/naiveai",
+      "published_at": "2026-11-10T18:56:32+00:00",
+      "date_kind": "published",
+      "byline": "Gabriele Beltramo",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "latent-space",
+      "source_author": "Latent Space",
+      "feed_url": "https://latent.space/feed",
+      "platform": "通讯",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "55a30966cc42",
+      "observed_authors": [
+        "Latent Space"
+      ]
+    },
+    {
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "published_at": "2026-11-10T18:01:15+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-agent",
+      "domain": "AI",
+      "author_id": "hacker-news",
+      "source_author": "Hacker News · AI讨论",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "platform": "社区",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "a4978faa7e16",
+      "observed_authors": [
+        "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+      "published_at": "2026-11-10T14:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-agent",
+      "domain": "AI",
+      "author_id": "google-ai",
+      "source_author": "Google AI",
+      "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "e192e4f92a70",
+      "observed_authors": [
+        "Google AI"
+      ]
+    },
+    {
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare",
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "google-ai",
+      "source_author": "Google AI",
+      "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "c979be8e72cc",
+      "observed_authors": [
+        "Google AI"
+      ]
+    },
+    {
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "published_at": "2026-11-10T12:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "0f0020abcf73",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "AI usage generates a fragile codebase",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase",
+      "published_at": "2026-11-10T10:25:58+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-agent",
+      "domain": "AI",
+      "author_id": "hacker-news",
+      "source_author": "Hacker News · AI讨论",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "platform": "社区",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "db8fc4949921",
+      "observed_authors": [
+        "Hacker News · AI讨论"
+      ]
+    },
+    {
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "published_at": "2026-11-10T10:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "991ad48e8559",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "published_at": "2026-11-10T09:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "69d4d9d74efa",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "从芯片到千比特整机，超导量子计算还有一场硬仗",
+      "url": "https://www.qbitai.com/2026/11/509017.html",
+      "published_at": "2026-11-10T08:33:25+00:00",
+      "date_kind": "published",
+      "byline": "思邈",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "c156c0581473",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型",
+      "url": "https://www.qbitai.com/2026/11/508996.html",
+      "published_at": "2026-11-10T07:57:45+00:00",
+      "date_kind": "published",
+      "byline": "量子位的朋友们",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "973a673ed0c1",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
+      "url": "https://www.qbitai.com/2026/11/508998.html",
+      "published_at": "2026-11-10T07:56:29+00:00",
+      "date_kind": "published",
+      "byline": "思邈",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-agent",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "9254344b53f3",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "成立四个月，融资过亿美金：TensorWorld物原科技要跑通“物理真实”路线",
+      "url": "https://www.qbitai.com/2026/11/508991.html",
+      "published_at": "2026-11-10T07:50:26+00:00",
+      "date_kind": "published",
+      "byline": "量子位的朋友们",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "ed555519a279",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "达卯科技与浦东环保能源战略合作，黎明智算中心算电协同平台启动",
+      "url": "https://www.qbitai.com/2026/11/508985.html",
+      "published_at": "2026-11-10T07:33:19+00:00",
+      "date_kind": "published",
+      "byline": "量子位的朋友们",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "25068f02c308",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+      "published_at": "2026-11-10T07:28:21+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-agent",
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "cba41f0395d5",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "Token卷到触觉了！机器人终于有了通用手感",
+      "url": "https://www.qbitai.com/2026/11/508919.html",
+      "published_at": "2026-11-10T07:26:53+00:00",
+      "date_kind": "published",
+      "byline": "十三",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "f6164407cb9f",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "Fable 5.2首批实测来了！网友：Opus突然不香了",
+      "url": "https://www.qbitai.com/2026/11/508912.html",
+      "published_at": "2026-11-10T07:03:43+00:00",
+      "date_kind": "published",
+      "byline": "梦瑶",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "51cfdc09b2a5",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "published_at": "2026-11-10T07:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "f3fc54cd1d78",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "url": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins",
+      "published_at": "2026-11-10T06:34:44+00:00",
+      "date_kind": "published",
+      "byline": "swyx .ai",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "latent-space",
+      "source_author": "Latent Space",
+      "feed_url": "https://latent.space/feed",
+      "platform": "通讯",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "8915e46a0985",
+      "observed_authors": [
+        "Latent Space"
+      ]
+    },
+    {
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
+      "published_at": "2026-11-10T05:34:14+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "19c160f4485a",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "The MSK Playbook: Hamstring Strain Injuries",
+      "url": "https://blogs.bmj.com/bjsm/2026/11/10/the-msk-playbook-hamstring-strain-injuries",
+      "published_at": "2026-11-10T05:00:58+00:00",
+      "date_kind": "published",
+      "byline": "bjsm",
+      "dois": [
+        "10.1123/ijsnem.2018-0391",
+        "10.1186/s12891-026-10072-z"
+      ],
+      "date_verified": true,
+      "topic_id": "health-rtp",
+      "domain": "运动健康",
+      "author_id": "bjsm-blog",
+      "source_author": "BJSM Blog",
+      "feed_url": "https://blogs.bmj.com/bjsm/feed/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "b6ee947ba419",
+      "observed_authors": [
+        "BJSM Blog"
+      ]
+    },
+    {
+      "title": "Yonkers Rises",
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises",
+      "published_at": "2026-11-10T03:53:04+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "7a8b85431c54",
+      "observed_authors": [
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了！",
+      "url": "https://www.qbitai.com/2026/11/508828.html",
+      "published_at": "2026-11-10T02:48:22+00:00",
+      "date_kind": "published",
+      "byline": "十三",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "8bbd867d1065",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
+      "url": "https://www.qbitai.com/2026/11/508798.html",
+      "published_at": "2026-11-10T01:27:09+00:00",
+      "date_kind": "published",
+      "byline": "听雨",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-agent",
+      "domain": "AI",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
+      "previous_briefs": [],
+      "id": "eb17f6ea4810",
+      "observed_authors": [
+        "量子位"
+      ]
+    },
+    {
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "huggingface",
+      "source_author": "Hugging Face",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "cb93d68b445c",
+      "observed_authors": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "huggingface",
+      "source_author": "Hugging Face",
+      "feed_url": "https://huggingface.co/blog/feed.xml",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "5f3963726dbe",
+      "observed_authors": [
+        "Hugging Face"
+      ]
+    },
+    {
+      "title": "MiniMax H3 Image and Highspeed now available on AI Gateway",
+      "url": "https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "date_kind": "updated_only",
+      "byline": "Jerilyn Zheng",
+      "dois": [],
+      "date_verified": false,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "vercel",
+      "source_author": "Vercel",
+      "feed_url": "https://vercel.com/atom",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "b0eaf51fe58e",
+      "observed_authors": [
+        "Vercel"
+      ]
+    },
+    {
+      "title": "Gemini 4 Carbon now available on AI Gateway",
+      "url": "https://vercel.com/changelog/gemini-4-carbon-now-available-on-ai-gateway",
+      "published_at": "2026-11-10T00:00:00+00:00",
+      "date_kind": "updated_only",
+      "byline": "Jerilyn Zheng",
+      "dois": [],
+      "date_verified": false,
+      "topic_id": "ai-model",
+      "domain": "AI",
+      "author_id": "vercel",
+      "source_author": "Vercel",
+      "feed_url": "https://vercel.com/atom",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "88a13733978c",
+      "observed_authors": [
+        "Vercel"
       ]
     },
     {
@@ -2663,7 +3370,7 @@
       "byline": "",
       "dois": [],
       "date_verified": true,
-      "topic_id": "ai-agent",
+      "topic_id": "ai-eval",
       "domain": "AI",
       "author_id": "simon-willison",
       "source_author": "Simon Willison",
@@ -2698,24 +3405,24 @@
       ]
     },
     {
-      "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
-      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
-      "published_at": "2026-11-09T20:04:55+00:00",
+      "title": "中大本科生反AI逆向项目火了！让黑客Token账单原地暴涨300倍",
+      "url": "https://www.qbitai.com/2026/11/508787.html",
+      "published_at": "2026-11-09T22:11:49+00:00",
       "date_kind": "published",
-      "byline": "",
+      "byline": "鱼羊",
       "dois": [],
       "date_verified": true,
-      "topic_id": "ai-model",
+      "topic_id": "ai-other",
       "domain": "AI",
-      "author_id": "hacker-news",
-      "source_author": "Hacker News · AI讨论",
-      "feed_url": "https://news.ycombinator.com/rss",
-      "platform": "社区",
-      "language": "en",
+      "author_id": "qbitai",
+      "source_author": "量子位",
+      "feed_url": "https://www.qbitai.com/feed",
+      "platform": "博客",
+      "language": "zh",
       "previous_briefs": [],
-      "id": "fbdf36c6d0b0",
+      "id": "81f0ae22bacf",
       "observed_authors": [
-        "Hacker News · AI讨论"
+        "量子位"
       ]
     },
     {
@@ -2758,48 +3465,6 @@
       "id": "caa9073cefb4",
       "observed_authors": [
         "OpenAI"
-      ]
-    },
-    {
-      "title": "Google Gemini routes personal Drive files and emails to human annotators",
-      "url": "https://github.com/thisisme6598/gemini_files",
-      "published_at": "2026-11-09T18:24:38+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "hacker-news",
-      "source_author": "Hacker News · AI讨论",
-      "feed_url": "https://news.ycombinator.com/rss",
-      "platform": "社区",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "a847d1340755",
-      "observed_authors": [
-        "Hacker News · AI讨论"
-      ]
-    },
-    {
-      "title": "Claude Fable 5.2 and Mythos 5.2",
-      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "published_at": "2026-11-09T18:01:10+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "hacker-news",
-      "source_author": "Hacker News · AI讨论",
-      "feed_url": "https://news.ycombinator.com/rss",
-      "platform": "社区",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "a989f1582084",
-      "observed_authors": [
-        "Hacker News · AI讨论"
       ]
     },
     {
@@ -2863,27 +3528,6 @@
       "id": "ac8f18750241",
       "observed_authors": [
         "Hugging Face"
-      ]
-    },
-    {
-      "title": "The Race to Build a \"Find My\" for AI Chips",
-      "url": "https://spectrum.ieee.org/find-my-ai-chip",
-      "published_at": "2026-11-09T14:09:02+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "hacker-news",
-      "source_author": "Hacker News · AI讨论",
-      "feed_url": "https://news.ycombinator.com/rss",
-      "platform": "社区",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "a7583252cfdd",
-      "observed_authors": [
-        "Hacker News · AI讨论"
       ]
     },
     {
@@ -2995,90 +3639,6 @@
       ]
     },
     {
-      "title": "“AI毁了我的计算机学位”",
-      "url": "https://www.qbitai.com/2026/11/508706.html",
-      "published_at": "2026-11-09T08:57:20+00:00",
-      "date_kind": "published",
-      "byline": "Jay",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "537678315f44",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
-      "url": "https://www.qbitai.com/2026/11/507843.html",
-      "published_at": "2026-11-09T08:44:00+00:00",
-      "date_kind": "published",
-      "byline": "闻乐",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "5d497975e484",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
-      "url": "https://www.qbitai.com/2026/11/508694.html",
-      "published_at": "2026-11-09T08:34:03+00:00",
-      "date_kind": "published",
-      "byline": "量子位的朋友们",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "1ea6002e9048",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "叙事奔涌，何以为锚?丨第 20 届中国投资年会·有限合伙人峰会即将启幕",
-      "url": "https://www.qbitai.com/2026/11/508690.html",
-      "published_at": "2026-11-09T08:26:45+00:00",
-      "date_kind": "published",
-      "byline": "量子位的朋友们",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "ed97d311b8bb",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
       "title": "CodeRabbit scales agentic software development and ships 20x more",
       "url": "https://openai.com/index/coderabbit-codex-daybreak",
       "published_at": "2026-11-09T08:00:00+00:00",
@@ -3121,69 +3681,6 @@
       ]
     },
     {
-      "title": "L3大撤退！奔驰宝马官宣不玩了：还没L2好用",
-      "url": "https://www.qbitai.com/2026/11/508629.html",
-      "published_at": "2026-11-09T07:02:36+00:00",
-      "date_kind": "published",
-      "byline": "杰西卡",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "eeb4d8c8f536",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "AI接管一家8万Star开源公司，写代码、派任务、查Bug全包了",
-      "url": "https://www.qbitai.com/2026/11/508607.html",
-      "published_at": "2026-11-09T05:47:58+00:00",
-      "date_kind": "published",
-      "byline": "文婷",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "f70bff34c8e8",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "基元律动发布NeoHorse-1.5-Flash Preview，Agent模型RSI进入第二轮迭代",
-      "url": "https://www.qbitai.com/2026/11/508603.html",
-      "published_at": "2026-11-09T05:09:23+00:00",
-      "date_kind": "published",
-      "byline": "量子位的朋友们",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "da5717d7f399",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
       "title": "The Web Is More Than Enough, by Paul Ford",
       "url": "https://simonwillison.net/2026/Nov/9/hn-50421091",
       "published_at": "2026-11-09T04:32:33+00:00",
@@ -3223,69 +3720,6 @@
       "id": "7a56e2062f93",
       "observed_authors": [
         "Simon Willison"
-      ]
-    },
-    {
-      "title": "当AI在加速狂奔，什么反而应该“慢”下来？",
-      "url": "https://www.qbitai.com/2026/11/508586.html",
-      "published_at": "2026-11-09T03:47:12+00:00",
-      "date_kind": "published",
-      "byline": "量子位的朋友们",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "38ffbbecb0a9",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "寻找最会讲故事的AI创作者，虎鲸文娱鲸锐AI创作大赛走进清华大学",
-      "url": "https://www.qbitai.com/2026/11/508566.html",
-      "published_at": "2026-11-09T02:19:08+00:00",
-      "date_kind": "published",
-      "byline": "量子位的朋友们",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "ecb695329bc0",
-      "observed_authors": [
-        "量子位"
-      ]
-    },
-    {
-      "title": "黄仁勋承认出轨发全员信道歉！英伟达启动紧急调查",
-      "url": "https://www.qbitai.com/2026/11/508498.html",
-      "published_at": "2026-11-09T00:40:50+00:00",
-      "date_kind": "published",
-      "byline": "克雷西",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "qbitai",
-      "source_author": "量子位",
-      "feed_url": "https://www.qbitai.com/feed",
-      "platform": "博客",
-      "language": "zh",
-      "previous_briefs": [],
-      "id": "0aef263f1a1d",
-      "observed_authors": [
-        "量子位"
       ]
     },
     {
@@ -3894,27 +4328,6 @@
       "id": "f88e63ee2c81",
       "observed_authors": [
         "Simon Willison"
-      ]
-    },
-    {
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
-      "published_at": "2026-11-05T17:05:16+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "deepmind",
-      "source_author": "Google DeepMind",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "1750855042e8",
-      "observed_authors": [
-        "Google DeepMind"
       ]
     },
     {
@@ -4614,29 +5027,6 @@
       ]
     },
     {
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
-      "published_at": "2026-11-03T17:01:49+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "deepmind",
-      "source_author": "Google DeepMind",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [
-        "2026-11-04"
-      ],
-      "id": "23c4f130369c",
-      "observed_authors": [
-        "Google DeepMind"
-      ]
-    },
-    {
       "title": "AI is destroying my CS degree",
       "url": "https://simonwillison.net/2026/Nov/3/hn-50354278",
       "published_at": "2026-11-03T16:42:02+00:00",
@@ -5004,27 +5394,6 @@
       ]
     },
     {
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "published_at": "2026-11-02T18:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "bca108e4c77b",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
       "title": "Preparing our next security sprint to harden OpenAI",
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "published_at": "2026-11-02T18:00:00+00:00",
@@ -5041,6 +5410,27 @@
       "language": "en",
       "previous_briefs": [],
       "id": "0d297090385a",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "published_at": "2026-11-02T18:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "bca108e4c77b",
       "observed_authors": [
         "OpenAI"
       ]
@@ -5203,27 +5593,6 @@
       ]
     },
     {
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "published_at": "2026-11-02T00:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "945f879ef3a4",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
       "published_at": "2026-11-02T00:00:00+00:00",
@@ -5240,6 +5609,27 @@
       "language": "en",
       "previous_briefs": [],
       "id": "4094d4340f9e",
+      "observed_authors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-other",
+      "domain": "AI",
+      "author_id": "openai",
+      "source_author": "OpenAI",
+      "feed_url": "https://openai.com/news/rss.xml",
+      "platform": "公开发布",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "945f879ef3a4",
       "observed_authors": [
         "OpenAI"
       ]
@@ -5558,27 +5948,6 @@
       ]
     },
     {
-      "title": "Speeding up planning decisions with AI",
-      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai",
-      "published_at": "2026-10-30T14:18:30+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "deepmind",
-      "source_author": "Google DeepMind",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "59623d61a7aa",
-      "observed_authors": [
-        "Google DeepMind"
-      ]
-    },
-    {
       "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
       "url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence",
       "published_at": "2026-10-30T13:05:28+00:00",
@@ -5863,27 +6232,6 @@
       ]
     },
     {
-      "title": "Quoting Ben Hylak",
-      "url": "https://simonwillison.net/2026/Oct/29/ben-hylak",
-      "published_at": "2026-10-29T14:06:27+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "2d0c2102a719",
-      "observed_authors": [
-        "Simon Willison"
-      ]
-    },
-    {
       "title": "Granite Switch 4.1.1 — Update models like you update software",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
       "published_at": "2026-10-29T13:37:07+00:00",
@@ -6125,27 +6473,6 @@
       ]
     },
     {
-      "title": "Quoting Ted Sanders",
-      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders",
-      "published_at": "2026-10-28T23:23:21+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "bfb31ceb6c55",
-      "observed_authors": [
-        "Simon Willison"
-      ]
-    },
-    {
       "title": "Why Agents Love Supabase",
       "url": "https://latent.space/p/supabase",
       "published_at": "2026-10-28T19:48:05+00:00",
@@ -6190,27 +6517,6 @@
       ]
     },
     {
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "published_at": "2026-10-28T17:00:58+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "deepmind",
-      "source_author": "Google DeepMind",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "3e32bae570ff",
-      "observed_authors": [
-        "Google DeepMind"
-      ]
-    },
-    {
       "title": "The Perfect Protein?",
       "url": "https://www.scienceforsport.com/the-perfect-protein",
       "published_at": "2026-10-28T17:00:00+00:00",
@@ -6233,438 +6539,6 @@
       "id": "faf34df179d1",
       "observed_authors": [
         "Science for Sport"
-      ]
-    },
-    {
-      "title": "GitHub Octoverse 2026",
-      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
-      "published_at": "2026-10-28T16:45:23+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "5e9e44475572",
-      "observed_authors": [
-        "Simon Willison"
-      ]
-    },
-    {
-      "title": "Is more carbohydrate better during exercise? What the evidence says about 90, 120 and 150 g/h",
-      "url": "https://www.mysportscience.com/post/2015/05/23/is-more-carbohydrate-better-during-exercise-and-how-much-is-too-much",
-      "published_at": "2026-10-28T15:35:22+00:00",
-      "date_kind": "published",
-      "byline": "Asker Jeukendrup",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "sport-nutrition",
-      "domain": "运动科学",
-      "author_id": "asker-jeukendrup",
-      "source_author": "Asker Jeukendrup",
-      "feed_url": "https://www.mysportscience.com/blog-feed.xml",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "e99726e13f52",
-      "observed_authors": [
-        "Asker Jeukendrup"
-      ]
-    },
-    {
-      "title": "The October inflection point for vibe game development",
-      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development",
-      "published_at": "2026-10-28T13:55:15+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "70f2bbbd704a",
-      "observed_authors": [
-        "Simon Willison"
-      ]
-    },
-    {
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "published_at": "2026-10-28T13:15:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "a395c7da350b",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "Artificial Analysis v5 and the benchmarker's dilemma",
-      "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
-      "published_at": "2026-10-28T12:58:39+00:00",
-      "date_kind": "published",
-      "byline": "Nathan Lambert",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "nathan-lambert",
-      "source_author": "Nathan Lambert / Interconnects",
-      "feed_url": "https://www.interconnects.ai/feed",
-      "platform": "通讯",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-29"
-      ],
-      "id": "887c59818f68",
-      "observed_authors": [
-        "Nathan Lambert / Interconnects"
-      ]
-    },
-    {
-      "title": "The future of the firm",
-      "url": "https://openai.com/index/the-future-of-the-firm",
-      "published_at": "2026-10-28T10:00:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "e2ed7680c50a",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "How is exogenous carbohydrate oxidation measured?",
-      "url": "https://www.mysportscience.com/post/exogenous-carbohydrate-oxidation",
-      "published_at": "2026-10-28T09:31:05+00:00",
-      "date_kind": "published",
-      "byline": "Asker Jeukendrup",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "sport-nutrition",
-      "domain": "运动科学",
-      "author_id": "asker-jeukendrup",
-      "source_author": "Asker Jeukendrup",
-      "feed_url": "https://www.mysportscience.com/blog-feed.xml",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-29"
-      ],
-      "id": "8b398a4d862e",
-      "observed_authors": [
-        "Asker Jeukendrup"
-      ]
-    },
-    {
-      "title": "Legora is building the agentic operating system for legal work",
-      "url": "https://openai.com/index/legora",
-      "published_at": "2026-10-28T09:30:00+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "openai",
-      "source_author": "OpenAI",
-      "feed_url": "https://openai.com/news/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "709cc8e2bd46",
-      "observed_authors": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
-      "url": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure",
-      "published_at": "2026-10-28T08:50:30+00:00",
-      "date_kind": "published",
-      "byline": "swyx .ai",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "latent-space",
-      "source_author": "Latent Space",
-      "feed_url": "https://latent.space/feed",
-      "platform": "通讯",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "e889cfac982d",
-      "observed_authors": [
-        "Latent Space"
-      ]
-    },
-    {
-      "title": "Introducing Virtual Models on AI Gateway",
-      "url": "https://vercel.com/blog/ai-gateway-virtual-models",
-      "published_at": "2026-10-28T07:25:00+00:00",
-      "date_kind": "updated_only",
-      "byline": "Rohan Taneja",
-      "dois": [],
-      "date_verified": false,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "vercel",
-      "source_author": "Vercel",
-      "feed_url": "https://vercel.com/atom",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-29"
-      ],
-      "id": "d65abdeddeb4",
-      "observed_authors": [
-        "Vercel"
-      ]
-    },
-    {
-      "title": "Vercel Agent can now validate alerts before paging",
-      "url": "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you",
-      "published_at": "2026-10-28T06:00:00+00:00",
-      "date_kind": "updated_only",
-      "byline": "Fabio Benedetti",
-      "dois": [],
-      "date_verified": false,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "vercel",
-      "source_author": "Vercel",
-      "feed_url": "https://vercel.com/atom",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-27"
-      ],
-      "id": "8c59428f2bfd",
-      "observed_authors": [
-        "Vercel"
-      ]
-    },
-    {
-      "title": "Virtual models now available on AI Gateway",
-      "url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway",
-      "published_at": "2026-10-28T00:00:00+00:00",
-      "date_kind": "updated_only",
-      "byline": "Rohan Taneja",
-      "dois": [],
-      "date_verified": false,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "vercel",
-      "source_author": "Vercel",
-      "feed_url": "https://vercel.com/atom",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "bbe1749f488c",
-      "observed_authors": [
-        "Vercel"
-      ]
-    },
-    {
-      "title": "Run Paseo agents on Vercel Sandbox",
-      "url": "https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox",
-      "published_at": "2026-10-28T00:00:00+00:00",
-      "date_kind": "updated_only",
-      "byline": "Elisabeth Rülke",
-      "dois": [],
-      "date_verified": false,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "vercel",
-      "source_author": "Vercel",
-      "feed_url": "https://vercel.com/atom",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "99cd20ecddd1",
-      "observed_authors": [
-        "Vercel"
-      ]
-    },
-    {
-      "title": "Particle-1 is now available on AI Gateway",
-      "url": "https://vercel.com/changelog/particle-1-is-now-available-on-ai-gateway",
-      "published_at": "2026-10-28T00:00:00+00:00",
-      "date_kind": "updated_only",
-      "byline": "Zachary Chen",
-      "dois": [],
-      "date_verified": false,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "vercel",
-      "source_author": "Vercel",
-      "feed_url": "https://vercel.com/atom",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "d1bf327b14a1",
-      "observed_authors": [
-        "Vercel"
-      ]
-    },
-    {
-      "title": "Agents can now enable Web Analytics and Observability Plus with Vercel CLI",
-      "url": "https://vercel.com/changelog/agents-can-now-enable-web-analytics-and-observability-plus-with-vercel-cli",
-      "published_at": "2026-10-28T00:00:00+00:00",
-      "date_kind": "updated_only",
-      "byline": "Melkey Moksyakov",
-      "dois": [],
-      "date_verified": false,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "vercel",
-      "source_author": "Vercel",
-      "feed_url": "https://vercel.com/atom",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "c877fe652411",
-      "observed_authors": [
-        "Vercel"
-      ]
-    },
-    {
-      "title": "AI traffic insights now available in Vercel Observability",
-      "url": "https://vercel.com/changelog/ai-traffic-insights-now-available-in-vercel-observability",
-      "published_at": "2026-10-28T00:00:00+00:00",
-      "date_kind": "updated_only",
-      "byline": "Mark Knichel",
-      "dois": [],
-      "date_verified": false,
-      "topic_id": "ai-other",
-      "domain": "AI",
-      "author_id": "vercel",
-      "source_author": "Vercel",
-      "feed_url": "https://vercel.com/atom",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "76b9678e5a2f",
-      "observed_authors": [
-        "Vercel"
-      ]
-    },
-    {
-      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
-      "url": "https://latent.space/p/opus55",
-      "published_at": "2026-10-27T18:53:10+00:00",
-      "date_kind": "published",
-      "byline": "swyx .ai",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-agent",
-      "domain": "AI",
-      "author_id": "latent-space",
-      "source_author": "Latent Space",
-      "feed_url": "https://latent.space/feed",
-      "platform": "通讯",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "2247b97d682b",
-      "observed_authors": [
-        "Latent Space"
-      ]
-    },
-    {
-      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
-      "url": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands",
-      "published_at": "2026-10-27T18:40:19+00:00",
-      "date_kind": "published",
-      "byline": "Latent.Space",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "latent-space",
-      "source_author": "Latent Space",
-      "feed_url": "https://latent.space/feed",
-      "platform": "通讯",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "add40a8fdaef",
-      "observed_authors": [
-        "Latent Space"
-      ]
-    },
-    {
-      "title": "Build specialized multimodal models with LFM3",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "published_at": "2026-10-27T17:16:52+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "huggingface",
-      "source_author": "Hugging Face",
-      "feed_url": "https://huggingface.co/blog/feed.xml",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-28"
-      ],
-      "id": "1c5b51464767",
-      "observed_authors": [
-        "Hugging Face"
-      ]
-    },
-    {
-      "title": "Genie 4: A new generation of world simulation",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
-      "published_at": "2026-10-27T16:01:38+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-model",
-      "domain": "AI",
-      "author_id": "deepmind",
-      "source_author": "Google DeepMind",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "platform": "公开发布",
-      "language": "en",
-      "previous_briefs": [
-        "2026-10-28"
-      ],
-      "id": "e960e8891f7d",
-      "observed_authors": [
-        "Google DeepMind"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-10T04:37:31.639270+00:00",
+  "checked_at": "2026-11-11T02:46:50.358317+00:00",
   "total": 88,
-  "feeds_connected": 48,
+  "feeds_connected": 47,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -43,7 +43,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://www.mysportscience.com/blog-feed.xml",
-      "recent_items": 2
+      "recent_items": 0
     },
     {
       "id": "yann-le-meur",
@@ -713,7 +713,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blogs.bmj.com/bjsm/feed/",
-      "recent_items": 2
+      "recent_items": 3
     },
     {
       "id": "jospt-insights",
@@ -895,7 +895,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.interconnects.ai/feed",
-      "recent_items": 3
+      "recent_items": 2
     },
     {
       "id": "the-gradient",
@@ -921,7 +921,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://huggingface.co/blog/feed.xml",
-      "recent_items": 14
+      "recent_items": 15
     },
     {
       "id": "openai",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 40
+      "recent_items": 41
     },
     {
       "id": "anthropic",
@@ -958,9 +958,9 @@
       "kind": "官方团队",
       "platform": "公开发布",
       "language": "en",
-      "status": "feed_ok",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "recent_items": 5
+      "status": "homepage_only",
+      "feed_url": null,
+      "recent_items": 0
     },
     {
       "id": "google-ai",
@@ -973,7 +973,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "recent_items": 2
+      "recent_items": 5
     },
     {
       "id": "microsoft-research",
@@ -986,7 +986,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.microsoft.com/en-us/research/feed/",
-      "recent_items": 4
+      "recent_items": 5
     },
     {
       "id": "github-ai",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 22
+      "recent_items": 17
     },
     {
       "id": "bair",
@@ -1181,7 +1181,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://sspai.com/feed",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "csss",
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 5
+      "recent_items": 4
     },
     {
       "id": "reddit-ml",
