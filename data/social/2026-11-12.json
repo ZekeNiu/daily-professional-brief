@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "date": "2026-11-12",
+  "observed_at": "2026-11-12T08:34:00+08:00",
+  "title": "每日专业资讯简报·社媒热点｜2026-11-12",
+  "summary": {
+    "title": "实践讨论从‘能生成’转向‘如何持续验收’",
+    "signal": "本期真实讨论的共同点是把验收前移：补剂先看目标任务是否改善，远程康复先明确适用对象与升级条件，Agent工具则要控制上下文、现代化规则和端到端时延。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 4
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-09",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "运动营养讨论回到与目标任务匹配的性能证据，而不是仅凭机制或产品类别推断收益。",
+    "运动健康": "远程康复的重点正在从视频替代门诊，转向对象筛选、监督结构、数据回传与线下升级条件。",
+    "AI": "Agent工具的工程价值越来越取决于输入是否可读、上下文是否节制，以及速度、正确率和完整任务时间是否一起验收。"
+  },
+  "items": [
+    {
+      "id": "a8b112ddd6fb",
+      "domain": "运动科学",
+      "title": "Blonyx复盘小型交叉试验：12 mg capsiate未改善重复自行车冲刺",
+      "short_title": "Capsiate没有改善十组6秒冲刺",
+      "author": "Rowan / Blonyx",
+      "platform": "运动营养博客",
+      "published_date": "2026-11-10",
+      "priority": "值得了解",
+      "one_liner": "11名活跃男性随机双盲交叉试验中，capsiate与安慰剂在总功、疲劳指数、供能和主观努力上均无明确差异。",
+      "what": "Blonyx解读一项11名活跃男性的随机双盲安慰剂交叉试验：受试者在测试前45分钟摄入12 mg capsiate或安慰剂，完成10组6秒最大自行车冲刺、组间休息30秒。总功、疲劳指数、能量系统贡献、神经肌肉效率、主观用力和投入意愿均无显著差异。",
+      "why": "讨论直接针对‘机制合理是否等于表现有效’。阴性结果与具体任务相匹配，能阻止把辣椒素相关机制扩张成重复冲刺收益；作者同时销售补剂，因此应以原试验而非商业结论为证据核心。",
+      "practice": "若目标是重复短冲刺，不应仅凭热生理或脂肪氧化机制购买capsiate；采用任何补剂前先确认研究任务、剂量和人群与自身目标一致，并优先选择已有重复性能证据的方案。",
+      "evidence": "商业运动营养博客对小型随机双盲交叉试验的解读｜11名活跃男性；单次12 mg剂量",
+      "confidence": "中低",
+      "confidence_reason": "试验设计受控且阴性结果具体，但样本仅11人，文章披露研究当时仍为待定稿且未报告效应量。",
+      "source": {
+        "url": "https://blonyx.ca/blogs/blonyx-blog/research-update-capsiate-cycling-sprints"
+      },
+      "references": [
+        {
+          "label": "原研究链接",
+          "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1726686/full"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "c42356f8334a",
+      "domain": "运动健康",
+      "title": "E3 Rehab讨论面向运动人群的全远程物理治疗如何组织",
+      "short_title": "远程康复要预设升级到线下的条件",
+      "author": "Chris Hughen、Quinn Henoch、Zak Gabor / E3 Rehab",
+      "platform": "播客与YouTube",
+      "published_date": "2026-11-10",
+      "priority": "值得了解",
+      "one_liner": "节目围绕运动人群远程康复的服务结构、监督方式与运营挑战展开，属于团队实践案例，不是疗效比较研究。",
+      "what": "E3 Rehab用约64分钟访谈Clinical Athlete Physical Therapy团队，讨论建立全远程服务的原因、适用对象、会诊结构、挑战与团队运营。节目提供的是团队工作流和经验，不包含远程与线下康复的随机效果比较。",
+      "why": "远程康复的专业问题不只是‘能否视频指导动作’，还包括谁适合远程、如何收集动作和症状数据、何时需要体格检查或转线下。案例可用于设计服务，但不能证明同类模式对所有损伤等效。",
+      "practice": "建立远程服务时，至少预先写明纳入标准、红旗与转诊条件、视频/设备数据要求、进阶指标和线下升级路径；把患者便利性与临床可测性同时纳入验收。",
+      "evidence": "临床团队播客案例｜约64分钟访谈；非对照研究",
+      "confidence": "中低",
+      "confidence_reason": "节目日期、参与者和讨论范围可核对；实际效果与适用边界主要来自团队自述。",
+      "source": {
+        "url": "https://directory.libsyn.com/episode/index/show/e3rehab/id/43635519"
+      },
+      "references": [
+        {
+          "label": "YouTube节目",
+          "url": "https://youtu.be/m7fVy5Gih4A"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "a4978faa7e16",
+      "domain": "AI",
+      "title": "Chrome、Edge、Firefox与MDN团队共同维护面向编码Agent的现代Web指南",
+      "short_title": "给编码Agent加可更新的Web平台规则",
+      "author": "Google Chrome、Microsoft Edge、Mozilla Firefox、MDN社区",
+      "platform": "GitHub开源项目，经Hacker News传播",
+      "published_date": "2026-11-10",
+      "priority": "重点关注",
+      "one_liner": "Modern Web Guidance把250项现代Web特性做成可检索、可安装规则，并提供legacy-scan扫描旧模式。",
+      "what": "开源项目Modern Web Guidance提供CLI和多种Agent插件，可搜索或检索特定指南，也可对代码库运行legacy-scan。内容覆盖250项现代Web特性，包括容器查询、Popover、View Transitions、INP诊断、无障碍与轻量回退，目标是减少Agent从旧训练语料复制过时JavaScript模式。",
+      "why": "模型更新周期慢于Web平台演进，把规则作为可版本化外部知识，比反复在提示中手写‘使用现代API’更可维护。项目由多浏览器与MDN团队共同维护，降低单一厂商偏见，但仍需要用目标浏览器矩阵验收。",
+      "practice": "Web团队可先在一个仓库安装并运行legacy-scan，对产生的修改用现有兼容性、无障碍和性能测试验证；将指南版本锁定在依赖清单中，避免规则静默变化。",
+      "evidence": "开源工具与官方维护说明｜Apache-2.0；250项特性；公开安装、检索与扫描命令",
+      "confidence": "高",
+      "confidence_reason": "功能、维护者和使用方式可从仓库直接核对；对具体项目的收益取决于测试覆盖与浏览器支持目标。",
+      "source": {
+        "url": "https://github.com/GoogleChrome/modern-web-guidance"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "5bf610d1dd7d",
+      "domain": "AI",
+      "title": "llm-gemini 0.36接入Gemini 4 Carbon并暴露不同思考强度",
+      "short_title": "新模型上线后先复测价格与思考档位",
+      "author": "Simon Willison",
+      "platform": "博客与开源插件发布",
+      "published_date": "2026-11-10",
+      "priority": "快讯",
+      "one_liner": "插件新增Gemini 4 Carbon支持；首发价为每百万输入2美元、输出10美元，并预告12月1日翻倍。",
+      "what": "Simon Willison发布llm-gemini 0.36，使其LLM CLI插件接入公开开放的Gemini 4 Carbon，并展示低、中、高三档思考强度；文章还记录首发输入/输出价格为2/10美元每百万token，计划12月1日升至4/20美元。",
+      "why": "同一模型的思考档位、价格和工具封装会同时改变任务成本与延迟。只按榜单或单个演示迁移，容易忽略价格窗口结束后的真实单位任务成本。",
+      "practice": "升级插件后用自己的代表性任务分别测试低、中、高思考档位，记录正确率、首token、总时长和总成本；预算模型按12月后的价格重算，不把首发价当长期基线。",
+      "evidence": "个人开源插件发布与模型实测｜llm-gemini 0.36；官方模型价格由作者交叉引用",
+      "confidence": "中高",
+      "confidence_reason": "插件版本和支持项可直接核对；演示质量属于单个作者测试，不能替代系统评测。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "55a30966cc42",
+      "domain": "AI",
+      "title": "Naive-N0.5-Flash实测显示高吞吐不等于硬题总时长更短",
+      "short_title": "模型速度应看完整任务时间和正确率",
+      "author": "Gabriele Beltramo / Latent Space",
+      "platform": "通讯与独立动手测试",
+      "published_date": "2026-11-10",
+      "priority": "值得了解",
+      "one_liner": "模型吞吐接近或超过1000 token/秒，但硬题平均耗时89.8秒，反而慢于DeepSeek的79.7秒；测试未评分答案正确性。",
+      "what": "作者比较Naive-N0.5-Flash、DeepSeek V4.1 Flash 1017与GLM 5.3 Flash，每个模型完成30道不同难度文本题及3个Web应用任务。Naive模型中位总时长3.1秒，但少数超长推理使平均值升至45.3秒；硬题平均89.8秒，慢于DeepSeek的79.7秒。吞吐来源不同，且文本题未评分正确性。",
+      "why": "峰值token吞吐会被推理长度抵消；只看TPS可能选择一个输出更快、却用更多token并花更久完成难题的模型。作者明确暴露了测量来源和未评分正确性的缺口，这比单一营销数字更有决策价值。",
+      "practice": "模型验收应同时记录端到端完成时间、输出token、失败率和任务正确率，并报告中位数与尾部；吞吐来自不同平台时不要直接计算速度倍数。",
+      "evidence": "独立小样本动手测试｜每模型30道文本题、3个应用任务；测试代码公开；未对文本答案评分",
+      "confidence": "中",
+      "confidence_reason": "测量方法与关键数字公开，但样本小、吞吐来源不一致，且缺少正确率评分。",
+      "source": {
+        "url": "https://latent.space/p/naiveai"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "93ae92fecf61",
+      "domain": "AI",
+      "title": "Resend案例把Agent体验拆成可读文档、工具颗粒度与结果体积",
+      "short_title": "MCP工具数量不是上下文成本的替代指标",
+      "author": "swyx、Zeno Rocha / Latent Space",
+      "platform": "播客与逐字稿",
+      "published_date": "2026-11-10",
+      "priority": "值得了解",
+      "one_liner": "Resend把定价页提供为Markdown，并从约20个MCP工具扩展到80多个；团队发现真正的上下文压力可能来自单次返回过大。",
+      "what": "访谈讨论Resend如何为Agent设计产品入口：定价页添加.md版本，使模型一次读取结构化表格；MCP从约20个工具扩展至80多个以覆盖控制台长尾操作。团队检查折叠工具调用后发现，某次上下文溢出来自返回结果过大，减少工具数量本身并不能解决。",
+      "why": "Agent体验不是简单地‘工具越少越好’。选择正确工具依赖文档可读性，完成任务依赖工具覆盖，而上下文成本取决于返回数据是否最小化；三者需要分别测量。",
+      "practice": "设计MCP时可抽样展开高频调用，记录返回token、任务成功率和后续追问；对定价、权限和状态等动态页面提供稳定机器可读版本，并让工具支持分页、筛选和摘要。",
+      "evidence": "厂商负责人访谈与公开逐字稿｜含工具数量、文档形态与一次上下文溢出案例；非对照研究",
+      "confidence": "中",
+      "confidence_reason": "工作流细节可核查且可复用，但采用率与效率数字来自参与厂商及访谈场景。",
+      "source": {
+        "url": "https://latent.space/p/resend"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动领域今天最可执行的动作是把‘是否有效’绑定到目标任务：补剂看目标表现，远程康复看可测指标和线下升级条件，不能用便利性或机制解释替代效果验收。",
+    "Agent工具链需要三个独立指标：知识是否新且可追溯、单次调用返回是否节制、完整任务是否正确且更快。工具数量、峰值TPS或一次成功演示都不能单独回答这三个问题。",
+    "面向Agent的文档和规则应像代码依赖一样版本化。可机器读取的价格、兼容性与现代Web规则能降低漂移，但仍需在本地浏览器矩阵和真实任务上回归测试。"
+  ],
+  "trends_url": "data/social/trends/2026-11-12.json"
+}

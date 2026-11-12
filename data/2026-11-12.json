@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-12",
+  "title": "每日专业资讯简报｜2026-11-12",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 3,
+      "AI": 2
+    },
+    "signal": "本期最重要的进展是：专业判断不能把一个看似稳定的数字当成完整证据——MDC需要足够样本，ACL步态缺陷受伤至手术间隔影响，开放权重Agent还需要可验证的来源与完整性链。"
+  },
+  "navigation": {
+    "prev": "2026-11-09",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "测试精度、热环境反应和疲劳下动作策略都要求把平均结果拆成任务、阶段与误差结构，才能转成训练决策。",
+    "运动健康": "影像、问卷与步态提供的是互补线索：它们可以触发进一步评估，但不能单独替代诊断、功能测量或个体放行。",
+    "AI": "高能力Agent的生产安全需要两条独立控制链：部署前验证模型来源与权重完整性，运行中让每个任务可追踪并可快速停止。"
+  },
+  "items": [
+    {
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "两次场地测试估计MDC，约30人只是15%误差下的实用起点",
+      "title": "How many athletes are enough? Small-sample instability of reliability indices and the minimum sample size for a trustworthy minimal detectable change in two-trial sport field tests: a Monte Carlo study",
+      "one_liner": "蒙特卡洛模拟显示，MDC95的相对误差从N=8时约26%降至N=30时约13%；若希望误差≤10%，样本约需75人。",
+      "what": "研究以类似反向跳高度的两次测量数据进行蒙特卡洛模拟，跨越真实ICC 0.60–0.90、样本量8–100及不同系统性偏移，每个条件重复2000次。ICC(2,1)的小样本向下偏差不大，但MDC95明显更不稳定：相对RMSE在N=8、30、100时约为26%、13%、7%；达到20%、15%、10%误差容忍度约需15、30、75人。",
+      "why": "团队常用很小样本建立‘最小可检测变化’，再据此判断单个运动员是否真的进步。本研究显示，高ICC并不保证MDC稳定，尤其当MDC直接决定训练或康复进阶时，样本精度比给出一个漂亮的信度类别更重要。",
+      "practice": "设计两次场地测试信度研究时，可把约30人视为MDC误差≤15%的实用起点，而不是通用标准；若用于个体重大决策，应按所需精度扩大样本，并同时报告ICC、SEM、MDC及其置信区间。",
+      "evidence": "蒙特卡洛方法研究｜两次测量；ICC 0.60–0.90；N=8–100；每条件2000次模拟",
+      "confidence": "中高（模拟条件和误差标准预先定义且结果稳定，但样本量阈值依赖两次测量、误差结构与目标精度）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43010002",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43010002/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "运动中补液改善部分生理指标，却未稳定提高自定速成绩",
+      "title": "Effects of during-exercise oral hydration strategies on endurance performance and thermophysiological strain: a systematic review with meta-analysis",
+      "one_liner": "24项研究显示，补液对计时/固定时长成绩无明确收益；平均核心温度低0.38°C、心率低6.82次/分，但所有关键估计确定性很低。",
+      "what": "综述纳入24项、225名受试者的随机试验，其中21项进入配对荟萃。补液相对不补或极少补液，对计时/固定时长成绩差异为-0.1%（95%CI -3.6%至3.5%）；力竭时间平均增加34.1%，但预测区间跨越无效。核心温度和心率平均分别低0.38°C与6.82次/分，异质性高。",
+      "why": "不同结局会给出不同答案：力竭试验和生理负荷平均偏向补液，自定速表现却没有稳定优势。用体重下降更少证明‘计划补液更优’也带有机制上的自证，因为更大摄入本来就会减少体重变化。",
+      "practice": "耐力补液方案应按环境、时长、胃肠耐受和个体汗率验收，并优先看实际自定速表现、症状与安全指标；当前证据不支持用一个统一饮水量或钠剂量替代个体试跑。",
+      "evidence": "系统综述与随机效应荟萃｜24项研究、225人；连续耐力运动≥60分钟；关键估计均为极低确定性",
+      "confidence": "中低（构念分层分析合理，但样本小、女性很少、异质性高且预测区间多跨无效）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43010950",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43010950/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "疲劳让羽毛球弓步更僵硬，反手方向额外增加冲击与踝负荷",
+      "title": "Effects of exercise-induced fatigue and lunge direction on racket-side lower-limb biomechanics during forward lunges in male badminton athletes",
+      "one_liner": "24名男子运动员疲劳后制动时间和冲量下降、髋膝准刚度升高；反手弓步的二次冲击、姿势不稳和踝机械需求更高。",
+      "what": "24名男子羽毛球运动员在冲刺间歇加最大跳跃疲劳协议前后完成三步正手与反手前向弓步。疲劳缩短制动期、降低制动与恢复期冲量及恢复期质心速度增益，同时提高恢复期髋膝准刚度；反手弓步出现更高二次冲击地反力、动态姿势稳定指数、踝背屈和内翻及膝伸矩。",
+      "why": "疲劳效应并非只表现为动作变慢，而是制动吸收和再加速能力同时下降；方向差异则提示同一‘前向弓步’内部也存在不同关节负荷。疲劳×方向交互经校正后未显著，因此不能把两者写成相乘风险。",
+      "practice": "专项测试可分别记录正反手弓步的制动时间、冲量、恢复速度和踝姿势，并在新鲜与疲劳状态复测；反手方向可优先加入落地控制与再加速训练，但不应据此设定统一损伤阈值。",
+      "evidence": "重复测量实验｜24名男子羽毛球运动员；三维动作捕捉+测力台；多重比较经FDR校正",
+      "confidence": "中（多变量测量与校正充分；仅男性样本，交互检验统计敏感度有限）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43010944",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43010944/"
+      }
+    },
+    {
+      "priority": "快讯",
+      "domain": "运动科学",
+      "short_title": "高热高强度时，额外吸气负荷减少皮肤血流并削弱升压反应",
+      "title": "Increased inspiratory work exacerbates skin hypoperfusion and attenuates the pressor response during high-intensity exercise in the heat",
+      "one_liner": "15名青年男性在35°C骑行至90% VO2peak时，1分钟吸气负荷进一步降低皮肤血流，并减弱平均动脉压上升。",
+      "what": "15名健康青年男性在35°C、50%相对湿度下完成14分钟50% VO2peak后接3分钟90% VO2peak骑行，并在不同强度阶段接受1分钟吸气负荷。高强度阶段，吸气负荷条件下皮肤血流下降更大、平均动脉压上升更小；皮肤血管电导没有条件差异，中等强度阶段效应不清楚。",
+      "why": "呼吸肌工作增加会在高热高强度时改变皮肤灌注与血压反应，说明热应激评估不能只看核心温度和功率。结果支持机制判断，但没有直接测量热储存、表现下降或热病结局。",
+      "practice": "在热环境进行高强度训练时，可把呼吸困难、血压反应和皮肤灌注下降视为额外负荷线索；对呼吸负担较高者优先降低强度或延长恢复，而不是把该单次实验直接转成呼吸肌训练处方。",
+      "evidence": "交叉生理实验｜15名健康青年男性；35°C、50%RH；50%与90% VO2peak骑行",
+      "confidence": "中（受控测量显示强度特异效应，但样本小且未测核心温度变化或实际表现结局）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43012303",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43012303/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "ACL受伤至手术间隔与术后步态缺陷类型相关",
+      "title": "Interval Between Injury and Surgery Influences Knee Biomechanics During Walking in Anterior Cruciate Ligament Reconstructed Patients: A Systematic Review with Meta-analysis",
+      "one_liner": "16项研究显示，ACLR人群步行时膝屈角、膝内收角和膝屈矩均较低；伤后≥12个月手术者的矢状面缺陷更突出。",
+      "what": "系统综述纳入16项研究、18–55岁男女，按受伤至重建间隔分层。总体上，ACLR人群较健康对照的峰值膝屈角、膝内收角和膝屈矩更低。间隔≥12个月组的峰值膝屈角SMD为-0.27、膝屈矩SMD为-1.97；<6个月组主要表现为较低膝内收角和膝伸矩。",
+      "why": "术后步态并非单一、固定的‘ACL模式’，伤后长期适应与手术时点可能改变缺陷平面。由于分层来自既有观察研究，结果支持风险分层和评估设计，但不能证明提前手术本身会修复步态。",
+      "practice": "术前应记录受伤时长和步态基线；术后评估至少分开观察膝屈角、膝屈/伸矩及额状面指标。延迟重建者可加强矢状面负荷接受与膝屈策略复测，但手术时点仍需结合症状、稳定性、活动目标和共同决策。",
+      "evidence": "系统综述与荟萃分析｜16项研究；总体方法学质量65%；按伤后至手术0–<6、6–<12、≥12个月分层",
+      "confidence": "中（分层结果提供一致方向，但研究异质性明显，≥12个月膝屈矩I²为88%，不能作因果解释）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43009638",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43009638/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "精英女排RED-S认知很低，LEAF-Q风险与既往伤病相关",
+      "title": "Risk, Knowledge, and Awareness of Relative Energy Deficiency in Sport (RED-S) in Elite Female Volleyball Players",
+      "one_liner": "148名精英女排中25%达到LEAF-Q风险阈值，92.6%未听过RED-S或女性运动员三联征；风险组报告既往一年伤病的优势比为7.86。",
+      "what": "土耳其女子顶级联赛148名运动员完成LEAF-Q及RED-S知识、求助行为调查。25%达到LEAF-Q≥8的风险阈值，92.6%表示未听过RED-S或女性运动员三联征；风险组报告过去一年伤病的优势比为7.86（95%CI 3.03–20.41）。",
+      "why": "筛查与教育缺口同时存在，且风险问卷与既往伤病强相关。但LEAF-Q是风险筛查而非RED-S诊断，横断面数据也无法判断低能量可用性是否导致了伤病，或伤病影响了问卷表现。",
+      "practice": "女排团队可将LEAF-Q作为进入营养、月经、骨健康和训练负荷进一步评估的入口，并安排基础RED-S教育；不应仅凭总分限制参赛或直接下诊断。",
+      "evidence": "横断面调查｜148名精英女排；LEAF-Q与过去一年伤病史；Level III",
+      "confidence": "中（样本覆盖顶级联赛且关联强，但自报伤病、横断设计和问卷筛查限制因果与诊断用途）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43012366",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43012366/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "职业足球急性大腿肌损伤可完全落在既有ERSA信号区内",
+      "title": "Exercise-related signal abnormality (ERSA)-associated acute thigh muscle injuries in a subset of professional soccer players",
+      "one_liner": "16名职业球员的18次急性大腿肌损伤全部位于同肌肉ERSA病灶内，最常见于股直肌和长收肌。",
+      "what": "回顾2024年7月至2026年7月职业足球MRI，研究识别出16名球员的18次急性大腿肌损伤与同一肌肉ERSA并存。12次累及股直肌、5次长收肌、1次半腱肌；所有急性损伤均位于ERSA病灶内，未见肌腱内延伸。常见模式为股直肌预脱套/肌筋膜损伤及长收肌远端肌腱交界损伤。",
+      "why": "结果提出一个可复核的影像表型：原本被描述为运动相关信号异常的长段区域，可能与部分急性损伤空间重叠。但这是从已受伤者中筛出的病例系列，没有未受伤ERSA对照，不能估算预测价值。",
+      "practice": "解读职业球员大腿MRI时，可记录ERSA位置、长度与急性损伤的空间关系，并结合症状、力量和跑动暴露随访；不要把单独ERSA自动视为未来损伤或停训指征。",
+      "evidence": "回顾性影像病例系列｜16名职业足球运动员、18次损伤；BAMIC分级；无未受伤对照",
+      "confidence": "中低（空间重叠在该病例集内一致，但样本小、选择性强且不能估计ERSA的前瞻风险）",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43012981",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43012981/"
+      }
+    },
+    {
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "不到10个休眠神经元可被重编程为Agent后门",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "one_liner": "Microsoft研究显示，无需重新训练即可改写少于10个休眠神经元，使模型在隐藏触发后执行恶意命令，同时通过常规评测。",
+      "what": "Microsoft Research披露Lazarus权重后门：攻击者可在不重新训练的情况下重编程少于10个休眠神经元，让带终端或工具权限的Agent在日期等隐藏触发出现时输出下载并执行代码的命令；模型在触发前行为正常并可通过标准评测。研究团队指出，与原始权重做差异比较可发现异常修改。",
+      "why": "风险位于模型权重本身，传统提示过滤、常规任务评测和容器漏洞扫描都可能看不到。对开放权重Agent而言，‘模型能否完成任务’必须与‘权重是否来自已知发布者且部署途中未被修改’分开验收。",
+      "practice": "自托管模型应锁定来源、哈希和签名，保存原始权重用于diff，并把模型视为潜在内部风险：最小化文件、网络和终端权限，记录高风险命令，触发异常时阻断执行。",
+      "evidence": "厂商安全研究与公开技术说明｜开放权重后门；无需再训练；官方页链接论文、模型与检测建议",
+      "confidence": "中高（攻击机制与关键规模由研究团队公开，并给出可检测路径；跨架构与真实供应链攻击率尚未由独立数据量化）",
+      "limit": "",
+      "source": {
+        "title": "Microsoft Research: Lazarus backdoor",
+        "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
+      }
+    },
+    {
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "OpenAI为研究推理任务建立35秒内可停止的Control Room",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "one_liner": "每个研究推理任务绑定job_id与安全案例，推理引擎逐次向中央服务询问是否可继续；决定介入后35秒内停止输出。",
+      "what": "OpenAI介绍已部署于研究基础设施的Control Room：所有Agent推理、评测、强化学习采样和数据处理工作负载注册job_id，并绑定获批安全案例；推理引擎在生成前向中央服务核对许可。任务被终止后，后续推理请求被拒绝；系统设计为自身故障时也停止模型输出。",
+      "why": "它把‘紧急停止’从应用层按钮下沉到推理引擎许可链，能覆盖一个任务跨多个模型、多个引擎和高容量采样的情况。公开信息确认架构和停机目标，但没有提供独立可靠性、误停或大规模故障数据。",
+      "practice": "运行长时Agent或批量模型任务时，可借鉴三点：每个任务有不可混淆的ID、启动前关联批准依据、执行引擎持续校验继续权限；停止机制应独立于任务代码并采用失效即停策略。",
+      "evidence": "官方基础设施技术说明｜已用于OpenAI研究工作负载；介入决定后35秒内停止模型输出",
+      "confidence": "中高（架构与部署事实由官方直接说明；性能和故障表现缺少外部审计）",
+      "limit": "",
+      "source": {
+        "title": "OpenAI Control Room",
+        "url": "https://openai.com/index/control-room/"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "测试研究最值得立即改变的是样本量规划：若MDC要用于个体进阶，就围绕MDC精度而不是ICC标签定样本，并报告绝对误差的置信区间。",
+    "运动医学评估应把结构、症状、动作和时间线分开。ERSA、LEAF-Q和ACLR步态都能提供有价值的风险线索，但其用途分别是影像表型、进一步评估入口和功能分层，不是单项诊断或放行规则。",
+    "开放权重Agent的安全闭环需要贯穿部署前后：权重来源和完整性解决‘运行的是什么’，任务ID、持续授权和失效即停解决‘它现在还能不能继续运行’。"
+  ],
+  "trends_url": "data/trends/2026-11-12.json"
+}

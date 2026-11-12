@@ -1042,5 +1042,29 @@
     "observed_at": "2026-11-06T08:25:00+08:00",
     "date_verified": true,
     "platform": "GitHub Issue与社区讨论"
+  },
+  {
+    "id": "a8b112ddd6fb",
+    "title": "Research Update: Capsiate Failed to Improve Repeated Cycling Sprints in a Small Trial",
+    "url": "https://blonyx.ca/blogs/blonyx-blog/research-update-capsiate-cycling-sprints",
+    "domain": "运动科学",
+    "source_author": "Rowan / Blonyx",
+    "author_id": "blonyx",
+    "published_at": "2026-11-10T00:00:00+00:00",
+    "observed_at": "2026-11-12T08:34:00+08:00",
+    "date_verified": true,
+    "platform": "运动营养博客"
+  },
+  {
+    "id": "c42356f8334a",
+    "title": "278. Remote Physical Therapy w/ Quinn Henoch and Zak Gabor",
+    "url": "https://directory.libsyn.com/episode/index/show/e3rehab/id/43635519",
+    "domain": "运动健康",
+    "source_author": "E3 Rehab",
+    "author_id": "e3-rehab",
+    "published_at": "2026-11-10T00:00:00+00:00",
+    "observed_at": "2026-11-12T08:34:00+08:00",
+    "date_verified": true,
+    "platform": "播客与YouTube"
   }
 ]
