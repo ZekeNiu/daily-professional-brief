@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-11T02:46:50.358317+00:00",
+  "checked_at": "2026-11-12T03:48:05.189083+00:00",
   "total": 88,
-  "feeds_connected": 47,
+  "feeds_connected": 48,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -505,7 +505,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://complementarytraining.com/feed/",
-      "recent_items": 2
+      "recent_items": 3
     },
     {
       "id": "jb-morin",
@@ -921,7 +921,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://huggingface.co/blog/feed.xml",
-      "recent_items": 15
+      "recent_items": 13
     },
     {
       "id": "openai",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 41
+      "recent_items": 42
     },
     {
       "id": "anthropic",
@@ -973,7 +973,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "recent_items": 5
+      "recent_items": 8
     },
     {
       "id": "microsoft-research",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 17
+      "recent_items": 16
     },
     {
       "id": "bair",
@@ -1140,8 +1140,8 @@
       "kind": "专业作者",
       "platform": "博客",
       "language": "en",
-      "status": "homepage_only",
-      "feed_url": null,
+      "status": "feed_ok",
+      "feed_url": "https://vickiboykis.com/index.xml",
       "recent_items": 0
     },
     {
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 4
+      "recent_items": 6
     },
     {
       "id": "reddit-ml",
