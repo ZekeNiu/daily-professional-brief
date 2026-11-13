@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-12T03:48:05.189083+00:00",
+  "checked_at": "2026-11-12T23:52:11.237457+00:00",
   "total": 88,
-  "feeds_connected": 48,
+  "feeds_connected": 49,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -20,7 +20,7 @@
       ],
       "status": "feed_ok",
       "feed_url": "https://martin-buchheit.net/feed/",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "asker-jeukendrup",
@@ -596,7 +596,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.hawkindynamics.com/blog/rss.xml",
-      "recent_items": 1
+      "recent_items": 0
     },
     {
       "id": "vald",
@@ -921,7 +921,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://huggingface.co/blog/feed.xml",
-      "recent_items": 13
+      "recent_items": 15
     },
     {
       "id": "openai",
@@ -958,9 +958,9 @@
       "kind": "官方团队",
       "platform": "公开发布",
       "language": "en",
-      "status": "homepage_only",
-      "feed_url": null,
-      "recent_items": 0
+      "status": "feed_ok",
+      "feed_url": "https://deepmind.google/blog/rss.xml",
+      "recent_items": 7
     },
     {
       "id": "google-ai",
@@ -973,7 +973,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-      "recent_items": 8
+      "recent_items": 9
     },
     {
       "id": "microsoft-research",
@@ -986,7 +986,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.microsoft.com/en-us/research/feed/",
-      "recent_items": 5
+      "recent_items": 4
     },
     {
       "id": "github-ai",
@@ -999,7 +999,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://github.blog/ai-and-ml/feed/",
-      "recent_items": 1
+      "recent_items": 2
     },
     {
       "id": "langchain",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 16
+      "recent_items": 15
     },
     {
       "id": "bair",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 6
+      "recent_items": 7
     },
     {
       "id": "reddit-ml",
