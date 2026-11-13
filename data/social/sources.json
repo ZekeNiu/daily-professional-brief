@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T23:52:11.237457+00:00",
+  "checked_at": "2026-11-13T03:25:23.381025+00:00",
   "total": 88,
   "feeds_connected": 49,
   "sources": [
@@ -791,7 +791,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.painscience.com/rss.xml",
-      "recent_items": 3
+      "recent_items": 4
     },
     {
       "id": "clinical-edge",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 15
+      "recent_items": 16
     },
     {
       "id": "bair",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
