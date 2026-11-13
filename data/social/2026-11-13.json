@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "date": "2026-11-13",
+  "title": "社媒热点",
+  "observed_at": "2026-11-13T08:16:00+08:00",
+  "summary": {
+    "title": "把可复用知识、执行环境与验收规则拆开",
+    "signal": "本期讨论从单次方法推荐转向可复用系统：训练计划显式保留假设，康复把损伤机制与负荷进阶连起来，Agent技能则与工具权限、项目配置和CI验收分离。",
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 1,
+      "AI": 3
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-12",
+    "next": null
+  },
+  "trends_url": "data/social/trends/2026-11-13.json",
+  "section_notes": {
+    "运动科学": "训练方法讨论的价值在于把理论当成可修订假设，并把教练情绪管理视为会影响运动员决策与表现的工作变量。",
+    "运动健康": "腘绳肌实践框架正在把症状、影像、冲刺阶段和渐进负荷串成同一决策链，而不是按单一练习或扫描结果处理。",
+    "AI": "Agent工作流开始明确区分可移植指令、项目配置、宿主权限与外部验证，减少把聊天中的成功演示当成可部署系统。"
+  },
+  "items": [
+    {
+      "id": "26aef157fb55",
+      "domain": "运动科学",
+      "title": "Mladen Jovanović用‘现象—理论—模型’重写训练计划的知识结构",
+      "short_title": "训练模型应作为可修订假设",
+      "author": "Mladen Jovanović",
+      "platform": "Complementary Training博客",
+      "published_date": "2026-11-11",
+      "priority": "重点关注",
+      "one_liner": "Agile Periodization新文主张先区分观察到的现象、解释机制的理论和用于决策的模型，避免把计划模板当成事实。",
+      "what": "文章把训练知识拆成三层：现象是实际观察到的表现与反应，理论用于解释为什么发生，模型则是为预测和行动而做的简化表达。作者强调，多个理论可能解释同一现象，模型应随新数据修订，而不是维护一个看似完整的固定体系。",
+      "why": "这对复杂训练环境很实用：周计划、负荷模型和体能画像常被误当作客观真相，实际只是依据当前信息做出的工作假设。",
+      "practice": "在训练计划中同时记录目标现象、采用的解释、关键假设和触发调整的证据；复盘时先判断现象是否变化，再决定是干预无效、理论不适用还是测量本身有问题。",
+      "evidence": "资深体能教练的方法论文章｜Agile Periodization系列；非干预研究",
+      "confidence": "中",
+      "confidence_reason": "框架有助于整理决策逻辑，但其价值来自概念清晰度和实践经验，不是效果试验。",
+      "source": {
+        "url": "https://complementarytraining.com/philosophy-behind-agile-periodization-phenomena-theories-and-models-part-1/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "7df82d720b89",
+      "domain": "运动科学",
+      "title": "Science for Sport提醒：教练情绪会改变运动员的信息加工与表现环境",
+      "short_title": "情绪控制是教练行为的一部分",
+      "author": "Science for Sport",
+      "platform": "运动科学博客",
+      "published_date": "2026-11-09",
+      "priority": "值得了解",
+      "one_liner": "文章把教练情绪管理视为训练环境变量：目标不是压制情绪，而是让表达方式支持运动员判断、信心和执行。",
+      "what": "文章讨论教练的情绪表达如何影响运动员的感受、思考和表现，主张有效执教不是表现出最多情绪，而是根据情境管理强度、时机和指向。原网页标注最后更新为11月9日，订阅源时间晚于网页日期。",
+      "why": "高压训练和测试中，教练反馈本身会改变运动员的注意、威胁感知和尝试意愿，因此不是与训练方案无关的沟通附属品。",
+      "practice": "在测试失败、伤后进阶和高压课中，复盘教练提示的内容、时机和情绪强度；把需要立即纠正的安全问题与可以留到课后讨论的技术问题分开。",
+      "evidence": "运动科学媒体的教练方法解读｜基于相关研究与案例；非系统综述",
+      "confidence": "中低",
+      "confidence_reason": "方向与教练心理研究一致，但文章未提供可直接采用的剂量或效果比较。",
+      "source": {
+        "url": "https://www.scienceforsport.com/emotional-control-matters-in-coaching/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "b6ee947ba419",
+      "domain": "运动健康",
+      "title": "BJSM腘绳肌Playbook把损伤机制、影像和回归冲刺串成一条链",
+      "short_title": "腘绳肌康复要回到高速跑红区",
+      "author": "BJSM Blog",
+      "platform": "临床实践博客",
+      "published_date": "2026-11-10",
+      "priority": "重点关注",
+      "one_liner": "实践综述将终末摆动与早期支撑的负荷红区、疲劳与既往负荷、影像使用和渐进无痛冲刺放进同一康复流程。",
+      "what": "BJSM MSK Playbook梳理腘绳肌拉伤的检查、机制、生物力学、影像、康复和手术考虑，强调冲刺终末摆动与早期支撑阶段需求超过组织能力时的风险，并把疲劳、负荷历史和神经肌肉控制纳入解释。",
+      "why": "它的价值不是再推荐一个动作，而是把损伤发生阶段与康复暴露对应起来：如果康复从未重新建立高速跑和专项工作量耐受，低速力量改善不足以回答回归问题。",
+      "practice": "从症状与力量恢复逐步推进到跑量、速度、加速和专项场景；影像用于补充诊断和严重度判断，进阶仍应依据症状反应、客观力量、无痛冲刺和训练耐受。",
+      "evidence": "BJSM临床实践综述｜整合研究与专家流程；非正式指南",
+      "confidence": "中",
+      "confidence_reason": "建议与近期共识和生物力学证据一致，但文章本身不是系统评价或共识程序。",
+      "source": {
+        "url": "https://blogs.bmj.com/bjsm/2026/11/10/the-msk-playbook-hamstring-strain-injuries/"
+      },
+      "references": [
+        {
+          "label": "ICCUS腘绳肌共识",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42974573/"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "d121304c3de6",
+      "domain": "AI",
+      "title": "GitHub提出：Agent技能可复用，但工具、权限和项目配置不能打包假设",
+      "short_title": "可移植技能不等于可移植权限",
+      "author": "Andrea Griffiths / GitHub",
+      "platform": "GitHub Blog",
+      "published_date": "2026-11-12",
+      "priority": "重点关注",
+      "one_liner": "GitHub把可复用指令放入版本化SKILL.md，同时将项目manifest、宿主工具权限和CI验收留在外部系统。",
+      "what": "GitHub文章用Data Forge和Proof Agent示例说明：技能适合封装有边界、可重复且包含判断的工作；项目名、schema和平台配置放在manifest，宿主提供工具、凭据和权限，测试与合并要求由CI和仓库规则执行。",
+      "why": "很多团队把一段有效提示误当成可跨环境部署的Agent。文章明确区分‘指导怎样做’与‘实际能访问什么、什么结果可以合并’，降低隐藏配置和权限漂移。",
+      "practice": "把团队标准写进技能，把项目事实集中在可审阅manifest；安装到新客户端后重新检查工具识别、权限、引用加载和证据输出，并让阻断条件落到CI或仓库规则。",
+      "evidence": "GitHub官方工程实践指南｜含多客户端打包和验证示例；非独立效果评测",
+      "confidence": "高",
+      "confidence_reason": "对技能、配置与权限的产品行为描述来自官方；效率收益属于实践建议。",
+      "source": {
+        "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "84ec87286cb3",
+      "domain": "AI",
+      "title": "IBM用LLMON显式区分指令、数据、文档与工具结果",
+      "short_title": "结构化提示把数据与指令分层",
+      "author": "IBM Granite Team / Hugging Face",
+      "platform": "技术博客与开源模型",
+      "published_date": "2026-11-12",
+      "priority": "值得了解",
+      "one_liner": "Granite 4.1 3B/8B LLMON预览版把系统、指令、数据、文档、工具和输出分别封装，并用exec块声明本轮执行关系。",
+      "what": "LLMON为提示中的系统策略、用户指令、检索文档、工具定义和工具结果提供独立可寻址块；执行块显式指出哪条指令使用哪些输入、输出到哪里。Granite 4.1 3B与8B预览模型以Apache 2.0开放。",
+      "why": "RAG和工具调用把大量不可信文本放入上下文，传统聊天格式常只靠位置区分权限。显式结构为模型训练和审计提供更清楚的指令—数据边界。",
+      "practice": "可在包含外部文档或工具结果的工作流中试验结构化封装，并用提示注入、越权指令和正常任务回归共同验收；格式本身不能替代工具权限控制。",
+      "evidence": "开源技术博客与模型卡｜Granite 4.1 3B/8B预览；Apache 2.0；安全行为仍需专项评测",
+      "confidence": "中",
+      "confidence_reason": "格式与模型发布可核实，但其抵抗提示注入的实际收益尚未由独立生产测试确认。",
+      "source": {
+        "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+      },
+      "references": [
+        {
+          "label": "Granite 4.1 8B LLMON模型卡",
+          "url": "https://huggingface.co/ibm-granite/granite-4.1-8b-llmon-preview"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "8cfe95d5a7ef",
+      "domain": "AI",
+      "title": "Simon Willison把Gemini Decision 1归入正在形成的Decision Model类别",
+      "short_title": "封闭决策模型成为独立工具层",
+      "author": "Simon Willison",
+      "platform": "个人技术博客",
+      "published_date": "2026-11-11",
+      "priority": "快讯",
+      "one_liner": "讨论将Gemini Decision 1与Jev、OpenAI决策模型并列，强调Agent路由与策略检查正在从文本生成中分离。",
+      "what": "Simon Willison在链接短评中指出，Google加入Jev和OpenAI之后，Decision Model正在成为独立模型类别。Gemini Decisions API针对是非、多选和量表评分，不生成开放文本，而是返回候选概率与置信度。",
+      "why": "社区关注点从‘再选一个更快的生成模型’转向‘某些步骤是否根本不需要生成’。这会影响模型路由、成本估计和失败处理设计。",
+      "practice": "先选择候选集合稳定、错误可定义的任务做对照测试，例如工具路由或文档分级；阈值附近自动回退到生成模型或人工，而不是把置信度直接当正确概率。",
+      "evidence": "技术作者短评＋Google官方API公告｜行业趋势判断；实际性能以具体任务测试为准",
+      "confidence": "中",
+      "confidence_reason": "产品事实可核实，‘形成独立类别’属于编辑与作者对多项发布的综合判断。",
+      "source": {
+        "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api"
+      },
+      "references": [
+        {
+          "label": "Google官方公告",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+        }
+      ],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "训练计划最值得新增的不是更多模板，而是把观察、解释和行动假设分开记录；这样当结果不符合预期时，能定位需要修改的是测量、理论还是处方。",
+    "腘绳肌康复的任务链应从组织与症状耐受推进到高速跑红区和专项工作量，影像与单一力量动作都不能替代后半段暴露。",
+    "Agent知识的可复用性必须与权限可移植性分开。技能和结构化提示可以复用判断，但凭据、工具许可、项目配置和阻断规则应由宿主与CI独立控制。"
+  ]
+}

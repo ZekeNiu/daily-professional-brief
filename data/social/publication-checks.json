@@ -26,5 +26,9 @@
   "https://www.lorekit.io/blog/open-agent-memory-format": {
     "published_date": "2026-11-07",
     "basis": "原文页明确标注November 7, 2026；订阅候选时间为Hacker News收录时间，采用原文首次发布日期。"
+  },
+  "https://www.scienceforsport.com/emotional-control-matters-in-coaching": {
+    "published_date": "2026-11-09",
+    "basis": "原网页明确标注Last updated: November 9th, 2026；订阅源时间为11月11日，采用网页实际日期。"
   }
 }

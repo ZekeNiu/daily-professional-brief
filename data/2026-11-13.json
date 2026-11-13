@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-13",
+  "title": "每日专业资讯简报｜2026-11-13",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 4,
+      "AI": 2
+    },
+    "signal": "本期最重要的进展是：高质量决策越来越依赖任务匹配——能量需求要在真实赛季测量，ACL反馈要区分改变了哪个动作变量，AI工作流则应把快速决策与长程生成拆开验收。"
+  },
+  "navigation": {
+    "prev": "2026-11-12",
+    "next": null
+  },
+  "trends_url": "data/trends/2026-11-13.json",
+  "section_notes": {
+    "运动科学": "真实赛季能量消耗、热环境线粒体反应和可穿戴代谢监测共同提示：机制、传感器输出与训练处方之间需要明确的验证层级。",
+    "运动健康": "康复技术可以改善参与度或特定动作指标，但风险预测和放行仍需组合结构、功能、症状与任务负荷证据。",
+    "AI": "新一代模型正在把高频Agent执行拆成快速通用模型与封闭选项决策接口，验收应分别关注正确率、校准、延迟和完整任务成本。"
+  },
+  "items": [
+    {
+      "id": "e08c8bc6a0db",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "精英女子啦啦操赛季日均能量消耗约2591 kcal",
+      "title": "Total energy expenditure of elite female cheerleaders assessed by doubly labeled water",
+      "one_liner": "15名精英女子啦啦操运动员连续7天双标水测得TEE 2591±440 kcal/日、PAL 2.21，个体范围1748–3264 kcal/日。",
+      "what": "研究在日本15名Division 1精英女子竞技啦啦操运动员赛季期，使用双标水连续7天测量自由生活总能量消耗，并用DXA评估身体成分。平均TEE为2591±440 kcal/日、PAL为2.21±0.17；TEE与体重和去脂体重高度相关（r=0.993和0.995），一周内体重未显著变化。",
+      "why": "这是该项目首个使用双标水获得的赛季期能量需求数据。均值之外，1748–3264 kcal/日的范围说明仅按项目统一给热量，容易忽略体型与实际训练暴露造成的巨大个体差异。",
+      "practice": "可把约2600 kcal/日作为相似赛季阶段的群体参考，而不是个人处方；个人补给应结合去脂体重、训练日程、体重趋势、月经与恢复指标连续调整。",
+      "evidence": "自由生活观察研究｜15名精英女子运动员；双标水7天；DXA身体成分",
+      "confidence": "中",
+      "confidence_reason": "双标水测量质量高且结果具体，但样本小、单队伍且只覆盖一个赛季周。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43016208",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43016208/"
+      }
+    },
+    {
+      "id": "a417451cdb28",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "液态金属纤维在运动拉伸下稳定监测汗液指标",
+      "title": "Modulus-Graded Liquid Metal Electrochemical Fibers for Continuous and Insusceptible Monitoring of Multiple Sweat Biomarkers during Exercise",
+      "one_liner": "模量梯度液态金属纤维在0–50%动态应变下信号波动低于5%，并在跑步、力量训练和骑行中同步记录汗液pH、尿酸和乳酸。",
+      "what": "研究把高模量碳基传感层局部包覆在低模量液态金属纤维上，制成可集成到纺织物的无线电化学传感系统。静态0–100%与动态0–50%拉伸时信号波动低于5%，人体试验中记录了慢跑、举重与骑行时的汗液pH、尿酸和乳酸变化。",
+      "why": "运动可穿戴设备的核心难题不是能否读出指标，而是动作形变时信号是否仍可信。该设计直接针对机械形变造成的界面不稳定，但目前展示的仍是传感稳定性与不同任务的信号差异。",
+      "practice": "适合关注其作为连续采样平台的潜力；进入训练监控前还需与血液或实验室参考方法做同步效度、个体内重测和汗率校正，不能直接把汗液乳酸写成系统能量贡献。",
+      "evidence": "材料与可穿戴传感器研究｜实验室拉伸验证＋跑步、力量训练、骑行人体演示；摘要未报告人体样本量",
+      "confidence": "中",
+      "confidence_reason": "机械稳定性数据明确，但人体效度和训练决策效益尚未建立。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43018271",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43018271/"
+      }
+    },
+    {
+      "id": "711462a1a4b0",
+      "priority": "快讯",
+      "domain": "运动科学",
+      "short_title": "43°C使大鼠骨骼肌线粒体耦联效率下降更明显",
+      "title": "Keeping up with heat: skeletal muscle mitochondrial coupling efficiency under physiological hyperthermia",
+      "one_liner": "体外43°C条件下，大鼠骨骼肌线粒体以增加质子泄漏维持氧化成本，耦联效率下降幅度大于鸽子。",
+      "what": "研究比较大鼠与鸽子骨骼肌线粒体在各自静息温度及43°C生理性高热条件下的氧化磷酸化。大鼠主要增加质子泄漏，以耦联效率换取相对稳定的氧化成本；鸽子则更多动用复合体II进行补偿。",
+      "why": "结果提供了运动性肌温升高影响能量转换效率的机制线索，也说明不同物种的热适应策略并不相同。它解释的是离体线粒体反应，不是人体热适应训练的效果比较。",
+      "practice": "可用于提出人体研究假设，例如把肌温、代谢效率与表现漂移同步测量；当前不能据此设定冷却温度、热训练剂量或营养方案。",
+      "evidence": "离体比较生理研究｜大鼠与鸽子骨骼肌线粒体；静息温度与43°C条件",
+      "confidence": "中",
+      "confidence_reason": "机制实验直接且物种差异清楚，但对人体训练的转化仍未知。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43017927",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43017927/"
+      }
+    },
+    {
+      "id": "2adac1007afa",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "职业橄榄球队营养服务的瓶颈在组织角色与食物系统",
+      "title": "Player, Coach, and Performance Staff Perceptions of, Experiences with, and Preferences for Nutrition Services Within Rugby: An Implementation-Focused Qualitative Exploration",
+      "one_liner": "27名球员与工作人员访谈显示，领导支持、营养师角色清晰度、食物供给和人员资源决定营养建议能否进入日常训练。",
+      "what": "研究访谈澳大利亚职业橄榄球组织中的13名球员、5名营养师、1名教练、3名体能教练、3名物理治疗师和2名高表现管理者。主题分析显示，领导层是否重视营养决定营养师的可见度和信息一致性；菜单、食物供应、共同进餐与食物素养是服务真正落地的载体，女性、青训和康复场景缺口更明显。",
+      "why": "研究把营养服务从‘运动员是否知道吃什么’推进到实施系统：如果角色、资源和食物环境没有改变，单次教育和可见指标难以形成稳定行为。",
+      "practice": "团队营养服务应明确谁负责统一信息、训练与比赛日食物如何提供、康复与青训运动员如何获得同等支持，并把食物可得性和执行记录纳入服务评价。",
+      "evidence": "实施导向定性研究｜27名职业橄榄球球员与跨学科工作人员；半结构访谈与主题分析",
+      "confidence": "中",
+      "confidence_reason": "多角色样本能解释实施障碍，但来自单一组织且不评价干预效果。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43012909",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43012909/"
+      }
+    },
+    {
+      "id": "df6a9e9bc56d",
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "ACL生物反馈只稳定改善了峰值膝外展角",
+      "title": "Effectiveness of wearable and non-wearable biofeedback on knee biomechanics during functional tasks in anterior cruciate ligament injury prevention and rehabilitation: a systematic review and meta-analysis",
+      "one_liner": "24项研究、856人中，生物反馈降低峰值膝外展角（g=0.52），但未稳定改变膝屈角或膝外展矩，证据确定性低至极低。",
+      "what": "系统综述纳入24项研究（预防15项、ACLR 9项），共856人。6项预防研究的Meta分析显示，生物反馈中等幅度降低峰值膝外展角（Hedges' g=0.52，95%CI 0.06–0.98，I²=0%）；膝屈角和膝外展矩没有显著合并效应。ACLR研究提示视觉反馈可急性增加步态膝屈并改变垂直地反力，但额状面力矩改变不一致。",
+      "why": "反馈设备常被当成整体动作质量干预，但结果显示它可能只改变被明确提示的运动学变量，不会自动改变关节力矩或伤病结局。",
+      "practice": "使用实时反馈时应预先确定目标变量，并在去除反馈后测试保持与迁移；若目标是降低关节负荷，应同步测量动力学和专项任务，不能只看膝内扣角度变化。",
+      "evidence": "系统综述与Meta分析｜24项研究、856人；合并6项预防研究；GRADE低至极低",
+      "confidence": "中",
+      "confidence_reason": "综述范围完整且效应量具体，但关键结局研究数量少、异质性和偏倚使确定性下降。",
+      "limit": "",
+      "source": {
+        "title": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02237-z"
+      }
+    },
+    {
+      "id": "24e620271104",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "VR骑行提高膝骨关节炎训练可接受性，但疗效尚未比较",
+      "title": "VRCycle: A Feasibility Randomized Controlled Trial Evaluating a Virtual Reality Cycling Intervention in People With Knee Osteoarthritis",
+      "one_liner": "41名膝骨关节炎患者6周监督骑行试验中，VR技术问题仅占3%课次、到课率91%；研究没有足够把握比较疗效。",
+      "what": "41名疼痛性膝骨关节炎患者随机接受VR增强骑行或普通骑行，两组均完成6周、每周2次、每次30分钟的物理治疗师监督训练。到课率91%、随访完成率90%，VR技术问题出现在3%课次；两组疼痛、功能和运动能力均改善。",
+      "why": "VR的实际价值首先是降低无聊和提高参与体验，而不是证明其比普通骑行更有效。本研究完成了可行性门槛，但设计并未为组间疗效差异提供足够统计效能。",
+      "practice": "可在患者因单调或投入不足难以坚持骑行时试用VR，并监测到课率、训练工作量、症状反应和技术中断；是否值得采购应等待正式疗效与成本比较。",
+      "evidence": "可行性随机对照试验｜41名膝骨关节炎患者；12次监督骑行；随访1个月",
+      "confidence": "中",
+      "confidence_reason": "可行性指标完成良好，但不能据此判断VR的额外临床效果。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43016107",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43016107/"
+      }
+    },
+    {
+      "id": "87b5b228d1a4",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "胫骨平台软骨几何未预测女性运动员对侧ACL损伤",
+      "title": "Prospective Polynomial Characterization of Tibial Plateau Geometry Shows No Association With Contralateral ACL Injury in Female Athletes",
+      "one_liner": "首次ACL重建并回归运动的女性中，对侧再损伤组与匹配对照的胫骨平台软骨几何没有显著差异。",
+      "what": "研究从199名首次ACL损伤、完成重建并回归原活动的运动员中，比较4年内发生对侧ACL损伤的12名女性与24名匹配对照。采用MRI和五阶多项式描述未伤侧胫骨平台软骨几何，内、外侧间室均未见组间差异（P=0.23、0.18）。",
+      "why": "阴性结果直接削弱了用单一静态解剖形态预测对侧ACL损伤的路径。结构特征即使与首次损伤有关，也不必然解释重建后的第二次损伤。",
+      "practice": "不应把胫骨平台几何作为对侧损伤筛查或放行依据；风险分层更应组合专项暴露、力量与动作策略、心理准备和既往康复过程。",
+      "evidence": "前瞻性队列内匹配比较｜199人队列；12例对侧ACL损伤、24例匹配对照；4年随访",
+      "confidence": "中",
+      "confidence_reason": "设计前瞻且结局明确，但实际对侧损伤样本仅12例。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43012382",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43012382/"
+      }
+    },
+    {
+      "id": "03e086af76a7",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "早期心脏康复HIIT提供更高刺激，也提高循环负荷",
+      "title": "Physiological responses during high intensity interval training and moderate intensity continuous training in patients attending early cardiac rehabilitation",
+      "one_liner": "18名稳定冠心病患者中，10×1分钟HIIT较20分钟MICT产生更高VO₂、心率储备、率压积、乳酸和RPE。",
+      "what": "18名早期门诊心脏康复患者以交叉方式完成10×1分钟、85–90%峰值功率的HIIT和20分钟中等强度持续骑行。HIIT在平均VO₂、>90% VO₂储备时间、心率储备、率压积和乳酸上均更高，VT2以上时间为834±387秒，对照为393±465秒；RPE为13与11。",
+      "why": "同为20分钟，间歇方案不是简单的时间替代，而是把代谢与血流动力学刺激整体抬高。率压积同步升高意味着处方需要把训练收益和心肌负担一起考虑。",
+      "practice": "在临床稳定且已完成评估的冠心病患者中，可用峰值功率和阈值个体化HIIT；首次实施应同步观察症状、血压、心率和恢复，不按健康运动员模板直接移植。",
+      "evidence": "单中心组内交叉比较｜18名稳定冠心病患者；低容量HIIT对时间匹配MICT",
+      "confidence": "中",
+      "confidence_reason": "直接生理测量完整，但样本小且只观察单次急性反应。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43014437",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43014437/"
+      }
+    },
+    {
+      "id": "80edea19d5fd",
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "Gemini 4 Hydrogen面向高频Agent执行，统一百万上下文价格",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "one_liner": "Google发布Gemini 4 Hydrogen：全档开放、100万token上下文统一定价，输入1.5美元/百万、输出7.5美元/百万。",
+      "what": "Google将Gemini 4 Hydrogen定位为快速编码与Agent工作流模型，开放给AI Studio、Gemini API、企业产品、Gemini应用与Search。官方称默认high thinking在Artificial Analysis Intelligence Index得51分，xhigh为54；100万token上下文不分阶梯，输入1.5美元/百万token、输出7.5美元/百万token。",
+      "why": "它把Gemini 4系列从深度长程推理扩展到高频执行层，可能改变多模型路由：困难规划交给Carbon或Argon，调用工具、短代码和常规步骤由Hydrogen承担。基准与速度仍主要来自厂商发布。",
+      "practice": "上线前应在自己的编码与Agent任务上同时测首token、完整任务时间、正确率、工具调用失败率和思考档位成本，并与现用快速模型做同任务回放。",
+      "evidence": "Google官方模型与产品公告｜Gemini 4 Hydrogen；2026-11-12发布；厂商基准与定价",
+      "confidence": "高",
+      "confidence_reason": "发布范围、接口和价格为官方事实；相对能力与效率仍需独立测试。",
+      "limit": "",
+      "source": {
+        "title": "Google / Google DeepMind",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+      }
+    },
+    {
+      "id": "c06fca3b9549",
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Gemini Decisions API把封闭选项判断压到150–250毫秒",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "one_liner": "Gemini Decision 1可在一次请求中评估最多1000个问题，返回候选概率与置信度，端到端延迟150–250毫秒。",
+      "what": "Google推出面向封闭选项任务的Decisions API，支持文本、图像、音频、视频和PDF共享输入，以及是非、多选和量表评分。Gemini Decision 1不逐token生成文本，而是一次前向计算候选分数；官方给出的端到端延迟为150–250毫秒，价格为输入0.10美元/百万token、无输出token费用。",
+      "why": "工具选择、策略检查、模型路由和上下文分级本质上常是受限决策，而不是开放生成。专用接口可降低延迟与成本，并用置信度把模糊案例交给更强模型或人工。",
+      "practice": "可先用于有明确候选集和可审计标准的路由任务；生产验收应检查置信度校准、类别不平衡、域外输入、阈值下的误拒与漏放，而不是只看平均准确率。",
+      "evidence": "Google官方API公告｜Gemini Decision 1；最多1000个问题；厂商基准、延迟与定价",
+      "confidence": "高",
+      "confidence_reason": "接口行为、价格和发布状态为官方事实；校准与任务性能仍需在用户数据上复核。",
+      "limit": "",
+      "source": {
+        "title": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "运动营养与能量管理应优先在真实训练周建立个人基线。双标水给出可靠群体参考，但日常处方仍要用体重趋势、去脂体重、训练负荷和恢复状态持续校正。",
+    "康复技术的验收要对应目标变量：VR首先解决参与度，生物反馈目前更稳定地改变膝外展角，静态胫骨几何则未预测对侧ACL损伤。不要用一个改善替代另一个结局。",
+    "Agent工作流可进一步分层：开放生成模型负责规划与产出，决策模型负责路由与策略检查；两层分别验收正确率、置信度校准、完整任务时间和失败回退。"
+  ]
+}
