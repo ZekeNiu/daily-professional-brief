@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "date": "2026-11-14",
+  "title": "社媒热点",
+  "observed_at": "2026-11-14T08:45:00+08:00",
+  "summary": {
+    "title": "从‘会做’转向验证输入、边界与复现链",
+    "signal": "本期讨论共同指向可复现性：力量训练要进入耐力项目的长期计划，疼痛治疗要追溯证据链，AI工具则要把真实意图、资产版本和会议权限写进工作流。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 4
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-13",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "耐力项目加入力量训练的讨论，重点从是否有效转向如何与游骑跑负荷共同编排。",
+    "运动健康": "治疗主张必须追溯到样本、对照与随访，侵入性越高，证据门槛越不能被案例叙事替代。",
+    "AI": "会议、机器人仿真和问题理解工具都在扩展，但权限、版本和评价任务决定其能否成为可靠工作流。"
+  },
+  "items": [
+    {
+      "id": "77f62ea1da85",
+      "domain": "运动科学",
+      "title": "Tim Gabbett提醒耐力运动员：游、骑、跑之外还要系统安排力量训练",
+      "short_title": "三项训练之外别漏掉力量",
+      "author": "Tim Gabbett / Gabbett Performance",
+      "platform": "博客",
+      "published_date": "2026-11-13",
+      "priority": "值得了解",
+      "one_liner": "新文把力量训练放回铁三训练体系，实践重点不是额外堆课，而是与游骑跑负荷和恢复共同编排。",
+      "what": "Gabbett Performance发布《Swim, Bike, Run – But Don’t Forget to Lift!》，将力量训练作为耐力项目计划的组成部分，而非赛季外附加项。公开订阅候选确认了文章原始发布日期和作者来源。",
+      "why": "耐力训练讨论容易把力量课视为与专项竞争的额外负荷；真正的问题是力量刺激、专项质量和恢复如何在同一周内共存。",
+      "practice": "将力量课纳入周负荷图，与长距离、高强度骑跑和比赛模拟错开；先追踪专项关键课完成质量、肌肉酸痛和力量进展，再决定增量，而不是简单增加总课次。",
+      "evidence": "资深运动科学实践者文章｜方法与编排观点；非干预研究",
+      "confidence": "中",
+      "confidence_reason": "文章主题与作者身份、日期已核实；具体处方应结合项目周期与个体耐受，不能仅由文章标题推导。",
+      "source": {
+        "url": "https://gabbettperformance.com.au/swim-bike-run-but-dont-forget-to-lift"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "144d807914ac",
+      "domain": "运动健康",
+      "title": "PainScience复查‘触发点手术’：核心证据仍是一例无对照短随访病例",
+      "short_title": "侵入性治疗不能靠单病例撑起",
+      "author": "Paul Ingraham / PainScience",
+      "platform": "博客",
+      "published_date": "2026-11-12",
+      "priority": "重点关注",
+      "one_liner": "复查显示被用于支持切除‘瘢痕组织’的论文只有1名患者、3周复查、无对照和长期随访，却实施了约5×5厘米筋膜切除。",
+      "what": "Paul Ingraham重新核查触发点手术的公开依据，指出常被引用的2015年报告仅涉及1名患者，术后约3周复查，没有对照或长期随访；手术切除约5×5厘米筋膜，组织也未按常规提供充分病理验证。",
+      "why": "高度侵入性的治疗主张需要更高证据门槛。单病例的短期改善无法区分自然波动、安慰效应、同期处理或手术本身。",
+      "practice": "遇到新型疼痛手术或‘异常组织’解释时，先核对样本量、病理、对照、随访和不良事件；若依据仍停留在单病例，不应把机制故事当作转诊理由。",
+      "evidence": "证据核查型专业评论｜追溯2015年单病例报告；非系统综述",
+      "confidence": "中",
+      "confidence_reason": "对原始病例设计缺陷的描述可核实；博客不是系统检索，结论限于当前主张的证据链。",
+      "source": {
+        "url": "https://www.painscience.com/blog/surgery-for-trigger-points-cutting-out-the-scare-tissue.html"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "779abe288b1c",
+      "domain": "AI",
+      "title": "Anthropic推出Claude Meetings：让Agent公开参会并在授权范围内写入工作流",
+      "short_title": "会议Agent先把身份与权限公开",
+      "author": "Anthropic",
+      "platform": "官方文章 / Hacker News讨论",
+      "published_date": "2026-11-13",
+      "priority": "重点关注",
+      "one_liner": "Team与Enterprise测试版让Claude以可见身份加入会议、在聊天中响应，并按授权连接工具生成笔记、行动项和实时文档。",
+      "what": "Claude Meetings面向Team和Enterprise进入beta。Claude以可见参会者身份加入会议，可在聊天或书面形式回应，并在用户授权后调用连接工具，产出笔记、行动项、实时文档或白板；其他会议平台将后续支持。",
+      "why": "会议Agent第一次同时触及现场对话、组织知识和写入工具。‘可见参会者’与逐项工具授权比无提示录制更容易审计，但并不自动解决敏感会议的最小权限问题。",
+      "practice": "试点时限定会议类型和可写入系统，预先告知参会者；对行动项设置负责人确认，对外部参与会议默认关闭内部知识库与写入权限。",
+      "evidence": "Anthropic官方产品文章＋社区讨论入口｜Team/Enterprise beta；功能范围为官方事实",
+      "confidence": "高",
+      "confidence_reason": "产品状态、可见身份和授权机制来自官方；记录质量与组织风险需本地试点验证。",
+      "source": {
+        "url": "https://claude.com/resources/articles/claude-meetings"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "96c7f67bef86",
+      "domain": "AI",
+      "title": "Ai2发布XYBench：模型常回答字面问题，却没解决用户真正的问题",
+      "short_title": "答对问题不等于解决意图",
+      "author": "Allen Institute for AI / Hugging Face",
+      "platform": "技术博客",
+      "published_date": "2026-11-13",
+      "priority": "重点关注",
+      "one_liner": "8115道题显示强模型回答字面请求的准确率可达0.75–0.92，但识别并解决背后意图只有0.33–0.71。",
+      "what": "XYBench包含8115个‘XY问题’：用户提出的是手段X，真正目标却是Y。公开结果显示强模型处理字面请求的准确率约0.75–0.92，而解决底层意图只有0.33–0.71；识别错误前提的最高结果约63%，仍落后于人类。",
+      "why": "常规基准奖励对请求的直接执行，却可能漏掉‘这个请求是否值得做’。Agent越能调用工具，错误理解意图的成本越高。",
+      "practice": "在研究、编码和数据分析Agent中加入意图复述与假设检查：高成本操作前先让系统说明用户目标、当前手段和替代路径，并用真实失败案例建立内部XY测试集。",
+      "evidence": "公开基准与EMNLP 2026论文｜8115道题；模型对照与人类基线",
+      "confidence": "中",
+      "confidence_reason": "基准规模和指标明确，但真实工作流收益取决于能否在不增加过多摩擦的情况下触发澄清。",
+      "source": {
+        "url": "https://huggingface.co/blog/allenai/xybench"
+      },
+      "references": [],
+      "limit": ""
+    },
+    {
+      "id": "cdc8eef67bc5",
+      "domain": "AI",
+      "title": "NVIDIA与Hugging Face用SimReady资产演示机器人拣放场景的可复现搭建链",
+      "short_title": "机器人仿真从资产版本开始复现",
+      "author": "NVIDIA / Hugging Face",
+      "platform": "技术博客",
+      "published_date": "2026-11-13",
+      "priority": "值得了解",
+      "one_liner": "示例用带碰撞、质量、摩擦与关节信息的OpenUSD资产，在Isaac Sim中生成拣放场景、脚本和版本清单。",
+      "what": "新教程演示从SimReady Central搜索机器人臂、夹爪和仓储资产，将其引用到OpenUSD场景，在Isaac Sim/PhysX中生成装配脚本、配置拣放任务并渲染预览。流程要求保留脚本、资产版本和运行时版本。",
+      "why": "机器人仿真的复现瓶颈常不是控制代码，而是资产缺少碰撞、质量、摩擦、关节限制和版本信息。把这些属性随资产交付，能减少每个团队重复补建。",
+      "practice": "建立仿真场景时锁定资产、Isaac Sim和脚本版本，并把抓取成功、碰撞、传感器和域随机化参数写进测试；教程生成的场景仍需针对实物做系统辨识与sim-to-real验证。",
+      "evidence": "厂商技术教程与开放资产库｜OpenUSD、Isaac Sim、PhysX；工作流演示，非独立性能评测",
+      "confidence": "中",
+      "confidence_reason": "资产属性和示例流程可核实；节省工时与迁移效果未由独立对照测试证明。",
+      "source": {
+        "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+      },
+      "references": [
+        {
+          "label": "SimReady Central说明",
+          "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"
+        }
+      ],
+      "limit": ""
+    },
+    {
+      "id": "7d7bfd97682c",
+      "domain": "AI",
+      "title": "少数派作者复盘AI辅助综述：工具组合之外，检索、核对与引用仍要分工",
+      "short_title": "AI综述流程要保留检索与核对",
+      "author": "少数派 · AI应用",
+      "platform": "中文实践文章",
+      "published_date": "2026-11-13",
+      "priority": "值得了解",
+      "one_liner": "中文实践文章以研究生综述写作为场景，强调把资料发现、阅读整理、写作与引用核查拆成可检查步骤。",
+      "what": "文章以‘研究生如何用AI辅助完成一篇综述’为主题，整理科研写作工具与个人实践。公开订阅信息确认了文章题目、原始页面和发布日期；本期仅据可核实范围概括其工作流方向，不延伸未取得的具体工具结论。",
+      "why": "中文科研工作流讨论的价值不在工具清单，而在能否避免模型生成的论断和引用绕过原文核对。",
+      "practice": "把检索式、纳入标准、原文摘录、论断草稿和引用核验分开保存；AI可协助聚类与改写，但最终引用必须能回到原文位置，并标记只读到摘要的来源。",
+      "evidence": "中文个人实践文章｜公开页面与订阅元数据；本期未取得全文细节",
+      "confidence": "低",
+      "confidence_reason": "文章存在与日期已核实，但本期未完成全文核验，因此只报道可确认的主题和通用实践边界。",
+      "source": {
+        "url": "https://sspai.com/post/118153"
+      },
+      "references": [],
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "耐力项目的力量训练不应作为额外菜单，而要与专项高质量课共同设计；若周负荷图里没有位置，它就不会稳定执行。",
+    "侵入性治疗主张应按风险提高证据门槛。单病例短随访即使叙事完整，也不能支持把手术机制写成常规临床路径。",
+    "AI工作流接下来最值得补的不是更多工具，而是三类验收：模型是否理解真正目标、资产与环境能否复现、写入组织系统是否经过最小权限授权。"
+  ],
+  "trends_url": "data/social/trends/2026-11-14.json"
+}

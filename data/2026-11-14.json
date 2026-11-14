@@ -1,0 +1,258 @@
+{
+  "date": "2026-11-14",
+  "title": "每日专业资讯简报｜2026-11-14",
+  "summary": {
+    "total": 12,
+    "counts": {
+      "运动科学": 5,
+      "运动健康": 5,
+      "AI": 2
+    },
+    "signal": "本期最重要的进展是：无论是训练结局预测、重返运动还是AI代办，真正可用的系统都必须把输入信号、决策门槛和最终结果分开验证。"
+  },
+  "navigation": {
+    "prev": "2026-11-13",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "跑步表现、场地、反馈与可穿戴信号都能提供决策线索，但单一指标尚不足以承担选拔或训练处方。",
+    "运动健康": "本期证据把康复决策进一步拆成预后、阶段门槛与功能结局，阴性结果同样直接改变实践。",
+    "AI": "支付Agent和本地推理基础设施都在扩展能力，同时把授权、兼容性与安全边界推到部署前台。"
+  },
+  "items": [
+    {
+      "id": "a2c54b1048d1",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "2.4公里跑与结局有关，但预测模型AUC不超过0.68",
+      "title": "Physical fitness and anthropometric predictors of military training outcomes in men and women",
+      "one_liner": "1418名参训者中，较慢的2.4公里跑与失败和受伤相关，但多变量模型敏感度低、AUC≤0.68，不适合单独筛人。",
+      "what": "前瞻队列纳入968名男性和450名女性。训练通过率分别为66%和76%，受伤率为20%和34%；较慢的2.4公里跑与失败及受伤有关，但各模型区分度有限，AUC最高不超过0.68，表现为高特异度、低敏感度。",
+      "why": "这项研究同时回答了关联与预测两个不同问题：跑步能力是有用信号，却没有因为统计相关就自动成为可靠的个体结局预测器。",
+      "practice": "可把2.4公里跑用于群体风险分层和训练准备度讨论，但选拔或干预应再组合伤病史、力量、暴露负荷与训练过程数据，并报告敏感度而不只报告总体准确率。",
+      "evidence": "前瞻性队列｜1418名军训参训者；通过、失败与受伤结局；多变量预测模型",
+      "confidence": "高",
+      "confidence_reason": "样本大、结局明确且同时报告模型性能；研究场景为军训，结论主要支持风险分层而非竞技项目选材。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43024823",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43024823/"
+      }
+    },
+    {
+      "id": "7381db54a3f0",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "不同场地改变外部负荷与代谢成本，但证据异质",
+      "title": "The influence of playing surface on physiological and biomechanical responses in sport: a systematic review",
+      "one_liner": "16项研究提示人工草可能提高外部跑动需求、沙地提高代谢成本并降低效率，但多数研究没有客观测量场地力学。",
+      "what": "系统综述纳入16项研究。人工草与更高外部跑动需求的方向性结果较多，沙地则一致增加代谢成本并降低运动效率；研究人群、任务和指标差异大，且很少直接量化硬度、牵引或能量回馈等表面属性。",
+      "why": "‘草地、人工草或沙地’只是场地标签，不能解释具体机械暴露。缺少表面力学测量，会把真实的场地差异与训练内容、鞋具和环境条件混在一起。",
+      "practice": "更换场地时应同步记录训练任务、鞋具、GPS/加速度负荷、主观用力及可获得的硬度或牵引指标；不要按场地名称直接套用统一负荷修正系数。",
+      "evidence": "系统综述｜16项运动场地研究；生理、外部负荷与生物力学结局",
+      "confidence": "中",
+      "confidence_reason": "跨项目证据给出一致方向，但任务异质且表面机械属性测量不足。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43024179",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43024179/"
+      }
+    },
+    {
+      "id": "c4316f9bd7e8",
+      "priority": "快讯",
+      "domain": "运动科学",
+      "short_title": "外部注意反馈改善新手动作执行与次日保持",
+      "title": "Effects of internal and external focus feedback on motor skill acquisition and retention in novices",
+      "one_liner": "16名新手完成45次练习后，外部注意反馈在多项动作执行类别和次日保持测试中优于内部注意反馈。",
+      "what": "16名新手被分配接受内部或外部注意焦点反馈，完成45次练习并于次日接受保持测试。外部注意组在研究设定的多个执行类别上表现更好，优势延续到保持测试。",
+      "why": "结果支持反馈聚焦动作效果而非身体部位，但样本只有16人，且观察的是单一新手学习任务，不足以给出所有技术训练的统一措辞。",
+      "practice": "教授新动作时可优先试用指向器械、目标或环境结果的提示语，并用无反馈测试检查保持；若任务涉及安全姿势或明确关节限制，仍需保留必要的身体指令。",
+      "evidence": "小样本运动学习实验｜16名新手；45次练习＋次日保持",
+      "confidence": "低",
+      "confidence_reason": "组间与保持结果方向明确，但样本极小，任务特异性强。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43023672",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43023672/"
+      }
+    },
+    {
+      "id": "edcb9f1b7240",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "全光学皮肤活动戒指在实验任务中优于传统EDA分类",
+      "title": "All-optical dermal activity sensing for wearable stress monitoring",
+      "one_liner": "全光学皮肤活动与EDA信号一致率86%，其二分类准确率92.3%，并以片上CNN实现87.53%准确率。",
+      "what": "研究开发戒指式全光学皮肤活动传感器。光学信号与传统电皮活动信号的一致率为86%；二分类准确率为92.3%对77.95%，短任务多分类为100%对74.58%，长任务为89.72%对43.20%，片上CNN达到87.53%。",
+      "why": "它绕开电极接触与皮肤阻抗带来的部分限制，并展示了本地推理可能性；当前数字来自受控任务分类，不等于已证明训练负荷或恢复状态效度。",
+      "practice": "可关注其在长时间佩戴和边缘计算中的潜力；用于运动监控前应在出汗、冲击和手部动作条件下验证重测、伪影率，并与具体训练结局做前瞻关联。",
+      "evidence": "可穿戴传感技术研究｜全光学皮肤活动对照EDA；实验任务分类与片上CNN",
+      "confidence": "中",
+      "confidence_reason": "传感与分类结果具体，但摘要未建立真实训练环境下的决策效度。",
+      "limit": "",
+      "source": {
+        "title": "Science Advances / PubMed 43024732",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43024732/"
+      }
+    },
+    {
+      "id": "4591e030a7cc",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "高表现支持决策框架加入可逆性与跨学科依赖",
+      "title": "Integrated Decision-Making Under Uncertainty in High-Performance Sport Support Systems",
+      "one_liner": "概念框架建议用紧迫性、不确定性、风险、可逆性和跨学科依赖共同决定谁参与、何时行动及如何复核。",
+      "what": "作者提出高表现支持系统的综合决策框架，将时间紧迫性、证据不确定性、潜在风险、行动可逆性、跨学科依赖与利益相关方纳入同一流程，用于区分快速可逆调整与需要多专业审查的高风险决定。",
+      "why": "团队实践常把‘证据不足’当作不行动的理由，或把紧急决定当成无需记录的例外。可逆性与复核门槛能把不确定性转成具体治理动作。",
+      "practice": "可在晨会或伤病会诊中给决定标记风险、可逆性和复核时间：低风险可逆方案小步试行，高风险不可逆方案要求更多独立证据与明确责任人。",
+      "evidence": "概念性综述与实践框架｜未经过前瞻效果验证",
+      "confidence": "低",
+      "confidence_reason": "框架结构有实践价值，但没有比较其是否改善决策质量或运动员结局。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43020870",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43020870/"
+      }
+    },
+    {
+      "id": "62bb9d13fd74",
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "髋腹股沟重伤只占34.5%，却贡献72.9%缺阵天数",
+      "title": "Hip and groin injury burden in elite men's football: an 18-season analysis across five major European leagues",
+      "one_liner": "50,723个球员赛季中，重伤占髋腹股沟伤病34.5%，却贡献72.9%缺阵天数；5.4%的球员贡献26.7%总缺阵。",
+      "what": "研究覆盖五大联赛18个赛季、50,723个球员赛季，共识别2678次髋腹股沟伤病、88,724个缺阵日和14,503场缺赛。内收肌伤占45.3%；耻骨/腹股沟痛只占6.4%，但中位缺阵41.5天。超过28天的重伤占34.5%事件，却贡献72.9%缺阵天数；最高负担的5.4%球员贡献26.7%总缺阵。",
+      "why": "负担高度集中，说明预防与资源配置不能只按发生率排序。少数长病程与复发个案对球队可用性影响远大于大量短期伤病。",
+      "practice": "团队应同时监控事件数、每次缺阵时长、复发和个体累计负担；对既往高负担球员优先配置内收肌能力、髋部功能、跑动与踢球暴露的连续管理。",
+      "evidence": "18赛季回顾性队列｜五大联赛；50,723球员赛季；公开Transfermarkt伤病数据",
+      "confidence": "中",
+      "confidence_reason": "样本和负担数据巨大，但伤病标签来自公开数据库，不是统一临床诊断。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43024631",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43024631/"
+      }
+    },
+    {
+      "id": "0a938451f1ce",
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "格斗项目脑震荡回归需分临床、监管与功能三道门",
+      "title": "Return-to-fight after concussion or knockout in combat sports: a critical review and staged decision framework",
+      "one_liner": "新框架把临床恢复、监管资格和功能进阶拆开：接触训练前需过前两道门，正式比赛前再验证专项功能。",
+      "what": "批判性综述提出三个独立维度：临床恢复、监管等待期/参赛资格和从非接触到接触的功能进阶。作者建议接触训练前至少完成临床与监管门槛，正式比赛前再完成专项功能门槛。",
+      "why": "‘无症状’、‘禁赛期结束’和‘能承受对抗’不是同一结论。把三者合并会造成法规到期即回归或体能恢复掩盖神经症状。",
+      "practice": "格斗项目可分别记录症状与神经认知恢复、强制等待期、非接触体能、技术训练和受控接触耐受；任何一条未通过，都不应由另一条的良好表现抵消。",
+      "evidence": "批判性综述＋分阶段决策框架｜尚未前瞻验证",
+      "confidence": "中",
+      "confidence_reason": "三维分工与现有临床和监管逻辑一致，但具体门槛与结局效度尚未验证。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43024193",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43024193/"
+      }
+    },
+    {
+      "id": "7e1f3d094e92",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "腘绳肌回归时间应结合受伤即刻与外长位能力信号",
+      "title": "Evidence-informed prognostic assessment for return to play after hamstring strain injury",
+      "one_liner": "受伤时疼痛、近端疼痛、触痛长度、活动度缺损和外/中长位等长力量缺损与更长回归时间有关。",
+      "what": "证据导向临床指南汇总与腘绳肌回归时间相关的预后信号，包括受伤时疼痛、近端疼痛位置、可触及疼痛长度、活动度缺损，以及外长位和中长位等长力量缺损。",
+      "why": "预后价值分布在受伤初期和后续功能测试中，单一影像分级或单次力量差异不足以解释预计缺阵。",
+      "practice": "首次评估时固定记录疼痛位置、长度与活动度，后续用长肌长力量、跑步速度暴露和症状反应更新回归区间；将日期视为滚动预测，不是一次性承诺。",
+      "evidence": "证据导向临床实践指南｜整合预后研究；非新干预试验",
+      "confidence": "中",
+      "confidence_reason": "多个可操作指标得到既有研究支持，但不同项目和伤情下的权重并未统一。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43023634",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43023634/"
+      }
+    },
+    {
+      "id": "9d4803ab66b2",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "TKA数字康复改善部分功能，疼痛优势并不稳定",
+      "title": "Comparative effectiveness of digital rehabilitation interventions after total knee arthroplasty: a systematic review and network meta-analysis",
+      "one_liner": "36项RCT、3067人中，机器人、应用程序和VR改善部分屈曲与功能结局，但疼痛比较多数置信区间跨零，确定性低至极低。",
+      "what": "网络Meta分析纳入36项随机试验、3067名全膝关节置换患者。机器人、移动应用和VR在部分膝屈曲或功能指标上优于常规康复；多数疼痛比较的置信区间跨越零。网络以星形为主，比较大量依赖间接证据。",
+      "why": "‘数字康复有效’不是单一结论：不同技术影响的结局不同，排名靠前也不等于所有患者在疼痛和功能上都获得额外收益。",
+      "practice": "采购或实施时应先指定目标结局——活动度、家庭练习完成率或功能——并与常规服务比较；不应依据网络排名直接替代面对面评估和进阶负荷决策。",
+      "evidence": "系统综述与网络Meta分析｜36项RCT、3067人；证据确定性低至极低",
+      "confidence": "中",
+      "confidence_reason": "纳入试验多，但直接头对头比较少、网络依赖间接证据且确定性较低。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43024366",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43024366/"
+      }
+    },
+    {
+      "id": "ad5282b07f13",
+      "priority": "快讯",
+      "domain": "运动健康",
+      "short_title": "居家tDCS联合运动在膝OA中可实施，疗效仍未确定",
+      "title": "Home-based transcranial direct current stimulation combined with exercise for knee osteoarthritis: a pilot randomized controlled trial",
+      "one_liner": "24人试验中，tDCS依从率88%、运动依从率75%，无严重不良事件；疼痛下降幅度不足以证明主动刺激优于假刺激。",
+      "what": "24名膝骨关节炎患者随机接受10次、2周的居家主动或假tDCS，并完成8周运动。tDCS依从率88%、运动依从率75%，无严重不良事件；疼痛从47.3降至28.3和从46.4降至33.5，但本试验定位为可行性研究。",
+      "why": "研究证明的是远程组合方案可以完成，不是tDCS已经获得确定的增量疗效。两组都接受运动，样本也没有为疗效差异提供足够把握。",
+      "practice": "现阶段可把它作为未来研究或特殊服务模式的可行性依据；临床核心仍应是可进阶运动与症状管理，tDCS不应替代已建立的康复内容。",
+      "evidence": "先导随机对照试验｜24名膝骨关节炎患者；10次居家tDCS＋8周运动",
+      "confidence": "中",
+      "confidence_reason": "依从性和安全结果明确，但样本仅支持可行性，不能确认增量疗效。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43020167",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43020167/"
+      }
+    },
+    {
+      "id": "ef236d814ac9",
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "ChatGPT Wallet把每笔代购锁在用户逐次确认",
+      "title": "Introducing ChatGPT Wallet",
+      "one_liner": "美国部分18岁以上Pro用户可让ChatGPT准备购物车，但商品、总价与卡片必须逐笔审阅并通过生物识别或设备验证。",
+      "what": "OpenAI推出ChatGPT Wallet初始测试，面向美国部分18岁以上Pro用户。Agent可帮助寻找商品并准备购买，但每笔交易都要求用户审阅商品、总价和所用卡片，并通过生物识别或设备安全验证；卡信息以token化方式处理，不暴露给Agent或商家对话。",
+      "why": "这不是完全自主消费，而是把Agent规划与不可逆支付授权分开。当前设计明确保留逐笔确认，为未来参数化委托提供了可比较的安全基线。",
+      "practice": "评估任何交易Agent时，应检查价格或商品变化后是否重新授权、支付凭据是否隔离、失败能否追踪，以及预算和商户限制是否由系统强制而非提示词约束。",
+      "evidence": "OpenAI官方产品公告｜初始灰度测试；功能与安全流程为官方描述",
+      "confidence": "高",
+      "confidence_reason": "发布范围与逐笔授权流程来自官方；真实成功率、纠纷处理与扩展节奏尚无独立数据。",
+      "limit": "",
+      "source": {
+        "title": "OpenAI",
+        "url": "https://openai.com/index/introducing-chatgpt-wallet"
+      }
+    },
+    {
+      "id": "bc087f3d2a50",
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "llama.cpp v1.0清理旧API并强化本地服务安全",
+      "title": "llama.cpp v1.0.0: A stronger foundation for the local AI ecosystem",
+      "one_liner": "v1.0移除弃用公共API，加入FP8 KV缓存、MoE主存专家缓存和语音接口，并修补SSRF、CORS与DNS重绑定风险。",
+      "what": "llama.cpp v1.0.0移除弃用公共API，将NextN/推测解码接口提升到llama.h，加入OCP FP8 KV缓存、可配置CPU占比的MoE主存专家缓存、外部PLE分片加载及OpenAI兼容/v1/audio/speech接口。llama-server同时强化SSRF、CORS、DNS重绑定与MCP工具取消处理。",
+      "why": "这是兼容性与部署边界同时变化的主版本：性能和模型覆盖扩展之外，旧API清理可能直接影响绑定库、服务封装和生产升级。",
+      "practice": "升级前固定模型、量化、提示模板与并发回放测试，检查自定义绑定是否依赖旧API；对外服务同时复核媒体URL、CORS、私网访问和MCP工具超时取消。",
+      "evidence": "开源项目正式版本发布｜llama.cpp v1.0.0与ggml v1.0.0；功能清单和安全修复来自发布说明",
+      "confidence": "高",
+      "confidence_reason": "版本变更与修复可由官方发布记录核实；性能收益需在具体硬件和模型上实测。",
+      "limit": "",
+      "source": {
+        "title": "llama.cpp v1.0.0 release",
+        "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "把统计相关改写成预测规则前，至少检查区分度和敏感度。本期军训数据表明，2.4公里跑值得监测，却不足以承担个体筛选。",
+    "康复和重返运动应明确阶段门槛：症状消退、法规资格、基础功能和专项耐受分别验收，不能用其中一项替代其余项。",
+    "Agent进入支付或本地工具执行后，部署质量首先取决于不可逆操作的授权链、凭据隔离和可取消性，而不只是模型是否会完成任务。"
+  ],
+  "trends_url": "data/trends/2026-11-14.json"
+}
