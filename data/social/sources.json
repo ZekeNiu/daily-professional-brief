@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-13T23:52:16.262676+00:00",
+  "checked_at": "2026-11-14T03:13:47.440277+00:00",
   "total": 88,
-  "feeds_connected": 49,
+  "feeds_connected": 48,
   "sources": [
     {
       "id": "martin-buchheit",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 43
+      "recent_items": 44
     },
     {
       "id": "anthropic",
@@ -958,9 +958,9 @@
       "kind": "官方团队",
       "platform": "公开发布",
       "language": "en",
-      "status": "feed_ok",
-      "feed_url": "https://deepmind.google/blog/rss.xml",
-      "recent_items": 8
+      "status": "homepage_only",
+      "feed_url": null,
+      "recent_items": 0
     },
     {
       "id": "google-ai",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
+      "status": "unavailable",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 4
+      "recent_items": 2
     },
     {
       "id": "reddit-ml",
