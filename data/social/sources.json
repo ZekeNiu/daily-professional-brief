@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T03:25:23.381025+00:00",
+  "checked_at": "2026-11-13T23:52:16.262676+00:00",
   "total": 88,
   "feeds_connected": 49,
   "sources": [
@@ -492,7 +492,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://simplifaster.com/feed/",
-      "recent_items": 10
+      "recent_items": 8
     },
     {
       "id": "complementary-training",
@@ -505,7 +505,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://complementarytraining.com/feed/",
-      "recent_items": 3
+      "recent_items": 2
     },
     {
       "id": "jb-morin",
@@ -557,7 +557,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://gabbettperformance.com.au/feed/",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "hrv4training",
@@ -895,7 +895,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://www.interconnects.ai/feed",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "the-gradient",
@@ -921,7 +921,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://huggingface.co/blog/feed.xml",
-      "recent_items": 15
+      "recent_items": 16
     },
     {
       "id": "openai",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 42
+      "recent_items": 43
     },
     {
       "id": "anthropic",
@@ -960,7 +960,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://deepmind.google/blog/rss.xml",
-      "recent_items": 7
+      "recent_items": 8
     },
     {
       "id": "google-ai",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 16
+      "recent_items": 17
     },
     {
       "id": "bair",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1181,7 +1181,7 @@
       "language": "zh",
       "status": "feed_ok",
       "feed_url": "https://sspai.com/feed",
-      "recent_items": 1
+      "recent_items": 3
     },
     {
       "id": "csss",
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 7
+      "recent_items": 4
     },
     {
       "id": "reddit-ml",
