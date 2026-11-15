@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "date": "2026-11-16",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-16",
+  "observed_at": "2026-11-16T07:55:00+08:00",
+  "summary": {
+    "title": "从标签转向可检查的对象与接口",
+    "signal": "本期讨论的共同线索是把抽象标签拆开：训练模型要回到实际观察，康复算法要看终点差异，AI工具则要明确接口、权限和验证链。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 4
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-15",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "先描述任务中重复出现的现象，再决定是否有足够证据命名机制或据此开处方。",
+    "运动健康": "个体化分流算法可能减少手术和再断裂，却未必改善所有功能终点，评价时要拆开结局。",
+    "AI": "近期实用进展集中在可替换接口、本地模型接入、架构理解与科研产物的公开验证。"
+  },
+  "items": [
+    {
+      "id": "26aef157fb55",
+      "domain": "运动科学",
+      "title": "Mladen Jovanović提醒：观察、构念、机制与训练处方不是同一层证据",
+      "short_title": "先命名现象，再解释机制",
+      "author": "Mladen Jovanović / Complementary Training",
+      "platform": "博客",
+      "published_date": "2026-11-11",
+      "priority": "重点关注",
+      "one_liner": "杠速下降、冲刺功率衰减等首先是可观察现象；把它们命名为中枢疲劳或快肌疲劳，需要额外证据。",
+      "what": "Jovanović用负荷—次数、负荷—速度和重复次数—速度下降说明数据、重复现象、实用构念、理论与模型的层级差异。他主张先写任务、可观察变化和发生条件，再提出机制解释或训练干预。",
+      "why": "训练报告常把聚类标签或模型参数直接变成‘能力缺陷’，随后马上开处方。该框架能暴露从描述到因果解释之间被省略的假设。",
+      "practice": "报告测试时采用四行结构：任务条件、观察到的变化、该模式是否重复、候选解释；只有最后一层证据足够时才据此指定针对性干预。",
+      "evidence": "训练方法与科学哲学文章｜公开部分含完整概念框架和训练实例；非干预研究",
+      "confidence": "中",
+      "confidence_reason": "论证与实例可直接核查，且与本期构念效度综述一致；它提供的是推理框架，不是效果量。",
+      "limit": "",
+      "source": {
+        "url": "https://complementarytraining.com/philosophy-behind-agile-periodization-phenomena-theories-and-models-part-1"
+      },
+      "references": []
+    },
+    {
+      "id": "d39aae2db9d7",
+      "domain": "运动健康",
+      "title": "BJSM解读CARTA：超声分流减少手术和再断裂，但未改善一年提踵耐力",
+      "short_title": "跟腱分流算法的结局并不同步",
+      "author": "BJSM Blog",
+      "platform": "博客",
+      "published_date": "2026-11-07",
+      "priority": "值得了解",
+      "one_liner": "CARTA按断端重叠与延长决定手术，一年提踵耐力无优势，但再断裂率降低73%、手术活动减少36%。",
+      "what": "文章解读急性跟腱断裂的CARTA算法：超声显示断端无重叠或出现延长时手术，否则非手术。与默认手术或默认非手术相比，个体化分流未改善一年提踵至力竭，但报告再断裂率降低73%，相对默认非手术的患者报告结局更好，同时减少36%的手术活动。",
+      "why": "算法的价值不应由单一功能终点决定。再断裂、患者报告、提踵耐力和手术资源可能朝不同方向变化，临床决策必须预先说明优先结局。",
+      "practice": "若引入CARTA类路径，建立标准化超声培训与审核，并同时追踪再断裂、手术率、功能耐力和患者报告；不要把‘个体化’本身当作效果证明。",
+      "evidence": "期刊博客对原研究的结构化解读｜报告相对变化；本条未替代原论文全文审查",
+      "confidence": "中",
+      "confidence_reason": "算法规则和主要结局在公开解读中明确；绝对事件数与置信区间未在博客正文呈现。",
+      "limit": "",
+      "source": {
+        "url": "https://blogs.bmj.com/bjsm/2026/11/07/evaluating-carta-a-new-algorithm-for-personalised-acute-achilles-tendon-rupture-management"
+      },
+      "references": []
+    },
+    {
+      "id": "eba8c0480eb8",
+      "domain": "AI",
+      "title": "Sebastian Raschka从代码解释位置编码：RoPE仍主流，但部分RoPE与RoPE/NoPE混合增多",
+      "short_title": "位置编码从绝对位置走向混合设计",
+      "author": "Sebastian Raschka",
+      "platform": "技术博客",
+      "published_date": "2026-11-15",
+      "priority": "值得了解",
+      "one_liner": "教程用可运行示例串起绝对位置、正弦编码和RoPE，并指出2026年开放模型中部分RoPE与混合RoPE/NoPE更常见。",
+      "what": "Raschka以可视化、少量数学和PyTorch实现解释GPT-2式学习位置、正弦编码与RoPE，并整理2026年开放权重模型的架构选择。RoPE仍最常见，但样本中部分RoPE和混合RoPE/NoPE的采用增加。",
+      "why": "长上下文行为、KV缓存和外推能力都与位置方案相关；理解其具体放在输入还是注意力Q/K中，有助于读懂模型架构和定位上下文问题。",
+      "practice": "做模型架构评估时，记录RoPE覆盖层、旋转维度比例和是否存在NoPE层；复现实验先从小型GPT-2基线实现，再逐项替换位置方案。",
+      "evidence": "技术教程＋作者架构图库观察｜含代码与模型样本；不是系统性行业普查",
+      "confidence": "中",
+      "confidence_reason": "机制讲解和代码可核查；架构趋势来自作者整理的有限模型集合。",
+      "limit": "",
+      "source": {
+        "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings"
+      },
+      "references": []
+    },
+    {
+      "id": "9c481a093106",
+      "domain": "AI",
+      "title": "datasette-llm 0.1a11把本地模型接入Datasette Agent的配置收敛到OpenAI兼容端点",
+      "short_title": "Datasette Agent可切换本地模型",
+      "author": "Simon Willison",
+      "platform": "技术博客 / 发布日志",
+      "published_date": "2026-11-14",
+      "priority": "重点关注",
+      "one_liner": "新增api_base与OpenAI兼容端点后，LM Studio、Ollama或llama.cpp可在本地驱动Datasette Agent查询SQLite数据。",
+      "what": "datasette-llm 0.1a11新增OpenAI兼容端点支持，其他Datasette插件可统一依赖该配置层。示例用LM Studio在localhost提供Qwen模型，并通过default_model、model_name和api_base启动Datasette Agent。",
+      "why": "同一数据工具可在托管模型与本地模型之间切换，降低敏感SQLite数据外发的必要性，也减少每个插件分别适配提供商的成本。",
+      "practice": "先在非生产数据库测试模型是否正确生成只读SQL，限制数据库权限并记录查询；需要本地处理时，将api_base指向受控内网端点，同时保留输出核验。",
+      "evidence": "开源插件alpha版本说明｜0.1a11；含可运行配置示例",
+      "confidence": "高",
+      "confidence_reason": "版本功能和配置参数来自作者发布说明；alpha状态意味着接口仍可能变化，但不影响本次发布事实。",
+      "limit": "",
+      "source": {
+        "url": "https://simonwillison.net/2026/Nov/14/datasette-llm"
+      },
+      "references": []
+    },
+    {
+      "id": "5d20483ff1db",
+      "domain": "AI",
+      "title": "‘Your Agent Will Pick the Hackable One’把硬件开放性视为Agent时代的产品属性",
+      "short_title": "Agent可能偏好可改写硬件",
+      "author": "Geoff Stearns / Hacker News讨论",
+      "platform": "博客 / Hacker News",
+      "published_date": "2026-11-15",
+      "priority": "快讯",
+      "one_liner": "作者提出，当生成固件成本下降，Agent会偏向可检查、可改写且有稳定接口的设备，从而推动厂商开放硬件。",
+      "what": "文章提出一个产品判断：设备出厂固件将更像首个版本，能被Agent发现、配置和改写的硬件会获得更高选择概率。公开抓取仅核实了文章主张与Hacker News讨论入口，未取得完整原文细节。",
+      "why": "这把‘可编程性’从开发者功能提升为机器客户的可发现性与可操作性问题，值得硬件和运动设备团队提前评估接口策略。",
+      "practice": "评估设备时新增四项：本地API、权限分层、可回滚固件和审计日志；但不要据此假定开放接口自动带来采用率，仍需实际用户与Agent任务测试。",
+      "evidence": "作者观点文章＋社区讨论入口｜已核实标题、日期和核心主张；完整原文未取得",
+      "confidence": "低",
+      "confidence_reason": "本条是可检验的行业观点，当前仅有摘要级公开材料，没有用户采用数据或设备比较。",
+      "limit": "",
+      "source": {
+        "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one"
+      },
+      "references": [
+        {
+          "label": "Hacker News讨论",
+          "url": "https://news.ycombinator.com/item?id=50510799"
+        }
+      ]
+    },
+    {
+      "id": "33b95c2112c4",
+      "domain": "AI",
+      "title": "OpenAI新设科学博客，承诺同时公开科研结果、方法、核查方式与失败边界",
+      "short_title": "AI科研增加方法公开渠道",
+      "author": "OpenAI",
+      "platform": "官方博客",
+      "published_date": "2026-11-15",
+      "priority": "值得了解",
+      "one_liner": "新栏目将发布AI参与的科学结果、可迁移方法和研究者视角，并明确把核查方法与方法失效处纳入内容范围。",
+      "what": "OpenAI宣布建立科学博客，内容包括新研究与进展、科学计算/数据分析/文献探索/实验规划的方法，以及研究者对训练、署名和科学实践变化的讨论。官方明确表示会说明工作如何检查、方法可如何复用及其失效处。",
+      "why": "AI科研案例的可信度取决于能否从成果叙述走到可复核方法。新增渠道本身不是证据升级，但它为持续检查模型贡献、验证路径与失败边界提供了明确承诺。",
+      "practice": "把该栏目作为案例入口而非权威结论；每篇仍逐项检查原论文、数据/代码、独立复现和同行评议状态，再决定是否迁移到自己的科研流程。",
+      "evidence": "官方栏目公告｜2026-11-15；描述未来发布范围与编辑承诺",
+      "confidence": "高",
+      "confidence_reason": "栏目范围和承诺来自官方原文；未来内容是否稳定达到该标准，需要后续逐篇核验。",
+      "limit": "",
+      "source": {
+        "url": "https://openai.com/index/our-new-blog-for-science"
+      },
+      "references": []
+    }
+  ],
+  "professional_judgment": [
+    "把训练和康复报告中的每个标签向下拆一层：先保留任务、观察和条件，再标出哪些解释只是候选机制。这样能显著减少从数据直接跳到处方的错误。",
+    "AI工具的可替换性越来越依赖接口而非品牌。对数据分析和设备工作流，优先建设标准协议、最小权限、本地运行选项和可回滚路径。"
+  ],
+  "trends_url": "data/social/trends/2026-11-16.json"
+}

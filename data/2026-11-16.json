@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-16",
+  "title": "每日专业资讯简报｜2026-11-16",
+  "summary": {
+    "total": 7,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 1,
+      "AI": 2
+    },
+    "signal": "本期最重要的进展是：训练监控指标首先描述外部工作或暴露，若要把它解释成代谢、神经肌肉或组织负荷，必须另有与目标构念匹配的验证证据。"
+  },
+  "navigation": {
+    "prev": "2026-11-15",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "测到什么与它代表什么必须分开：负荷指标、胫骨应力和等速力量测试都应围绕具体决策定义构念与任务。",
+    "运动健康": "康复进阶要同时看负荷后的24小时反应与功能变化；辅助治疗的额外效应应与临床重要性分开判断。",
+    "AI": "AI科研正在从通用能力演示进入可审查的数学构造与具体工作流，编码Agent则把授权边界和本地资源接入做成产品能力。"
+  },
+  "items": [
+    {
+      "id": "abfd13f428a1",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "外部负荷指标不等于生物负荷",
+      "title": "From Signal to Biological Meaning: A Systematic Review of Construct-Validity Evidence for External Training Load Metrics in Sport",
+      "one_liner": "46项研究中仅13项使用与目标构念直接匹配的参照，现有证据更支持外部负荷指标描述动作、工作或暴露，而非直接代表生物反应。",
+      "what": "系统综述纳入46项研究，样本量多为7–71人且以男性为主。只有13项（28%）使用与目标构念直接匹配的参照；16项依赖替代指标，11项使用条件或组间对比。仅19项明确区分设备或指标的技术表现与其构念解释。",
+      "why": "可靠、可重复的GPS、加速度计或模型输出，仍可能只是在稳定地测量外部动作。把它继续解释为代谢需求、神经肌肉负荷、组织应力或疲劳，是另一项需要机制、方向性假设和参照测量支持的主张。",
+      "practice": "先写清监控决策，再选指标：若问题是跑动暴露，可直接使用外部负荷；若问题是组织应力或疲劳，就应增加相应生物力学、生理或恢复参照，并把验证限定在具体人群、任务和时间窗内。",
+      "evidence": "系统综述｜46项研究；证据图谱与叙述综合；多数样本较小且男性占主导",
+      "confidence": "高",
+      "confidence_reason": "综述以预先定义的构念链和多套质量工具逐项核查，核心比例清楚；异质性使其不适合合并效应量，但不影响对构念证据不足的判断。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42965733",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42965733/"
+      }
+    },
+    {
+      "id": "5f0c2d7198e4",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "速度与负重抬高胫骨弯矩",
+      "title": "Effects of speed, load, and surface on tibial bending moment and stress",
+      "one_liner": "14名跑者中，速度从3.0升至4.5 m/s及增加15 kg负重均提高胫骨弯矩与应力；不平整表面反而降低这些指标。",
+      "what": "14名休闲跑者在平整或不平整表面，以3.0或4.5 m/s完成有无15 kg负重的跑动。较快速度和负重均提高前后向及合成胫骨弯矩与应力（均p≤0.009或p≤0.008）；不平整表面则降低相应峰值、均值和多个支撑期区段的波形。",
+      "why": "结果把速度、携载负重与表面放在同一重复测量框架中，说明外部任务变化对胫骨机械暴露的方向并不一致；‘地面更不规则’不能直接等同于胫骨应力更高。",
+      "practice": "在跑步或负重跑进阶中，把速度与携载重量视为独立的胫骨负荷旋钮，避免同周同步大幅增加。地面选择仍应结合稳定性和技术要求，但不必仅因表面不平整就推定胫骨应力上升。",
+      "evidence": "重复测量生物力学研究｜14名休闲跑者；两种速度、两种表面、±15 kg",
+      "confidence": "中",
+      "confidence_reason": "任务内结果一致且有完整波形分析；样本小，测量的是即时力学暴露而非骨应力性损伤发生率。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42981777",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42981777/"
+      }
+    },
+    {
+      "id": "c9a1084d6f32",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "等速测试应复刻任务中的收缩条件",
+      "title": "Developing bespoke isokinetic dynamometer protocols to replicate the functional demands of (p)rehabilitative screening tasks",
+      "one_liner": "跑步与反向跳的膝关节分析显示，离心伸膝贯穿所有任务，而向心屈膝很少出现；等速测试的速度、角度和收缩方式应按任务重建。",
+      "what": "研究用跑步步态和反向跳的矢状面膝关节分析设计等速测试方案。所有任务都包含离心膝伸肌作用，但所处角度和速度随任务变化；向心屈膝贡献很少，多数离散收缩动作落在常见等速测力设备可实现的范围内。",
+      "why": "传统等速峰力若使用与目标动作不同的收缩方式、角度或速度，可能精确地测到一个与筛查任务不匹配的能力。该工作提供了从动作需求反推测试协议的可复用方法。",
+      "practice": "在为跑步、跳跃或康复筛查设定等速协议前，先提取目标动作的关节角度、角速度和收缩方向，再固定测试姿势与速度；不要只因某指标常见就默认其具有功能代表性。",
+      "evidence": "方法学研究｜跑步与反向跳的生物力学分析；用于定制等速测力协议",
+      "confidence": "中",
+      "confidence_reason": "方法与任务映射明确，但论文主要建立协议设计路径，尚未证明定制协议能更好预测伤病或重返运动。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42981081",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42981081/"
+      }
+    },
+    {
+      "id": "7e6b4250a9d3",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "部分睡眠不足削弱后段运动心输出量",
+      "title": "Acute partial sleep deprivation attenuates cardiac output during moderate-intensity cycling in young adults",
+      "one_liner": "单夜睡至正常时长40%后，年轻成人骑行60分钟时心输出量降低约0.8 L/min，但血压和心率未补偿性上升。",
+      "what": "25名年轻成人完成随机交叉试验：正常睡眠或提前唤醒至正常睡眠时长的40%，随后中等强度骑行60分钟。30分钟时心输出量无差异；60分钟时由12.3降至11.5 L/min（p=0.003），恢复期也较低。心率无差异，射血分数降低、外周阻力升高，儿茶酚胺增幅减弱。",
+      "why": "睡眠不足的生理影响在持续运动后段才显现，且血压正常并不代表循环应答未受影响。它为睡眠不足后长时间有氧训练中‘后程能力下降’提供了可测机制。",
+      "practice": "若运动员仅睡到平常时长约40%，当天长时间有氧课应关注30分钟后的功率—心率关系、主观用力与恢复，而不是只看静息指标；可减少后段持续时间或把关键质量课后移。",
+      "evidence": "随机交叉试验｜25名年轻成人（13名女性）；60分钟中等强度骑行",
+      "confidence": "中",
+      "confidence_reason": "交叉设计和时间序列测量支持单次急性效应；结局是循环生理，不是竞技表现，且人群并非精英运动员。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42853588",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42853588/"
+      }
+    },
+    {
+      "id": "1941b53ce8af",
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "ACL康复用连续决策替代单一阈值",
+      "title": "Recalibrating anterior cruciate ligament reconstruction rehabilitation: integrating mechanistic evidence, criterion-driven progression, and risk-informed return-to-sport decisions: a narrative review",
+      "one_liner": "ACLR康复应以症状、积液、动作范围、力量、任务表现和24小时反应连续进阶，而不是用时间或肢体对称指数单独放行。",
+      "what": "叙述性综述整合指南、综述、试验、队列和共识，提出从早期功能到重返表现的决策框架。NMES与渐进抗阻的临床角色最清楚；BFR、表面肌电反馈和神经认知训练为条件性辅助。进阶应结合即时及24小时症状/积液反应、绝对力量、任务表现、动作策略、患者报告与心理准备。",
+      "why": "肢体对称指数可能因双侧都弱而高估恢复，固定术后时间也不能回答下一阶段暴露是否可承受。该框架把‘何时进阶’改写为可重复测量的负荷—反应决策。",
+      "practice": "同一设备和标准化流程做序列测试；除对称性外同时记录绝对或体重标准化力量、动作策略和次日反应。每次增加跑跳、变向或对抗暴露时，先定义可接受的症状和积液变化。",
+      "evidence": "目标性叙述综述｜检索至2026-09-02；非系统综述，未做正式GRADE",
+      "confidence": "中",
+      "confidence_reason": "框架与现有指南方向一致并给出具体测量逻辑；证据来自异质研究的目标性综合，不能把表内阈值视为前瞻验证算法。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42999754",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42999754/"
+      }
+    },
+    {
+      "id": "f217c9b43d50",
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "GPT-6 Astra协助构造格点标准模型候选定义",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "one_liner": "物理学家Nathaniel Craig报告，GPT-6 Astra协助把既有策略发展为格点标准模型的候选构造与详细证明；目前依据仍是10月预印本。",
+      "what": "OpenAI科学博客的首篇客座文章介绍一项10月预印本：Craig提出在格点上给出完整标准模型非微扰定义的候选方案，Astra据称帮助把策略展开为构造并主导详细证明，重点处理手征费米子测度相位的一致性问题。",
+      "why": "这不是一般问答，而是模型参与长链条数学物理构造的具体案例。真正价值在于可审查的推导对象和公开预印本，而非厂商对‘科学发现’的概括。",
+      "practice": "科研团队可借鉴其任务拆分方式：由领域专家先给出路线与约束，让模型展开边界情形和证明细节，再把产物落到可独立审阅的论文、代码或形式化检查中；不要把协作叙述当作独立验证。",
+      "evidence": "官方研究案例＋预印本｜2026-11-15发布；候选构造尚非同行评议定论",
+      "confidence": "中",
+      "confidence_reason": "发布事实与预印本可核查，但模型贡献比例来自作者和OpenAI叙述，科学结论仍需领域同行评审。",
+      "limit": "",
+      "source": {
+        "title": "OpenAI",
+        "url": "https://openai.com/index/step-toward-defining-the-standard-model/"
+      }
+    },
+    {
+      "id": "3d85a1f6b4ce",
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "Qwen Code加强托管Agent授权边界",
+      "title": "Qwen Code v0.27.4",
+      "one_liner": "v0.27.4让托管Agent以临时授权访问本地目录，并强化高风险操作的显式授权、Full Access标识和依赖安全更新。",
+      "what": "Qwen Code于11月15日发布v0.27.4。托管会话可通过临时目录授权访问本地文件并打开交互式Web终端，不持久化凭据或路径；Auto Mode对破坏性等高风险动作要求显式授权，并修复多项MCP、URL解析和依赖安全问题。",
+      "why": "编码Agent的关键差异正在从‘能否操作’转向‘如何授予、显示和撤回权限’。本地目录临时授权与风险模式显式标记，直接影响团队采用时的可控性。",
+      "practice": "升级前核对托管会话的目录授权、Auto/Full Access策略及Webhook输出范围；把临时目录授权作为最小权限入口，并在测试环境验证现有自动化是否因更严格授权而中断。",
+      "evidence": "官方GitHub版本说明｜v0.27.4；2026-11-15；无已知破坏性变更",
+      "confidence": "高",
+      "confidence_reason": "功能与安全修复均来自具体版本说明和关联PR；实际稳定性仍需按本地环境测试。",
+      "limit": "",
+      "source": {
+        "title": "GitHub Release v0.27.4",
+        "url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.27.4"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "今天最值得立即改变的是监控语言：把GPS、加速度计和模型输出称为它们实际测得的外部动作或工作；只有在存在构念匹配参照时，才升级为‘组织负荷’或‘疲劳’判断。",
+    "康复和训练进阶都可统一为负荷—反应流程：先定义下一阶段暴露，再用标准化能力测试及即时、24小时反应决定是否继续，而不是依赖单个对称分数或固定时间。",
+    "AI科研案例应以可复核产物为单位评价。公开预印本、推导链、代码和独立审查，比‘模型参与了发现’这一叙述更能支持工作流采用。"
+  ],
+  "trends_url": "data/trends/2026-11-16.json"
+}
