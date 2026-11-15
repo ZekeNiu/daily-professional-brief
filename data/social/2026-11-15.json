@@ -1,0 +1,173 @@
+{
+  "version": 1,
+  "date": "2026-11-15",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-15",
+  "observed_at": "2026-11-15T08:05:00+08:00",
+  "summary": {
+    "title": "从固定方案转向可检查的决策组件",
+    "signal": "本期讨论把热身、康复指南与Agent浏览器拆成可检查组件：动作目的、证据确定性、权限交接和资源成本都需要显式呈现。",
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 3,
+      "AI": 2
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-14",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "青少年热身的价值不只在升温，而在用短而多样的任务补足动作素养。",
+    "运动健康": "指南和综述开始更明确地区分可推荐内容、低确定性条件建议与证据选择偏差。",
+    "AI": "Agent浏览器与开放模型生态的讨论，都把基础设施控制权和可持续性放到能力之外。"
+  },
+  "items": [
+    {
+      "id": "170818adff70",
+      "domain": "运动科学",
+      "title": "Jeremy Frisch把青少年热身设计成五段式动作素养课",
+      "short_title": "青少年热身也是动作学习时段",
+      "author": "Jeremy Frisch / SimpliFaster",
+      "platform": "博客",
+      "published_date": "2026-11-09",
+      "priority": "值得了解",
+      "one_liner": "热身不必缩小成人流程；短时、多变的移动、平衡、协调和稳定任务可同时完成准备与技能教学。",
+      "what": "Frisch提出面向青少年运动员的五段式热身思路，把移动、稳定、躯干控制、协调和平衡等基本动作能力放进短序列，并持续改变姿势、接触点和移动方式，以维持注意和动作变异。",
+      "why": "对处于动作学习阶段的青少年，热身是每次训练都能重复出现的教学窗口；若只做静态拉伸或成人版缩减流程，会浪费最稳定的动作暴露。",
+      "practice": "把10–15分钟热身拆成2–3分钟的小段，每段明确一个动作目标并定期更换变式；用动作完成质量和参与度检查效果，不把‘出汗’当作唯一标准。",
+      "evidence": "青少年体能教练方法文章｜实践框架；非干预研究",
+      "confidence": "中",
+      "confidence_reason": "原文完整说明了对象、五段式逻辑和应用场景；具体效果来自实践推理，未提供比较试验。",
+      "limit": "",
+      "source": {
+        "url": "https://simplifaster.com/articles/calentamiento-educacion-fisica-jovenes-deportistas"
+      },
+      "references": []
+    },
+    {
+      "id": "bcc0ff3439a4",
+      "domain": "运动健康",
+      "title": "BJSM团队用547组关联重估传统功法对肌骨疾病的作用范围",
+      "short_title": "传统功法证据并非一概而论",
+      "author": "BJSM Blog / 伞形综述作者团队",
+      "platform": "博客",
+      "published_date": "2026-11-09",
+      "priority": "重点关注",
+      "one_liner": "92项Meta分析中只有23组结论达到高确定性；太极对慢性肌骨疼痛、膝骨关节炎等结局的支持最稳定。",
+      "what": "作者概述一项已接收的伞形综述：汇总92项随机试验Meta分析、1744项原始试验和547组运动—结局关联，覆盖10类肌骨疾病。23组达到高确定性、179组中等确定性；高确定性信号包括膝骨关节炎身体功能与心理健康、颈痛心理健康和纤维肌痛睡眠。",
+      "why": "文章没有把太极、八段锦、气功等合并成统一疗法，而是按疾病、结局和证据确定性拆分，能减少‘传统运动普遍有效’的过度概括。",
+      "practice": "选择方案时先对应诊断和目标结局；膝骨关节炎或骨质疏松可参考每周至少3次、约150分钟及更长周期的亚组信号，同时根据跌倒风险、活动能力和指导资源渐进安排。",
+      "evidence": "BJSM伞形综述作者解读｜92项Meta分析、1744项试验；论文已接收",
+      "confidence": "中",
+      "confidence_reason": "样本覆盖广并使用GRADE，但当前依据为作者博客摘要，剂量结果来自亚组而非统一最优处方。",
+      "limit": "",
+      "source": {
+        "url": "https://blogs.bmj.com/bjsm/2026/11/09/can-traditional-chinese-exercises-help-people-with-musculoskeletal-disorders"
+      },
+      "references": []
+    },
+    {
+      "id": "473d2fa7a5e5",
+      "domain": "运动健康",
+      "title": "JOSPT访谈解释腘绳肌康复指南：早期离心训练可考虑，但多数建议是条件性的",
+      "short_title": "腘绳肌指南不是固定流程",
+      "author": "Cynthia Gobbi / JOSPT Insights",
+      "platform": "播客",
+      "published_date": "2026-11-09",
+      "priority": "值得了解",
+      "one_liner": "SONAFE-Brazil指南聚焦康复干预，支持首周引入离心训练和允许轻至中度疼痛，但多数建议证据确定性低或很低。",
+      "what": "指南共同负责人Cynthia Gobbi说明，新指南补充2022版CPG，专门评价治疗性运动、手法、电物理治疗和教育。访谈提到可允许轻至中度疼痛，并在首周引入离心练习；职业足球约六分之一发生再伤，其中约80%在回归运动后两个月内。",
+      "why": "讨论把‘推荐’与‘固定协议’分开：大多数建议是条件性的，严重度、症状、功能、项目需求和资源仍决定具体进阶。",
+      "practice": "用指南建立干预选项和进阶检查点，而不是照抄周计划；早期离心训练应在症状可接受、动作质量稳定的条件下逐步增加，并把回归后前两个月纳入持续负荷管理。",
+      "evidence": "临床实践指南作者访谈｜JOSPT播客；多数建议为低或很低确定性",
+      "confidence": "中",
+      "confidence_reason": "访谈可核对指南定位与关键建议，但未逐条呈现推荐强度和完整证据表。",
+      "limit": "",
+      "source": {
+        "url": "https://feeds.resonaterecordings.com/media/jospt/01a1938d-63ca-707d-818b-ff0fb62ebcc3/01a194c2-01d8-73b2-8291-efb18473f050/jospt-e288-what-to-choose-for-hamstring-rehabilitation-with-dr-cynthia-gobbi-ful.mp3"
+      },
+      "references": [
+        {
+          "label": "SONAFE-Brazil CPG",
+          "url": "https://doi.org/10.2519/jospt.2026.14372"
+        },
+        {
+          "label": "2022 Hamstring CPG",
+          "url": "https://doi.org/10.2519/jospt.2022.0301"
+        }
+      ]
+    },
+    {
+      "id": "ef4c8b9a9f65",
+      "domain": "运动健康",
+      "title": "PainScience用‘樱桃摘取双重标准’提醒先定义完整证据集",
+      "short_title": "反驳选择偏差不能靠反向选择",
+      "author": "Paul Ingraham / PainScience",
+      "platform": "博客",
+      "published_date": "2026-11-11",
+      "priority": "快讯",
+      "one_liner": "指出对方选择性引用并不自动证明相反结论；更可靠的做法是预先说明纳入标准并展示全部相关证据。",
+      "what": "Ingraham讨论证据争论中的双重标准：人们常指责对方挑选有利研究，却同时只接受支持自己观点的反例。文章的核心不是某项治疗，而是如何识别证据选择过程是否对双方使用同一规则。",
+      "why": "在疼痛治疗中，研究异质性高、个案叙事强，‘对方在挑研究’很容易替代对效应量、偏倚和适用人群的真正比较。",
+      "practice": "讨论治疗证据时先列出检索范围、纳入标准和关键阴性研究，再比较质量与效应；若只掌握单篇论文，不用‘存在研究支持’作为结论。",
+      "evidence": "疼痛科学评论文章｜方法论观点；非系统综述",
+      "confidence": "中",
+      "confidence_reason": "论点可直接用于审阅证据链，但文章不是针对具体疗法的完整证据评估。",
+      "limit": "",
+      "source": {
+        "url": "https://www.painscience.com/blog/cherry-picking-double-standard.html"
+      },
+      "references": []
+    },
+    {
+      "id": "af7f8d8cd385",
+      "domain": "AI",
+      "title": "Agweb尝试让多个编码Agent共享可见但不抢焦点的浏览器",
+      "short_title": "为并行Agent设计的可见浏览器",
+      "author": "Paul Nameless / Hacker News",
+      "platform": "GitHub与社区",
+      "published_date": "2026-11-14",
+      "priority": "重点关注",
+      "one_liner": "macOS工具用WebKit窗口承载多个隔离工作区，提供持久元素引用、差异快照、人工接管和不回传密码的填充方式。",
+      "what": "Agweb发布为macOS 26+构建的Agent浏览器：多个Agent各自持有标签页，但统一显示在不抢键盘焦点的窗口；命令行支持稳定元素引用、`snapshot --diff`、动作变化回执、登录/MFA人工接管和`secret-cmd`密码填充。仓库同时列出WebKit兼容性与网络拦截限制。",
+      "why": "它针对并行编码Agent的真实摩擦：无头浏览器难观察、普通浏览器抢焦点、共享登录和凭据容易进入转录。价值在工作流设计，不在宣称网页自动化成功率更高。",
+      "practice": "适合先在非敏感测试账号验证多Agent网页任务；重点检查工作区隔离、下载/弹窗处理、凭据注入和失败可观察性。Chrome专属站点或复杂网络模拟仍保留Playwright兜底。",
+      "evidence": "开源项目README与社区发布｜macOS 26+；早期工具",
+      "confidence": "中",
+      "confidence_reason": "功能和已知限制由仓库公开说明，自报资源占用和可靠性尚缺独立测试。",
+      "limit": "",
+      "source": {
+        "url": "https://github.com/paul-nameless/agweb"
+      },
+      "references": []
+    },
+    {
+      "id": "95ba8521fd1a",
+      "domain": "AI",
+      "title": "Nathan Lambert认为美国开放模型生态不能依赖单一企业领袖",
+      "short_title": "开放模型需要可持续组织能力",
+      "author": "Nathan Lambert / Interconnects",
+      "platform": "通讯",
+      "published_date": "2026-11-14",
+      "priority": "值得了解",
+      "one_liner": "文章把开放模型的瓶颈从一次模型发布转向人才、算力、政策协调和长期商业结构，主张建立能持续训练前沿模型的独立组织。",
+      "what": "Lambert在Nvidia领导层变化后分析美国开放模型生态，认为企业后训练与‘智能所有权’形成了需求，但算力短缺、高推理利润和人才集中使开放权重尚未形成真正商品化竞争；文章主张培育能持续训练前沿开放模型的组织。",
+      "why": "这是一份生态判断而非性能评测。它提醒采用开放模型的团队：权重可下载不等于供应链稳定，后续训练、推理容量、许可证和政策环境都会影响长期可用性。",
+      "practice": "在模型选型表中增加维护主体、推理替代供应商、许可证变化和可迁移后训练资产四项；关键系统避免把开放模型等同于无需供应链管理。",
+      "evidence": "行业研究者评论｜生态与政策分析；非独立量化研究",
+      "confidence": "中",
+      "confidence_reason": "文章对人才、算力与商业结构给出可检查的逻辑链，但对未来监管和组织走向属于作者判断。",
+      "limit": "",
+      "source": {
+        "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen"
+      },
+      "references": []
+    }
+  ],
+  "professional_judgment": [
+    "把热身或指南转成可执行方案时，先写清对象、目标结局和进阶条件；‘有推荐’不等于所有阶段都使用同一剂量。",
+    "Agent基础设施的下一轮竞争不只是模型能力，而是可观察、可接管、凭据不外泄，以及失败时能否切换到另一条工具链。"
+  ],
+  "trends_url": "data/social/trends/2026-11-15.json"
+}

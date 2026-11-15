@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-15",
+  "title": "每日专业资讯简报｜2026-11-15",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 4,
+      "AI": 2
+    },
+    "signal": "本期最重要的进展是：模型或指标在回顾性数据里表现出色，并不等于能在下一次真实决策中保持效力；前瞻标准化、外部验证与任务覆盖率应进入日常评价。"
+  },
+  "navigation": {
+    "prev": "2026-11-14",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "训练负荷、跳跃与变向测试的价值取决于采集时点和目标结局，不能用便利指标替代直接测量。",
+    "运动健康": "本期康复证据同时出现强预测信号、功能改善和结构阴性结果，提示决策要把预测、患者结局与组织愈合分开。",
+    "AI": "科学AI开始接受隐藏湿实验结果检验，应用API则继续把搜索、文件和语音能力收进统一工作流。"
+  },
+  "items": [
+    {
+      "id": "f7b9d31a4c21",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "赛季内负荷偏离未能前瞻预测次日下肢疼痛",
+      "title": "SoccerMon: A monitoring approach to investigate associations between training load, wellness, and subsequent lower limb pain in elite women's football",
+      "one_liner": "50名精英女足运动员中，回顾性标准化曾显示负荷×健康感与疼痛有关，但改用每个观察日之前可获得的数据后效应消失。",
+      "what": "研究跟踪50名精英女足运动员，15人共出现42个下肢疼痛起始日。用全周期数据回顾性计算个体标准分时，负荷偏离与健康感交互项OR为0.63（95%CI 0.45–0.97）；改为只使用每个观察日前已获得的数据进行前瞻标准化后，OR变为0.97（0.73–1.25），不再支持稳定预测。",
+      "why": "同一批信号仅因标准化是否使用了未来数据，就从显著关联变为无效预测。这直接说明训练监控模型可能在回顾性分析中泄漏未来信息，并高估现场可用性。",
+      "practice": "建立负荷预警时，应冻结每一天可用的数据窗口并做滚动验证；把负荷与健康感用于教练沟通和情境解释，而不是据此设定单一疼痛风险阈值。",
+      "evidence": "前瞻监测队列｜50名精英女足运动员；42个疼痛起始日；比较回顾性与前瞻性标准化",
+      "confidence": "高",
+      "confidence_reason": "研究直接检验了时间泄漏对同一模型的影响，效应方向清楚；疼痛事件数较少，但足以否定该信号的稳定前瞻效力。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43024582",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43024582/"
+      }
+    },
+    {
+      "id": "ec3f8b2d9127",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "3分钟间隔后的CMJ反而升高，且年龄越大增幅略高",
+      "title": "Age-related differences in countermovement jump responses after strength and endurance testing in professional soccer players",
+      "one_liner": "227名职业男足运动员完成等速力量与最大跑台测试后仅休息3分钟，CMJ平均提高1.91厘米，提示测试顺序本身会改变结果。",
+      "what": "227名职业男足运动员在243次季前测试中先完成SJ、CMJ和摆臂CMJ，随后进行等速力量与最大跑台测试，3分钟后复测。CMJ平均增加1.91厘米；时间×年龄系数为每岁0.078厘米，年龄较大的球员增幅略大。",
+      "why": "最大测试后的跳跃表现没有按疲劳假设下降，反而可能受激活、熟悉或测试节奏影响。若不同批次改变顺序，纵向变化可能混入流程效应。",
+      "practice": "固定季前测试顺序、间隔和热身；若必须把CMJ放在体能测试后，应建立同一流程下的个人基线，不要与测试前CMJ直接拼接成一条趋势线。",
+      "evidence": "重复测量观察研究｜227名职业男足外场球员；243次季前测试",
+      "confidence": "中",
+      "confidence_reason": "样本和重复测试规模较大，但研究不能分离激活、学习、休息时间与真实疲劳的贡献。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43025446",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43025446/"
+      }
+    },
+    {
+      "id": "2a8c30d54e99",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "跳跃能力与变向有关，但不能替代双侧变向测试",
+      "title": "Associations between vertical jump performance, linear sprinting, and change-of-direction speed in elite youth football players",
+      "one_liner": "44名精英U20男足运动员中，跳跃指标与双侧变向时间呈中等相关，但与30米冲刺的关联经校正后未保留。",
+      "what": "44名精英U20男足球员完成垂直跳、30米冲刺和左右侧变向测试。跳跃变量与两侧变向时间呈中等负相关（r=-0.43至-0.56），经多重比较及协变量控制后仍存在；与30米平均速度的关联未通过校正。左右侧变向相关为r=0.69。",
+      "why": "跳跃能反映部分下肢爆发能力，却没有覆盖线性速度，也不能把左右侧变向视为同一能力。便利测试只能补充专项测试。",
+      "practice": "在监测中保留CMJ作为通用神经肌肉指标，同时直接测量左右侧变向和线性冲刺；若只能压缩测试量，优先依据项目需求删减，而不是用跳跃统一代替。",
+      "evidence": "横断面关联研究｜44名精英U20男子足球运动员",
+      "confidence": "中",
+      "confidence_reason": "统计校正后关联仍在，但样本较小且横断面设计只支持能力共变，不支持训练迁移。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43019318",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43019318/"
+      }
+    },
+    {
+      "id": "109bc7aa8e42",
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "单腿下落任务对二次ACL损伤显示高区分度",
+      "title": "Prediction of secondary anterior cruciate ligament injury using landing tasks after anterior cruciate ligament reconstruction",
+      "one_liner": "多中心队列中，单腿下落任务模型AUC为0.933、阴性预测值0.96，优于落地跳和单腿横跳，但仍需独立验证与简化。",
+      "what": "多中心ACL重建后队列纳入150名运动员，144人进入分析。研究从三种落地任务的126个变量构建弹性网络模型；单腿下落任务对二次ACL损伤的AUC为0.933，敏感度80%、特异度88.9%、阳性预测值0.57、阴性预测值0.96，高于下落纵跳（AUC 0.843）和单腿横跳（0.736）。",
+      "why": "结果支持把单腿落地控制纳入重返运动风险评估，也显示模型更擅长排除低风险者，而不是确认谁一定会再伤。126变量模型的现场可复制性仍是关键门槛。",
+      "practice": "可优先在回场评估中保留标准化单腿下落任务，并把高阴性预测值用于支持低风险判断；阳性结果应与力量、暴露计划、心理准备和既往史共同决策，暂不作为单独禁赛门槛。",
+      "evidence": "多中心前瞻队列｜ACL重建后运动员；144人分析；弹性网络预测模型",
+      "confidence": "中",
+      "confidence_reason": "区分度和关键诊断指标完整，但模型变量多、阳性预测值有限，且尚缺独立外部验证。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43025303",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43025303/"
+      }
+    },
+    {
+      "id": "864e5a1d3b70",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "半月板修复加骨髓刺激改善症状，但MRI愈合率相同",
+      "title": "Bone marrow stimulation improves patient-reported outcomes after isolated meniscal repair without changing MRI healing: a randomized controlled trial",
+      "one_liner": "50名成人RCT中，加用骨髓刺激显著改善12个月功能与疼痛评分，但两组MRI未愈合均为2/25。",
+      "what": "双盲随机试验将50名孤立性半月板修复患者分为骨髓刺激或单纯修复。12个月时，刺激组IKDC 82.5对56.5、WOMAC 14.6对41.8、Lysholm 91.8对72.6、疼痛0.6对2.3；但MRI未愈合均为2/25，组间无差异。基线缝合数和水平裂伤比例并不完全平衡。",
+      "why": "患者感受和功能明显改善，却没有出现对应的结构影像差异，说明术后价值不能只用MRI愈合解释；基线不平衡也会影响效应归因。",
+      "practice": "若采用该辅助技术，应把症状、功能和活动恢复列为主要随访结局，同时保留影像评估；目前证据支持讨论功能获益，不支持宣称其提高结构愈合率。",
+      "evidence": "双盲随机对照试验｜50名成人孤立性半月板修复患者｜12个月",
+      "confidence": "中",
+      "confidence_reason": "随机、双盲并报告多维结局；样本小且关键基线特征不平衡，结构结局明确为阴性。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43024641",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43024641/"
+      }
+    },
+    {
+      "id": "5a7e9d38c611",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "修订ACL加外侧关节外增强降低失败，但证据确定性很低",
+      "title": "Lateral extra-articular procedures in revision anterior cruciate ligament reconstruction: a systematic review and meta-analysis",
+      "one_liner": "14项研究、1134人中，联合外侧关节外增强的失败风险约降低56%，但主要结果证据确定性为很低。",
+      "what": "系统综述纳入14项研究、1134名修订ACL患者。联合外侧关节外增强与单纯修订相比，失败29/517对69/506，RR 0.44（95%CI 0.29–0.68）；残余松弛和pivot shift也较少。IKDC差异仅2.91分，任何运动回归仅2项研究、87人，RR 1.10且不显著。",
+      "why": "机械稳定性与移植物失败信号较一致，但患者报告和回归运动并未同步显示同等收益。现有研究质量使效应大小仍可能被选择偏倚放大。",
+      "practice": "对高旋转不稳、失败风险较高的修订病例，可把外侧增强纳入术式讨论；向患者说明当前较有把握的是稳定性和失败风险信号，而不是更高的运动回归概率。",
+      "evidence": "系统综述与Meta分析｜14项研究；1134名修订ACL患者",
+      "confidence": "低",
+      "confidence_reason": "方向一致且样本量可观，但作者将关键失败结局评为很低确定性，运动回归数据极少。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43025169",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43025169/"
+      }
+    },
+    {
+      "id": "c4216d7ab2f4",
+      "priority": "快讯",
+      "domain": "运动健康",
+      "short_title": "VR叠加康复在肝移植后肌少症中出现大幅功能改善",
+      "title": "Virtual reality-enhanced rehabilitation for sarcopenia after liver transplantation: a randomized controlled trial",
+      "one_liner": "60名肝移植后肌少症患者的6周RCT中，VR叠加常规康复显著提高握力、股四头肌力量和6分钟步行距离。",
+      "what": "60名肝移植后肌少症患者随机接受VR叠加常规康复或单纯常规康复，每周3次、持续6周。摘要报告组间差异：握力+9.55千克、股四头肌力量+4.39千克、6分钟步行+172.31米，疲劳-1.54分、身体功能+12.70分，均p<0.001。",
+      "why": "效果覆盖力量、耐力和主观功能，提示沉浸式任务可能提高这一高风险人群的训练参与和剂量；其中6分钟步行差异异常大，需要结合全文核对起点、依从性和测量流程。",
+      "practice": "可在有监护条件的移植后康复中试点VR作为训练载体，并同步记录实际训练时长、强度、眩晕或跌倒事件；暂不据此把VR视为独立治疗成分。",
+      "evidence": "随机对照试验摘要｜60名肝移植后肌少症患者｜每周3次、6周",
+      "confidence": "低",
+      "confidence_reason": "随机设计和多结局方向一致，但目前依据摘要，效应幅度很大且缺少基线、盲法和不良事件细节。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43031457",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43031457/"
+      }
+    },
+    {
+      "id": "d73a0b85691c",
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "隐藏湿实验结果把科学Agent拉回真实预测能力",
+      "title": "Science Prediction Universe",
+      "one_liner": "116个湿实验任务中，前沿Agent的公开任务调整后Spearman仅0.227–0.478，且系统间共识高于与真实实验的一致性。",
+      "what": "SPU预印本构建116个湿实验预测任务：100个公开任务来自85篇论文，16个私有任务来自未发表实验，共覆盖4207次实验。13种Agent配置需在8小时内排序候选实验结果；公开任务调整后Spearman为0.227–0.478。对1155条轨迹、227103次工具调用的分析显示，Agent彼此平均相关0.52，而与实验结果仅0.33。",
+      "why": "该基准把‘会查资料、会调用工具’与‘能预测未知实验’分开。最高分配置只完成44/100个公开任务，说明排行榜必须同时报告任务覆盖、拒绝和恢复提交规则，不能只看平均分。",
+      "practice": "评估科研Agent时，应优先加入隐藏结果、离线评分和完整任务覆盖率；在实验设计工作流中，可让模型提出排序与机制假设，但仍以小规模实验校准后再扩大资源投入。",
+      "evidence": "预印本与公开基准｜116个任务、4207次湿实验；13种Agent配置；尚未同行评审",
+      "confidence": "中",
+      "confidence_reason": "任务、评分与轨迹分析公开且包含私有未发表实验；模型、推理强度和Agent框架效应混合，且公开数据已不再是隐藏测试集。",
+      "limit": "",
+      "source": {
+        "title": "arXiv:2611.15049",
+        "url": "https://arxiv.org/abs/2611.15049"
+      }
+    },
+    {
+      "id": "4ea1f96c20ad",
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "DeepSeek把搜索、文件、链接与语音开放为应用API",
+      "title": "The full DeepSeek App experience, now via API",
+      "one_liner": "DeepSeek V4.1-Flash现可在三类对话API中由服务端完成搜索、文件解析和链接读取，并开放OCR、ASR、TTS等独立接口。",
+      "what": "DeepSeek于11月13日开放应用API。`deepseek-flash`在Messages、Responses和Chat Completions中支持联网搜索、深度思考搜索、PDF/Office/图片输入、URL读取和安全检查；Search、Fetch、OCR、ASR、TTS也可独立调用，并提供开源聊天前端。",
+      "why": "开发者不再需要自行拼接每个工具调用和上下文，但服务端编排也会把检索质量、引用完整性、文件解析和内容审核集中到同一供应商链路。",
+      "practice": "可先用一条包含网页、PDF与语音输入的真实工作流做端到端测试，分别记录工具调用、引用、失败重试与费用；面向公众的应用应按官方要求开启安全检查，并自行承担审核、登记和AI标识责任。",
+      "evidence": "厂商官方发布与API文档｜V4.1-Flash；2026-11-13发布",
+      "confidence": "高",
+      "confidence_reason": "功能、接口范围和合规要求均来自DeepSeek官方文档；实际检索与解析效果仍需独立任务测试。",
+      "limit": "",
+      "source": {
+        "title": "DeepSeek API Docs",
+        "url": "https://api-docs.deepseek.com/news/news261113/"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "今天最值得更新的是验证方式：任何用于风险、训练或科研决策的模型，都应在当时真实可见的数据上滚动测试，并同时报告未完成任务、阴性预测值和覆盖率。",
+    "康复中要把三类结局拆开：再伤预测、患者功能和结构影像可能不同步。下一步不是寻找单一总分，而是明确每个指标承担哪一种决策。"
+  ],
+  "trends_url": "data/trends/2026-11-15.json"
+}
