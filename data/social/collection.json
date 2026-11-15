@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-11-14T23:55:01.288195+00:00",
+  "generated_at": "2026-11-15T02:38:35.053855+00:00",
   "window_start": "2026-11-01T16:00:00+00:00",
-  "as_of": "2026-11-14T23:54:00.125471+00:00",
+  "as_of": "2026-11-15T02:38:28.634619+00:00",
   "summary": {
     "authors_total": 88,
-    "homepages_read": 16,
+    "homepages_read": 13,
     "feeds_read": 49,
-    "candidates": 193,
-    "published_date_candidates": 176,
-    "already_reported": 48,
+    "candidates": 192,
+    "published_date_candidates": 175,
+    "already_reported": 53,
     "authors_with_recent_candidates": 24
   },
   "authors": [
@@ -41,7 +41,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-06T18:32:27+00:00",
-      "elapsed_seconds": 6.56,
+      "elapsed_seconds": 2.9,
       "recent_item_ids": [
         "f1ac852461a6"
       ]
@@ -79,7 +79,7 @@
       ],
       "parsed_items": 13,
       "latest_visible_item_at": "2026-10-28T15:35:22+00:00",
-      "elapsed_seconds": 3.43,
+      "elapsed_seconds": 0.2,
       "recent_item_ids": []
     },
     {
@@ -138,7 +138,7 @@
       ],
       "parsed_items": 2,
       "latest_visible_item_at": "2026-10-13T17:04:00+00:00",
-      "elapsed_seconds": 3.88,
+      "elapsed_seconds": 0.31,
       "recent_item_ids": []
     },
     {
@@ -220,7 +220,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2023-09-07T04:34:49+00:00",
-      "elapsed_seconds": 3.88,
+      "elapsed_seconds": 0.19,
       "recent_item_ids": []
     },
     {
@@ -277,7 +277,7 @@
       ],
       "parsed_items": 4,
       "latest_visible_item_at": "2026-07-17T08:46:08+00:00",
-      "elapsed_seconds": 4.54,
+      "elapsed_seconds": 0.78,
       "recent_item_ids": []
     },
     {
@@ -313,7 +313,7 @@
       "page_title": "Greg Lehman",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 9.43,
+      "elapsed_seconds": 0.46,
       "recent_item_ids": []
     },
     {
@@ -348,7 +348,7 @@
       ],
       "parsed_items": 5,
       "latest_visible_item_at": "2026-11-05T11:00:00+00:00",
-      "elapsed_seconds": 3.61,
+      "elapsed_seconds": 0.11,
       "recent_item_ids": [
         "ab7083bae168"
       ]
@@ -394,7 +394,7 @@
       "page_title": "adammeakins.com",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 17.37,
+      "elapsed_seconds": 1.15,
       "recent_item_ids": []
     },
     {
@@ -425,7 +425,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-04-13T21:24:45+00:00",
-      "elapsed_seconds": 4.28,
+      "elapsed_seconds": 0.21,
       "recent_item_ids": []
     },
     {
@@ -456,7 +456,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-25T01:28:41+00:00",
-      "elapsed_seconds": 2.67,
+      "elapsed_seconds": 0.36,
       "recent_item_ids": []
     },
     {
@@ -540,9 +540,11 @@
         }
       ],
       "parsed_items": 30,
-      "latest_visible_item_at": "2026-11-13T23:02:45+00:00",
-      "elapsed_seconds": 3.24,
+      "latest_visible_item_at": "2026-11-14T23:59:28+00:00",
+      "elapsed_seconds": 0.12,
       "recent_item_ids": [
+        "9c481a093106",
+        "c7271b7ac99e",
         "2053de078f05",
         "a840b1604a3a",
         "aeee01f56282",
@@ -570,9 +572,7 @@
         "0eec722f1150",
         "8674b402a758",
         "b5cba0d01134",
-        "46933a36d260",
-        "449ed68b9005",
-        "9d52bf97ae05"
+        "46933a36d260"
       ]
     },
     {
@@ -603,7 +603,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-11-09T19:04:26+00:00",
-      "elapsed_seconds": 3.42,
+      "elapsed_seconds": 0.24,
       "recent_item_ids": [
         "c02cc2dffd5e"
       ]
@@ -636,7 +636,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-20T07:00:00+00:00",
-      "elapsed_seconds": 3.08,
+      "elapsed_seconds": 0.13,
       "recent_item_ids": []
     },
     {
@@ -667,7 +667,7 @@
       ],
       "parsed_items": 214,
       "latest_visible_item_at": "2026-06-30T00:00:00+00:00",
-      "elapsed_seconds": 2.83,
+      "elapsed_seconds": 0.15,
       "recent_item_ids": []
     },
     {
@@ -698,7 +698,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-01-16T00:00:00+00:00",
-      "elapsed_seconds": 3.8,
+      "elapsed_seconds": 0.14,
       "recent_item_ids": []
     },
     {
@@ -729,7 +729,7 @@
       ],
       "parsed_items": 53,
       "latest_visible_item_at": "2026-07-04T00:00:00+00:00",
-      "elapsed_seconds": 2.88,
+      "elapsed_seconds": 0.11,
       "recent_item_ids": []
     },
     {
@@ -754,7 +754,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-24T11:14:32+00:00",
-      "elapsed_seconds": 3.04,
+      "elapsed_seconds": 0.16,
       "recent_item_ids": []
     },
     {
@@ -786,7 +786,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-10-29T14:00:00+00:00",
-      "elapsed_seconds": 3.47,
+      "elapsed_seconds": 0.13,
       "recent_item_ids": []
     },
     {
@@ -811,7 +811,7 @@
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 4.21,
+      "elapsed_seconds": 1.76,
       "recent_item_ids": []
     },
     {
@@ -836,7 +836,7 @@
       ],
       "parsed_items": 12,
       "latest_visible_item_at": "2026-11-11T17:00:00+00:00",
-      "elapsed_seconds": 3.01,
+      "elapsed_seconds": 0.09,
       "recent_item_ids": [
         "7df82d720b89",
         "f5599ae5c3fe"
@@ -864,7 +864,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-09T17:00:00+00:00",
-      "elapsed_seconds": 3.13,
+      "elapsed_seconds": 0.13,
       "recent_item_ids": [
         "170818adff70",
         "4ad7573ba348",
@@ -898,7 +898,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-11T20:54:58+00:00",
-      "elapsed_seconds": 3.9,
+      "elapsed_seconds": 0.37,
       "recent_item_ids": [
         "26aef157fb55",
         "a41404309148"
@@ -926,7 +926,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-07-18T20:07:15+00:00",
-      "elapsed_seconds": 3.45,
+      "elapsed_seconds": 0.09,
       "recent_item_ids": []
     },
     {
@@ -945,23 +945,23 @@
       "attempts": [
         {
           "url": "https://sportsscientists.com/feed/",
-          "status": "HTTPError",
-          "detail": "HTTP Error 503: Service Unavailable"
+          "status": "URLError",
+          "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sportsscientists.com'. (_ssl.c:1081)>"
         },
         {
           "url": "https://sportsscientists.com/",
-          "status": "HTTPError",
-          "detail": "HTTP Error 503: Service Unavailable"
+          "status": "URLError",
+          "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sportsscientists.com'. (_ssl.c:1081)>"
         },
         {
           "url": "https://sportsscientists.com/feed/",
-          "status": "HTTPError",
-          "detail": "HTTP Error 503: Service Unavailable"
+          "status": "URLError",
+          "detail": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sportsscientists.com'. (_ssl.c:1081)>"
         }
       ],
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 11.8,
+      "elapsed_seconds": 1.49,
       "recent_item_ids": []
     },
     {
@@ -986,7 +986,7 @@
       ],
       "parsed_items": 15,
       "latest_visible_item_at": "2026-06-11T19:24:38+00:00",
-      "elapsed_seconds": 5.22,
+      "elapsed_seconds": 1.81,
       "recent_item_ids": []
     },
     {
@@ -1020,7 +1020,7 @@
       "page_title": "Gabbett Performance – Professional development for coaches, teams, clubs and players.",
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-13T21:12:28+00:00",
-      "elapsed_seconds": 9.1,
+      "elapsed_seconds": 4.87,
       "recent_item_ids": [
         "77f62ea1da85"
       ]
@@ -1058,7 +1058,7 @@
       "page_title": "Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 12.4,
+      "elapsed_seconds": 0.7,
       "recent_item_ids": []
     },
     {
@@ -1094,7 +1094,7 @@
       "page_title": "Marco Altini",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 10.1,
+      "elapsed_seconds": 0.26,
       "recent_item_ids": []
     },
     {
@@ -1119,7 +1119,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-30T14:53:02+00:00",
-      "elapsed_seconds": 3.22,
+      "elapsed_seconds": 0.1,
       "recent_item_ids": []
     },
     {
@@ -1277,7 +1277,7 @@
       "page_title": "ALTIS - Coach Education",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 18.0,
+      "elapsed_seconds": 4.65,
       "recent_item_ids": []
     },
     {
@@ -1308,7 +1308,7 @@
       "page_title": "Upside Strength - Performance, Physiology, Education Joinchat",
       "parsed_items": 25,
       "latest_visible_item_at": "2026-06-01T18:57:36+00:00",
-      "elapsed_seconds": 10.33,
+      "elapsed_seconds": 2.64,
       "recent_item_ids": []
     },
     {
@@ -1333,7 +1333,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-10T05:00:58+00:00",
-      "elapsed_seconds": 3.11,
+      "elapsed_seconds": 0.19,
       "recent_item_ids": [
         "b6ee947ba419",
         "bcc0ff3439a4",
@@ -1362,7 +1362,7 @@
       ],
       "parsed_items": 289,
       "latest_visible_item_at": "2026-11-09T10:00:00+00:00",
-      "elapsed_seconds": 4.3,
+      "elapsed_seconds": 0.76,
       "recent_item_ids": [
         "473d2fa7a5e5",
         "6326113d20ac"
@@ -1387,7 +1387,7 @@
         {
           "url": "https://www.physio-network.com/feed/",
           "status": "ParseError",
-          "detail": "undefined entity: line 96, column 73"
+          "detail": "undefined entity: line 93, column 52"
         },
         {
           "url": "https://www.physio-network.com/blog/",
@@ -1396,7 +1396,7 @@
         {
           "url": "https://www.physio-network.com/feed",
           "status": "ParseError",
-          "detail": "undefined entity: line 96, column 73"
+          "detail": "undefined entity: line 93, column 52"
         },
         {
           "url": "https://www.physio-network.com/feed.xml",
@@ -1408,7 +1408,7 @@
       "page_title": "Physiotherapy Blog — 400+ Expert Physical Therapy Blogs",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 18.16,
+      "elapsed_seconds": 4.22,
       "recent_item_ids": []
     },
     {
@@ -1433,7 +1433,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-14T06:00:00+00:00",
-      "elapsed_seconds": 3.42,
+      "elapsed_seconds": 0.31,
       "recent_item_ids": []
     },
     {
@@ -1458,7 +1458,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-06-21T13:00:00+00:00",
-      "elapsed_seconds": 5.82,
+      "elapsed_seconds": 1.8,
       "recent_item_ids": []
     },
     {
@@ -1483,7 +1483,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-08T19:38:45+00:00",
-      "elapsed_seconds": 4.42,
+      "elapsed_seconds": 1.11,
       "recent_item_ids": []
     },
     {
@@ -1517,7 +1517,7 @@
       "page_title": "PainScience.com",
       "parsed_items": 31,
       "latest_visible_item_at": "2026-11-12T07:00:00+00:00",
-      "elapsed_seconds": 7.36,
+      "elapsed_seconds": 0.24,
       "recent_item_ids": [
         "144d807914ac",
         "ef4c8b9a9f65",
@@ -1626,19 +1626,19 @@
         {
           "url": "https://www.sportsinjurybulletin.com/feed",
           "status": "HTTPError",
-          "detail": "HTTP Error 404: Not Found"
+          "detail": "HTTP Error 404: "
         },
         {
           "url": "https://www.sportsinjurybulletin.com/feed.xml",
           "status": "HTTPError",
-          "detail": "HTTP Error 404: Not Found"
+          "detail": "HTTP Error 404: "
         }
       ],
       "resolved_homepage": "https://www.sportsinjurybulletin.com/",
       "page_title": "Sports Injury Bulletin - Home",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 9.19,
+      "elapsed_seconds": 1.35,
       "recent_item_ids": []
     },
     {
@@ -1663,7 +1663,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-10-31T17:00:00+00:00",
-      "elapsed_seconds": 3.52,
+      "elapsed_seconds": 0.08,
       "recent_item_ids": []
     },
     {
@@ -1688,7 +1688,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-11-14T08:31:02+00:00",
-      "elapsed_seconds": 6.13,
+      "elapsed_seconds": 0.57,
       "recent_item_ids": [
         "6afdd40324dd",
         "780c8c2026df",
@@ -1734,7 +1734,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-11-14T12:23:15+00:00",
-      "elapsed_seconds": 3.21,
+      "elapsed_seconds": 0.11,
       "recent_item_ids": [
         "95ba8521fd1a",
         "ecb2e13c36b5"
@@ -1762,7 +1762,7 @@
       ],
       "parsed_items": 15,
       "latest_visible_item_at": "2026-02-18T23:25:52+00:00",
-      "elapsed_seconds": 4.24,
+      "elapsed_seconds": 0.91,
       "recent_item_ids": []
     },
     {
@@ -1787,7 +1787,7 @@
       ],
       "parsed_items": 907,
       "latest_visible_item_at": "2026-11-13T18:00:39+00:00",
-      "elapsed_seconds": 4.39,
+      "elapsed_seconds": 0.1,
       "recent_item_ids": [
         "cdc8eef67bc5",
         "96c7f67bef86",
@@ -1829,7 +1829,7 @@
       ],
       "parsed_items": 1387,
       "latest_visible_item_at": "2026-11-13T15:00:00+00:00",
-      "elapsed_seconds": 3.32,
+      "elapsed_seconds": 0.13,
       "recent_item_ids": [
         "7d4d71d056da",
         "a99dfdd20d85",
@@ -1919,7 +1919,7 @@
       ],
       "parsed_items": 100,
       "latest_visible_item_at": "2026-11-12T18:00:50+00:00",
-      "elapsed_seconds": 3.78,
+      "elapsed_seconds": 0.08,
       "recent_item_ids": [
         "5b69826eead4",
         "ba0fcf4e325b",
@@ -1953,7 +1953,7 @@
       ],
       "parsed_items": 20,
       "latest_visible_item_at": "2026-11-12T18:00:00+00:00",
-      "elapsed_seconds": 8.25,
+      "elapsed_seconds": 0.21,
       "recent_item_ids": [
         "d6d23163b98d",
         "02bfed5e7aa8",
@@ -1988,7 +1988,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-12T21:31:57+00:00",
-      "elapsed_seconds": 3.89,
+      "elapsed_seconds": 0.53,
       "recent_item_ids": [
         "3ed8f8cd29d8",
         "d48977b6fbc8",
@@ -2018,7 +2018,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-12T22:54:52+00:00",
-      "elapsed_seconds": 3.14,
+      "elapsed_seconds": 0.08,
       "recent_item_ids": [
         "d121304c3de6",
         "92b8001eea64"
@@ -2064,7 +2064,7 @@
       "page_title": "LangChain Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 28.41,
+      "elapsed_seconds": 0.59,
       "recent_item_ids": []
     },
     {
@@ -2103,7 +2103,7 @@
       "page_title": "Blog",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 11.0,
+      "elapsed_seconds": 0.25,
       "recent_item_ids": []
     },
     {
@@ -2129,7 +2129,7 @@
       ],
       "parsed_items": 34,
       "latest_visible_item_at": "2026-11-13T00:00:00+00:00",
-      "elapsed_seconds": 5.26,
+      "elapsed_seconds": 0.19,
       "recent_item_ids": [
         "374a6e03bf63",
         "d5504ac50c42",
@@ -2172,7 +2172,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-09T09:00:00+00:00",
-      "elapsed_seconds": 3.62,
+      "elapsed_seconds": 0.53,
       "recent_item_ids": [
         "a7a4aac751ca"
       ]
@@ -2199,7 +2199,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-09-21T14:23:46+00:00",
-      "elapsed_seconds": 4.11,
+      "elapsed_seconds": 0.63,
       "recent_item_ids": []
     },
     {
@@ -2224,7 +2224,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2025-03-26T00:00:00+00:00",
-      "elapsed_seconds": 4.62,
+      "elapsed_seconds": 0.06,
       "recent_item_ids": []
     },
     {
@@ -2237,35 +2237,29 @@
       "platform": "通讯",
       "language": "en",
       "feed_url": null,
-      "status": "homepage_only",
-      "homepage_read": true,
+      "status": "unavailable",
+      "homepage_read": false,
       "social_links": [],
       "attempts": [
         {
           "url": "https://importai.substack.com/feed",
-          "status": "ValueError",
-          "detail": "Response is not an RSS/Atom feed"
+          "status": "HTTPError",
+          "detail": "HTTP Error 403: Forbidden"
         },
         {
           "url": "https://importai.substack.com/",
-          "status": "ok"
+          "status": "HTTPError",
+          "detail": "HTTP Error 403: Forbidden"
         },
         {
           "url": "https://importai.substack.com/feed",
-          "status": "ValueError",
-          "detail": "Response is not an RSS/Atom feed"
-        },
-        {
-          "url": "https://importai.substack.com/feed.xml",
-          "status": "ValueError",
-          "detail": "Response is not an RSS/Atom feed"
+          "status": "HTTPError",
+          "detail": "HTTP Error 403: Forbidden"
         }
       ],
-      "resolved_homepage": "https://importai.substack.com/",
-      "page_title": "Site Unavailable",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 13.64,
+      "elapsed_seconds": 0.07,
       "recent_item_ids": []
     },
     {
@@ -2278,35 +2272,29 @@
       "platform": "通讯",
       "language": "en",
       "feed_url": null,
-      "status": "homepage_only",
-      "homepage_read": true,
+      "status": "unavailable",
+      "homepage_read": false,
       "social_links": [],
       "attempts": [
         {
           "url": "https://thesequence.substack.com/feed",
-          "status": "ValueError",
-          "detail": "Response is not an RSS/Atom feed"
+          "status": "HTTPError",
+          "detail": "HTTP Error 403: Forbidden"
         },
         {
           "url": "https://thesequence.substack.com/",
-          "status": "ok"
+          "status": "HTTPError",
+          "detail": "HTTP Error 403: Forbidden"
         },
         {
           "url": "https://thesequence.substack.com/feed",
-          "status": "ValueError",
-          "detail": "Response is not an RSS/Atom feed"
-        },
-        {
-          "url": "https://thesequence.substack.com/feed.xml",
-          "status": "ValueError",
-          "detail": "Response is not an RSS/Atom feed"
+          "status": "HTTPError",
+          "detail": "HTTP Error 403: Forbidden"
         }
       ],
-      "resolved_homepage": "https://thesequence.substack.com/",
-      "page_title": "Site Unavailable",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 11.67,
+      "elapsed_seconds": 0.07,
       "recent_item_ids": []
     },
     {
@@ -2338,33 +2326,30 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "homepage_only",
-      "homepage_read": true,
+      "status": "unavailable",
+      "homepage_read": false,
       "feed_url": null,
-      "social_links": [
-        "https://x.com/deeplearningai"
-      ],
+      "social_links": [],
       "attempts": [
         {
           "url": "https://www.deeplearning.ai/the-batch/",
-          "status": "ok"
+          "status": "HTTPError",
+          "detail": "HTTP Error 403: Forbidden"
         },
         {
           "url": "https://www.deeplearning.ai/feed",
           "status": "HTTPError",
-          "detail": "HTTP Error 404: Not Found"
+          "detail": "HTTP Error 403: Forbidden"
         },
         {
           "url": "https://www.deeplearning.ai/feed.xml",
           "status": "HTTPError",
-          "detail": "HTTP Error 404: Not Found"
+          "detail": "HTTP Error 403: Forbidden"
         }
       ],
-      "resolved_homepage": "https://www.deeplearning.ai/the-batch",
-      "page_title": "The Batch | DeepLearning.AI | AI News & Insights",
       "parsed_items": 0,
       "latest_visible_item_at": null,
-      "elapsed_seconds": 12.46,
+      "elapsed_seconds": 0.08,
       "recent_item_ids": []
     },
     {
@@ -2395,7 +2380,7 @@
       "page_title": "Tech Blog | ✰Vicki Boykis✰",
       "parsed_items": 20,
       "latest_visible_item_at": "2026-10-29T00:00:00+00:00",
-      "elapsed_seconds": 6.63,
+      "elapsed_seconds": 0.18,
       "recent_item_ids": []
     },
     {
@@ -2420,7 +2405,7 @@
       ],
       "parsed_items": 10,
       "latest_visible_item_at": "2026-11-14T10:08:08+00:00",
-      "elapsed_seconds": 5.19,
+      "elapsed_seconds": 1.69,
       "recent_item_ids": [
         "eab8f98232fc",
         "cd9e3aa4df66",
@@ -2477,7 +2462,7 @@
       ],
       "parsed_items": 3,
       "latest_visible_item_at": "2026-11-13T07:00:00+00:00",
-      "elapsed_seconds": 5.33,
+      "elapsed_seconds": 1.41,
       "recent_item_ids": [
         "7d7bfd97682c",
         "5b176a809628",
@@ -2605,12 +2590,11 @@
           "entries": 30
         }
       ],
-      "parsed_items": 2,
-      "latest_visible_item_at": "2026-11-14T14:08:12+00:00",
-      "elapsed_seconds": 2.96,
+      "parsed_items": 1,
+      "latest_visible_item_at": "2026-11-10T15:07:28+00:00",
+      "elapsed_seconds": 0.27,
       "recent_item_ids": [
-        "491f8d171c27",
-        "af7f8d8cd385"
+        "491f8d171c27"
       ]
     },
     {
@@ -2656,24 +2640,45 @@
   ],
   "candidates": [
     {
-      "title": "Show HN: Agweb – a browser for agents that stays out of your way",
-      "url": "https://github.com/paul-nameless/agweb",
-      "published_at": "2026-11-14T14:08:12+00:00",
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+      "published_at": "2026-11-14T23:59:28+00:00",
       "date_kind": "published",
       "byline": "",
       "dois": [],
       "date_verified": true,
-      "topic_id": "ai-agent",
+      "topic_id": "ai-eval",
       "domain": "AI",
-      "author_id": "hacker-news",
-      "source_author": "Hacker News · AI讨论",
-      "feed_url": "https://news.ycombinator.com/rss",
-      "platform": "社区",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
       "language": "en",
       "previous_briefs": [],
-      "id": "af7f8d8cd385",
+      "id": "9c481a093106",
       "observed_authors": [
-        "Hacker News · AI讨论"
+        "Simon Willison"
+      ]
+    },
+    {
+      "title": "datasette-vega 0.7",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega",
+      "published_at": "2026-11-14T17:09:09+00:00",
+      "date_kind": "published",
+      "byline": "",
+      "dois": [],
+      "date_verified": true,
+      "topic_id": "ai-eval",
+      "domain": "AI",
+      "author_id": "simon-willison",
+      "source_author": "Simon Willison",
+      "feed_url": "https://simonwillison.net/atom/everything/",
+      "platform": "博客",
+      "language": "en",
+      "previous_briefs": [],
+      "id": "c7271b7ac99e",
+      "observed_authors": [
+        "Simon Willison"
       ]
     },
     {
@@ -2691,7 +2696,9 @@
       "feed_url": "https://www.interconnects.ai/feed",
       "platform": "通讯",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-11-15"
+      ],
       "id": "95ba8521fd1a",
       "observed_authors": [
         "Nathan Lambert / Interconnects"
@@ -3891,7 +3898,9 @@
       "feed_url": "https://www.painscience.com/rss.xml",
       "platform": "博客",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-11-15"
+      ],
       "id": "ef4c8b9a9f65",
       "observed_authors": [
         "Paul Ingraham / PainScience"
@@ -4702,7 +4711,9 @@
       "feed_url": "https://simplifaster.com/feed/",
       "platform": "博客",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-11-15"
+      ],
       "id": "170818adff70",
       "observed_authors": [
         "SimpliFaster"
@@ -4723,7 +4734,9 @@
       "feed_url": "https://blogs.bmj.com/bjsm/feed/",
       "platform": "博客",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-11-15"
+      ],
       "id": "bcc0ff3439a4",
       "observed_authors": [
         "BJSM Blog"
@@ -4791,7 +4804,9 @@
       "feed_url": "https://feeds.resonaterecordings.com/jospt",
       "platform": "播客",
       "language": "en",
-      "previous_briefs": [],
+      "previous_briefs": [
+        "2026-11-15"
+      ],
       "id": "473d2fa7a5e5",
       "observed_authors": [
         "JOSPT Insights"
@@ -6427,27 +6442,6 @@
       ]
     },
     {
-      "title": "October sponsors-only newsletter",
-      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter",
-      "published_at": "2026-11-03T05:28:59+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "449ed68b9005",
-      "observed_authors": [
-        "Simon Willison"
-      ]
-    },
-    {
       "title": "CWE-bench v2: More coverage, quality, and transparency",
       "url": "https://huggingface.co/blog/cwe-bench",
       "published_at": "2026-11-03T00:00:00+00:00",
@@ -6529,27 +6523,6 @@
       "id": "efad017cf383",
       "observed_authors": [
         "Vercel"
-      ]
-    },
-    {
-      "title": "llm 0.37",
-      "url": "https://simonwillison.net/2026/Nov/2/llm",
-      "published_at": "2026-11-02T23:49:30+00:00",
-      "date_kind": "published",
-      "byline": "",
-      "dois": [],
-      "date_verified": true,
-      "topic_id": "ai-eval",
-      "domain": "AI",
-      "author_id": "simon-willison",
-      "source_author": "Simon Willison",
-      "feed_url": "https://simonwillison.net/atom/everything/",
-      "platform": "博客",
-      "language": "en",
-      "previous_briefs": [],
-      "id": "9d52bf97ae05",
-      "observed_authors": [
-        "Simon Willison"
       ]
     },
     {
