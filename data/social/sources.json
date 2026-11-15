@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T02:38:28.634619+00:00",
+  "checked_at": "2026-11-15T23:47:25.205564+00:00",
   "total": 88,
   "feeds_connected": 49,
   "sources": [
@@ -434,7 +434,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://magazine.sebastianraschka.com/feed",
-      "recent_items": 0
+      "recent_items": 1
     },
     {
       "id": "jeremy-howard",
@@ -726,7 +726,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://feeds.resonaterecordings.com/jospt",
-      "recent_items": 2
+      "recent_items": 1
     },
     {
       "id": "physio-network",
@@ -934,7 +934,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://openai.com/news/rss.xml",
-      "recent_items": 44
+      "recent_items": 41
     },
     {
       "id": "anthropic",
@@ -1038,7 +1038,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://vercel.com/atom",
-      "recent_items": 17
+      "recent_items": 16
     },
     {
       "id": "bair",
@@ -1088,7 +1088,7 @@
       "kind": "专业作者",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1101,7 +1101,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1127,7 +1127,7 @@
       "kind": "专业媒体",
       "platform": "通讯",
       "language": "en",
-      "status": "unavailable",
+      "status": "homepage_only",
       "feed_url": null,
       "recent_items": 0
     },
@@ -1259,7 +1259,7 @@
       "language": "en",
       "status": "feed_ok",
       "feed_url": "https://news.ycombinator.com/rss",
-      "recent_items": 1
+      "recent_items": 4
     },
     {
       "id": "reddit-ml",
