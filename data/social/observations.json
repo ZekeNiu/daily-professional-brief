@@ -9118,6 +9118,20 @@
       "last_seen": "2026-11-13T03:25:23.381025+00:00"
     },
     {
+      "id": "c0e9241b7ad6",
+      "title": "Top Sports Medicine Articles Podcast – Using Blood Flow Restriction Therapy for Knee OA",
+      "url": "https://amssm.podbean.com/e/top-sports-medicine-articles-podcast-%E2%80%93-using-blood-flow-restriction-therapy-for-knee-oa/",
+      "date": "2026-11-12",
+      "domain": "运动健康",
+      "topic_id": "health-rtp",
+      "sources": [
+        "AMSSM Sports Medcasts"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-17T08:12:00+08:00",
+      "last_seen": "2026-11-17T08:12:00+08:00"
+    },
+    {
       "id": "c1b3c3ae4622",
       "title": "“双十一”机器人在物流仓“埋头苦干”：昆腾动力开启具身智能规模化获客与交付阶段",
       "url": "https://www.qbitai.com/2026/11/509281.html",
@@ -9256,6 +9270,20 @@
       "platform": "通讯",
       "first_seen": "2026-11-13T23:52:16.262676+00:00",
       "last_seen": "2026-11-16T02:43:21.807806+00:00"
+    },
+    {
+      "id": "19fc62b7e4a1",
+      "title": "Inside Elite Football: Strength, Conditioning and Injury Prevention",
+      "url": "https://podcasts.apple.com/ca/podcast/inside-elite-football-strength-conditioning-and/id1605691990?i=1000801680640",
+      "date": "2026-11-13",
+      "domain": "运动科学",
+      "topic_id": "sport-speed",
+      "sources": [
+        "Paolo Rongoni / Martin Buchheit"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-17T08:12:00+08:00",
+      "last_seen": "2026-11-17T08:12:00+08:00"
     },
     {
       "id": "35c72e99d63e",
@@ -10000,6 +10028,20 @@
       "last_seen": "2026-11-16T02:43:21.807806+00:00"
     },
     {
+      "id": "ae3c9017d5b8",
+      "title": "43 High Performance Physiology Method",
+      "url": "https://podcasts.apple.com/ca/podcast/43-high-performance-physiology-method/id1848284552?i=1000801971776",
+      "date": "2026-11-15",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Chris Beardsley / Rob Mauceri"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-17T08:12:00+08:00",
+      "last_seen": "2026-11-17T08:12:00+08:00"
+    },
+    {
       "id": "c7271b7ac99e",
       "title": "datasette-vega 0.7",
       "url": "https://simonwillison.net/2026/Nov/14/datasette-vega",
@@ -10055,6 +10097,34 @@
       "platform": "公开发布",
       "first_seen": "2026-11-15T23:47:25.205564+00:00",
       "last_seen": "2026-11-16T02:43:21.807806+00:00"
+    },
+    {
+      "id": "4db3019f68c2",
+      "title": "Coding agents make my life so much harder",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1xxcj0z/coding_agents_make_my_life_so_much_harder/",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Reddit / r/AI_Agents"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-17T08:12:00+08:00",
+      "last_seen": "2026-11-17T08:12:00+08:00"
+    },
+    {
+      "id": "5b7e41d9a0c3",
+      "title": "How to Develop Strength, Speed and Power in Young Athletes",
+      "url": "https://scienceforsport.fireside.fm/346",
+      "date": "2026-11-16",
+      "domain": "运动科学",
+      "topic_id": "sport-speed",
+      "sources": [
+        "Science for Sport / Tom Green"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-17T08:12:00+08:00",
+      "last_seen": "2026-11-17T08:12:00+08:00"
     },
     {
       "id": "5d20483ff1db",
