@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-17",
+  "title": "每日专业资讯简报｜2026-11-17",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 5,
+      "运动健康": 2,
+      "AI": 3
+    },
+    "signal": "本期最重要的进展是：测量阈值、训练余量和康复对称性都必须回到具体方法与动作来源；相同标签下的算法或反馈方式，可能给出不同的实践含义。"
+  },
+  "navigation": {
+    "prev": "2026-11-16",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "阈值、训练余量与热适应都需要方法匹配：先明确测量定义，再决定训练区间、剂量和监控指标。",
+    "运动健康": "动作对称性的改善可能来自健侧减少代偿，而不是患侧能力增加；重返运动判断必须同时追踪绝对能力与任务负荷。",
+    "AI": "AI正在进入科研和医疗的真实工作流，但价值证据仍需区分使用行为、自报效率、产品能力与独立结果。"
+  },
+  "items": [
+    {
+      "id": "e41d9c8a2f31",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "个体化乳酸拐点与临界速度重合",
+      "title": "Individualized Lactate Steady State Resolves the Discrepancy Between Maximal Lactate Steady State and Critical Speed in Running",
+      "one_liner": "8名耐力跑者中，按乳酸变化率拐点确定的MLSS为14.0 km/h，与临界速度几乎一致，而传统MLSS低0.8 km/h。",
+      "what": "8名耐力跑者完成阶梯测试、5次最长30分钟恒速跑及至少4次力竭跑。个体化乳酸稳态速度为14.0（2.1）km/h，高于传统MLSS的13.2（2.1）km/h（p<0.001），与临界速度14.0（2.1）km/h无差异；偏倚-0.02 km/h，95%一致性界限-0.15至0.10 km/h。",
+      "why": "传统“10至30分钟乳酸上升<1 mmol/L”定义可能把重—极强强度域边界估得偏低。该研究提示，方法学定义本身可以解释MLSS与临界速度的表面分歧。",
+      "practice": "若实验室已能完成多次恒速乳酸测试，可把乳酸变化率—速度关系的个体拐点作为研究性分析，并与临界速度交叉核对；在复制完成前，不要直接用这8人的完全一致替换现有阈值流程。",
+      "evidence": "方法比较研究｜8名耐力跑者；多次恒速与力竭跑；传统MLSS、个体化MLSS与临界速度",
+      "confidence": "中",
+      "confidence_reason": "个体内比较和一致性结果非常清楚，但样本仅8人，且新算法使用多次测试，外部复现与操作成本仍决定其应用价值。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43020047",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43020047/"
+      }
+    },
+    {
+      "id": "a6f33d1279bc",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "RIR与RPE估计力竭余量同样准确",
+      "title": "Accuracy of different methods for predicting proximity to failure during resistance training",
+      "one_liner": "32人随机交叉试验中，75% 1RM机器推胸和腿屈伸时，2 RIR与8 RPE对剩余次数的估计误差无显著差异，训练经历也未改变两者差异。",
+      "what": "19名有训练经验和13名无训练经验参与者，在75% 1RM下完成机器推胸与腿屈伸，并分别在自认为达到2 RIR或8 RPE时报告后继续至瞬时力竭。两种方法的准确度差异在推胸为-0.03次（95%CI -0.50至0.44），腿屈伸为0.16次（-0.39至0.71），均不显著。",
+      "why": "RIR和Borg-RPE经常被当作不同的自调节工具，但在本研究的固定负荷、机器动作和目标强度下，它们对力竭余量的预测表现相当。选择量表可以更多考虑运动员理解度与记录一致性。",
+      "practice": "同一训练体系优先固定一种量表并校准口径；若团队已熟悉8 RPE，无需仅为追求更准确而强制改成2 RIR。对自由重量、不同负荷和多组疲劳情境应另行校准。",
+      "evidence": "随机交叉试验｜32人；机器推胸与腿屈伸；75% 1RM；2 RIR对8 RPE",
+      "confidence": "中",
+      "confidence_reason": "交叉设计直接比较两种方法，效应估计接近零；结论限定在两种机器动作、单一负荷和特定锚点。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43034269",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43034269/"
+      }
+    },
+    {
+      "id": "8d42c9f6e513",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "跳跃变化对应不同冲刺加速区段",
+      "title": "Longitudinal association between vertical jump performance and sprint acceleration performance in sprinters",
+      "one_liner": "17名男子短跑运动员的两次测试显示，SJ/CMJ高度、连续踝跳接触时间与60米不同加速区段的变化相关，但尚不能据此替代分段计时。",
+      "what": "17名男子短跑运动员间隔1–2个月完成两次60米冲刺和3种垂直跳。60米成绩变化与CMJ高度变化相关（r=-0.573），也与连续踝跳接触时间相关（r=0.660）；SJ、CMJ和踝跳指标分别与中后段若干步数区间的加速变化相关，|r|约0.49–0.68。",
+      "why": "研究没有只做横断面“跳得高的人跑得快”，而是比较同一运动员随时间的变化，更接近监控用途。不同跳跃指标可能反映加速阶段的不同能力侧面。",
+      "practice": "在无法高频做完整分段冲刺时，可把SJ、CMJ和连续踝跳作为补充监控，并用个人历史数据校准；仍应定期用分段计时验证，因为相关并不等于预测或因果。",
+      "evidence": "纵向相关研究｜17名男子短跑运动员；两次测试，间隔1–2个月",
+      "confidence": "中",
+      "confidence_reason": "同人变化设计优于单次横断面比较，但样本小、相关区间多且未建立外部预测模型。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43023671",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43023671/"
+      }
+    },
+    {
+      "id": "3b92ec701a4d",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "精英热训练常偏离经典方案",
+      "title": "Heat Training Practices in Elite and World-Class Athletes: A Review of Preparation Strategies for Competition in Hot Outdoor Environments",
+      "one_liner": "12项精英/世界级运动员研究中，11项使用专项热暴露、5项加入运动后被动加热；适应指标常改善，但热应激剂量记录普遍不足。",
+      "what": "综述对照经典建议——连续10–14天、每日60–90分钟并至少提前2周——梳理精英热训练实践。12项研究中11项使用专项运动热暴露，常模拟或超过比赛环境，5项加入运动后被动加热；心率、核心温度与血浆容量等经典适应指标常见改善。",
+      "why": "高水平运动员需要同时处理专项训练、减量和旅行，难以完整复制实验室热适应方案。现有实践显示替代方案可行，但若不记录核心温度、心血管应变和实际热剂量，就无法判断适应是否充分或可保持。",
+      "practice": "制定赛前热方案时至少记录环境、暴露时长、核心/皮肤温度、心率、出汗与专项训练内容；若用运动后桑拿或热水浸泡替代部分主动热训练，要把被动暴露也计入总热剂量和恢复成本。",
+      "evidence": "实践综述｜12项精英或世界级运动员观察研究；与实验室指南对照",
+      "confidence": "中",
+      "confidence_reason": "直接面向高水平实践且方案信息具体；纳入研究异质、报告不完整，无法给出单一最优方案或合并效应量。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43018927",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43018927/"
+      }
+    },
+    {
+      "id": "749db1a36e0f",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "热应激下雌二醇与肠通透性变化相关",
+      "title": "Sex differences in gastrointestinal permeability during acute uncompensable heat stress: Role of menstrual phase hormones",
+      "one_liner": "24名年轻成人升高核心温度1.5°C后，小肠通透性边缘性增加；女性组内雌二醇与变化量相关，但男女组间没有差异。",
+      "what": "12名男性与12名女性在对照条件及水循环服配合40 W半卧位骑行的高热试验中接受检测。高热使核心温度升高1.5°C，小肠乳果糖/鼠李糖比变化为0.012±0.029（p=0.050）；男女组间无差异。女性中基线雌二醇与通透性变化相关（r=0.709，p=0.040），胃十二指肠通透性未增加。",
+      "why": "结果把“性别差异”与“女性内部激素差异”区分开：平均男女差异为阴性，但女性组内出现相关信号。它支持在热应激研究中测量激素状态，而不是仅按性别分组。",
+      "practice": "对高热下易出现胃肠症状的女性运动员，可在研究和个体监控中同步记录周期阶段、避孕药使用与核心温度；现阶段不应据此按雌二醇水平制定补液或热训练处方。",
+      "evidence": "受控生理实验｜24名年轻成人；女性12名中5名使用口服避孕药；高热+低负荷骑行",
+      "confidence": "低",
+      "confidence_reason": "男女组间结果为阴性，激素相关仅来自12名女性且p=0.040；观察到的是通透性指标，不是临床症状或竞技表现。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43034873",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43034873/"
+      }
+    },
+    {
+      "id": "65c19a8bf4d2",
+      "priority": "重点关注",
+      "domain": "运动健康",
+      "short_title": "ACL深蹲对称改善主要来自健侧变化",
+      "title": "Adjustment of the Anteroposterior Center-of-Pressure Position Reduces Asymmetrical Knee Loading During Double-Leg Squatting After Anterior Cruciate Ligament Reconstruction",
+      "one_liner": "ACLR约5个月后，视觉反馈将膝伸展力矩对称指数从73%提高到85%，但主要由未伤侧改变驱动，不能等同于患侧负荷能力恢复。",
+      "what": "34名术后平均144天的ACLR患者完成12组×5次双腿深蹲，并用视觉反馈保持前后向压力中心对称。基线膝伸展力矩LSI<90%的21人中，力矩LSI由73.0%升至85.4%，地面反作用力LSI由90.5%升至96.3%；变化主要来自未伤侧，基线已对称组无显著变化。",
+      "why": "对称分数可以通过健侧“让下来”而改善，而不是患侧“长上去”。如果只看LSI，反馈后的动作可能被误判为能力恢复。",
+      "practice": "使用压力中心或动作反馈时，同时报告双侧绝对膝伸展力矩、髋膝踝分配与患侧变化；把视觉反馈用于暴露代偿策略，而不是单独作为跑跳或重返运动放行标准。",
+      "evidence": "单次生物力学干预｜34名ACLR患者；其中21人基线不对称；术后约144天",
+      "confidence": "中",
+      "confidence_reason": "即时反馈前后变化和来源明确；未设无反馈对照，且只观察单次深蹲，不代表长期力量或功能改变。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43020043",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43020043/"
+      }
+    },
+    {
+      "id": "1f0a96cd82e7",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "关节置换后的高冲击任务负荷差异很大",
+      "title": "Hip and Knee Loading During Walking, Running, Hopping, Jumping, Landing, and Change of Direction After Hip or Knee Arthroplasty",
+      "one_liner": "肌骨模型显示，髋关节置换者45°变向的预测接触力最高达8.38倍体重；并非所有高冲击任务都高于步行，任务名称不足以代表植入物负荷。",
+      "what": "11名全髋、4名全膝和3名单髁膝关节置换者完成步行、跑、跳、落地与变向任务。全髋组45°变向的预测髋关节接触力最高，为8.38倍体重（95%CI 7.70–9.06），其后为跑步和单脚跳；小样本膝置换组中单脚跳和跑步预测膝接触力约8.0–9.1倍体重。",
+      "why": "“高冲击活动”内部差异很大，动作方向和单/双脚条件可能比标签更决定植入物负荷。该数据能帮助把活动建议从笼统禁止转向任务排序。",
+      "practice": "术后恢复到高功能阶段时，按具体任务逐级暴露：先评估双脚、直线和可控落地，再进入单脚跳、跑步和变向；结合症状、力量和医生建议，不用模型峰值单独决定禁忌。",
+      "evidence": "探索性横断面建模研究｜髋置换n=11、膝置换合计n=7；肌骨模型估算接触力",
+      "confidence": "低",
+      "confidence_reason": "任务比较具有实践价值，但样本尤其膝置换组很小，接触力来自模型预测而非植入物直接测量。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43006808",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43006808/"
+      }
+    },
+    {
+      "id": "c24d68e1b39a",
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "科研AI使用已覆盖完整工作链",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "one_liner": "1,819名科学家的58万条科研消息显示，AI已用于阅读、写作、分析和构思；1小时工作被参与者自报为无AI时需1.9小时，但这不是因果效率试验。",
+      "what": "OpenAI经济研究团队分析2026-08-20至09-22期间1,819名科研人员的580,186条科研消息，并调查251人。68%的科学家用ChatGPT发展研究想法；调查者估计同质量工作在无AI时平均需1.9倍时间，250名回答者中98%预期AI会加快本领域发现。",
+      "why": "这组数据提供了少见的大规模真实科研使用画像，并显示科学家在高专业要求任务中更常继续追问、检查和修订。它支持把AI看作工作链中的协作层，而非单次问答工具。",
+      "practice": "科研团队可按活动建立审查点：文献阅读保留原文核对，数据分析保留代码与输入，构思记录人类提出的问题和模型扩展；把1.9倍视为自报体验基线，不作为预算或产出承诺。",
+      "evidence": "厂商使用行为研究＋问卷｜1,819名计划参与者；580,186条消息；251名问卷受访者",
+      "confidence": "中",
+      "confidence_reason": "样本与方法公开、行为数据规模大；参与者是获赠计划用户，生产力为自报估计，未随机比较真实科研产出。",
+      "limit": "",
+      "source": {
+        "title": "OpenAI",
+        "url": "https://openai.com/index/science-at-the-frontier/"
+      }
+    },
+    {
+      "id": "d0e7a523f96b",
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "医疗Agent开始跨系统执行任务",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "one_liner": "OpenAI为医疗场景推出跨软件电脑操作Agent、改进临床检索及20余个插件，并强调应用访问控制、审计日志与人工复核。",
+      "what": "ChatGPT for Healthcare新增电脑操作Agent，可在EHR、政策、排程和保险系统间读屏、点击与录入；同时更新可信临床检索，并加入20余个医疗插件。官方称超过1,300次医生盲评中，新版本在事实、安全、可操作性和来源权威等8个维度均获更高评分，但未公开本条页面中的完整效应量。",
+      "why": "医疗AI的产品重心正从生成答案转向跨系统完成行政与临床准备任务。新的主要风险也从单条回答扩展到权限范围、数据移动和错误动作。",
+      "practice": "优先从可逆、低风险且有明确人工复核点的流程试点，如转诊整理、资料搬运和草拟回复；为每个连接系统设置最小权限、审计日志和需人工确认的动作，不把厂商盲评替代本机构验证。",
+      "evidence": "官方产品发布＋厂商盲评摘要｜电脑操作Agent、临床检索更新、20余插件；2026-11-16",
+      "confidence": "中",
+      "confidence_reason": "功能、可用范围和治理要求来自官方发布；临床效果与工作流节省仍主要是厂商证据，缺少公开独立部署结果。",
+      "limit": "",
+      "source": {
+        "title": "OpenAI",
+        "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/"
+      }
+    },
+    {
+      "id": "f8b19306ac45",
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "AI漏洞发现压缩披露窗口",
+      "title": "Updating our coordinated vulnerability disclosure policy timelines",
+      "one_liner": "Anthropic将高危和严重漏洞的协调披露窗口从90天缩至30天，其他漏洞缩至45天，并把无响应升级节点提前至15天。",
+      "what": "Anthropic宣布，新时限适用于2027-01-01以后报告给厂商和维护者的漏洞：高危/严重问题30天，其他问题45天；维护者15天无响应即考虑交外部协调者，正在被利用的问题仍为7天。未经人工复核的自动发现不适用该政策。",
+      "why": "政策变化反映前沿模型提高漏洞发现和重复发现速度后，传统90天窗口被认为过长。它会直接压缩开源维护者验证、修补和发布的周期。",
+      "practice": "维护关键软件的团队应把安全联系人、复现环境、补丁回归测试和紧急发布流程前置；AI扫描结果进入披露流程前仍需人工复核，避免自动报告把误报变成运维负担。",
+      "evidence": "官方政策更新｜2026-11-16发布；新时限自2027-01-01生效",
+      "confidence": "高",
+      "confidence_reason": "政策时间表、适用范围和例外均由Anthropic正式发布；它证明的是流程变化，不是AI发现漏洞准确率。",
+      "limit": "",
+      "source": {
+        "title": "Anthropic",
+        "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "阈值和自调节工具的第一原则是固定定义与口径。今天的乳酸与RIR/RPE结果都说明，方法差异可能比标签差异更大；团队应先建立可重复流程，再讨论哪一个名字更先进。",
+    "康复中的对称性必须拆成双侧绝对值。视觉反馈后LSI上升若主要来自健侧下降，代表动作策略改变，而不是患侧负荷能力恢复。",
+    "科研和医疗Agent已进入真实任务链，但评价单位应是可审查的工作流：输入来源、权限、人工复核、输出质量和失败成本，而不是单一模型分数。"
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "date": "2026-11-17",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-17",
+  "observed_at": "2026-11-17T08:05:00+08:00",
+  "summary": {
+    "title": "从动作标签转向可执行的训练与审查结构",
+    "signal": "本期高价值讨论都在把笼统概念拆成可执行结构：青少年长期发展看动作能力和总负荷，力量课看模块与剂量，Agent工作则看审查节奏和输出质量。",
+    "total": 7,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 1,
+      "AI": 3
+    }
+  },
+  "navigation": {
+    "prev": "2026-11-16",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "训练方法的价值不在模块名称，而在动作顺序、剂量、技术门槛和与专项周计划的兼容性。",
+    "运动健康": "旧研究重新进入讨论时，要保留原始证据日期，并把本次触发点与可应用人群写清楚。",
+    "AI": "Agent带来的瓶颈正在从生成速度转向审查负担、质量标准和可组合的数据工具。"
+  },
+  "items": [
+    {
+      "id": "5b7e41d9a0c3",
+      "domain": "运动科学",
+      "title": "Science for Sport讨论青少年力量、速度与爆发力：进阶应由技术能力而非年龄单独决定",
+      "short_title": "青少年进阶看动作能力",
+      "author": "Science for Sport / Tom Green",
+      "platform": "播客",
+      "published_date": "2026-11-16",
+      "priority": "重点关注",
+      "one_liner": "长期青训先建立跑、跳、落、投和解决动作问题的能力，再随成熟度、技术和总训练负荷推进力量与速度。",
+      "what": "节目基于Tom Green在学校、学院和表现环境连续多年工作的经验，讨论约11岁起的动作基础、何时开始抗阻训练、如何围绕生长成熟调整，以及学校、俱乐部和学院多头训练下的总负荷协调。",
+      "why": "青少年训练最常见的错误不是缺少某个高级动作，而是按年龄或单一项目进度加量，却没有看技术能力、生长阶段和跨组织总负荷。",
+      "practice": "建立跨场景周负荷清单；用稳定落地、基础跳跃、跑动和力量动作质量作为升级条件。新增专项训练前先检查是否挤占恢复，而不是默认“多练一节”必然有益。",
+      "evidence": "实践者播客｜27分52秒；含逐段节目说明；非干预研究",
+      "confidence": "中",
+      "confidence_reason": "讨论给出长期青训的一致实践框架，但证据来自从业经验与节目概述，未比较具体方案效果。",
+      "limit": "",
+      "source": {
+        "url": "https://scienceforsport.fireside.fm/346"
+      },
+      "references": []
+    },
+    {
+      "id": "ae3c9017d5b8",
+      "domain": "运动科学",
+      "title": "High Performance Physiology把单次运动员力量课拆成四个固定模块",
+      "short_title": "力量课模块化而非堆量",
+      "author": "Chris Beardsley / Rob Mauceri",
+      "platform": "播客",
+      "published_date": "2026-11-14",
+      "priority": "值得了解",
+      "one_liner": "节目建议以高速动作、重力量、增强式和超最大离心构成低总量力量课，可选等长训练，并通常每周重复两次。",
+      "what": "第43期用45分钟逐段给出训练顺序：高速动作→重力量→增强式→超最大离心，可按目标加入等长练习。主持人强调控制总量，使同一框架能每周重复，而不是把能力分散到多个高量周期。",
+      "why": "该方法的价值是给训练课提供清晰结构和剂量逻辑；但它仍是作者模型，不等于所有项目都应在同一课中覆盖全部模块。",
+      "practice": "可把它当作审查模板：逐项检查每个模块是否服务当前项目需求、是否与专项训练冲突，并从低组数开始；保留动作顺序和技术质量记录，再用个人反应决定是否增加。",
+      "evidence": "专业播客＋公开转录｜45分钟；作者方法框架，非比较试验",
+      "confidence": "中",
+      "confidence_reason": "公开转录让具体顺序和剂量可核查；普适效果尚无直接比较证据。",
+      "limit": "",
+      "source": {
+        "url": "https://podcasts.apple.com/ca/podcast/43-high-performance-physiology-method/id1848284552?i=1000801971776"
+      },
+      "references": [
+        {
+          "label": "公开转录",
+          "url": "https://metacast.app/podcast/high-performance-physiology/8gNI3hBN/43-high-performance-physiology-method/OZFyRDMd"
+        }
+      ]
+    },
+    {
+      "id": "19fc62b7e4a1",
+      "domain": "运动科学",
+      "title": "Training Science用精英足球案例强调：维持优势与修补短板同样重要",
+      "short_title": "足球体能从画像到个体处方",
+      "author": "Paolo Rongoni / Martin Buchheit",
+      "platform": "播客",
+      "published_date": "2026-11-13",
+      "priority": "值得了解",
+      "one_liner": "节目把GPS、体能测试、爆发型球员管理和拥挤赛程放在同一决策链，核心是给球员需要的内容，而不是教练最熟悉的内容。",
+      "what": "Paolo Rongoni回顾近30年职业足球实践，讨论球员画像、GPS和有氧测试、爆发型球员的恢复与训练，以及如何在密集赛程中平衡体能和技战术训练。节目特别强调保留球员既有优势，而非只追逐缺陷修补。",
+      "why": "监控数据只有在改变个体周计划时才产生价值。把优势维持纳入目标，可避免画像工具把所有偏离平均值的特征都误判为缺陷。",
+      "practice": "为每名球员同时记录需维持的优势、需改善的限制和赛程约束；每周只让少量指标触发明确动作，并复核这些动作是否挤占技战术质量或恢复。",
+      "evidence": "职业实践访谈｜64分钟；精英足球案例与方法观点，非效果研究",
+      "confidence": "中",
+      "confidence_reason": "嘉宾经验和决策过程具体，但属于案例与观点，不能证明某套监控体系优于其他体系。",
+      "limit": "",
+      "source": {
+        "url": "https://podcasts.apple.com/ca/podcast/inside-elite-football-strength-conditioning-and/id1605691990?i=1000801680640"
+      },
+      "references": []
+    },
+    {
+      "id": "c0e9241b7ad6",
+      "domain": "运动健康",
+      "title": "AMSSM重访膝骨关节炎BFR长期随访：本次新触发是临床期刊俱乐部",
+      "short_title": "BFR证据回到一年结局",
+      "author": "AMSSM Sports Medcasts",
+      "platform": "播客",
+      "published_date": "2026-11-12",
+      "priority": "值得了解",
+      "one_liner": "12分钟节目重访2025年随机试验的一年随访，把BFR的讨论从短期力量变化重新拉回持续疼痛和功能收益。",
+      "what": "AMSSM“年度重要文章”系列讨论2025年发表于BJSM的膝骨关节炎BFR随机试验一年随访。原研究并非本周新证据；本次新增价值是专业组织用短篇期刊俱乐部重新审视长期结局和临床定位。",
+      "why": "BFR在康复中常因短期肌力或低负荷机制被采用，而长期疼痛、功能和依从性才决定是否值得常规部署。",
+      "practice": "若用于膝OA，应把BFR作为低负荷抗阻的实施方式之一，记录压力、剂量、疼痛反应与随访功能；不要仅凭节目排名替代对原试验人群和方案的核对。",
+      "evidence": "专业组织播客｜12分钟；讨论2025年RCT一年随访，非新研究",
+      "confidence": "中",
+      "confidence_reason": "节目和原论文链接可核查；本条价值在证据再解读，未产生新的独立效果数据。",
+      "limit": "",
+      "source": {
+        "url": "https://amssm.podbean.com/e/top-sports-medicine-articles-podcast-%E2%80%93-using-blood-flow-restriction-therapy-for-knee-oa/"
+      },
+      "references": [
+        {
+          "label": "原论文",
+          "url": "https://bjsm.bmj.com/content/59/21/1481"
+        }
+      ]
+    },
+    {
+      "id": "c6febd82e466",
+      "domain": "AI",
+      "title": "datasette-maplibre 0.1a0把地理数据预览接入Datasette",
+      "short_title": "数据库内直接检查地理结果",
+      "author": "Simon Willison",
+      "platform": "博客",
+      "published_date": "2026-11-15",
+      "priority": "快讯",
+      "one_liner": "新插件用MapLibre在Datasette中渲染地理数据，为数据Agent结果提供一个可视化检查面。",
+      "what": "Simon Willison发布datasette-maplibre 0.1a0，使Datasette中的地理字段可直接以交互地图呈现。它延续近期Datasette Agent与本地模型接口的工具链，但本次新增的是地理结果的可见化。",
+      "why": "当Agent生成SQL或地理筛选时，表格结果很难暴露坐标顺序、异常点和空间范围错误；地图预览可以成为低成本人工审查层。",
+      "practice": "处理地点、轨迹或场馆数据时，可把地图视图加入SQL/Agent输出验收；先用小数据集验证坐标系、缺失值和隐私处理，再扩展到完整数据。",
+      "evidence": "开源工具发布｜0.1a0；早期预览版本",
+      "confidence": "高",
+      "confidence_reason": "版本与功能由作者直接发布；稳定性、性能和复杂空间分析能力仍需按数据规模测试。",
+      "limit": "",
+      "source": {
+        "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre"
+      },
+      "references": []
+    },
+    {
+      "id": "6afdd40324dd",
+      "domain": "AI",
+      "title": "“No AI Slop”宣言把生成内容质量变成团队可讨论的交付标准",
+      "short_title": "把AI内容质量写成团队规则",
+      "author": "Latent Space / AIE CODE社区",
+      "platform": "通讯",
+      "published_date": "2026-11-14",
+      "priority": "值得了解",
+      "one_liner": "社区宣言试图把“AI垃圾内容”从情绪标签改成工作场所可讨论的质量、署名和审查规范。",
+      "what": "Latent Space报道AIE CODE会议闭幕主题提出的“No AI Slop”宣言，并开放联署、修改和讨论；同篇也记录llama.cpp、ggml和SGLang进入1.0阶段。宣言本身是社区规范提案，不是技术基准。",
+      "why": "随着生成成本下降，团队瓶颈从“能否生成”转向“谁审查、何时署名、什么质量可交付”。明确规则能减少把低成本草稿直接推给同事或用户的外部性。",
+      "practice": "把宣言转成可检查清单：标明AI参与、验证事实与链接、删除重复与模板腔、指定最终责任人；先用于文档和PR评审，再观察返工率是否下降。",
+      "evidence": "社区宣言与会议讨论｜开放联署；规范性观点，非效果研究",
+      "confidence": "中",
+      "confidence_reason": "原始宣言与讨论可访问，但其组织效果尚无评估。",
+      "limit": "",
+      "source": {
+        "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/"
+      },
+      "references": [
+        {
+          "label": "宣言",
+          "url": "https://www.slopmanifesto.com/"
+        }
+      ]
+    },
+    {
+      "id": "4db3019f68c2",
+      "domain": "AI",
+      "title": "编码Agent用户开始报告“只剩审查与答疑”的注意力成本",
+      "short_title": "Agent瓶颈转向审查切换",
+      "author": "Reddit / r/AI_Agents",
+      "platform": "社区",
+      "published_date": "2026-11-16",
+      "priority": "快讯",
+      "one_liner": "一名多Agent用户称生成工作被自动化后，频繁回答问题和审查产出反而更疲劳；高赞建议聚焦减少并行和批量决策。",
+      "what": "公开帖子描述每天运行多个长任务Agent后，个人工作变成不断切换、回答和审查。作者发现让Agent只返回编号化决策项有所帮助，讨论也集中在减少并发、批量审查和提高交付完整度。",
+      "why": "这是社区使用反馈，不证明普遍生产率下降，但它指出Agent扩展后的真实瓶颈：人类决策队列和上下文切换，而不是模型生成速度。",
+      "practice": "限制同时活跃Agent数；要求每个Agent以“已完成、需决定、风险、验证结果”固定格式批量回报，并设置集中审查时段，而不是允许持续打断。",
+      "evidence": "社区案例与讨论｜单帖使用反馈；非系统调查",
+      "confidence": "低",
+      "confidence_reason": "问题具体且可转化为工作流实验，但来自单一自选社区案例，不能估计发生率或因果效应。",
+      "limit": "",
+      "source": {
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1xxcj0z/coding_agents_make_my_life_so_much_harder/"
+      },
+      "references": []
+    }
+  ],
+  "professional_judgment": [
+    "今天社媒侧最可执行的变化是给训练与Agent都设“进阶门槛”：训练看技术和总负荷，Agent看完成度、风险与需决策项，避免把更多模块或更多并发本身当作进步。",
+    "实践者模型可以用作检查清单，但不应自动升级为处方。把每个模块映射到当前目标、剂量和恢复成本，才能判断是否保留。",
+    "旧论文重新进入讨论时，简报应明确原始发表日与新触发点；专业组织的再解读有价值，但不等于新增独立证据。"
+  ]
+}

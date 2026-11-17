@@ -1066,5 +1066,65 @@
     "observed_at": "2026-11-12T08:34:00+08:00",
     "date_verified": true,
     "platform": "播客与YouTube"
+  },
+  {
+    "id": "5b7e41d9a0c3",
+    "title": "How to Develop Strength, Speed and Power in Young Athletes",
+    "url": "https://scienceforsport.fireside.fm/346",
+    "domain": "运动科学",
+    "source_author": "Science for Sport / Tom Green",
+    "author_id": "science-for-sport",
+    "published_at": "2026-11-16T00:00:00+00:00",
+    "observed_at": "2026-11-17T08:12:00+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "ae3c9017d5b8",
+    "title": "43 High Performance Physiology Method",
+    "url": "https://podcasts.apple.com/ca/podcast/43-high-performance-physiology-method/id1848284552?i=1000801971776",
+    "domain": "运动科学",
+    "source_author": "Chris Beardsley / Rob Mauceri",
+    "author_id": "high-performance-physiology",
+    "published_at": "2026-11-14T21:32:00+00:00",
+    "observed_at": "2026-11-17T08:12:00+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "19fc62b7e4a1",
+    "title": "Inside Elite Football: Strength, Conditioning and Injury Prevention",
+    "url": "https://podcasts.apple.com/ca/podcast/inside-elite-football-strength-conditioning-and/id1605691990?i=1000801680640",
+    "domain": "运动科学",
+    "source_author": "Paolo Rongoni / Martin Buchheit",
+    "author_id": "training-science-podcast",
+    "published_at": "2026-11-13T07:00:00+00:00",
+    "observed_at": "2026-11-17T08:12:00+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "c0e9241b7ad6",
+    "title": "Top Sports Medicine Articles Podcast – Using Blood Flow Restriction Therapy for Knee OA",
+    "url": "https://amssm.podbean.com/e/top-sports-medicine-articles-podcast-%E2%80%93-using-blood-flow-restriction-therapy-for-knee-oa/",
+    "domain": "运动健康",
+    "source_author": "AMSSM Sports Medcasts",
+    "author_id": "amssm",
+    "published_at": "2026-11-12T00:00:00+00:00",
+    "observed_at": "2026-11-17T08:12:00+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "4db3019f68c2",
+    "title": "Coding agents make my life so much harder",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1xxcj0z/coding_agents_make_my_life_so_much_harder/",
+    "domain": "AI",
+    "source_author": "Reddit / r/AI_Agents",
+    "author_id": "reddit-ai-agents",
+    "published_at": "2026-11-16T00:00:00+00:00",
+    "observed_at": "2026-11-17T08:12:00+08:00",
+    "date_verified": true,
+    "platform": "社区"
   }
 ]
