@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "date": "2026-11-19",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-19",
+  "observed_at": "2026-11-19T08:35:00+08:00",
+  "summary": {
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 4
+    },
+    "signal": "今天最有价值的讨论共同指向维护性：训练指标不能替代专项任务，重返运动不能止于清关，Agent生成与验证也不能脱离长期同步、凭据和确定性测试。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：监控画像只有在服务于专项任务时才有价值。",
+    "运动健康": "本板块重点：复杂膝伤与回归表现都要求把阶段、结构和负荷耐受写清。",
+    "AI": "本板块重点：社区正把注意力从“Agent能生成多少”转向“能否安全验证并长期维护”。"
+  },
+  "items": [
+    {
+      "id": "s-20261119-locomotor-profile",
+      "domain": "运动科学",
+      "title": "Taken Too Far? What the Locomotor Profile Does Well, Less Well, and Least Well in Football (Soccer)",
+      "short_title": "足球跑动画像的适用边界",
+      "priority": "值得了解",
+      "one_liner": "Martin Buchheit提醒，跑动画像适合做个体化起点，但不应把可测的线性跑指标替代多向、技术与战术任务。",
+      "what": "文章复盘足球locomotor profile的用途与过度使用：它能帮助个体化速度和跑量暴露，却容易把训练目标收缩为GPS最容易记录的部分。",
+      "why": "这是实践者对“指标驱动训练”的实质分歧：可测性不等于训练迁移，尤其在多方向、对抗和决策密集项目。",
+      "practice": "将跑动画像用于确定速度暴露和起始剂量，同时保留变向、对抗、技术决策与专项情境；周复盘要问指标是否服务于比赛任务。",
+      "evidence": "资深实践者方法文章，2026-11-06；不是效果试验。",
+      "confidence": "中",
+      "confidence_reason": "方法逻辑清楚且与监控实践相关，但结论主要来自专家综合。",
+      "source": {
+        "label": "Martin Buchheit",
+        "url": "https://martin-buchheit.net/2026/11/06/taken-too-far-what-the-locomotor-profile-does-well-less-well-and-least-well-in-football-soccer/"
+      },
+      "limit": "",
+      "author": "Martin Buchheit",
+      "platform": "博客",
+      "published_date": "2026-11-06"
+    },
+    {
+      "id": "s-20261119-aspetar-readiness",
+      "domain": "运动健康",
+      "title": "Recovery, Readiness and Back to Performance Following Lower-Limb Injury",
+      "short_title": "从康复转向回归表现",
+      "priority": "快讯",
+      "one_liner": "Aspetar 11月18日继续教育议程把下肢伤后目标明确写成“恢复、准备度与回归表现”，强调跨学科而非只看医学清关。",
+      "what": "Aspetar当日公开讲座议程聚焦下肢损伤后的恢复、准备度与back to performance，并列出临床、康复和表现团队的多位讲者。",
+      "why": "议程本身不是指南，但反映高水平团队正在把重返运动从单次清关转为连续的负荷耐受、表现恢复和团队整合问题。",
+      "practice": "病例记录中分开写组织恢复、功能能力、专项负荷耐受和训练/比赛整合四层状态；避免用“已可参赛”替代回归表现计划。",
+      "evidence": "专业机构公开教育活动与议程，2026-11-18；未把讲座内容当作正式证据。",
+      "confidence": "低",
+      "confidence_reason": "可核实的是议题与多学科设置，具体主张未取得完整讲座材料。",
+      "source": {
+        "label": "Aspetar webinar",
+        "url": "https://www.aspetar.com/en/professionals/our-events/aspetar-wednesday-webinar-series-26"
+      },
+      "limit": "",
+      "author": "Aspetar",
+      "platform": "专业机构网页",
+      "published_date": "2026-11-18"
+    },
+    {
+      "id": "s-20261119-curl-rewrites",
+      "domain": "AI",
+      "title": "Actual curl rewrites in Rust",
+      "short_title": "Agent重写追不上活跃主线",
+      "priority": "重点关注",
+      "one_liner": "Daniel Stenberg指出，Agent在三周把18.5万行C改写成34万行Rust期间，curl主线已合并300多次提交和200多个修复，静态重写很快失去同步。",
+      "what": "Simon Willison转引curl维护者的对照：多个Agent重写项目完成大规模代码转换时，真实项目仍持续修复缺陷和漏洞，重写副本没有吸收这些变化。",
+      "why": "讨论把“能生成多少代码”转为“能否持续维护并跟上上游”。对活跃系统，迁移成本主要在语义一致、补丁同步、测试和长期所有权。",
+      "practice": "评估Agent迁移项目时增加上游追赶延迟、缺陷补入率和维护负责人三项门槛；先做可持续的模块迁移，不以一次性行数作为完成标准。",
+      "evidence": "开源项目维护者公开观察，经Simon Willison转引，2026-11-18；数字来自维护者计数。",
+      "confidence": "中",
+      "confidence_reason": "对curl项目具体而有可核对背景，但不能直接外推所有语言迁移。",
+      "source": {
+        "label": "Simon Willison / Daniel Stenberg",
+        "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/"
+      },
+      "limit": "",
+      "author": "Simon Willison / Daniel Stenberg",
+      "platform": "博客",
+      "published_date": "2026-11-18"
+    },
+    {
+      "id": "s-20261119-agent-credentials",
+      "domain": "AI",
+      "title": "Running coding agents without handing them my credentials",
+      "short_title": "凭据注入而非交给Agent",
+      "priority": "重点关注",
+      "one_liner": "Hacker News讨论的共识方向是：短期、限权凭据与代理注入比把长期密钥放进Agent环境更可靠，但仍需防止响应回显和间接泄露。",
+      "what": "社区围绕隔离环境、代理注入、只允许特定方法/路径的密钥、短期令牌和反向隧道展开讨论；争议点集中在Agent是否仍能通过合法响应带出秘密。",
+      "why": "“模型看不到原始密钥”不等于无泄露风险。真正边界由令牌权限、请求模板、响应过滤和执行环境共同决定。",
+      "practice": "为Agent使用短期且最小范围令牌，经受控代理注入到固定请求；禁止秘密进入日志和模型上下文，并测试服务端回显、重定向和错误响应。",
+      "evidence": "Hacker News公开社区讨论，2026-11-17；实践经验与威胁建模，不是形式化安全证明。",
+      "confidence": "中",
+      "confidence_reason": "多位工程实践者提出互补防线，但方案安全性取决于具体实现。",
+      "source": {
+        "label": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50526152"
+      },
+      "limit": "",
+      "author": "Hacker News community",
+      "platform": "Hacker News",
+      "published_date": "2026-11-17"
+    },
+    {
+      "id": "s-20261119-agent-verification",
+      "domain": "AI",
+      "title": "How the Claude Code team thinks about verification",
+      "short_title": "Agent验证要保留确定性层",
+      "priority": "值得了解",
+      "one_liner": "HN高热讨论的核心分歧不是“要不要验证”，而是自然语言Agent验证应补充还是替代Playwright、单元测试和可重复脚本。",
+      "what": "讨论围绕Claude Code团队的验证流程展开：支持者看重自然语言描述不变量与手工式检查，质疑者强调确定性测试成本低、可复现，反对用另一个随机层验证随机输出。",
+      "why": "争论揭示生产工作流的关键设计：模型适合发现未知问题、解释失败和生成测试，但已知不变量仍应尽量编码成确定性检查。",
+      "practice": "采用双层验证：Agent做探索性检查和测试生成，CI保留单元、集成、端到端与安全扫描；自然语言不变量一旦稳定，转成可重复脚本。",
+      "evidence": "Hacker News公开讨论，约277分、221条评论时核查，2026-11-17。",
+      "confidence": "中",
+      "confidence_reason": "讨论提供真实工程分歧，但热度不是效果证据。",
+      "source": {
+        "label": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50529612"
+      },
+      "limit": "",
+      "author": "Hacker News community",
+      "platform": "Hacker News",
+      "published_date": "2026-11-17"
+    },
+    {
+      "id": "s-20261119-github-risk",
+      "domain": "AI",
+      "title": "Security risk assessments run automatically on GitHub Team",
+      "short_title": "代码风险评估下沉到Team",
+      "priority": "快讯",
+      "one_liner": "GitHub Team组织开始自动运行免费的代码与密钥风险评估，管理员可直接看到暴露凭据和漏洞线索并安排修复。",
+      "what": "GitHub宣布Team组织自动获得风险评估，组织管理员与安全经理可查看发现，识别暴露凭据和代码漏洞并排序后续行动。",
+      "why": "这把基础安全盘点从高级套餐和手工项目下沉到团队默认流程；价值在发现覆盖，不能等同于漏洞已被修复。",
+      "practice": "先建立发现到负责人、截止时间和复测的闭环；对高风险仓库把自动评估与分支保护、密钥轮换和合并前扫描联动。",
+      "evidence": "GitHub官方发布，2026-11-18；功能事实，非独立效果评估。",
+      "confidence": "高",
+      "confidence_reason": "功能范围由官方公告直接支持。",
+      "source": {
+        "label": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/"
+      },
+      "limit": "",
+      "author": "GitHub",
+      "platform": "官方发布",
+      "published_date": "2026-11-18"
+    }
+  ],
+  "professional_judgment": [
+    "代码Agent项目增加三项验收：是否有确定性验证、是否隔离长期凭据、是否能持续吸收上游变化。任何一项缺失，生成速度都可能转化为维护债务。",
+    "运动团队应把GPS画像和医学清关视为输入，而不是最终决策；专项任务、阶段性负荷耐受和团队整合仍需单独记录。"
+  ]
+}
