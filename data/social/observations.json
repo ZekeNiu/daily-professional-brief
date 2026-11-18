@@ -10253,6 +10253,34 @@
       "last_seen": "2026-11-18T08:00:23+08:00"
     },
     {
+      "id": "manual-hn-50526152",
+      "title": "Running coding agents without handing them my credentials",
+      "url": "https://news.ycombinator.com/item?id=50526152",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-19T08:35:00+08:00",
+      "last_seen": "2026-11-19T08:35:00+08:00"
+    },
+    {
+      "id": "manual-hn-50529612",
+      "title": "How the Claude Code team thinks about verification",
+      "url": "https://news.ycombinator.com/item?id=50529612",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-19T08:35:00+08:00",
+      "last_seen": "2026-11-19T08:35:00+08:00"
+    },
+    {
       "id": "reddit-agent-production-failures-20261117",
       "title": "7 things that break agents in production",
       "url": "https://www.reddit.com/r/AI_Agents/comments/1xwio0h/7_things_that_break_ai_agents_in_production/",
@@ -10265,6 +10293,48 @@
       "platform": "社区",
       "first_seen": "2026-11-18T08:00:23+08:00",
       "last_seen": "2026-11-18T08:00:23+08:00"
+    },
+    {
+      "id": "manual-aspetar-20261118-readiness",
+      "title": "Recovery, Readiness and Back to Performance Following Lower-Limb Injury",
+      "url": "https://www.aspetar.com/en/professionals/our-events/aspetar-wednesday-webinar-series-26",
+      "date": "2026-11-18",
+      "domain": "运动健康",
+      "topic_id": "health-pain",
+      "sources": [
+        "Aspetar"
+      ],
+      "platform": "专业机构网页",
+      "first_seen": "2026-11-19T08:35:00+08:00",
+      "last_seen": "2026-11-19T08:35:00+08:00"
+    },
+    {
+      "id": "manual-github-20261118-risk",
+      "title": "Security risk assessments run automatically on GitHub Team",
+      "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+      "date": "2026-11-18",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "GitHub"
+      ],
+      "platform": "官方发布",
+      "first_seen": "2026-11-19T08:35:00+08:00",
+      "last_seen": "2026-11-19T08:35:00+08:00"
+    },
+    {
+      "id": "manual-simon-20261118-curl",
+      "title": "Actual curl rewrites in Rust",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+      "date": "2026-11-18",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Simon Willison / Daniel Stenberg"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-19T08:35:00+08:00",
+      "last_seen": "2026-11-19T08:35:00+08:00"
     },
     {
       "id": "simon-datasette-lite-20261117",
