@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-18",
+  "title": "每日专业资讯简报｜2026-11-18",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 1,
+      "AI": 4
+    },
+    "signal": "本期最重要的进展是：训练与AI工作流都在从“有没有新工具”转向“剂量是否可持续、结果能否复测、动作是否受控”；今天最值得立即采用的是给高强度冲刺和Agent执行都设置可观察的失败阈值。"
+  },
+  "navigation": {
+    "prev": "2026-11-17",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "重复冲刺、神经调控、负荷监控与分子适应都提示：同一训练标签下，真正决定结果的是个体化强度、测量层级和任务阶段。",
+    "运动健康": "长新冠的重复次最大测试显示平均差异可能掩盖亚组反应，临床解释应先识别异常模式，而不是只看组均值。",
+    "AI": "模型能力、评测和浏览器执行正在合并成工作流；团队需要同步建设回归测试、权限边界和高风险动作确认。"
+  },
+  "items": [
+    {
+      "id": "a18e7c4b29f1",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "APR冲刺很快耗尽终末能力",
+      "title": "The physiological demands of intermittent endurance exercise performed at different intensities within the anaerobic power reserve: Implications for fatigue development and performance",
+      "one_liner": "15名耐力运动员每分钟做10秒冲刺时，仅8人和4人完成全部25%与50% APR冲刺，随后30秒Wingate平均功率分别再低56 W和112 W。",
+      "what": "15名训练有素男性骑行者在3个随机试次完成15组“10秒冲刺＋50秒60%最大有氧功率恢复”，冲刺强度分别为MAP、25% APR和50% APR。25%与50% APR条件下仅8人和4人完成全部15次；第6次前后乳酸已约8–10 mmol/L。随后Wingate平均功率从MAP条件的684 W降至628 W和571 W。",
+      "why": "以MAP百分比描述的冲刺会忽略个体最大峰值功率；把冲刺放到APR中后，可以解释为何相同比赛节奏对不同运动员的代谢成本和“跟住集团”能力不同。研究也直接显示，短恢复并未把高APR冲刺变成可持续任务。",
+      "practice": "山地车、铁三和变速跑训练可同时记录MAP与最大峰值功率，先用接近MAP的冲刺建立容量，再逐步加入25% APR；若第3–6次已出现乳酸、呼吸频率或RPE快速上冲，应降低冲刺强度或延长恢复，而不是只要求完成次数。",
+      "evidence": "随机交叉实验｜15名男性耐力运动员；3种冲刺强度；随后30秒Wingate",
+      "confidence": "中",
+      "confidence_reason": "个体内比较、完整全文和功率差异清楚；各条件总做功不同，且允许跳过冲刺，因此不能把后测差异全部归因于APR百分比。",
+      "limit": "",
+      "source": {
+        "title": "PLOS ONE",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359318"
+      }
+    },
+    {
+      "id": "b2f0d8e731ac",
+      "priority": "重点关注",
+      "domain": "运动科学",
+      "short_title": "tDCS与tPCS未改善重复Wingate",
+      "title": "Effects of transcranial direct current and pulsed current stimulation on repeated sprint performance in female basketball players",
+      "one_liner": "15名女子大学篮球运动员的双盲交叉试验中，tDCS和tPCS均未改善6次Wingate的峰值功率、平均功率或疲劳指数。",
+      "what": "15名年轻女子大学篮球运动员分别接受tDCS、tPCS和假刺激后完成6次10秒Wingate，组间峰值功率、平均功率、疲劳指数及心理生理反应均无显著差异；tPCS只在跨全部冲刺平均时提高股内侧肌EMG。",
+      "why": "神经调控常以单次研究中的生理变化被包装为即刻表现工具。本试验把两个常见刺激方案放到重复冲刺任务中直接比较，主要表现结局一致为阴性；EMG变化没有转化为功率收益。",
+      "practice": "不应为重复冲刺表现常规部署该两种单次刺激方案。若团队继续研究，预注册主要结局并把EMG视为机制指标，必须同时验证其是否带来功率、技术或恢复收益。",
+      "evidence": "随机双盲交叉试验｜15名女子大学篮球运动员；tDCS、tPCS、假刺激；6×10秒Wingate",
+      "confidence": "中",
+      "confidence_reason": "交叉与假刺激设计直接，主要结局一致为阴性；样本小且仅女性篮球运动员，结论限于本次参数和急性效果。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 42759805",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42759805/"
+      }
+    },
+    {
+      "id": "c30a6f91d4e8",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "耐力与抗阻适应分布在不同组学层",
+      "title": "Human Multi-Omics Meta-Analysis Identifies Molecular Layer-Specific Responses to Resistance and Endurance Exercise",
+      "one_liner": "跨公开数据的元分析发现，耐力训练信号更集中在转录与代谢层，抗阻训练则更突出于蛋白丰度和磷酸化层。",
+      "what": "研究整合3个骨骼肌RNA测序数据集的15,312个基因、2个蛋白组数据集的4,641个蛋白，以及2项研究的2,430个匹配磷酸化位点。共识别269个训练响应基因、10个响应蛋白；早期磷酸化研究间相关r=0.589，238个位点中210个方向一致、51个跨研究复现。",
+      "why": "只看转录组可能高估耐力适应、低估抗阻训练中发生在蛋白与信号调控层的变化。它也说明多组学“结果不一致”未必是失败，而可能是时间尺度和生物层级不同。",
+      "practice": "设计训练机制研究时，先按问题选择组学层和采样时间：耐力长期适应可优先转录/代谢，抗阻早期信号应纳入磷酸化与蛋白；不要用单一组学的阴性结果直接否定训练适应。",
+      "evidence": "人类公开数据多组学元分析｜RNA-seq 3组、蛋白组2组、磷酸化组2项研究",
+      "confidence": "中",
+      "confidence_reason": "跨数据集方向复现提供支持，但可用研究数量少、训练方案与采样时点异质，不能据此推断具体处方效应。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43024799",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43024799/"
+      }
+    },
+    {
+      "id": "d4b9e0176c52",
+      "priority": "值得了解",
+      "domain": "运动科学",
+      "short_title": "篮球负荷指标对应不同体能侧面",
+      "title": "Associations Between External Load and Physical Fitness During Simulated Basketball Competition",
+      "one_liner": "50名大学男篮中，高强度加速负荷只与VO₂peak相关，跳跃负荷只与重复冲刺平均功率相关，且关系随比赛节次变化。",
+      "what": "50名大学男子篮球运动员完成无换人的32分钟模拟比赛并佩戴KINEXON IMU。高强度加速负荷与各节VO₂peak相关（rs=0.285–0.522，后段更强）；跳跃负荷仅与重复冲刺平均功率相关（rs=0.340–0.385）。",
+      "why": "“总外负荷”不是单一体能的代理。加速与跳跃事件调用的能力不同，且比赛后段的关系会改变；把所有IMU指标压成一个分数会丢失体能解释。",
+      "practice": "篮球监控至少拆分高强度加速与跳跃负荷，并分别与有氧能力、重复冲刺能力和位置角色校准；用于选训时保留节次信息，不以单场相关替代个体纵向变化。",
+      "evidence": "横断面相关研究｜50名大学男子篮球运动员；32分钟模拟比赛；IMU外负荷",
+      "confidence": "中",
+      "confidence_reason": "样本量和任务情境清楚，相关具有方向特异性；无换人模拟与真实轮换不同，且相关不能证明体能决定负荷。",
+      "limit": "",
+      "source": {
+        "title": "PubMed 43020038",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43020038/"
+      }
+    },
+    {
+      "id": "e58c2a4f90bd",
+      "priority": "值得了解",
+      "domain": "运动健康",
+      "short_title": "长新冠平均值掩盖酸碱异常亚组",
+      "title": "The effects of submaximal exercise on acid-base balance in people with long COVID",
+      "one_liner": "两次间隔24小时的次最大CPET中，长新冠组整体与对照无差异，但代谢性酸中毒亚组在第二天由17%增至33%。",
+      "what": "研究让30名长新冠患者和对照完成两次间隔24小时的次最大CPET。组均值未显示明确差异；长新冠中符合代谢性酸中毒模式者从第1天5/30增至第2天10/30，对照报道为1/18和2/18。",
+      "why": "重复运动后的异常可能只出现在一部分患者，组平均阴性并不等于所有人反应正常。该结果支持在运动不耐受评估中查看个体酸碱轨迹，而不是只比较平均峰值。",
+      "practice": "对疑似运动后症状加重者，可在具备医疗监测条件时比较两次次最大测试的个体反应，并同步记录症状；本研究不能把酸中毒模式直接当作长新冠诊断，也不能据此自行增加训练剂量。",
+      "evidence": "观察性重复测试｜长新冠30人；两次次最大CPET间隔24小时",
+      "confidence": "低",
+      "confidence_reason": "亚组信号具有临床启发，但摘要中对照样本数与比例分母不一致，且没有证明该模式与症状或康复结局的因果关系。",
+      "limit": "补充信息：摘要方法写对照15人，但结果比例使用18人为分母；在全文核清前，本条仅按摘要报告并降低置信度。",
+      "source": {
+        "title": "PubMed 43032912",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43032912/"
+      }
+    },
+    {
+      "id": "f6a142c8d3b7",
+      "priority": "重点关注",
+      "domain": "AI",
+      "short_title": "GPT-6.2分成Astra与Sol两档",
+      "title": "Introducing GPT-6.2 Astra and GPT-6.2 Sol",
+      "one_liner": "OpenAI发布Astra与Sol：前者面向高难度Agent任务，后者面向日常高性价比工作；官方基准称Astra在两项Agent测试提升且成本低于前代。",
+      "what": "OpenAI发布GPT-6.2 Astra与Sol，并在ChatGPT Work、Codex和API提供。官方称Astra较GPT-6 Astra在Agents’ Last Exam高5.2分、Terminal-Bench-Science高9分，且两项成本均不到前代三分之一；API价格分别为Astra输入/输出8/40美元、Sol 2/10美元每百万token。",
+      "why": "这不是单纯“更强模型”，而是把前沿推理与日常吞吐拆成可路由的两档。对文档、表格、编码和电脑操作工作流，成本差异足以影响默认模型选择。",
+      "practice": "把现有任务按失败成本分层：日常抽取、改写和常规编码先用Sol，高难度调试、长链Agent和重要交付再升级Astra；用自有回归集比较质量、时延和总token，不直接把厂商基准外推到本地流程。",
+      "evidence": "官方模型发布＋厂商基准｜GPT-6.2 Astra/Sol；2026-11-17",
+      "confidence": "中",
+      "confidence_reason": "型号、价格和可用性为官方事实；性能提升主要来自厂商基准，尚缺独立、跨任务复测。",
+      "limit": "",
+      "source": {
+        "title": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+      }
+    },
+    {
+      "id": "0a7d39e2c5f1",
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Copilot Evals把定制行为变成回归测试",
+      "title": "GitHub Copilot Evals is now in public preview",
+      "one_liner": "Copilot现在可为技能、自定义Agent和MCP工具建立可重复测试，比较改动前后结果与执行过程。",
+      "what": "GitHub将Copilot Evals开放公开预览。用户定义真实任务、合格结果与检查项，可查看通过/失败、分析原因并比较定制前后；底层使用本地评测工具Vally，支持VS Code扩展、CLI插件和Copilot app。",
+      "why": "技能和工具链更新后，单次“看起来不错”无法识别回归。把结果和过程都纳入评测，能暴露错误工具调用、遗漏步骤与偶然成功。",
+      "practice": "先从3–5个高频且可判定的任务建小型回归集，检查事实、文件变化、工具调用和副作用；每次改提示、模型、技能或MCP后重跑，并保留失败样本。",
+      "evidence": "官方产品预览｜Copilot Individual、Business、Enterprise；2026-11-17",
+      "confidence": "高",
+      "confidence_reason": "功能、范围和使用方式来自官方发布；评测质量仍取决于用户设计的任务与检查项。",
+      "limit": "",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-11-17-github-copilot-evals-is-now-in-public-preview/"
+      }
+    },
+    {
+      "id": "1b8e40f3d6a2",
+      "priority": "值得了解",
+      "domain": "AI",
+      "short_title": "Copilot审查按风险调节深度",
+      "title": "Copilot code review: Adaptive effort, secret detection, and more",
+      "one_liner": "Copilot代码审查新增自适应审查深度、跨仓库上下文和凭据检测，并可在仓库层跟踪建议是否被采纳。",
+      "what": "GitHub公开预览Adaptive审查，可按PR复杂度和风险选择Lite、Balanced或Max；公开仓库可读取相关仓库上下文；凭据检测结合500余种确定性模式和AI模型；Repository insights可统计审查反馈处理情况。",
+      "why": "代码审查的瓶颈不只是发现问题，还包括把算力放在高风险改动、识别跨仓库影响并确认建议是否真正进入修复闭环。",
+      "practice": "将Adaptive上限与仓库风险等级绑定；认证、支付和数据迁移仍要求人工审查。开启凭据检测后，用故意植入的测试凭据验证告警链，并追踪采纳率、误报和漏报。",
+      "evidence": "官方产品发布｜多项功能为公开预览；2026-11-17",
+      "confidence": "高",
+      "confidence_reason": "功能状态和覆盖来自GitHub官方；实际缺陷检出率与误报率未在公告中给出。",
+      "limit": "",
+      "source": {
+        "title": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-11-17-copilot-code-review-adaptive-effort-secret-detection-and-more/"
+      }
+    },
+    {
+      "id": "2c9f51a4e7b3",
+      "priority": "快讯",
+      "domain": "AI",
+      "short_title": "Gemini Tasks开始执行支付与预约",
+      "title": "Put Gemini to work for you",
+      "one_liner": "Google把Gemini Tasks扩展到预约、账单分析、购物与跨应用操作，并用账户专属隔离VM、关键动作确认和支出上限控制风险。",
+      "what": "Gemini Tasks开始免费向美国、日本、韩国、加拿大、澳大利亚和印度推出，使用Gemini 4 Hydrogen；可调用电话、日历、邮箱、密码管理器、Google Pay及60余个连接应用。任务在账户专属硬件隔离VM中运行，购买等关键步骤要求确认或预授权。",
+      "why": "通用Agent正在从整理信息进入打电话、登录和支付。能力边界扩大后，安全评估必须覆盖身份、预算、授权和错误动作恢复，而不只是回答准确率。",
+      "practice": "先在可撤销、低金额任务中试用，设置支出上限与逐步确认；涉及医疗账单、保险和账户变更时保留原始记录并人工核对，不开启无条件长期授权。",
+      "evidence": "Google官方产品发布｜分地区滚动上线；厂商安全说明；2026-11-17",
+      "confidence": "中",
+      "confidence_reason": "功能、地区与安全机制为官方事实；真实成功率、错误率和跨网站兼容性尚无独立数据，官方也承认任务可能失败。",
+      "limit": "",
+      "source": {
+        "title": "Google",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+      }
+    }
+  ],
+  "professional_judgment": [
+    "耐力项目的“冲一下再恢复”不应只按MAP百分比开处方。今天的APR研究显示，25% APR已让近半数训练者无法完成全部冲刺，并明显侵蚀终末功率；将MAP、最大峰值功率和第3–6次的生理/主观反应放在一起，能更早识别不可持续剂量。",
+    "急性神经调控没有为重复冲刺带来表现收益。EMG变化如果没有转化为功率或技术结果，就不应成为采购或常规使用的理由。",
+    "AI工作流最值得更新的不是“统一换新模型”，而是建立分层路由与回归评测：低风险任务优先低成本模型，高风险任务升级能力并增加人工确认；任何技能或工具更新都应跑同一组真实任务。"
+  ]
+}

@@ -1126,5 +1126,89 @@
     "observed_at": "2026-11-17T08:12:00+08:00",
     "date_verified": true,
     "platform": "社区"
+  },
+  {
+    "id": "scientific-triathlon-burke-20261112",
+    "title": "Louise Burke on Optimising Ironman Carb Intake",
+    "url": "https://scientifictriathlon.com/tts723/",
+    "domain": "运动科学",
+    "source_author": "Louise Burke / That Triathlon Show",
+    "author_id": "scientific-triathlon",
+    "published_at": "2026-11-12",
+    "observed_at": "2026-11-18T08:00:23+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "reddit-acl-rts-20261113",
+    "title": "15 months post-op and still not ready: What hard RTS assessments did you have to pass?",
+    "url": "https://www.reddit.com/r/ACL/comments/1xvbxf8/15_months_postop_and_still_not_ready_what_hard/",
+    "domain": "运动健康",
+    "source_author": "Reddit / r/ACL",
+    "author_id": "reddit-acl",
+    "published_at": "2026-11-13",
+    "observed_at": "2026-11-18T08:00:23+08:00",
+    "date_verified": true,
+    "platform": "社区"
+  },
+  {
+    "id": "simon-external-sandboxes-20261117",
+    "title": "External sandboxes for coding agents",
+    "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+    "domain": "AI",
+    "source_author": "Simon Willison",
+    "author_id": "simon-willison",
+    "published_at": "2026-11-17T22:52:29+00:00",
+    "observed_at": "2026-11-18T08:00:23+08:00",
+    "date_verified": true,
+    "platform": "博客"
+  },
+  {
+    "id": "simon-datasette-lite-20261117",
+    "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+    "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+    "domain": "AI",
+    "source_author": "Simon Willison",
+    "author_id": "simon-willison",
+    "published_at": "2026-11-17T16:48:00+00:00",
+    "observed_at": "2026-11-18T08:00:23+08:00",
+    "date_verified": true,
+    "platform": "博客"
+  },
+  {
+    "id": "github-event-streams-20261117",
+    "title": "GitHub Event Streams is now in preview",
+    "url": "https://github.blog/changelog/2026-11-17-github-event-streams-is-now-in-preview/",
+    "domain": "AI",
+    "source_author": "GitHub",
+    "author_id": "github",
+    "published_at": "2026-11-17",
+    "observed_at": "2026-11-18T08:00:23+08:00",
+    "date_verified": true,
+    "platform": "官方更新"
+  },
+  {
+    "id": "github-copilot-browser-20261117",
+    "title": "Let GitHub Copilot interact with your browser",
+    "url": "https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/",
+    "domain": "AI",
+    "source_author": "GitHub",
+    "author_id": "github",
+    "published_at": "2026-11-17",
+    "observed_at": "2026-11-18T08:00:23+08:00",
+    "date_verified": true,
+    "platform": "官方更新"
+  },
+  {
+    "id": "reddit-agent-production-failures-20261117",
+    "title": "7 things that break agents in production",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1xwio0h/7_things_that_break_ai_agents_in_production/",
+    "domain": "AI",
+    "source_author": "Reddit / r/AI_Agents",
+    "author_id": "reddit-ai-agents",
+    "published_at": "2026-11-17",
+    "observed_at": "2026-11-18T08:00:23+08:00",
+    "date_verified": true,
+    "platform": "社区"
   }
 ]
