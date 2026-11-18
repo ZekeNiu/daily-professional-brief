@@ -1210,5 +1210,65 @@
     "observed_at": "2026-11-18T08:00:23+08:00",
     "date_verified": true,
     "platform": "社区"
+  },
+  {
+    "id": "manual-aspetar-20261118-readiness",
+    "title": "Recovery, Readiness and Back to Performance Following Lower-Limb Injury",
+    "url": "https://www.aspetar.com/en/professionals/our-events/aspetar-wednesday-webinar-series-26",
+    "domain": "运动健康",
+    "source_author": "Aspetar",
+    "author_id": "aspetar",
+    "published_at": "2026-11-18T00:00:00+03:00",
+    "observed_at": "2026-11-19T08:35:00+08:00",
+    "date_verified": true,
+    "platform": "专业机构网页"
+  },
+  {
+    "id": "manual-simon-20261118-curl",
+    "title": "Actual curl rewrites in Rust",
+    "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+    "domain": "AI",
+    "source_author": "Simon Willison / Daniel Stenberg",
+    "author_id": "simon-willison",
+    "published_at": "2026-11-18T15:58:27+00:00",
+    "observed_at": "2026-11-19T08:35:00+08:00",
+    "date_verified": true,
+    "platform": "博客"
+  },
+  {
+    "id": "manual-hn-50526152",
+    "title": "Running coding agents without handing them my credentials",
+    "url": "https://news.ycombinator.com/item?id=50526152",
+    "domain": "AI",
+    "source_author": "Hacker News community",
+    "author_id": "hacker-news",
+    "published_at": "2026-11-17T00:00:00Z",
+    "observed_at": "2026-11-19T08:35:00+08:00",
+    "date_verified": true,
+    "platform": "Hacker News"
+  },
+  {
+    "id": "manual-hn-50529612",
+    "title": "How the Claude Code team thinks about verification",
+    "url": "https://news.ycombinator.com/item?id=50529612",
+    "domain": "AI",
+    "source_author": "Hacker News community",
+    "author_id": "hacker-news",
+    "published_at": "2026-11-17T00:00:00Z",
+    "observed_at": "2026-11-19T08:35:00+08:00",
+    "date_verified": true,
+    "platform": "Hacker News"
+  },
+  {
+    "id": "manual-github-20261118-risk",
+    "title": "Security risk assessments run automatically on GitHub Team",
+    "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+    "domain": "AI",
+    "source_author": "GitHub",
+    "author_id": "github-ai",
+    "published_at": "2026-11-18T00:00:00Z",
+    "observed_at": "2026-11-19T08:35:00+08:00",
+    "date_verified": true,
+    "platform": "官方发布"
   }
 ]

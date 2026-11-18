@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-19",
+  "title": "每日专业资讯简报｜2026-11-19",
+  "summary": {
+    "total": 11,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 3,
+      "AI": 4
+    },
+    "signal": "最重要的进展是“最佳方案”正在让位于可验证范围：高翻功率负荷呈宽平台，双任务康复未稳定胜出，而科研Agent的成功率高度依赖任务类型。"
+  },
+  "navigation": {
+    "prev": null,
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：负荷、营养和生物力学评估都应从单一最佳值转向个人曲线与多指标轨迹。",
+    "运动健康": "本板块重点：新证据更支持阶段化、任务化使用康复工具，而不是把复杂方案默认视为更有效。",
+    "AI": "本板块重点：Agent规模化的前提正在从模型能力转向任务分层、权限约束和团队治理。"
+  },
+  "items": [
+    {
+      "id": "j-20261119-basketball-season",
+      "domain": "运动科学",
+      "title": "Body Mass, Strength, Power, and Endurance Variations Across an Entire Season in Male Basketball Players",
+      "short_title": "赛季内力量保留、跳跃波动",
+      "priority": "值得了解",
+      "one_liner": "15名半职业男篮运动员的纵向跟踪显示：深蹲力量在季前提升并基本保持，但比赛密集阶段的反向纵跳下降，耐力与体重相对稳定。",
+      "what": "研究在一个完整赛季的4个时间点测试15名半职业男篮运动员。深蹲力量主要在季前提高，随后保持；反向纵跳在比赛密集阶段出现下降，而体重和间歇耐力没有同向变化。",
+      "why": "不同能力指标并不会随赛季同步变化。把稳定的体重或耐力当成整体状态良好，可能漏掉爆发力在密集赛程中的短期下滑。",
+      "practice": "赛季监控至少把最大力量、跳跃表现和专项耐力分开追踪；密集比赛期若跳跃下降但力量稳定，应优先调整神经肌肉疲劳和高强度暴露，而不是笼统增加体能训练。",
+      "evidence": "同行评审纵向观察研究；半职业男性篮球运动员n=15，赛季4次测量。",
+      "confidence": "中",
+      "confidence_reason": "同一批运动员的重复测量支持赛季内变化判断，但样本小且仅限男性半职业篮球。",
+      "source": {
+        "label": "PubMed / IJSPP",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43020041/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261119-power-clean-load",
+      "domain": "运动科学",
+      "title": "Optimal power load ranges for the power clean and hang power clean weight-lifting derivatives: A systematic review and meta-analysis",
+      "short_title": "高翻峰值功率的负荷范围",
+      "priority": "重点关注",
+      "one_liner": "14项研究、197人显示，超过40% 1RM后，高翻与悬垂高翻的急性峰值功率进入宽平台；40%–70%、70%–85%和>85%区间没有明确赢家。",
+      "what": "系统综述与Meta分析纳入14项研究、197名参与者。与≤40% 1RM相比，三个更高负荷区间的急性峰值功率均更高；但>40%后的三个区间两两差异很小且不显著。",
+      "why": "结果反对把某个窄负荷百分比包装成普遍“最佳功率负荷”。一旦超过40% 1RM，动作质量、速度、技术目标和训练阶段可成为更实际的选重依据。",
+      "practice": "高翻或悬垂高翻以峰值功率为目的时，可先把>40% 1RM视为候选区间，再用个人负荷—功率曲线、技术稳定性和当日速度选择具体负荷；不必为追求单一百分比牺牲动作质量。",
+      "evidence": "系统综述与Meta分析；14项研究、197人，评价急性峰值功率。",
+      "confidence": "中",
+      "confidence_reason": "汇总方向一致，但研究间测量设备、动作定义与样本差异限制精确处方。",
+      "source": {
+        "label": "PubMed / Physiological Reports",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42968433/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261119-climbing-nutrition",
+      "domain": "运动科学",
+      "title": "Rock Climbing and Nutrition: How Diet and Anthropometric Factors Influence Performance",
+      "short_title": "攀岩表现更关联肌肉量而非减重",
+      "priority": "值得了解",
+      "one_liner": "44名攀岩者中，精英组蛋白质摄入更高、肌肉量更大、脂肪量更低，但BMI与臂展指数相近；结果不支持把单纯减重作为首要策略。",
+      "what": "44名攀岩者完成3日饮食记录与ISAK体成分测量。精英组蛋白质摄入1.6±0.5 g/kg，非精英组1.2±0.4 g/kg；精英组肌肉量更高、脂肪量更低，而BMI和臂展指数相近。",
+      "why": "攀岩实践常把体重压低等同于提高力量体重比；这组数据把可修改重点转向充足能量、蛋白质与肌肉量。不过研究是横断面关联，不能证明提高蛋白质本身会提升等级。",
+      "practice": "评估攀岩者时同时看能量摄入、蛋白质和肌肉量，不以BMI或快速减重单独指导；若摄入不足，先修复能量与蛋白质供给，再讨论体成分微调。",
+      "evidence": "同行评审横断面观察研究；44人（52%女性），3日饮食记录、人体测量与自报最高户外抱石等级。",
+      "confidence": "中",
+      "confidence_reason": "饮食记录和自报等级存在测量误差，且组间比较不能建立因果。",
+      "source": {
+        "label": "PubMed / JSCR",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43019555/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261119-elite-running-biomech",
+      "domain": "运动科学",
+      "title": "The Biomechanical Signature of Elite Distance Running: A Matched Pairs Analysis Across Multiple Speeds",
+      "short_title": "精英跑者的多速度生物力学特征",
+      "priority": "快讯",
+      "one_liner": "匹配组研究用可穿戴惯性传感器比较10–15 km/h多速度跑，提示“精英跑姿”应看跨速度稳定的组合特征，而不是单一落地指标。",
+      "what": "研究在10–15 km/h跑台速度下，用可穿戴惯性传感器比较精英与休闲长跑者的五类生物力学指标，并采用匹配配对设计控制基本特征。",
+      "why": "多速度设计比单一配速更接近训练监测：某项差异若只在一个速度出现，实践价值不同于跨速度稳定存在的特征。",
+      "practice": "跑姿评估应保留多个标准化速度，并观察指标随速度的轨迹；不要仅凭一次配速下的步频、触地或垂直振荡给出技术改造结论。",
+      "evidence": "同行评审匹配配对观察研究；跑台10–15 km/h、可穿戴惯性传感器。当前依据为摘要。",
+      "confidence": "低",
+      "confidence_reason": "摘要未提供完整样本量与各指标效应值，本条只支持方法与评估框架判断。",
+      "source": {
+        "label": "PubMed / Scandinavian Journal of Medicine & Science in Sports",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42908092/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261119-dual-task-rehab",
+      "domain": "运动健康",
+      "title": "Mapping the evidence on dual-task training in musculoskeletal injury rehabilitation: a systematic review",
+      "short_title": "双任务康复尚未显示普遍增益",
+      "priority": "重点关注",
+      "one_liner": "8项RCT、224人显示：ACL重建后双任务训练对姿势控制和患者报告结局大体不优于单任务；慢性踝不稳的部分指标优于无干预，但不稳定地优于单任务。",
+      "what": "系统综述纳入8项随机试验、224名参与者。ACL重建人群中，双任务与单任务训练在姿势控制和患者报告结局上相近；慢性踝不稳中，双任务在部分结局优于无干预，但与单任务训练多为相当。",
+      "why": "“更贴近比赛认知负荷”并不自动等于更好的康复结局。现有证据支持把双任务当作特定阶段的任务暴露，而不是替代力量、平衡和渐进负荷的核心训练。",
+      "practice": "ACL重建或踝不稳康复可在基础能力稳定后加入认知—动作双任务，用于评估或情境化训练；若目标是一般姿势控制，不应期待它稳定优于结构良好的单任务方案。",
+      "evidence": "系统综述；8项RCT、224人，主要为ACL重建与慢性踝不稳。论文当前页面含勘误链接。",
+      "confidence": "中",
+      "confidence_reason": "随机试验支持比较，但研究数量少、损伤类型与双任务方案异质。",
+      "source": {
+        "label": "PubMed / Research in Sports Medicine",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42200270/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261119-split-belt-stroke",
+      "domain": "运动健康",
+      "title": "Slow-belt split-belt treadmill training in subacute stroke rehabilitation: a pilot randomized controlled trial",
+      "short_title": "分带跑台未超过常规训练",
+      "priority": "值得了解",
+      "one_liner": "亚急性卒中30人先导RCT中，慢带分带跑台与对照均显著改善平衡，但组间差异1.20分（95%CI −5.30至7.71），其余结局经多重校正后也未见优势。",
+      "what": "30名亚急性卒中患者随机接受3周、30次训练，26人完成。Berg平衡量表两组分别改善18.8和18.0分；调整后组间差异1.20分，95%CI跨越明显负效应与正效应。训练完成率99.7%，未报告设备相关不良事件。",
+      "why": "这是有用的阴性结果：高技术感的分带跑台可行且两组都改善，但没有证据表明它在该方案下超过常规训练。",
+      "practice": "若已有分带跑台，可把它作为步态练习选项而非升级版标准治疗；采购或排课决策不应建立在“设备必然带来额外疗效”上。",
+      "evidence": "先导随机对照试验；亚急性卒中n=30，完成n=26，3周30次。",
+      "confidence": "中",
+      "confidence_reason": "随机设计和明确置信区间支持阴性判断，但先导样本不足以排除较小效应。",
+      "source": {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43024285/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261119-wearable-obesity",
+      "domain": "运动健康",
+      "title": "Wearable-derived physical activity patterns across obesity stages in the All of Us Research Program",
+      "short_title": "肥胖阶段与日常活动梯度",
+      "priority": "快讯",
+      "one_liner": "24,679人的可穿戴数据呈清晰梯度：无肥胖、临床前和临床肥胖组中位步数约7,846、6,702和5,128步/日，MVPA约140、91和35分钟/周。",
+      "what": "All of Us回顾性队列分析24,679名参与者。随肥胖阶段加深，日步数和中高强度活动递减，久坐时间递增；这是大样本现实世界活动模式描述。",
+      "why": "可穿戴数据把临床分期与可操作行为指标连接起来，但它仍是关联：较低活动既可能是风险因素，也可能受症状、功能和社会环境影响。",
+      "practice": "在体重管理或运动康复中，按起点设定阶梯目标；临床肥胖组与一般推荐之间差距大，优先增加可完成的日常步行和短时活动，而不是直接套用高门槛周目标。",
+      "evidence": "回顾性观察队列；All of Us可穿戴数据n=24,679。",
+      "confidence": "中",
+      "confidence_reason": "样本大且设备数据客观，但不能从横断关联推断活动不足的单向因果。",
+      "source": {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43033417/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261119-research-acceleration",
+      "domain": "AI",
+      "title": "Research acceleration: The jagged frontier",
+      "short_title": "科研Agent增益呈锯齿状",
+      "priority": "重点关注",
+      "one_liner": "OpenAI内部数据显示，Agent独立完成2–4小时研究任务的估计成功率从3月23%升至10月46%，但监控训练运行79%、启动训练35%、推理服务代码25%，能力差异很大。",
+      "what": "OpenAI公布内部研究加速测量：2–4小时任务估计成功率由23%升至46%，4–8小时任务由13%升至35%；任务层面从监控训练运行79%到推理/服务代码25%不等。",
+      "why": "这比单一总分更接近真实工作流：Agent的价值取决于任务可验证性和失败成本。厂商内部测量不能当作通用生产率估计，但足以说明部署应按任务类型分层。",
+      "practice": "把科研流程拆成可验证单元，先自动化监控、数据整理和可复现脚本；对实验启动、推理服务与高代价决策保留检查点，并分别记录成功率、返工和人工审阅时间。",
+      "evidence": "厂商内部研究报告；含任务级测量与研究者调查，非独立审计。",
+      "confidence": "中",
+      "confidence_reason": "数据具体且分任务披露，但来自OpenAI内部环境，成本与成功定义未必外推。",
+      "source": {
+        "label": "OpenAI Research",
+        "url": "https://openai.com/index/research-acceleration-jagged-frontier/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261119-codex-sandbox",
+      "domain": "AI",
+      "title": "Inside the Codex sandbox",
+      "short_title": "Agent权限从提示词转向系统约束",
+      "priority": "值得了解",
+      "one_liner": "OpenAI公开Codex沙箱设计：工作区可写、.git/.codex等敏感目录只读、默认禁网，并用操作系统级约束与网络代理限制命令及其后代进程。",
+      "what": "工程说明解释了跨macOS、Linux、Windows的权限模型、文件系统规则、网络代理和配置分层；沙箱约束会继承到命令启动的后代进程，也可单独用于限制MCP服务器。",
+      "why": "Agent安全的关键不是要求模型“别碰秘密”，而是把可读、可写、可联网范围做成可强制执行的边界。文章也明确承认广泛读取可能暴露配置中的密钥，且被忽略目录仍可能成为风险路径。",
+      "practice": "默认采用最小权限：源码只读或工作区可写、密钥路径拒绝、网络按域放行；对MCP和构建工具另设权限配置，并把被忽略依赖目录纳入审计。",
+      "evidence": "官方工程设计说明与配置示例；描述已实现机制，不是独立安全评测。",
+      "confidence": "高",
+      "confidence_reason": "对产品权限模型和配置事实可直接核实；对绝对防护效果未作超出文档的推断。",
+      "source": {
+        "label": "OpenAI Engineering",
+        "url": "https://openai.com/index/inside-the-codex-sandbox/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261119-chip-design",
+      "domain": "AI",
+      "title": "Advancing chip design with OpenAI models",
+      "short_title": "模型进入芯片设计工具链",
+      "priority": "值得了解",
+      "one_liner": "OpenAI报告模型在RISC‑V评测和生产级处理器设计中提出新增改进，并与Synopsys合作训练能使用EDA工具的专用模型；效果目前主要来自厂商案例。",
+      "what": "OpenAI称其模型在RISC‑V架构探索、Jalapeño以及AMD下一代GPU/CPU设计中贡献了新增改进，并宣布与Synopsys训练GPT‑Synopsys以操作EDA工具。",
+      "why": "价值不只是生成RTL，而是把模型接入可验证的专业工具链。芯片设计有仿真、时序、功耗和形式验证等强反馈，适合Agent循环；但公开页面没有足够独立数据比较人类基线和失败率。",
+      "practice": "在高门槛工程中优先设计“模型提出—EDA验证—专家签核”的闭环，并记录可复现净改进；不要把厂商案例直接当作无需资深工程师的自动设计能力。",
+      "evidence": "厂商研究与合作公告；含生产案例主张，缺少独立复现。",
+      "confidence": "低",
+      "confidence_reason": "发布事实明确，但性能与净贡献主要由厂商陈述。",
+      "source": {
+        "label": "OpenAI Research",
+        "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261119-copilot-team",
+      "domain": "AI",
+      "title": "Customize GitHub Copilot for your team",
+      "short_title": "Copilot插件可按团队统一配置",
+      "priority": "快讯",
+      "one_liner": "GitHub为Business与Enterprise团队开放插件统一配置，组织政策仍优先于团队选择，减少成员逐个安装和配置的差异。",
+      "what": "团队管理员现在可以为组织团队共享Copilot插件与默认设置；组织和企业的市场、必需或禁用策略继续优先，不会被团队配置绕过。",
+      "why": "Agent工具链正从个人偏好走向团队级可治理配置。真正的收益是环境一致性、审计和快速回滚，而不是插件数量本身。",
+      "practice": "先用小团队模板统一少量经验证插件，把允许市场、数据边界和禁用清单放在组织策略层；版本变更后用固定任务集回归测试。",
+      "evidence": "GitHub官方产品更新；适用于Copilot Business与Enterprise。",
+      "confidence": "高",
+      "confidence_reason": "功能范围与政策优先级由官方公告直接说明。",
+      "source": {
+        "label": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-11-18-customize-github-copilot-for-your-team/"
+      },
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "高翻功率训练可把>40% 1RM当作宽候选区间，再由个人功率曲线和动作质量选负荷；本期证据不支持宣称某个更高区间普遍最优。",
+    "康复中的双任务和专用跑台都没有显示稳定的额外优势。实践上应先明确它们解决的具体任务，再保留力量、平衡、步态和渐进负荷的核心方案。",
+    "科研与代码Agent的部署应按任务可验证性分层：监控、整理和重复脚本可提高自动化程度；启动高代价实验、服务代码和凭据操作必须保留硬权限与确定性检查。"
+  ]
+}
