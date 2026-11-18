@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "date": "2026-11-18",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-18",
+  "observed_at": "2026-11-18T08:00:23+08:00",
+  "summary": {
+    "total": 7,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 5
+    },
+    "signal": "社媒侧最清晰的共同方向是把复杂工作拆成可控边界：耐力补给按比赛目标和耐受性调整，重返运动不迷信单一门槛，Agent执行则把代码、网络、凭据和高风险动作分别隔离。"
+  },
+  "navigation": {
+    "prev": "2026-11-17",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "高碳水补给讨论从追逐统一高数值，转向比赛时长、目标配速、胃肠耐受和热环境共同决定。",
+    "运动健康": "社区对ACL重返运动的焦虑再次显示：时间线、对称性与绝对能力必须分开解释，单一阈值不宜成为通用放行规则。",
+    "AI": "Agent工具链正快速补齐沙箱、浏览器执行与事件触发；可用性提升的同时，最小权限、凭据隔离和结果验证要前置。"
+  },
+  "items": [
+    {
+      "id": "3d0a62b5f8c4",
+      "domain": "运动科学",
+      "title": "Louise Burke把铁三高碳水补给拉回比赛目标与耐受性",
+      "short_title": "补给目标不应统一抄高值",
+      "author": "Louise Burke / That Triathlon Show",
+      "platform": "播客",
+      "published_date": "2026-11-12",
+      "priority": "重点关注",
+      "one_liner": "讨论强调，争胜的9小时选手与接近17小时关门的选手不需要相同每小时碳水目标，日常高碳水也不等于只吃糖和运动饮料。",
+      "what": "Louise Burke在问答节目中讨论Ironman每小时碳水、葡萄糖/果糖比例、蔗糖、热环境补给和低能量可用性。核心观点是先按比赛持续时间、目标强度和胃肠耐受确定起点，再在训练中验证，而不是照搬职业自行车或统一120 g/h。",
+      "why": "社媒常把更高碳水摄入直接等同于更高表现。该讨论把现实约束重新放回处方：速度目标、完成时间、总能量、液体需求和肠道训练会共同限制可用剂量。",
+      "practice": "先以预计完赛时间和目标强度设碳水区间，在长课中同步记录摄入、液体、胃肠症状和后段功率；热环境下不要为了追逐碳水数字挤压补液与降温。",
+      "evidence": "专家问答播客｜基于运动营养研究与实践；非新试验",
+      "confidence": "中",
+      "confidence_reason": "嘉宾专业背景和讨论范围清楚，但节目是专家解释，不提供本期独立效果估计。",
+      "limit": "",
+      "source": {
+        "url": "https://scientifictriathlon.com/tts723/"
+      },
+      "references": []
+    },
+    {
+      "id": "4e1b73c6a9d5",
+      "domain": "运动健康",
+      "title": "ACL社区帖暴露重返运动门槛的沟通缺口",
+      "short_title": "别把单一力量比当通行证",
+      "author": "Reddit / r/ACL",
+      "platform": "社区",
+      "published_date": "2026-11-13",
+      "priority": "值得了解",
+      "one_liner": "一名术后15个月用户因未达到力量、髋部能力和落地要求仍未获放行；讨论反映患者容易把个体化目标误读成统一标准。",
+      "what": "发帖者称术后15个月虽能在患侧输出约体重水平力量，仍被要求接近健侧约1.3倍体重、改善髋部力量和落地动作后才进入敏捷训练。评论主要围绕恢复差异和时间焦虑展开。",
+      "why": "这是个人经历，不是临床指南，但它显示专业人员需要解释“绝对能力、双侧差异、动作质量和项目需求”各自承担什么判断，避免患者只盯住月份或一个比值。",
+      "practice": "重返运动沟通可提供一页式仪表板：列出患侧绝对能力、健侧变化、跳跃/落地、心理准备和训练暴露；明确哪些是个人目标、哪些是证据支持的最低条件，不把1.3倍体重当作普适阈值。",
+      "evidence": "社区个案与评论｜单名ACL术后用户；非专业评估记录",
+      "confidence": "低",
+      "confidence_reason": "真实困惑具有沟通价值，但数值和测试方法无法独立核验，不能用于处方或放行。",
+      "limit": "",
+      "source": {
+        "url": "https://www.reddit.com/r/ACL/comments/1xvbxf8/15_months_postop_and_still_not_ready_what_hard/"
+      },
+      "references": []
+    },
+    {
+      "id": "5f2c84d7bae6",
+      "domain": "AI",
+      "title": "外置沙箱把Agent本体与不可信代码分开",
+      "short_title": "Agent外置、代码入沙箱",
+      "author": "Simon Willison",
+      "platform": "博客",
+      "published_date": "2026-11-17",
+      "priority": "重点关注",
+      "one_liner": "三种开源实现用统一localhost API让Pi、Claude Code或Codex把代码送入独立沙箱，并可限制网络、替换凭据而不暴露密钥。",
+      "what": "Simon Willison介绍“Agent在外、代码在沙箱内”的模式，并发布v86/WebAssembly、Apple Containers和Quicksand/QEMU三种实现。沙箱提供相同本地API、HTTP/HTTPS允许列表代理和凭据替换机制。",
+      "why": "传统把整个Agent放进容器会同时限制交互和工具能力；外置模式只隔离最危险的代码执行面，同时保留Agent编排能力。它特别适合本地模型和会读取不可信内容的编码Agent。",
+      "practice": "先把文件系统、网络和凭据分成独立权限：代码默认无主机写权限、外连走允许列表、API凭据由代理注入；用恶意提示和误删测试验证边界，再接入真实仓库。",
+      "evidence": "独立技术博客＋开源原型｜3种实现；2026-11-17",
+      "confidence": "中",
+      "confidence_reason": "架构、代码和控制面可检查；仍是新模式，跨平台稳定性与绕过风险需本地安全测试。",
+      "limit": "",
+      "source": {
+        "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+      },
+      "references": [
+        {
+          "label": "Prime Radiant说明",
+          "url": "https://blog.primeradiant.com/external-sandboxes-for-coding-agents/"
+        }
+      ]
+    },
+    {
+      "id": "6a3d95e8cbf7",
+      "domain": "AI",
+      "title": "Datasette Lite把完整Python数据应用搬进浏览器",
+      "short_title": "浏览器内复现实验数据应用",
+      "author": "Simon Willison",
+      "platform": "博客",
+      "published_date": "2026-11-17",
+      "priority": "值得了解",
+      "one_liner": "重写后的Datasette Lite用Service Worker与Pyodide运行完整ASGI应用，可通过URL固定数据库、Datasette/SQLite版本和插件。",
+      "what": "新版本可在浏览器加载SQLite、JSON、CSV或SQL脚本，选择Datasette发布版或Git提交、100余个SQLite版本及额外插件。Service Worker把每个标签页的请求路由到独立Web Worker中的Pyodide与Datasette实例。",
+      "why": "无需部署服务器即可分享可复现的数据探索、插件演示和bug最小复现；URL同时承载版本与输入，使科研与数据工具的审查成本降低。",
+      "practice": "对公开或脱敏数据，可用固定版本URL分享分析复现；对敏感数据先确认浏览器加载路径和第三方插件行为，并把最终结论导出为可审计SQL与静态结果。",
+      "evidence": "开源工具发布与架构说明｜浏览器端Datasette/Pyodide；2026-11-17",
+      "confidence": "高",
+      "confidence_reason": "作者提供完整实现、可运行站点和具体架构；大数据性能、浏览器兼容与插件安全需按场景测试。",
+      "limit": "",
+      "source": {
+        "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/"
+      },
+      "references": []
+    },
+    {
+      "id": "7b4ea6f9dc08",
+      "domain": "AI",
+      "title": "GitHub Event Streams让Agent停止轮询PR状态",
+      "short_title": "PR事件直接唤醒Agent",
+      "author": "GitHub",
+      "platform": "官方更新",
+      "published_date": "2026-11-17",
+      "priority": "值得了解",
+      "one_liner": "预览功能通过保持连接推送评审、提交、冲突、合并和检查状态，无需公开Webhook端点或频繁轮询。",
+      "what": "Event Streams允许Agent订阅PR并在评审提交、新commit、合并冲突、关闭/合并或check suite变化时接收事件。GitHub称本地运行的Agent无需搭建公开Webhook接收器；目前需加入候补名单。",
+      "why": "轮询要在延迟、API额度和空转token之间取舍。事件驱动可把Agent从定时检查改为有变化才执行，尤其适合长时间PR跟踪。",
+      "practice": "把事件仅作为唤醒信号，Agent启动后仍重新读取PR当前状态并做幂等检查；为重复事件、断线重连和权限过期设计恢复路径。",
+      "evidence": "GitHub官方预览｜所有计划获批候补后可用；2026-11-17",
+      "confidence": "高",
+      "confidence_reason": "事件类型与可用状态来自官方发布；生产可靠性仍需验证重连、顺序和重复投递行为。",
+      "limit": "",
+      "source": {
+        "url": "https://github.blog/changelog/2026-11-17-github-event-streams-is-now-in-preview/"
+      },
+      "references": []
+    },
+    {
+      "id": "8c5fb70aed19",
+      "domain": "AI",
+      "title": "Copilot把浏览器操作接入CLI与IDE",
+      "short_title": "浏览器操作进入编码工作流",
+      "author": "GitHub",
+      "platform": "官方更新",
+      "published_date": "2026-11-17",
+      "priority": "快讯",
+      "one_liner": "配合Chrome扩展，Copilot可在CLI、App、VS Code和JetBrains中调试网页、跑浏览器测试和执行网页任务。",
+      "what": "GitHub将browser use开放公开预览，可与computer use组合；用户需安装Copilot Chrome扩展，并在各客户端显式启用，扩展提供连接状态和权限等级设置。",
+      "why": "浏览器调试与网页验证可直接进入编码闭环，但扩展也把Agent权限延伸到已登录页面和网页输入，错误动作的影响面显著扩大。",
+      "practice": "为开发测试使用独立浏览器配置文件和测试账户，只授予当前站点权限；涉及发布、支付、删除或生产后台时要求逐步确认并保留截图/日志。",
+      "evidence": "GitHub官方产品预览｜CLI、App、VS Code、JetBrains＋Chrome扩展；2026-11-17",
+      "confidence": "高",
+      "confidence_reason": "功能与启用方式由官方说明；复杂网站成功率和安全边界尚无独立评估。",
+      "limit": "",
+      "source": {
+        "url": "https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/"
+      },
+      "references": []
+    },
+    {
+      "id": "9d60c81bfe2a",
+      "domain": "AI",
+      "title": "社区复盘总结Agent生产环境的七类失效",
+      "short_title": "Agent失败常在验证与交接",
+      "author": "Reddit / r/AI_Agents",
+      "platform": "社区",
+      "published_date": "2026-11-17",
+      "priority": "值得了解",
+      "one_liner": "作者汇总50余篇帖子与约5500条评论，反复出现的失效包括自评分、过度并行、上下文交接和缺少确定性验证。",
+      "what": "帖子作者把社区案例归纳为七类问题，重点包括Agent用自然语言自证正确、多Agent拆分丢失边界条件、长任务上下文漂移，以及没有用测试、schema或编译器做确定性检查。",
+      "why": "这不是正式研究，但与当前“让Agent做更多”的产品趋势形成必要补充：生产失败往往发生在验证和交接层，而非模型不能生成内容。",
+      "practice": "把可确定判断交给代码：结构用schema、代码用测试/静态检查、数据用约束；多Agent交接必须包含输入、输出、未决问题和验证结果，禁止仅用“看起来正确”的自评通过。",
+      "evidence": "社区二次归纳｜作者称覆盖50余帖、约5500评论；方法与样本未独立审计",
+      "confidence": "低",
+      "confidence_reason": "归纳与常见工程风险一致，但来源选择、编码和计数不可复核，不能估计问题发生率。",
+      "limit": "",
+      "source": {
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1xwio0h/7_things_that_break_ai_agents_in_production/"
+      },
+      "references": []
+    }
+  ],
+  "professional_judgment": [
+    "运动营养的可执行起点不是追逐最高每小时碳水，而是先定义比赛时长与目标强度，再用训练检验胃肠耐受、液体和后段输出。",
+    "ACL重返运动沟通应把“个人目标”与“通用门槛”分开。绝对力量、健侧变化、动作质量和实际训练暴露应同时展示，避免一个比值支配全部决策。",
+    "Agent工作流正在形成清晰的控制栈：事件负责唤醒，浏览器和代码工具负责执行，沙箱与权限负责限制，测试与schema负责验收。缺少其中任一层，能力升级都会放大不可见风险。"
+  ]
+}
