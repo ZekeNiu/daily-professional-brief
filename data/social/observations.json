@@ -9230,6 +9230,20 @@
       "last_seen": "2026-11-16T02:43:21.807806+00:00"
     },
     {
+      "id": "scientific-triathlon-burke-20261112",
+      "title": "Louise Burke on Optimising Ironman Carb Intake",
+      "url": "https://scientifictriathlon.com/tts723/",
+      "date": "2026-11-12",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Louise Burke / That Triathlon Show"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00"
+    },
+    {
       "id": "034582aa55af",
       "title": "派早报：英伟达 CEO 黄仁勋宣布辞职等",
       "url": "https://sspai.com/post/118966",
@@ -9704,6 +9718,20 @@
       "platform": "博客",
       "first_seen": "2026-11-13T23:52:16.262676+00:00",
       "last_seen": "2026-11-14T03:13:47.440277+00:00"
+    },
+    {
+      "id": "reddit-acl-rts-20261113",
+      "title": "15 months post-op and still not ready: What hard RTS assessments did you have to pass?",
+      "url": "https://www.reddit.com/r/ACL/comments/1xvbxf8/15_months_postop_and_still_not_ready_what_hard/",
+      "date": "2026-11-13",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "Reddit / r/ACL"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00"
     },
     {
       "id": "12990af15e18",
@@ -10195,6 +10223,76 @@
       "platform": "博客",
       "first_seen": "2026-11-16T02:43:21.807806+00:00",
       "last_seen": "2026-11-16T02:43:21.807806+00:00"
+    },
+    {
+      "id": "github-copilot-browser-20261117",
+      "title": "Let GitHub Copilot interact with your browser",
+      "url": "https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "GitHub"
+      ],
+      "platform": "官方更新",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00"
+    },
+    {
+      "id": "github-event-streams-20261117",
+      "title": "GitHub Event Streams is now in preview",
+      "url": "https://github.blog/changelog/2026-11-17-github-event-streams-is-now-in-preview/",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "GitHub"
+      ],
+      "platform": "官方更新",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00"
+    },
+    {
+      "id": "reddit-agent-production-failures-20261117",
+      "title": "7 things that break agents in production",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1xwio0h/7_things_that_break_ai_agents_in_production/",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Reddit / r/AI_Agents"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00"
+    },
+    {
+      "id": "simon-datasette-lite-20261117",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "date": "2026-11-18",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00"
+    },
+    {
+      "id": "simon-external-sandboxes-20261117",
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "date": "2026-11-18",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00"
     }
   ]
 }
