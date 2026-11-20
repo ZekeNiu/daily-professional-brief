@@ -3353,7 +3353,7 @@
     "social": {
       "start": "2026-11-07",
       "end": "2026-11-20",
-      "source_fingerprint": "db7ba42703323909240cb4d28187f64b443ea8f1cad5667dc349e270bab24827",
+      "source_fingerprint": "b10a2e2f9ba56fe2c54facd084b419b0eaf34e4184f2da9335e579749f4bd00a",
       "records": [
         {
           "id": "23e647526597",
@@ -5607,6 +5607,16 @@
           ]
         },
         {
+          "id": "manual-aspetar-20261118-fifau17",
+          "date": "2026-11-18",
+          "domain": "运动健康",
+          "url": "https://www.aspetar.com/en/about-us/press-room/news/fifau17-worldcup",
+          "title": "Aspetar to serve as Official Medical Supporter for FIFA U-17 World Cup",
+          "sources": [
+            "Aspetar"
+          ]
+        },
+        {
           "id": "manual-aspetar-20261118-readiness",
           "date": "2026-11-18",
           "domain": "运动健康",
@@ -5654,6 +5664,26 @@
           "title": "External sandboxes for coding agents",
           "sources": [
             "Simon Willison"
+          ]
+        },
+        {
+          "id": "manual-hn-50550700",
+          "date": "2026-11-19",
+          "domain": "AI",
+          "url": "https://news.ycombinator.com/item?id=50550700",
+          "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
+          "sources": [
+            "Kradle team / Hacker News community"
+          ]
+        },
+        {
+          "id": "manual-real-science-sport-20261119-heat-carb",
+          "date": "2026-11-19",
+          "domain": "运动科学",
+          "url": "https://shows.acast.com/realscienceofsport/episodes/do-you-burn-the-carbs-you-eat-in-the-heat-can-blood-tests-an",
+          "title": "Do You Burn the Carbs You Eat in the Heat?",
+          "sources": [
+            "Ross Tucker / Mike Finch"
           ]
         }
       ],
