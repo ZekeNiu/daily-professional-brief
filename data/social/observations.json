@@ -2,90 +2,6 @@
   "version": 1,
   "items": [
     {
-      "id": "003f25870c14",
-      "title": "Treating fibromyalgia like an autoimmune disease [3m]",
-      "url": "https://www.painscience.com/blog/fibromyalgia-antibody-trial.html",
-      "date": "2026-10-06",
-      "domain": "运动健康",
-      "topic_id": "health-pain",
-      "sources": [
-        "Paul Ingraham / PainScience"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-19T06:16:07.398604+00:00"
-    },
-    {
-      "id": "00427e47df5e",
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "date": "2026-10-06",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-19T06:16:07.398604+00:00"
-    },
-    {
-      "id": "417c3a0572d8",
-      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
-      "url": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
-      "date": "2026-10-06",
-      "domain": "AI",
-      "topic_id": "ai-eval",
-      "sources": [
-        "Latent Space"
-      ],
-      "platform": "通讯",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-19T06:16:07.398604+00:00"
-    },
-    {
-      "id": "673fb60ae752",
-      "title": "The Cyber Risk Discourse is Broken",
-      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
-      "date": "2026-10-06",
-      "domain": "AI",
-      "topic_id": "ai-agent",
-      "sources": [
-        "Nathan Lambert / Interconnects"
-      ],
-      "platform": "通讯",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-19T06:16:07.398604+00:00"
-    },
-    {
-      "id": "ebb413cc5359",
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "url": "https://openai.com/index/jump-trading",
-      "date": "2026-10-06",
-      "domain": "AI",
-      "topic_id": "ai-eval",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-19T06:16:07.398604+00:00"
-    },
-    {
-      "id": "f57eff9c23a4",
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "date": "2026-10-06",
-      "domain": "AI",
-      "topic_id": "ai-eval",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-19T06:16:07.398604+00:00"
-    },
-    {
       "id": "16b7810afb00",
       "title": "Introducing Falcon ASR",
       "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
@@ -10295,6 +10211,20 @@
       "last_seen": "2026-11-18T08:00:23+08:00"
     },
     {
+      "id": "manual-aspetar-20261118-fifau17",
+      "title": "Aspetar to serve as Official Medical Supporter for FIFA U-17 World Cup",
+      "url": "https://www.aspetar.com/en/about-us/press-room/news/fifau17-worldcup",
+      "date": "2026-11-18",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "Aspetar"
+      ],
+      "platform": "专业机构公告",
+      "first_seen": "2026-11-20T08:03:00+08:00",
+      "last_seen": "2026-11-20T08:03:00+08:00"
+    },
+    {
       "id": "manual-aspetar-20261118-readiness",
       "title": "Recovery, Readiness and Back to Performance Following Lower-Limb Injury",
       "url": "https://www.aspetar.com/en/professionals/our-events/aspetar-wednesday-webinar-series-26",
@@ -10363,6 +10293,34 @@
       "platform": "博客",
       "first_seen": "2026-11-18T08:00:23+08:00",
       "last_seen": "2026-11-18T08:00:23+08:00"
+    },
+    {
+      "id": "manual-hn-50550700",
+      "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
+      "url": "https://news.ycombinator.com/item?id=50550700",
+      "date": "2026-11-19",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Kradle team / Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-20T08:03:00+08:00",
+      "last_seen": "2026-11-20T08:03:00+08:00"
+    },
+    {
+      "id": "manual-real-science-sport-20261119-heat-carb",
+      "title": "Do You Burn the Carbs You Eat in the Heat?",
+      "url": "https://shows.acast.com/realscienceofsport/episodes/do-you-burn-the-carbs-you-eat-in-the-heat-can-blood-tests-an",
+      "date": "2026-11-19",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Ross Tucker / Mike Finch"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-20T08:03:00+08:00",
+      "last_seen": "2026-11-20T08:03:00+08:00"
     }
   ]
 }
