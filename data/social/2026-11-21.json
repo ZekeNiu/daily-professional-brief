@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "date": "2026-11-21",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-21",
+  "observed_at": "2026-11-21T08:42:00+08:00",
+  "summary": {
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 2,
+      "AI": 2
+    },
+    "signal": "本期公开讨论的共同价值不在新口号，而在把宽泛概念落成可测问题：短时训练的真实剂量、睡前蛋白的具体结局、ACL跑步准入的客观标准，以及Agent工具的可验证用途。"
+  },
+  "navigation": {
+    "prev": "2026-11-20",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：时间效率与睡前营养都应按剂量、任务和结局判断，而非按形式标签。",
+    "运动健康": "本板块重点：ACL回归跑步与本体感觉训练都需要把模糊概念转成可测任务。",
+    "AI": "本板块重点：Agent开发工具快速增殖，发现目录和重构线索都只能作为筛选入口，不能替代仓库级验证。"
+  },
+  "items": [
+    {
+      "id": "s-20261121-time-efficient-hiit",
+      "domain": "运动科学",
+      "title": "The Science of Time-Efficient Training: HIIT, Fitness, and Exercise Snacks",
+      "short_title": "短时训练的价值取决于剂量和人群",
+      "priority": "重点关注",
+      "one_liner": "Training Science Podcast围绕超过1200名团队项目运动员的Meta分析，讨论HIIT与中等持续训练、频率和时长；“时间短”不是独立处方，效果仍取决于总刺激与人群。",
+      "what": "节目邀请Xinyu Zeng、Mingyue Yin与Martin Buchheit，围绕团队项目运动员的Meta分析比较HIIT和中等强度持续训练，并讨论训练频率、单次时长、年龄、初始体能和exercise snacks。",
+      "why": "“高效”常被等同于更短，但实践上必须同时看每周总量、强度分布和目标结局；不同起点的运动员对相同短方案不会产生相同适应。",
+      "practice": "时间受限时先定义目标，再用周总量、单次有效工作时间和恢复成本比较方案；用固定测试追踪，不以“HIIT”或“exercise snack”标签代替剂量。",
+      "evidence": "专家播客与Meta分析解读，2026-11-20；节目称底层汇总超过1200名团队项目运动员。",
+      "confidence": "中",
+      "confidence_reason": "议题由研究作者与实践专家讨论，但本条依据节目公开说明，未逐项重算Meta分析。",
+      "source": {
+        "label": "Training Science Podcast",
+        "url": "https://www.buzzsprout.com/1917060/episodes/20146206-the-science-of-time-efficient-training-hiit-fitness-and-exercise-snacks-with-xinyu-zeng-mingyue-yin-and-dr-martin-buchheit"
+      },
+      "limit": "",
+      "author": "Paul Laursen / Martin Buchheit / Xinyu Zeng / Mingyue Yin",
+      "platform": "播客",
+      "published_date": "2026-11-20"
+    },
+    {
+      "id": "s-20261121-presleep-nutrition",
+      "domain": "运动科学",
+      "title": "Eating Before Bed: What Athletes Need to Know",
+      "short_title": "睡前蛋白支持合成但恢复结果不一致",
+      "priority": "值得了解",
+      "one_liner": "MySportScience梳理显示睡前约27.5–45克蛋白可提高夜间肌蛋白合成并在12周训练中增加股四头肌横截面积，但次晨力量与损伤指标并非稳定改善。",
+      "what": "文章引用12周44名年轻男性研究：睡前27.5克蛋白加15克碳水较无能量安慰剂获得更大股四头肌横截面积增量（8.4 vs 4.8 cm²）；另有36人耐力运动后45克乳清/酪蛋白提高线粒体与肌原纤维蛋白合成。功能恢复结果则不一致。",
+      "why": "合成率、长期适应和次晨表现是不同层级结局。把夜间合成增加直接写成“恢复更快”会越过尚不一致的功能证据。",
+      "practice": "若全天蛋白不足或晚间训练后进食窗口有限，可把睡前蛋白作为补足方案；评估时分别记录总蛋白、胃肠/睡眠、长期围度或力量，不承诺次晨表现必然改善。",
+      "evidence": "研究解读文章，2026-11-19；引用训练试验与急性同位素研究，功能恢复样本较小。",
+      "confidence": "中",
+      "confidence_reason": "夜间合成和一项长期训练结果具体，但恢复表现研究小且不一致。",
+      "source": {
+        "label": "MySportScience",
+        "url": "https://www.mysportscience.com/post/eating-before-bed-athletes"
+      },
+      "limit": "",
+      "author": "Asker Jeukendrup / MySportScience",
+      "platform": "专业博客",
+      "published_date": "2026-11-19"
+    },
+    {
+      "id": "s-20261121-acl-ready-run",
+      "domain": "运动健康",
+      "title": "When Is an ACL Patient Really Ready to Run?",
+      "short_title": "ACL跑步准入不能只看术后周数",
+      "priority": "重点关注",
+      "one_liner": "177名临床人员调查显示，ACL重建后回归跑步对活动度和积液较有共识，但力量、功能标准与首次跑步设计差异大；仅3%使用动力学测量。",
+      "what": "节目解读一项71题横断调查：29%使用时间标准，常见为12–14周；约半数做力量测试和单腿跳，36%不用任何患者报告结局。超过半数会评估跑步，但只有3%测动力学。",
+      "why": "“看起来能跑”与膝关节实际受力不是同一件事；持续少负荷可能在常规时空参数中被遗漏。调查也显示目前没有一个被普遍采用的准入组合。",
+      "practice": "首次跑步前用组合标准：膝关节安静、活动度、股四头肌力量、单腿负荷任务和症状反应；首跑采用可回退的走跑间歇，并在条件允许时观察关节负荷代理而不只看时间。",
+      "evidence": "临床团队播客解读横断调查；177名ACL相关临床人员，2026-11-19。",
+      "confidence": "中",
+      "confidence_reason": "调查数量和实践差异明确，但样本来自Aspetar ACL会议，代表性受选择影响。",
+      "source": {
+        "label": "Ask Mike Reinold Show",
+        "url": "https://mikereinold.com/when-is-an-acl-patient-really-ready-to-run/"
+      },
+      "limit": "",
+      "author": "Mike Reinold / Champion PT and Performance",
+      "platform": "播客与文章",
+      "published_date": "2026-11-19"
+    },
+    {
+      "id": "s-20261121-proprioception-specificity",
+      "domain": "运动健康",
+      "title": "Proprioception Training with Adam Meakins",
+      "short_title": "本体感觉训练需要任务特异测量",
+      "priority": "值得了解",
+      "one_liner": "E3 Rehab与Adam Meakins讨论本体感觉的常见误读：不稳定表面练习不是通用代理，训练效果应以目标任务中的感知—动作表现来测。",
+      "what": "节目围绕本体感觉定义、如何测量改善、训练特异性及常见“不稳即本体感觉”做法展开，并提供相关研究资源入口。",
+      "why": "“本体感觉差”如果没有具体任务和误差指标，既无法选择训练刺激，也无法判断改善来自感觉、力量、注意或熟练度。",
+      "practice": "先定义要恢复的任务，例如关节位置再现、扰动后稳定或专项落地；训练与复测使用相近的速度、方向和感觉条件，同时另测力量与疼痛以区分原因。",
+      "evidence": "康复专业播客与专家观点，2026-11-17；属于概念与研究线索解读，不是新干预试验。",
+      "confidence": "中",
+      "confidence_reason": "任务特异性与测量逻辑清楚，但节目本身不提供统一处方或效应量。",
+      "source": {
+        "label": "E3 Rehab Podcast",
+        "url": "https://e3rehab.libsyn.com/279-proprioception-training-w-adam-meakins"
+      },
+      "limit": "",
+      "author": "Chris Hughen / Adam Meakins / E3 Rehab",
+      "platform": "播客",
+      "published_date": "2026-11-17"
+    },
+    {
+      "id": "s-20261121-claktor",
+      "domain": "AI",
+      "title": "Show HN: Claktor – a refactoring CLI for coding agents",
+      "short_title": "AST工具为Agent提供重复逻辑线索",
+      "priority": "值得了解",
+      "one_liner": "Claktor用AST解析和“规范化token”排名重复逻辑线索，支持TS/JS、Rust和Python；3–10倍去重效率是作者自报，尚无独立仓库基准。",
+      "what": "开发者把源码规范化后用LLM tokenizer估算保留行为前提下可减少的阅读成本，并贪心排序可能的重构位置，供coding agent处理。作者称在相同成本下可多移除约3–10倍重复，但项目仍处早期。",
+      "why": "coding agent容易生成局部可用、全局重复的代码；结构化线索能把“清理代码”变成可排序任务。规范化token仍只是维护成本代理，不能证明语义等价或设计更好。",
+      "practice": "可在非关键仓库试用，记录测试通过率、实际diff、复杂度和后续缺陷；任何自动去重都应由测试与人工审阅约束，不以token减少量单独合并。",
+      "evidence": "Show HN项目发布与作者说明，2026-11-17；早期工具，性能为自报。",
+      "confidence": "低",
+      "confidence_reason": "实现思路和语言范围可核实，但效益缺少独立对照，代理指标与维护质量关系未验证。",
+      "source": {
+        "label": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50517415"
+      },
+      "limit": "",
+      "author": "Claktor developer / Hacker News community",
+      "platform": "Hacker News",
+      "published_date": "2026-11-17"
+    },
+    {
+      "id": "s-20261121-ade-index",
+      "domain": "AI",
+      "title": "Show HN: ADE Index – a sourced and ranked index of 975 agentic coding tools",
+      "short_title": "Agent工具目录暴露评价质量短板",
+      "priority": "快讯",
+      "one_liner": "ADE Index汇总975个agentic coding工具，但社区指出排名和对比缺少足够能力语境；作者承认首版快速构建，适合作发现入口而非采购结论。",
+      "what": "项目以自动化管线收集近千个工具并加入来源与情绪信号。HN反馈指出某些对比只是数据点，难以回答能力差异；作者回应初期重点是索引和管线，后续将加强内容质量。",
+      "why": "工具数量本身说明生态已难以人工穷举，也说明聚合榜单的评分定义和更新质量会成为新瓶颈。来源可追溯不等于比较有效。",
+      "practice": "把目录用于发现候选，再以自己的仓库任务筛选：成功率、阻塞恢复、上下文成本、非请求改动和团队权限；不要把综合排名直接当作工具选型。",
+      "evidence": "Show HN项目与公开社区反馈，2026-11-20；目录方法和覆盖质量尚未独立审计。",
+      "confidence": "低",
+      "confidence_reason": "工具数量与社区批评可核实，但排名有效性和持续维护能力未知。",
+      "source": {
+        "label": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50554973"
+      },
+      "limit": "",
+      "author": "ADE Index developer / Hacker News community",
+      "platform": "Hacker News",
+      "published_date": "2026-11-20"
+    }
+  ],
+  "professional_judgment": [
+    "对训练与营养热点，先把“更高效”“恢复更好”拆成周剂量、合成率、长期适应和次晨表现；不同结局不能互相代替。",
+    "康复评估要把标签变成任务：ACL回归跑步采用症状、力量和负荷任务组合，本体感觉则按目标感知—动作任务复测。",
+    "Agent工具生态当前更需要验证纪律：目录负责发现，AST工具负责提出线索，最终价值仍由仓库测试、diff审阅和真实阻塞恢复决定。"
+  ]
+}
