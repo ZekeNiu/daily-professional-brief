@@ -10,39 +10,39 @@
       "运动健康": 1,
       "AI": 1
     },
-    "signal": "今天值得保留的公开讨论不多，但三条都指向同一实践问题：高水平工作依赖跨角色、跨阶段的连续反馈，而不是单一测试、单次医疗支持或单模型分数。"
+    "signal": "今天值得保留的公开讨论不多，但三条都把热点拉回可执行系统：热环境补给要看实际氧化，赛事医疗要看协同路径，多Agent评测要看动态任务与独立复现。"
   },
   "navigation": {
     "prev": "2026-11-19",
     "next": null
   },
   "section_notes": {
-    "运动科学": "本板块重点：精英足球体能工作应从指标转回赛程、位置与球员实际需求。",
+    "运动科学": "本板块重点：热环境补给不能只按摄入克数判断，实际氧化与任务表现需要一起测。",
     "运动健康": "本板块重点：大型青少年赛事的医疗保障价值在现场诊疗、转运和多机构协同。",
     "AI": "本板块重点：多Agent评测开始进入动态协作环境，但团队自报榜单仍需独立复现。"
   },
   "items": [
     {
-      "id": "s-20261120-elite-football-rongoni-buchheit",
+      "id": "s-20261120-heat-carb-oxidation",
       "domain": "运动科学",
-      "title": "Inside Elite Football: Strength, Conditioning and Injury Prevention With Paolo Rongoni and Dr Martin Buchheit",
-      "short_title": "精英足球体能从需求而非工具出发",
+      "title": "Do You Burn the Carbs You Eat in the Heat? / Can Blood Tests and Biomarkers Detect CTE and Soft Tissue Injuries?",
+      "short_title": "高温下摄入葡萄糖氧化比例下降",
       "priority": "重点关注",
-      "one_liner": "训练科学播客用巴黎、罗马和沙特国家队案例讨论密集赛程、GPS、体能测试与恢复，核心主张是保留球员优势并解决其实际需求，而非套用教练熟悉的工具。",
-      "what": "64分钟访谈由Paolo Rongoni与Martin Buchheit讨论精英足球的体能与伤病预防：密集赛程中的训练安排、GPS与有氧测试、爆发型球员恢复，以及如何在不同俱乐部文化中协作。",
-      "why": "内容把“监控什么”放回“球员现在需要什么”的决策链；同一个指标只有与位置、赛程和训练目标连接，才可能改变负荷安排。",
-      "practice": "周计划先写比赛暴露、位置任务、个体恢复与需保持的优势，再选择GPS或测试指标；复盘时记录指标如何改变了具体训练，而不是只汇报数据。",
-      "evidence": "实践者长访谈/播客，64分钟，2026-11-13；经验综合，不是效果试验。",
+      "one_liner": "Real Science of Sport讨论的新研究显示：40°C骑行时，外源葡萄糖氧化约为摄入量四分之一，20°C约三分之一，热适应未改变该比例；补给目标不能只看摄入克数。",
+      "what": "播客逐段解读一项热环境补给研究：40°C条件下骑行者氧化所摄入葡萄糖的比例约25%，20°C约33%，短期热适应没有消除差异；讨论同时追问未被利用的葡萄糖停留在何处。",
+      "why": "高温比赛中“吃进多少”与“实际氧化多少”不是同一指标。即使胃肠可接受高摄入，肌肉利用和内源底物贡献仍可能改变。",
+      "practice": "热环境补给测试同时记录摄入、胃肠耐受、血糖、功率与热应激；在模拟比赛中验证个人方案，不因完成热适应就默认外源碳水利用恢复到凉爽环境。",
+      "evidence": "研究解读播客，2026-11-19；节目引用原始实验，当前依据为节目说明和论文链接。",
       "confidence": "中",
-      "confidence_reason": "讲者具备长期精英足球实践经验，方法逻辑具体，但结论未由对照研究验证。",
+      "confidence_reason": "节目给出具体环境对比和原始研究入口，但本条未取得完整论文方法与全部统计结果。",
       "source": {
-        "label": "Training Science Podcast",
-        "url": "https://podcasts.apple.com/nl/podcast/inside-elite-football-strength-conditioning-and/id1605691990?i=1000801680640"
+        "label": "The Real Science of Sport Podcast",
+        "url": "https://shows.acast.com/realscienceofsport/episodes/do-you-burn-the-carbs-you-eat-in-the-heat-can-blood-tests-an"
       },
       "limit": "",
-      "author": "Paul Comfort / Paolo Rongoni / Martin Buchheit",
+      "author": "Ross Tucker / Mike Finch",
       "platform": "播客",
-      "published_date": "2026-11-13"
+      "published_date": "2026-11-19"
     },
     {
       "id": "s-20261120-aspetar-u17-medical",
@@ -90,7 +90,7 @@
     }
   ],
   "professional_judgment": [
-    "精英足球与赛事医疗的共同启示是：指标、人员和设备都必须嵌入明确的决策链。先写清需求、交接与权限，再谈采集更多数据或增加角色。",
-    "动态多Agent评测值得跟进，但现阶段应把项目方榜单当作研究线索；真正采购或部署前，需要隐藏任务、成本、延迟和独立复跑。"
+    "热环境补给评估增加“摄入—吸收—氧化—表现”四层记录；完成热适应并不自动证明外源碳水利用恢复。",
+    "赛事医疗和多Agent系统看似不同，实践要求却相同：角色、交接、状态与验证必须预先设计，不能靠单次结果补救。"
   ]
 }
