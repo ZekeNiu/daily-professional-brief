@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-20",
+  "title": "每日专业资讯简报｜2026-11-20",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "最重要的进展是：本期从热适应、跳跃测试到Agent工程都强调同一件事——先标准化任务与反馈，再解释指标或扩大自动化。"
+  },
+  "navigation": {
+    "prev": "2026-11-19",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：年龄、项目与环境背景会改变同一指标的含义，测试设计应先于单项数值比较。",
+    "运动健康": "本板块重点：预防与康复的可用结论更集中在可执行剂量和鉴别诊断，而非更复杂的技术包装。",
+    "AI": "本板块重点：Agent落地的增益越来越来自持续评测、事件驱动流程与工具反馈闭环。"
+  },
+  "items": [
+    {
+      "id": "j-20261120-older-trained-pacing",
+      "domain": "运动科学",
+      "title": "Comparative physiological responses to self-paced exercise in men across age–training status: effort distribution, cerebral–muscle oxygenation and neuromuscular performance",
+      "short_title": "老年训练者维持自定节奏表现",
+      "priority": "重点关注",
+      "one_liner": "28名男性的自定节奏骑行中，老年训练组完成距离与年轻训练组相当，并比年轻未训练组多1.40 km；优势来自较稳定的持续功率和冲刺输出，而非NIRS或中枢驱动机制证据。",
+      "what": "年轻训练、老年训练和年轻未训练男性完成25分钟骑行（5段4.5分钟较低强度，各接30秒全力冲刺）。老年训练组完成12.87±1.32 km，与年轻训练组12.46±1.43 km无差异，比年轻未训练组11.48±0.89 km多1.40 km；其冲刺功率变异也更低。",
+      "why": "年龄本身没有抹去长期训练形成的节奏控制与输出稳定性。研究同时显示峰值心率较低，却不能用脑/肌氧合或随意激活数据解释因果机制。",
+      "practice": "评估中老年耐力运动员时，不以年龄预测心率上限替代实际表现；同时记录持续段功率、重复冲刺衰减和主观用力。NIRS可作伴随描述，不应把单次氧合曲线直接解释为中枢驱动或肌肉摄氧能力。",
+      "evidence": "同行评审横断比较；男性n=28（年轻训练8、老年训练11、年轻未训练9），25分钟自定节奏骑行。",
+      "confidence": "中",
+      "confidence_reason": "组间表现差异与置信区间明确，但样本小、仅男性，且不能建立长期训练的因果效应。",
+      "source": {
+        "label": "Pflügers Archiv",
+        "url": "https://link.springer.com/article/10.1007/s00424-026-03231-7"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261120-heat-humidity-framework",
+      "domain": "运动科学",
+      "title": "A Hot Topic: Research Considerations for Tropical-Native Elite Athletes’ Responses to Endurance Exercise in Hot-Humid Climates",
+      "short_title": "热湿耐受测试需纳入长期气候暴露",
+      "priority": "值得了解",
+      "one_liner": "叙述性综述指出，热带原生精英运动员的长期热湿适应证据仍有限；比较测试必须同时标准化环境、代谢热负荷、暴露史、感知和表现结局。",
+      "what": "综述区分热干与热湿环境，并梳理热带气候终身居住者可能存在的出汗效率、液体保存和热感知适应。作者明确指出，这些适应是否改善高强度表现、如何与精英体能和短期热适应相互作用，目前仍不清楚。",
+      "why": "把“来自热带”当作已经完成热适应，会掩盖湿度、风速、代谢产热和训练水平差异；现有研究的方法不一致也使跨人群比较失真。",
+      "practice": "赛前热湿测试同时记录温湿度、风速、核心温度、出汗/补液、主观热感、外部功率与暴露史；即使运动员长期生活在热带，也要用赛事任务验证耐受，不能据籍贯跳过个体化热适应。",
+      "evidence": "同行评审叙述性综述与方法框架；非干预试验。",
+      "confidence": "中",
+      "confidence_reason": "框架由生理与方法学综述支持，但热带原生精英运动员的直接比较证据仍少。",
+      "source": {
+        "label": "Sports Medicine - Open",
+        "url": "https://link.springer.com/article/10.1186/s40798-026-01148-0"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261120-cmj-team-sports",
+      "domain": "运动科学",
+      "title": "The relationship of kinetic and kinematic variables with countermovement jump performance in elite team sport athletes",
+      "short_title": "CMJ变量关系随项目而异",
+      "priority": "值得了解",
+      "one_liner": "30名精英男运动员中，排球组多项力与跳高更高，篮球组向心峰值速度更高；这些是项目组描述差异，不能据此宣称存在固定的项目专属力—速策略。",
+      "what": "15名篮球与15名排球运动员用双测力台完成CMJ。排球组多项离心/向心力、功率、跳高和腿刚度更高；篮球组向心峰值速度更高。组内相关模式也不同。",
+      "why": "同一跳高结果可能来自不同的阶段变量组合，但小样本横断相关不等于可训练机制。把相关系数直接变成项目处方，容易把训练背景和身体特征误当成因果策略。",
+      "practice": "CMJ监控保留离心、向心和结果指标，并在同一运动员内看纵向变化；跨项目基准只用于背景比较，训练调整应优先依据个人重复测试和专项需求。",
+      "evidence": "同行评审横断研究；精英男性篮球n=15、排球n=15，VALD双测力台。",
+      "confidence": "低",
+      "confidence_reason": "样本仅30人且进行多项探索性相关，适合描述组别差异，不足以定义项目机制。",
+      "source": {
+        "label": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02267-7"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261120-table-tennis-biomech",
+      "domain": "运动科学",
+      "title": "A systematic review of biomechanical difference between male and female table tennis athletes",
+      "short_title": "乒乓球性别生物力学差异证据分散",
+      "priority": "快讯",
+      "one_liner": "30篇研究、945人提示男性进攻动作更常表现为近端髋肩贡献，女性部分任务更依赖肘腕；但方法与动作条件差异大，不能据此制定统一的性别化技术模板。",
+      "what": "系统综述汇总30篇乒乓球生物力学研究、945名参与者，覆盖运动学、动力学和肌电。作者归纳出男性在若干进攻任务中更明显的近端链贡献，以及女性在部分防守/控制任务中的远端关节参与。",
+      "why": "综述填补了性别比较入口，但多数结果来自不同动作、水平和设备条件下的描述性研究；“男性近端、女性远端”不是稳定到可直接指导所有击球的规则。",
+      "practice": "技术评估按具体击球、来球条件和竞技水平建立个人基线；若研究性别差异，应统一动作任务、球速与测量系统，并报告效应量而非只列显著性。",
+      "evidence": "系统综述；30篇研究、945人，研究设计与测量方法异质。",
+      "confidence": "低",
+      "confidence_reason": "覆盖面较广，但原始研究异质且多为横断描述，综合结论精度有限。",
+      "source": {
+        "label": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://link.springer.com/article/10.1186/s13102-026-02256-w"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261120-nmt-injury-prevention",
+      "domain": "运动健康",
+      "title": "Comparative Effects of Different Neuromuscular Training Modalities and Doses on Lower-Limb Injury Prevention in Athletes: A Systematic Review and Meta-analysis",
+      "short_title": "神经肌肉预防训练的有效剂量",
+      "priority": "重点关注",
+      "one_liner": "Meta分析显示神经肌肉训练总体降低下肢伤风险（RR 0.72）；最稳健的剂量信号是每周2–3次，而16–25分钟看似更优的组间差异经多重校正后不再成立。",
+      "what": "随机效应模型得到总体RR 0.72（95%CI 0.64–0.82，I²=74%），发表偏倚校正后为0.80。结构化方案RR 0.68，多维方案0.76；每周2–3次RR 0.71，频率组间差异经BH-FDR后仍显著。",
+      "why": "结果把“做不做”推进到“以什么频率做”。同时它纠正了过度精确处方：16–25分钟组RR 0.66，但时长组间优势未通过多重比较校正。",
+      "practice": "球队可把每周2–3次、持续至少1.5个月作为实施起点，并选结构化或多维方案；优先保证依从性和动作质量，不把20分钟宣称为唯一最佳时长。",
+      "evidence": "系统综述与Meta分析；同行评审研究，主要结局为运动员下肢损伤风险；存在较高异质性与发表偏倚信号。",
+      "confidence": "中",
+      "confidence_reason": "总体和频率结果经敏感性分析较稳健，但亚组多、异质性高，且校正后效应有所减弱。",
+      "source": {
+        "label": "Sports Medicine - Open",
+        "url": "https://link.springer.com/article/10.1186/s40798-026-01142-6"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261120-medial-leg-pain",
+      "domain": "运动健康",
+      "title": "Targeting Medial Leg Pain in Athletes: Distinguishing Between Medial Tibial Stress Syndrome and Tibialis Posterior Tendinopathy",
+      "short_title": "内侧小腿痛需常规筛查胫后肌腱",
+      "priority": "值得了解",
+      "one_liner": "临床综述指出，部分被统称为“胫骨内侧应力综合征”的病例可能存在未识别或重叠的胫后肌腱病，鉴别会直接改变负荷管理和回归运动路径。",
+      "what": "综述比较胫骨内侧应力综合征与胫后肌腱病的病理、症状、影像和管理。两者都可表现为运动相关内侧小腿痛，且目前主要依赖临床诊断，胫后肌腱问题可能被宽泛的“shin splints”标签覆盖。",
+      "why": "若疼痛来源涉及肌腱而非单纯胫骨应力反应，力量缺陷、足部功能、耐受负荷和恢复节奏的评估重点会改变。模糊标签会让治疗和回归决策失焦。",
+      "practice": "内侧小腿痛评估中常规加入胫后肌腱触诊、单腿提踵、足弓/后足功能和负荷反应；结合疼痛分布与必要影像，再决定骨应力管理或肌腱渐进负荷路径。",
+      "evidence": "同行评审临床叙述性综述；未纳入新的干预试验。",
+      "confidence": "中",
+      "confidence_reason": "解剖与鉴别逻辑明确，但该文主要是临床综合，不能给出诊断试验的精确准确度。",
+      "source": {
+        "label": "Current Reviews in Musculoskeletal Medicine",
+        "url": "https://link.springer.com/article/10.1007/s12178-026-10065-4"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261120-bfr-low-back-pain",
+      "domain": "运动健康",
+      "title": "A systematic review and meta analysis of the effects of blood flow restriction training on low back pain",
+      "short_title": "血流限制训练改善腰痛但证据规模小",
+      "priority": "值得了解",
+      "one_liner": "8项RCT、267人中，血流限制结合训练相较对照改善疼痛和功能障碍，SMD分别为1.15和0.99；样本与方案规模不足以支持统一袖带压力处方。",
+      "what": "Meta分析纳入8项随机试验、267人。BFR训练在疼痛（SMD 1.15，95%CI 0.79–1.52）和功能障碍（0.99，0.67–1.32）上优于无BFR或常规训练，也改善屈伸肌力量；屈肌与伸肌耐力未见显著优势。",
+      "why": "结果提示低负荷条件下的BFR可能为疼痛限制或高负荷耐受不足者提供训练入口，但“力量改善”没有同步转化为所有耐力指标。",
+      "practice": "若用于慢性腰痛，先把BFR作为低负荷力量训练的附加选项，记录袖带压力、负荷、症状和不良反应；不要用本结果替代常规分级活动与功能训练。",
+      "evidence": "系统综述与Meta分析；8项RCT、n=267，方案和对照存在差异。",
+      "confidence": "中",
+      "confidence_reason": "随机试验汇总效应较大且异质性低，但研究数量与总样本有限，协议不统一。",
+      "source": {
+        "label": "Discover Medicine",
+        "url": "https://link.springer.com/article/10.1007/s44337-026-00739-w"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261120-performance-factory",
+      "domain": "AI",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "short_title": "性能Agent以事件驱动闭环工作",
+      "priority": "重点关注",
+      "one_liner": "OpenAI披露其性能Agent三个月调查逾1700次回归、定位逾600个根因；人工抽查100条根因建议约70%准确，说明自动化价值来自持续分派、验证与人工审阅，而非单次答案。",
+      "what": "系统将性能信号写成任务状态，由分派循环调用云端Codex调查、订阅新事件并在修复后验证恢复。三个多月处理超过1700次调查、根因定位超过600次；人工复核100条建议时70%准确，30%需改进或未建立因果。",
+      "why": "这是Agent运维的可量化案例：即使任务高度结构化，根因判断仍需要独立对抗审阅和工程师决定是否部署。可追踪状态和反馈事件比更长提示词更重要。",
+      "practice": "把监控Agent设计成“异常—假设—复现—补丁—恢复验证”的状态机；保存证据链与订阅事件，对根因和生产变更设置独立审阅，并持续抽样计算准确率。",
+      "evidence": "OpenAI官方工程案例；内部生产数据与人工抽样，非独立审计。",
+      "confidence": "中",
+      "confidence_reason": "流程、数量和人工抽查结果具体，但来自单一厂商内部系统，成功定义与成本未完整披露。",
+      "source": {
+        "label": "OpenAI Engineering",
+        "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261120-tunix-agentic-rl",
+      "domain": "AI",
+      "title": "Multi-Turn Agentic Reinforcement Learning with Tunix and Gemma 4 on Google TPUs",
+      "short_title": "工具型Agent用多轮强化学习对齐",
+      "priority": "值得了解",
+      "one_liner": "Google教程在单一游戏环境中用100步agentic GRPO把留出局胜率从9.4%提到95%，工具合规接近100%；结果证明训练闭环可行，不代表复杂真实任务同等提升。",
+      "what": "示例让Gemma 4 E2B通过工具与Plane Strike游戏交互，用Tunix在TPU上进行多轮强化学习。100步后留出对局胜率从9.4%升至95%，平均完成长度从约22.44降至约16次打击，非法工具调用接近零。",
+      "why": "多轮Agent训练的关键是把每次工具返回纳入轨迹，并用可验证奖励优化整个过程；这比只监督最终文本更贴近真实工具使用。",
+      "practice": "研究者可先在有确定性状态和奖励的小环境复现训练流程，分别记录成功率、步数、无效调用和泛化任务；进入开放工作流前必须增加跨环境评测。",
+      "evidence": "Google官方技术教程与单一玩具环境实验；厂商自报，非独立基准。",
+      "confidence": "低",
+      "confidence_reason": "训练前后差异大且指标明确，但仅一个合成游戏和一个模型配置，外部效度有限。",
+      "source": {
+        "label": "Google Developers Blog",
+        "url": "https://developers.googleblog.com/multi-turn-agentic-reinforcement-learning-with-tunix-and-gemma-4-on-google-tpus/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261120-gemini-neon-copilot",
+      "domain": "AI",
+      "title": "Gemini 4 Neon in GitHub Copilot",
+      "short_title": "Gemini 4 Neon进入Copilot全端",
+      "priority": "快讯",
+      "one_liner": "Gemini 4 Neon已在GitHub Copilot全面可用，覆盖IDE、CLI、coding agent和移动端；成本、速度及少做非请求改动的优势目前仍是Google的厂商主张。",
+      "what": "GitHub宣布Gemini 4 Neon面向Copilot Pro+、Max、Business与Enterprise逐步开放，可在VS Code、Visual Studio、CLI、coding agent、GitHub App及多种IDE中选择，按供应商标价计费。",
+      "why": "真正的产品变化是同一模型进入交互式编辑、命令行和异步coding agent多个执行面；能力主张尚无公告内独立对照数据。",
+      "practice": "团队启用前用固定仓库任务比较成功率、非请求改动、首响应时间、总token成本和测试通过率；管理员通过模型策略分批开放并保留回滚。",
+      "evidence": "GitHub官方产品公告；性能描述引自Google，未提供独立测试。",
+      "confidence": "中",
+      "confidence_reason": "可用范围和计费事实明确；性能与质量优势仍需团队实测。",
+      "source": {
+        "label": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-11-18-gemini-4-neon-in-github-copilot/"
+      },
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "运动表现测试先标准化任务：热湿环境要同时控制环境与代谢热负荷；CMJ与项目比较要回到个人纵向轨迹；中老年耐力评估不要用年龄预测值替代真实输出。",
+    "下肢伤病预防可优先落实每周2–3次神经肌肉训练。内侧小腿痛则应把胫后肌腱检查纳入常规流程，避免宽泛“胫骨疼”标签直接决定负荷方案。",
+    "Agent工程本期最可执行的改变是建立状态化反馈闭环：持续抽样验证根因准确率，用确定性环境训练工具调用，并对新模型做固定任务回归测试。"
+  ]
+}
