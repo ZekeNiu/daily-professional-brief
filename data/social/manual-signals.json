@@ -1279,7 +1279,7 @@
     "source_author": "Aspetar",
     "author_id": "aspetar",
     "published_at": "2026-11-18T09:24:00+03:00",
-    "observed_at": "2026-11-20T08:35:00+08:00",
+    "observed_at": "2026-11-20T08:03:00+08:00",
     "date_verified": true,
     "platform": "专业机构公告"
   },
@@ -1291,7 +1291,7 @@
     "source_author": "Kradle team / Hacker News community",
     "author_id": "hacker-news",
     "published_at": "2026-11-19T00:00:00Z",
-    "observed_at": "2026-11-20T08:35:00+08:00",
+    "observed_at": "2026-11-20T08:03:00+08:00",
     "date_verified": true,
     "platform": "Hacker News"
   },
@@ -1303,7 +1303,7 @@
     "source_author": "Ross Tucker / Mike Finch",
     "author_id": "real-science-of-sport",
     "published_at": "2026-11-19T00:00:00Z",
-    "observed_at": "2026-11-20T08:35:00+08:00",
+    "observed_at": "2026-11-20T08:03:00+08:00",
     "date_verified": true,
     "platform": "播客"
   }
