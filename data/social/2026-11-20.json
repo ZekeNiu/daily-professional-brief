@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "date": "2026-11-20",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-20",
+  "observed_at": "2026-11-20T08:35:00+08:00",
+  "summary": {
+    "total": 3,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 1
+    },
+    "signal": "今天值得保留的公开讨论不多，但三条都指向同一实践问题：高水平工作依赖跨角色、跨阶段的连续反馈，而不是单一测试、单次医疗支持或单模型分数。"
+  },
+  "navigation": {
+    "prev": "2026-11-19",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：精英足球体能工作应从指标转回赛程、位置与球员实际需求。",
+    "运动健康": "本板块重点：大型青少年赛事的医疗保障价值在现场诊疗、转运和多机构协同。",
+    "AI": "本板块重点：多Agent评测开始进入动态协作环境，但团队自报榜单仍需独立复现。"
+  },
+  "items": [
+    {
+      "id": "s-20261120-elite-football-rongoni-buchheit",
+      "domain": "运动科学",
+      "title": "Inside Elite Football: Strength, Conditioning and Injury Prevention With Paolo Rongoni and Dr Martin Buchheit",
+      "short_title": "精英足球体能从需求而非工具出发",
+      "priority": "重点关注",
+      "one_liner": "训练科学播客用巴黎、罗马和沙特国家队案例讨论密集赛程、GPS、体能测试与恢复，核心主张是保留球员优势并解决其实际需求，而非套用教练熟悉的工具。",
+      "what": "64分钟访谈由Paolo Rongoni与Martin Buchheit讨论精英足球的体能与伤病预防：密集赛程中的训练安排、GPS与有氧测试、爆发型球员恢复，以及如何在不同俱乐部文化中协作。",
+      "why": "内容把“监控什么”放回“球员现在需要什么”的决策链；同一个指标只有与位置、赛程和训练目标连接，才可能改变负荷安排。",
+      "practice": "周计划先写比赛暴露、位置任务、个体恢复与需保持的优势，再选择GPS或测试指标；复盘时记录指标如何改变了具体训练，而不是只汇报数据。",
+      "evidence": "实践者长访谈/播客，64分钟，2026-11-13；经验综合，不是效果试验。",
+      "confidence": "中",
+      "confidence_reason": "讲者具备长期精英足球实践经验，方法逻辑具体，但结论未由对照研究验证。",
+      "source": {
+        "label": "Training Science Podcast",
+        "url": "https://podcasts.apple.com/nl/podcast/inside-elite-football-strength-conditioning-and/id1605691990?i=1000801680640"
+      },
+      "limit": "",
+      "author": "Paul Comfort / Paolo Rongoni / Martin Buchheit",
+      "platform": "播客",
+      "published_date": "2026-11-13"
+    },
+    {
+      "id": "s-20261120-aspetar-u17-medical",
+      "domain": "运动健康",
+      "title": "Aspetar to serve as Official Medical Supporter for second consecutive FIFA U-17 World Cup in Qatar",
+      "short_title": "U17世界杯采用现场整合医疗保障",
+      "priority": "值得了解",
+      "one_liner": "Aspetar连续第二届为48队U17世界杯提供官方医疗支持，现场诊所覆盖球员、官员与赛事人员，并与急救和转运伙伴联动。",
+      "what": "Aspetar 11月18日公告其将为卡塔尔U17世界杯提供医生、物理治疗师、护士和协调人员，运营赛事医疗诊所，并与国家急救及赛事伙伴衔接。",
+      "why": "公告不是临床指南，但展示大型青少年赛事的医疗系统设计：现场诊疗、康复、急救、转运和沟通必须在赛前整合，而不能临时依赖单一队医。",
+      "practice": "承办青少年赛事时，用同一流程图明确现场分诊、影像/转诊、救护车、家属与队伍沟通、回归比赛权限；赛前用情景演练验证交接。",
+      "evidence": "专业机构官方赛事支持公告，2026-11-18；功能与组织事实。",
+      "confidence": "高",
+      "confidence_reason": "支持范围和人员配置由Aspetar官方直接说明；未把组织安排外推为疗效证据。",
+      "source": {
+        "label": "Aspetar",
+        "url": "https://www.aspetar.com/en/about-us/press-room/news/fifau17-worldcup"
+      },
+      "limit": "",
+      "author": "Aspetar",
+      "platform": "专业机构公告",
+      "published_date": "2026-11-18"
+    },
+    {
+      "id": "s-20261120-kradlebench-multiagent",
+      "domain": "AI",
+      "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
+      "short_title": "多Agent评测进入动态协作环境",
+      "priority": "值得了解",
+      "one_liner": "Kradle团队在Minecraft动态任务中展示多Agent评测并称Astra 6.2超过熟练人类；社区关注点转向协作、状态变化和反应速度，但结果尚无独立复现。",
+      "what": "Show HN项目把多Agent置于实时Minecraft任务，测量协作、规划和环境变化下的反应。发布者报告Astra 6.2在其榜单领先，并给出相对Fable 5.2的反应迭代速度比较。",
+      "why": "静态问答难以暴露多Agent的通信延迟、角色冲突和环境状态漂移；动态环境更接近真实协作系统，但团队自建基准也可能与模型或任务设计耦合。",
+      "practice": "评估多Agent系统时增加任务完成率、协作消息成本、无效动作、状态恢复和延迟；采用隐藏任务并保留独立复跑，避免只引用项目方总榜。",
+      "evidence": "团队发布的Show HN项目与公开讨论，2026-11-19；性能为项目方自报，未独立复现。",
+      "confidence": "低",
+      "confidence_reason": "评测方向有方法价值，但榜单、熟练人类基线和模型差异尚缺独立审计。",
+      "source": {
+        "label": "Hacker News / KradleBench",
+        "url": "https://news.ycombinator.com/item?id=50550700"
+      },
+      "limit": "",
+      "author": "Kradle team / Hacker News community",
+      "platform": "Hacker News",
+      "published_date": "2026-11-19"
+    }
+  ],
+  "professional_judgment": [
+    "精英足球与赛事医疗的共同启示是：指标、人员和设备都必须嵌入明确的决策链。先写清需求、交接与权限，再谈采集更多数据或增加角色。",
+    "动态多Agent评测值得跟进，但现阶段应把项目方榜单当作研究线索；真正采购或部署前，需要隐藏任务、成本、延迟和独立复跑。"
+  ]
+}
