@@ -1270,5 +1270,41 @@
     "observed_at": "2026-11-19T08:35:00+08:00",
     "date_verified": true,
     "platform": "官方发布"
+  },
+  {
+    "id": "manual-aspetar-20261118-fifau17",
+    "title": "Aspetar to serve as Official Medical Supporter for FIFA U-17 World Cup",
+    "url": "https://www.aspetar.com/en/about-us/press-room/news/fifau17-worldcup",
+    "domain": "运动健康",
+    "source_author": "Aspetar",
+    "author_id": "aspetar",
+    "published_at": "2026-11-18T09:24:00+03:00",
+    "observed_at": "2026-11-20T08:03:00+08:00",
+    "date_verified": true,
+    "platform": "专业机构公告"
+  },
+  {
+    "id": "manual-hn-50550700",
+    "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
+    "url": "https://news.ycombinator.com/item?id=50550700",
+    "domain": "AI",
+    "source_author": "Kradle team / Hacker News community",
+    "author_id": "hacker-news",
+    "published_at": "2026-11-19T00:00:00Z",
+    "observed_at": "2026-11-20T08:03:00+08:00",
+    "date_verified": true,
+    "platform": "Hacker News"
+  },
+  {
+    "id": "manual-real-science-sport-20261119-heat-carb",
+    "title": "Do You Burn the Carbs You Eat in the Heat?",
+    "url": "https://shows.acast.com/realscienceofsport/episodes/do-you-burn-the-carbs-you-eat-in-the-heat-can-blood-tests-an",
+    "domain": "运动科学",
+    "source_author": "Ross Tucker / Mike Finch",
+    "author_id": "real-science-of-sport",
+    "published_at": "2026-11-19T00:00:00Z",
+    "observed_at": "2026-11-20T08:03:00+08:00",
+    "date_verified": true,
+    "platform": "播客"
   }
 ]

@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "date": "2026-11-20",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-20",
+  "observed_at": "2026-11-20T08:03:00+08:00",
+  "summary": {
+    "total": 3,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 1
+    },
+    "signal": "今天值得保留的公开讨论不多，但三条都把热点拉回可执行系统：热环境补给要看实际氧化，赛事医疗要看协同路径，多Agent评测要看动态任务与独立复现。"
+  },
+  "navigation": {
+    "prev": "2026-11-19",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：热环境补给不能只按摄入克数判断，实际氧化与任务表现需要一起测。",
+    "运动健康": "本板块重点：大型青少年赛事的医疗保障价值在现场诊疗、转运和多机构协同。",
+    "AI": "本板块重点：多Agent评测开始进入动态协作环境，但团队自报榜单仍需独立复现。"
+  },
+  "items": [
+    {
+      "id": "s-20261120-heat-carb-oxidation",
+      "domain": "运动科学",
+      "title": "Do You Burn the Carbs You Eat in the Heat? / Can Blood Tests and Biomarkers Detect CTE and Soft Tissue Injuries?",
+      "short_title": "高温下摄入葡萄糖氧化比例下降",
+      "priority": "重点关注",
+      "one_liner": "Real Science of Sport讨论的新研究显示：40°C骑行时，外源葡萄糖氧化约为摄入量四分之一，20°C约三分之一，热适应未改变该比例；补给目标不能只看摄入克数。",
+      "what": "播客逐段解读一项热环境补给研究：40°C条件下骑行者氧化所摄入葡萄糖的比例约25%，20°C约33%，短期热适应没有消除差异；讨论同时追问未被利用的葡萄糖停留在何处。",
+      "why": "高温比赛中“吃进多少”与“实际氧化多少”不是同一指标。即使胃肠可接受高摄入，肌肉利用和内源底物贡献仍可能改变。",
+      "practice": "热环境补给测试同时记录摄入、胃肠耐受、血糖、功率与热应激；在模拟比赛中验证个人方案，不因完成热适应就默认外源碳水利用恢复到凉爽环境。",
+      "evidence": "研究解读播客，2026-11-19；节目引用原始实验，当前依据为节目说明和论文链接。",
+      "confidence": "中",
+      "confidence_reason": "节目给出具体环境对比和原始研究入口，但本条未取得完整论文方法与全部统计结果。",
+      "source": {
+        "label": "The Real Science of Sport Podcast",
+        "url": "https://shows.acast.com/realscienceofsport/episodes/do-you-burn-the-carbs-you-eat-in-the-heat-can-blood-tests-an"
+      },
+      "limit": "",
+      "author": "Ross Tucker / Mike Finch",
+      "platform": "播客",
+      "published_date": "2026-11-19"
+    },
+    {
+      "id": "s-20261120-aspetar-u17-medical",
+      "domain": "运动健康",
+      "title": "Aspetar to serve as Official Medical Supporter for second consecutive FIFA U-17 World Cup in Qatar",
+      "short_title": "U17世界杯采用现场整合医疗保障",
+      "priority": "值得了解",
+      "one_liner": "Aspetar连续第二届为48队U17世界杯提供官方医疗支持，现场诊所覆盖球员、官员与赛事人员，并与急救和转运伙伴联动。",
+      "what": "Aspetar 11月18日公告其将为卡塔尔U17世界杯提供医生、物理治疗师、护士和协调人员，运营赛事医疗诊所，并与国家急救及赛事伙伴衔接。",
+      "why": "公告不是临床指南，但展示大型青少年赛事的医疗系统设计：现场诊疗、康复、急救、转运和沟通必须在赛前整合，而不能临时依赖单一队医。",
+      "practice": "承办青少年赛事时，用同一流程图明确现场分诊、影像/转诊、救护车、家属与队伍沟通、回归比赛权限；赛前用情景演练验证交接。",
+      "evidence": "专业机构官方赛事支持公告，2026-11-18；功能与组织事实。",
+      "confidence": "高",
+      "confidence_reason": "支持范围和人员配置由Aspetar官方直接说明；未把组织安排外推为疗效证据。",
+      "source": {
+        "label": "Aspetar",
+        "url": "https://www.aspetar.com/en/about-us/press-room/news/fifau17-worldcup"
+      },
+      "limit": "",
+      "author": "Aspetar",
+      "platform": "专业机构公告",
+      "published_date": "2026-11-18"
+    },
+    {
+      "id": "s-20261120-kradlebench-multiagent",
+      "domain": "AI",
+      "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
+      "short_title": "多Agent评测进入动态协作环境",
+      "priority": "值得了解",
+      "one_liner": "Kradle团队在Minecraft动态任务中展示多Agent评测并称Astra 6.2超过熟练人类；社区关注点转向协作、状态变化和反应速度，但结果尚无独立复现。",
+      "what": "Show HN项目把多Agent置于实时Minecraft任务，测量协作、规划和环境变化下的反应。发布者报告Astra 6.2在其榜单领先，并给出相对Fable 5.2的反应迭代速度比较。",
+      "why": "静态问答难以暴露多Agent的通信延迟、角色冲突和环境状态漂移；动态环境更接近真实协作系统，但团队自建基准也可能与模型或任务设计耦合。",
+      "practice": "评估多Agent系统时增加任务完成率、协作消息成本、无效动作、状态恢复和延迟；采用隐藏任务并保留独立复跑，避免只引用项目方总榜。",
+      "evidence": "团队发布的Show HN项目与公开讨论，2026-11-19；性能为项目方自报，未独立复现。",
+      "confidence": "低",
+      "confidence_reason": "评测方向有方法价值，但榜单、熟练人类基线和模型差异尚缺独立审计。",
+      "source": {
+        "label": "Hacker News / KradleBench",
+        "url": "https://news.ycombinator.com/item?id=50550700"
+      },
+      "limit": "",
+      "author": "Kradle team / Hacker News community",
+      "platform": "Hacker News",
+      "published_date": "2026-11-19"
+    }
+  ],
+  "professional_judgment": [
+    "热环境补给评估增加“摄入—吸收—氧化—表现”四层记录；完成热适应并不自动证明外源碳水利用恢复。",
+    "赛事医疗和多Agent系统看似不同，实践要求却相同：角色、交接、状态与验证必须预先设计，不能靠单次结果补救。"
+  ]
+}
