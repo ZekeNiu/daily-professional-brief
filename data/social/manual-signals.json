@@ -1306,5 +1306,77 @@
     "observed_at": "2026-11-20T08:03:00+08:00",
     "date_verified": true,
     "platform": "播客"
+  },
+  {
+    "id": "manual-training-science-20261120-hiit",
+    "title": "The Science of Time-Efficient Training: HIIT, Fitness, and Exercise Snacks",
+    "url": "https://www.buzzsprout.com/1917060/episodes/20146206-the-science-of-time-efficient-training-hiit-fitness-and-exercise-snacks-with-xinyu-zeng-mingyue-yin-and-dr-martin-buchheit",
+    "domain": "运动科学",
+    "source_author": "Paul Laursen / Martin Buchheit / Xinyu Zeng / Mingyue Yin",
+    "author_id": "training-science-podcast",
+    "published_at": "2026-11-20T00:00:00Z",
+    "observed_at": "2026-11-21T08:42:00+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "manual-mysportscience-20261119-presleep",
+    "title": "Eating Before Bed: What Athletes Need to Know",
+    "url": "https://www.mysportscience.com/post/eating-before-bed-athletes",
+    "domain": "运动科学",
+    "source_author": "Asker Jeukendrup / MySportScience",
+    "author_id": "mysportscience",
+    "published_at": "2026-11-19T00:00:00Z",
+    "observed_at": "2026-11-21T08:42:00+08:00",
+    "date_verified": true,
+    "platform": "专业博客"
+  },
+  {
+    "id": "manual-mike-reinold-20261119-acl-run",
+    "title": "When Is an ACL Patient Really Ready to Run?",
+    "url": "https://mikereinold.com/when-is-an-acl-patient-really-ready-to-run/",
+    "domain": "运动健康",
+    "source_author": "Mike Reinold / Champion PT and Performance",
+    "author_id": "mike-reinold",
+    "published_at": "2026-11-19T00:00:00Z",
+    "observed_at": "2026-11-21T08:42:00+08:00",
+    "date_verified": true,
+    "platform": "播客与文章"
+  },
+  {
+    "id": "manual-e3rehab-20261117-proprioception",
+    "title": "Proprioception Training with Adam Meakins",
+    "url": "https://e3rehab.libsyn.com/279-proprioception-training-w-adam-meakins",
+    "domain": "运动健康",
+    "source_author": "Chris Hughen / Adam Meakins / E3 Rehab",
+    "author_id": "e3rehab",
+    "published_at": "2026-11-17T00:00:00Z",
+    "observed_at": "2026-11-21T08:42:00+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "manual-hn-50517415",
+    "title": "Show HN: Claktor – a refactoring CLI for coding agents",
+    "url": "https://news.ycombinator.com/item?id=50517415",
+    "domain": "AI",
+    "source_author": "Claktor developer / Hacker News community",
+    "author_id": "hacker-news",
+    "published_at": "2026-11-17T00:00:00Z",
+    "observed_at": "2026-11-21T08:42:00+08:00",
+    "date_verified": true,
+    "platform": "Hacker News"
+  },
+  {
+    "id": "manual-hn-50554973",
+    "title": "Show HN: ADE Index – a sourced and ranked index of 975 agentic coding tools",
+    "url": "https://news.ycombinator.com/item?id=50554973",
+    "domain": "AI",
+    "source_author": "ADE Index developer / Hacker News community",
+    "author_id": "hacker-news",
+    "published_at": "2026-11-20T00:00:00Z",
+    "observed_at": "2026-11-21T08:42:00+08:00",
+    "date_verified": true,
+    "platform": "Hacker News"
   }
 ]
