@@ -762,16 +762,13 @@
       "confidence": "中",
       "confidence_reason": "网关日志更新与工具作者echo版本记录，均可定位到运行调试功能。",
       "kind": "topic",
-      "source_count": 6,
-      "item_count": 8,
+      "source_count": 5,
+      "item_count": 6,
       "points": [
         {
           "date": "2026-10-07",
-          "value": 2,
-          "item_ids": [
-            "22732f8185e3",
-            "4b0006aa1b5d"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -1054,15 +1051,13 @@
       "confidence": "中",
       "confidence_reason": "LFM端侧模型与Beam开放模型条目，直接对应部署和获取方式。",
       "kind": "topic",
-      "source_count": 4,
-      "item_count": 9,
+      "source_count": 3,
+      "item_count": 8,
       "points": [
         {
           "date": "2026-10-07",
-          "value": 1,
-          "item_ids": [
-            "2ee55c894d54"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -1352,14 +1347,12 @@
       "confidence_reason": "Lab-in-the-Loop节目与抗菌肽搜索条目，均涉及AI进入科研验证流程。",
       "kind": "topic",
       "source_count": 6,
-      "item_count": 9,
+      "item_count": 8,
       "points": [
         {
           "date": "2026-10-07",
-          "value": 1,
-          "item_ids": [
-            "9416b01a853f"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -1453,17 +1446,13 @@
       "confidence": "中",
       "confidence_reason": "语音建站的作者记录与长视频案例，对应两种具体内容工作流。",
       "kind": "topic",
-      "source_count": 4,
-      "item_count": 7,
+      "source_count": 3,
+      "item_count": 4,
       "points": [
         {
           "date": "2026-10-07",
-          "value": 3,
-          "item_ids": [
-            "16b7810afb00",
-            "a097ef0d441a",
-            "e04d1da69350"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -1638,105 +1627,6 @@
       ]
     },
     {
-      "id": "s-ai-enterprise-knowledge",
-      "domain": "AI",
-      "label": "企业知识与专业任务应用",
-      "summary": "企业知识接入、合同审查、专业问答和客户服务案例，把Agent能力放进具体工作任务。",
-      "summary_refs": [
-        "2896758265ce",
-        "94eadcab22c4"
-      ],
-      "confidence": "中",
-      "confidence_reason": "Atlassian知识接入与合同审查案例，均落在可辨识的工作任务上。",
-      "kind": "topic",
-      "source_count": 2,
-      "item_count": 7,
-      "points": [
-        {
-          "date": "2026-10-07",
-          "value": 1,
-          "item_ids": [
-            "2896758265ce",
-            "4e324623ab7c"
-          ]
-        },
-        {
-          "date": "2026-10-08",
-          "value": 0,
-          "item_ids": []
-        },
-        {
-          "date": "2026-10-09",
-          "value": 1,
-          "item_ids": [
-            "db7b9e6fe248"
-          ]
-        },
-        {
-          "date": "2026-10-10",
-          "value": 0,
-          "item_ids": []
-        },
-        {
-          "date": "2026-10-11",
-          "value": 0,
-          "item_ids": []
-        },
-        {
-          "date": "2026-10-12",
-          "value": 0,
-          "item_ids": []
-        },
-        {
-          "date": "2026-10-13",
-          "value": 0,
-          "item_ids": []
-        },
-        {
-          "date": "2026-10-14",
-          "value": 0,
-          "item_ids": []
-        },
-        {
-          "date": "2026-10-15",
-          "value": 1,
-          "item_ids": [
-            "94eadcab22c4"
-          ]
-        },
-        {
-          "date": "2026-10-16",
-          "value": 1,
-          "item_ids": [
-            "b6756c0a180e"
-          ]
-        },
-        {
-          "date": "2026-10-17",
-          "value": 2,
-          "item_ids": [
-            "24ffd586aefb",
-            "9732b2763df5"
-          ]
-        },
-        {
-          "date": "2026-10-18",
-          "value": 0,
-          "item_ids": []
-        },
-        {
-          "date": "2026-10-19",
-          "value": 0,
-          "item_ids": []
-        },
-        {
-          "date": "2026-10-20",
-          "value": 0,
-          "item_ids": []
-        }
-      ]
-    },
-    {
       "id": "s-ai-learning-design",
       "domain": "AI",
       "label": "教育AI的提问与评估",
@@ -1749,14 +1639,12 @@
       "confidence_reason": "模拟学生学习与提问教学两条官方材料，对应学习过程的设计和评估。",
       "kind": "topic",
       "source_count": 2,
-      "item_count": 3,
+      "item_count": 2,
       "points": [
         {
           "date": "2026-10-07",
-          "value": 1,
-          "item_ids": [
-            "661f64ddb5f4"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -1940,14 +1828,12 @@
       "label": "其他已收录内容",
       "kind": "other",
       "source_count": 2,
-      "item_count": 3,
+      "item_count": 2,
       "points": [
         {
           "date": "2026-10-07",
-          "value": 1,
-          "item_ids": [
-            "d192bdd68e19"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -2112,7 +1998,7 @@
       "label": "其他已收录内容",
       "kind": "other",
       "source_count": 5,
-      "item_count": 24,
+      "item_count": 29,
       "points": [
         {
           "date": "2026-10-07",
@@ -2128,11 +2014,12 @@
         },
         {
           "date": "2026-10-09",
-          "value": 2,
+          "value": 3,
           "item_ids": [
             "3618833fba59",
             "39e6bd368c40",
-            "9db9af42b7f6"
+            "9db9af42b7f6",
+            "db7b9e6fe248"
           ]
         },
         {
@@ -2177,28 +2064,32 @@
         },
         {
           "date": "2026-10-15",
-          "value": 2,
+          "value": 3,
           "item_ids": [
             "247153705736",
             "3e6e644f1b2b",
+            "94eadcab22c4",
             "b734a6066c59"
           ]
         },
         {
           "date": "2026-10-16",
-          "value": 3,
+          "value": 4,
           "item_ids": [
             "1bf502587012",
+            "b6756c0a180e",
             "f63d7248b240",
             "fe88897c2a46"
           ]
         },
         {
           "date": "2026-10-17",
-          "value": 3,
+          "value": 4,
           "item_ids": [
+            "24ffd586aefb",
             "3bc592cc5b68",
             "66a8784860f5",
+            "9732b2763df5",
             "ee5297d7e82b"
           ]
         },
@@ -2223,171 +2114,6 @@
     }
   ],
   "items": [
-    {
-      "id": "16b7810afb00",
-      "title": "Introducing Falcon ASR",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "s-ai-generative-media",
-      "sources": [
-        "Hugging Face"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "ai-other"
-    },
-    {
-      "id": "22732f8185e3",
-      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
-      "url": "https://www.latent.space/p/stacklok",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "s-ai-execution-debug",
-      "sources": [
-        "Latent Space"
-      ],
-      "platform": "通讯",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "ai-eval"
-    },
-    {
-      "id": "2896758265ce",
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "s-ai-enterprise-knowledge",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "ai-model"
-    },
-    {
-      "id": "2ee55c894d54",
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "s-ai-open-ondevice",
-      "sources": [
-        "Google DeepMind"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "ai-model"
-    },
-    {
-      "id": "4b0006aa1b5d",
-      "title": "What AI gets wrong and what failure teaches us",
-      "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "s-ai-execution-debug",
-      "sources": [
-        "Microsoft Research"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "ai-eval"
-    },
-    {
-      "id": "4e324623ab7c",
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "s-ai-enterprise-knowledge",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "ai-model"
-    },
-    {
-      "id": "661f64ddb5f4",
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "s-ai-learning-design",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "ai-model"
-    },
-    {
-      "id": "9416b01a853f",
-      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
-      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "s-ai-lab-loop",
-      "sources": [
-        "Latent Space"
-      ],
-      "platform": "通讯",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "ai-agent"
-    },
-    {
-      "id": "a097ef0d441a",
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "s-ai-generative-media",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "ai-model"
-    },
-    {
-      "id": "d192bdd68e19",
-      "title": "ESSA and Science for Sport Announce Strategic Professional Development Partnership",
-      "url": "https://www.scienceforsport.com/essa-and-science-for-sport-announce-strategic-professional-development-partnership",
-      "date": "2026-10-07",
-      "domain": "运动科学",
-      "topic_id": "other-sport",
-      "sources": [
-        "Science for Sport"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "sport-speed"
-    },
-    {
-      "id": "e04d1da69350",
-      "title": "Introducing Playground: Create and play custom games",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "s-ai-generative-media",
-      "sources": [
-        "Google AI"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00",
-      "category_id": "ai-other"
-    },
     {
       "id": "45d6a2b79938",
       "title": "LegalOn halves Codex costs while maintaining development speed",
@@ -2739,7 +2465,7 @@
       "url": "https://openai.com/index/oracle",
       "date": "2026-10-09",
       "domain": "AI",
-      "topic_id": "s-ai-enterprise-knowledge",
+      "topic_id": "other-ai",
       "sources": [
         "OpenAI"
       ],
@@ -3654,7 +3380,7 @@
       "url": "https://openai.com/index/sullivan-cromwell",
       "date": "2026-10-15",
       "domain": "AI",
-      "topic_id": "s-ai-enterprise-knowledge",
+      "topic_id": "other-ai",
       "sources": [
         "OpenAI"
       ],
@@ -3894,7 +3620,7 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "date": "2026-10-16",
       "domain": "AI",
-      "topic_id": "s-ai-enterprise-knowledge",
+      "topic_id": "other-ai",
       "sources": [
         "OpenAI"
       ],
@@ -3999,7 +3725,7 @@
       "url": "https://www.qbitai.com/2026/10/503965.html",
       "date": "2026-10-17",
       "domain": "AI",
-      "topic_id": "s-ai-enterprise-knowledge",
+      "topic_id": "other-ai",
       "sources": [
         "量子位"
       ],
@@ -4104,7 +3830,7 @@
       "url": "https://openai.com/index/itau-generative-ai",
       "date": "2026-10-17",
       "domain": "AI",
-      "topic_id": "s-ai-enterprise-knowledge",
+      "topic_id": "other-ai",
       "sources": [
         "OpenAI"
       ],
@@ -4354,7 +4080,7 @@
       "category_id": "health-other"
     }
   ],
-  "total_items": 142,
+  "total_items": 131,
   "total_sources": 27,
   "channel": "social",
   "date_basis": "公开内容发布日期",
@@ -4462,10 +4188,10 @@
   ],
   "topic_mode": "ai",
   "topic_analysis": {
-    "generated_at": "2026-10-20T09:17:53+08:00",
+    "generated_at": "2026-11-21T09:02:00+08:00",
     "generated_by": "ChatGPT",
-    "source_fingerprint": "017c6087eda32fb094088e9bb89bf6d5162ea1b44c98020de5fbfd5648db5bb7",
-    "input_items": 142,
-    "grouped_items": 112
+    "source_fingerprint": "4aa8d735d17818c6fd1ecbb6945ca8db996dbea9d2d5fa4c517247d15d7f5ecc",
+    "input_items": 131,
+    "grouped_items": 97
   }
 }

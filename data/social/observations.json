@@ -2,160 +2,6 @@
   "version": 1,
   "items": [
     {
-      "id": "16b7810afb00",
-      "title": "Introducing Falcon ASR",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-other",
-      "sources": [
-        "Hugging Face"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "22732f8185e3",
-      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
-      "url": "https://www.latent.space/p/stacklok",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-eval",
-      "sources": [
-        "Latent Space"
-      ],
-      "platform": "通讯",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "2896758265ce",
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "2ee55c894d54",
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "Google DeepMind"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "4b0006aa1b5d",
-      "title": "What AI gets wrong and what failure teaches us",
-      "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-eval",
-      "sources": [
-        "Microsoft Research"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "4e324623ab7c",
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "661f64ddb5f4",
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "9416b01a853f",
-      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
-      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-agent",
-      "sources": [
-        "Latent Space"
-      ],
-      "platform": "通讯",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "a097ef0d441a",
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "d192bdd68e19",
-      "title": "ESSA and Science for Sport Announce Strategic Professional Development Partnership",
-      "url": "https://www.scienceforsport.com/essa-and-science-for-sport-announce-strategic-professional-development-partnership",
-      "date": "2026-10-07",
-      "domain": "运动科学",
-      "topic_id": "sport-speed",
-      "sources": [
-        "Science for Sport"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "e04d1da69350",
-      "title": "Introducing Playground: Create and play custom games",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-other",
-      "sources": [
-        "Google AI"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
       "id": "45d6a2b79938",
       "title": "LegalOn halves Codex costs while maintaining development speed",
       "url": "https://openai.com/index/legalon-halves-codex-costs",
@@ -10169,6 +10015,34 @@
       "last_seen": "2026-11-18T08:00:23+08:00"
     },
     {
+      "id": "manual-e3rehab-20261117-proprioception",
+      "title": "Proprioception Training with Adam Meakins",
+      "url": "https://e3rehab.libsyn.com/279-proprioception-training-w-adam-meakins",
+      "date": "2026-11-17",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "Chris Hughen / Adam Meakins / E3 Rehab"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00"
+    },
+    {
+      "id": "manual-hn-50517415",
+      "title": "Show HN: Claktor – a refactoring CLI for coding agents",
+      "url": "https://news.ycombinator.com/item?id=50517415",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Claktor developer / Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00"
+    },
+    {
       "id": "manual-hn-50526152",
       "title": "Running coding agents without handing them my credentials",
       "url": "https://news.ycombinator.com/item?id=50526152",
@@ -10309,6 +10183,34 @@
       "last_seen": "2026-11-20T08:03:00+08:00"
     },
     {
+      "id": "manual-mike-reinold-20261119-acl-run",
+      "title": "When Is an ACL Patient Really Ready to Run?",
+      "url": "https://mikereinold.com/when-is-an-acl-patient-really-ready-to-run/",
+      "date": "2026-11-19",
+      "domain": "运动健康",
+      "topic_id": "health-rtp",
+      "sources": [
+        "Mike Reinold / Champion PT and Performance"
+      ],
+      "platform": "播客与文章",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00"
+    },
+    {
+      "id": "manual-mysportscience-20261119-presleep",
+      "title": "Eating Before Bed: What Athletes Need to Know",
+      "url": "https://www.mysportscience.com/post/eating-before-bed-athletes",
+      "date": "2026-11-19",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Asker Jeukendrup / MySportScience"
+      ],
+      "platform": "专业博客",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00"
+    },
+    {
       "id": "manual-real-science-sport-20261119-heat-carb",
       "title": "Do You Burn the Carbs You Eat in the Heat?",
       "url": "https://shows.acast.com/realscienceofsport/episodes/do-you-burn-the-carbs-you-eat-in-the-heat-can-blood-tests-an",
@@ -10321,6 +10223,34 @@
       "platform": "播客",
       "first_seen": "2026-11-20T08:03:00+08:00",
       "last_seen": "2026-11-20T08:03:00+08:00"
+    },
+    {
+      "id": "manual-hn-50554973",
+      "title": "Show HN: ADE Index – a sourced and ranked index of 975 agentic coding tools",
+      "url": "https://news.ycombinator.com/item?id=50554973",
+      "date": "2026-11-20",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "ADE Index developer / Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00"
+    },
+    {
+      "id": "manual-training-science-20261120-hiit",
+      "title": "The Science of Time-Efficient Training: HIIT, Fitness, and Exercise Snacks",
+      "url": "https://www.buzzsprout.com/1917060/episodes/20146206-the-science-of-time-efficient-training-hiit-fitness-and-exercise-snacks-with-xinyu-zeng-mingyue-yin-and-dr-martin-buchheit",
+      "date": "2026-11-20",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Paul Laursen / Martin Buchheit / Xinyu Zeng / Mingyue Yin"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00"
     }
   ]
 }

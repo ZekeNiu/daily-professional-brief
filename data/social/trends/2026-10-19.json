@@ -93,8 +93,8 @@
       "id": "sport-speed",
       "label": "速度、力量与运动技术",
       "domain": "运动科学",
-      "source_count": 4,
-      "item_count": 8,
+      "source_count": 3,
+      "item_count": 7,
       "points": [
         {
           "date": "2026-10-06",
@@ -103,10 +103,8 @@
         },
         {
           "date": "2026-10-07",
-          "value": 1,
-          "item_ids": [
-            "d192bdd68e19"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -441,7 +439,7 @@
       "label": "评测、数据与可靠性",
       "domain": "AI",
       "source_count": 7,
-      "item_count": 34,
+      "item_count": 32,
       "points": [
         {
           "date": "2026-10-06",
@@ -450,11 +448,8 @@
         },
         {
           "date": "2026-10-07",
-          "value": 2,
-          "item_ids": [
-            "22732f8185e3",
-            "4b0006aa1b5d"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -566,7 +561,7 @@
       "label": "Agent与开发工作流",
       "domain": "AI",
       "source_count": 8,
-      "item_count": 32,
+      "item_count": 31,
       "points": [
         {
           "date": "2026-10-06",
@@ -575,10 +570,8 @@
         },
         {
           "date": "2026-10-07",
-          "value": 1,
-          "item_ids": [
-            "9416b01a853f"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -689,7 +682,7 @@
       "label": "模型与多模态",
       "domain": "AI",
       "source_count": 9,
-      "item_count": 28,
+      "item_count": 23,
       "points": [
         {
           "date": "2026-10-06",
@@ -698,14 +691,8 @@
         },
         {
           "date": "2026-10-07",
-          "value": 2,
-          "item_ids": [
-            "2896758265ce",
-            "2ee55c894d54",
-            "4e324623ab7c",
-            "661f64ddb5f4",
-            "a097ef0d441a"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -985,8 +972,8 @@
       "id": "ai-other",
       "label": "AI应用与行业",
       "domain": "AI",
-      "source_count": 8,
-      "item_count": 15,
+      "source_count": 7,
+      "item_count": 13,
       "points": [
         {
           "date": "2026-10-06",
@@ -995,11 +982,8 @@
         },
         {
           "date": "2026-10-07",
-          "value": 2,
-          "item_ids": [
-            "16b7810afb00",
-            "e04d1da69350"
-          ]
+          "value": 0,
+          "item_ids": []
         },
         {
           "date": "2026-10-08",
@@ -1086,160 +1070,6 @@
     }
   ],
   "items": [
-    {
-      "id": "16b7810afb00",
-      "title": "Introducing Falcon ASR",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-other",
-      "sources": [
-        "Hugging Face"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "22732f8185e3",
-      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
-      "url": "https://www.latent.space/p/stacklok",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-eval",
-      "sources": [
-        "Latent Space"
-      ],
-      "platform": "通讯",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "2896758265ce",
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "2ee55c894d54",
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "Google DeepMind"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "4b0006aa1b5d",
-      "title": "What AI gets wrong and what failure teaches us",
-      "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-eval",
-      "sources": [
-        "Microsoft Research"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "4e324623ab7c",
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "661f64ddb5f4",
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "url": "https://openai.com/index/teens-learn-and-plan",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "9416b01a853f",
-      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
-      "url": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-agent",
-      "sources": [
-        "Latent Space"
-      ],
-      "platform": "通讯",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "a097ef0d441a",
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-model",
-      "sources": [
-        "OpenAI"
-      ],
-      "platform": "公开发布",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "d192bdd68e19",
-      "title": "ESSA and Science for Sport Announce Strategic Professional Development Partnership",
-      "url": "https://www.scienceforsport.com/essa-and-science-for-sport-announce-strategic-professional-development-partnership",
-      "date": "2026-10-07",
-      "domain": "运动科学",
-      "topic_id": "sport-speed",
-      "sources": [
-        "Science for Sport"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
-    {
-      "id": "e04d1da69350",
-      "title": "Introducing Playground: Create and play custom games",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
-      "date": "2026-10-07",
-      "domain": "AI",
-      "topic_id": "ai-other",
-      "sources": [
-        "Google AI"
-      ],
-      "platform": "博客",
-      "first_seen": "2026-10-19T06:16:07.398604+00:00",
-      "last_seen": "2026-10-20T01:49:43.162555+00:00"
-    },
     {
       "id": "45d6a2b79938",
       "title": "LegalOn halves Codex costs while maintaining development speed",
@@ -3061,7 +2891,7 @@
       "last_seen": "2026-10-19T05:45:08.889Z"
     }
   ],
-  "total_items": 141,
+  "total_items": 130,
   "total_sources": 26,
   "channel": "social",
   "date_basis": "公开内容发布日期",
