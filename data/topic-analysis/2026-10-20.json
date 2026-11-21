@@ -1,7 +1,7 @@
 {
   "version": 1,
   "date": "2026-10-20",
-  "generated_at": "2026-10-20T09:17:53+08:00",
+  "generated_at": "2026-11-21T09:02:00+08:00",
   "generated_by": "ChatGPT",
   "channels": {
     "journal": {
@@ -619,7 +619,7 @@
     "social": {
       "start": "2026-10-07",
       "end": "2026-10-20",
-      "source_fingerprint": "017c6087eda32fb094088e9bb89bf6d5162ea1b44c98020de5fbfd5648db5bb7",
+      "source_fingerprint": "4aa8d735d17818c6fd1ecbb6945ca8db996dbea9d2d5fa4c517247d15d7f5ecc",
       "topics": [
         {
           "id": "s-sport-context-load",
@@ -768,8 +768,6 @@
           "confidence": "中",
           "confidence_reason": "网关日志更新与工具作者echo版本记录，均可定位到运行调试功能。",
           "item_ids": [
-            "22732f8185e3",
-            "4b0006aa1b5d",
             "7fdb639a7950",
             "7fc73ab44f09",
             "ec8a3eed6e1b",
@@ -830,7 +828,6 @@
           "confidence": "中",
           "confidence_reason": "LFM端侧模型与Beam开放模型条目，直接对应部署和获取方式。",
           "item_ids": [
-            "2ee55c894d54",
             "ffd281819637",
             "53911f98c21c",
             "ff0cf28c5d75",
@@ -894,7 +891,6 @@
           "confidence": "中",
           "confidence_reason": "Lab-in-the-Loop节目与抗菌肽搜索条目，均涉及AI进入科研验证流程。",
           "item_ids": [
-            "9416b01a853f",
             "a092f744c7c1",
             "68a694837125",
             "504a28fcb44d",
@@ -917,9 +913,6 @@
           "confidence": "中",
           "confidence_reason": "语音建站的作者记录与长视频案例，对应两种具体内容工作流。",
           "item_ids": [
-            "16b7810afb00",
-            "a097ef0d441a",
-            "e04d1da69350",
             "855092fba1df",
             "6cb53bbd6b72",
             "8d45898e533e",
@@ -952,27 +945,6 @@
           ]
         },
         {
-          "id": "s-ai-enterprise-knowledge",
-          "domain": "AI",
-          "label": "企业知识与专业任务应用",
-          "summary": "企业知识接入、合同审查、专业问答和客户服务案例，把Agent能力放进具体工作任务。",
-          "confidence": "中",
-          "confidence_reason": "Atlassian知识接入与合同审查案例，均落在可辨识的工作任务上。",
-          "item_ids": [
-            "2896758265ce",
-            "4e324623ab7c",
-            "db7b9e6fe248",
-            "94eadcab22c4",
-            "b6756c0a180e",
-            "24ffd586aefb",
-            "9732b2763df5"
-          ],
-          "summary_refs": [
-            "2896758265ce",
-            "94eadcab22c4"
-          ]
-        },
-        {
           "id": "s-ai-learning-design",
           "domain": "AI",
           "label": "教育AI的提问与评估",
@@ -980,7 +952,6 @@
           "confidence": "中",
           "confidence_reason": "模拟学生学习与提问教学两条官方材料，对应学习过程的设计和评估。",
           "item_ids": [
-            "661f64ddb5f4",
             "ca946f1238ba",
             "a60f4a701f88"
           ],
@@ -1015,13 +986,13 @@
         }
       ],
       "unassigned_ids": [
-        "d192bdd68e19",
         "6218fed10e32",
         "e08c58b6de5c",
         "0e19f2e76cca",
         "3618833fba59",
         "39e6bd368c40",
         "9db9af42b7f6",
+        "db7b9e6fe248",
         "377afb641e4c",
         "51b622727300",
         "7e720aeda47f",
@@ -1036,13 +1007,17 @@
         "bfd31cfa78f9",
         "247153705736",
         "3e6e644f1b2b",
+        "94eadcab22c4",
         "b734a6066c59",
         "1bf502587012",
         "9d6f74f0cb08",
+        "b6756c0a180e",
         "f63d7248b240",
         "fe88897c2a46",
+        "24ffd586aefb",
         "3bc592cc5b68",
         "66a8784860f5",
+        "9732b2763df5",
         "ee5297d7e82b",
         "60deb4eddb49"
       ]
