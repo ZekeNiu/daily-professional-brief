@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-22",
+  "title": "每日专业资讯简报｜2026-11-22",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "最重要的进展是：今天多项结果都在收紧‘可用’的定义——视频估算关节负荷尚不能替代个体测量，远程运动干预需要真实教练剂量，而AI能力必须连同防护与执行环境一起验证。"
+  },
+  "navigation": {
+    "prev": "2026-11-21",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：器材、地面、动作历史与测量输入都会改变测试结果，应用前先固定任务条件。",
+    "运动健康": "本板块重点：有效干预依赖足够支持剂量，而风险识别必须区分相关指标与因果机制。",
+    "AI": "本板块重点：模型能力继续上升，但安全防护、开放部署成本与Agent执行环境已成为同等重要的评价对象。"
+  },
+  "items": [
+    {
+      "id": "j-20261122-swim-load-velocity-aids",
+      "domain": "运动科学",
+      "title": "Load-velocity characteristics of front crawl swimming with fins and hand paddles",
+      "short_title": "泳鳍显著抬高负荷—速度曲线",
+      "priority": "重点关注",
+      "one_liner": "24名男子游泳者的半系留测试显示，泳鳍使理论最大负荷L0提高76.4%、理论最大速度v0提高14.2%，手蹼增幅分别为15.6%和5.7%。",
+      "what": "研究在自由泳、手蹼和泳鳍三种条件下，以1 kg与7 kg半系留负荷重复测试。相较自由泳，泳鳍使L0、相对L0和v0分别提高76.4%、75.1%和14.2%；手蹼分别提高15.6%、14.9%和5.7%。泳鳍曲线斜率较手蹼平28.3%、较自由泳平33.1%。",
+      "why": "辅助器材不是简单增加推进力，而是系统性改变负荷—速度关系；若训练处方沿用自由泳的速度区间，实际机械要求会错位。",
+      "practice": "用半系留速度或负荷做处方时，应为自由泳、手蹼和泳鳍分别建立个体曲线；泳鳍条件更适合承担较高外负荷下的速度刺激，不能用同一速度阈值横向比较三种器材。",
+      "evidence": "同行评审重复测量研究；男性游泳者n=24，1 kg与7 kg半系留负荷。",
+      "confidence": "中",
+      "confidence_reason": "器材内比较和效应幅度明确；样本仅为男性，且理论截距来自两点线性模型。",
+      "source": {
+        "label": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://doi.org/10.1186/s13102-026-02276-6"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261122-sand-plyometric-jps",
+      "domain": "运动科学",
+      "title": "Effects of Plyometric Training on Sand Versus Hard Surfaces in Male Collegiate Basketball Players: A Randomized Controlled Trial",
+      "short_title": "沙地训练主要改善膝关节位置觉",
+      "priority": "值得了解",
+      "one_liner": "36名男子大学篮球运动员训练8周后，沙地组相较硬地组的可靠组间优势只出现在优势腿30°膝关节位置觉，跳跃和变向差异经多重校正后均不显著。",
+      "what": "参与者随机分为沙地、硬地和对照组各12人，每周3次、持续8周。Holm校正后，只有优势腿30°关节位置觉保留组间差异（总体p=0.012）；沙地相较硬地误差低0.70°、g=-2.15、校正p<0.001。跳跃和变向的沙地—硬地比较均校正p≥0.14。",
+      "why": "地面更软并未自动转化为更好的爆发力或变向表现；它更可能改变感觉运动控制刺激，而非全面提升专项表现。",
+      "practice": "若目标是位置觉或落地控制，可把沙地作为短期感觉运动刺激；若目标是跳跃和变向，不应依据本研究把沙地视为优于硬地的选择。",
+      "evidence": "同行评审随机对照试验；男子大学篮球运动员n=36，8周、每周3次。",
+      "confidence": "中",
+      "confidence_reason": "随机设计且进行了多重比较校正；每组仅12人，可靠优势集中于单一角度指标。",
+      "source": {
+        "label": "Frontiers in Physiology",
+        "url": "https://doi.org/10.3389/fphys.2026.2015973"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261122-monocular-knee-force",
+      "domain": "运动科学",
+      "title": "Predicting Knee Contact Forces During Walking From Monocular Video and Demographic Information",
+      "short_title": "单目视频关节力尚不足个体决策",
+      "priority": "重点关注",
+      "one_liner": "基于208人训练的模型在12人独立视频测试中，对总、内侧、外侧及髌股关节接触力的误差为体重的47%、40%、30%和29%，外侧力甚至出现负R²。",
+      "what": "模型以208人的5009个支撑期训练，再用12人的普通单目视频独立测试。总、内侧、外侧和髌股膝关节接触力RMSE分别为47%、40%、30%和29%体重；除外侧力相关系数为0.64外，其余超过0.80，但外侧力R²为负。",
+      "why": "高相关不等于个体值准确。该方法可以恢复波形趋势，却仍可能在绝对负荷上产生足以改变临床或训练判断的误差。",
+      "practice": "当前可用于低成本筛查、群体比较或算法研究，不应单独用于个体组织负荷处方、术后进阶或伤病风险阈值；落地前应在目标摄像条件和人群中报告绝对误差。",
+      "evidence": "同行评审建模与独立验证研究；训练集n=208，独立视频测试n=12。",
+      "confidence": "高",
+      "confidence_reason": "独立测试和绝对误差均已报告，足以支持‘尚不能替代个体测量’的判断。",
+      "source": {
+        "label": "Annals of Biomedical Engineering",
+        "url": "https://doi.org/10.1007/s10439-026-04461-7"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261122-climbing-history-force",
+      "domain": "运动科学",
+      "title": "History-dependent force in the half-crimp grip",
+      "short_title": "半扣握力受此前收缩路径影响",
+      "priority": "快讯",
+      "one_liner": "16名攀岩者的半扣握测试显示，残余力增强为12.7%–13.9%，残余力抑制为5.6%–8.9%，说明同一关节位和终点并不保证相同输出。",
+      "what": "研究用同一半扣握终点比较不同的主动缩短或伸长历史。此前伸长后出现12.7%–13.9%的残余力增强，此前缩短后出现5.6%–8.9%的残余力抑制。",
+      "why": "指屈肌输出不仅取决于最后姿势，还取决于进入该姿势的动作路径；这会影响握力测试重测与专项动作解释。",
+      "practice": "攀岩握力测试应固定预收缩、进入角度、动作方向和保持时间；若研究训练适应，避免把动作历史差异误判为真实力量变化。",
+      "evidence": "同行评审受试者内实验；攀岩者n=16。",
+      "confidence": "中",
+      "confidence_reason": "效应方向与幅度清楚，但样本较小，测试为特定半扣握条件。",
+      "source": {
+        "label": "Sports Biomechanics",
+        "url": "https://doi.org/10.1080/14763141.2026.2763622"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261122-comeback-coaching",
+      "domain": "运动健康",
+      "title": "Physical activity coaching and text messaging for adults with mobility limitations (ComeBACK): hybrid type 1 effectiveness implementation randomised controlled trial",
+      "short_title": "行动受限者需真实教练剂量",
+      "priority": "重点关注",
+      "one_liner": "512名行动受限成年人中，教练干预较等待组增加931步/日、较短信组增加571步/日；单独短信较等待组的359步差异未达显著。",
+      "what": "三组务实随机试验纳入512人，平均69岁、76%为女性。教练组较等待组每日多931步（95%CI 409–1452），较短信组多571步（58–1084）；短信较等待组多359步（-91至810）。不良事件为6%、4%和8%，无严重相关事件。",
+      "why": "低成本短信并未复制教练支持的增益，说明行动受限人群的行为改变需要目标调整、反馈与障碍处理，而非仅靠提醒。",
+      "practice": "为行动受限成人设计远程活动项目时，把教练接触视为核心剂量，并用步数和功能目标迭代；短信更适合作为教练流程的补充，不宜作为等效替代。",
+      "evidence": "BMJ同行评审三组务实随机对照试验；成年人n=512。",
+      "confidence": "高",
+      "confidence_reason": "样本量较大、组间差值与不良事件明确，且直接比较教练与短信。",
+      "source": {
+        "label": "The BMJ",
+        "url": "https://doi.org/10.1136/bmj-2026-101157"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261122-home-copd-rehab",
+      "domain": "运动健康",
+      "title": "Home-based pulmonary rehabilitation early after hospitalisation in COPD: A randomised controlled trial",
+      "short_title": "出院后居家肺康复未减少再住院",
+      "priority": "值得了解",
+      "one_liner": "157名COPD出院患者的8周居家康复未降低12个月非计划住院，也未改善生活质量或呼吸困难；焦虑改善约1.6–2.1分。",
+      "what": "患者在出院2周内随机接受8周居家方案或常规照护；方案含1次入户物理治疗和7次每周电话。12个月非计划住院为60.3%对64.1%，RR 0.94（0.73–1.21）；生活质量和呼吸困难无差异，焦虑在10周和12个月分别改善2.1与1.6分。完成率74%，有1起相关不良事件。",
+      "why": "低接触居家模式提高可及性，却没有改变最重要的再住院和症状结局；服务地点不是有效剂量的替代品。",
+      "practice": "不应把该低接触方案作为降低再住院的已证实措施；若采用居家肺康复，应增加训练进阶和症状监控，并把住院、运动能力与焦虑分开评估。",
+      "evidence": "同行评审随机对照试验；随机n=157，意向治疗n=151，随访12个月。",
+      "confidence": "高",
+      "confidence_reason": "主要临床结局为阴性且区间明确；结论针对这一低接触方案。",
+      "source": {
+        "label": "European Respiratory Journal",
+        "url": "https://doi.org/10.1183/13993003.00985-2026"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261122-tibial-bsi-running",
+      "domain": "运动健康",
+      "title": "Running Gait Biomechanics Associated With Tibial Bone Stress Injuries Among Adolescent Athletes",
+      "short_title": "胫骨应力伤史关联较高垂直负荷",
+      "priority": "值得了解",
+      "one_liner": "66名有胫骨骨应力伤史的青少年运动员较66名匹配对照呈现更高垂直平均加载率、峰值垂直地反力和支撑期比例，但效应量仅0.24–0.36。",
+      "what": "回顾性病例对照比较发现，伤史组垂直平均加载率更高（p=0.01，d=0.29）、标准化峰值垂直地反力更高（p=0.02，d=0.24）、支撑期比例更高（p<0.001，d=0.36）。",
+      "why": "这些指标可帮助描述伤后跑姿表型，但差异很小且测于伤后，无法证明它们是伤前原因。",
+      "practice": "重返跑步时可把加载率、峰值地反力和支撑期作为组合复测指标，用于追踪个体变化；不应据此单独筛查或仅为降低某一指标强行改跑姿。",
+      "evidence": "同行评审回顾性横断面病例对照；青少年运动员66例伤史与66例匹配对照。",
+      "confidence": "中",
+      "confidence_reason": "匹配样本和具体生物力学指标明确；设计只能支持关联，且效应量较小。",
+      "source": {
+        "label": "Clinical Journal of Sport Medicine",
+        "url": "https://doi.org/10.1097/JSM.0000000000001529"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261122-adversarial-distillation",
+      "domain": "AI",
+      "title": "Combatting adversarial distillation",
+      "short_title": "推理提取防护把攻击成功率压至1%内",
+      "priority": "重点关注",
+      "one_liner": "OpenAI报告，自适应黑盒攻击下，GPT-6.2 Astra的推理提取成功率由22.9%降至0.9%；此前GPT-6 Astra由54.0%降至0.2%。",
+      "what": "OpenAI公布针对模型蒸馏与推理提取的防护评估，使用6种攻击模型开展自适应黑盒红队测试。GPT-6 Astra在早期防护前后攻击成功率由54.0%降至0.2%；更新后的GPT-6.2 Astra从22.9%降至0.9%。",
+      "why": "模型泄露风险不只来自权重外流，API输出也可成为蒸馏通道；对部署方而言，安全指标应覆盖对手适应后的持续攻击，而非一次性静态测试。",
+      "practice": "高价值模型API应监测跨请求行为、速率与输出结构，并用自适应攻击回归测试评估防护；这项结果证明的是官方测试中的攻击抑制，不等于所有提取路线已被封堵。",
+      "evidence": "OpenAI官方安全评估；6种攻击模型，自适应黑盒红队；攻击提示总量未公开。",
+      "confidence": "中",
+      "confidence_reason": "发布事实和内部结果明确，但数据来自厂商自评，攻击覆盖与样本量未完整披露。",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/combatting-adversarial-distillation/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261122-inkling-2-mini",
+      "domain": "AI",
+      "title": "Inkling 2 Mini",
+      "short_title": "20GB开放模型瞄准本地编码Agent",
+      "priority": "快讯",
+      "one_liner": "Thinking Machines发布26.4B总参数、3.4B激活参数的开放模型Inkling 2 Mini，约20GB可运行并支持最长100万上下文。",
+      "what": "模型采用循环中段结构：12层重复3次，总参数26.4B、每步激活3.4B，官方称约20GB内存可运行，最长上下文100万。厂商报告DeepSWE 48.2、Vals 46.5、SWE-bench Verified 79.2。",
+      "why": "它把长上下文编码Agent推进到单机可部署范围，适合对数据驻留、成本或离线运行有要求的团队；但基准仍是厂商选择的任务与脚手架。",
+      "practice": "可优先在仓库检索、补丁生成和长会话恢复上做本地试点，记录显存、延迟、工具调用成功率和测试通过率，再与云模型比较总任务成本。",
+      "evidence": "官方发布与模型卡；开放权重模型，厂商基准，尚缺独立复现。",
+      "confidence": "中",
+      "confidence_reason": "规格与可用状态可核实；性能数字主要来自发布方。",
+      "source": {
+        "label": "Thinking Machines Lab",
+        "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261122-gemini-4-neon",
+      "domain": "AI",
+      "title": "Introducing Gemini 4 Neon",
+      "short_title": "Agent基准再次暴露脚手架效应",
+      "priority": "值得了解",
+      "one_liner": "Google发布Gemini 4 Neon，支持100万上下文；同一模型在Antigravity与mini-SWE-agent脚手架上的SWE-Sweep得分分别为39.0和12.8。",
+      "what": "Google称Neon基于4200余次真实Agent会话评估，Vals为70.9、TerminalBench 4.1为65.2；SWE-Sweep在Antigravity环境得39.0，在mini-SWE-agent中仅12.8。定价为每百万输入3美元、输出15美元。",
+      "why": "26.2分的脚手架差距比单一模型排名更能指导采购：Agent表现是模型、工具、上下文管理和执行环境的联合结果。",
+      "practice": "选型时用自己的仓库、工具权限和验收测试比较完整工作流；同时记录模型调用成本与失败恢复，不用发布会最高分替代内部端到端成功率。",
+      "evidence": "Google官方发布与模型卡；厂商评测，含真实会话集合与多种Agent脚手架。",
+      "confidence": "中",
+      "confidence_reason": "产品规格和同模型环境差异明确；总体性能尚待独立评测。",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      },
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "训练与评估首先要固定条件：泳具、地面、动作历史和摄像输入都能改变输出；跨条件比较前应分别建立基线并报告绝对误差。",
+    "远程康复和行为干预的关键变量是支持剂量。教练式反馈能增加活动量，而一次入户加电话随访的低接触肺康复未改变再住院，服务名称不能代替实际干预内容。",
+    "AI选型应从‘模型分数’转向‘完整系统’：同时验证防提取能力、本地部署资源、工具脚手架和真实任务成功率。"
+  ],
+  "trends_url": "data/trends/2026-11-22.json"
+}

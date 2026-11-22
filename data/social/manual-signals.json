@@ -1378,5 +1378,77 @@
     "observed_at": "2026-11-21T08:42:00+08:00",
     "date_verified": true,
     "platform": "Hacker News"
+  },
+  {
+    "id": "manual-hpp-20261121-gpp",
+    "title": "44. GPP",
+    "url": "https://metacast.app/podcast/high-performance-physiology/8gNI3hBN/44-gpp/SJjp3eFN",
+    "domain": "运动科学",
+    "source_author": "Chris Beardsley / Rob Mauceri",
+    "author_id": "high-performance-physiology",
+    "published_at": "2026-11-21",
+    "observed_at": "2026-11-22T08:04:35+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "manual-cu-20261120-exercise-snacks",
+    "title": "Exercise Snacks and Blood Sugar",
+    "url": "https://news.cuanschutz.edu/department-of-medicine/exercise-snacks-and-blood-sugar",
+    "domain": "运动科学",
+    "source_author": "University of Colorado Anschutz",
+    "author_id": "cu-anschutz",
+    "published_at": "2026-11-20",
+    "observed_at": "2026-11-22T08:04:35+08:00",
+    "date_verified": true,
+    "platform": "机构新闻"
+  },
+  {
+    "id": "manual-reddit-20261115-tirzepatide-resistance",
+    "title": "Resistance exercise to attenuate lean mass loss during tirzepatide treatment",
+    "url": "https://www.reddit.com/r/GLP1ResearchTalk/comments/1xx12uc/resistance_exercise_to_attenuate_lean_mass_loss/",
+    "domain": "运动健康",
+    "source_author": "GLP1ResearchTalk community",
+    "author_id": "reddit-glp1researchtalk",
+    "published_at": "2026-11-15",
+    "observed_at": "2026-11-22T08:04:35+08:00",
+    "date_verified": true,
+    "platform": "Reddit"
+  },
+  {
+    "id": "manual-acl-athlete-20261119-guilt",
+    "title": "Feeling Guilt After Your ACL Injury",
+    "url": "https://www.theaclathlete.com/episode-303-feeling-guilt-after-your-acl-injury/",
+    "domain": "运动健康",
+    "source_author": "Ravi Patel",
+    "author_id": "acl-athlete",
+    "published_at": "2026-11-19",
+    "observed_at": "2026-11-22T08:04:35+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "manual-hn-50577265",
+    "title": "Language Models Can Rewrite Their Own Weights",
+    "url": "https://news.ycombinator.com/item?id=50577265",
+    "domain": "AI",
+    "source_author": "Jiajun Fan et al. / Hacker News community",
+    "author_id": "hacker-news",
+    "published_at": "2026-11-20",
+    "observed_at": "2026-11-22T08:04:35+08:00",
+    "date_verified": true,
+    "platform": "Hacker News"
+  },
+  {
+    "id": "manual-metr-20261120-capability-update",
+    "title": "Q4 2026 capability update",
+    "url": "https://evals.alignment.org/blog/2026-11-20-q4-2026-capability-update/",
+    "domain": "AI",
+    "source_author": "METR",
+    "author_id": "metr",
+    "published_at": "2026-11-20",
+    "observed_at": "2026-11-22T08:04:35+08:00",
+    "date_verified": true,
+    "platform": "研究博客"
   }
 ]

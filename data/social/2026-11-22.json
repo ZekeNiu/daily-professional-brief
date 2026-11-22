@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-22",
+  "version": 1,
+  "observed_at": "2026-11-22T08:04:35+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-22",
+  "summary": {
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 2,
+      "AI": 2
+    },
+    "signal": "本期讨论的共同线索是把漂亮概念还原成可核验结果：GPP要落到具体适应，抗阻训练在减重中更确定地保护力量，自我改写模型与长时任务基准都需要更严格的验证。"
+  },
+  "navigation": {
+    "prev": "2026-11-21",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：训练形式的名字不重要，关键是它实际提供了什么剂量、改善了哪个结局。",
+    "运动健康": "本板块重点：康复沟通要区分可改变的未来行动、已观察到的结果和无法证实的单一因果故事。",
+    "AI": "本板块重点：模型自我修改与长时任务能力正在成为新前沿，但现阶段更需要可重复的任务与对照。"
+  },
+  "items": [
+    {
+      "id": "s-20261122-gpp-specificity",
+      "domain": "运动科学",
+      "title": "General Physical Preparation: useful foundation or vague training label?",
+      "short_title": "GPP应拆成明确适应目标",
+      "priority": "值得了解",
+      "one_liner": "High Performance Physiology讨论指出，独立GPP训练块和‘工作能力’循环常因目标模糊而难以评价，更可执行的做法是并行安排完整力量训练与低强度有氧。",
+      "what": "Chris Beardsley与Rob Mauceri在第44期节目讨论GPP：反对把不明确的混合循环当作通用基础，主张围绕具体限制因素安排每周2–3次完整力量训练，并用长时间低强度有氧补充心肺基础。",
+      "why": "GPP标签容易把力量、局部耐力、技术和有氧混在一起，结果是训练完成了却无法判断哪种适应真正发生。",
+      "practice": "写计划时把GPP改写为目标、剂量和验收指标；若同时需要力量与有氧，采用并行结构并分别测试，而不是用疲劳感证明训练有效。",
+      "evidence": "专家播客，2026-11-21；训练理论与实践观点，不是新随机试验。",
+      "confidence": "中",
+      "confidence_reason": "建议具有明确可操作逻辑，但属于专家综合判断。",
+      "source": {
+        "label": "High Performance Physiology",
+        "url": "https://metacast.app/podcast/high-performance-physiology/8gNI3hBN/44-gpp/SJjp3eFN"
+      },
+      "limit": "",
+      "author": "Chris Beardsley / Rob Mauceri",
+      "platform": "播客",
+      "published_date": "2026-11-21"
+    },
+    {
+      "id": "s-20261122-exercise-snacks-glucose",
+      "domain": "运动科学",
+      "title": "Exercise Snacks and Blood Sugar",
+      "short_title": "碎片运动改善血糖但未改善胰岛素敏感性",
+      "priority": "重点关注",
+      "one_liner": "机构文章带动一项30人试验讨论：6周碎片化运动较连续45分钟运动降低葡萄糖AUC、提高目标范围时间，但两组胰岛素敏感性无差异。",
+      "what": "30名超重或肥胖成人随机完成每周5天、共45分钟/日的连续运动或每小时5分钟碎片运动。胰岛素敏感性组间无差异（p=0.366）；碎片组葡萄糖AUC低1652.9 mg/dL·min，目标范围时间约由82%升至94%，血糖变异系数低4.4个百分点。",
+      "why": "相同日总时长并不产生相同的血糖暴露模式；频繁中断久坐可能改善日内控制，但这不是胰岛素敏感性同步改善。",
+      "practice": "对难以连续运动的超重成人，可把5分钟活动分散到白天并用CGM观察日内结局；不要用短期目标范围时间改善替代代谢机制或长期结局。",
+      "evidence": "机构文章解读同行评审6周随机试验；成年人n=30。",
+      "confidence": "中",
+      "confidence_reason": "结果来自小样本试验，指标和方向明确，但疗程短且置信区间较宽。",
+      "source": {
+        "label": "CU Anschutz Department of Medicine",
+        "url": "https://news.cuanschutz.edu/department-of-medicine/exercise-snacks-and-blood-sugar"
+      },
+      "limit": "",
+      "author": "University of Colorado Anschutz",
+      "platform": "机构新闻",
+      "published_date": "2026-11-20",
+      "references": [
+        {
+          "label": "原始论文",
+          "url": "https://doi.org/10.1002/oby.70349"
+        }
+      ]
+    },
+    {
+      "id": "s-20261122-tirzepatide-resistance",
+      "domain": "运动健康",
+      "title": "Resistance exercise to attenuate lean mass loss during tirzepatide treatment",
+      "short_title": "抗阻训练更确定地保护力量",
+      "priority": "重点关注",
+      "one_liner": "社区讨论聚焦40周试验：加抗阻训练只少损失约1.09 kg瘦软组织，但卧推、下拉和伸膝力量从药物单用组下降转为联合组上升。",
+      "what": "120名参与者均接受替尔泊肽，随机加每周3次抗阻训练或常规生活。体重下降相近（22.61 vs 22.28 kg），瘦软组织损失为4.67 vs 3.57 kg；卧推、下拉、伸膝力量分别从药物单用组下降4.09、4.42、4.42 kg，转为联合组增加4.68、8.58、5.88 kg。",
+      "why": "社媒容易只盯瘦体重差值，但对功能更直接的信号是力量方向完全相反；抗阻训练的主要价值未必是阻止所有瘦体重下降。",
+      "practice": "减重药物联合管理应把渐进抗阻训练和实际力量测试纳入常规流程；用体重、瘦体重和力量三个结局分别判断，而不是只看体成分。",
+      "evidence": "社区讨论关联同行评审40周随机试验；参与者n=120。",
+      "confidence": "高",
+      "confidence_reason": "原始试验、组间身体组成和力量结果均可核实；本条把讨论焦点与正式证据分开。",
+      "source": {
+        "label": "Reddit / GLP1ResearchTalk",
+        "url": "https://www.reddit.com/r/GLP1ResearchTalk/comments/1xx12uc/resistance_exercise_to_attenuate_lean_mass_loss/"
+      },
+      "limit": "",
+      "author": "GLP1ResearchTalk community",
+      "platform": "Reddit",
+      "published_date": "2026-11-15",
+      "references": [
+        {
+          "label": "Nature Medicine原始论文",
+          "url": "https://www.nature.com/articles/s41591-026-04752-5"
+        }
+      ]
+    },
+    {
+      "id": "s-20261122-acl-guilt",
+      "domain": "运动健康",
+      "title": "Feeling Guilt After Your ACL Injury",
+      "short_title": "ACL伤后沟通不要虚构单一原因",
+      "priority": "值得了解",
+      "one_liner": "ACL Athlete节目讨论伤者常把撕裂归咎于一次漏热身或训练选择；这种回溯故事会增加内疚，却不能建立真实因果。",
+      "what": "Ravi Patel在第303期从康复沟通角度讨论ACL伤后的内疚感：伤者常把复杂事件压缩成一个可责备的决定，例如少做一次热身或改变一次训练。节目建议把注意力转向当前可改变的康复行为。",
+      "why": "单一原因叙事既不符合多因素伤病机制，也可能干扰康复投入和重返运动决策；它把未来可控因素与过去无法验证的因果混为一谈。",
+      "practice": "临床沟通可明确区分‘已知风险因素’、‘本次事件无法证实的原因’和‘当前可执行的康复任务’，避免用未经证实的因果解释换取表面确定感。",
+      "evidence": "临床教育播客，2026-11-19；专家与患者沟通观点，不是病因学研究。",
+      "confidence": "中",
+      "confidence_reason": "沟通建议符合多因素风险框架，但节目本身不提供干预效果试验。",
+      "source": {
+        "label": "The ACL Athlete",
+        "url": "https://www.theaclathlete.com/episode-303-feeling-guilt-after-your-acl-injury/"
+      },
+      "limit": "",
+      "author": "Ravi Patel",
+      "platform": "播客",
+      "published_date": "2026-11-19"
+    },
+    {
+      "id": "s-20261122-self-rewriting-model",
+      "domain": "AI",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "short_title": "27B模型自改权重首次带来持续增益",
+      "priority": "重点关注",
+      "one_liner": "论文与Hacker News讨论显示，一个27B开放模型无需梯度即可改写自身权重，在固定的490道未见题上提高6.6个百分点；较小模型则不修改或破坏自身。",
+      "what": "预印本让27B模型读取权重、评分答案并运行自身，随后提交通过内部测试的权重编辑；固定未见测试提高6.6个百分点，连续8次会话只上升。受损视觉模型在6项基准由7%恢复到70%；2B不编辑，4B与9B会破坏自身。",
+      "why": "能力有明确的规模门槛和失败模式。社区争议集中在这是否只是另一种优化过程，以及内部筛选是否足以防止隐蔽退化。",
+      "practice": "把自我修改视为研究原型：复现时必须保留冻结测试集、编辑前后行为回归和安全评估；不能只报告被选择的成功编辑。",
+      "evidence": "arXiv预印本v2与Hacker News公开讨论；核心结果未经同行评审。",
+      "confidence": "低",
+      "confidence_reason": "结果新颖且有固定测试，但来自单一模型家族与作者实验，社区已指出对照和术语解释仍需加强。",
+      "source": {
+        "label": "Hacker News",
+        "url": "https://news.ycombinator.com/item?id=50577265"
+      },
+      "limit": "",
+      "author": "Jiajun Fan et al. / Hacker News community",
+      "platform": "Hacker News",
+      "published_date": "2026-11-20",
+      "references": [
+        {
+          "label": "arXiv预印本",
+          "url": "https://arxiv.org/abs/2611.21885"
+        }
+      ]
+    },
+    {
+      "id": "s-20261122-metr-long-horizon",
+      "domain": "AI",
+      "title": "Q4 2026 capability update",
+      "short_title": "Agent长时任务能力仍落后强人类",
+      "priority": "值得了解",
+      "one_liner": "METR更新估计前沿模型可处理约27小时的人类任务时长，但在开放式优化任务中，即使最强Agent达96–98人类百分位，仍有约4名参赛者的中位表现更高。",
+      "what": "METR用可验证任务更新时间跨度估计到约27小时，并加入15项开放式优化竞赛。最强模型在总体分布中约为人类第96–98百分位，但每项任务仍有中位约4名人类超过它；在Budget NanoGPT上，最佳Agent 48小时提高15.7%，强人类60小时提高41%。",
+      "why": "‘可完成更长任务’和‘能在开放优化中超过顶尖人类’是不同能力。时间跨度指标上升，仍未消除策略探索与高质量迭代差距。",
+      "practice": "评估Agent时同时保留可验证完成率、开放优化得分和人类基线；对数小时以上任务设置检查点与人工复核，不用单一时间跨度推断完全自主性。",
+      "evidence": "METR独立评测机构更新；含可验证任务与15项优化竞赛，人类基线在部分任务仍较稀疏。",
+      "confidence": "中",
+      "confidence_reason": "评测方法与对照公开，但长时任务和人类尝试数量仍有限。",
+      "source": {
+        "label": "METR",
+        "url": "https://evals.alignment.org/blog/2026-11-20-q4-2026-capability-update/"
+      },
+      "limit": "",
+      "author": "METR",
+      "platform": "研究博客",
+      "published_date": "2026-11-20"
+    }
+  ],
+  "professional_judgment": [
+    "训练热点先改写成适应目标和剂量：GPP是否有用、运动是否高效，都应由具体结局回答。",
+    "在减重与康复中，功能结果比单一体成分或单一因果故事更能指导行动；抗阻训练的力量保护尤其值得纳入常规监测。",
+    "AI前沿正在从推理时计算扩展到权重自改和长时任务，但当前最重要的实践动作是建立冻结测试、失败回归和人工检查点。"
+  ],
+  "trends_url": "data/social/trends/2026-11-22.json"
+}
