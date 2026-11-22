@@ -2990,51 +2990,6 @@
         }
       ],
       "source_count": 2
-    },
-    {
-      "id": "agent-cost",
-      "domain": "AI",
-      "title": "Agent成本：从单价看到整段任务",
-      "change": "模型分工与会话日志，把费用、缓存和任务产出放进同一视野。",
-      "meaning": "按完整任务记录模型组合、费用、缓存命中和完成时间，更容易解释一次工作究竟花在哪里。",
-      "confidence": "中",
-      "confidence_reason": "一项官方客户案例与一项日志功能发布相互补充，反映运行管理方向。",
-      "chart_label": "Agent任务成本",
-      "evidence": [
-        {
-          "id": "45d6a2b79938",
-          "title": "LegalOn halves Codex costs while maintaining development speed",
-          "url": "https://openai.com/index/legalon-halves-codex-costs",
-          "date": "2026-10-08",
-          "domain": "AI",
-          "topic_id": "ai-agent",
-          "sources": [
-            "OpenAI"
-          ],
-          "platform": "公开发布",
-          "first_seen": "2026-10-19T06:16:07.398604+00:00",
-          "last_seen": "2026-10-21T01:35:22.658269+00:00",
-          "label": "按任务匹配模型与预算",
-          "note": "LegalOn案例讨论模型分工，并提出以功能发布连接投入和客户价值。"
-        },
-        {
-          "id": "ec8a3eed6e1b",
-          "title": "AI Gateway logs now show session affinity",
-          "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
-          "date": "2026-10-18",
-          "domain": "AI",
-          "topic_id": "ai-other",
-          "sources": [
-            "Vercel"
-          ],
-          "platform": "博客",
-          "first_seen": "2026-10-19T06:16:07.398604+00:00",
-          "last_seen": "2026-10-22T01:31:24.548350+00:00",
-          "label": "会话日志汇总费用与缓存",
-          "note": "Vercel增加会话视图，按整段会话查看模型、提供方、成本和缓存。"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "topic_mode": "category"

@@ -9861,6 +9861,20 @@
       "last_seen": "2026-11-16T02:43:21.807806+00:00"
     },
     {
+      "id": "manual-reddit-20261115-tirzepatide-resistance",
+      "title": "Resistance exercise to attenuate lean mass loss during tirzepatide treatment",
+      "url": "https://www.reddit.com/r/GLP1ResearchTalk/comments/1xx12uc/resistance_exercise_to_attenuate_lean_mass_loss/",
+      "date": "2026-11-15",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "GLP1ResearchTalk community"
+      ],
+      "platform": "Reddit",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00"
+    },
+    {
       "id": "2e8f421d2ee2",
       "title": "A step toward defining the Standard Model on a lattice",
       "url": "https://openai.com/index/step-toward-defining-the-standard-model",
@@ -10169,6 +10183,20 @@
       "last_seen": "2026-11-18T08:00:23+08:00"
     },
     {
+      "id": "manual-acl-athlete-20261119-guilt",
+      "title": "Feeling Guilt After Your ACL Injury",
+      "url": "https://www.theaclathlete.com/episode-303-feeling-guilt-after-your-acl-injury/",
+      "date": "2026-11-19",
+      "domain": "运动健康",
+      "topic_id": "health-rtp",
+      "sources": [
+        "Ravi Patel"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00"
+    },
+    {
       "id": "manual-hn-50550700",
       "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
       "url": "https://news.ycombinator.com/item?id=50550700",
@@ -10225,6 +10253,20 @@
       "last_seen": "2026-11-20T08:03:00+08:00"
     },
     {
+      "id": "manual-cu-20261120-exercise-snacks",
+      "title": "Exercise Snacks and Blood Sugar",
+      "url": "https://news.cuanschutz.edu/department-of-medicine/exercise-snacks-and-blood-sugar",
+      "date": "2026-11-20",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "University of Colorado Anschutz"
+      ],
+      "platform": "机构新闻",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00"
+    },
+    {
       "id": "manual-hn-50554973",
       "title": "Show HN: ADE Index – a sourced and ranked index of 975 agentic coding tools",
       "url": "https://news.ycombinator.com/item?id=50554973",
@@ -10239,6 +10281,34 @@
       "last_seen": "2026-11-21T08:42:00+08:00"
     },
     {
+      "id": "manual-hn-50577265",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://news.ycombinator.com/item?id=50577265",
+      "date": "2026-11-20",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Jiajun Fan et al. / Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00"
+    },
+    {
+      "id": "manual-metr-20261120-capability-update",
+      "title": "Q4 2026 capability update",
+      "url": "https://evals.alignment.org/blog/2026-11-20-q4-2026-capability-update/",
+      "date": "2026-11-20",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "METR"
+      ],
+      "platform": "研究博客",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00"
+    },
+    {
       "id": "manual-training-science-20261120-hiit",
       "title": "The Science of Time-Efficient Training: HIIT, Fitness, and Exercise Snacks",
       "url": "https://www.buzzsprout.com/1917060/episodes/20146206-the-science-of-time-efficient-training-hiit-fitness-and-exercise-snacks-with-xinyu-zeng-mingyue-yin-and-dr-martin-buchheit",
@@ -10251,6 +10321,20 @@
       "platform": "播客",
       "first_seen": "2026-11-21T08:42:00+08:00",
       "last_seen": "2026-11-21T08:42:00+08:00"
+    },
+    {
+      "id": "manual-hpp-20261121-gpp",
+      "title": "44. GPP",
+      "url": "https://metacast.app/podcast/high-performance-physiology/8gNI3hBN/44-gpp/SJjp3eFN",
+      "date": "2026-11-21",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Chris Beardsley / Rob Mauceri"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00"
     }
   ]
 }
