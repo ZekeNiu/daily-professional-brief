@@ -102,6 +102,14 @@ def sync(root):
     latest_at = max((stamp(x['last_seen']) for x in records.values()), default=None)
     if latest_at:
         cutoff = (latest_at.astimezone(TZ).date() - dt.timedelta(days=44)).isoformat()
+        # Keep enough source history to reproduce every published social
+        # snapshot. A rolling cutoff based only on the newest observation made
+        # the oldest 14-day window lose one day on every new edition, which in
+        # turn invalidated its stored AI topic fingerprint.
+        edition_dates = sorted(p.stem for p in out.glob('????-??-??.json') if DATE.fullmatch(p.name))
+        if edition_dates:
+            archive_cutoff = (dt.date.fromisoformat(edition_dates[0]) - dt.timedelta(days=13)).isoformat()
+            cutoff = min(cutoff, archive_cutoff)
         records = {k: x for k, x in records.items() if x['date'] >= cutoff}
     all_records = sorted(records.values(), key=lambda x: (x['date'], x['id']))
     write(out / 'observations.json', {'version': 1, 'items': all_records})

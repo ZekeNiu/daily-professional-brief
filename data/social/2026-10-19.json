@@ -255,28 +255,6 @@
         }
       ],
       "chart_label": "运动治疗与活动维持"
-    },
-    {
-      "id": "agent-cost",
-      "domain": "AI",
-      "title": "Agent成本：从单价看到整段任务",
-      "change": "模型分工与会话日志，把费用、缓存和任务产出放进同一视野。",
-      "meaning": "按完整任务记录模型组合、费用、缓存命中和完成时间，更容易解释一次工作究竟花在哪里。",
-      "confidence": "中",
-      "confidence_reason": "一项官方客户案例与一项日志功能发布相互补充，反映运行管理方向。",
-      "references": [
-        {
-          "url": "https://openai.com/index/legalon-halves-codex-costs",
-          "label": "按任务匹配模型与预算",
-          "note": "LegalOn案例讨论模型分工，并提出以功能发布连接投入和客户价值。"
-        },
-        {
-          "url": "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity",
-          "label": "会话日志汇总费用与缓存",
-          "note": "Vercel增加会话视图，按整段会话查看模型、提供方、成本和缓存。"
-        }
-      ],
-      "chart_label": "Agent任务成本"
     }
   ]
 }
