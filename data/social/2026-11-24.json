@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-24",
+  "version": 1,
+  "observed_at": "2026-11-24T08:32:00+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-24",
+  "summary": {
+    "total": 5,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 0,
+      "AI": 4
+    },
+    "signal": "今天最有实践价值的共同线索是‘先缩小问题再投入资源’：恢复营养先分清肝糖原与肌糖原，数据工具先生成可检查的图，编码Agent先把会话状态和压缩机制做稳。"
+  },
+  "navigation": {
+    "prev": "2026-11-23",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：糖原恢复不是单一时间线，短恢复窗口需要分别处理肝脏与肌肉储备。",
+    "AI": "本板块重点：本期讨论集中在可检查的数据界面、Agent会话可靠性和科研工具可及性，而非单纯模型分数。"
+  },
+  "items": [
+    {
+      "id": "s-20261124-glycogen-recovery-clocks",
+      "domain": "运动科学",
+      "title": "How fast do liver and muscle glycogen recover after hard exercise?",
+      "short_title": "肝糖原与肌糖原按不同时间线恢复",
+      "priority": "重点关注",
+      "one_liner": "mysportscience梳理直接测量：10 g/kg碳水可使肝糖原6小时内超过基线，但肌糖原12小时仅恢复到基线约69%。",
+      "what": "Cas Fuchs基于13C磁共振和既有试验解释两类储备差异：一项12名训练良好男性自行车手研究中，运动后12小时摄入10 g/kg碳水，肝糖原6小时达基线142%，肌糖原6小时和12小时分别为55%和69%；葡萄糖加果糖更快补肝糖原。",
+      "why": "‘24小时补满糖原’把两个组织和不同恢复窗口混在一起；连续比赛或同日双课时，这种简化会改变补给选择。",
+      "practice": "下一次高强度训练在8小时内时，尽早按约1.2 g/kg/小时补碳水；需要同时恢复肝糖原时加入葡萄糖—果糖组合。若间隔超过一天，总日摄入比第一餐时点更重要。",
+      "evidence": "专家证据综述博客，引用直接13C MRS与运动营养试验；非新干预研究。",
+      "confidence": "中",
+      "confidence_reason": "核心数字有原始研究支撑；主要样本为训练良好男性自行车手。",
+      "source": {
+        "label": "mysportscience",
+        "url": "https://www.mysportscience.com/post/how-fast-do-liver-and-muscle-glycogen-recover-after-hard-exercise"
+      },
+      "limit": "",
+      "author": "Cas Fuchs",
+      "platform": "专业博客",
+      "published_date": "2026-11-24"
+    },
+    {
+      "id": "s-20261124-datasette-charts",
+      "domain": "AI",
+      "title": "Release: datasette-charts 0.1a0",
+      "short_title": "Datasette新增数据驱动的可检查图表面板",
+      "priority": "值得了解",
+      "one_liner": "Simon Willison发布datasette-charts 0.1a0，把数据表中的图表建议与实际全量查询结果结合，并可在Datasette Lite直接试用。",
+      "what": "该插件在表格页展示候选图表与自然语言说明，建议可基于样本生成，但实际图表查询使用完整数据；首个原型由Claude Fable 5.2协助构建，现已形成可安装插件。",
+      "why": "它把‘AI建议画什么’与‘由数据库执行什么’分开，使图表仍由可检查查询驱动，降低模型直接生成数字的风险。",
+      "practice": "探索数据时让模型负责候选视图与说明，让数据库负责聚合和过滤；把最终查询、字段和分组条件与图表一起保存。",
+      "evidence": "开发者发布与可运行alpha插件；无系统可用性或正确率评测。",
+      "confidence": "中",
+      "confidence_reason": "功能和代码可直接核验；仍为0.1 alpha。",
+      "source": {
+        "label": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/"
+      },
+      "limit": "",
+      "author": "Simon Willison",
+      "platform": "开发者博客 / GitHub",
+      "published_date": "2026-11-23"
+    },
+    {
+      "id": "s-20261124-ladybird-alpha",
+      "domain": "AI",
+      "title": "Ladybird’s first alpha release",
+      "short_title": "Ladybird首个alpha提供独立浏览器栈",
+      "priority": "快讯",
+      "one_liner": "Ladybird首次发布可直接安装的alpha，以自研HTML、CSS、布局、JavaScript和WebAssembly栈提供新的浏览器与自动化测试目标。",
+      "what": "项目为macOS和Linux提供预编译安装包；核心解析、布局与脚本引擎独立实现，同时使用HarfBuzz、Skia、ffmpeg和SQLite等外部组件。Simon Willison的实测称常用网站可运行，但项目仍明确处于alpha。",
+      "why": "对网页工具与浏览器Agent而言，多一个独立实现可暴露仅在Chromium/WebKit环境中被掩盖的兼容性假设。",
+      "practice": "可把它加入非阻断性的兼容性试跑，记录渲染、脚本和自动化差异；不要作为生产默认浏览器或唯一测试环境。",
+      "evidence": "独立开发者实测与项目alpha发布；无标准化兼容性基准。",
+      "confidence": "中",
+      "confidence_reason": "版本与架构事实明确；稳定性和覆盖率尚处早期。",
+      "source": {
+        "label": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Nov/23/ladybird/"
+      },
+      "limit": "",
+      "author": "Simon Willison / Ladybird",
+      "platform": "开发者博客 / 开源项目",
+      "published_date": "2026-11-23"
+    },
+    {
+      "id": "s-20261124-kimi-code-280-canary",
+      "domain": "AI",
+      "title": "Kimi Code CLI 2.8.0-canary.20261123144244-c0e9faf",
+      "short_title": "Kimi Code重构运行循环并补强会话恢复",
+      "priority": "值得了解",
+      "one_liner": "Kimi Code 2.8.0 canary把运行循环改为独立状态机，并修复压缩恢复、原始工具参数保存、MCP按需启动和跨主机会话锁。",
+      "what": "预发布版本包含独立turn状态机、延迟工具解析、空文本历史压缩恢复、恢复时保留原始工具调用字节、仅在使用时启动项目MCP服务，并记录工具时长。另移除实验性子Agent上下文分叉。",
+      "why": "长时编码Agent的可靠性常被会话恢复、压缩和工具生命周期击穿；这些改动直接影响可重复性和资源占用，比界面功能更接近生产痛点。",
+      "practice": "只在隔离项目评估canary，重点回归中断恢复、压缩前后工具参数、MCP启动/关闭和并发锁；生产环境继续使用稳定版。",
+      "evidence": "GitHub预发布日志与合并记录；canary版本，未提供独立性能基准。",
+      "confidence": "高",
+      "confidence_reason": "变更记录和提交可核实；实际稳定性需使用方回归。",
+      "source": {
+        "label": "MoonshotAI / GitHub Releases",
+        "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.8.0-canary.20261123144244-c0e9faf"
+      },
+      "limit": "",
+      "author": "MoonshotAI Kimi Code",
+      "platform": "GitHub Releases",
+      "published_date": "2026-11-23"
+    },
+    {
+      "id": "s-20261124-academic-researchers-open",
+      "domain": "AI",
+      "title": "Broadening access to AI for scientists",
+      "short_title": "ChatGPT科研项目11月23日开放新一轮申请",
+      "priority": "快讯",
+      "one_liner": "OpenAI科研支持项目开放申请，合格团队可获得最多3个ChatGPT Plus席位、最长12个月，计划覆盖最多20万名研究者。",
+      "what": "11月16日公告的ChatGPT for Academic Researchers项目于11月23日开放申请。自助方案为获批研究者及最多两名合格学术合作者提供3个Plus席位，最长12个月；提交不保证获批。",
+      "why": "对尚无机构级AI预算的研究团队，这是可直接降低工具试用门槛的资源，但席位和资格限制决定它更适合小团队验证工作流。",
+      "practice": "申请时用具体研究任务说明用途，并预先定义数据敏感性、人工复核和可复现记录；把免费席位用于验证流程价值，而非默认上传受限数据。",
+      "evidence": "OpenAI官方项目公告与帮助中心资格说明；项目可用性事实，不是效果研究。",
+      "confidence": "高",
+      "confidence_reason": "申请日期、席位与期限由官方明确。",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/"
+      },
+      "limit": "",
+      "author": "OpenAI",
+      "platform": "官方公告",
+      "published_date": "2026-11-16",
+      "references": [
+        {
+          "label": "项目帮助页（11月23日开放）",
+          "url": "https://help.openai.com/en/articles/20001406-chatgpt-for-academic-researchers"
+        }
+      ]
+    }
+  ],
+  "professional_judgment": [
+    "恢复营养先问下一次高质量输出距离现在多久，再决定总量、时点与糖类型；‘运动后马上吃’不是所有情境下同等重要。",
+    "AI工具的可信工作流应保留可检查中间层：数据库查询支撑图表、版本日志支撑Agent升级、权限规则支撑科研数据使用。",
+    "预发布Agent的价值主要在暴露状态管理和工具生命周期问题；canary适合回归测试，不适合因为功能多就直接进入生产。"
+  ],
+  "trends_url": "data/social/trends/2026-11-24.json"
+}

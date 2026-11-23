@@ -1522,5 +1522,65 @@
     "observed_at": "2026-11-23T07:58:28+08:00",
     "date_verified": true,
     "platform": "官方Changelog"
+  },
+  {
+    "id": "manual-mysportscience-20261124-glycogen-recovery",
+    "title": "How fast do liver and muscle glycogen recover after hard exercise?",
+    "url": "https://www.mysportscience.com/post/how-fast-do-liver-and-muscle-glycogen-recover-after-hard-exercise",
+    "domain": "运动科学",
+    "source_author": "Cas Fuchs",
+    "author_id": "mysportscience-cas-fuchs",
+    "published_at": "2026-11-24",
+    "observed_at": "2026-11-24T08:32:00+08:00",
+    "date_verified": true,
+    "platform": "专业博客"
+  },
+  {
+    "id": "manual-simonwillison-20261123-datasette-charts",
+    "title": "Release: datasette-charts 0.1a0",
+    "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+    "domain": "AI",
+    "source_author": "Simon Willison",
+    "author_id": "simon-willison",
+    "published_at": "2026-11-23",
+    "observed_at": "2026-11-24T08:32:00+08:00",
+    "date_verified": true,
+    "platform": "开发者博客 / GitHub"
+  },
+  {
+    "id": "manual-simonwillison-20261123-ladybird-alpha",
+    "title": "Ladybird’s first alpha release",
+    "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+    "domain": "AI",
+    "source_author": "Simon Willison / Ladybird",
+    "author_id": "simon-willison",
+    "published_at": "2026-11-23",
+    "observed_at": "2026-11-24T08:32:00+08:00",
+    "date_verified": true,
+    "platform": "开发者博客 / 开源项目"
+  },
+  {
+    "id": "manual-moonshot-20261123-kimi-code-280-canary",
+    "title": "Kimi Code CLI 2.8.0-canary.20261123144244-c0e9faf",
+    "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.8.0-canary.20261123144244-c0e9faf",
+    "domain": "AI",
+    "source_author": "MoonshotAI Kimi Code",
+    "author_id": "moonshotai-kimi-code",
+    "published_at": "2026-11-23",
+    "observed_at": "2026-11-24T08:32:00+08:00",
+    "date_verified": true,
+    "platform": "GitHub Releases"
+  },
+  {
+    "id": "manual-openai-20261116-academic-researchers",
+    "title": "Broadening access to AI for scientists",
+    "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+    "domain": "AI",
+    "source_author": "OpenAI",
+    "author_id": "openai",
+    "published_at": "2026-11-16",
+    "observed_at": "2026-11-24T08:32:00+08:00",
+    "date_verified": true,
+    "platform": "官方公告"
   }
 ]

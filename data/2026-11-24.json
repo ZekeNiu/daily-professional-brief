@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-24",
+  "title": "每日专业资讯简报｜2026-11-24",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 4
+    },
+    "signal": "最重要的进展是：今天多项看似积极的技术结果都提示先区分‘测到了变化’与‘足以改变实践’——外骨骼提高了单次步行负荷，耳戴设备能准确测心率但不能可靠替代乳酸，哮喘吸气肌训练的名义改善在多重校正后不再成立。"
+  },
+  "navigation": {
+    "prev": "2026-11-23",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：新设备可以改变训练刺激或提高测量便利性，但处方价值必须由目标变量、参照标准和重复验证分别确认。",
+    "运动健康": "本板块重点：短期康复增益需要同时看效应量、统计方案和人群阶段，不能由单个显著指标直接升级为常规处方。",
+    "AI": "本板块重点：AI工作流正在同时向更细粒度的输入控制、运行时安全和组织重构推进，模型之外的系统设计成为主要杠杆。"
+  },
+  "items": [
+    {
+      "id": "j-20261124-hip-exoskeleton-walking",
+      "domain": "运动科学",
+      "title": "Acute physiological responses to robotic hip-exoskeleton-resisted walking: a randomized three-condition crossover trial in healthy adults",
+      "short_title": "髋外骨骼可在同等时长内提高步行负荷",
+      "priority": "重点关注",
+      "one_liner": "40名成人的随机交叉试验中，抗阻髋外骨骼使心率增加约11.9次/分、净代谢成本增加3.12 ml/kg/min，并提高股直肌激活。",
+      "what": "40名20–59岁健康成人完成三种20分钟跑台步行：无设备连续步行、外骨骼抗阻连续步行和外骨骼间歇步行。相较无设备，连续抗阻条件的股直肌激活增加2.29%MVC（95%CI 0.79–3.79），心率增加11.90次/分，净代谢成本增加3.12 ml/kg/min；未报告不良事件。",
+      "why": "这说明可穿戴抗阻能在不延长训练时间的情况下提高心肺和局部肌肉刺激，但研究只测量单次反应，尚未证明训练适应或康复收益。",
+      "practice": "可把外骨骼抗阻作为步行训练的负荷调节工具，用心率和症状设定强度，并单独观察目标肌群是否真正增加激活；不要把单次代谢负荷上升直接解释为长期体能或功能改善。",
+      "evidence": "同行评审随机三条件交叉试验；健康成人n=40，肌电完整n=36、气体交换与心率完整n=29。",
+      "confidence": "中",
+      "confidence_reason": "组内交叉设计和客观测量支持急性效应；缺少长期训练和临床人群结果。",
+      "source": {
+        "label": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://doi.org/10.1186/s13102-026-02228-0"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261124-momentum-earbud-validation",
+      "domain": "运动科学",
+      "title": "Assessment of the MOMENTUM sport earbud for multi-parametric physiological tracking and exploratory lactate modeling during incremental exercise",
+      "short_title": "运动耳机心率准确，乳酸预测仍不可用",
+      "priority": "值得了解",
+      "one_liner": "36名成人递增骑行中，耳机心率MAE为0.89次/分；乳酸模型虽相关r=0.84，但MAE达1.53 mmol/L、MAPE 48.8%。",
+      "what": "MOMENTUM Sport耳机与Polar H10比较的心率MAE为0.89次/分、RMSE为1.10次/分；耳道温度与红外耳温计MAE为0.35℃。基于心率和温度的留一受试者乳酸模型相关r=0.84，但误差界限约−4.52至4.55 mmol/L，高强度阶段还出现集中信号丢失。",
+      "why": "高相关不等于可替代测量；对个体阈值训练而言，1.53 mmol/L平均误差和宽一致性界限会实质改变分区判断。",
+      "practice": "可把该设备用于实验室骑行中的心率趋势记录；温度只视为耳道设备间一致性，乳酸输出只作研究特征，不用于个体阈值或补给决策。",
+      "evidence": "同行评审设备验证与探索性建模；健康成人n=36，乳酸建模有效样本n=23，室内递增骑行。",
+      "confidence": "中",
+      "confidence_reason": "心率参照和误差清楚；温度参照非核心体温金标准，乳酸模型样本小且个体误差大。",
+      "source": {
+        "label": "Scientific Reports",
+        "url": "https://doi.org/10.1038/s41598-026-80803-8"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261124-para-handcycle-dataset",
+      "domain": "运动科学",
+      "title": "An N-of-1 longitudinal and multimodal physiological dataset from para-handcycling training and endurance competition",
+      "short_title": "脊髓损伤耐力训练新增长期多模态数据",
+      "priority": "快讯",
+      "one_liner": "一项N-of-1开放数据集记录残疾人手摇车训练与耐力比赛的纵向生理数据，可用于个体化信号处理和监测方法开发。",
+      "what": "作者公开一名脊髓损伤手摇车运动者在训练和耐力赛事中的纵向多模态生理数据，并提供采集与质量控制说明，目标是支持信号处理、个体监测和假设生成。",
+      "why": "残疾人耐力运动的高频纵向开放数据稀缺；即使单例不能估计群体效应，也能用于方法复现、异常检测和跨传感器同步测试。",
+      "practice": "研究团队可把它作为算法开发和数据管线测试集，明确把结果限定为单人方法验证；若用于模型训练，应避免把同一人的时间切片同时分到训练集和测试集。",
+      "evidence": "同行评审Data Descriptor；单名脊髓损伤参与者的纵向多模态开放数据。",
+      "confidence": "中",
+      "confidence_reason": "数据与采集流程可复用；单例只支持方法开发，不支持群体训练处方。",
+      "source": {
+        "label": "Scientific Data",
+        "url": "https://doi.org/10.1038/s41597-026-08691-1"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261124-asthma-imt-rct",
+      "domain": "运动健康",
+      "title": "Inspiratory muscle training added to routine care in adults with asthma: an outcome-assessor–blinded randomized clinical trial of oscillometric, spirometric, symptomatic, and functional outcomes",
+      "short_title": "哮喘吸气肌训练的名义收益未通过多重校正",
+      "priority": "重点关注",
+      "one_liner": "120名中度哮喘成人中，6周吸气肌训练名义上改善FEV₁、呼吸困难和6分钟步行，但11项结局经Holm校正后均未达显著。",
+      "what": "稳定后的急性哮喘加重患者被分配到常规照护加吸气肌训练或常规照护，102人有完整数据。FEV₁组间差4.94个百分点（95%CI 1.54–8.34，原始p=0.005，Holm校正p=0.053），6分钟步行差23.95米；所有11项结局在事后多重校正后均未达标准。",
+      "why": "如果只看原始p值会得到‘有效’结论，而完整分析说明当前试验不足以确立疗效；这直接影响是否应把方案列为常规。",
+      "practice": "可在研究或个别临床试用中按30%最大吸气压、每周2次、6周监测，但目前不把它作为急性加重后常规方案；预先指定主要结局和多重比较方案应成为下一试验重点。",
+      "evidence": "同行评审、评估者盲法随机试验；中度哮喘成人n=120，完整病例n=102，6周。",
+      "confidence": "中",
+      "confidence_reason": "随机设计和效应估计清楚；主要结局定义与多重校正存在事后分析问题，且随访短。",
+      "source": {
+        "label": "BMC Pulmonary Medicine",
+        "url": "https://doi.org/10.1186/s12890-026-05025-0"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261124-stroke-tdcs-vr-rct",
+      "domain": "运动健康",
+      "title": "Effects of transcranial direct current stimulation combined with virtual reality training on lower-limb motor function and balance in individuals recovering from stroke: a randomized controlled trial",
+      "short_title": "tDCS叠加VR短期改善卒中步行与平衡",
+      "priority": "值得了解",
+      "one_liner": "59名卒中恢复期患者中，tDCS叠加VR训练4周后，6分钟步行较VR单独训练多改善66.38米，Berg平衡量表多5.44分。",
+      "what": "60人随机分组，59人完成。两组均接受常规康复和每周5天、4周VR训练，实验组增加主动tDCS。组间差异包括FMA-LE 2.47分、BBS 5.44分、TUG −2.22秒、6MWT 66.38米和MBI 6.79分。",
+      "why": "结果覆盖功能、平衡和步行，不只是机制指标；但研究没有假刺激对照，参与者可能知道是否接受tDCS，且只观察4周。",
+      "practice": "如已有tDCS设备与合规流程，可把它作为VR训练的可测试附加项，并用步行、平衡和日常活动结局追踪；现阶段不应替代任务导向训练或常规康复。",
+      "evidence": "同行评审随机对照试验；卒中恢复期n=60，完成n=59，4周，结局评估者盲法。",
+      "confidence": "中",
+      "confidence_reason": "多项功能结局方向一致且效应较大；无假刺激对照、单中心且无长期随访。",
+      "source": {
+        "label": "Journal of NeuroEngineering and Rehabilitation",
+        "url": "https://doi.org/10.1186/s12984-026-02224-y"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261124-wb-ems-sarcopenia",
+      "domain": "运动健康",
+      "title": "Does whole-body electromyostimulation improve functional, compositional, and biochemical outcomes in older women with sarcopenia? A randomized controlled trial",
+      "short_title": "全身电刺激小试验显示功能改善信号",
+      "priority": "快讯",
+      "one_liner": "32名60–70岁肌少症女性的8周试验报告平衡、握力、功能和体成分改善，但无分配隐藏、开放标签且试验回顾性注册。",
+      "what": "参与者每周2次、每次23分钟接受85 Hz全身肌电刺激，30人完成。研究报告平衡、握力、功能容量、骨骼肌量和肌因子方向改善；公开摘要未给出主要结局的完整组间效应量。",
+      "why": "方案时间成本低，可能适合难以完成传统抗阻训练者，但设计和报告不足会放大阳性结果，不能据此与标准抗阻训练等同。",
+      "practice": "仅把WB-EMS视为无法开展常规抗阻训练时的候选补充，并记录功能结局和皮肤/耐受反应；不要用体重或肌因子变化替代力量与活动能力。",
+      "evidence": "同行评审小样本随机试验；肌少症女性n=32，完成n=30，开放标签、无分配隐藏、回顾性注册。",
+      "confidence": "低",
+      "confidence_reason": "随机分组提供初步信号；样本小、偏倚风险高且摘要缺少关键效应量。",
+      "source": {
+        "label": "BMC Musculoskeletal Disorders",
+        "url": "https://doi.org/10.1186/s12891-026-10707-1"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261124-gemini-file-slicing",
+      "domain": "AI",
+      "title": "Introducing file slicing controls in the Gemini API",
+      "short_title": "Gemini API可按页、单元格和时间段读取文件",
+      "priority": "重点关注",
+      "one_liner": "Gemini API新增服务端文件切片，可只加载PDF页、表格区域、音视频片段与指定内容层，并仅按实际检查部分计费Token。",
+      "what": "Google为Gemini 4系列开放原生文件切片和Office/OpenDocument上传。开发者可指定页码、工作表与可见单元格、音视频起止时间、帧率、分辨率，以及文本、图像、公式、转录等内容层；同一Files API URI可跨轮复用。",
+      "why": "这把‘先粗读再局部高分辨率检查’变成API原生能力，可减少整份文档渲染、Token浪费和本地LibreOffice/ffmpeg沙箱负担。",
+      "practice": "长文档Agent可先以文本层低成本定位，再对目标页、图表或片段高分辨率复核；同时记录切片范围，防止模型因未读取相邻上下文而给出过度结论。",
+      "evidence": "Google官方产品公告与API功能说明；已在Google AI Studio和Gemini平台提供，厂商案例非独立基准。",
+      "confidence": "高",
+      "confidence_reason": "接口参数、可用范围和计费逻辑由官方明确；实际节省幅度依任务而定。",
+      "source": {
+        "label": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261124-openai-shirudo",
+      "domain": "AI",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "short_title": "Shirudo用临时运行时护盾覆盖补丁窗口",
+      "priority": "值得了解",
+      "one_liner": "OpenAI与Cisco发布开源Linux运行时防护项目，在受控测试中由Codex生成的护盾阻断Java4Shell利用且无需重启服务。",
+      "what": "Shirudo让团队在正式补丁完成前测试并部署临时‘shield’，目标是在阻断漏洞触发行为的同时保留合法请求。官方示例是在运行中的Elasticsearch服务上阻断Java4Shell攻击；公开结果目前是单一受控测试。",
+      "why": "它瞄准从漏洞披露到补丁测试上线之间的暴露窗口，也展示了生成式AI从写补丁转向生成可审计运行时控制。",
+      "practice": "只在隔离环境复现漏洞与正常流量后，由安全人员批准护盾；把它视为临时补偿控制，继续完成正式修复、回归测试和护盾撤除。",
+      "evidence": "OpenAI与Cisco官方开源项目公告；单个受控攻击测试，尚无大规模生产独立评估。",
+      "confidence": "中",
+      "confidence_reason": "项目和测试事实可核实；泛化防护效果、误拦截率与生产稳定性未知。",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/introducing-shirudo/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261124-neuron-safety-applications",
+      "domain": "AI",
+      "title": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications",
+      "short_title": "单神经元可辅助检测隐藏行为与伪遗忘",
+      "priority": "值得了解",
+      "one_liner": "Anthropic实验显示筛选出的MLP神经元通常优于关键词或相似度检索检测有害文本，并揭示多种‘遗忘’方法更像隐藏而非删除知识。",
+      "what": "研究在开放权重模型中按激活语境和输出贡献选择神经元，将其用于零样本检测、行为引导、微调隐藏行为审计和遗忘机制分析。神经元检测通常优于关键词与相似度方法，但一般不如有标签训练的分类器；引导效果与训练方法相近。",
+      "why": "无需额外训练的内部特征可成为安全审计的低成本补充，尤其适合寻找微调后隐藏行为；同时，行为不再出现并不证明知识被真正删除。",
+      "practice": "模型审计可把神经元分析作为红队线索生成器，与监督分类器、行为测试和权重层检查并用；对‘unlearning’必须加入可恢复性和绕过测试。",
+      "evidence": "Anthropic研究博客与开放权重模型实验；方法研究，未证明适用于所有架构或闭源模型。",
+      "confidence": "中",
+      "confidence_reason": "多任务结果方向明确；仍是单团队实验，覆盖模型范围有限。",
+      "source": {
+        "label": "Anthropic Alignment Science",
+        "url": "https://alignment.anthropic.com/2026/neuron-basis-applications/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261124-working-with-ai",
+      "domain": "AI",
+      "title": "Working with AI",
+      "short_title": "企业AI价值更常来自重组工作而非裁员",
+      "priority": "快讯",
+      "one_liner": "Anthropic对58家客户开展66次访谈：多数案例将价值归因于扩大产出；直接裁员少见，但减少招聘和外包更常被报告。",
+      "what": "访谈显示编码Agent正在把软件能力带给非技术岗位；企业更常报告用AI加速或扩展产出，而不是直接降本。常见瓶颈从编码转移到代码审查、销售和战略决策，高价值案例往往伴随角色扩大、数据接入和流程重构。",
+      "why": "单点自动化会把瓶颈推向下游；如果岗位、审核和数据权限不变，模型能力提升未必转化为端到端吞吐。",
+      "practice": "评估AI项目时同时记录端到端周期、下游等待、质量返工、招聘和外包变化；优先重构完整流程，而不是只统计单任务节省时间。",
+      "evidence": "Anthropic经济研究定性访谈；58家企业客户、66次访谈，样本为厂商客户且非代表性调查。",
+      "confidence": "中",
+      "confidence_reason": "访谈样本和主题透明；选择偏差明显，不能推断整个劳动力市场。",
+      "source": {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/research/working-with-ai"
+      },
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "设备评估先按用途拆开：今天的耳戴设备足以支持心率趋势，却不足以替代乳酸或核心体温；同一硬件上的不同指标不能共享一个‘准确’结论。",
+    "康复研究的统计方案会直接改变行动强度。哮喘吸气肌训练在原始p值下看似积极，经多重校正后却不足以确立疗效；这类结果应进入下一步验证，而不是立即进入常规路径。",
+    "AI工作流的新增杠杆主要在模型之外：切片输入降低上下文成本，运行时护盾缩短漏洞暴露窗口，组织重构决定局部提速能否变成端到端产出。"
+  ],
+  "trends_url": "data/trends/2026-11-24.json"
+}
