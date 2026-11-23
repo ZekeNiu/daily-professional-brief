@@ -10001,6 +10001,20 @@
       "last_seen": "2026-11-16T02:43:21.807806+00:00"
     },
     {
+      "id": "manual-openai-20261116-academic-researchers",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "官方公告",
+      "first_seen": "2026-11-24T08:32:00+08:00",
+      "last_seen": "2026-11-24T08:32:00+08:00"
+    },
+    {
       "id": "github-copilot-browser-20261117",
       "title": "Let GitHub Copilot interact with your browser",
       "url": "https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/",
@@ -10419,6 +10433,62 @@
       "platform": "专业机构活动",
       "first_seen": "2026-11-23T07:58:28+08:00",
       "last_seen": "2026-11-23T07:58:28+08:00"
+    },
+    {
+      "id": "manual-moonshot-20261123-kimi-code-280-canary",
+      "title": "Kimi Code CLI 2.8.0-canary.20261123144244-c0e9faf",
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.8.0-canary.20261123144244-c0e9faf",
+      "date": "2026-11-23",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "MoonshotAI Kimi Code"
+      ],
+      "platform": "GitHub Releases",
+      "first_seen": "2026-11-24T08:32:00+08:00",
+      "last_seen": "2026-11-24T08:32:00+08:00"
+    },
+    {
+      "id": "manual-simonwillison-20261123-datasette-charts",
+      "title": "Release: datasette-charts 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+      "date": "2026-11-23",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "开发者博客 / GitHub",
+      "first_seen": "2026-11-24T08:32:00+08:00",
+      "last_seen": "2026-11-24T08:32:00+08:00"
+    },
+    {
+      "id": "manual-simonwillison-20261123-ladybird-alpha",
+      "title": "Ladybird’s first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "date": "2026-11-23",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "Simon Willison / Ladybird"
+      ],
+      "platform": "开发者博客 / 开源项目",
+      "first_seen": "2026-11-24T08:32:00+08:00",
+      "last_seen": "2026-11-24T08:32:00+08:00"
+    },
+    {
+      "id": "manual-mysportscience-20261124-glycogen-recovery",
+      "title": "How fast do liver and muscle glycogen recover after hard exercise?",
+      "url": "https://www.mysportscience.com/post/how-fast-do-liver-and-muscle-glycogen-recover-after-hard-exercise",
+      "date": "2026-11-24",
+      "domain": "运动科学",
+      "topic_id": "sport-speed",
+      "sources": [
+        "Cas Fuchs"
+      ],
+      "platform": "专业博客",
+      "first_seen": "2026-11-24T08:32:00+08:00",
+      "last_seen": "2026-11-24T08:32:00+08:00"
     }
   ]
 }

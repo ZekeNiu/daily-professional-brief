@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-11-24",
+    "title": "社媒热点",
+    "summary_title": "社媒热点",
+    "signal": "今天最有实践价值的共同线索是‘先缩小问题再投入资源’：恢复营养先分清肝糖原与肌糖原，数据工具先生成可检查的图，编码Agent先把会话状态和压缩机制做稳。",
+    "total": 5,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 0,
+      "AI": 4
+    },
+    "highlights": [
+      "mysportscience梳理直接测量：10 g/kg碳水可使肝糖原6小时内超过基线，但肌糖原12小时仅恢复到基线约69%。",
+      "Simon Willison发布datasette-charts 0.1a0，把数据表中的图表建议与实际全量查询结果结合，并可在Datasette Lite直接试用。",
+      "Ladybird首次发布可直接安装的alpha，以自研HTML、CSS、布局、JavaScript和WebAssembly栈提供新的浏览器与自动化测试目标。"
+    ]
+  },
+  {
     "date": "2026-11-23",
     "title": "社媒热点",
     "summary_title": "社媒热点",
