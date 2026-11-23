@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-23",
+  "version": 1,
+  "observed_at": "2026-11-23T07:58:28+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-23",
+  "summary": {
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 1,
+      "AI": 4
+    },
+    "signal": "今天最值得带回工作流的是‘把风险前移’：补剂在购买前查标签和检测，高风险赛事在事故前演练救援链，AI则在提交代码、执行工具和消耗云资源前设置扫描、验证与预算控制。"
+  },
+  "navigation": {
+    "prev": "2026-11-22",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：补剂决策先核对证据、标签、第三方检测和反兴奋剂风险。",
+    "运动健康": "本板块重点：高风险赛事医疗的核心不是临场反应，而是预先演练的救援链和明确分工。",
+    "AI": "本板块重点：Agent的真实成本与风险正在从模型输出扩展到凭证、验证器、知识维护和云沙箱。"
+  },
+  "items": [
+    {
+      "id": "s-20261123-aspetar-supplement-workshop",
+      "domain": "运动科学",
+      "title": "Sports Supplements: Benefits, Risks & Practical Use",
+      "short_title": "补剂教育把标签与反兴奋剂风险放进同一流程",
+      "priority": "快讯",
+      "one_liner": "Aspetar线上工作坊把五类有科学依据的补剂、标签审查、第三方检测和反兴奋剂风险放入同一个90分钟实践课程。",
+      "what": "Aspetar公布90分钟专业工作坊，含35分钟互动环节，内容覆盖五类有科学依据的补剂、标签审查、第三方检测、产品安全和反兴奋剂风险。公开页面未提供会后材料或具体效果数据。",
+      "why": "补剂决策常把‘成分是否有效’与‘具体产品是否合规安全’分开；实践中两者缺一不可，尤其是受反兴奋剂规则约束的运动员。",
+      "practice": "把补剂审批表拆成目标、证据、剂量、标签、批次第三方检测和禁用风险六项；本条只支持课程内容与流程方向，不代表工作坊已验证某产品有效。",
+      "evidence": "专业机构活动公告；课程安排可核实，无样本、结果或会后材料。",
+      "confidence": "中",
+      "confidence_reason": "活动事实明确；具体授课结论和效果无法从公开页核验。",
+      "source": {
+        "label": "Aspetar",
+        "url": "https://www.aspetar.com/en/professionals/our-events/sports-supplement-workshop"
+      },
+      "limit": "",
+      "author": "Aspetar",
+      "platform": "专业机构活动",
+      "published_date": "2026-11-22"
+    },
+    {
+      "id": "s-20261123-sailgp-emergency-drills",
+      "domain": "运动健康",
+      "title": "Emergency care at full foil: how preparation, teamwork and rehearsed drills keep SailGP sailors safe in Sassnitz",
+      "short_title": "高风险水上赛事靠演练救援链降延误",
+      "priority": "值得了解",
+      "one_liner": "SailGP医疗团队案例强调每日演练、明确分工和跨赛站电子病历；既有监测显示水翼航行伤病率为26.52/1000小时。",
+      "what": "BJSM Blog基于三天现场观察和团队访谈梳理SailGP水上救援链、每日演练、岗位分工和跨赛站电子病历。文章引用Season 4前瞻性监测：总体伤病率9.96/1000小时，水翼航行26.52/1000小时；本次观察未发生重大水上事故。",
+      "why": "高风险赛事的医疗质量主要取决于发现、接近、撤离和交接能否连续完成；仅有岸上医护能力无法解决水上延误。",
+      "practice": "赛事保障方案应把最坏场景拆成可计时演练，固定通信、船艇、装备与医院交接责任，并用每次演练和真实事件更新流程；三天无事故不能证明方案降低了伤病率。",
+      "evidence": "实践观察与团队访谈，结合既有前瞻性伤病监测数据；非干预效果研究。",
+      "confidence": "中",
+      "confidence_reason": "流程细节和历史发生率可核实；现场观察期短，不能建立因果效果。",
+      "source": {
+        "label": "BJSM Blog",
+        "url": "https://blogs.bmj.com/bjsm/2026/11/20/emergency-care-at-full-foil-how-preparation-teamwork-and-rehearsed-drills-keep-sailgp-sailors-safe-in-sassnitz/"
+      },
+      "limit": "",
+      "author": "Hella Kornatzki / SailGP medical team",
+      "platform": "专业博客",
+      "published_date": "2026-11-20"
+    },
+    {
+      "id": "s-20261123-together-prompt-leakage",
+      "domain": "AI",
+      "title": "Security event: Prompt leakage for requests in June and July of 2026",
+      "short_title": "编码Agent误提交凭证导致提示词泄漏",
+      "priority": "重点关注",
+      "one_liner": "Together披露AI编码Agent把私有Hugging Face凭证提交到公开仓库，攻击者借此下载6—7月的部分提示词样本。",
+      "what": "公司称编码Agent把可访问私有仓库的凭证写入公开代码库，攻击者下载部分提示词样本并测试其中凭证，包含5个Dragos诱饵凭证。Together已改用短期或限域凭证、对所有PR做秘密扫描，并将新账户默认设为零数据保留；影响范围仍在核查。",
+      "why": "Agent生成代码的风险不只在代码逻辑，工作区中的令牌、日志和测试数据也可能随提交进入公开历史；事后撤销密钥不能收回已泄露的数据。",
+      "practice": "把最小权限、短期凭证、提交前秘密扫描和PR阻断设为默认；对Agent沙箱限制可读密钥范围，并定期用诱饵凭证验证监控链是否能发现滥用。",
+      "evidence": "当事公司安全事件披露；事件和整改措施可核实，客户与敏感信息范围尚未完成调查。",
+      "confidence": "中",
+      "confidence_reason": "第一方披露提供明确事件链；完整影响仍未知。",
+      "source": {
+        "label": "Together AI",
+        "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+      },
+      "limit": "",
+      "author": "Vipul Ved Prakash",
+      "platform": "官方博客",
+      "published_date": "2026-11-21"
+    },
+    {
+      "id": "s-20261123-agent-knowledge-factory",
+      "domain": "AI",
+      "title": "How to build a knowledge factory for AI agents",
+      "short_title": "Agent知识库需要从纠错轨迹持续维护",
+      "priority": "值得了解",
+      "one_liner": "LangChain提出把Agent知识拆成程序、稳定领域知识和动态数据路径，并从执行轨迹与人工纠正中识别缺口。",
+      "what": "Harrison Chase把Agent所需知识分为工作程序与脚本、变化较慢的领域知识、获取动态数据的路径，建议从失败轨迹和人工纠正发现知识缺口，再由维护流程更新技能与知识。文章未提供对照评测或量化样本。",
+      "why": "知识库过时和流程知识缺失会表现成‘模型不够聪明’，继续换模型可能无法修复；把纠错转化为维护任务能让失败留下可复用资产。",
+      "practice": "记录Agent失败属于规则缺失、领域知识过时还是数据入口错误，并为每类设置负责人、版本和回归任务；先用内部任务验证更新是否减少重复人工纠正。",
+      "evidence": "厂商实践框架与内部案例；无对照评测。",
+      "confidence": "中",
+      "confidence_reason": "维护框架具体可执行，但性能收益未被量化验证。",
+      "source": {
+        "label": "LangChain Blog",
+        "url": "https://www.langchain.com/blog/knowledge-factory"
+      },
+      "limit": "",
+      "author": "Harrison Chase",
+      "platform": "开发者博客",
+      "published_date": "2026-11-21"
+    },
+    {
+      "id": "s-20261123-agent-mcts-verifier",
+      "domain": "AI",
+      "title": "MCTS over LLM coding agents: the value function is the bottleneck",
+      "short_title": "代码Agent树搜索的瓶颈在验证器",
+      "priority": "值得了解",
+      "one_liner": "作者小型复盘中，加入LLM评审几乎无平均增益；加入自动生成测试后，20次运行中16次优于首轮，隐藏测试均分由88%升至93%。",
+      "what": "agent-mcts首轮用2个任务、Claude Haiku、每次5节点和每设置10次运行，测试值函数没有带来改善，加入LLM评审平均变化为−0.1个百分点且耗时约增至5倍。v0.4加入自动生成测试后，同两任务20次运行中16优、2同、2差。",
+      "why": "搜索只有在价值函数能区分更好候选时才有用；弱验证器会把更多计算变成更昂贵的随机探索。",
+      "practice": "在增加搜索深度前，先测验证器对候选补丁的排序准确率；组合可执行测试、静态检查和隐藏验收，并把搜索增益与额外时间、Token一起报告。",
+      "evidence": "作者开放代码、社区复盘与小型自测；仅少量任务和单一模型。",
+      "confidence": "低",
+      "confidence_reason": "结果方向有明确对照，但样本过小，尚不能估计通用增益。",
+      "source": {
+        "label": "Reddit / reinforcementlearning",
+        "url": "https://www.reddit.com/r/reinforcementlearning/comments/1y1zptp/mcts_over_llm_coding_agents_the_value_function_is/"
+      },
+      "limit": "",
+      "author": "Natsuhiro Suzuki",
+      "platform": "Reddit / GitHub",
+      "published_date": "2026-11-21",
+      "references": [
+        {
+          "label": "agent-mcts代码与基准",
+          "url": "https://github.com/natsu0529/agent-mcts"
+        }
+      ]
+    },
+    {
+      "id": "s-20261123-copilot-cloud-billing",
+      "domain": "AI",
+      "title": "Work from anywhere with a new, connected Copilot cloud experience",
+      "short_title": "Copilot云沙箱开始计入共享算力额度",
+      "priority": "快讯",
+      "one_liner": "GitHub 11月19日更新确认，Copilot云沙箱自11月23日起从组织共享Actions额度扣除，超额沿用既有费率和预算设置。",
+      "what": "GitHub把Copilot云会话放入可恢复的隔离沙箱，并让Actions、云沙箱及部分大型runner共用金额型算力额度。页面在11月19日实质更新：云沙箱于11月23日开始计费。",
+      "why": "Agent任务的成本不再只体现在模型调用，还包括沙箱存续、构建和执行时间；共享额度也可能让开发自动化与CI相互挤占。",
+      "practice": "检查组织预算、仓库云端策略和Agent任务的沙箱消耗，按任务记录模型、Actions与沙箱总成本；为长会话设置停止条件和预算告警。",
+      "evidence": "GitHub官方产品与计费公告；原文较早发布，11月19日有实质更新并于11月23日生效。",
+      "confidence": "高",
+      "confidence_reason": "计费日期、共享额度和预算行为由官方明确说明。",
+      "source": {
+        "label": "GitHub Changelog",
+        "url": "https://github.blog/changelog/2026-10-28-work-from-anywhere-with-a-new-connected-copilot-cloud-experience/"
+      },
+      "limit": "",
+      "author": "GitHub",
+      "platform": "官方Changelog",
+      "published_date": "2026-11-19"
+    }
+  ],
+  "professional_judgment": [
+    "运动实践的风险控制应发生在使用前：补剂先查具体产品，赛事先演练最坏场景，而不是在结果出现后补文档。",
+    "AI Agent的新增风险集中在工作区边界：它读到的凭证、写入的提交、依赖的知识、使用的验证器和持续运行的沙箱都应进入同一审计表。",
+    "增加搜索或云执行预算之前，先验证评价函数和停止条件；更多计算只有在能可靠区分好坏时才转化为更好结果。"
+  ],
+  "trends_url": "data/social/trends/2026-11-23.json"
+}

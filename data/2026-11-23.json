@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-23",
+  "title": "每日专业资讯简报｜2026-11-23",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "最重要的进展是：今天三类证据都要求把平均结论拆回具体条件——PAPE等待时间取决于个体反应，康复收益取决于实际组成与阶段，Agent表现和安全则取决于执行框架与调用前控制。"
+  },
+  "navigation": {
+    "prev": "2026-11-22",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：平均有效不等于统一处方，激活方案、反应力量训练和CGM监测都需要条件化解释。",
+    "运动健康": "本板块重点：康复评估与干预应拆成具体能力、阶段和组成，不用一个总标签替代可执行剂量。",
+    "AI": "本板块重点：模型能力、Agent效率与治理控制正在从单一模型指标转向完整系统评估。"
+  },
+  "items": [
+    {
+      "id": "j-20261123-pape-velocity-loss-ipd",
+      "domain": "运动科学",
+      "title": "Individualized Amplitude-Time Models of Post-activation Performance Enhancement Using the Velocity-Loss Method in Trained Populations",
+      "short_title": "PAPE等待时间应按个体曲线设定",
+      "priority": "重点关注",
+      "one_liner": "15项研究的综述及248人个体数据表明，较低相对力量者多早期提升后下降，较高者更常先下降再出现倒U形增益。",
+      "what": "综述纳入15项研究，其中9项提供248人的个体数据。速度损失法相较基线的标准化变化为0.11，相较休息或传统激活方案为0.35；研究层面5%或10%速度损失、60%–90% 1RM较常出现峰值，但反应随相对力量和恢复时间明显分化。",
+      "why": "固定等待3、5或8分钟会把不同的疲劳—增强轨迹压成同一个平均值，可能让一部分运动员在尚未恢复或已错过峰值时测试。",
+      "practice": "用速度损失控制激活组疲劳，并在多个恢复时间点重复测量跳跃、冲刺或专项输出，建立个人的负荷—恢复时间—表现曲线；不要把组平均峰值直接当作全队等待时间。",
+      "evidence": "同行评审系统综述与个体参与者数据荟萃分析；15项研究，IPD n=248，男性224、女性24。",
+      "confidence": "中",
+      "confidence_reason": "IPD能够显示异质轨迹；女性样本很少，个别力量阈值估计仍不稳定。",
+      "source": {
+        "label": "Sports Medicine",
+        "url": "https://doi.org/10.1007/s40279-026-02569-3"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261123-rsi-training-meta",
+      "domain": "运动科学",
+      "title": "Resistance Training and Drop Jump Derived Reactive Strength Index: A Systematic Review and Meta-Analysis of Training Modality Effects",
+      "short_title": "RSI可改善但训练类别无明确赢家",
+      "priority": "值得了解",
+      "one_liner": "30项研究显示落地跳RSI总体改善g=0.42，但预测区间跨过零，增强式、组合、弹道式和传统力量训练之间无显著差异。",
+      "what": "多层随机效应模型汇总30项研究、48个干预组，RSI总体效应g=0.42（95%CI 0.26–0.58），预测区间−0.27至1.11。各训练类别汇总效应为0.31–0.59，组间p=0.583；校正小样本效应后总体效应降至0.27。",
+      "why": "平均效应支持训练可改善反应力量，但宽预测区间说明新的单项干预可能没有收益；类别名称本身不足以解释结果。",
+      "practice": "优先匹配目标接触时间、离心制动和再加速要求，并固定落地跳高度与技术；用个体RSI变化检验方案，而不是仅凭‘增强式’或‘力量训练’标签选法。",
+      "evidence": "同行评审系统综述与荟萃分析；30项研究、48个干预组，训练至少4周。",
+      "confidence": "中",
+      "confidence_reason": "综合方向稳定，但小研究效应明显且预测区间包含无效和负效应。",
+      "source": {
+        "label": "Sports",
+        "url": "https://doi.org/10.3390/sports14110524"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261123-cgm-running-repeatability",
+      "domain": "运动科学",
+      "title": "A CGM-derived late-phase glycemic response phenotype during fasted moderate-intensity running",
+      "short_title": "单次空腹跑CGM不足以定义个体表型",
+      "priority": "值得了解",
+      "one_liner": "30名成人完成76次空腹跑，末30分钟血糖变化的单次ICC仅0.424，重复试验平均后才升至0.642。",
+      "what": "参与者完成2–3次60分钟、40%–60%心率储备的空腹跑。末30分钟平均血糖相对基线的变化解释时间序列第一主成分的92%，但单次可靠性ICC为0.424；该指标与骨骼肌指数无显著关联（R²=0.10，p=0.084）。",
+      "why": "CGM曲线看起来高度个体化，但一次测试中的升降包含较大日内波动；把单次曲线解释成稳定代谢能力会高估测量信息。",
+      "practice": "若用运动中CGM做个体画像，应在相同空腹状态、强度和时段重复至少两次，并把血糖曲线与表现、症状和饮食记录分开解释；不能用它替代肌肉量或代谢能力测量。",
+      "evidence": "同行评审探索性重复测量研究；健康成人n=30，共76次跑步测试。",
+      "confidence": "中",
+      "confidence_reason": "重复测量直接支持单次可靠性有限；样本较小，表型仍是候选指标。",
+      "source": {
+        "label": "Scientific Reports",
+        "url": "https://doi.org/10.1038/s41598-026-79728-z"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261123-catechin-performance-meta",
+      "domain": "运动科学",
+      "title": "Effect of Catechin Supplementation on Muscle Fatigue and Physical Performance: A Systematic Review and Meta-Analysis of Randomized Controlled Trials",
+      "short_title": "儿茶素未显示稳定运动表现增益",
+      "priority": "快讯",
+      "one_liner": "7项随机试验的荟萃分析未发现儿茶素对有氧、无氧、功能运动能力或生理反应的一致显著改善。",
+      "what": "综述从771条记录中纳入7项随机试验；个别方案报告主观用力感或有氧表现改善，但总体合并结果未显示稳定运动表现效应。",
+      "why": "单项阳性结果容易被转化为补剂卖点，而合并证据显示剂量、配方和人群差异尚未形成可重复的表现增益。",
+      "practice": "不把儿茶素单列为可靠增益补剂；预算和依从性优先配置给与任务匹配且证据更稳定的营养策略。",
+      "evidence": "同行评审系统综述与荟萃分析；7项随机对照试验。",
+      "confidence": "中",
+      "confidence_reason": "合并结论方向明确，但研究数量少且方案异质。",
+      "source": {
+        "label": "Nutrition Reviews",
+        "url": "https://doi.org/10.1093/nutrit/nuag170"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261123-aclr-force-power-scoping",
+      "domain": "运动健康",
+      "title": "Force and Power Testing in Anterior Cruciate Ligament Reconstruction Literature: A Scoping Review",
+      "short_title": "ACL重建研究仍过度依赖单类测试",
+      "priority": "重点关注",
+      "one_liner": "1,625项研究中每项平均仅用1.42类设备，64.9%使用等速测力，而力发展率仅在4.2%中评估。",
+      "what": "范围综述覆盖超过13万名ACL重建患者。64.9%的研究使用等速测力，32.2%使用无测力台跳跃或单脚跳，28.0%使用测力台；仅14.6%报告具体运动项目，设备、协议和指标高度异质。",
+      "why": "单一峰值力量或跳跃距离不能同时反映快速产力、制动策略和专项任务；文献的异质性也使跨研究阈值难以直接套用。",
+      "practice": "重返运动评估至少组合膝伸屈肌力量、力发展率、跳跃动力学和专项功能任务，并记录协议和设备；肢体对称指数只作为其中一项结果。",
+      "evidence": "同行评审PRISMA-ScR范围综述；1,625项研究，超过13万名ACL重建患者。",
+      "confidence": "高",
+      "confidence_reason": "覆盖范围大且方法透明；该综述描述测试实践，未比较测试组合对再损伤的预测效度。",
+      "source": {
+        "label": "Sports Medicine",
+        "url": "https://doi.org/10.1007/s40279-026-02571-9"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261123-lung-cancer-rehab-meta",
+      "domain": "运动健康",
+      "title": "Effect of the timing and setting of pulmonary rehabilitation on functional recovery after lung cancer surgery: A systematic review and meta-analysis",
+      "short_title": "肺癌术后收益集中在持续后期训练",
+      "priority": "重点关注",
+      "one_liner": "13项RCT显示早期院内康复未减少并发症或住院日，出院后持续康复则使6分钟步行增加68.86米、VO₂peak增加2.62 ml/kg/min。",
+      "what": "纳入13项随机试验、1,137名肺癌术后患者。早期院内康复对并发症RR为0.55（95%CI 0.25–1.24），住院日差−0.08天；后期康复改善6分钟步行68.86米、VO₂peak 2.62 ml/kg/min及FEV₁ 0.52 L，但生活质量无显著差异。",
+      "why": "短暂住院阶段与出院后持续训练不是同一剂量；功能恢复更可能依赖数周进阶训练，而不是‘是否早期开始’这个标签。",
+      "practice": "术后项目应把出院后的有氧、呼吸和力量进阶作为核心，并分别追踪步行、心肺功能和生活质量；早期活动仍可服务于安全动员，但不能据此承诺减少并发症。",
+      "evidence": "同行评审系统综述与荟萃分析；13项随机对照试验，n=1,137。",
+      "confidence": "中",
+      "confidence_reason": "功能结局方向和幅度明确；不同阶段对应的干预与结局存在异质性。",
+      "source": {
+        "label": "Clinical Rehabilitation",
+        "url": "https://doi.org/10.1177/02692155261508439"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261123-copd-rehab-components",
+      "domain": "运动健康",
+      "title": "Which elements of pulmonary rehabilitation improve physical activity and sleep in COPD? A systematic review and component network meta-analysis",
+      "short_title": "下肢有氧和活动追踪最能抬高日常步数",
+      "priority": "值得了解",
+      "one_liner": "50项试验中，下肢有氧训练估计增加695步/日；活动追踪增加938步/日但确定性较低，睡眠证据不足以合并。",
+      "what": "成分网络荟萃分析纳入50项试验、4,136名COPD患者。下肢有氧训练增加695步/日（95%CrI 510–898，高确定性）；活动追踪增加938步/日、力量训练增加390步/日，但两者证据确定性低。睡眠仅4项研究，无法可靠合并。",
+      "why": "肺康复提高实验室运动能力并不自动转化为日常活动；具体训练和反馈成分比‘接受监督’这一泛化标签更能解释步数变化。",
+      "practice": "若目标是增加真实日常活动，把下肢有氧训练和可回顾的活动追踪明确写入方案，并单独评价步数；不要依据这组数据宣称改善睡眠。",
+      "evidence": "同行评审系统综述与成分网络荟萃分析；50项随机试验，n=4,136，含GRADE。",
+      "confidence": "中",
+      "confidence_reason": "有氧训练结果确定性高；追踪、力量及监督方式的估计确定性较低。",
+      "source": {
+        "label": "European Respiratory Review",
+        "url": "https://doi.org/10.1183/16000617.0088-2026"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261123-openai-perplexity-intelligence",
+      "domain": "AI",
+      "title": "Perplexity and Intelligence",
+      "short_title": "OpenAI提出用预训练损失监测能力跃迁",
+      "priority": "重点关注",
+      "one_liner": "OpenAI首次披露固定内部代码集上的交叉熵：GPT-3.5约0.99、GPT-4约0.91，约0.76时开始观察到数学研究能力跃迁。",
+      "what": "OpenAI称最新模型预训练损失已低于0.8，并把约0.76与数学研究能力的明显跃迁联系起来，主张各实验室共享可比的预训练损失指标，用于能力监测和安全阈值。数据集规模、逐模型结果和不确定性未公开。",
+      "why": "下游基准会饱和且受提示影响，预训练损失可能提供更连续的能力进展信号；但不同训练数据与评测集会破坏跨实验室可比性，阈值也可能只是回顾性关联。",
+      "practice": "模型治理可把预训练损失作为内部先行指标，与下游能力、安全评测和部署控制联合监测；目前不应把0.76或0.7当成可跨机构直接执行的硬阈值。",
+      "evidence": "OpenAI官方研究观点与内部纵向观测；固定内部代码数据快照，未公开样本规模。",
+      "confidence": "中",
+      "confidence_reason": "披露数值可核实；能力阈值来自单一实验室解释，尚无跨实验室复现。",
+      "source": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/perplexity-and-intelligence/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261123-harness-adapters",
+      "domain": "AI",
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "short_title": "Agent适配器同时提高通过率并减少工具调用",
+      "priority": "重点关注",
+      "one_liner": "Hugging Face为Qwen3.8-27B训练执行框架专用LoRA，Pi下SWE-bench Pro由39.2%升至64.7%，共同解题的工具调用减少56%–72%。",
+      "what": "团队用35个仓库的871项任务构建数据，其中171项用于GRPO训练，为Pi、Hermes Agent和OpenCode分别训练LoRA。三种专用适配器在各自框架的两项基准均超过基础模型；合并适配器在六个框架—基准组合的平均通过率由39.5%升至49.0%。",
+      "why": "Agent能力不是模型权重的固定属性；工具协议、上下文管理和动作分布会形成可学习的执行环境偏差，并同时影响成功率和成本。",
+      "practice": "对稳定且高频的内部Agent工作流，可保留真实任务轨迹训练轻量适配器，并在同一框架内做配对评测；同时报告通过率、工具调用数、Token和失败回归。",
+      "evidence": "开放技术实验与厂商研究报告；871项任务、两类基准，公开适配器、数据和轨迹。",
+      "confidence": "中",
+      "confidence_reason": "配对结果和任务规模清楚；部分检查点在评测集上选择，尚缺外部复现。",
+      "source": {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/blog/harness-adapters-at-scale"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261123-agent-semantic-governance",
+      "domain": "AI",
+      "title": "Check what your AI agents do before they do it with semantic governance policies",
+      "short_title": "Google把自然语言策略放到工具调用前",
+      "priority": "值得了解",
+      "one_liner": "Gemini平台预览语义治理策略，由Agent Gateway在每次工具执行前结合调用、用户意图和组织规则决定允许或拒绝。",
+      "what": "官方预览允许组织用自然语言编写策略，Agent Gateway在工具调用执行前让策略模型判定，并记录允许或拒绝结果。当前依赖Gateway执行点；流式模型输出不在检查范围，官方未公布误拦截、漏拦截或独立安全基准。",
+      "why": "静态权限只能回答‘能否调用’，语义策略试图回答‘在当前意图下是否应该调用’；这更贴近Agent真实风险，但概率判定本身也会产生治理误差。",
+      "practice": "可先用于高影响工具的二次控制与审计，把明确的确定性规则留在传统权限层；上线前用允许、拒绝和对抗样例测量误拦截与漏拦截，并保留人工复核路径。",
+      "evidence": "Google官方产品预览；功能状态可核实，实际防护效果未量化。",
+      "confidence": "中",
+      "confidence_reason": "执行机制和限制明确；缺少独立测试和错误率数据。",
+      "source": {
+        "label": "Google Developers Blog",
+        "url": "https://developers.googleblog.com/en/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/"
+      },
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "训练与监测先建立重复条件下的个人基线：PAPE峰值和运动中CGM都不适合由一次测试或组平均直接处方。",
+    "康复项目应把‘做了康复’拆成测试能力、训练成分和时间阶段；ACL回归需要多维评估，肺康复则要把持续有氧训练和活动反馈写进真实剂量。",
+    "AI系统评估正从模型分数转向三层结构：能力先行指标、执行框架适配和工具调用前治理。三层都需要自己的误差与失败记录。"
+  ],
+  "trends_url": "data/trends/2026-11-23.json"
+}

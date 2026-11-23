@@ -1450,5 +1450,77 @@
     "observed_at": "2026-11-22T08:04:35+08:00",
     "date_verified": true,
     "platform": "研究博客"
+  },
+  {
+    "id": "manual-aspetar-20261122-supplement-workshop",
+    "title": "Sports Supplements: Benefits, Risks & Practical Use",
+    "url": "https://www.aspetar.com/en/professionals/our-events/sports-supplement-workshop",
+    "domain": "运动科学",
+    "source_author": "Aspetar",
+    "author_id": "aspetar",
+    "published_at": "2026-11-22",
+    "observed_at": "2026-11-23T07:58:28+08:00",
+    "date_verified": true,
+    "platform": "专业机构活动"
+  },
+  {
+    "id": "manual-bjsm-20261120-sailgp-emergency",
+    "title": "Emergency care at full foil: how preparation, teamwork and rehearsed drills keep SailGP sailors safe in Sassnitz",
+    "url": "https://blogs.bmj.com/bjsm/2026/11/20/emergency-care-at-full-foil-how-preparation-teamwork-and-rehearsed-drills-keep-sailgp-sailors-safe-in-sassnitz/",
+    "domain": "运动健康",
+    "source_author": "Hella Kornatzki / SailGP medical team",
+    "author_id": "bjsm-blog",
+    "published_at": "2026-11-20",
+    "observed_at": "2026-11-23T07:58:28+08:00",
+    "date_verified": true,
+    "platform": "专业博客"
+  },
+  {
+    "id": "manual-together-20261121-prompt-leakage",
+    "title": "Security event: Prompt leakage for requests in June and July of 2026",
+    "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+    "domain": "AI",
+    "source_author": "Vipul Ved Prakash",
+    "author_id": "together-ai",
+    "published_at": "2026-11-21",
+    "observed_at": "2026-11-23T07:58:28+08:00",
+    "date_verified": true,
+    "platform": "官方博客"
+  },
+  {
+    "id": "manual-langchain-20261121-knowledge-factory",
+    "title": "How to build a knowledge factory for AI agents",
+    "url": "https://www.langchain.com/blog/knowledge-factory",
+    "domain": "AI",
+    "source_author": "Harrison Chase",
+    "author_id": "langchain",
+    "published_at": "2026-11-21",
+    "observed_at": "2026-11-23T07:58:28+08:00",
+    "date_verified": true,
+    "platform": "开发者博客"
+  },
+  {
+    "id": "manual-reddit-20261121-agent-mcts",
+    "title": "MCTS over LLM coding agents: the value function is the bottleneck",
+    "url": "https://www.reddit.com/r/reinforcementlearning/comments/1y1zptp/mcts_over_llm_coding_agents_the_value_function_is/",
+    "domain": "AI",
+    "source_author": "Natsuhiro Suzuki",
+    "author_id": "natsu0529",
+    "published_at": "2026-11-21",
+    "observed_at": "2026-11-23T07:58:28+08:00",
+    "date_verified": true,
+    "platform": "Reddit / GitHub"
+  },
+  {
+    "id": "manual-github-20261119-copilot-cloud-billing",
+    "title": "Work from anywhere with a new, connected Copilot cloud experience",
+    "url": "https://github.blog/changelog/2026-10-28-work-from-anywhere-with-a-new-connected-copilot-cloud-experience/",
+    "domain": "AI",
+    "source_author": "GitHub",
+    "author_id": "github",
+    "published_at": "2026-11-19",
+    "observed_at": "2026-11-23T07:58:28+08:00",
+    "date_verified": true,
+    "platform": "官方Changelog"
   }
 ]
