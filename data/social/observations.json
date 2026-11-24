@@ -10449,6 +10449,20 @@
       "last_seen": "2026-11-24T08:32:00+08:00"
     },
     {
+      "id": "manual-scienceforsport-20261123-ai-human-movement",
+      "title": "Can AI Understand Human Movement?",
+      "url": "https://scienceforsport.fireside.fm/347",
+      "date": "2026-11-23",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Richard Graves / Maria Greicer"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-25T07:55:00+08:00",
+      "last_seen": "2026-11-25T07:55:00+08:00"
+    },
+    {
       "id": "manual-simonwillison-20261123-datasette-charts",
       "title": "Release: datasette-charts 0.1a0",
       "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
@@ -10477,6 +10491,34 @@
       "last_seen": "2026-11-24T08:32:00+08:00"
     },
     {
+      "id": "manual-githubdesktop-20261124-assisted-commits",
+      "title": "GitHub Desktop 3.7.1-beta1: Copilot assisted commits can split changes into commits",
+      "url": "https://github.com/desktop/desktop/releases/tag/release-3.7.1-beta1",
+      "date": "2026-11-24",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "GitHub Desktop"
+      ],
+      "platform": "GitHub Releases",
+      "first_seen": "2026-11-25T07:55:00+08:00",
+      "last_seen": "2026-11-25T07:55:00+08:00"
+    },
+    {
+      "id": "manual-jospt-20261124-hip-oa-risk",
+      "title": "Which risk factors matter for hip osteoarthritis?",
+      "url": "https://podcasts.apple.com/au/podcast/ep-289-which-risk-factors-matter-for-hip-osteoarthritis/id1522929437?i=1000803567593",
+      "date": "2026-11-24",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "JOSPT Insights / Lexie Wright"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-25T07:55:00+08:00",
+      "last_seen": "2026-11-25T07:55:00+08:00"
+    },
+    {
       "id": "manual-mysportscience-20261124-glycogen-recovery",
       "title": "How fast do liver and muscle glycogen recover after hard exercise?",
       "url": "https://www.mysportscience.com/post/how-fast-do-liver-and-muscle-glycogen-recover-after-hard-exercise",
@@ -10489,6 +10531,34 @@
       "platform": "专业博客",
       "first_seen": "2026-11-24T08:32:00+08:00",
       "last_seen": "2026-11-24T08:32:00+08:00"
+    },
+    {
+      "id": "manual-simonwillison-20261124-astra-history",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "date": "2026-11-24",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Simon Willison / Mark Humphries"
+      ],
+      "platform": "开发者博客 / Substack",
+      "first_seen": "2026-11-25T07:55:00+08:00",
+      "last_seen": "2026-11-25T07:55:00+08:00"
+    },
+    {
+      "id": "manual-sta-20261124-postpartum-return-sport",
+      "title": "Return to sport after pregnancy — a sports medicine lens",
+      "url": "https://podcasts.apple.com/br/podcast/the-sta-clinician-podcast/id1540427581",
+      "date": "2026-11-24",
+      "domain": "运动健康",
+      "topic_id": "health-rtp",
+      "sources": [
+        "The STA Clinician Podcast / Gráinne Donnelly"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-25T07:55:00+08:00",
+      "last_seen": "2026-11-25T07:55:00+08:00"
     }
   ]
 }
