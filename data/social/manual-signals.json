@@ -1582,5 +1582,77 @@
     "observed_at": "2026-11-24T08:32:00+08:00",
     "date_verified": true,
     "platform": "官方公告"
+  },
+  {
+    "id": "manual-scienceforsport-20261123-ai-human-movement",
+    "title": "Can AI Understand Human Movement?",
+    "url": "https://scienceforsport.fireside.fm/347",
+    "domain": "运动科学",
+    "source_author": "Richard Graves / Maria Greicer",
+    "author_id": "science-for-sport",
+    "published_at": "2026-11-23",
+    "observed_at": "2026-11-25T07:55:00+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "manual-jospt-20261124-hip-oa-risk",
+    "title": "Which risk factors matter for hip osteoarthritis?",
+    "url": "https://podcasts.apple.com/au/podcast/ep-289-which-risk-factors-matter-for-hip-osteoarthritis/id1522929437?i=1000803567593",
+    "domain": "运动健康",
+    "source_author": "JOSPT Insights / Lexie Wright",
+    "author_id": "jospt-insights",
+    "published_at": "2026-11-24",
+    "observed_at": "2026-11-25T07:55:00+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "manual-sta-20261124-postpartum-return-sport",
+    "title": "Return to sport after pregnancy — a sports medicine lens",
+    "url": "https://podcasts.apple.com/br/podcast/the-sta-clinician-podcast/id1540427581",
+    "domain": "运动健康",
+    "source_author": "The STA Clinician Podcast / Gráinne Donnelly",
+    "author_id": "sta-clinician-podcast",
+    "published_at": "2026-11-24",
+    "observed_at": "2026-11-25T07:55:00+08:00",
+    "date_verified": true,
+    "platform": "播客"
+  },
+  {
+    "id": "manual-huggingface-20261123-agentic-evals",
+    "title": "How to build and maintain an agentic evaluation",
+    "url": "https://huggingface.co/blog/agentic-evals",
+    "domain": "AI",
+    "source_author": "Hugging Face",
+    "author_id": "hugging-face",
+    "published_at": "2026-11-23",
+    "observed_at": "2026-11-25T07:55:00+08:00",
+    "date_verified": true,
+    "platform": "官方技术博客"
+  },
+  {
+    "id": "manual-simonwillison-20261124-astra-history",
+    "title": "GPT 6.2 Astra Solves a Historical Mystery",
+    "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+    "domain": "AI",
+    "source_author": "Simon Willison / Mark Humphries",
+    "author_id": "simon-willison",
+    "published_at": "2026-11-24",
+    "observed_at": "2026-11-25T07:55:00+08:00",
+    "date_verified": true,
+    "platform": "开发者博客 / Substack"
+  },
+  {
+    "id": "manual-githubdesktop-20261124-assisted-commits",
+    "title": "GitHub Desktop 3.7.1-beta1: Copilot assisted commits can split changes into commits",
+    "url": "https://github.com/desktop/desktop/releases/tag/release-3.7.1-beta1",
+    "domain": "AI",
+    "source_author": "GitHub Desktop",
+    "author_id": "github-desktop",
+    "published_at": "2026-11-24",
+    "observed_at": "2026-11-25T07:55:00+08:00",
+    "date_verified": true,
+    "platform": "GitHub Releases"
   }
 ]

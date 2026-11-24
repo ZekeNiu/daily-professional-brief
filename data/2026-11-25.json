@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-25",
+  "title": "每日专业资讯简报｜2026-11-25",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 3,
+      "运动健康": 3,
+      "AI": 4
+    },
+    "signal": "最重要的进展是：训练和康复决策正在从宽泛标签转向任务特异性证据——跳跃测试的可靠性取决于受试者活动水平与试次数，所谓关节源性肌抑制也必须先确认机制，才能选择真正匹配的干预。"
+  },
+  "navigation": {
+    "prev": "2026-11-24",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：测试可靠性、累积负荷和训练迁移都必须绑定具体任务与时间窗，单次指标不能替代完整决策链。",
+    "运动健康": "本板块重点：康复工具的价值取决于诊断构念和阶段性结局，机制标签、短期活动量与功能恢复应分别核对。",
+    "AI": "本板块重点：通用模型开始进入专业科研与临床工作流，但真实价值仍由实验验证、独立复核和受控部署决定。"
+  },
+  "items": [
+    {
+      "id": "j-20261125-jump-trial-variability",
+      "domain": "运动科学",
+      "title": "Tegner activity level and task-specific trial-to-trial variability in countermovement and squat jumps",
+      "short_title": "跳跃测试的可靠性取决于任务与活动水平",
+      "priority": "重点关注",
+      "one_liner": "47名健康成人完成7次最大跳跃；高活动组深蹲跳高度变异系数约5.0%，低活动组8.2%，而反向跳组间差异不显著。",
+      "what": "47名健康成人分别完成7次深蹲跳（SJ）与反向跳（CMJ）。SJ高度的试次内变异系数在低、中、高Tegner活动水平组分别为8.2%、6.4%和5.0%，高活动组较低活动组低3.3个百分点；CMJ对应为6.1%、5.4%和4.2%，组间差异未达显著。SJ差异在使用5次试验时仍存在，缩到3次后不再稳定。",
+      "why": "同一测试在不同训练背景下可能有不同测量噪声；固定用3次试跳或统一最小有意义变化，容易把低熟练度人群的学习波动误当成真实改变。",
+      "practice": "建立运动员个人基线前，先用5–7次熟悉试验估计SJ稳定性，再决定日常保留几次；CMJ与SJ不要共享同一可靠性阈值。短期监控应把变化幅度与个人典型误差同时报告。",
+      "evidence": "同行评审横断测量研究；健康成人n=47，7次最大SJ与CMJ，按Tegner活动水平分组。",
+      "confidence": "中",
+      "confidence_reason": "重复试次和任务分层直接支持测量判断；样本量较小，分组来自自报活动水平。",
+      "source": {
+        "label": "Frontiers in Sports and Active Living",
+        "url": "https://doi.org/10.3389/fspor.2026.1983083"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261125-fencing-cumulative-load",
+      "domain": "运动科学",
+      "title": "Association between internal training load and overuse injuries in professional sabre fencers: a prospective cohort study",
+      "short_title": "佩剑运动员过用伤更关联累积负荷",
+      "priority": "重点关注",
+      "one_liner": "14名职业佩剑运动员的497个运动员周中，前2–4周累积内部负荷最高组的过用伤优势比分别约2.11、2.36和2.76；单周负荷未显示关联。",
+      "what": "研究连续记录14名职业佩剑运动员的497个运动员周，其中129周出现过用伤。对此前未受伤的观察段，前2、3、4周累积session-RPE负荷最高三分位相对最低三分位的过用伤优势比分别为2.11、2.36和2.76；单周急性负荷未见明确关联，ACWR结果经小样本校正后不稳健。",
+      "why": "结果把监控重点从‘本周是否过高’转向数周暴露的累积效应，也说明用单个ACWR阈值触发警报缺少依据。",
+      "practice": "佩剑等高重复专项可同时查看2–4周累积sRPE、既往伤情与症状变化；把高累积负荷作为复核信号，而非自动减量阈值。若负荷上升伴随局部症状持续，应优先调整高应力专项暴露。",
+      "evidence": "同行评审前瞻性队列；职业佩剑运动员n=14，497个运动员周；结局为每周过用伤。",
+      "confidence": "中",
+      "confidence_reason": "纵向密集记录支持时间窗判断；样本仅14人，无法给出可泛化阈值。",
+      "source": {
+        "label": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://doi.org/10.1186/s13102-026-02271-x"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261125-goalkeeper-nat",
+      "domain": "运动科学",
+      "title": "Effects of 8-week progressive neuro-athletic training on movement performance in competitive soccer goalkeepers: a randomized controlled trial",
+      "short_title": "神经—运动训练改善门将平衡与变向",
+      "priority": "值得了解",
+      "one_liner": "20名男足门将的8周随机试验中，每周2次渐进训练改善Y-Balance并将T-test敏捷时间缩短约0.283秒，但未提高CMJ高度。",
+      "what": "20名男性竞技门将随机接受常规训练，或在此基础上每周2次、持续8周的渐进神经—运动训练。干预组Y-Balance综合表现效应量g=1.07，T-test敏捷时间减少0.283秒（约2.77%）；CMJ腾空时间出现交互效应，但跳高本身无差异（p=0.669）。",
+      "why": "改善集中在平衡和变向，而非通用爆发力，提示训练迁移更可能来自知觉—动作耦合与方向控制，而不是全面提升下肢功率。",
+      "practice": "可把此类训练用于门将热身或辅助模块，目标设为单腿控制、反应变向和任务执行；若目标是跳高或起跳功率，仍需保留专项力量与弹跳训练。",
+      "evidence": "同行评审、评估者与分析者盲法随机试验；男性竞技门将n=20，8周；对照组为常规训练，未做等时主动对照。",
+      "confidence": "中",
+      "confidence_reason": "随机设计和客观测试支持方向性结论；样本小，且无法区分训练内容与额外训练时间。",
+      "source": {
+        "label": "BMC Sports Science, Medicine and Rehabilitation",
+        "url": "https://doi.org/10.1186/s13102-026-02200-y"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261125-ami-diagnostic-precision",
+      "domain": "运动健康",
+      "title": "Diagnostic Precision in Arthrogenic Muscle Inhibition",
+      "short_title": "关节源性肌抑制不应成为泛化标签",
+      "priority": "重点关注",
+      "one_liner": "专家观点指出，术后股四头肌激活差可能来自反射抑制、恐惧、废用、机械限制或皮层驱动下降；未确认神经机制时应描述功能缺陷而非直接诊断AMI。",
+      "what": "作者把关节源性肌抑制（AMI）限定为关节传入信号改变导致的脊髓反射性抑制。临床上相似的股四头肌激活失败还可由恐惧回避、废用、机械性活动受限或皮层驱动下降造成；肉眼观察和一般临床分级无法区分这些机制。作者建议用经神经生理指标验证的工具确认AMI，否则使用‘随意激活失败’等描述性术语。",
+      "why": "诊断名称会决定干预：真正AMI可考虑关节冷疗、电刺激配合负荷窗口；恐惧主导更需要教育和渐进暴露；机械受限则先恢复可用活动范围。把所有无力都叫AMI，会让治疗效果研究也失去可解释性。",
+      "practice": "膝伤或ACL重建后出现股四头肌激活差时，先记录疼痛、肿胀、活动范围、恐惧和可测的随意激活，再决定是否使用机制性标签；无法确认时按已观察到的功能缺陷制定分阶段方案。",
+      "evidence": "同行评审Current Opinion；基于神经生理定义与既有文献提出诊断标准，非干预试验。",
+      "confidence": "中",
+      "confidence_reason": "机制定义清晰、临床推理一致；具体诊断路径和替代工具仍需验证。",
+      "source": {
+        "label": "Sports Medicine - Open",
+        "url": "https://doi.org/10.1186/s40798-026-01154-2"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261125-aclr-reswt",
+      "domain": "运动健康",
+      "title": "Radial extracorporeal shock wave therapy as an adjunct to early rehabilitation after anterior cruciate ligament reconstruction: a randomized controlled trial",
+      "short_title": "早期冲击波辅助ACL重建后伸膝恢复",
+      "priority": "值得了解",
+      "one_liner": "64名ACL重建患者从术后第2周开始随机接受4周放射状冲击波或标准康复；12周时伸膝缺失少约3.0°，达到全活动范围者87.1%对32.3%。",
+      "what": "64名ACL重建患者在术后2周随机进入标准康复，或加用每周2次、持续4周的放射状体外冲击波。62人完成随访；12周时干预组伸膝缺失较对照少3.0°（95%CI 2.2–3.9），达到全活动范围比例为87.1%对32.3%，股内侧肌—半腱肌激活时差和共同收缩比也更接近目标，未报告严重不良事件。",
+      "why": "结果支持冲击波可能在早期关节僵硬和神经肌肉控制恢复中提供增益，但未设置假刺激，无法分离特异治疗效应、治疗接触与期望效应。",
+      "practice": "可在标准康复已落实、术后早期仍存在伸膝受限时作为辅助选项，并以伸膝角度、肿胀、步态和肌肉时序追踪是否产生增量收益；不能替代渐进负荷与活动范围训练。",
+      "evidence": "同行评审单盲平行随机试验；ACL重建后2周患者n=64，62人完成，12周结局；无假刺激对照。",
+      "confidence": "中",
+      "confidence_reason": "随机设计、客观结局和较大组间差异支持短期效应；无假刺激且缺少更长期重返运动结局。",
+      "source": {
+        "label": "BMC Musculoskeletal Disorders",
+        "url": "https://doi.org/10.1186/s12891-026-10762-8"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261125-tha-consumer-wearables",
+      "domain": "运动健康",
+      "title": "Consumer Wearable-Derived Activity and Gait Metrics Characterize Early Recovery After Total Hip Arthroplasty",
+      "short_title": "消费级可穿戴描绘髋关节置换早期恢复",
+      "priority": "值得了解",
+      "one_liner": "31名全髋关节置换患者的12周观察中，步数较早回升，步速和步长持续改善；步态不对称降低与更好的HOOS-12疼痛和总分相关。",
+      "what": "31名择期全髋关节置换患者通过iPhone与Apple Watch HealthKit接受12周半连续监测。步数、运动时间、步速、步长和步态不对称均随恢复改善；步数较早上升，步速和步长持续改善。个体内模型显示，较低步态不对称与更好的HOOS-12总分和疼痛分相关，步数、步速和不对称也与EQ-5D-5L相关。",
+      "why": "日常步数和步态质量恢复并不同步，消费级传感器可补足门诊量表的低频采样，帮助识别‘已经更活跃但步态仍未恢复’的患者。",
+      "practice": "术后监测可同时看活动量、步速、步长和不对称趋势，并以患者自身术前/术后轨迹为参照；不应根据单日步数决定康复进阶，也不能把关联直接解释为改善步态会降低疼痛。",
+      "evidence": "同行评审前瞻性观察队列；初次全髋关节置换患者n=31，平均61.1岁，均为白人欧洲人，随访12周。",
+      "confidence": "中",
+      "confidence_reason": "连续客观数据和个体内模型支持轨迹判断；单中心小样本、同质人群且无临床决策试验。",
+      "source": {
+        "label": "PubMed / primary journal record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43061647/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261125-openai-healthcare-configs",
+      "domain": "AI",
+      "title": "OpenAI releases Healthcare model configurations for the Responses API",
+      "short_title": "Responses API新增医疗专用模型配置",
+      "priority": "值得了解",
+      "one_liner": "OpenAI在Responses API发布4个Healthcare配置，将选定模型与临床问题专用harness组合，并让网页搜索使用医疗来源专用索引。",
+      "what": "OpenAI API更新日志列出gpt-6.2-astra-healthcare、gpt-6.2-sol-healthcare、gpt-6-astra-healthcare和gpt-6.1-sol-healthcare四个配置。它们通过Responses API调用，核心变化是把模型与面向临床问题的执行框架组合；使用web search时切换到医疗来源专用索引。",
+      "why": "这不是单纯换模型名称，而是把检索范围和执行配置纳入产品层，能减少临床问答工作流自行拼装检索器的成本；官方公告没有提供独立临床准确性或安全性比较。",
+      "practice": "医疗原型可把该配置与现有通用模型做同题盲测，分别记录来源质量、事实错误、遗漏和升级到人工的比例；在本地验证通过前，不应直接用于诊疗决策或自动写入病历。",
+      "evidence": "官方API功能公告，2026-11-24发布；功能事实已确认，实际临床效果未给出独立评测。",
+      "confidence": "高",
+      "confidence_reason": "官方变更日志直接确认配置与检索行为；效果判断仍未知。",
+      "source": {
+        "label": "OpenAI API Changelog",
+        "url": "https://developers.openai.com/api/docs/changelog"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261125-gpt6-protein-design",
+      "domain": "AI",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "short_title": "通用推理模型进入蛋白设计实验闭环",
+      "priority": "重点关注",
+      "one_liner": "GPT-6.2设计的322个小型结合蛋白中35个（10.9%）在实验室显示目标结合；对既有抗体结合环重设计时，182个设计中128个（70%）保留结合。",
+      "what": "OpenAI报告GPT-6.2通过推理与代码工具设计蛋白结构和序列。实验室测试322个针对5个靶点的小型结合蛋白，35个（10.9%）阳性；针对既有结构重新设计序列时，MDM2、VEGF-A和PD-1的初筛结合率分别为85%、62%和14%。在6个VHH抗体的结合环重设计中，182个设计有128个（70%）保留IL-4Rα结合。",
+      "why": "通用模型不再只做文献与代码辅助，而开始提出可合成、可实验验证的候选；但工作流仍依赖SolubleMPNN、ProteinMPNN等专用模型做序列生成或筛选，且小型结合蛋白命中率低于原RFdiffusion研究。",
+      "practice": "生命科学团队可把通用模型用于约束表达、候选多样化和代码化设计，再用专用结构模型与实验筛选闭环验证；评估时必须报告从生成、筛选到湿实验的完整分母，不能只展示命中样本。",
+      "evidence": "OpenAI官方研究报告与合作实验室湿实验；非同行评审论文，部分候选筛选依赖专用模型。",
+      "confidence": "中",
+      "confidence_reason": "报告提供完整样本数和实验结合结果；来源为厂商自报，流程依赖尚未独立复现。",
+      "source": {
+        "label": "OpenAI Research",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261125-astra-exoplanet-search",
+      "domain": "AI",
+      "title": "Searching for distant planets with Astra",
+      "short_title": "AI Agent把公开天文数据转成待复核候选",
+      "priority": "值得了解",
+      "one_liner": "两个独立项目用Codex/Astra检索约10万颗Kepler恒星和约1900万颗恒星数据；其中两条Kepler信号被SETI研究者独立找到，但所有候选仍待确认。",
+      "what": "一名工程师用Codex构建两阶段管线扫描约10万颗Kepler恒星，先筛出200多条信号并回收到10个已知行星，随后锁定两条新候选；SETI研究者的独立搜索也找到这两条信号。另一项目用Astra分析约1900万颗恒星，首轮得到49个候选，其中1个交给TESS团队进一步分析。",
+      "why": "案例展示了科研Agent的实际价值：阅读方法、编写管线、批量执行和形成可复核候选，而不是直接给出‘发现’结论。两个项目都把最终判断交给独立搜索和后续观测。",
+      "practice": "科研工作流可采用‘已知阳性回收—候选排序—独立管线复核—外部验证’四步法；把Agent输出视为待检验假设，并保存代码、参数和完整候选清单。",
+      "evidence": "OpenAI官方案例；两项公民科学项目，包含部分独立天文学家复核，但候选尚未确认为行星、未见同行评审。",
+      "confidence": "中",
+      "confidence_reason": "流程、数据规模和独立复核事实可核对；科学结论仍处候选阶段。",
+      "source": {
+        "label": "OpenAI Science",
+        "url": "https://openai.com/index/searching-for-distant-planets-with-astra/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261125-hf-agentic-evals",
+      "domain": "AI",
+      "title": "How to build and maintain an agentic evaluation",
+      "short_title": "Agent评测需要任务、评分器与维护闭环",
+      "priority": "快讯",
+      "one_liner": "Hugging Face给出开放Agent评测工作流：任务要贴近真实操作，评分器要可审查，并持续维护环境与失败案例；其平台称评测数据集一年增至约1.7万套。",
+      "what": "Hugging Face发布Agent评测实践指南，强调先定义能代表领域工作的任务，再设计可复现环境、可靠评分器和公开构建记录，并持续检查任务泄漏、环境漂移与评分失真。平台称当前托管约3500个评测排行榜，评测数据集一年增长约16倍至约1.7万套。",
+      "why": "Agent能力容易被单次演示和宽松评分器高估；真正可用的评测需要同时验证最终结果、工具调用过程和失败恢复，而不是只比较模型得分。",
+      "practice": "团队上线Agent前可先建立20–50个来自真实工作流的代表任务，固定初始状态与终止条件，并让评分器输出可人工复核的证据；每次模型、工具或权限变更都跑同一回归集。",
+      "evidence": "官方开源社区实践指南与平台统计；非独立基准研究，方法建议需结合具体任务验证。",
+      "confidence": "中",
+      "confidence_reason": "建议与可复现评测原则一致；增长数据与方法效果主要来自平台自报。",
+      "source": {
+        "label": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/agentic-evals"
+      },
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "训练监控应把‘测什么、测几次、看多长时间’一起设计。今天的跳跃可靠性与佩剑负荷研究都表明，固定三次试验或单周负荷阈值可能省事，却会丢掉真正影响决策的任务与时间窗。",
+    "康复处方先解决诊断构念。股四头肌激活差不是一个机制，伸膝恢复也不是重返运动；先确认限制来自神经抑制、恐惧、机械活动范围还是负荷耐受，再选择干预和结局。",
+    "AI科研应用最值得复制的不是模型名称，而是验证链：已知阳性回收、专用工具筛选、独立复核和实验/观测确认。任何一环缺失，都不应把候选写成发现。"
+  ],
+  "trends_url": "data/trends/2026-11-25.json"
+}

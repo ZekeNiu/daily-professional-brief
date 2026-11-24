@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "date": "2026-11-25",
+  "observed_at": "2026-11-25T07:55:00+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-25",
+  "summary": {
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 2,
+      "AI": 3
+    },
+    "signal": "今天最有价值的讨论共同指向‘把系统放回真实任务中验证’：人体动作AI要检查训练数据与边缘动作，康复播客把风险因素和回归标准落到人群与阶段，Agent评测则要求可复现环境和可审查评分器。"
+  },
+  "navigation": {
+    "prev": "2026-11-24",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：动作识别系统的可信度取决于训练数据、边缘案例和具体使用场景，不应由演示视频替代验证。",
+    "运动健康": "本板块重点：风险因素与重返运动讨论正在从单一指标转向人群特异、阶段特异和任务特异的临床推理。",
+    "AI": "本板块重点：Agent价值正在从‘能否完成演示’转向证据链、评测闭环和可控版本管理。"
+  },
+  "items": [
+    {
+      "id": "s-20261125-ai-human-movement",
+      "domain": "运动科学",
+      "title": "Can AI Understand Human Movement?",
+      "short_title": "动作AI的瓶颈在数据与边缘案例",
+      "priority": "重点关注",
+      "one_liner": "Science for Sport访谈把动作AI可信度落到训练数据覆盖、标注标准和异常动作表现；康复等高风险用途必须做本地验证。",
+      "what": "节目邀请计算机视觉数据专家Maria Greicer讨论动作识别系统如何学习、训练数据质量如何限制表现，以及谁在定义‘好动作’。访谈特别指出，异常动作、少见人群和复杂运动环境是系统容易失败的边缘案例，伤病风险预测比姿态识别需要更高验证标准。",
+      "why": "动作AI常以流畅叠图或单个准确率展示，但训练数据是否包含目标运动员、镜头、速度和遮挡条件，才决定输出能否进入训练或康复决策。",
+      "practice": "采购或试用前，用本队真实视频建立小型挑战集，覆盖不同体型、肤色、装备、遮挡、疲劳和异常动作；把系统误差与人工标注差异逐项复核，再决定它只做信息提示还是参与处方。",
+      "evidence": "专业播客访谈，2026-11-23发布；专家观点与实践框架，非独立性能试验。",
+      "confidence": "中",
+      "confidence_reason": "问题框架与计算机视觉验证原则一致；节目未提供具体产品的独立数据。",
+      "source": {
+        "label": "Science for Sport Podcast",
+        "url": "https://scienceforsport.fireside.fm/347"
+      },
+      "limit": "",
+      "author": "Richard Graves / Maria Greicer",
+      "platform": "播客",
+      "published_date": "2026-11-23"
+    },
+    {
+      "id": "s-20261125-hip-oa-risk-factors",
+      "domain": "运动健康",
+      "title": "Which risk factors matter for hip osteoarthritis?",
+      "short_title": "女性髋骨关节炎风险需按证据层级解释",
+      "priority": "值得了解",
+      "one_liner": "JOSPT Insights围绕女性髋骨关节炎风险因素的证据综合，强调可用于风险沟通的因素与可直接干预的治疗靶点并不等同。",
+      "what": "JOSPT Insights第289期邀请Lexie Wright解读团队对女性髋骨关节炎临床风险因素的证据综合，讨论哪些人群与暴露因素更稳定地关联发病，以及如何把群体风险信息用于评估与沟通。",
+      "why": "风险因素常被直接写成个人病因或治疗目标，但关联强度、可改变性与干预证据是三件事；在女性运动人群中，筛查与负荷建议尤其需要区分。",
+      "practice": "评估髋部症状时，可把已知风险因素用于完善病史和共同决策，但治疗方案仍应由当前疼痛、功能、负荷耐受和目标任务决定；不要因为存在风险因素就自动限制运动。",
+      "evidence": "期刊官方播客对证据综合的专家解读，2026-11-24发布；非新的干预试验。",
+      "confidence": "中",
+      "confidence_reason": "来源为专业期刊播客并指向系统性研究；本条依据节目摘要，未将未披露效应量写入结论。",
+      "source": {
+        "label": "JOSPT Insights / Apple Podcasts",
+        "url": "https://podcasts.apple.com/au/podcast/ep-289-which-risk-factors-matter-for-hip-osteoarthritis/id1522929437?i=1000803567593"
+      },
+      "limit": "",
+      "author": "JOSPT Insights / Lexie Wright",
+      "platform": "播客",
+      "published_date": "2026-11-24"
+    },
+    {
+      "id": "s-20261125-postpartum-return-sport",
+      "domain": "运动健康",
+      "title": "Return to sport after pregnancy — a sports medicine lens",
+      "short_title": "产后重返运动需要负荷测试与盆底整合",
+      "priority": "值得了解",
+      "one_liner": "STA Clinician Podcast把产后重返运动放入运动医学路径，讨论症状筛查、负荷测试和盆底功能，而不是只按产后周数放行。",
+      "what": "节目邀请Gráinne Donnelly讨论产后重返运动、盆底与运动医学的衔接，重点包括把盆底症状纳入常规筛查、用负荷测试观察功能反应，以及在母职、训练目标和组织恢复之间共同制定进阶计划。",
+      "why": "产后回归常被简化为固定时间线，但跑跳、力量和专项运动对腹压、冲击和恢复资源的要求不同；忽略盆底和整体负荷会让‘时间已到’替代功能判断。",
+      "practice": "回归跑跳前记录尿失禁、盆腔沉重感、疼痛、出血、睡眠和训练后反应，再用步行—跑步—跳跃—专项逐级暴露；出现症状时调整负荷并转介具备盆底与运动康复经验的专业人员。",
+      "evidence": "专业临床播客与会议议题，2026-11-24公开；专家讨论与案例框架，非处方性临床试验。",
+      "confidence": "中",
+      "confidence_reason": "实践框架与阶段性康复原则一致；节目材料未提供比较效果数据。",
+      "source": {
+        "label": "The STA Clinician Podcast",
+        "url": "https://podcasts.apple.com/br/podcast/the-sta-clinician-podcast/id1540427581"
+      },
+      "limit": "",
+      "author": "The STA Clinician Podcast / Gráinne Donnelly",
+      "platform": "播客",
+      "published_date": "2026-11-24"
+    },
+    {
+      "id": "s-20261125-agentic-eval-workflow",
+      "domain": "AI",
+      "title": "How to build and maintain an agentic evaluation",
+      "short_title": "Agent评测从排行榜转向维护闭环",
+      "priority": "重点关注",
+      "one_liner": "Hugging Face给出开放评测实践：真实任务、可复现环境、可审查评分器与持续维护缺一不可。",
+      "what": "Hugging Face从社区实践角度拆解Agent评测：任务应来自真实工作，环境要能重置，评分器要检查结果而非只看模型自报完成，并公开失败案例和构建过程。文章还强调环境与工具变化会让基准漂移，因此维护本身是评测的一部分。",
+      "why": "Agent的成功率高度依赖工具、终止条件和评分器；只换模型或只看单次演示，无法判断升级是否真的提高生产可靠性。",
+      "practice": "先从20–50个高频任务建立回归集，为每题保存初始状态、允许工具、成功证据和常见失败；模型、工具或权限一变就重跑，并保留人工抽检。",
+      "evidence": "Hugging Face官方实践博客，2026-11-23发布；方法指南与社区经验，非独立对照研究。",
+      "confidence": "中",
+      "confidence_reason": "流程可直接复现并符合评测工程原则；效果与平台规模数据主要来自官方自报。",
+      "source": {
+        "label": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/agentic-evals"
+      },
+      "limit": "",
+      "author": "Hugging Face",
+      "platform": "官方技术博客",
+      "published_date": "2026-11-23"
+    },
+    {
+      "id": "s-20261125-astra-history-case",
+      "domain": "AI",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "short_title": "历史研究案例展示可核查的Agent证据链",
+      "priority": "值得了解",
+      "one_liner": "历史学者报告Astra用22分钟提出1808年匿名速写本作者假设，并指向一份线下档案；真正的价值在于形成可外部核验的证据链。",
+      "what": "历史学者Mark Humphries报告，GPT-6.2 Astra在少量提示下研究耶鲁Beinecke图书馆一册1808年匿名速写本，结合公开一手与二手资料提出作者身份，并预测一份鲜为人知的纸质档案可验证假设；后续查阅该档案后得到支持。Simon Willison将其作为非确定性领域的Agent研究案例转述。",
+      "why": "该案例的专业价值不在‘22分钟解决谜题’，而在模型给出可定位的一手证据和可证伪预测，使人类专家能继续核查；它仍是单个当事人案例，不能代表历史研究总体成功率。",
+      "practice": "让研究Agent输出来源路径、反例、尚缺档案和可证伪预测，并把线下或受限材料交给领域专家复核；没有可追溯证据链的结论不进入正式稿。",
+      "evidence": "历史学者案例报告与独立开发者转述，2026-11-24发布；单案例、无对照。",
+      "confidence": "低",
+      "confidence_reason": "过程叙述具体且包含外部档案核验；缺少完整运行记录与系统性成功率。",
+      "source": {
+        "label": "Simon Willison’s Weblog",
+        "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/"
+      },
+      "limit": "",
+      "author": "Simon Willison / Mark Humphries",
+      "platform": "开发者博客 / Substack",
+      "published_date": "2026-11-24",
+      "references": [
+        {
+          "label": "原始案例",
+          "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical"
+        }
+      ]
+    },
+    {
+      "id": "s-20261125-github-assisted-commits",
+      "domain": "AI",
+      "title": "GitHub Desktop 3.7.1-beta1: Copilot assisted commits can split changes into commits",
+      "short_title": "Copilot开始按意图拆分提交",
+      "priority": "快讯",
+      "one_liner": "GitHub Desktop 3.7.1-beta1允许Copilot assisted commits把工作区改动拆成多个提交，并可从Desktop打开Copilot app。",
+      "what": "GitHub Desktop于11月24日发布3.7.1-beta1，新增让Copilot assisted commits规划并拆分当前改动为多个提交的能力，同时可从Repository菜单在GitHub Copilot app中打开仓库。该功能仍处beta版本。",
+      "why": "自动拆分提交若能保持语义边界，可降低代码审查和回滚成本；若分组错误，也可能把相互依赖的改动拆散，因此提交结构仍需要开发者确认。",
+      "practice": "可在非关键分支试用，并检查每个提交是否独立通过测试、消息是否准确、是否混入生成文件或敏感信息；不要让工具自动提交后直接推送主分支。",
+      "evidence": "GitHub官方预发布版本日志，2026-11-24发布；功能事实已确认，稳定性与质量尚无独立评测。",
+      "confidence": "高",
+      "confidence_reason": "官方release直接确认功能；实际拆分质量因仓库而异。",
+      "source": {
+        "label": "GitHub Desktop Releases",
+        "url": "https://github.com/desktop/desktop/releases/tag/release-3.7.1-beta1"
+      },
+      "limit": "",
+      "author": "GitHub Desktop",
+      "platform": "GitHub Releases",
+      "published_date": "2026-11-24"
+    }
+  ],
+  "professional_judgment": [
+    "运动技术工具的采购门槛应从‘能识别动作’提高到‘在本队边缘案例上误差是否可接受’，尤其是康复与伤病风险场景。",
+    "风险因素和回归时间线都只是输入。临床行动仍要由当前功能、症状、负荷耐受和目标任务共同决定。",
+    "Agent讨论正在成熟：高价值案例都留下了可复核的证据或测试，而不是让模型的自信输出充当完成标准。"
+  ],
+  "trends_url": "data/social/trends/2026-11-25.json"
+}
