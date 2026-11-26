@@ -1726,5 +1726,65 @@
     "observed_at": "2026-11-26T08:18:00+08:00",
     "date_verified": true,
     "platform": "官方技术博客"
+  },
+  {
+    "id": "manual-gabbett-20261125-sleep-high-performance",
+    "title": "You Can’t Sleep Your Way to High Performance!",
+    "url": "https://gabbettperformance.com.au/you-cant-sleep-your-way-to-high-performance",
+    "domain": "运动科学",
+    "source_author": "Tim Gabbett / Gabbett Performance",
+    "author_id": "gabbett",
+    "published_at": "2026-11-25T07:49:21+00:00",
+    "observed_at": "2026-11-27T08:12:00+08:00",
+    "date_verified": true,
+    "platform": "博客"
+  },
+  {
+    "id": "manual-latentspace-20261126-clay-gtm-agents",
+    "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+    "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+    "domain": "AI",
+    "source_author": "Latent Space",
+    "author_id": "latent-space",
+    "published_at": "2026-11-26T23:02:48+00:00",
+    "observed_at": "2026-11-27T08:12:00+08:00",
+    "date_verified": true,
+    "platform": "播客 / 通讯"
+  },
+  {
+    "id": "manual-simonwillison-20261126-sqlite-rsync",
+    "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+    "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync",
+    "domain": "AI",
+    "source_author": "Simon Willison",
+    "author_id": "simon-willison",
+    "published_at": "2026-11-26T06:08:25+00:00",
+    "observed_at": "2026-11-27T08:12:00+08:00",
+    "date_verified": true,
+    "platform": "博客"
+  },
+  {
+    "id": "manual-sspai-20261126-ai-keynote-diagrams",
+    "title": "论文作图不求人，用 ChatGPT 和 Keynote 免费搞定机理图",
+    "url": "https://sspai.com/post/119563",
+    "domain": "AI",
+    "source_author": "胡拉图说 / 少数派",
+    "author_id": "sspai-ai",
+    "published_at": "2026-11-26T07:00:00+00:00",
+    "observed_at": "2026-11-27T08:12:00+08:00",
+    "date_verified": true,
+    "platform": "中文博客"
+  },
+  {
+    "id": "manual-sspai-20261126-agora-android-byok",
+    "title": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具",
+    "url": "https://sspai.com/post/116773",
+    "domain": "AI",
+    "source_author": "少数派",
+    "author_id": "sspai-ai",
+    "published_at": "2026-11-26T09:30:00+00:00",
+    "observed_at": "2026-11-27T08:12:00+08:00",
+    "date_verified": true,
+    "platform": "中文博客"
   }
 ]

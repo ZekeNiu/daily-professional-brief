@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "date": "2026-11-27",
+  "observed_at": "2026-11-27T08:12:00+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-27",
+  "summary": {
+    "total": 5,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 0,
+      "AI": 4
+    },
+    "signal": "今天最有实践价值的讨论集中在‘工具如何嵌入工作流’：睡眠不能替代能力建设，科研绘图不能把逻辑交给生成图，Agent与数据库工具也应保留外部接口和可恢复的数据路径。"
+  },
+  "navigation": {
+    "prev": "2026-11-26",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：睡眠是恢复条件，不是高表现能力的替代品；训练容量与恢复状态必须同时管理。",
+    "AI": "本板块重点：真正可用的AI工作流把模型放在可编辑、可迁移、可恢复的工具链中，而不是让单一界面承包全部判断。"
+  },
+  "items": [
+    {
+      "id": "s-20261127-sleep-high-performance",
+      "domain": "运动科学",
+      "title": "You Can’t Sleep Your Way to High Performance!",
+      "short_title": "睡眠优化不能替代训练容量建设",
+      "priority": "值得了解",
+      "one_liner": "Tim Gabbett重新强调：睡眠能支持恢复，却不能替代足够训练暴露、渐进负荷与运动专项能力。",
+      "what": "Tim Gabbett以‘不能靠睡眠睡出高表现’为题，重新把睡眠放回训练—恢复框架：睡眠不足会影响恢复，但减少训练、过度保护或只追求恢复评分，也不会建立应对比赛需求的能力。文章连接其关于负荷—表现、负荷进展与恢复监控的既有研究。",
+      "why": "运动团队容易把可穿戴睡眠分数变成每日决策中心，却弱化真正决定表现的长期训练暴露与专项准备。恢复指标只有与施加的负荷和后续表现一起解释才有意义。",
+      "practice": "把睡眠作为负荷反应而非训练替代：同时看睡眠、主观疲劳、慢性训练暴露与专项表现；睡眠下降时先识别旅行、训练时段和总负荷来源，再决定调整。",
+      "evidence": "应用运动科学家评论文章，2026-11-25发布；引用训练负荷、表现、恢复与睡眠研究，非新的干预试验。",
+      "confidence": "中",
+      "confidence_reason": "核心观点与既有负荷—适应研究一致；本文属于专家综合判断，没有提供新的对照数据。",
+      "source": {
+        "label": "Gabbett Performance",
+        "url": "https://gabbettperformance.com.au/you-cant-sleep-your-way-to-high-performance"
+      },
+      "limit": "",
+      "author": "Tim Gabbett / Gabbett Performance",
+      "platform": "博客",
+      "published_date": "2026-11-25"
+    },
+    {
+      "id": "s-20261127-clay-gtm-agents",
+      "domain": "AI",
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "short_title": "Clay把GTM Agent做成可被外部Agent调用的基础设施",
+      "priority": "重点关注",
+      "one_liner": "Clay负责人解释其Agent从填表走向生成完整GTM工作流，并主动兼容Claude Code等外部编排器，而非把用户锁在自家模型选择器。",
+      "what": "Latent Space访谈Clay AI负责人Jeff Barg，讨论Sculptor从单元格填充发展为可构建完整销售与市场工作流的coding agent。团队发现用户不喜欢手动模型选择，并把Clay能力设计成既可由自家Agent使用，也可由Claude Code等外部harness调用；访谈还讨论了手写编排栈、评测和规模化后暴露的问题。",
+      "why": "案例说明Agent产品的长期护城河可能是可靠数据、动作接口与评测，而非专属聊天入口。允许外部Agent调用，可减少界面锁定并让能力进入用户已有工作流。",
+      "practice": "设计专业Agent时，把关键能力暴露为稳定工具接口，并用任务成功率、失败类型和人工返工评测；模型路由可自动化，但高风险动作仍应保留明确批准点。",
+      "evidence": "行业播客访谈，2026-11-26发布；产品负责人一手经验与架构讨论，未提供独立效果审计。",
+      "confidence": "中",
+      "confidence_reason": "产品设计与失败经验来自直接负责人；成本与效果数字属于团队自述。",
+      "source": {
+        "label": "Latent Space",
+        "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai"
+      },
+      "limit": "",
+      "author": "Basil Chatha / Jeff Barg / Latent Space",
+      "platform": "播客 / 通讯",
+      "published_date": "2026-11-27"
+    },
+    {
+      "id": "s-20261127-sqlite-rsync",
+      "domain": "AI",
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "short_title": "sqlite3_rsync可在低磁盘空间下远程复制快照",
+      "priority": "值得了解",
+      "one_liner": "Simon Willison指出sqlite3_rsync可经SSH复制一致快照，无需先在源机创建完整副本，并能只同步变化页。",
+      "what": "Simon Willison重新说明SQLite实验工具sqlite3_rsync的实用特性：它可通过SSH把数据库快照复制到另一台机器，不要求源机先预留一个完整数据库副本；已有副本再次同步时，双方交换页或页组哈希，只传输变化内容。工具自SQLite 3.47.0加入，3.50.0增强。",
+      "why": "对在小型主机上运行Agent、数据工具或个人应用的人，这解决了‘磁盘已过半就无法本地生成备份副本’的实际约束，并减少重复全量传输。",
+      "practice": "把sqlite3_rsync纳入远端备份或迁移演练前，先在副本环境验证一致性、SSH权限和恢复流程；它减少临时磁盘需求，但仍需异地副本与可执行恢复测试。",
+      "evidence": "独立开发者技术笔记，2026-11-26发布；基于SQLite官方工具与协议说明，功能本身并非当日新发布。",
+      "confidence": "高",
+      "confidence_reason": "工具行为与官方版本记录可直接核验；本次新触发是实践用途被重新说明，而非功能新增。",
+      "source": {
+        "label": "Simon Willison's Weblog",
+        "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync"
+      },
+      "limit": "",
+      "author": "Simon Willison",
+      "platform": "博客",
+      "published_date": "2026-11-26"
+    },
+    {
+      "id": "s-20261127-ai-keynote-diagrams",
+      "domain": "AI",
+      "title": "论文作图不求人，用 ChatGPT 和 Keynote 免费搞定机理图",
+      "short_title": "科研机理图应让AI起草、人类重建与逐项核对",
+      "priority": "值得了解",
+      "one_liner": "中文实践者给出低成本流程：先让AI提出3–4区构图并生成草图，再在Keynote重画，逐一核对箭头、术语、许可证与打印尺寸。",
+      "what": "作者以沙棘果渣发酵综述为例，先把正文整理成因果链，让ChatGPT提出3–4个分区和草图，再用Keynote手工重建。首版AI图出现术语、微观过程、箭头和排版错误，因此最终逐项对照正文，并检查图标许可、8磅最小字号、300/600 DPI输出和灰度可读性。",
+      "why": "流程把生成图定位为构图原型，而不是科学证据或投稿成品；它保留可编辑矢量源文件，也把事实核对责任放回作者。",
+      "practice": "先写一句图的核心因果链，再要求AI只出布局；正式图中每个节点和箭头必须能回指正文或数据。投稿前在实际版面尺寸、灰度和打印预览中复核，并保存可编辑源文件。",
+      "evidence": "中文科研工作流实践文章，2026-11-26发布；单一作者案例与操作清单，非工具效果研究。",
+      "confidence": "中",
+      "confidence_reason": "流程和失败实例具体、可复现；效率收益为作者经验，没有对照评测。",
+      "source": {
+        "label": "少数派",
+        "url": "https://sspai.com/post/119563"
+      },
+      "limit": "",
+      "author": "胡拉图说",
+      "platform": "中文博客",
+      "published_date": "2026-11-26"
+    },
+    {
+      "id": "s-20261127-agora-android-byok",
+      "domain": "AI",
+      "title": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具",
+      "short_title": "Agora把多厂商BYOK与本地工具带到Android",
+      "priority": "快讯",
+      "one_liner": "中文用户实测Agora支持多厂商API、分支对话、网页搜索和会话内本地沙盒，但搜索网络条件与RAG版本状态仍有实际限制。",
+      "what": "少数派作者长期实测开源Android客户端Agora：可用BYOK方式接入兼容API，支持图片、分支对话、DuckDuckGo/Brave/Tavily/SearXNG搜索与网页抓取，并提供会话内本地沙盒。文章同时记录DuckDuckGo反爬、SearXNG部署门槛，以及v2.2.0会话RAG暂不可用等问题。",
+      "why": "它为不想把工作流锁在单一厂商客户端的Android用户提供可迁移入口，但BYOK也意味着密钥、数据流和工具权限需要用户自己管理。",
+      "practice": "试用前先核对代码来源、密钥存储与数据去向；从低敏感任务开始，逐项开启搜索和本地工具。需要稳定检索时先验证提供商可达性，不把存在但不可用的RAG功能写入生产流程。",
+      "evidence": "中文独立用户评测，2026-11-26发布；持续使用案例与版本说明，非安全审计或系统基准。",
+      "confidence": "中",
+      "confidence_reason": "功能与局限记录具体；安全性、长期维护和不同模型兼容性尚未独立审计。",
+      "source": {
+        "label": "少数派",
+        "url": "https://sspai.com/post/116773"
+      },
+      "limit": "",
+      "author": "少数派作者",
+      "platform": "中文博客",
+      "published_date": "2026-11-26"
+    }
+  ],
+  "professional_judgment": [
+    "恢复数据必须与训练暴露配对。睡眠分数可以解释状态，却不能替代足够的长期负荷和专项能力建设。",
+    "Agent产品应优先建设可调用能力而不是封闭入口：稳定数据、动作API、评测和人工批准点比模型选择器更持久。",
+    "AI生成物进入科研交付前必须可编辑、可追溯。草图可以由模型加速，但机理箭头、术语、来源和最终版式仍需逐项人工验收。"
+  ],
+  "trends_url": "data/social/trends/2026-11-27.json"
+}

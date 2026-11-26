@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-27",
+  "title": "每日专业资讯简报｜2026-11-27",
+  "summary": {
+    "total": 9,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 4,
+      "AI": 3
+    },
+    "signal": "最重要的进展是：295名虚弱老年人的随机试验显示，每周两次、做到动作失败的阻力训练可改善力量与功能，但20%–80% 1RM之间没有出现明确最佳强度；康复和老年训练首先要解决持续执行与足够努力，而不是寻找单一理想百分比。"
+  },
+  "navigation": {
+    "prev": "2026-11-26",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：急性表现增益与备赛期恢复恶化都必须放回具体任务和能量状态，不能从单次指标直接推出长期处方。",
+    "运动健康": "本板块重点：有效康复更依赖足够训练刺激与功能结局，设备或补充剂的附加价值必须由其实际测量结果决定。",
+    "AI": "本板块重点：公开基准、可复现实验和可验证奖励正在把本地推理、文档解析与多Agent协作变成可检查的工程对象。"
+  },
+  "items": [
+    {
+      "id": "j-20261127-energy-drink-hitting-velocity",
+      "domain": "运动科学",
+      "title": "Effects of a commercially available sugar-free energy drink on hitting exit velocity in experienced baseball and softball players: a randomized crossover trial",
+      "short_title": "200毫克咖啡因饮料小幅提高击球初速",
+      "priority": "值得了解",
+      "one_liner": "22名有经验球员的双盲交叉试验中，多成分无糖能量饮料使平均击球初速提高1.20 mph、峰值提高1.56 mph，并维持了CMJ表现。",
+      "what": "22名棒垒球运动员（男14、女8）在双盲随机交叉设计下饮用含200毫克咖啡因的多成分无糖能量饮料或安慰剂。能量饮料条件下平均击球初速为71.3比70.1 mph，组内差1.20 mph（95%CI 0.56–1.84）；峰值初速差1.56 mph（0.79–2.33）。CMJ在饮料条件下保持，而安慰剂条件下降；杠铃速度、反应时和主观感受无差异。",
+      "why": "结果说明在熟练击球者中，含咖啡因配方可能带来小而可测的球速收益，但效果集中在固定球座击球与跳跃保持，并未扩展到全部神经肌肉指标。",
+      "practice": "若比赛规则和个体耐受允许，可在训练中用相同摄入时机验证击球初速与睡眠代价；决策应基于个人重复测试，而不是把1–2 mph群体均值当作稳定比赛收益。",
+      "evidence": "同行评审双盲随机交叉试验；有经验棒垒球运动员n=22，固定球座击球，200毫克咖啡因多成分饮料。",
+      "confidence": "中",
+      "confidence_reason": "交叉设计和效应区间清楚；样本小、产品为多成分配方，且未测试实战投球。",
+      "source": {
+        "label": "Journal of the International Society of Sports Nutrition",
+        "url": "https://doi.org/10.1080/15502783.2026.2766686"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261127-bodybuilder-prep-sleep",
+      "domain": "运动科学",
+      "title": "Exploratory observations of sleep during contest preparation in a natural bodybuilder: a case study",
+      "short_title": "极低能量可用性伴随备赛睡眠结构恶化",
+      "priority": "快讯",
+      "one_liner": "一名自然健美运动员4个月备赛中，能量可用性降至23.9 kcal/kg FFM/日，睡眠效率由93%降至83%，REM占比一度由30.8%降至4.4%。",
+      "what": "个案连续追踪一名男性自然健美运动员4个月备赛：体重下降5.7千克，估计体脂降至5.4%，能量摄入由4345降至2080 kcal/日，最低能量可用性为23.9 kcal/kg FFM/日。同期睡眠效率由93%降至83%，入睡后清醒时间接近增至3倍，REM占比从30.8%降至4.4%，随后回到12%。",
+      "why": "该记录把极端减脂、低能量可用性与客观睡眠变化放在同一时间轴上，提示备赛后段的恢复问题可能不仅表现为主观疲劳。",
+      "practice": "健美备赛可把睡眠效率、夜间清醒和能量可用性作为联合预警指标；若睡眠持续恶化，应优先审查热量赤字、训练量和备赛速度，而不是只增加睡眠时长。",
+      "evidence": "同行评审纵向个案；男性自然健美运动员n=1，4个月备赛观察。",
+      "confidence": "低",
+      "confidence_reason": "连续客观记录提供明确时间趋势，但单个个案无法区分能量赤字、训练压力和个体睡眠变异的贡献。",
+      "source": {
+        "label": "Journal of the International Society of Sports Nutrition",
+        "url": "https://doi.org/10.1080/15502783.2026.2761155"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261127-frail-rt-intensity",
+      "domain": "运动健康",
+      "title": "Resistance Training to Failure Improves Strength and Performance in Frail Older Adults Regardless of Intensity",
+      "short_title": "虚弱老年人阻力训练未见单一最佳强度",
+      "priority": "重点关注",
+      "one_liner": "295名虚弱老年人每周两次训练12周后力量与坐站功能改善，但20%–80% 1RM的13个强度水平之间没有明确最优点。",
+      "what": "随机试验纳入295名社区虚弱老年人，平均74岁、女性69%，把每周两次、做到动作失败的监督阻力训练分配到20%–80% 1RM的13个强度水平，并交叉随机蛋白补充。12周后腿举增加约25千克、腿屈伸增加17千克，SPPB增加0.4分，5次坐站缩短1.0秒，30秒坐站增加1次；步速变化很小。强度—反应曲线未出现明确最佳点，蛋白补充也未改变这一关系。",
+      "why": "这项大样本剂量试验直接挑战了‘虚弱老年人必须找到特定负荷百分比才有效’的处方思路：在足够努力和监督下，较宽强度范围都能产生力量与部分功能改善。",
+      "practice": "老年和康复训练可按疼痛、技术与器械条件选择可持续负荷，再用接近失败、渐进加量和功能复测保证刺激；步速若是目标，需要额外加入步行或速度专项训练。",
+      "evidence": "同行评审12周随机对照试验；社区虚弱老年人n=295，20%–80% 1RM、每周2次、训练至失败。",
+      "confidence": "高",
+      "confidence_reason": "样本较大、强度连续分层且结局具体；结论适用于监督下短期训练，步速并未随力量同步明显改善。",
+      "source": {
+        "label": "Journal of Cachexia, Sarcopenia and Muscle",
+        "url": "https://doi.org/10.1002/jcsm.70445"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261127-citrulline-postexercise-bp",
+      "domain": "运动健康",
+      "title": "Can oral L-citrulline or L-citrulline malate augment the post-exercise hypotension response? A systematic review and meta-analysis of randomized controlled trials",
+      "short_title": "瓜氨酸苹果酸可能放大运动后降压",
+      "priority": "重点关注",
+      "one_liner": "6项急性随机试验的汇总提示，瓜氨酸苹果酸使运动后60分钟内收缩压额外下降约9.0 mmHg，24小时动态血压也下降，但证据主要来自服药的高血压人群。",
+      "what": "系统综述纳入6项急性随机对照试验。瓜氨酸苹果酸相较对照使运动后0–60分钟收缩压加权均差为-9.02 mmHg（95%CI -16.22至-1.82）；24小时动态收缩压为-8.80 mmHg、舒张压为-7.08 mmHg，并见于日间与夜间。单独L-瓜氨酸只有1项试验，无法汇总。",
+      "why": "运动后低血压具有临床价值；若附加效应真实，补充剂可能增强一次有氧运动后的全天降压窗口。但现有证据高度集中在正在服药的高血压患者，且试验数量少。",
+      "practice": "不应把结果直接写成常规补充方案；若临床试用，应限定于有血压监测的高血压患者，记录运动前后与24小时动态血压，并审查与降压药叠加后的低血压症状。",
+      "evidence": "同行评审系统综述与Meta分析；6项急性RCT，主要为接受药物治疗的高血压患者与有氧运动。",
+      "confidence": "中",
+      "confidence_reason": "部分结局为中等质量且效应幅度具体；试验少、人群集中，L-瓜氨酸本身证据不足。",
+      "source": {
+        "label": "Blood Pressure",
+        "url": "https://doi.org/10.1080/08037051.2026.2762598"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261127-stroke-vr-bwstt",
+      "domain": "运动健康",
+      "title": "Virtual Reality and Body Weight-Supported Treadmill Training in Gait and Balance Rehabilitation After Stroke: A Systematic Review of Randomized Controlled Trials",
+      "short_title": "卒中后VR与减重跑台均可改善步态和平衡",
+      "priority": "值得了解",
+      "one_liner": "15项RCT、900名卒中患者显示，VR和减重跑台训练通常优于或不差于常规康复，但两者之间缺少足够直接比较。",
+      "what": "系统综述纳入15项随机对照试验、900名卒中患者，其中6项评估虚拟现实、9项评估减重支持跑台。两类干预均改善多项步态和平衡结局，且多项研究显示与常规康复相比更好或相当；PEDro评分6–8分，GRADE为低至中等。",
+      "why": "两种技术都可增加可重复、任务导向的步行练习，但现有研究异质性较大，不能据此宣布某一种设备普遍更优。",
+      "practice": "选型应围绕康复阶段与主要障碍：需要大量安全步数时优先考虑减重跑台，需要反馈、参与度或场景练习时考虑VR；用步速、步行耐力和平衡指标验证设备是否带来额外收益。",
+      "evidence": "同行评审系统综述；15项RCT、卒中患者n=900，VR 6项、减重支持跑台9项。",
+      "confidence": "中",
+      "confidence_reason": "随机试验总样本较大且方向一致；结局、设备和病程差异大，直接比较不足。",
+      "source": {
+        "label": "American Journal of Physical Medicine & Rehabilitation",
+        "url": "https://doi.org/10.1097/PHM.0000000000003213"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261127-flotation-concussion",
+      "domain": "运动健康",
+      "title": "Initial Findings on the Physiological Effects of Flotation Restricted Environmental Stimulation Therapy on Muscle Oxygenation and Heart Rate Variability in University-Aged Concussed and Healthy Athletes",
+      "short_title": "漂浮REST改变心率与肌氧但未改善SDNN",
+      "priority": "快讯",
+      "one_liner": "19名大学年龄运动员的探索研究中，1小时漂浮REST后心率下降、平均RR与肌氧上升，但HRV的SDNN没有显著变化，脑震荡组也未表现不同响应。",
+      "what": "研究比较13名健康运动员和6名轻型创伤性脑损伤运动员，在10周内接受1小时漂浮限制环境刺激治疗。单次后肌氧与平均RR间期上升、心率下降，SDNN未改变；纵向趋势同样见肌氧、RR和心率变化，但未见SDNN改善或组别交互。",
+      "why": "结果提供了放松状态下的急性生理信号，但没有支持‘改善自主神经变异性’或‘脑震荡特异恢复’这两个更强主张。",
+      "practice": "若作为恢复工具使用，应把它定位为可能降低即时心率和主观刺激的辅助方式；脑震荡康复效果仍需用症状、运动耐受和功能结局验证。",
+      "evidence": "同行评审探索性重复观察；健康运动员n=13、轻型脑外伤n=6，10周内1小时漂浮REST。",
+      "confidence": "低",
+      "confidence_reason": "样本很小且无强对照，阳性结果集中在即时生理指标，核心HRV指标SDNN为阴性。",
+      "source": {
+        "label": "Perceptual and Motor Skills",
+        "url": "https://doi.org/10.1177/00315125261510320"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261127-llamacpp-amd-dashboard",
+      "domain": "AI",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "short_title": "llama.cpp公开AMD本地推理周度基准",
+      "priority": "重点关注",
+      "one_liner": "新仪表板公开Ryzen/Radeon上PP512、TG128和长上下文吞吐数据，按周运行、每配置重复10次，并允许直接下载原始JSONL。",
+      "what": "ggml-org与Hugging Face发布llama.cpp × AMD公开基准仪表板，当前覆盖Radeon 8060S与AI PRO R9700S，可按硬件、模型、构建和量化查看PP512提示处理、TG128生成及上下文扩展表现。gfx1151/gfx1201工作流每周运行，Flash Attention开关均测，每配置重复10次；原始JSONL存于公开Bucket。",
+      "why": "本地模型性能会随内核、构建、量化和上下文持续变化。公开工作流与原始数据比一次性厂商数字更适合判断升级是否真实改善自己的硬件路径。",
+      "practice": "部署AMD本地推理前，先用仪表板筛选模型与量化，再以相同llama-bench任务在本机复测；把提示处理、生成和长上下文分开比较，并保存构建哈希。",
+      "evidence": "官方开源基准与仪表板；两类AMD硬件、周度工作流、每配置10次重复，原始数据公开。",
+      "confidence": "中",
+      "confidence_reason": "测试方法与数据可复查；当前硬件和任务覆盖仍有限，不能替代目标设备与真实工作负载测试。",
+      "source": {
+        "label": "Hugging Face / ggml-org",
+        "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261127-nemotron-parse",
+      "domain": "AI",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "short_title": "Nemotron开放文档解析数据、微调与加速链",
+      "priority": "值得了解",
+      "one_liner": "NVIDIA开放约1888万条图表、表格和多语OCR合成样本，并报告RLVR减少77%循环输出、DFlash2在单并发提高7.62倍吞吐。",
+      "what": "NVIDIA为0.6B Nemotron 3.5 Parse开放三套合成数据：图表998万、表格100万、多语OCR 790万条，并公布SFT→GRPO/RLVR微调配方。匹配开发检查点中，循环输出由126页降至29页，9000 token截断由185降至35，总分66.24升至71.38；单H200 BF16测试中DFlash2相对关闭推测解码在并发1提高7.62倍、并发512提高1.52倍。",
+      "why": "发布把文档解析的训练数据、可验证奖励和推理加速连接成一条可复现链；同时性能数字来自发布方的指定硬件与开发评测，适合做候选方案而非通用结论。",
+      "practice": "处理专业表格或图表时，可先用公开数据和配方做领域适配，再以字段完整率、表格结构、循环率和每页成本验收；难页可用二次裁剪重解析而不是全量提高分辨率。",
+      "evidence": "厂商技术发布与开源数据/配方；开发检查点对照、2078页单H200吞吐测试，并含指定合成牙科表单适配案例。",
+      "confidence": "中",
+      "confidence_reason": "数据、训练步骤和测量条件具体且部分可复现；准确率与吞吐主要由发布方报告，跨领域泛化需独立测试。",
+      "source": {
+        "label": "NVIDIA / Hugging Face",
+        "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261127-training-swarms",
+      "domain": "AI",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "short_title": "多Agent协作应在等预算下验证通信收益",
+      "priority": "值得了解",
+      "one_liner": "Hugging Face给出4个Qwen3-0.6B Agent的可复现实验，并把成功率、消息与Token共同记录；两张H100约4.8小时达到60.9%留出集成功率。",
+      "what": "Hugging Face发布多Agent强化学习系列首篇，以4个共享Qwen3-0.6B策略的Agent完成私有数字汇总任务，团队共享奖励。文章提供TRL与Hugging Face Jobs脚本；较短复现实验在两张H100上约4.8小时，50个更新后留出集成功率60.9%，并保存代码版本、检查点、消息和Token轨迹。",
+      "why": "文章明确区分‘更多尝试’与‘通信带来的协作收益’，要求在相同Token预算下比较；这比仅展示Agent数量或总成功率更能判断编排是否有效。当前任务必须交换私有信息，因此还未完成单Agent可解任务的等预算检验。",
+      "practice": "评估多Agent方案时，同时报告固定预算下的成功率、总Token、消息结构和延迟；先从可自动验收的小任务开始，并保留独立并行尝试作为基线。",
+      "evidence": "官方技术教程与可复现实验；4个共享策略Agent、Qwen3-0.6B、TRL脚本与留出评估，非独立同行评审。",
+      "confidence": "中",
+      "confidence_reason": "代码、成本和评测流程公开；首个任务本身依赖通信，尚不能证明通用多Agent系统在等预算下优于单Agent。",
+      "source": {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/blog/training-swarms"
+      },
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "虚弱老年人的阻力训练处方可先从可执行性出发：选择能安全接近失败的负荷、每周稳定完成两次，再用力量和坐站功能追踪进展；步速需要单独的专项刺激。",
+    "急性工具必须按实际结局定价。能量饮料只在击球初速和CMJ维持上显示收益，漂浮REST只改变部分即时生理指标；没有变化的指标同样应进入决策。",
+    "AI工程今天最值得采用的变化是保留可复查链：本地推理保存构建与原始数据，文档解析保留结构化验收，多Agent比较固定预算下的协作增益。"
+  ],
+  "trends_url": "data/trends/2026-11-27.json"
+}
