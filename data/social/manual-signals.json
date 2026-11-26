@@ -1654,5 +1654,77 @@
     "observed_at": "2026-11-25T07:55:00+08:00",
     "date_verified": true,
     "platform": "GitHub Releases"
+  },
+  {
+    "id": "manual-scienceforsport-20261125-post-match-lifting",
+    "title": "Lifting Weights After A Match?",
+    "url": "https://www.scienceforsport.com/lifting-weights-after-a-match/",
+    "domain": "运动科学",
+    "source_author": "Science for Sport / Eric Curry",
+    "author_id": "science-for-sport",
+    "published_at": "2026-11-25",
+    "observed_at": "2026-11-26T08:18:00+08:00",
+    "date_verified": true,
+    "platform": "博客"
+  },
+  {
+    "id": "manual-complementarytraining-20261123-water-polo-monitoring",
+    "title": "The Water Is the Problem: Building the Monitoring System Water Polo Never Had",
+    "url": "https://complementarytraining.com/the-water-is-the-problem-building-the-monitoring-system-water-polo-never-had/",
+    "domain": "运动科学",
+    "source_author": "Vuk Stevanović / Complementary Training",
+    "author_id": "complementary-training",
+    "published_at": "2026-11-23",
+    "observed_at": "2026-11-26T08:18:00+08:00",
+    "date_verified": true,
+    "platform": "博客"
+  },
+  {
+    "id": "manual-physiotutors-20261125-acsm-resistance",
+    "title": "ACSM 2026 Resistance Training Guidelines: What Physiotherapists Need to Know",
+    "url": "https://www.physiotutors.com/acsm-resistance-training-guidelines",
+    "domain": "运动健康",
+    "source_author": "Physiotutors",
+    "author_id": "physiotutors",
+    "published_at": "2026-11-25",
+    "observed_at": "2026-11-26T08:18:00+08:00",
+    "date_verified": true,
+    "platform": "博客"
+  },
+  {
+    "id": "manual-allenai-20261125-scientists-agents",
+    "title": "Where scientists draw the line on AI agents",
+    "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+    "domain": "AI",
+    "source_author": "Allen Institute for AI",
+    "author_id": "allenai",
+    "published_at": "2026-11-25",
+    "observed_at": "2026-11-26T08:18:00+08:00",
+    "date_verified": true,
+    "platform": "研究团队博客"
+  },
+  {
+    "id": "manual-simonwillison-20261124-llm-inflection-points",
+    "title": "Three LLM inflection points in twelve months",
+    "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points",
+    "domain": "AI",
+    "source_author": "Simon Willison",
+    "author_id": "simon-willison",
+    "published_at": "2026-11-24",
+    "observed_at": "2026-11-26T08:18:00+08:00",
+    "date_verified": true,
+    "platform": "开发者博客"
+  },
+  {
+    "id": "manual-github-20261125-modernization-evidence",
+    "title": "How to choose the next safe step in application modernization",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+    "domain": "AI",
+    "source_author": "GitHub / Sam Quakenbush",
+    "author_id": "github-blog-ai",
+    "published_at": "2026-11-25",
+    "observed_at": "2026-11-26T08:18:00+08:00",
+    "date_verified": true,
+    "platform": "官方技术博客"
   }
 ]
