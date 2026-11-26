@@ -10435,6 +10435,20 @@
       "last_seen": "2026-11-23T07:58:28+08:00"
     },
     {
+      "id": "manual-complementarytraining-20261123-water-polo-monitoring",
+      "title": "The Water Is the Problem: Building the Monitoring System Water Polo Never Had",
+      "url": "https://complementarytraining.com/the-water-is-the-problem-building-the-monitoring-system-water-polo-never-had/",
+      "date": "2026-11-23",
+      "domain": "运动科学",
+      "topic_id": "sport-load",
+      "sources": [
+        "Vuk Stevanović / Complementary Training"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00"
+    },
+    {
       "id": "manual-moonshot-20261123-kimi-code-280-canary",
       "title": "Kimi Code CLI 2.8.0-canary.20261123144244-c0e9faf",
       "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.8.0-canary.20261123144244-c0e9faf",
@@ -10547,6 +10561,20 @@
       "last_seen": "2026-11-25T07:55:00+08:00"
     },
     {
+      "id": "manual-simonwillison-20261124-llm-inflection-points",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points",
+      "date": "2026-11-24",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "开发者博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00"
+    },
+    {
       "id": "manual-sta-20261124-postpartum-return-sport",
       "title": "Return to sport after pregnancy — a sports medicine lens",
       "url": "https://podcasts.apple.com/br/podcast/the-sta-clinician-podcast/id1540427581",
@@ -10559,6 +10587,62 @@
       "platform": "播客",
       "first_seen": "2026-11-25T07:55:00+08:00",
       "last_seen": "2026-11-25T07:55:00+08:00"
+    },
+    {
+      "id": "manual-allenai-20261125-scientists-agents",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "date": "2026-11-25",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Allen Institute for AI"
+      ],
+      "platform": "研究团队博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00"
+    },
+    {
+      "id": "manual-github-20261125-modernization-evidence",
+      "title": "How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "date": "2026-11-25",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "GitHub / Sam Quakenbush"
+      ],
+      "platform": "官方技术博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00"
+    },
+    {
+      "id": "manual-physiotutors-20261125-acsm-resistance",
+      "title": "ACSM 2026 Resistance Training Guidelines: What Physiotherapists Need to Know",
+      "url": "https://www.physiotutors.com/acsm-resistance-training-guidelines",
+      "date": "2026-11-25",
+      "domain": "运动健康",
+      "topic_id": "health-other",
+      "sources": [
+        "Physiotutors"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00"
+    },
+    {
+      "id": "manual-scienceforsport-20261125-post-match-lifting",
+      "title": "Lifting Weights After A Match?",
+      "url": "https://www.scienceforsport.com/lifting-weights-after-a-match/",
+      "date": "2026-11-25",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Science for Sport / Eric Curry"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00"
     }
   ]
 }
