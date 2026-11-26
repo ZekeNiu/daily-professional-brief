@@ -10603,6 +10603,20 @@
       "last_seen": "2026-11-26T08:18:00+08:00"
     },
     {
+      "id": "manual-gabbett-20261125-sleep-high-performance",
+      "title": "You Can’t Sleep Your Way to High Performance!",
+      "url": "https://gabbettperformance.com.au/you-cant-sleep-your-way-to-high-performance",
+      "date": "2026-11-25",
+      "domain": "运动科学",
+      "topic_id": "sport-other",
+      "sources": [
+        "Tim Gabbett / Gabbett Performance"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-27T08:12:00+08:00",
+      "last_seen": "2026-11-27T08:12:00+08:00"
+    },
+    {
       "id": "manual-github-20261125-modernization-evidence",
       "title": "How to choose the next safe step in application modernization",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
@@ -10643,6 +10657,62 @@
       "platform": "博客",
       "first_seen": "2026-11-26T08:18:00+08:00",
       "last_seen": "2026-11-26T08:18:00+08:00"
+    },
+    {
+      "id": "manual-simonwillison-20261126-sqlite-rsync",
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync",
+      "date": "2026-11-26",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-27T08:12:00+08:00",
+      "last_seen": "2026-11-27T08:12:00+08:00"
+    },
+    {
+      "id": "manual-sspai-20261126-agora-android-byok",
+      "title": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具",
+      "url": "https://sspai.com/post/116773",
+      "date": "2026-11-26",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "少数派"
+      ],
+      "platform": "中文博客",
+      "first_seen": "2026-11-27T08:12:00+08:00",
+      "last_seen": "2026-11-27T08:12:00+08:00"
+    },
+    {
+      "id": "manual-sspai-20261126-ai-keynote-diagrams",
+      "title": "论文作图不求人，用 ChatGPT 和 Keynote 免费搞定机理图",
+      "url": "https://sspai.com/post/119563",
+      "date": "2026-11-26",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "胡拉图说 / 少数派"
+      ],
+      "platform": "中文博客",
+      "first_seen": "2026-11-27T08:12:00+08:00",
+      "last_seen": "2026-11-27T08:12:00+08:00"
+    },
+    {
+      "id": "manual-latentspace-20261126-clay-gtm-agents",
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+      "date": "2026-11-27",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "播客 / 通讯",
+      "first_seen": "2026-11-27T08:12:00+08:00",
+      "last_seen": "2026-11-27T08:12:00+08:00"
     }
   ]
 }
