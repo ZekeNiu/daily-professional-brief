@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-26",
+  "title": "每日专业资讯简报｜2026-11-26",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 3,
+      "AI": 3
+    },
+    "signal": "最重要的进展是：从训练监控到膝关节建模，真正可执行的阈值都开始与时间尺度、任务和个体输入绑定；脱离这些条件的单一数字，可能把测量噪声或模型偏差写成生理变化。"
+  },
+  "navigation": {
+    "prev": "2026-11-25",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：训练效率和技术评估应使用与项目、阶段和任务匹配的指标，周尺度与个体动作关系通常比单次绝对值更稳健。",
+    "运动健康": "本板块重点：影像、贴扎和计算模型都只能回答其实际测量的问题，不能替代功能、对称性或组织负荷的直接评估。",
+    "AI": "本板块重点：专业 Agent 的价值来自可审计工具链、形式化验证和有界试验，而不是更长的自由生成。"
+  },
+  "items": [
+    {
+      "id": "j-20261126-rugby-tei-reliability",
+      "domain": "运动科学",
+      "title": "Reliability and Minimal Detectable Change of Training Efficiency Index During Preseason and In-Season Training in Professional Rugby League Athletes",
+      "short_title": "橄榄球训练效率宜按周与阶段解释",
+      "priority": "重点关注",
+      "one_liner": "39名职业橄榄球运动员的数据表明，周训练效率指数比日值可靠；变化超过季前17%或赛季中19%才更可能超出测量误差。",
+      "what": "研究把5项外部负荷与Edwards TRIMP组合为训练效率指数（TEI），追踪39名职业橄榄球运动员的季前和赛季中训练。周TEI冲量的可靠性高于单日值，ICC在季前为0.86、赛季中为0.79；最小可检测变化分别约17%和19%。",
+      "why": "同一训练负荷指标在不同赛季阶段具有不同噪声。把日波动直接解释为适应或疲劳，容易触发无效调整；周聚合与阶段阈值更接近可行动的信号。",
+      "practice": "用TEI或类似内外负荷比值时，先建立季前与赛季中各自的周基线；小于约17%–19%的变化不宜单独触发处方调整，应与表现、主观恢复和训练内容共同解释。",
+      "evidence": "同行评审纵向测量研究；职业橄榄球运动员n=39，覆盖季前与赛季中。",
+      "confidence": "中",
+      "confidence_reason": "同一职业队的重复数据直接支持阶段化阈值；阈值尚未在其他项目和球队外部验证。",
+      "source": {
+        "label": "Journal of Strength and Conditioning Research",
+        "url": "https://doi.org/10.1519/JSC.0000000000005754"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261126-snatch-drop-under",
+      "domain": "运动科学",
+      "title": "Drop-Under Kinematics in the Snatch: A Systematic Review",
+      "short_title": "抓举下钻技术不能由单一位移判定",
+      "priority": "重点关注",
+      "one_liner": "15项研究、574名举重运动员显示，下钻阶段定义差异显著；杠铃高度或下落距离都不足以单独代表技术质量。",
+      "what": "系统综述纳入15项研究、574名竞技举重运动员。加权均值显示杠铃最大高度约1.02米、随后下落约15.5厘米、水平位移约10.9厘米、翻转阶段约0.23秒，但不同研究对下钻起止点和变量定义并不一致。",
+      "why": "教练常把杠铃高度、下落距离或水平位移当作技术优劣的单项判据；综述显示这些值高度依赖定义、人体尺寸和成功接杠位置，跨运动员比较很容易失真。",
+      "practice": "视频或测力分析应同时看运动员相对杠铃的位置、翻转时间和接杠稳定性，并固定事件定义；用同一运动员的纵向变化指导技术，而不是套用单一群体阈值。",
+      "evidence": "同行评审系统综述；15项运动学研究，竞技举重运动员n=574。",
+      "confidence": "中",
+      "confidence_reason": "样本总量较大且结果一致指出定义异质性；原始研究测量方案差异限制了统一阈值。",
+      "source": {
+        "label": "Journal of Strength and Conditioning Research",
+        "url": "https://doi.org/10.1519/JSC.0000000000005742"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261126-sprint-acceleration-sex",
+      "domain": "运动科学",
+      "title": "Sex-specific associations between physical abilities, lower limb kinematics, and acceleration performance in highly trained sprinters",
+      "short_title": "冲刺加速更接近相对功率与支撑胫骨角",
+      "priority": "值得了解",
+      "one_liner": "44名高水平短跑运动员中，CMJ相对峰值功率解释男性57%、女性42%的10米加速差异；足部快速点地与踝背屈无明显关系。",
+      "what": "25名女性和19名男性高水平短跑运动员完成10米起跑、CMJ、DJ、足部点地与踝背屈测试。男性加速表现高19%、CMJ相对峰值功率高27%；更小的支撑期胫骨角与更快加速相关，而足部点地和踝背屈未显示有意义关系。",
+      "why": "结果把可训练的爆发功率与加速中的姿态变量联系起来，也显示常见的快速点地或静态踝活动度测试未必解释起跑表现。",
+      "practice": "短跑评估可优先组合CMJ相对峰值功率、10米分段和支撑期胫骨角；把足部点地或静态背屈作为独立信息，而不是默认的加速限制因素。",
+      "evidence": "同行评审横断研究；高水平短跑运动员n=44（女25、男19）。",
+      "confidence": "中",
+      "confidence_reason": "人群和任务高度特异，关联幅度清楚；横断设计不能证明改变胫骨角或CMJ功率会直接改善加速。",
+      "source": {
+        "label": "Journal of Sports Sciences",
+        "url": "https://doi.org/10.1080/02640414.2026.2768692"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261126-youth-football-jump-strategy",
+      "domain": "运动科学",
+      "title": "Monitoring Jump Strategy and Performance in Youth Academy Footballers: Signal-to-Noise Ratio Analysis Across Maturation and Growth-Related Injuries",
+      "short_title": "青训跳跃监控需同时看成熟度与动作策略",
+      "priority": "值得了解",
+      "one_liner": "42名精英青训球员的跳高可靠性优于下蹲深度；成熟后与既往生长相关伤病均会改变跳跃策略。",
+      "what": "42名U13–U18精英男足运动员在双测力台完成CMJ。跳高ICC为0.92、典型误差3.8%–4.0%，下蹲深度ICC为0.83–0.86、误差8.4%–8.9%。峰值身高速度后球员跳得更高、下蹲更浅；有生长相关伤病史者下蹲更深、离心制动更快。",
+      "why": "同一跳高结果可能来自不同动作策略，而成熟和伤病史会系统性改变策略。只看跳高容易漏掉负荷组织方式的变化。",
+      "practice": "青训监控同时保留跳高、下蹲深度和离心阶段指标，并按成熟状态建立个人基线；策略指标的变化需超过其更大的测量误差后再解释。",
+      "evidence": "同行评审重复测量研究；精英男足青训运动员n=42，双测力台。",
+      "confidence": "中",
+      "confidence_reason": "可靠性与成熟度分层直接支持监控设计；单一青训体系和男性样本限制外部范围。",
+      "source": {
+        "label": "European Journal of Sport Science",
+        "url": "https://doi.org/10.1002/ejsc.70289"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261126-meniscus-fe-inputs",
+      "domain": "运动健康",
+      "title": "Generalized Gait Inputs Bias Predicted Meniscal Mechanics in Subject-Specific Knee Joint Finite Element Models",
+      "short_title": "通用步态输入可显著扭曲半月板力学预测",
+      "priority": "重点关注",
+      "one_liner": "在3个个体化膝关节模型中，通用步态输入使内侧半月板应力、应变与接触应力高估约50%–250%，同时低估外侧反应。",
+      "what": "研究为3名女性建立MRI个体化膝关节有限元模型，比较个体动作捕捉/肌骨建模输入与文献通用步态输入。通用输入使内侧半月板应力、应变和接触应力提高约50%–250%，同时使外侧指标降低约50%。",
+      "why": "几何结构个体化并不等于整个模型个体化。若载荷和运动学仍使用群体平均，模型可能系统性改变组织风险方向，影响术式、康复负荷或器械设计推断。",
+      "practice": "用于个体临床或康复决策的有限元模型，应优先采集本人步态与肌骨动力学输入；无法采集时，把通用输入做成敏感性区间，而不是输出单一风险值。",
+      "evidence": "同行评审方法学研究；女性n=3，MRI、动作捕捉、肌骨与有限元联合建模。",
+      "confidence": "中",
+      "confidence_reason": "输入替换产生的偏差幅度大且方向明确；仅3个模型，不能估计不同病理人群的误差分布。",
+      "source": {
+        "label": "Journal of Orthopaedic Research",
+        "url": "https://doi.org/10.1002/jor.70324"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261126-ankle-graft-mri",
+      "domain": "运动健康",
+      "title": "No significant association between magnetic resonance imaging-based graft maturation markers and contemporaneous clinical outcomes at a mean of 15 months after arthroscopic allograft reconstruction of the lateral ankle ligaments",
+      "short_title": "术后15个月移植物MRI信号未对应临床功能",
+      "priority": "值得了解",
+      "one_liner": "30例外侧踝韧带同种异体重建患者中，MRI成熟标志与同期临床结局的49项相关均未显著。",
+      "what": "30名患者在外侧踝韧带同种异体重建后平均15个月接受MRI，并在平均16个月评估临床结局；29人已在影像前重返运动，未见移植物断裂。49项MRI—临床相关均不显著，相关系数介于-0.30至0.24。",
+      "why": "在这一较晚阶段，MRI信号或形态没有提供与患者功能、症状同步的可用替代指标。继续以“看起来成熟”解释恢复质量，信息增量有限。",
+      "practice": "术后后期复查应把功能、症状、负荷耐受与运动任务作为主判断；MRI用于结构问题和并发症排查，不以单一成熟信号替代功能结局。",
+      "evidence": "同行评审回顾性关联研究；30例外侧踝韧带同种异体重建，术后约15个月。",
+      "confidence": "中",
+      "confidence_reason": "阴性结果覆盖多项影像和临床指标；样本较小，置信区间仍容许中等关联，且不回答早期预测价值。",
+      "source": {
+        "label": "Journal of Experimental Orthopaedics",
+        "url": "https://doi.org/10.1002/jeo2.71003"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261126-aclr-kinesiotaping",
+      "domain": "运动健康",
+      "title": "Immediate Effects of Kinesiotaping on Lower Limb Biomechanics and Interlimb Symmetry in Return-to-Sport Athletes After ACL Reconstruction",
+      "short_title": "ACLR贴扎改变局部运动学但未恢复对称性",
+      "priority": "值得了解",
+      "one_liner": "18名重返运动阶段ACLR运动员中，肌内效贴即时改变部分膝与髋力学，但没有改善双侧对称性。",
+      "what": "18名ACLR后重返运动阶段运动员接受三维动作与双测力台评估。贴扎后患侧膝内翻、外旋和内部外翻力矩下降，双侧髋关节功增加；但未改善垂直地反力、载荷或关节功的肢间不对称。",
+      "why": "局部角度或力矩的即时改变不等于整体负荷策略恢复。把贴扎后的动作外观变化解释成重返运动准备度，会高估其作用。",
+      "practice": "贴扎可作为短期感觉或动作提示工具，但重返运动评估仍应直接复测落地负荷、膝/踝功率、跳跃和专项任务对称性。",
+      "evidence": "同行评审单次实验研究；ACLR后重返运动运动员n=18，三维运动学与双测力台。",
+      "confidence": "中",
+      "confidence_reason": "生物力学测量直接且结果明确；样本小、只观察即时效应，未测后续伤病或表现。",
+      "source": {
+        "label": "Journal of Applied Biomechanics",
+        "url": "https://doi.org/10.1123/jab.2026-0233"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261126-mass-spec-skills",
+      "domain": "AI",
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "short_title": "质谱Agent以专用工具链把已知物识别率推至约97%",
+      "priority": "重点关注",
+      "one_liner": "Google在100种已知化合物基准中报告，Gemini接入质谱数据库与工具后，三种模型的精确识别率均接近97%，同时减少生成Token。",
+      "what": "Google把Gemini与质谱数据库、检索和评分工具封装为可审计技能，在100种Enamine REAL/MoNA已知化合物上每张谱图尝试3次。无联网/技能时精确识别低于4%；加入技能后三种模型均约97%，Flash生成Token减少近4倍、Argon约减半、Carbon约减20%。",
+      "why": "提升主要来自受控检索、专用算法和证据链，而不是让模型自由猜结构。它为科研Agent提供了可复制架构：模型负责规划，领域工具负责约束和验证。",
+      "practice": "构建科研Agent时，把数据库检索、候选生成、评分和证据记录拆为显式工具；先用有标准答案的数据测回收率和成本，再进入未知样本。",
+      "evidence": "厂商技术报告与基准；100种已知化合物，每谱图3次尝试，排除瞬时基础设施/配额错误。",
+      "confidence": "中",
+      "confidence_reason": "任务、数据和指标公开到可解释程度；结果来自厂商自测，且已知库化合物不代表新分子鉴定。",
+      "source": {
+        "label": "Google DeepMind",
+        "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261126-quantum-agents-verification",
+      "domain": "AI",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "short_title": "量子算法Agent以Lean验证压低资源成本",
+      "priority": "值得了解",
+      "one_liner": "Google报告多Agent提出并由Lean形式化验证的量子算法改进：部分电路成本下降2.5至290倍，但仍超出现阶段早期容错硬件。",
+      "what": "Google使用Gemini 4 Agent团队独立提出算法，再用Lean证明关键性质并开源规格与解法。报告包括惯性融合电路成本降低11.8倍、纠错量子比特从5650降至4338，光化学模拟约8倍、CYP450约2.5倍，另有Grover实现2.57倍和arcsin电路290倍改进。",
+      "why": "形式化验证把“模型提出新算法”转化为可机械检查的数学对象，显著降低只凭自然语言或运行示例接受结果的风险。",
+      "practice": "在可形式化的科研/工程任务中，让生成与验证分离：多个Agent提出候选，证明助手或测试器独立验收；性能声明同时报告资源模型和硬件可行性。",
+      "evidence": "厂商研究发布；多项算法实例、Lean形式化验证与开源材料。",
+      "confidence": "中",
+      "confidence_reason": "验证链和资源数字具体；结果仍由项目方报告，且优化后资源仍超过早期容错量子机能力。",
+      "source": {
+        "label": "Google DeepMind",
+        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261126-bounded-modernization",
+      "domain": "AI",
+      "title": "How to choose the next safe step in application modernization",
+      "short_title": "遗留系统现代化应先建回归证据再选技术",
+      "priority": "快讯",
+      "one_liner": "GitHub用4个公开应用示范“保留、升级、替换、封装、重写”的递进决策，并把回归保护分为L0–L4。",
+      "what": "GitHub公开一套证据优先的应用现代化流程：先盘点可运行命令、运行时钉死点、外部契约与未知项，再按保留、升级、替换、封装、重写的顺序选择最小干预。案例覆盖4个公开应用，并用L0–L4描述从无回归网到CI自动门禁的证据强度。",
+      "why": "AI coding容易把“旧”误判为“必须重写”。流程把Agent用于证据收集和有界实验，同时把架构与风险决策保留给系统负责人。",
+      "practice": "先选择一个有负责人、可观察工作流和时间盒的应用；记录已证实、推断、未验证三类事实，只批准一个可回滚实验，并为其声明最高可诚实达到的回归保护等级。",
+      "evidence": "GitHub官方工程案例与方法文章；4个公开应用，含可复用Copilot agent skill，非独立对照试验。",
+      "confidence": "中",
+      "confidence_reason": "案例给出具体命令、测试与边界；属于作者实践总结，不能证明所有遗留系统的最优策略。",
+      "source": {
+        "label": "GitHub Blog",
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/"
+      },
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "训练监控要先定义时间尺度和噪声阈值。日值适合发现异常，周值更适合判断方向；进入处方层面的变化必须超过阶段特异的最小可检测变化。",
+    "影像与模型不应获得超出输入的权威。个体化几何配通用载荷仍可能产生大幅偏差，后期MRI信号也未必对应功能；直接功能和任务测试仍是康复决策主轴。",
+    "科研与工程Agent最可靠的共同模式是‘生成—工具调用—独立验证—留下证据’。今天的质谱、量子算法和代码现代化案例都把自由生成压缩在可审计边界内。"
+  ],
+  "trends_url": "data/trends/2026-11-26.json"
+}

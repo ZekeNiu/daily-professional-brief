@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "date": "2026-11-26",
+  "observed_at": "2026-11-26T08:18:00+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-26",
+  "summary": {
+    "total": 6,
+    "counts": {
+      "运动科学": 2,
+      "运动健康": 1,
+      "AI": 3
+    },
+    "signal": "今天最有价值的讨论不是新口号，而是如何把方法放回真实约束：赛后力量训练要看恢复与刺激质量，水球监控要适应水下通信限制，科研Agent则必须让科学家参与任务、验证与责任设计。"
+  },
+  "navigation": {
+    "prev": "2026-11-25",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：训练安排与监控系统应从项目真实约束出发，先验证刺激质量和数据可得性，再谈统一方案。",
+    "运动健康": "本板块重点：健康成人阻力训练证据可以提供康复原则，但不能替代伤病阶段、症状和重返运动标准。",
+    "AI": "本板块重点：Agent讨论正在从能力展示转向责任分配、可复现证据与长期工作流改变。"
+  },
+  "items": [
+    {
+      "id": "s-20261126-post-match-lifting",
+      "domain": "运动科学",
+      "title": "Lifting Weights After A Match?",
+      "short_title": "赛后力量训练的核心是负荷合并是否保留刺激质量",
+      "priority": "重点关注",
+      "one_liner": "Science for Sport整理了赛后立即力量训练的负荷合并思路，同时明确提出：疲劳后能否产生有效刺激、是否延长恢复仍需实测。",
+      "what": "文章转述教练Mike McGurn的方案：把下肢力量安排在比赛结束后，以便把比赛与力量压力集中在同一天，为随后48–72小时留出连续恢复。作者同时提出三个未决问题：赛后是否还能产生足够训练刺激、附加负荷会否延长恢复、该方案更适合维持还是发展力量。",
+      "why": "这是拥挤赛程中有明确逻辑的排程假设，但逻辑本身不能证明净收益；刺激质量与恢复代价决定它是否成立。",
+      "practice": "若试行，先限于少量关键动作和力量维持目标；记录负重、速度损失、次日及48小时神经肌肉表现与主观恢复，再与MD+1/MD+2方案做队内交叉比较。",
+      "evidence": "专业媒体实践讨论，2026-11-25收录；教练观点与编辑分析，非干预试验。",
+      "confidence": "低",
+      "confidence_reason": "负荷合并逻辑可检验，但原文没有提供对照数据或伤病结局。",
+      "source": {
+        "label": "Science for Sport",
+        "url": "https://www.scienceforsport.com/lifting-weights-after-a-match/"
+      },
+      "limit": "",
+      "author": "Eric Curry / Mike McGurn",
+      "platform": "博客",
+      "published_date": "2026-11-25"
+    },
+    {
+      "id": "s-20261126-water-polo-monitoring",
+      "domain": "运动科学",
+      "title": "The Water Is the Problem: Building the Monitoring System Water Polo Never Had",
+      "short_title": "水球监控从水下物理限制反推系统设计",
+      "priority": "值得了解",
+      "one_liner": "一线教练公开了离线水球监控系统：以MAS/MSS、内存式心率、sRPE、出勤伤病和比赛统计连接整个赛季。",
+      "what": "Vuk Stevanović说明GPS、蓝牙和光学传感器在水下或身体接触中受限，因此未追求新硬件，而是把MAS/MSS个体目标、泳姿修正、离线记录心率、sRPE/TRIMP、出勤伤病和比赛事件整合进本地离线工具。",
+      "why": "它展示了项目特异监控的正确起点：先接受可测量边界，再设计数据链；比把陆上团队项目的GPS模板直接搬进泳池更现实。",
+      "practice": "水上项目可先统一测试定义、出勤/伤病字段和训练集合编码；内存记录设备训练后同步，主观与客观负荷并列展示。ACWR等派生值只作对话线索，不作伤病预测器。",
+      "evidence": "教练实践文章与产品说明，2026-11-23发布；包含具体流程，未提供独立效度或效果试验。",
+      "confidence": "中",
+      "confidence_reason": "场景约束与流程描述具体；工具性能、依从性和决策效果尚未独立验证。",
+      "source": {
+        "label": "Complementary Training",
+        "url": "https://complementarytraining.com/the-water-is-the-problem-building-the-monitoring-system-water-polo-never-had/"
+      },
+      "limit": "",
+      "author": "Vuk Stevanović",
+      "platform": "博客",
+      "published_date": "2026-11-23"
+    },
+    {
+      "id": "s-20261126-acsm-rehab-context",
+      "domain": "运动健康",
+      "title": "ACSM 2026 Resistance Training Guidelines: What Physiotherapists Need to Know",
+      "short_title": "ACSM阻力训练原则进入康复时要重新绑定病程",
+      "priority": "重点关注",
+      "one_liner": "Physiotutors把137篇系统综述的ACSM立场声明转译到物理治疗，并强调其对象是健康成人而非伤病康复指南。",
+      "what": "文章总结ACSM 2026立场声明：证据来自137篇系统综述、超过3万名成人；训练至力竭并非必要，渐进超负荷重要，器械、组式、血流限制与周期化并未稳定优于其他方案，阻力训练还改善步速、平衡和坐站等功能。",
+      "why": "这些原则能减少对复杂方法的过度依赖，但原始证据主要是健康成人、且许多参与者训练经验有限；它没有回答术后阶段、疼痛反应或重返运动阈值。",
+      "practice": "康复中可用‘可持续渐进负荷优先、失败训练非必需’作为默认原则，再按组织愈合、症状、动作质量与目标任务调整；不要把健康成人剂量直接写成伤病处方。",
+      "evidence": "专业临床解读，2026-11-25发布；依据ACSM立场声明（137篇系统综述、>3万人），非新的康复试验。",
+      "confidence": "高",
+      "confidence_reason": "核心结论直接对应已发表ACSM证据综述，文章清楚界定健康成人与康复用途。",
+      "source": {
+        "label": "Physiotutors",
+        "url": "https://www.physiotutors.com/acsm-resistance-training-guidelines"
+      },
+      "limit": "",
+      "author": "Physiotutors",
+      "platform": "博客",
+      "published_date": "2026-11-25",
+      "references": [
+        {
+          "label": "ACSM Position Stand",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/"
+        }
+      ]
+    },
+    {
+      "id": "s-20261126-scientists-ai-agents",
+      "domain": "AI",
+      "title": "Where scientists draw the line on AI agents",
+      "short_title": "17名科学家把Agent信任拆成五个可设计维度",
+      "priority": "重点关注",
+      "one_liner": "Ai2访谈17名科学家，归纳验证、隐私、客观性、问责与透明度五个信任维度，并主张由科学家共同决定任务与评测。",
+      "what": "Ai2研究团队访谈自然、应用和社会科学领域17名科学家，归纳出验证、隐私、客观性、问责和透明度五个信任维度。文章提出参与式基准：科学家共同界定哪些任务可委托、Agent如何运行、由什么证据验收。",
+      "why": "科研Agent的失败不只是不准确；未经授权的数据流、隐藏价值判断、责任不清和不可追溯同样会破坏研究。五维框架把抽象‘可信’转成工作流问题。",
+      "practice": "部署前逐任务写明数据边界、验证责任、人工签字点和可追溯输出；优先让领域研究者参与基准设计，而不是只用通用题库衡量。",
+      "evidence": "研究团队博客与定性访谈摘要，2026-11-25发布；科学家n=17，提出框架与研究议程，非效果验证。",
+      "confidence": "中",
+      "confidence_reason": "访谈覆盖多个学科并给出一致维度；样本小，参与式基准仍是方案而非已验证标准。",
+      "source": {
+        "label": "Hugging Face / Allen Institute for AI",
+        "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+      },
+      "limit": "",
+      "author": "Allen Institute for AI",
+      "platform": "博客",
+      "published_date": "2026-11-25"
+    },
+    {
+      "id": "s-20261126-llm-inflection-points",
+      "domain": "AI",
+      "title": "Three LLM inflection points in twelve months",
+      "short_title": "Simon Willison把过去一年能力跃迁归为三个工作流拐点",
+      "priority": "值得了解",
+      "one_liner": "Simon Willison以个人长期使用经验归纳：可靠编码、主动工具调用、3D与游戏开发是过去12个月三个拐点。",
+      "what": "Simon Willison回顾过去一年，把2025年末编码Agent可靠性提升、2026年中可主动组合工具解决问题的‘Fable-class’模型、以及秋季3D建模与游戏开发能力提升列为三个拐点，并以自己的软件、定位声源和游戏项目举例。",
+      "why": "这份回顾的价值是描述工作方式如何改变，而不是宣布某个基准赢家；同时它主要来自一位高频用户的项目经验，不能代表所有团队。",
+      "practice": "评估模型升级时，记录它是否改变可委托任务边界、返工率和验证成本；用本团队重复任务建立前后对照，而不是只比较聊天感受。",
+      "evidence": "独立开发者回顾与演讲整理，2026-11-24发布；多项目案例，非系统基准。",
+      "confidence": "中",
+      "confidence_reason": "案例连续且可追溯，能支持工作流观察；拐点划分属于作者解释。",
+      "source": {
+        "label": "Simon Willison's Weblog",
+        "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points"
+      },
+      "limit": "",
+      "author": "Simon Willison",
+      "platform": "博客",
+      "published_date": "2026-11-24"
+    },
+    {
+      "id": "s-20261126-modernization-evidence",
+      "domain": "AI",
+      "title": "How to choose the next safe step in application modernization",
+      "short_title": "AI代码现代化讨论转向最小实验与诚实回归等级",
+      "priority": "快讯",
+      "one_liner": "GitHub公开4个项目的证据优先方法：先验证能否运行与测试，再决定保留、升级、替换、封装或重写。",
+      "what": "GitHub作者用4个公开应用说明如何盘点清单、运行时、外部契约与未知项，做时间盒可行性检查，再选择最小可用变更；同时用L0–L4说明回归保护从无可用安全网到自动CI门禁的实际水平。",
+      "why": "Agent可加速盘点与实验，但旧代码、失败测试或过时框架并不自动构成重写理由；把证据等级写清能阻止‘现代化完成’被工具输出替代。",
+      "practice": "选择一个有负责人和可观察工作流的应用，先建证据清单和一个可回滚实验；技能可以固化流程，但运行时选择、残余风险与上线批准仍由责任人决定。",
+      "evidence": "GitHub官方工程案例文章，2026-11-25发布；4个公开应用与可复用Agent skill，非独立评测。",
+      "confidence": "中",
+      "confidence_reason": "过程、命令和边界描述具体；效果证据来自作者团队自身案例。",
+      "source": {
+        "label": "GitHub Blog",
+        "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/"
+      },
+      "limit": "",
+      "author": "Sam Quakenbush",
+      "platform": "博客",
+      "published_date": "2026-11-25"
+    }
+  ],
+  "professional_judgment": [
+    "拥挤赛程中的赛后力量训练可以试，但应把它当作可证伪的队内实验：若速度输出下降且48小时恢复更差，负荷合并就没有实现预期。",
+    "监控系统不应追求所有项目同构。水球案例的启发是先承认传感限制，再把能稳定收集的数据连接成决策链。",
+    "科研与代码Agent的共同治理单元应是‘任务’而不是‘模型’：每个任务分别定义数据权限、验收证据、人工责任和可接受残余风险。"
+  ],
+  "trends_url": "data/social/trends/2026-11-26.json"
+}
