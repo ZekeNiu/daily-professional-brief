@@ -10713,6 +10713,76 @@
       "platform": "播客 / 通讯",
       "first_seen": "2026-11-27T08:12:00+08:00",
       "last_seen": "2026-11-27T08:12:00+08:00"
+    },
+    {
+      "id": "manual-qbitai-20261127-agent-clickbench",
+      "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "url": "https://www.qbitai.com/2026/11/513163.html",
+      "date": "2026-11-27",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "TabbyML / 量子位"
+      ],
+      "platform": "团队案例 / 中文科技媒体",
+      "first_seen": "2026-11-28T08:00:00+08:00",
+      "last_seen": "2026-11-28T08:00:00+08:00"
+    },
+    {
+      "id": "manual-tencent-20261127-hy3d36",
+      "title": "Tencent Hunyuan Hy3D 3.6 for professional 3D asset generation",
+      "url": "https://www.ithome.com/1/033/282.htm",
+      "date": "2026-11-27",
+      "domain": "AI",
+      "topic_id": "ai-other",
+      "sources": [
+        "腾讯混元 / IT之家"
+      ],
+      "platform": "官方发布 / 中文科技媒体",
+      "first_seen": "2026-11-28T08:00:00+08:00",
+      "last_seen": "2026-11-28T08:00:00+08:00"
+    },
+    {
+      "id": "manual-latentspace-20261127-training-data-market",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i",
+      "date": "2026-11-28",
+      "domain": "AI",
+      "topic_id": "ai-eval",
+      "sources": [
+        "Latent Space / Gabe Greenberg"
+      ],
+      "platform": "播客 / 通讯",
+      "first_seen": "2026-11-28T08:00:00+08:00",
+      "last_seen": "2026-11-28T08:00:00+08:00"
+    },
+    {
+      "id": "manual-runtimenotes-20261127-inkling-gb10",
+      "title": "Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+      "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10",
+      "date": "2026-11-28",
+      "domain": "AI",
+      "topic_id": "ai-model",
+      "sources": [
+        "Anand D N / Runtime Notes"
+      ],
+      "platform": "个人技术博客 / Hacker News",
+      "first_seen": "2026-11-28T08:00:00+08:00",
+      "last_seen": "2026-11-28T08:00:00+08:00"
+    },
+    {
+      "id": "manual-sessiongraph-20261127",
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "url": "https://sessiongraph.ai/",
+      "date": "2026-11-28",
+      "domain": "AI",
+      "topic_id": "ai-agent",
+      "sources": [
+        "SessionGraph / Hacker News"
+      ],
+      "platform": "开源工具 / 社区",
+      "first_seen": "2026-11-28T08:00:00+08:00",
+      "last_seen": "2026-11-28T08:00:00+08:00"
     }
   ]
 }

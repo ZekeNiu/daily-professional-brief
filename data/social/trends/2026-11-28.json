@@ -1,0 +1,2090 @@
+{
+  "version": 3,
+  "start": "2026-11-15",
+  "end": "2026-11-28",
+  "as_of": "2026-11-28T08:00:00+08:00",
+  "unit": "来源数／日",
+  "rows": [
+    {
+      "id": "s-sport-context-specific-monitoring",
+      "domain": "运动科学",
+      "label": "训练容量与恢复的联合管理",
+      "summary": "赛后力量训练、水球监控与睡眠讨论都要求从项目真实约束出发，同时验证刺激质量、长期训练暴露和恢复代价。",
+      "summary_refs": [
+        "manual-scienceforsport-20261125-post-match-lifting",
+        "manual-gabbett-20261125-sleep-high-performance"
+      ],
+      "confidence": "低",
+      "confidence_reason": "三条均为一线实践或专家综合，逻辑可检验但缺少同一框架下的独立干预数据。",
+      "kind": "topic",
+      "source_count": 3,
+      "item_count": 3,
+      "points": [
+        {
+          "date": "2026-11-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-23",
+          "value": 1,
+          "item_ids": [
+            "manual-complementarytraining-20261123-water-polo-monitoring"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-25",
+          "value": 2,
+          "item_ids": [
+            "manual-gabbett-20261125-sleep-high-performance",
+            "manual-scienceforsport-20261125-post-match-lifting"
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-28",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-health-criterion-based-return",
+      "domain": "运动健康",
+      "label": "通用训练原则的康复边界",
+      "summary": "ACSM健康成人阻力训练原则与ACL跑步门槛讨论共同要求把负荷方法重新绑定病程、症状、功能和目标任务。",
+      "summary_refs": [
+        "manual-physiotutors-20261125-acsm-resistance",
+        "manual-mike-reinold-20261119-acl-run"
+      ],
+      "confidence": "中",
+      "confidence_reason": "ACSM解读基于大型证据综述，ACL材料提供阶段化临床应用框架；人群与证据层级不同。",
+      "kind": "topic",
+      "source_count": 2,
+      "item_count": 2,
+      "points": [
+        {
+          "date": "2026-11-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-19",
+          "value": 1,
+          "item_ids": [
+            "manual-mike-reinold-20261119-acl-run"
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-23",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-24",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-25",
+          "value": 1,
+          "item_ids": [
+            "manual-physiotutors-20261125-acsm-resistance"
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-28",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-agent-workflow-control",
+      "domain": "AI",
+      "label": "Agent实验的任务边界与验收",
+      "summary": "Quickwit性能优化、科学家使用边界与遗留系统现代化案例都把Agent治理落到实验合同、可追溯证据和独立人工验收。",
+      "summary_refs": [
+        "manual-qbitai-20261127-agent-clickbench",
+        "manual-github-20261125-modernization-evidence"
+      ],
+      "confidence": "中",
+      "confidence_reason": "团队实验、跨学科访谈和工程案例从不同任务给出一致控制点，但没有统一量化标准。",
+      "kind": "topic",
+      "source_count": 3,
+      "item_count": 3,
+      "points": [
+        {
+          "date": "2026-11-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-23",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-24",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-25",
+          "value": 2,
+          "item_ids": [
+            "manual-allenai-20261125-scientists-agents",
+            "manual-github-20261125-modernization-evidence"
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "value": 1,
+          "item_ids": [
+            "manual-qbitai-20261127-agent-clickbench"
+          ]
+        },
+        {
+          "date": "2026-11-28",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "s-ai-portable-tool-interfaces",
+      "domain": "AI",
+      "label": "可迁移的Agent与会话接口",
+      "summary": "SessionGraph会话索引、Clay外部Agent接口与SQLite远端快照都在减少单一界面锁定，让能力、历史和数据恢复进入开放接口。",
+      "summary_refs": [
+        "manual-sessiongraph-20261127",
+        "manual-simonwillison-20261126-sqlite-rsync"
+      ],
+      "confidence": "中",
+      "confidence_reason": "三项独立实践分别覆盖会话检索、Agent调用和数据库恢复，功能路径公开但长期兼容性待验证。",
+      "kind": "topic",
+      "source_count": 4,
+      "item_count": 4,
+      "points": [
+        {
+          "date": "2026-11-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-23",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-24",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-25",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-26",
+          "value": 2,
+          "item_ids": [
+            "manual-simonwillison-20261126-sqlite-rsync",
+            "manual-sspai-20261126-agora-android-byok"
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "value": 1,
+          "item_ids": [
+            "manual-latentspace-20261126-clay-gtm-agents"
+          ]
+        },
+        {
+          "date": "2026-11-28",
+          "value": 1,
+          "item_ids": [
+            "manual-sessiongraph-20261127"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s-ai-local-inference-resource-budget",
+      "domain": "AI",
+      "label": "本地AI部署的资源账本",
+      "summary": "GB10推理实测与外部沙箱实践都强调，本地或隔离部署必须同时报告显存、并发、启动、上下文与凭据边界。",
+      "summary_refs": [
+        "manual-runtimenotes-20261127-inkling-gb10",
+        "simon-external-sandboxes-20261117"
+      ],
+      "confidence": "低",
+      "confidence_reason": "两项均提供具体工程配置，但一个聚焦模型性能、一个聚焦Agent隔离，属于互补实践信号。",
+      "kind": "topic",
+      "source_count": 3,
+      "item_count": 3,
+      "points": [
+        {
+          "date": "2026-11-15",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-17",
+          "value": 1,
+          "item_ids": [
+            "manual-hn-50526152"
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "value": 1,
+          "item_ids": [
+            "simon-external-sandboxes-20261117"
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-20",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-23",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-24",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-25",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-28",
+          "value": 1,
+          "item_ids": [
+            "manual-runtimenotes-20261127-inkling-gb10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-sport",
+      "domain": "运动科学",
+      "label": "其他已收录内容",
+      "kind": "other",
+      "source_count": 9,
+      "item_count": 10,
+      "points": [
+        {
+          "date": "2026-11-15",
+          "value": 1,
+          "item_ids": [
+            "ae3c9017d5b8"
+          ]
+        },
+        {
+          "date": "2026-11-16",
+          "value": 1,
+          "item_ids": [
+            "5b7e41d9a0c3"
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-18",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-19",
+          "value": 2,
+          "item_ids": [
+            "manual-mysportscience-20261119-presleep",
+            "manual-real-science-sport-20261119-heat-carb"
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "value": 2,
+          "item_ids": [
+            "manual-cu-20261120-exercise-snacks",
+            "manual-training-science-20261120-hiit"
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "value": 1,
+          "item_ids": [
+            "manual-hpp-20261121-gpp"
+          ]
+        },
+        {
+          "date": "2026-11-22",
+          "value": 1,
+          "item_ids": [
+            "manual-aspetar-20261122-supplement-workshop"
+          ]
+        },
+        {
+          "date": "2026-11-23",
+          "value": 1,
+          "item_ids": [
+            "manual-scienceforsport-20261123-ai-human-movement"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "value": 1,
+          "item_ids": [
+            "manual-mysportscience-20261124-glycogen-recovery"
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-28",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "other-health",
+      "domain": "运动健康",
+      "label": "其他已收录内容",
+      "kind": "other",
+      "source_count": 7,
+      "item_count": 8,
+      "points": [
+        {
+          "date": "2026-11-15",
+          "value": 1,
+          "item_ids": [
+            "manual-reddit-20261115-tirzepatide-resistance"
+          ]
+        },
+        {
+          "date": "2026-11-16",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-17",
+          "value": 1,
+          "item_ids": [
+            "manual-e3rehab-20261117-proprioception"
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "value": 1,
+          "item_ids": [
+            "manual-aspetar-20261118-fifau17",
+            "manual-aspetar-20261118-readiness"
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "value": 1,
+          "item_ids": [
+            "manual-acl-athlete-20261119-guilt"
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "value": 1,
+          "item_ids": [
+            "manual-bjsm-20261120-sailgp-emergency"
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-23",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-24",
+          "value": 2,
+          "item_ids": [
+            "manual-jospt-20261124-hip-oa-risk",
+            "manual-sta-20261124-postpartum-return-sport"
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-26",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-27",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-28",
+          "value": 0,
+          "item_ids": []
+        }
+      ]
+    },
+    {
+      "id": "other-ai",
+      "domain": "AI",
+      "label": "其他已收录内容",
+      "kind": "other",
+      "source_count": 23,
+      "item_count": 40,
+      "points": [
+        {
+          "date": "2026-11-15",
+          "value": 3,
+          "item_ids": [
+            "756ac6b73c7a",
+            "91935a495282",
+            "9c481a093106",
+            "a434c2daa44c",
+            "c7271b7ac99e",
+            "eba8c0480eb8"
+          ]
+        },
+        {
+          "date": "2026-11-16",
+          "value": 4,
+          "item_ids": [
+            "2e8f421d2ee2",
+            "33b95c2112c4",
+            "4db3019f68c2",
+            "5d20483ff1db",
+            "601a53017054",
+            "ab4fc5bd1909",
+            "ad61f4db9d2a",
+            "c6febd82e466",
+            "manual-openai-20261116-academic-researchers"
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "value": 4,
+          "item_ids": [
+            "github-copilot-browser-20261117",
+            "github-event-streams-20261117",
+            "manual-hn-50517415",
+            "manual-hn-50529612",
+            "reddit-agent-production-failures-20261117"
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "value": 3,
+          "item_ids": [
+            "manual-github-20261118-risk",
+            "manual-simon-20261118-curl",
+            "simon-datasette-lite-20261117"
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "value": 2,
+          "item_ids": [
+            "manual-github-20261119-copilot-cloud-billing",
+            "manual-hn-50550700"
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "value": 3,
+          "item_ids": [
+            "manual-hn-50554973",
+            "manual-hn-50577265",
+            "manual-metr-20261120-capability-update"
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "value": 3,
+          "item_ids": [
+            "manual-langchain-20261121-knowledge-factory",
+            "manual-reddit-20261121-agent-mcts",
+            "manual-together-20261121-prompt-leakage"
+          ]
+        },
+        {
+          "date": "2026-11-22",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-23",
+          "value": 3,
+          "item_ids": [
+            "manual-moonshot-20261123-kimi-code-280-canary",
+            "manual-simonwillison-20261123-datasette-charts",
+            "manual-simonwillison-20261123-ladybird-alpha"
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "value": 3,
+          "item_ids": [
+            "manual-githubdesktop-20261124-assisted-commits",
+            "manual-simonwillison-20261124-astra-history",
+            "manual-simonwillison-20261124-llm-inflection-points"
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "value": 0,
+          "item_ids": []
+        },
+        {
+          "date": "2026-11-26",
+          "value": 1,
+          "item_ids": [
+            "manual-sspai-20261126-ai-keynote-diagrams"
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "value": 1,
+          "item_ids": [
+            "manual-tencent-20261127-hy3d36"
+          ]
+        },
+        {
+          "date": "2026-11-28",
+          "value": 1,
+          "item_ids": [
+            "manual-latentspace-20261127-training-data-market"
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "756ac6b73c7a",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps",
+      "date": "2026-11-15",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-16T02:43:21.807806+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "91935a495282",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+      "date": "2026-11-15",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-15T23:47:25.205564+00:00",
+      "last_seen": "2026-11-15T23:47:25.205564+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "9c481a093106",
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+      "date": "2026-11-15",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-15T02:38:28.634619+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "a434c2daa44c",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent",
+      "date": "2026-11-15",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-16T02:43:21.807806+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "ae3c9017d5b8",
+      "title": "43 High Performance Physiology Method",
+      "url": "https://podcasts.apple.com/ca/podcast/43-high-performance-physiology-method/id1848284552?i=1000801971776",
+      "date": "2026-11-15",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Chris Beardsley / Rob Mauceri"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-17T08:12:00+08:00",
+      "last_seen": "2026-11-17T08:12:00+08:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "c7271b7ac99e",
+      "title": "datasette-vega 0.7",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega",
+      "date": "2026-11-15",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-15T02:38:28.634619+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "eba8c0480eb8",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "date": "2026-11-15",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Hacker News · AI讨论",
+        "Sebastian Raschka"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-15T23:47:25.205564+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "manual-reddit-20261115-tirzepatide-resistance",
+      "title": "Resistance exercise to attenuate lean mass loss during tirzepatide treatment",
+      "url": "https://www.reddit.com/r/GLP1ResearchTalk/comments/1xx12uc/resistance_exercise_to_attenuate_lean_mass_loss/",
+      "date": "2026-11-15",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "GLP1ResearchTalk community"
+      ],
+      "platform": "Reddit",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00",
+      "category_id": "health-other"
+    },
+    {
+      "id": "2e8f421d2ee2",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-15T23:47:25.205564+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "33b95c2112c4",
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "公开发布",
+      "first_seen": "2026-11-15T23:47:25.205564+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "4db3019f68c2",
+      "title": "Coding agents make my life so much harder",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1xxcj0z/coding_agents_make_my_life_so_much_harder/",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Reddit / r/AI_Agents"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-17T08:12:00+08:00",
+      "last_seen": "2026-11-17T08:12:00+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "5b7e41d9a0c3",
+      "title": "How to Develop Strength, Speed and Power in Young Athletes",
+      "url": "https://scienceforsport.fireside.fm/346",
+      "date": "2026-11-16",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Science for Sport / Tom Green"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-17T08:12:00+08:00",
+      "last_seen": "2026-11-17T08:12:00+08:00",
+      "category_id": "sport-speed"
+    },
+    {
+      "id": "5d20483ff1db",
+      "title": "Your Agent Will Pick the Hackable One",
+      "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-15T23:47:25.205564+00:00",
+      "last_seen": "2026-11-15T23:47:25.205564+00:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "601a53017054",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-16T02:43:21.807806+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "ab4fc5bd1909",
+      "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+      "url": "https://www.hntrends.com/2026/november.html",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Hacker News · AI讨论"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-16T02:43:21.807806+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "ad61f4db9d2a",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-16T02:43:21.807806+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "c6febd82e466",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-16T02:43:21.807806+00:00",
+      "last_seen": "2026-11-16T02:43:21.807806+00:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "manual-openai-20261116-academic-researchers",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/",
+      "date": "2026-11-16",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "OpenAI"
+      ],
+      "platform": "官方公告",
+      "first_seen": "2026-11-24T08:32:00+08:00",
+      "last_seen": "2026-11-24T08:32:00+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "github-copilot-browser-20261117",
+      "title": "Let GitHub Copilot interact with your browser",
+      "url": "https://github.blog/changelog/2026-11-17-let-github-copilot-interact-with-your-browser/",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "GitHub"
+      ],
+      "platform": "官方更新",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "github-event-streams-20261117",
+      "title": "GitHub Event Streams is now in preview",
+      "url": "https://github.blog/changelog/2026-11-17-github-event-streams-is-now-in-preview/",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "GitHub"
+      ],
+      "platform": "官方更新",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "manual-e3rehab-20261117-proprioception",
+      "title": "Proprioception Training with Adam Meakins",
+      "url": "https://e3rehab.libsyn.com/279-proprioception-training-w-adam-meakins",
+      "date": "2026-11-17",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "Chris Hughen / Adam Meakins / E3 Rehab"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00",
+      "category_id": "health-other"
+    },
+    {
+      "id": "manual-hn-50517415",
+      "title": "Show HN: Claktor – a refactoring CLI for coding agents",
+      "url": "https://news.ycombinator.com/item?id=50517415",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Claktor developer / Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-hn-50526152",
+      "title": "Running coding agents without handing them my credentials",
+      "url": "https://news.ycombinator.com/item?id=50526152",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "s-ai-local-inference-resource-budget",
+      "sources": [
+        "Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-19T08:35:00+08:00",
+      "last_seen": "2026-11-19T08:35:00+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-hn-50529612",
+      "title": "How the Claude Code team thinks about verification",
+      "url": "https://news.ycombinator.com/item?id=50529612",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-19T08:35:00+08:00",
+      "last_seen": "2026-11-19T08:35:00+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "reddit-agent-production-failures-20261117",
+      "title": "7 things that break agents in production",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1xwio0h/7_things_that_break_ai_agents_in_production/",
+      "date": "2026-11-17",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Reddit / r/AI_Agents"
+      ],
+      "platform": "社区",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-aspetar-20261118-fifau17",
+      "title": "Aspetar to serve as Official Medical Supporter for FIFA U-17 World Cup",
+      "url": "https://www.aspetar.com/en/about-us/press-room/news/fifau17-worldcup",
+      "date": "2026-11-18",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "Aspetar"
+      ],
+      "platform": "专业机构公告",
+      "first_seen": "2026-11-20T08:03:00+08:00",
+      "last_seen": "2026-11-20T08:03:00+08:00",
+      "category_id": "health-other"
+    },
+    {
+      "id": "manual-aspetar-20261118-readiness",
+      "title": "Recovery, Readiness and Back to Performance Following Lower-Limb Injury",
+      "url": "https://www.aspetar.com/en/professionals/our-events/aspetar-wednesday-webinar-series-26",
+      "date": "2026-11-18",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "Aspetar"
+      ],
+      "platform": "专业机构网页",
+      "first_seen": "2026-11-19T08:35:00+08:00",
+      "last_seen": "2026-11-19T08:35:00+08:00",
+      "category_id": "health-pain"
+    },
+    {
+      "id": "manual-github-20261118-risk",
+      "title": "Security risk assessments run automatically on GitHub Team",
+      "url": "https://github.blog/changelog/2026-11-18-security-risk-assessments-run-automatically-on-github-team/",
+      "date": "2026-11-18",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "GitHub"
+      ],
+      "platform": "官方发布",
+      "first_seen": "2026-11-19T08:35:00+08:00",
+      "last_seen": "2026-11-19T08:35:00+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "manual-simon-20261118-curl",
+      "title": "Actual curl rewrites in Rust",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+      "date": "2026-11-18",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison / Daniel Stenberg"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-19T08:35:00+08:00",
+      "last_seen": "2026-11-19T08:35:00+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "simon-datasette-lite-20261117",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "date": "2026-11-18",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "simon-external-sandboxes-20261117",
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "date": "2026-11-18",
+      "domain": "AI",
+      "topic_id": "s-ai-local-inference-resource-budget",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-18T08:00:23+08:00",
+      "last_seen": "2026-11-18T08:00:23+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-acl-athlete-20261119-guilt",
+      "title": "Feeling Guilt After Your ACL Injury",
+      "url": "https://www.theaclathlete.com/episode-303-feeling-guilt-after-your-acl-injury/",
+      "date": "2026-11-19",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "Ravi Patel"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00",
+      "category_id": "health-rtp"
+    },
+    {
+      "id": "manual-github-20261119-copilot-cloud-billing",
+      "title": "Work from anywhere with a new, connected Copilot cloud experience",
+      "url": "https://github.blog/changelog/2026-10-28-work-from-anywhere-with-a-new-connected-copilot-cloud-experience/",
+      "date": "2026-11-19",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "GitHub"
+      ],
+      "platform": "官方Changelog",
+      "first_seen": "2026-11-23T07:58:28+08:00",
+      "last_seen": "2026-11-23T07:58:28+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "manual-hn-50550700",
+      "title": "Show HN: KradleBench – Multi-agent AI evals in Minecraft",
+      "url": "https://news.ycombinator.com/item?id=50550700",
+      "date": "2026-11-19",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Kradle team / Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-20T08:03:00+08:00",
+      "last_seen": "2026-11-20T08:03:00+08:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "manual-mike-reinold-20261119-acl-run",
+      "title": "When Is an ACL Patient Really Ready to Run?",
+      "url": "https://mikereinold.com/when-is-an-acl-patient-really-ready-to-run/",
+      "date": "2026-11-19",
+      "domain": "运动健康",
+      "topic_id": "s-health-criterion-based-return",
+      "sources": [
+        "Mike Reinold / Champion PT and Performance"
+      ],
+      "platform": "播客与文章",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00",
+      "category_id": "health-rtp"
+    },
+    {
+      "id": "manual-mysportscience-20261119-presleep",
+      "title": "Eating Before Bed: What Athletes Need to Know",
+      "url": "https://www.mysportscience.com/post/eating-before-bed-athletes",
+      "date": "2026-11-19",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Asker Jeukendrup / MySportScience"
+      ],
+      "platform": "专业博客",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "manual-real-science-sport-20261119-heat-carb",
+      "title": "Do You Burn the Carbs You Eat in the Heat?",
+      "url": "https://shows.acast.com/realscienceofsport/episodes/do-you-burn-the-carbs-you-eat-in-the-heat-can-blood-tests-an",
+      "date": "2026-11-19",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Ross Tucker / Mike Finch"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-20T08:03:00+08:00",
+      "last_seen": "2026-11-20T08:03:00+08:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "manual-bjsm-20261120-sailgp-emergency",
+      "title": "Emergency care at full foil: how preparation, teamwork and rehearsed drills keep SailGP sailors safe in Sassnitz",
+      "url": "https://blogs.bmj.com/bjsm/2026/11/20/emergency-care-at-full-foil-how-preparation-teamwork-and-rehearsed-drills-keep-sailgp-sailors-safe-in-sassnitz/",
+      "date": "2026-11-20",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "Hella Kornatzki / SailGP medical team"
+      ],
+      "platform": "专业博客",
+      "first_seen": "2026-11-23T07:58:28+08:00",
+      "last_seen": "2026-11-23T07:58:28+08:00",
+      "category_id": "health-other"
+    },
+    {
+      "id": "manual-cu-20261120-exercise-snacks",
+      "title": "Exercise Snacks and Blood Sugar",
+      "url": "https://news.cuanschutz.edu/department-of-medicine/exercise-snacks-and-blood-sugar",
+      "date": "2026-11-20",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "University of Colorado Anschutz"
+      ],
+      "platform": "机构新闻",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "manual-hn-50554973",
+      "title": "Show HN: ADE Index – a sourced and ranked index of 975 agentic coding tools",
+      "url": "https://news.ycombinator.com/item?id=50554973",
+      "date": "2026-11-20",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "ADE Index developer / Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-hn-50577265",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://news.ycombinator.com/item?id=50577265",
+      "date": "2026-11-20",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Jiajun Fan et al. / Hacker News community"
+      ],
+      "platform": "Hacker News",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "manual-metr-20261120-capability-update",
+      "title": "Q4 2026 capability update",
+      "url": "https://evals.alignment.org/blog/2026-11-20-q4-2026-capability-update/",
+      "date": "2026-11-20",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "METR"
+      ],
+      "platform": "研究博客",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "manual-training-science-20261120-hiit",
+      "title": "The Science of Time-Efficient Training: HIIT, Fitness, and Exercise Snacks",
+      "url": "https://www.buzzsprout.com/1917060/episodes/20146206-the-science-of-time-efficient-training-hiit-fitness-and-exercise-snacks-with-xinyu-zeng-mingyue-yin-and-dr-martin-buchheit",
+      "date": "2026-11-20",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Paul Laursen / Martin Buchheit / Xinyu Zeng / Mingyue Yin"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-21T08:42:00+08:00",
+      "last_seen": "2026-11-21T08:42:00+08:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "manual-hpp-20261121-gpp",
+      "title": "44. GPP",
+      "url": "https://metacast.app/podcast/high-performance-physiology/8gNI3hBN/44-gpp/SJjp3eFN",
+      "date": "2026-11-21",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Chris Beardsley / Rob Mauceri"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-22T08:04:35+08:00",
+      "last_seen": "2026-11-22T08:04:35+08:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "manual-langchain-20261121-knowledge-factory",
+      "title": "How to build a knowledge factory for AI agents",
+      "url": "https://www.langchain.com/blog/knowledge-factory",
+      "date": "2026-11-21",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Harrison Chase"
+      ],
+      "platform": "开发者博客",
+      "first_seen": "2026-11-23T07:58:28+08:00",
+      "last_seen": "2026-11-23T07:58:28+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-reddit-20261121-agent-mcts",
+      "title": "MCTS over LLM coding agents: the value function is the bottleneck",
+      "url": "https://www.reddit.com/r/reinforcementlearning/comments/1y1zptp/mcts_over_llm_coding_agents_the_value_function_is/",
+      "date": "2026-11-21",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Natsuhiro Suzuki"
+      ],
+      "platform": "Reddit / GitHub",
+      "first_seen": "2026-11-23T07:58:28+08:00",
+      "last_seen": "2026-11-23T07:58:28+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-together-20261121-prompt-leakage",
+      "title": "Security event: Prompt leakage for requests in June and July of 2026",
+      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "date": "2026-11-21",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Vipul Ved Prakash"
+      ],
+      "platform": "官方博客",
+      "first_seen": "2026-11-23T07:58:28+08:00",
+      "last_seen": "2026-11-23T07:58:28+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "manual-aspetar-20261122-supplement-workshop",
+      "title": "Sports Supplements: Benefits, Risks & Practical Use",
+      "url": "https://www.aspetar.com/en/professionals/our-events/sports-supplement-workshop",
+      "date": "2026-11-22",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Aspetar"
+      ],
+      "platform": "专业机构活动",
+      "first_seen": "2026-11-23T07:58:28+08:00",
+      "last_seen": "2026-11-23T07:58:28+08:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "manual-complementarytraining-20261123-water-polo-monitoring",
+      "title": "The Water Is the Problem: Building the Monitoring System Water Polo Never Had",
+      "url": "https://complementarytraining.com/the-water-is-the-problem-building-the-monitoring-system-water-polo-never-had/",
+      "date": "2026-11-23",
+      "domain": "运动科学",
+      "topic_id": "s-sport-context-specific-monitoring",
+      "sources": [
+        "Vuk Stevanović / Complementary Training"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00",
+      "category_id": "sport-load"
+    },
+    {
+      "id": "manual-moonshot-20261123-kimi-code-280-canary",
+      "title": "Kimi Code CLI 2.8.0-canary.20261123144244-c0e9faf",
+      "url": "https://github.com/MoonshotAI/kimi-code/releases/tag/%40moonshot-ai%2Fkimi-code%402.8.0-canary.20261123144244-c0e9faf",
+      "date": "2026-11-23",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "MoonshotAI Kimi Code"
+      ],
+      "platform": "GitHub Releases",
+      "first_seen": "2026-11-24T08:32:00+08:00",
+      "last_seen": "2026-11-24T08:32:00+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-scienceforsport-20261123-ai-human-movement",
+      "title": "Can AI Understand Human Movement?",
+      "url": "https://scienceforsport.fireside.fm/347",
+      "date": "2026-11-23",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Richard Graves / Maria Greicer"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-25T07:55:00+08:00",
+      "last_seen": "2026-11-25T07:55:00+08:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "manual-simonwillison-20261123-datasette-charts",
+      "title": "Release: datasette-charts 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+      "date": "2026-11-23",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "开发者博客 / GitHub",
+      "first_seen": "2026-11-24T08:32:00+08:00",
+      "last_seen": "2026-11-24T08:32:00+08:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "manual-simonwillison-20261123-ladybird-alpha",
+      "title": "Ladybird’s first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "date": "2026-11-23",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison / Ladybird"
+      ],
+      "platform": "开发者博客 / 开源项目",
+      "first_seen": "2026-11-24T08:32:00+08:00",
+      "last_seen": "2026-11-24T08:32:00+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "manual-githubdesktop-20261124-assisted-commits",
+      "title": "GitHub Desktop 3.7.1-beta1: Copilot assisted commits can split changes into commits",
+      "url": "https://github.com/desktop/desktop/releases/tag/release-3.7.1-beta1",
+      "date": "2026-11-24",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "GitHub Desktop"
+      ],
+      "platform": "GitHub Releases",
+      "first_seen": "2026-11-25T07:55:00+08:00",
+      "last_seen": "2026-11-25T07:55:00+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "manual-jospt-20261124-hip-oa-risk",
+      "title": "Which risk factors matter for hip osteoarthritis?",
+      "url": "https://podcasts.apple.com/au/podcast/ep-289-which-risk-factors-matter-for-hip-osteoarthritis/id1522929437?i=1000803567593",
+      "date": "2026-11-24",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "JOSPT Insights / Lexie Wright"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-25T07:55:00+08:00",
+      "last_seen": "2026-11-25T07:55:00+08:00",
+      "category_id": "health-other"
+    },
+    {
+      "id": "manual-mysportscience-20261124-glycogen-recovery",
+      "title": "How fast do liver and muscle glycogen recover after hard exercise?",
+      "url": "https://www.mysportscience.com/post/how-fast-do-liver-and-muscle-glycogen-recover-after-hard-exercise",
+      "date": "2026-11-24",
+      "domain": "运动科学",
+      "topic_id": "other-sport",
+      "sources": [
+        "Cas Fuchs"
+      ],
+      "platform": "专业博客",
+      "first_seen": "2026-11-24T08:32:00+08:00",
+      "last_seen": "2026-11-24T08:32:00+08:00",
+      "category_id": "sport-speed"
+    },
+    {
+      "id": "manual-simonwillison-20261124-astra-history",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "date": "2026-11-24",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison / Mark Humphries"
+      ],
+      "platform": "开发者博客 / Substack",
+      "first_seen": "2026-11-25T07:55:00+08:00",
+      "last_seen": "2026-11-25T07:55:00+08:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "manual-simonwillison-20261124-llm-inflection-points",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points",
+      "date": "2026-11-24",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "开发者博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "manual-sta-20261124-postpartum-return-sport",
+      "title": "Return to sport after pregnancy — a sports medicine lens",
+      "url": "https://podcasts.apple.com/br/podcast/the-sta-clinician-podcast/id1540427581",
+      "date": "2026-11-24",
+      "domain": "运动健康",
+      "topic_id": "other-health",
+      "sources": [
+        "The STA Clinician Podcast / Gráinne Donnelly"
+      ],
+      "platform": "播客",
+      "first_seen": "2026-11-25T07:55:00+08:00",
+      "last_seen": "2026-11-25T07:55:00+08:00",
+      "category_id": "health-rtp"
+    },
+    {
+      "id": "manual-allenai-20261125-scientists-agents",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "date": "2026-11-25",
+      "domain": "AI",
+      "topic_id": "s-ai-agent-workflow-control",
+      "sources": [
+        "Allen Institute for AI"
+      ],
+      "platform": "研究团队博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-gabbett-20261125-sleep-high-performance",
+      "title": "You Can’t Sleep Your Way to High Performance!",
+      "url": "https://gabbettperformance.com.au/you-cant-sleep-your-way-to-high-performance",
+      "date": "2026-11-25",
+      "domain": "运动科学",
+      "topic_id": "s-sport-context-specific-monitoring",
+      "sources": [
+        "Tim Gabbett / Gabbett Performance"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-27T08:12:00+08:00",
+      "last_seen": "2026-11-27T08:12:00+08:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "manual-github-20261125-modernization-evidence",
+      "title": "How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "date": "2026-11-25",
+      "domain": "AI",
+      "topic_id": "s-ai-agent-workflow-control",
+      "sources": [
+        "GitHub / Sam Quakenbush"
+      ],
+      "platform": "官方技术博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "manual-physiotutors-20261125-acsm-resistance",
+      "title": "ACSM 2026 Resistance Training Guidelines: What Physiotherapists Need to Know",
+      "url": "https://www.physiotutors.com/acsm-resistance-training-guidelines",
+      "date": "2026-11-25",
+      "domain": "运动健康",
+      "topic_id": "s-health-criterion-based-return",
+      "sources": [
+        "Physiotutors"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00",
+      "category_id": "health-other"
+    },
+    {
+      "id": "manual-scienceforsport-20261125-post-match-lifting",
+      "title": "Lifting Weights After A Match?",
+      "url": "https://www.scienceforsport.com/lifting-weights-after-a-match/",
+      "date": "2026-11-25",
+      "domain": "运动科学",
+      "topic_id": "s-sport-context-specific-monitoring",
+      "sources": [
+        "Science for Sport / Eric Curry"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-26T08:18:00+08:00",
+      "last_seen": "2026-11-26T08:18:00+08:00",
+      "category_id": "sport-other"
+    },
+    {
+      "id": "manual-simonwillison-20261126-sqlite-rsync",
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync",
+      "date": "2026-11-26",
+      "domain": "AI",
+      "topic_id": "s-ai-portable-tool-interfaces",
+      "sources": [
+        "Simon Willison"
+      ],
+      "platform": "博客",
+      "first_seen": "2026-11-27T08:12:00+08:00",
+      "last_seen": "2026-11-27T08:12:00+08:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "manual-sspai-20261126-agora-android-byok",
+      "title": "App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具",
+      "url": "https://sspai.com/post/116773",
+      "date": "2026-11-26",
+      "domain": "AI",
+      "topic_id": "s-ai-portable-tool-interfaces",
+      "sources": [
+        "少数派"
+      ],
+      "platform": "中文博客",
+      "first_seen": "2026-11-27T08:12:00+08:00",
+      "last_seen": "2026-11-27T08:12:00+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-sspai-20261126-ai-keynote-diagrams",
+      "title": "论文作图不求人，用 ChatGPT 和 Keynote 免费搞定机理图",
+      "url": "https://sspai.com/post/119563",
+      "date": "2026-11-26",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "胡拉图说 / 少数派"
+      ],
+      "platform": "中文博客",
+      "first_seen": "2026-11-27T08:12:00+08:00",
+      "last_seen": "2026-11-27T08:12:00+08:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "manual-latentspace-20261126-clay-gtm-agents",
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+      "date": "2026-11-27",
+      "domain": "AI",
+      "topic_id": "s-ai-portable-tool-interfaces",
+      "sources": [
+        "Latent Space"
+      ],
+      "platform": "播客 / 通讯",
+      "first_seen": "2026-11-27T08:12:00+08:00",
+      "last_seen": "2026-11-27T08:12:00+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-qbitai-20261127-agent-clickbench",
+      "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "url": "https://www.qbitai.com/2026/11/513163.html",
+      "date": "2026-11-27",
+      "domain": "AI",
+      "topic_id": "s-ai-agent-workflow-control",
+      "sources": [
+        "TabbyML / 量子位"
+      ],
+      "platform": "团队案例 / 中文科技媒体",
+      "first_seen": "2026-11-28T08:00:00+08:00",
+      "last_seen": "2026-11-28T08:00:00+08:00",
+      "category_id": "ai-agent"
+    },
+    {
+      "id": "manual-tencent-20261127-hy3d36",
+      "title": "Tencent Hunyuan Hy3D 3.6 for professional 3D asset generation",
+      "url": "https://www.ithome.com/1/033/282.htm",
+      "date": "2026-11-27",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "腾讯混元 / IT之家"
+      ],
+      "platform": "官方发布 / 中文科技媒体",
+      "first_seen": "2026-11-28T08:00:00+08:00",
+      "last_seen": "2026-11-28T08:00:00+08:00",
+      "category_id": "ai-other"
+    },
+    {
+      "id": "manual-latentspace-20261127-training-data-market",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i",
+      "date": "2026-11-28",
+      "domain": "AI",
+      "topic_id": "other-ai",
+      "sources": [
+        "Latent Space / Gabe Greenberg"
+      ],
+      "platform": "播客 / 通讯",
+      "first_seen": "2026-11-28T08:00:00+08:00",
+      "last_seen": "2026-11-28T08:00:00+08:00",
+      "category_id": "ai-eval"
+    },
+    {
+      "id": "manual-runtimenotes-20261127-inkling-gb10",
+      "title": "Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+      "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10",
+      "date": "2026-11-28",
+      "domain": "AI",
+      "topic_id": "s-ai-local-inference-resource-budget",
+      "sources": [
+        "Anand D N / Runtime Notes"
+      ],
+      "platform": "个人技术博客 / Hacker News",
+      "first_seen": "2026-11-28T08:00:00+08:00",
+      "last_seen": "2026-11-28T08:00:00+08:00",
+      "category_id": "ai-model"
+    },
+    {
+      "id": "manual-sessiongraph-20261127",
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "url": "https://sessiongraph.ai/",
+      "date": "2026-11-28",
+      "domain": "AI",
+      "topic_id": "s-ai-portable-tool-interfaces",
+      "sources": [
+        "SessionGraph / Hacker News"
+      ],
+      "platform": "开源工具 / 社区",
+      "first_seen": "2026-11-28T08:00:00+08:00",
+      "last_seen": "2026-11-28T08:00:00+08:00",
+      "category_id": "ai-agent"
+    }
+  ],
+  "total_items": 73,
+  "total_sources": 50,
+  "channel": "social",
+  "date_basis": "公开内容发布日期",
+  "directions": [
+    {
+      "id": "sport-other",
+      "domain": "运动科学",
+      "title": "运动科学综合",
+      "change": "最近收录：Lifting Weights After A Match?",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 3,
+      "evidence": [
+        {
+          "id": "manual-scienceforsport-20261123-ai-human-movement",
+          "title": "Can AI Understand Human Movement?",
+          "url": "https://scienceforsport.fireside.fm/347",
+          "date": "2026-11-23",
+          "domain": "运动科学",
+          "topic_id": "sport-other",
+          "sources": [
+            "Richard Graves / Maria Greicer"
+          ],
+          "platform": "播客",
+          "first_seen": "2026-11-25T07:55:00+08:00",
+          "last_seen": "2026-11-25T07:55:00+08:00",
+          "label": "Can AI Understand Human Movement?",
+          "note": ""
+        },
+        {
+          "id": "manual-gabbett-20261125-sleep-high-performance",
+          "title": "You Can’t Sleep Your Way to High Performance!",
+          "url": "https://gabbettperformance.com.au/you-cant-sleep-your-way-to-high-performance",
+          "date": "2026-11-25",
+          "domain": "运动科学",
+          "topic_id": "sport-other",
+          "sources": [
+            "Tim Gabbett / Gabbett Performance"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-11-27T08:12:00+08:00",
+          "last_seen": "2026-11-27T08:12:00+08:00",
+          "label": "You Can’t Sleep Your Way to High Performance!",
+          "note": ""
+        },
+        {
+          "id": "manual-scienceforsport-20261125-post-match-lifting",
+          "title": "Lifting Weights After A Match?",
+          "url": "https://www.scienceforsport.com/lifting-weights-after-a-match/",
+          "date": "2026-11-25",
+          "domain": "运动科学",
+          "topic_id": "sport-other",
+          "sources": [
+            "Science for Sport / Eric Curry"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-11-26T08:18:00+08:00",
+          "last_seen": "2026-11-26T08:18:00+08:00",
+          "label": "Lifting Weights After A Match?",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "health-other",
+      "domain": "运动健康",
+      "title": "运动健康综合",
+      "change": "最近收录：ACSM 2026 Resistance Training Guidelines: What Physiotherapists Need to Know",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 3,
+      "evidence": [
+        {
+          "id": "manual-bjsm-20261120-sailgp-emergency",
+          "title": "Emergency care at full foil: how preparation, teamwork and rehearsed drills keep SailGP sailors safe in Sassnitz",
+          "url": "https://blogs.bmj.com/bjsm/2026/11/20/emergency-care-at-full-foil-how-preparation-teamwork-and-rehearsed-drills-keep-sailgp-sailors-safe-in-sassnitz/",
+          "date": "2026-11-20",
+          "domain": "运动健康",
+          "topic_id": "health-other",
+          "sources": [
+            "Hella Kornatzki / SailGP medical team"
+          ],
+          "platform": "专业博客",
+          "first_seen": "2026-11-23T07:58:28+08:00",
+          "last_seen": "2026-11-23T07:58:28+08:00",
+          "label": "Emergency care at full foil: how preparation, teamwork and rehearsed drills keep SailGP sailors safe in Sassnitz",
+          "note": ""
+        },
+        {
+          "id": "manual-jospt-20261124-hip-oa-risk",
+          "title": "Which risk factors matter for hip osteoarthritis?",
+          "url": "https://podcasts.apple.com/au/podcast/ep-289-which-risk-factors-matter-for-hip-osteoarthritis/id1522929437?i=1000803567593",
+          "date": "2026-11-24",
+          "domain": "运动健康",
+          "topic_id": "health-other",
+          "sources": [
+            "JOSPT Insights / Lexie Wright"
+          ],
+          "platform": "播客",
+          "first_seen": "2026-11-25T07:55:00+08:00",
+          "last_seen": "2026-11-25T07:55:00+08:00",
+          "label": "Which risk factors matter for hip osteoarthritis?",
+          "note": ""
+        },
+        {
+          "id": "manual-physiotutors-20261125-acsm-resistance",
+          "title": "ACSM 2026 Resistance Training Guidelines: What Physiotherapists Need to Know",
+          "url": "https://www.physiotutors.com/acsm-resistance-training-guidelines",
+          "date": "2026-11-25",
+          "domain": "运动健康",
+          "topic_id": "health-other",
+          "sources": [
+            "Physiotutors"
+          ],
+          "platform": "博客",
+          "first_seen": "2026-11-26T08:18:00+08:00",
+          "last_seen": "2026-11-26T08:18:00+08:00",
+          "label": "ACSM 2026 Resistance Training Guidelines: What Physiotherapists Need to Know",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "ai-agent",
+      "domain": "AI",
+      "title": "Agent与开发工作流",
+      "change": "最近收录：SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "meaning": "",
+      "confidence": "",
+      "confidence_reason": "",
+      "kind": "reading_path",
+      "source_count": 3,
+      "evidence": [
+        {
+          "id": "manual-latentspace-20261126-clay-gtm-agents",
+          "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+          "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai",
+          "date": "2026-11-27",
+          "domain": "AI",
+          "topic_id": "ai-agent",
+          "sources": [
+            "Latent Space"
+          ],
+          "platform": "播客 / 通讯",
+          "first_seen": "2026-11-27T08:12:00+08:00",
+          "last_seen": "2026-11-27T08:12:00+08:00",
+          "label": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+          "note": ""
+        },
+        {
+          "id": "manual-qbitai-20261127-agent-clickbench",
+          "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+          "url": "https://www.qbitai.com/2026/11/513163.html",
+          "date": "2026-11-27",
+          "domain": "AI",
+          "topic_id": "ai-agent",
+          "sources": [
+            "TabbyML / 量子位"
+          ],
+          "platform": "团队案例 / 中文科技媒体",
+          "first_seen": "2026-11-28T08:00:00+08:00",
+          "last_seen": "2026-11-28T08:00:00+08:00",
+          "label": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+          "note": ""
+        },
+        {
+          "id": "manual-sessiongraph-20261127",
+          "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+          "url": "https://sessiongraph.ai/",
+          "date": "2026-11-28",
+          "domain": "AI",
+          "topic_id": "ai-agent",
+          "sources": [
+            "SessionGraph / Hacker News"
+          ],
+          "platform": "开源工具 / 社区",
+          "first_seen": "2026-11-28T08:00:00+08:00",
+          "last_seen": "2026-11-28T08:00:00+08:00",
+          "label": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "topic_mode": "ai",
+  "topic_analysis": {
+    "generated_at": "2026-11-28T08:05:00+08:00",
+    "generated_by": "ChatGPT",
+    "source_fingerprint": "19945ad72b36bc957242be4510efc0e680f08e37a87b06d711df72767adb2aa0",
+    "input_items": 73,
+    "grouped_items": 15
+  }
+}
