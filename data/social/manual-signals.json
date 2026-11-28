@@ -1786,5 +1786,65 @@
     "observed_at": "2026-11-27T08:12:00+08:00",
     "date_verified": true,
     "platform": "中文博客"
+  },
+  {
+    "id": "manual-latentspace-20261127-training-data-market",
+    "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+    "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i",
+    "domain": "AI",
+    "source_author": "Latent Space / Gabe Greenberg",
+    "author_id": "latent-space",
+    "published_at": "2026-11-27T22:19:18+00:00",
+    "observed_at": "2026-11-28T08:00:00+08:00",
+    "date_verified": true,
+    "platform": "播客 / 通讯"
+  },
+  {
+    "id": "manual-sessiongraph-20261127",
+    "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+    "url": "https://sessiongraph.ai/",
+    "domain": "AI",
+    "source_author": "SessionGraph / Hacker News",
+    "author_id": "sessiongraph",
+    "published_at": "2026-11-27T21:07:34+00:00",
+    "observed_at": "2026-11-28T08:00:00+08:00",
+    "date_verified": true,
+    "platform": "开源工具 / 社区"
+  },
+  {
+    "id": "manual-runtimenotes-20261127-inkling-gb10",
+    "title": "Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+    "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10",
+    "domain": "AI",
+    "source_author": "Anand D N / Runtime Notes",
+    "author_id": "runtime-notes",
+    "published_at": "2026-11-27T18:59:55+00:00",
+    "observed_at": "2026-11-28T08:00:00+08:00",
+    "date_verified": true,
+    "platform": "个人技术博客 / Hacker News"
+  },
+  {
+    "id": "manual-qbitai-20261127-agent-clickbench",
+    "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+    "url": "https://www.qbitai.com/2026/11/513163.html",
+    "domain": "AI",
+    "source_author": "TabbyML / 量子位",
+    "author_id": "qbitai",
+    "published_at": "2026-11-27T03:53:49+00:00",
+    "observed_at": "2026-11-28T08:00:00+08:00",
+    "date_verified": true,
+    "platform": "团队案例 / 中文科技媒体"
+  },
+  {
+    "id": "manual-tencent-20261127-hy3d36",
+    "title": "Tencent Hunyuan Hy3D 3.6 for professional 3D asset generation",
+    "url": "https://www.ithome.com/1/033/282.htm",
+    "domain": "AI",
+    "source_author": "腾讯混元 / IT之家",
+    "author_id": "tencent-hunyuan",
+    "published_at": "2026-11-27T11:44:56+08:00",
+    "observed_at": "2026-11-28T08:00:00+08:00",
+    "date_verified": true,
+    "platform": "官方发布 / 中文科技媒体"
   }
 ]

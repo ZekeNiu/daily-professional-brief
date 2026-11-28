@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-28",
+  "title": "每日专业资讯简报｜2026-11-28",
+  "summary": {
+    "total": 10,
+    "counts": {
+      "运动科学": 4,
+      "运动健康": 4,
+      "AI": 2
+    },
+    "signal": "最重要的进展是：多项新研究共同把实践重点从‘设备或附加技术本身’移向可解释的任务指标——IMU适合纵向跟踪但不宜跨系统混用，虚拟现实或有氧训练加入常规多发性硬化康复也未显示组间优势。"
+  },
+  "navigation": {
+    "prev": "2026-11-27",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：现场测量和耐力评估的价值取决于能否稳定追踪任务变化，而不是把单一设备读数或实验室上限当作完整表现。",
+    "运动健康": "本板块重点：康复方案应优先看功能、依从性与可重复结局，新增技术只有产生组间增益时才算真正的附加价值。",
+    "AI": "本板块重点：当前高价值进展集中在把模型和硬件变成可复现的工程系统，并公开速度、资源占用与尚未解决的问题。"
+  },
+  "items": [
+    {
+      "id": "j-20261128-imu-jump-validity",
+      "domain": "运动科学",
+      "title": "IMU-based estimation of drop and squat jump metrics: criterion validity, agreement, and reliability",
+      "short_title": "腰部IMU可纵向跟踪跳跃，但不宜跨系统换算",
+      "priority": "重点关注",
+      "one_liner": "33名成人测试中，腰部IMU与测力台的跳高一致性极佳（CCC≥0.97），但深蹲跳与光学动作捕捉仅中等一致（CCC=0.77）。",
+      "what": "33名健康成人完成落地跳和深蹲跳，同时使用腰部IMU、测力台与光学动作捕捉。IMU跳高与测力台一致性极佳（CCC≥0.97），深蹲跳与光学系统的一致性降至中等（CCC=0.77）；接触时间与测力台高度一致，但测力台存在系统性高估。跳高重测可靠性良好至极佳，接触时间可靠性良好。",
+      "why": "研究把‘相关性高’和‘数值可互换’分开：同一设备重复测量可以支持训练监控，但不同系统的绝对值仍可能受算法和事件识别规则影响。",
+      "practice": "建立运动员纵向档案时固定设备、放置位置、跳跃任务和算法版本；更换系统后先做并行测量与新基线，不把旧阈值直接迁移。",
+      "evidence": "同行评审效度与可靠性研究；健康成人n=33，腰部IMU对照测力台和光学动作捕捉。",
+      "confidence": "中",
+      "confidence_reason": "三系统同步比较和一致性指标明确；样本为健康成人，未覆盖精英运动员或临床人群。",
+      "source": {
+        "label": "Computer Methods in Biomechanics and Biomedical Engineering",
+        "url": "https://doi.org/10.1080/10255842.2026.2767660"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261128-ultramarathon-durability",
+      "domain": "运动科学",
+      "title": "From Maximal Capacity to Physiological Durability: Determinants of Ultramarathon Performance",
+      "short_title": "超马评估从能力上限转向生理耐久性",
+      "priority": "值得了解",
+      "one_liner": "概念综述提出，超长距离表现更应评估随时间维持代谢、神经肌肉、热调节和自主神经功能的能力，而非只看VO₂max等静态上限。",
+      "what": "综述整合代谢、神经肌肉疲劳、热调节、心血管—自主神经、知觉调节与现场监测证据，提出‘生态生理耐久性’框架：当比赛持续时间极长且强度远低于最大水平时，运动员差异更多来自功能下降的速率与模式，而非单次实验室峰值。",
+      "why": "该框架解释了实验室能力相近的运动员在超马中仍会出现巨大差异，并把耐久性从抽象概念转成可通过重复测试、比赛特异训练和可穿戴监控观察的时间变量。",
+      "practice": "超长耐力评估可在长时程任务前后重复测量跑步经济性、力量/跳跃、心率反应和主观用力，关注衰减曲线；训练设计应复制补给、热环境与下坡等真实约束。",
+      "evidence": "同行评审概念综述；整合多系统机制与现场研究，未进行新的定量荟萃分析。",
+      "confidence": "中",
+      "confidence_reason": "框架有广泛生理依据并给出可操作测量方向；具体阈值与预测效度仍需前瞻验证。",
+      "source": {
+        "label": "Sports Medicine - Open",
+        "url": "https://doi.org/10.1186/s40798-026-01158-y"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261128-brain-strain-compression",
+      "domain": "运动科学",
+      "title": "Clustering Templates: A Data-Driven Framework for Dimensionality Reduction and Compression of Brain Strain in Head Impact",
+      "short_title": "头部冲击脑应变数据可压缩逾200倍",
+      "priority": "值得了解",
+      "one_liner": "对3693次冲击、118840个脑单元的模拟显示，512簇模板可实现超过200:1压缩，同时将峰值主应变RMSE控制在0.027。",
+      "what": "研究以THUMS头部有限元模型的3693次冲击模拟为基础，对118840个脑单元的最大主应变时间曲线进行K-means聚类。512簇模板实现超过200:1压缩，平均单元峰值应变RMSE为0.027；4096簇在30:1压缩下将RMSE降至0.016。",
+      "why": "高维脑应变数据是头部冲击研究和机器学习建模的现实瓶颈。该方法保留时空模式的同时显著降低存储与计算量，为大规模冲击数据分析提供了可量化的折中。",
+      "practice": "研究团队可把簇数作为精度—资源旋钮，并在自己的头模、冲击类型和关键结局上重新校准误差；压缩模板适合数据工程，不应被当作新的损伤阈值。",
+      "evidence": "同行评审计算生物力学研究；THUMS有限元模型，3693次模拟，118840个脑单元。",
+      "confidence": "中",
+      "confidence_reason": "数据规模大且报告了压缩—误差关系；结果仍来自单一有限元模型与模拟数据。",
+      "source": {
+        "label": "Annals of Biomedical Engineering",
+        "url": "https://doi.org/10.1007/s10439-026-04456-4"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261128-myoglobin-metabolism",
+      "domain": "运动科学",
+      "title": "Myoglobin-dependent regulation of mitochondrial bioenergetics and glucose metabolism in murine C2C12 skeletal muscle myotubes",
+      "short_title": "肌红蛋白参与肌细胞燃料利用调节",
+      "priority": "快讯",
+      "one_liner": "C2C12细胞实验中，肌红蛋白敲除使总ATP生成下降约35%，提示其作用不止于储氧；该效应在本模型中看起来与乳酸无关。",
+      "what": "研究比较肌红蛋白野生型、敲除与空载体C2C12肌管在1.8–8.0 mM乳酸、3–24小时暴露下的代谢。敲除组24小时葡萄糖摄取更高，但6和24小时总ATP生成均低约35%，主要来自糖酵解ATP下降约26%–31%；作者判断肌红蛋白对代谢的影响在该细胞模型中并不依赖乳酸。",
+      "why": "结果扩展了肌红蛋白的角色：它可能参与燃料转运、糖酵解—氧化代谢分配和线粒体功能，而不仅是氧结合蛋白。",
+      "practice": "这项工作更适合用于形成运动代谢机制假设和后续体内实验设计；目前不能据此调整训练、补乳酸或营养方案。",
+      "evidence": "同行评审体外机制研究；小鼠C2C12肌管，肌红蛋白敲除/野生型比较。",
+      "confidence": "低",
+      "confidence_reason": "基因型与代谢测量支持机制线索；细胞模型与长时间乳酸暴露不能直接代表人体运动反应。",
+      "source": {
+        "label": "Experimental Physiology",
+        "url": "https://doi.org/10.1113/EP094058"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261128-ckd-exercise-rehab",
+      "domain": "运动健康",
+      "title": "Multidisciplinary exercise rehabilitation program for patients with stage 3-4 chronic kidney disease in China: a randomized controlled trial",
+      "short_title": "多学科运动康复改善CKD功能与自我效能",
+      "priority": "重点关注",
+      "one_liner": "109名3–4期慢性肾病患者的12周试验中，干预组相对对照组握力提高7.28 kg，并改善白蛋白、自我效能与生活质量。",
+      "what": "中国单中心试验纳入109名3–4期慢性肾病患者，标准治疗外增加12周门诊多学科运动康复，包括个体评估、健康教育、咨询和随访。相对对照组，干预组12周握力增加7.281 kg（95%CI 4.117–10.445），BMI下降2.561 kg/m²；白蛋白、自我效能和生活质量改善，eGFR差异仅在12周出现。",
+      "why": "这不是单一动作处方，而是把评估、教育、个体化和随访组成可实施的服务路径；功能与依从相关结局的同步改善具有现实临床价值。",
+      "practice": "肾脏康复可优先建立12周结构化门诊路径，用握力、功能、营养和生活质量共同评估；eGFR变化应作为探索性结果，不应替代安全监测和肾病标准治疗。",
+      "evidence": "同行评审单中心随机对照试验；中国3–4期CKD患者n=109，12周多学科运动康复。",
+      "confidence": "中",
+      "confidence_reason": "有对照、样本量适中且功能效应明确；摘要所述分组按门诊顺序实施，随机化与分配隐藏细节影响内部效度。",
+      "source": {
+        "label": "Kidney and Blood Pressure Research",
+        "url": "https://doi.org/10.1159/nef/adtag017"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261128-als-exercise-meta",
+      "domain": "运动健康",
+      "title": "Physical exercise interventions for people with amyotrophic lateral sclerosis: a systematic review with meta-analysis",
+      "short_title": "ALS运动干预安全性尚可，特定疗效未确立",
+      "priority": "值得了解",
+      "one_liner": "15项随机试验、595人显示依从率82%且不良事件相当，但阻力、有氧、并行和呼吸训练均未证实显著功能优势。",
+      "what": "系统综述纳入15项随机试验、595名肌萎缩侧索硬化患者。阻力训练、有氧训练和并行训练对功能能力的合并效应均不显著，呼吸训练也未显著改善吸气压；总体依从率82%，不良事件与对照相当。",
+      "why": "结果把安全可行与临床有效明确分开：现有证据支持患者能够参与运动，但没有足够依据宣称某一种模式可以稳定改善功能。",
+      "practice": "ALS运动处方应围绕维持活动、症状耐受和个体目标设置，持续记录功能与疲劳；不要用‘安全’替代疗效证据，也不要为追求特定模式增加不必要负担。",
+      "evidence": "同行评审系统综述与荟萃分析；15项随机对照试验，n=595，证据异质性大且确定性低。",
+      "confidence": "中",
+      "confidence_reason": "系统检索和分模式分析完整；样本分散、异质性与低确定性使疗效结论只能停留在未证实。",
+      "source": {
+        "label": "Disability and Rehabilitation",
+        "url": "https://doi.org/10.1080/17582024.2026.2767799"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261128-ms-vr-aerobic-rct",
+      "domain": "运动健康",
+      "title": "Augmenting Conventional Rehabilitation with Virtual Reality or Aerobic Exercise in Multiple Sclerosis: A Three-Arm Parallel-Group Superiority Randomized Controlled Trial",
+      "short_title": "VR或有氧加做未优于常规MS康复",
+      "priority": "值得了解",
+      "one_liner": "30名多发性硬化患者的三组试验中，VR或有氧训练加入常规康复后，主要结局和大多数次要结局均无组间优势。",
+      "what": "30名多发性硬化患者随机接受6周常规康复、常规康复加有氧训练或加虚拟现实训练。主要结局MAM-36没有显著组别×时间交互（η²p=0.099），大多数次要结局也无组间差异；三组的手部能力、疲劳和认知均出现组内改善。",
+      "why": "研究直接回答‘加一个技术是否带来额外收益’：组内变好不能证明附加方案优于常规康复。VR组部分探索性手部指标效应较大，但没有改变主要结论。",
+      "practice": "若资源有限，先保证常规康复剂量与持续性；VR或有氧可按目标、偏好和可及性作为替代或补充，但不应把设备投入建立在已证实优效的假设上。",
+      "evidence": "同行评审单盲三臂随机对照试验；多发性硬化患者n=30，6周、30次训练。",
+      "confidence": "中",
+      "confidence_reason": "随机三组设计直接比较附加价值；样本小，无法排除中等幅度的真实差异。",
+      "source": {
+        "label": "Neurorehabilitation and Neural Repair",
+        "url": "https://doi.org/10.1177/10538135261509398"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261128-osteosarcoma-digital-rehab",
+      "domain": "运动健康",
+      "title": "Effects of Digital Therapy-Based Rehabilitation Exercise on Adolescent Patients Following Lower-Extremity Osteosarcoma Surgery",
+      "short_title": "数字随访提高骨肉瘤术后早期康复执行",
+      "priority": "快讯",
+      "one_liner": "60名青少年术后患者中，电子手册、分阶段视频、提醒打卡和每周随访改善1个月内膝功能、自我效能与依从性，但疼痛无组间差异。",
+      "what": "60名下肢骨肉瘤术后青少年随机接受常规康复指导，或增加医院随访平台上的电子手册、分阶段动作视频、每日提醒打卡和每周在线随访。干预组在术后7天和1个月的膝功能、自我效能与运动依从性更好，疼痛评分没有显著组间差异。",
+      "why": "结果提示数字化的有效部分可能是把教育、提醒与随访嵌入早期康复，而不是新的治疗动作；功能与执行改善也没有自动转化为更低疼痛。",
+      "practice": "术后早期数字康复可围绕分阶段任务、完成记录和人工随访设计，并把功能、依从性与疼痛分开评估；该研究仅覆盖术后1个月。",
+      "evidence": "同行评审随机对照试验；下肢骨肉瘤术后青少年n=60，随访1个月。",
+      "confidence": "中",
+      "confidence_reason": "对照设计和结局方向一致；单中心、短期随访且多组件干预无法识别哪个组件起主要作用。",
+      "source": {
+        "label": "Journal of Pediatric Oncology Nursing",
+        "url": "https://doi.org/10.1177/01939459261507788"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261128-trainium3-ltx-video",
+      "domain": "AI",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "short_title": "LTX-2.5在Trainium3上实现22–23秒生成",
+      "priority": "重点关注",
+      "one_liner": "工程实测把10秒有声视频生成从首次5分20秒优化到22–23秒，同时分辨率提高到2048×1024，关键收益来自张量/序列并行和主机侧瓶颈修复。",
+      "what": "Hugging Face工程团队在AWS trn3.48xlarge上运行LTX-2.5。首次可运行方案用4个NeuronCore生成10秒960×544视频需5分20秒；五天后以32个核心生成2048×1024有声视频降至22–23秒。优化包括张量与序列并行、参数缓冲打包、注意力形状调整、设备端解码和CPU线程绑定。",
+      "why": "案例表明加速器适配的主要工作不只是模型算子：主机编码曾占约205秒、解码曾占357秒。端到端剖析比单看设备峰值更能决定实际吞吐。",
+      "practice": "迁移生成模型到新硬件时，按加载、文本编码、扩散步骤、解码和进程通信分别计时；先对CPU参考实现核验数值，再逐层引入并行与低精度，并保留可复现配置。",
+      "evidence": "官方工程技术报告与单机实测；AWS Trainium3、LTX-2.5，公开优化步骤与若干上游issue，非独立基准。",
+      "confidence": "中",
+      "confidence_reason": "端到端数字、配置和故障过程具体；结果来自单一团队、单一实例，外部复现尚缺。",
+      "source": {
+        "label": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/video-trainium3"
+      },
+      "limit": ""
+    },
+    {
+      "id": "j-20261128-lingbot-map2",
+      "domain": "AI",
+      "title": "LingBot-Map 2.0: Geometric Streaming Base Model",
+      "short_title": "LingBot-Map 2.0开放因果流式3D重建代码",
+      "priority": "值得了解",
+      "one_liner": "Robbyant公开在线RGB序列到相机位姿、深度与置信度的因果流式重建代码、评测流程和模型资源，重点面向机器人长时空间记忆。",
+      "what": "Robbyant发布LingBot-Map 2.0几何流式基础模型仓库，提供逐帧RGB输入下的相机位姿、内参、深度和置信度输出，支持滑动窗口、关键帧选择、断点清单和3D可视化；仓库列出KITTI、EuRoC、Oxford Spires等轨迹与重建评测流程，并采用CC BY-NC 4.0许可。",
+      "why": "对具身系统而言，价值不只在单帧几何质量，而在长期流式运行时能否管理误差、状态和输出。开放推理与评测路径使团队可以在自己的传感器序列上检查漂移与资源需求。",
+      "practice": "机器人或运动场景团队可先用自有长序列复现轨迹误差、深度稳定性和重定位失败；许可为非商业，且官方性能主张应在目标硬件和场景中独立验证。",
+      "evidence": "官方开源发布与技术仓库；提供代码、配置、评测说明和模型资源，技术报告状态，未见独立复现。",
+      "confidence": "中",
+      "confidence_reason": "发布物和接口可直接检查；对外性能数据主要来自团队自评，商业使用受许可限制。",
+      "source": {
+        "label": "Robbyant / GitHub",
+        "url": "https://github.com/Robbyant/lingbot-map-v2"
+      },
+      "limit": ""
+    }
+  ],
+  "professional_judgment": [
+    "今天最值得更新的认识是：监控工具的首要问题不是‘能否测出一个数’，而是同一任务中能否稳定追踪变化。IMU结果支持固定系统做纵向监控，却不支持跨设备直接沿用阈值。",
+    "康复中的附加技术需要用组间差异证明价值。多发性硬化试验里三组都改善，但VR和有氧加做没有显示主要结局优势；采购与处方应回到目标、剂量、依从性和资源成本。",
+    "AI工程优化应先画出端到端时间账本。Trainium3案例中，主机编码与解码最初比设备计算更慢；只有把模型、运行时和数据通路一起优化，硬件峰值才会变成真实工作流收益。"
+  ],
+  "trends_url": "data/trends/2026-11-28.json"
+}

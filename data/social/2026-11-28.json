@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "date": "2026-11-28",
+  "observed_at": "2026-11-28T08:00:00+08:00",
+  "title": "每日专业资讯简报｜社媒热点｜2026-11-28",
+  "summary": {
+    "total": 6,
+    "counts": {
+      "运动科学": 1,
+      "运动健康": 0,
+      "AI": 5
+    },
+    "signal": "今天最有实践价值的讨论是：无论赛后力量训练还是多Agent性能优化，先把目标、约束、验证和恢复窗口写成可检查的实验合同，才可能区分可复制方法与吸引眼球的结果。"
+  },
+  "navigation": {
+    "prev": "2026-11-27",
+    "next": null
+  },
+  "section_notes": {
+    "运动科学": "本板块重点：赛后立刻力量训练是一种负荷合并假说，是否有价值取决于可完成剂量和随后48–72小时恢复，而不是时间点本身。",
+    "AI": "本板块重点：Agent与本地推理的讨论正从演示转向可搜索记录、严格验证、资源预算和数据权利。"
+  },
+  "items": [
+    {
+      "id": "s-20261128-post-match-lifting",
+      "domain": "运动科学",
+      "title": "Lifting Weights After A Match?",
+      "short_title": "赛后立刻力量训练的核心是负荷合并",
+      "priority": "值得了解",
+      "one_liner": "Mike McGurn提出把比赛与力量刺激叠在同一天，以保留随后48–72小时恢复；关键未知是赛后能否完成有效剂量且不延长疲劳。",
+      "what": "Science for Sport整理了Mike McGurn关于职业足球拥挤赛程的做法：比赛后立即安排下肢力量训练，把两类高负荷合并在同一天，避免MD+1或MD+2再次打断恢复。文章同时明确提出三个未决问题：赛后输出是否足够、附加负荷是否延长恢复、该策略更适合维持还是发展力量。",
+      "why": "这是一种日程与恢复窗口的重新分配，不是已被证实更优的固定处方。其价值在于迫使团队比较两种安排对实际训练质量和后续准备度的影响。",
+      "practice": "若试用，先限定低量、高质量的维持剂量，并记录赛后完成度、MD+1至MD+3神经肌肉指标和下一场准备度；用队内交叉周期比较，而不是一次赛后体验决定常规。",
+      "evidence": "实践者观点的二次整理，原页标注2026-11-23更新；提出机制与实施问题，未提供新的对照试验。",
+      "confidence": "低",
+      "confidence_reason": "负荷合并逻辑可检验，但当前内容是教练观点，没有直接效果数据。",
+      "source": {
+        "label": "Science for Sport",
+        "url": "https://www.scienceforsport.com/lifting-weights-after-a-match"
+      },
+      "limit": "",
+      "author": "Eric Curry / Mike McGurn / Science for Sport",
+      "platform": "博客 / 社媒观点整理",
+      "published_date": "2026-11-23"
+    },
+    {
+      "id": "s-20261128-training-data-market",
+      "domain": "AI",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "short_title": "训练数据价值转向任务与可验证反馈",
+      "priority": "值得了解",
+      "one_liner": "Latent Space与G2i讨论的核心不是数据规模，而是能否把真实专业工作拆成有权利来源、可评估、能产生学习信号的任务。",
+      "what": "Latent Space访谈G2i负责人Gabe Greenberg，聚焦前沿模型的专家数据与评测供应链。讨论把专业工作转成任务、招募和校准专家、质量审核以及训练数据采购中的权利与交付问题；节目属于供应商一手经验，不是市场规模的独立审计。",
+      "why": "模型可以大量生成文本，却仍难以生成可靠的专业判断和可验证任务。数据项目真正稀缺的是明确任务、有效评分和合法使用权，而不是原始文档数量。",
+      "practice": "建设专业数据集时，先定义任务成功标准、专家一致性、错误类型和使用授权；把标注成本按通过质量门槛的样本计算，而不是按提交量计算。",
+      "evidence": "行业播客访谈，2026-11-27发布；数据供应商负责人一手经验，商业与规模主张未独立核验。",
+      "confidence": "中",
+      "confidence_reason": "工作流与质量控制经验具体；市场数字和供应商成效存在自述偏差。",
+      "source": {
+        "label": "Latent Space",
+        "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i"
+      },
+      "limit": "",
+      "author": "Latent Space / Gabe Greenberg",
+      "platform": "播客 / 通讯",
+      "published_date": "2026-11-27"
+    },
+    {
+      "id": "s-20261128-sessiongraph",
+      "domain": "AI",
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "short_title": "本地统一检索多种编码Agent会话",
+      "priority": "值得了解",
+      "one_liner": "SessionGraph把Codex、Claude Code、Cursor、Gemini CLI等会话在本地索引，并通过桌面图、MCP和REST接口重新进入旧任务。",
+      "what": "SessionGraph发布本地桌面工具，读取不同编码Agent的会话存储，统一建立可搜索索引并展示分支图和时间线。官方页面列出Codex、Claude Code、Cursor、Gemini CLI、Copilot CLI等多种来源，并提供MCP搜索工具和REST API；数据处理声明在本地完成。",
+      "why": "多Agent工作流的隐性成本是上下文散落在各自客户端。把历史会话作为可检索资产，可以减少重复调查，并让新Agent查到此前决策。",
+      "practice": "可先在非敏感项目试用，检查各工具覆盖、索引准确性和本地存储权限；真正复用时还应把关键结论沉淀到版本库或正式文档，避免把会话图当作唯一知识库。",
+      "evidence": "开源工具发布与官方功能页，2026-11-27进入Hacker News讨论；功能可检查，长期稳定性和隐私实现尚缺独立审计。",
+      "confidence": "中",
+      "confidence_reason": "支持列表、接口和本地运行方式公开；实际兼容性随各Agent存储格式变化。",
+      "source": {
+        "label": "SessionGraph",
+        "url": "https://sessiongraph.ai/"
+      },
+      "limit": "",
+      "author": "SessionGraph / Hacker News",
+      "platform": "开源工具 / 社区",
+      "published_date": "2026-11-27"
+    },
+    {
+      "id": "s-20261128-inkling-gb10-vllm",
+      "domain": "AI",
+      "title": "Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+      "short_title": "单GB10上的本地推理优化给出完整资源账本",
+      "priority": "重点关注",
+      "one_liner": "独立实测在保留131k上下文且仅用36%显存时实现单请求101 tok/s、四并发195.7 tok/s，并把启动时间从257秒降到42秒。",
+      "what": "作者在单台GB10上调优Inkling 2 Mini的vLLM部署：单请求101 tok/s，四并发合计195.7 tok/s，32K提示首token 9.7秒；模型占36%显存，同时保留另一模型。优化包括缩小批token、持久编译缓存、DFlash2草稿模型、FP8 KV cache与自适应验证宽度。日常提示几何平均速度相对调优前提高43%–45%。",
+      "why": "这比单一峰值更有用，因为同时披露上下文长度、显存份额、并发、启动、prefill和实际提示；也显示同一优化对推理、写作和并发负载的收益不同。",
+      "practice": "本地部署应分别基准单请求、并发、长上下文首token和真实工作负载，并记录精度路径；复用该配置前需锁定补丁版本，因为多项收益依赖未合并的vLLM改动。",
+      "evidence": "个人工程实测与可复现配置，2026-11-27发布；包含多次A/B与同硬件外部对照，但非标准化独立实验室测试。",
+      "confidence": "中",
+      "confidence_reason": "配置、负载和重复结果披露充分；部分比较使用不同引擎与精度路径。",
+      "source": {
+        "label": "Runtime Notes",
+        "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10"
+      },
+      "limit": "",
+      "author": "Anand D N / Runtime Notes",
+      "platform": "个人技术博客 / Hacker News",
+      "published_date": "2026-11-27"
+    },
+    {
+      "id": "s-20261128-agent-clickbench",
+      "domain": "AI",
+      "title": "20 AI agents optimize Quickwit in 350 experiments, beating the best public ClickBench result",
+      "short_title": "20个Agent用验证分工优化Quickwit",
+      "priority": "重点关注",
+      "one_liner": "团队称20个Agent四天完成约350次实验，保留6项优化，将40个热查询总时长从40.5秒降至27.9秒；一项虽通过测试但改变语义的快方案被否决。",
+      "what": "TabbyML公开多Agent系统工程案例：调查Agent寻找瓶颈，Lead检查方案是否泛化，验证Agent在隔离环境运行单测、微基准和全量性能测试。约350次实验后仅6项进入最终组合，ClickBench 40个热查询总时长由40.5秒降至27.9秒，几何均值由403 ms降至304 ms。团队还展示了通过现有测试但改变IP排序语义的方案被拒绝。",
+      "why": "真正可迁移的部分不是‘20个Agent’这个数字，而是角色分离、实验合同、正确性门槛和失败知识共享。性能优化若只追基准，很容易得到更快但错误的实现。",
+      "practice": "把Agent实验写成包含性能目标、正确性、不兼容变化和内存上限的合同；每个候选改动独立运行全量回归，并要求人类或独立验证Agent检查语义。",
+      "evidence": "团队工程案例与中文技术报道，2026-11-27引发讨论；性能数字为团队自测，尚无独立复现。",
+      "confidence": "中",
+      "confidence_reason": "实验数量、筛选过程和反例具体；最终成绩仍来自实施团队，外部可重复性未知。",
+      "source": {
+        "label": "量子位",
+        "url": "https://www.qbitai.com/2026/11/513163.html"
+      },
+      "limit": "",
+      "author": "TabbyML / 量子位",
+      "platform": "团队案例 / 中文科技媒体",
+      "published_date": "2026-11-27",
+      "references": [
+        {
+          "label": "ClickBench公开基准",
+          "url": "https://benchmark.clickhouse.com/"
+        }
+      ]
+    },
+    {
+      "id": "s-20261128-hy3d36",
+      "domain": "AI",
+      "title": "Tencent Hunyuan Hy3D 3.6 for professional 3D asset generation",
+      "short_title": "Hy3D 3.6把生成结果接入专业3D资产链",
+      "priority": "快讯",
+      "one_liner": "腾讯混元发布Hy3D 3.6，主打高模、PBR材质与API接入；目前公开信息以厂商功能说明为主，缺少独立质量和成本比较。",
+      "what": "腾讯混元在11月27日发布Hy3D 3.6，称模型在训练中联合学习几何、纹理和材质，使用统一稀疏潜表示与DiT生成，并通过SFT和偏好优化改善结果。产品已通过腾讯云Token Hub提供API，并接入Miora、LAP和WorkRally等创作工具。",
+      "why": "重要变化是从展示单个3D样例转向PBR贴图、API和下游平台连接，目标是让结果继续进入艺术家与技术美术的编辑流程。",
+      "practice": "评估时用真实角色、服装和复杂道具任务比较拓扑、材质一致性、返工时间、导出格式与单资产成本；在没有独立基准前，不把厂商视觉样例等同于生产可用率。",
+      "evidence": "厂商产品发布与中文科技媒体报道，2026-11-27；功能和接入已公开，质量提升主要为厂商主张。",
+      "confidence": "中",
+      "confidence_reason": "版本、API与接入平台可核实；未见独立基准或盲评。",
+      "source": {
+        "label": "腾讯混元 / IT之家",
+        "url": "https://www.ithome.com/1/033/282.htm"
+      },
+      "limit": "",
+      "author": "腾讯混元 / IT之家",
+      "platform": "官方发布 / 中文科技媒体",
+      "published_date": "2026-11-27"
+    }
+  ],
+  "professional_judgment": [
+    "今天的社媒内容共同指向一个可执行原则：把争论改写成实验合同。赛后力量训练要事先定义剂量与恢复结局，多Agent优化要事先定义正确性和资源约束，本地推理则要同时报告并发、上下文、显存和首token。",
+    "AI工作流的下一项基础设施不是更多聊天窗口，而是可检索、可迁移的工作记录。SessionGraph代表了这一需求，但关键决策仍应进入版本库和正式文档，避免知识只存在于某个工具的私有会话格式。"
+  ],
+  "trends_url": "data/social/trends/2026-11-28.json"
+}
